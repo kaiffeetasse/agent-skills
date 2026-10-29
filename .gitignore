@@ -1,0 +1,8 @@
+# Persönliche Daten und Zugangsdaten bleiben lokal
+betroffene-daten.md
+*.local.md
+.env
+.env.*
+*.pdf
+*.key
+*.pem
