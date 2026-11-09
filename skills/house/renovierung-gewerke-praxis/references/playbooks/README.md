@@ -69,7 +69,7 @@ Preisbasis netto/brutto) stehen offen statt gemittelt.
 
 ## Prüfstand
 
-Alle Playbooks werden gegen **130 Fehler aus zehn Top-Fehler-Videos** geprüft
+Alle Playbooks werden gegen **157 Fehler aus 15 Top-Fehler-Videos** geprüft
 (`../transkripte/`, `../fehlerkatalog.json`, `../../scripts/fehlercheck.py`):
 
 ```
@@ -78,12 +78,17 @@ python3 scripts/fehlercheck.py --gaps   # Lücken je Playbook
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle
 ```
 
-Stand 09.11.2026 (nach Durchlauf 3): **128 von 128 bewerteten Fehlern stehen mit allen Katalogbegriffen
-im Text (100 %)**, 0 teilweise, 0 ohne Abdeckung; 2 Anekdoten sind begründet ausgenommen.
-Negativkontrolle: entfernt man ein Playbook, fällt die Quote auf 80 % (hausbau), 89 % (dämmung) bzw.
-87 % (fliesen) — der Test unterscheidet also noch.
+Stand 09.11.2026 (nach Durchlauf 4): von **157 bewerteten Fehlern stehen 134 mit allen Katalogbegriffen
+im Text (85 %)**, 13 teilweise, 10 ohne Abdeckung; 2 Anekdoten sind begründet ausgenommen. Die Quote ist
+absichtlich von 100 % gefallen: 29 Fehler stammen aus fünf am 09.11.2026 ergänzten Videos zu Wärmepumpe
+im Altbau, Speichergröße, Wechselrichterauslegung und Elektrik im 70er-Bestand — davon deckt der Text
+sechs, 23 sind die Arbeitsliste (`--gaps`). Eine Quote von 100 % auf einem Katalog, der die eigenen
+Playbooks nur bestätigt, prüft nichts.
+Negativkontrolle: entfernt man ein Playbook, fällt die Quote auf 79 % (estrich), 69 % (hausbau) bzw.
+83 % (waermepumpe) — der Test unterscheidet also noch. Die Ablation wird mit wachsendem Katalog
+schwächer; für die neuen Themen ist `--gaps` je Playbook die aussagekräftigere Zahl.
 
-**Was 100 % hier heißt und was nicht:** gemessen wird, ob die im Katalog definierten Regeln im zuständigen
+**Was 85 % hier heißt und was nicht:** gemessen wird, ob die im Katalog definierten Regeln im zuständigen
 Text stehen — nicht, ob die Antwort gut ist. Zwei Playbooks wurden neu geschrieben und hatten dabei ihre
 Video-Fehler verloren; sie sind wieder drin, weil sie echte Regeln sind. Qualität messen der Kalt/Warm-Test
 (`references/tests/kalt-warm-2026-11-09.md`) und der Strukturcheck — nicht diese Zahl.

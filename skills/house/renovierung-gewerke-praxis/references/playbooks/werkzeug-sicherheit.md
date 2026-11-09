@@ -563,6 +563,12 @@ musst du eine Fachfirma rufen". https://www.youtube.com/watch?v=No_fcwjUduY
 
 ---
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Keine zweckentfremdeten Maschinenkombinationen**: Kreissäge plus Akkuschrauber als Vorschub ist eine
+  der häufigsten Ursachen für Handverletzungen. Vorschub nur mit dem dafür gebauten Werkzeug oder dem
+  mitgelieferten Schiebestock — Herstellerangabe beachten, nicht „geht auch".
+
 ## 9. Offen / nicht belegt
 
 - **Boels- und Zeppelin-Tagespreise** sind ohne Filialauswahl bzw. ohne Unternehmerkonto nicht öffentlich abrufbar.

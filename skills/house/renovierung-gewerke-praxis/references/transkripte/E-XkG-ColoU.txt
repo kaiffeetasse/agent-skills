@@ -1,0 +1,71 @@
+[00:00:03] Zwei Betriebe, dasselbe Haus, 6 und 12 kW. kW. kW. Solche Spannen sieht die Verbraucherzentrale Saarland regelmäßig. Beide Mappen sehen sauber aus. Nur eine Zahl stimmt. Die falsche kostet dich 20 Jahre lang Geld. Und seit dem 29. Juli 2026 2026 2026 muss der Betrieb nicht einmal mehr erklären, wie er darauf kommt. Sieben Lücken stecken in fast jedem Wärmepumpenangebot für den Altbau. Keine
+
+[00:00:26] davon taucht in der Mappe auf. Punkt 1: Die Heizlast. Einer hat gerechnet, einer hat geschätzt. Doch wie erkennst du den Unterschied in deinen Unterlagen? Die Heizlast ist die maximale Wärmeleistung, die dein Haus am kältesten Tag des Jahres benötigt. Sie hat nichts mit dem jährlichen Energieverbrauch zu tun. Für eine verlässliche Planung verlangt die DIN EN
+
+[00:00:49] 12831 12831 12831 eine raumweise Berechnung. Dabei fließen die U-Werte deiner Außenwände, die Fensterflächen, der Luftwechsel und die Normaußentemperatur deines Wohnorts zusammen. Oft rechnen Betriebe einfach mit einer alten Faustformel wie 100 W/m². W/m². W/m². Bei einer Wohnfläche von 160 m² ergibt das glatte 16 kW.
+
+[00:01:12] Das klingt einfach, ignoriert aber deinen tatsächlichen Dämmzustand komplett. Wenn die Wärmepumpe zu klein ist, merkst du das bei Frost im Februar. Ist sie jedoch viel zu groß, läuft sie unbemerkt ineffizient und treibt deine Stromrechnung über Jahre nach oben. Zudem trägst du alle Anschaffungskosten, die über der KfW-Obergrenze von 28.000 € liegen, ganz allein. Laut
+
+[00:01:37] dem Leitfaden des Bundesverbands Wärmepumpe von November 2025 reagieren diese Systeme extrem empfindlich auf falsche Dimensionierung. Das ist meistens keine Absicht deines Handwerkers. Oft fließen vertraute Markenschulungen und lagernde Ersatzteile in die Empfehlung ein. Eine normgerechte Auslegung dauert etwa einen halben halben
+
+[00:01:58] halben der in einem schnellen Erstangebot selten bezahlt wird. Doch genau dieser Betrieb übernimmt später alle Rollen als Verkäufer, Ausleger, Abgleicher und Kundendienst. Kundendienst. Kundendienst. Punkt zwei. Warum steht auf deinem alten Heizkessel eigentlich eine Leistung von 24 kW, 24 kW, 24 kW, obwohl dein Haus heute viel weniger Wärme benötigt? Vielleicht kennst du diesen Satz aus dem Verkaufsgespräch.
+
+[00:02:20] Sie hatten bisher 24, also nehmen wir jetzt 18 kW. Das ist ein teurer Trugschluss, der dich im Betrieb viel Geld kosten kann. Der Wert auf dem staubigen Typenschild ist eine historische Geräteziffer, kein Beleg für deinen heutigen Wärmebedarf. Bei der früheren Installation wurden standardmäßig üppige standardmäßig üppige standardmäßig üppige Sicherheitszuschläge von 10 bis 15 % aufgeschlagen. Ein alter Gaskessel
+
+[00:02:44] konnte diese Überdimensionierung durch häufiges Abriegeln leicht verstecken. [musik] Eine Wärmepumpe reagiert jedoch extrem empfindlich auf unpassende Leistungswerte und fängt dann an zu takten. Hast du in der Zwischenzeit neue Fenster eingebaut oder das Dach gedämmt? Solche Sanierungen verändern die energetische Bilanz deines Hauses komplett, weil sie die Transmissionsverluste oft um 30 bis 40 % reduzieren. Die Verbraucherzentrale
+
+[00:03:08] Bayern bestätigt, dass das Typenschild des alten Kessels deshalb kein verlässlicher Auslegungsnachweis für die heutige Situation ist. Das Handbuch für den Heizungstausch im Altbau hilft dir, typische Fehler bei der Planung zu vermeiden. Du findest den direkten Zugang dazu über den Link in der Videobeschreibung oder im angepinnten Kommentar. Alternativ kannst du auch einfach den QR-Code scannen, den ich dir
+
+[00:03:30] hier auf dem Bildschirm einblende. Oft besitzen alte gusseiserne Heizkörper durch ihre großzügige Fläche reichlich Reserve. Sie wurden damals für sehr hohe Temperaturen gebaut und funktionieren heute problemlos mit einer niedrigen Vorlauftemperatur von etwa 45°. Unterm Strich spart dir das bares Geld, weil deine neue Wärmepumpe viel kleiner dimensioniert werden kann.
+
+[00:03:52] Punkt 3 betrifft das ständige Takten deiner Anlage. Jede Wärmepumpe hat eine physikalische Grenze nach unten, die sogenannte untere Modulationsgrenze. Das ist die kleinste Leistung, mit der der Verdichter im Gerät noch dauerhaft arbeiten kann. Wenn es draußen mild ist, benötigt dein Haus oft viel weniger Wärme als diese Mindestleistung. Schauen wir auf die Daten der Hersteller. Eine
+
+[00:04:15] Vaillant VWL 75/6 regelt z.B. nur bis etwa 4,6 kW herunter. Eine Stiebel Eltron 07.2 Plus schafft immerhin rund 3 kW. Liegt dein Bedarf an einem herbstlichen Tag darunter, beginnt ein ungesunder Kreislauf. Das Gerät springt an, liefert sofort zuviel Wärme, schaltet ab, kühlt aus und startet von
+
+[00:04:38] vorn. Dieses ständige Starten und Stoppen belastet den Verdichter, das teuerste Bauteil deiner Anlage. Experten der Plattform "Ballheizung" warnen, dass dieses Verhalten deinen Stromverbrauch um bis zu 20% erhöhen kann. Du kaufst die Heizung zwar einmalig, aber du betreibst sie über 20 Jahre. Am Ende entscheidet sich der wahre Preis auf deiner Stromrechnung und eben weniger im
+
+[00:05:02] Angebot selbst. Angebot selbst. Angebot selbst. Punkt 4 betrifft den Pufferspeicher, der dir im Angebot oft mit 500 oder 800 Litern als unverzichtbarer Komfortgewinn präsentiert wird. In der Praxis dient er aber häufig nur als Beruhigungspille für eine ungenaue oder fehlerhafte Anlagenplanung. Anlagenplanung. Anlagenplanung. Wassermenge soll zwar deine Laufzeiten künstlich verlängern und die Zahl der
+
+[00:05:25] schädlichen Starts reduzieren. Einen unpassenden Leistungswert der Wärmepumpe kann so ein Wassertank aber nicht korrigieren. Steht ein so großer Behälter im kühlen Keller, gibt er dauerhaft teuer bezahlte Wärme an die Umgebung ab. Bei einer einfachen Reihen-Einbindung muss die Wärme komplett durch den Speicher geführt werden, was eine höhere Vorlauftemperatur begünstigt. Rein- und
+
+[00:05:48] Paralleleinbindung sind grundlegend unterschiedliche hydraulische Konzepte mit weitreichenden Folgen für deinen Stromverbrauch. Am Ende entscheiden die tatsächliche Mindestlaufzeiten des Verdichters und die Temperaturspreizung im Betrieb über die Wirtschaftlichkeit deiner Heizung weit mehr als das bloße Volumen. Prüfe dein Angebot deshalb ganz genau und stell dem Heizungsbauer diese eine Frage, welche Mindestlaufzeit
+
+[00:06:12] sichert der Pufferspeicher und wie genau ist der hydraulisch eingebunden? Punkt 5 betrifft die Wärmeverteilung in deinem Haus, denn das Heizwasser nimmt von Natur aus immer den kürzesten oder widerstandsärmsten Weg. Das Wohnzimmer wird durch die Überversorgung viel zu warm und das Kinderzimmer unter dem Dach bleibt kalt. Als Reaktion darauf erhöhst du frustriert die Vorlauftemperatur an
+
+[00:06:36] deiner Heizung, was deine Stromrechnung extrem in die Höhe treibt. Genau das soll der hydraulische Abgleich nach Verfahren B verhindern, der im aktuellen Rahmen der Bundesförderung für effiziente Gebäude sogar zwingend vorgeschrieben ist. Als schriftlichen Nachweis verlangen die Förderstellen ein ausgefülltes VDZ-Formular. ausgefülltes VDZ-Formular.
+
+[00:06:56] ausgefülltes VDZ-Formular. Die Basis dafür ist wieder die raumweise Berechnung, die ich dir in Punkt 1 erklärt habe. Der Heizungsbauer ermittelt dabei exakte Volumenströme, nimmt die Ventilvoreinstellung am Heizkörper vor und passt die Heizkurve an. Bloßes Ventildrehen ist kein Verfahren B. Die Verbraucherzentrale beziffert die Kosten für so eine professionelle Dienstleistung auf bis zu 1200 Euro. Das
+
+[00:07:20] Spannende ist, dass eine fehlende Berechnung im Angebot sofort auffällt, wenn im Förderantrag ein unterschriebenes Formular für Verfahren B liegt. Deshalb solltest du dieses Formular unbedingt vorab als PDF-Datei von deinem Betrieb anfordern. Das fertige Dokument zeigt dir alle berechneten Volumenströme und die genauen schriftlichen Einstellwerte. Punkt 6. nicht das Baujahr entscheidet,
+
+[00:07:44] sondern die Vorlauftemperatur. Das belegt eine umfassende vierjährige Felduntersuchung des Fraunhofer Instituts für solare Energiesysteme ISE. Die Forscher haben im Rahmen des Projekts Wärmepumpen Qualitätssicherung im Bestand 77 reale Anlagen in bestehenden Gebäuden messtechnisch intensiv begleitet. Dieses Ergebnis räumt mit vielen hartnäckigen
+
+[00:08:07] Vorurteilen auf. Luft-Wasser-Wärmepumpen [musik] erreichten im realen Betrieb eine mittlere Jahresarbeitszahl von 3,4. Wahrscheinlich fragst du dich gerade, was dieser Wert im Alltag bedeutet. Ganz einfach, aus einer Kilowattstunde Strom macht die Anlage [musik] im Jahresmittel stolze 3,4 Kilowattstunden nutzbare Wärme. Erdgekoppelte Systeme schafften
+
+[00:08:30] sogar einen hervorragenden Mittelwert von 4,3. Damit lagen die Kohlendioxidemissionen im Jahr 2024 im Durchschnitt um satte 64 % unter den Werten einer modernen [musik] Erdgasheizung. Bemerkenswert ist dabei die große Streuung der gemessenen Jahresarbeitszahlen, Jahresarbeitszahlen, Jahresarbeitszahlen, die von 2,6 bis 5,4 reichte. Und jetzt halte dich fest. Diese gravierenden
+
+[00:08:54] Unterschiede hatten absolut keinen statistischen Zusammenhang mit dem Baujahr der untersuchten Häuser. Ob dein eigenes Gebäude nun aus dem Jahr 1950 oder von 1990 stammt, spielt für den tatsächlichen Wirkungsgrad der Wärmepumpe im echten Betrieb fast keine Rolle. Was stattdessen wirklich entscheidet, sind die Vorlauftemperatur, die Größe der Heizflächen und die
+
+[00:09:17] hydraulische Einbindung im Keller. Erinnerst du dich noch an die alten, schweren Gussheizkörper direkt unter den Fenstern? Früher wurden diese massiven Bauteile standardmäßig für sehr hohe Vorlauftemperaturen ausgelegt. Doch genau diese großzügige Fläche ist heute dein ganz persönlicher Vorteil, weil sie eine hervorragende Reserve für niedrigere Systemtemperaturen bietet.
+
+[00:09:40] Als goldene Faustregel gilt hierbei, jedes Grad, dass du deine Heizkurve erfolgreich absenken kannst, verbessert deine Jahresarbeitszahl im Betrieb um etwa 0,1. Das ist eine solide Orientierung für dich, mit der du die Wirtschaftlichkeit der Anlage realistisch einschätzen kannst. Punkt sieben bringt uns direkt zur aktuellen Gesetzeslage und dem wirtschaftlichen
+
+[00:10:03] Druck, den du beim Heizungskauf spürst. Am 29. Juli 2026 trat das neue Gebäudemodernisierungsgesetz Gebäudemodernisierungsgesetz Gebäudemodernisierungsgesetz in Kraft, das das [musik] bisherige Gebäudeenergiegesetz ablöst. Dieser neue Rechtsrahmen, den der Bundestag am 10. [musik] Juli 2026 beschlossen hat, wirft gewohnte Regeln über den Haufen. Wir prüfen diese
+
+[00:10:25] rechtlichen Behauptungen derzeit genau. Demnach fällt die Pflicht zur Nutzung von 65 % erneuerbarer Energien beim Heizungstausch komplett weg. Auch neue Gasheizung und Ölheizung darfst du demnach wieder sofort einbauen und selbst die Beratungspflicht fällt weg. Doch planst du vorausschauend, solltest du die sogenannte Biotreppe im Blick
+
+[00:10:47] behalten. Diese verlangt ab 2029 einen stetig steigenden Anteil grüner Gase. Konkret 10 % ab 2029, 30 % ab 2035 und 60 % ab 2040. Ein fossiles Angebot sieht für dich auf den ersten Blick einfach aus, weil der Betrieb sich Berechnung und den hydraulischen Abgleich spart. Allerdings
+
+[00:11:11] warnt das Institut der deutschen Wirtschaft in einem Szenario vor explodierenden Kosten. Demnach könnten sich die jährlichen Gasheizkosten bis 2040 bis 2040 bis 2040 nahezu verdoppeln. Das bedeutet im Modell eine jährliche Differenz von rund 1000 Euro im Vergleich zu einer modernen Wärmepumpe. Gleichzeitig geht ein Szenario des Fraunhofer Instituts davon
+
+[00:11:35] aus, dass das deutsche Gasnetz bis 2045 komplett stillgelegt wird. Setzt du heute noch auf Gas, gehst du also ein hohes finanzielles Risiko ein. Auch die finanzielle Förderung der KfW wurde zum 21. Juli 2026 angepasst. Der staatliche Zuschuss liegt weiterhin zwischen 30 und 80%. Doch die
+
+[00:11:59] Obergrenze schrumpft von 30.000 Euro auf 28.000 Euro. Außerdem können diese Fördergrenzen alle 6 Monate weiter sinken. Um böse Überraschungen beim Stromverbrauch zu vermeiden, solltest du dem Handwerker eine präzise E-Mail schreiben. Kopiere diese vier Sätze am besten direkt in deine Nachricht. Erstens, die raumweise
+
+[00:12:21] Heizlastberechnung nach DIN EN 12831 als PDF. Zweitens, auf welche Vorlauftemperatur die Anlage ausgelegt ist und welche Heizkörper dafür nicht reichen. Drittens, welche Mindestlaufzeit der Pufferspeicher sichert und wie er in die eingebunden ist. Viertens, wer das VDZ-Formular für Verfahren B unterschreibt und wann die
+
+[00:12:45] Einstellwerte kommen. Während du auf die Rückmeldung wartest, hilft dir ein einfacher Selbsttest. Der Test mit 55° an einem kalten Tag liefert dir eine hervorragende Orientierung. Stelle deine Heizung auf 55° ein und öffne alle Ventile vollständig. Erreichen deine Räume die gewünschte Temperatur, läuft dein Haus im Bereich der optimalen
+
+[00:13:07] Fraunhofer-Werte. Bleibt aber ein Raum kalt, siehst du sofort, welcher Heizkörper zu klein ist. Diesen auszutauschen kostet nur einige hundert Euro, verglichen mit den enormen Kosten einer Vollsanierung. Der Test ersetzt zwar keine Berechnung nach DIN EN [musik] [musik] [musik] 12831, 12831, 12831, aber er nimmt dir die Unsicherheit vor dem Kauf. Abonniere jetzt diesen Kanal,
+
+[00:13:31] um auch bei zukünftigen Sanierungsprojekten immer die besten Entscheidungen für dein Haus zu treffen. Die Angebote liegen jetzt vor dir auf dem Tisch. Ob deine Heizung in den nächsten 20 Jahren effizient läuft oder dein Geld verbrennt, entscheidet sich genau jetzt vor deiner Unterschrift. Dein Haus ist bereit für die Zukunft. Du musst nur die Zahlen einfordern, die das auch beweisen.

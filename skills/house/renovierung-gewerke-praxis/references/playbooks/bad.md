@@ -640,6 +640,16 @@ vorher (TRGS 519), Bindung auch für Privatpersonen.
 - **Abdichtbahn bzw. Abdichtfließ** als Alternative zur Flüssigabdichtung, wenn die Fläche es verlangt (zR7LyRq3G7Q-03).
 - **Dispersionsdichtmasse** nur im zulässigen Bereich (W0-I/W1-I) — in der bodengleichen Dusche (W2-I) nicht (zR7LyRq3G7Q-05).
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Licht ist Teil der Badplanung, nicht Elektro-Nachlauf.** Belegt: **≥ 300 lx** auf der Waschtischfläche,
+  **zwei Leuchten rechts und links am Spiegel** statt einer Deckenleuchte im Rücken, **Ra ≥ 90** für
+  Hauttöne. Quelle: licht.wissen 14 (Fördergemeinschaft Gutes Licht), S. 34.
+- **HPL-Waschtisch** (Resopal, nach **EN 438**) ist die robuste Alternative zu Keramik und Mineralguss —
+  unempfindlich gegen Kratzer und Reiniger; Datenblatt prüfen, nicht Prospekt.
+- **Epoxidfugen im Bad**: chemisch beständig und dicht, aber **Weiß vergilbt unter UV-Licht** — bei
+  Tageslicht im Bad ein echter Nachteil, kein Marketingdetail (Herstellerhinweise ARDEX EG 8 plus).
+
 ## Ergänzungen aus dem Video-Katalog
 
 - **Durchlauferhitzer an zweiadriger Leitung** (2-adrig, ohne aufgelegten Schutzleiter): Gerät der

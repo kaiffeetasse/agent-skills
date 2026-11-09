@@ -390,6 +390,26 @@ Zwei weitere, die oft dazukommen: **falsche Rolle** (Billigrolle verfilzt, Lammf
 - 2,30–2,45 €/m² je mm Q4 = 1,7–1,8 kg/m² × 1,36 €/kg.
 - 0,23 €/m² Kleister = 6,90 € ÷ 30 m².
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Farbklassen nach DIN EN 13300 sind das einzige vergleichbare Maß.** Deckvermögen **DK 1–4**
+  (Klasse 1 ≥ 99,5 % Kontrastverhältnis, Klasse 4 < 95 %), Nassabrieb **NA 1–5** (NA 1 ≤ 5 µm,
+  NA 2 5–20 µm, NA 3 20–70 µm bei 200 Zyklen; NA 4/5 bei 40 Zyklen). Für Innenräume sinnvoll:
+  **DK 1 + NA 2**, stark beansprucht (Flur, Küche, Kinderzimmer) **NA 1**.
+  Quelle: https://www.dinova.de/ratgeber/din-en-13300 und
+  https://www.caparol.de/ratgeber/expertenwissen/nassabriebklassen (beide 09.11.2026 geprüft).
+  **Es gibt vier Deckvermögen-Klassen, nicht drei** — die in Videos verbreitete Aussage „3 ist die
+  schlechteste" ist falsch.
+- **Die Klassen stehen im Kleingedruckten**, nicht auf dem Deckel. „Extra deckend" ist eine Werbeaussage;
+  vergleichbar ist nur die Klassenzahl.
+- **Klebebandwahl**: für sichtbare Kanten (Zargen, Fenster, Fußleisten) dünnes Papierband („Goldband",
+  Fineline) statt Standard-Krepp; für ganze Flächen Folienklebeband mit Abdeckfolie.
+  Quelle: https://1a-malerwerkzeuge.com/ratgeber/goldband-richtig-verwenden-profi-ratgeber-fuer-scharfe-farbkanten-starken-halt/ (200)
+- **1–3 mm Abstand zur Wand** beim Abkleben lassen, damit die Anschlussfuge versiegelt werden kann und
+  nicht überklebt wird. *Erfahrungswert, nicht belegt.*
+- **Untergrund vor dem Kleben entstauben** (Fußleisten, Fensterbänke, Spinnweben) — sonst hält das Band
+  nicht und zeichnet sich unter der Farbe ab.
+
 ## Ergänzungen aus dem Video-Katalog
 
 - **Eigener Architekt bis Leistungsphase 3** statt Anbieter-Grundriss: Grundrissmaße sind Richtwerte,

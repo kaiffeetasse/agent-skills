@@ -545,3 +545,27 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 ---
 
 *Verwandte Playbooks: `heizung-lueftung.md` (Heizkörper, Vorlauf, Hydraulik), `elektro.md` (Zählerplatz, Leitungen), `daemmung.md` (Hüllfläche vor Heizungstausch), `kosten-bauzeit.md` (Angebotsvergleich, Nachträge), `entkernen-entsorgung.md` (Rückbau, Entsorgung).*
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Nicht nach Typenschild auslegen.** Der Wert auf dem alten Kessel ist eine historische Geräteziffer,
+  kein Beleg für den heutigen Wärmebedarf. Wer ihn übernimmt und dann noch einen **Sicherheitszuschlag**
+  drauflegt, kauft doppelt zu groß. Grundlage ist die raumweise Heizlast (DIN EN 12831), nicht das
+  **Typenschild**.
+- **Untere Modulationsgrenze beachten**: eine Vaillant VWL 75/6 regelt nur bis etwa **4,6 kW** herunter,
+  eine Stiebel Eltron 07.2 Plus bis rund 3 kW. Liegt der Bedarf an einem Herbsttag darunter, taktet das
+  Gerät — deshalb ist die **Modulationsgrenze** neben der Heizlast das zweite Auswahlkriterium.
+- **Reiheneinbindung** (Reihenrücklauf) und Puffervolumen sind nicht das Entscheidende: über die
+  Wirtschaftlichkeit entscheiden die tatsächliche **Mindestlaufzeit** des Verdichters und die Spreizung
+  im Betrieb. Angebot genau prüfen.
+- **Hydraulischer Abgleich nach Verfahren B** ist im BEG-Rahmen Pflicht; als Nachweis verlangen die
+  Förderstellen ein ausgefülltes **VDZ**-Formular. Basis ist die raumweise Berechnung.
+- **Reale Jahresarbeitszahl**: Luft-Wasser-Wärmepumpen erreichen im Feld im Mittel **3,4** — nicht die
+  Laborwerte aus dem Prospekt. Mit 3,4 statt 3,0 rechnet sich die Anlage besser, mit 5,0 aus dem Datenblatt
+  nie.
+- **Kein tiefes Nachtabsenken**: eine Wärmepumpe arbeitet am effizientesten im Halten der Temperatur. Kurz
+  **absenken** spart nichts, weil morgens mit schlechterem COP wieder aufgeheizt wird — der Effekt steht
+  in keinem Verhältnis zum Komfortverlust.
+- **Kostenrechnung im Video (Widerspruch, nicht gemittelt):** dort werden „mindestens **24.000 €**
+  Eigenanteil nach Förderung" bei **20 Jahren** Haltbarkeit angesetzt (= 1.000 €/Jahr). Das Rechenbeispiel
+  in diesem Playbook kommt mit **15.120 €** aus, weil andere Gerätepreise angenommen werden. Beide
+  Annahmen offenlegen, statt eine Zahl zu wählen.

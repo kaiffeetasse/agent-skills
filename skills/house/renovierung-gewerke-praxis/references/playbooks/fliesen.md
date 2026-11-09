@@ -415,6 +415,13 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Fliesen sind austauschbar**, die Substanz (Schall-, Hitzeschutz, Untergrund) nicht — bei Budgetknappheit dort sparen, nicht am Unterbau (nul-17).
 - **Kleber im Fachhandel vergleichen** (z. B. Schomburg) statt blind im Baumarkt kaufen (zR7LyRq3G7Q-10).
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Epoxidfugenmörtel ist kein Ersatz für die elastische Eckfuge.** Auch bei Epoxid verlangt der Hersteller,
+  dass **Eck- und Anschlussfugen elastisch** (Silikon) geschlossen werden — Epoxid in der Ecke reißt bei
+  Bewegung. Quelle: PCI-Durapox-TMB technisches Merkblatt (09.11.2026 geprüft, HTTP 200).
+  Damit ist die in Videos verbreitete Aussage „Epoxid ist flexibel, deshalb reicht es in der Ecke" widerlegt.
+
 ## Ergänzungen aus dem Video-Katalog (Nachtrag)
 
 - **Übergang Fliese/Parkett** bündig planen: Aufbauhöhen angleichen, Aluleiste vermeiden, sonst entsteht

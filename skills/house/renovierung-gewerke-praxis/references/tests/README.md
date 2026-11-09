@@ -70,10 +70,11 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
 
 ## Werkzeuge
 
-- `scripts/fehlercheck.py` — Abdeckung gegen den Fehlerkatalog (128 bewertete Fehler), `--gaps`, `--json`,
+- `scripts/fehlercheck.py` — Abdeckung gegen den Fehlerkatalog (157 bewertete Fehler), `--gaps`, `--json`,
   `--ablate` als Negativkontrolle.
-- `scripts/linkcheck.py` — alle URLs im Skill (736), HEAD zuerst, Retry bei 000, Klammern in Pfaden
-  balanciert; Bot-Blocker (kfw.de, landesrecht-bw.de) werden separat gezählt statt als tot gemeldet.
+- `scripts/linkcheck.py` — alle URLs im Skill (über 1.100, wächst mit jedem Playbook), HEAD zuerst, Retry bei 000, Klammern in Pfaden
+  balanciert; Bot-Blocker (kfw.de, landesrecht-bw.de) werden separat gezählt statt als tot gemeldet, und
+  Hosts mit unvollständiger Zertifikatskette (`200*` nach `curl -k`) gelten als erreichbar.
 - `scripts/strukturcheck.py` — Formvertrag je Playbook: Kurzantwort, ≥ 15 konkrete Zahlen (Rechts-Playbooks
   stattdessen ≥ 5 Paragraphen), ≥ 8 Quellen-URLs, „Unbelegt“-Abschnitt, Preisbänder mit Jahresangabe.
 - `~/.hermes/scripts/renov_skill_health.py` — Cron-Wächter, kombiniert Abdeckung und Links, schweigt im
@@ -209,7 +210,7 @@ teuer, weil der Agent die ersten 200 Zeilen lesen muss, um zu wissen, ob es pass
 
 ## Test 6 — Themeninventur: was fehlt überhaupt?
 
-Die Abdeckung sagt nur, was die zehn Videos verlangen. Ob ein ganzes Thema fehlt, zeigt sie nie. Dafür eine
+Die Abdeckung sagt nur, was die 15 Videos verlangen. Ob ein ganzes Thema fehlt, zeigt sie nie. Dafür eine
 Liste von Begriffen quer über den Lebenszyklus eines Hauses bilden (Recht, Technik, Geld, Betrieb) und je
 Begriff die Trefferzahl im Korpus zählen — Sätze mit `grep -rIic "<begriff>" . | awk -F: '{s+=$2}'`.
 
@@ -218,6 +219,59 @@ bewusst abgrenzen. Und: **Teilstring-Treffer prüfen**, bevor man sie als Abdeck
 weil „weg“ in „Weg“ und „wegen“ steckt; „Blei“ traf 202×, weil „bleiben“ mitgezählt wurde). Beim ersten
 Inventar waren 12 von 61 Themen blind — darunter Energieausweis, Radon, Batteriespeicher, Kabel-Internet,
 Fernwärme, sommerlicher Wärmeschutz.
+
+## Test 7 — Router: landet die Alltagsfrage in der richtigen Datei?
+
+`scripts/router_test.py` prüft 30 Fragen (`references/router-test.json`, jedes Playbook kommt vor)
+gegen die Router-Tabelle in `SKILL.md`. Bewertet wird, ob die Zeile mit der größten Wortüberschneidung
+die erwartete Datei nennt — nicht, welche Datei ein Modell tatsächlich öffnet.
+
+```
+python3 scripts/router_test.py            # Tabelle, Fehlgriffe und Mehrdeutigkeiten
+python3 scripts/router_test.py --json     # maschinenlesbar
+```
+
+Erster Lauf: **22/30**. Die Tabelle war zu fachsprachlich — „Fliesenleger", „Treppengeländer",
+„Regenrinne", „Vorkasse" und „Dämmwolle entsorgen" trafen **keine** Zeile (Score 0), „feucht" zog eine
+Estrichfrage in den Keller. Nach dem Nachschärfen sieben Zeilen und zwei Skriptfehler: **30/30**.
+
+**Zwei Werkzeugfallen, die den Test selbst kaputt machen:**
+
+- **Wortstamm zu grob**: ein pauschaler `s`-Abschnitt machte aus „Stromkreis" `stromkrei`, das passte
+  nicht mehr auf „Stromkreise" — Treffer fälschlich 0. Kein `s`-Abschnitt bei `-is/-us/-os/-ss`.
+- **Falsche Normierung**: den Score durch die Zeilenlänge zu teilen lässt die kürzeste Zeile gewinnen und
+  bestraft ausführliche Zeilen für ihre Genauigkeit. Richtig ist der Anteil der **Frage**-Stichworte, die
+  die Zeile abdeckt; Zeilenlänge höchstens als Tie-Break.
+
+**Grenzen, die dokumentiert bleiben müssen:** Mischfragen („Steckdosen in der Küche" + Stromkreise) sind
+absichtlich mehrdeutig — dort entscheidet die Reihenfolge-Regel im Skill, nicht der Test. Und reine
+Themenwörter ohne Kontext routen falsch („Versicherung für mein Auto" → `recht-renovierung`), weil das
+Verfahren nur Wörter zählt. Negativkontrolle: eine fachfremde Frage ergibt Score 0 in allen Zeilen.
+
+## Test 8 — Quercheck: zwei Dateien, zwei Wahrheiten
+
+`scripts/querkcheck.py` sammelt alle Zahlenspannen mit Einheit ("12–18 cm", "40–80 €/m²") und meldet
+Paare, die **dieselbe Einheit**, einen **Sachbegriff nahe an der Zahl** und **getrennte Bänder** haben.
+Der Sachbegriff muss innerhalb von ~60 Zeichen vor der Zahl stehen und aus einer kuratierten Liste kommen
+(Estrich, WDVS, Zählerplatz, Fliesenkleber, Wärmeerzeuger …): reine Wortähnlichkeit hätte „Pflaster
+Betonstein 110–135 €/m²" gegen „Pflaster Naturstein 180–240 €/m²" als Widerspruch gemeldet, obwohl es
+keiner ist. Zeitangaben (Tage/Wochen/Jahre) werden bewusst nicht über Sachbegriffe verglichen — dort ist
+die Streuung echt.
+
+```
+python3 scripts/querkcheck.py            # offene Themen
+python3 scripts/querkcheck.py --json     # für die Allowlist
+```
+
+Befund erster Lauf: **12 Gruppen**, alle nach Prüfung **kein Widerspruch**, sondern unterschiedlicher
+Bezug (Material vs. Gesamtleistung, Ausgleichsmasse vs. Kernsanierung). Sie stehen mit Begründung in
+`references/querkcheck-bekannt.json`; das Skript übergeht sie und meldet nur noch **neue** Fälle. Sonst
+gewöhnt man sich an eine Liste, die immer gleich aussieht.
+
+**Ehrlich dazu:** der eine echte Widerspruch dieser Runde (Heizlast „12,5 kW" im Text gegen 85 %
+Kesselwirkungsgrad im Rechenbeispiel → 10,6 kW) wurde **nicht** vom Skript gefunden, sondern beim Lesen.
+Das Werkzeug ist eine Leseliste, kein Beweis — es sagt „hier stehen zwei Bänder", nicht „eines davon ist
+falsch".
 
 ## Was hier nicht getestet wird
 

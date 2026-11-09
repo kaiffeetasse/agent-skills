@@ -567,3 +567,17 @@ Ohne statischen Nachweis (DIN EN 1996-1-1, Tabelle NA 19/NA 20) gilt für gemaue
 10. **Fotos, Fotos, Fotos** — jede Wand offen, mit Maßband, je Raum [Q24].
 11. **Eigenleistung endet vor der Klemme** — sonst § 81 VVG [Q29].
 12. **Prüfprotokoll oder keine Abnahme** — ohne Messung keine Sicherheit, ohne Protokoll keine Gewährleistung [Q13][Q32].
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Alte Aderfarben lesen können**: in Installationen der 1960er/70er ist **grau der Neutralleiter**,
+  **rot der Schutzleiter** und **schwarz die Phase** — das ist nicht die heutige Zuordnung (grau N,
+  grün-gelb PE, braun/schwarz L). Wer nach heutiger Farblogik umklemmt, vertauscht N und PE.
+- **Schaltdraht-Klassiker**: der rote Draht wird als **Schaltdraht** für die Lampe weiterverwendet, ohne zu
+  prüfen, wohin er noch läuft. Genau dort entstehen die versteckten Verbindungen zwischen Stromkreisen.
+- **Zweipoliger Spannungsprüfer mit Lastzuschaltung** (z. B. **Duspol**): Spannung erst als echt bestätigen,
+  wenn die Last zugeschaltet ist — ein Phasenprüfer zeigt auch Induktion.
+- **Versteckte Klemmdose**: Abzweigdosen, die unter Putz, Tapete oder hinter **Fliesen** verschwinden, sind
+  später nicht mehr auffindbar. Jede Klemmstelle gehört in eine zugängliche Dose und in den
+  **Stromlaufplan** — Dokumentation ist Teil der Arbeit, nicht Papierkram.
+- **Lampenleitung komplett neu**: wer die alte Leitung weiterbenutzt, weil „sie ja noch geht", hat an der
+  Decke eine Ader ohne Schutzleiter — der Kreis ist dann **komplett neu** zu legen.

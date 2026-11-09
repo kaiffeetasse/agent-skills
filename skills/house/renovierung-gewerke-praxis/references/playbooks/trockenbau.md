@@ -846,6 +846,21 @@ System gebaut, sondern Material verbaut.
 
 ---
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **DIN 4108-7 gilt in der Ausgabe 2026-04** (vorher 2011-01). Kernregel im Wortlaut der Vorgängerfassung:
+  Durchdringungen sind „bei der Planung mit so viel Abstand … anzuordnen, dass ausreichend Platz für die
+  handwerkliche Herstellung des luftdichten Anschlusses bleibt".
+  Quelle: https://www.bionic3.de/2026/06/11/neue-luftdichtheits-norm-4108-7/ (200);
+  Wortlautzitat über https://www.akbw.de/fileadmin/download/Freie_Dokumente/Fortbildung_IFBau/Energie_aber_wie/Energie_aber_wie_Stumpp.pdf (PDF, geprüft).
+- **Durchdringung ohne Klebefläche** (Leitung sitzt direkt an der Balkenflanke) ist ein Mangel, kein
+  Schönheitsfehler: die Dichtheitsmessung fällt durch. Richtig ist, **Bedenken anzumelden** (Fotos,
+  Textform, Datum, vor Beginn der Arbeiten) und den Planer einzubinden — nicht selbst zu improvisieren.
+  Form und Frist: `hausbau-baufirma.md`.
+- **Gewerke-Koordination vor dem Schließen der luftdichten Ebene**: Elektro, Sanitär, Lüftung und
+  Trockenbau legen die Durchdringungspunkte gemeinsam fest. Jede nachträgliche Durchdringung ist eine
+  Flickstelle.
+
 ## 13. Unbelegt / offen
 
 1. **Zeiten je m² (§9)** — keine öffentliche Erhebung gefunden. Die Tabelle ist Erfahrungswert; die

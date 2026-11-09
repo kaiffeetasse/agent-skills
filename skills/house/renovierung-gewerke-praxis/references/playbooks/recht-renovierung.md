@@ -876,6 +876,13 @@ Ehrlich benannt, damit du weißt, wo du nachfragen musst:
 
 ---
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Schwarzarbeit ist kein Bagatelldelikt**: Wer Handwerker ohne Rechnung beschäftigt, riskiert
+  Nachzahlung von Lohnsteuer und Sozialabgaben, den Verlust der Steuerabzüge nach § 35a EStG — und
+  **keine Gewährleistung**, weil ohne Rechnung kein Vertragsnachweis existiert. Die Handwerkerhaftung
+  greift nur bei dokumentierter Beauftragung.
+
 ## 13. Die Kurzfassung auf einer Seite
 
 1. **Erst prüfen, dann bestellen:** § 50 LBO + Anhang 1 entscheidet über das Verfahren, § 50

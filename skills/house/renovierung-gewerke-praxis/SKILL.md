@@ -69,6 +69,10 @@ Fahrlässigkeit kürzt der Versicherer die Leistung (§ 81 Abs. 2 VVG).
 Fehler in dieser Reihenfolge kosten doppelt: Kabel nach Putz, Estrich nach Türen, Abdichtung nach
 Fliesen. Wenn ein Gewerk warten muss, wird das im Plan sichtbar gemacht, nicht „später eingeschoben".
 
+**Vor dem Schließen der luftdichten Ebene** müssen Elektro, Sanitär, Lüftung und Trockenbau die
+Durchdringungspunkte **gemeinsam** festlegen — nachträglich ist jede Durchdringung eine Flickstelle
+(DIN 4108-7: Durchdringungen so anordnen, dass der luftdichte Anschluss handwerklich herstellbar bleibt).
+
 ## Eigenleistung: ehrliche Einschätzung statt Optimismus
 
 Selbst machbar, hoher Hebel, geringes Risiko:
@@ -163,13 +167,30 @@ zahlt zweimal. Kurzfassung (Belege je Paragraph in `references/ausbildungsordnun
 - **Trockenbaumonteur/-in** — Feuchträume, Dachausbau, Brandschutz, Sonderdecken (Abdichtung nur beurteilen).
 - **Dachdecker/-in** — Dampfsperre/Luftdichtheit, Flüssigabdichtung, An- und Abschlüsse.
 - **Zimmerer/Zimmerin** — tragend/nichttragend unterscheiden, Rückbau, Holzkonstruktionen sanieren.
+## Weg zum Meister: vier Teile, Bestehensregeln, Externenprüfung
+
+- **Vier selbständige Prüfungsteile** (HwO § 45 Abs. 3, AMVO § 1): I fachpraktisch, II fachtheoretisch,
+  III betriebswirtschaftlich/kaufmännisch/rechtlich, IV berufs- und arbeitspädagogisch. III/IV sind für
+  alle Gewerke gleich, I/II je Gewerk.
+- **Teil III bestanden**: Mittel ≥ 50, kein Feld < 30; nach **einer** Ergänzungsprüfung (nur in einem von
+  höchstens zwei Feldern mit 30–49 Punkten) höchstens ein Feld < 50. Mündliche Punkte = **150 − 2 ×
+  schriftlich** (Gewichtung 2 : 1).
+- **Externenprüfung ohne Betrieb**: **BBiG § 45 Abs. 2** — nicht HwO § 45 Abs. 2. Nötig ist Berufstätigkeit
+  vom **Eineinhalbfachen der Ausbildungsdauer**.
+- **Hilfsmittel** (Tabellenbuch, Formelsammlung) sind nicht gesetzlich zugelassen, sondern nach der
+  Prüfungsordnung der zuständigen Stelle (BBiG § 47 Abs. 1; HWK-GPO § 13 Abs. 3) — nicht zugelassene
+  Hilfsmittel sind Täuschung (§ 22 Abs. 1).
+
+Vollständig mit Paragraphen und Wortlaut: `references/ausbildungsordnungen.md`, Abschnitt
+„Meisterprüfung und Externenprüfung".
+
 ## Playbooks — Aufgabe → Vorgehen
 
 Für konkrete Fragen („wie renoviere ich mein Bad?“, „wie erneuere ich die Decke?“, „was beachte ich bei
 XY?“) liegen fertige Playbooks in `references/playbooks/`: Kurzantwort, Reihenfolge mit Tagen, Zahlen,
 Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbetrieb“, Quellen.
 
-- **34 Playbooks** in `references/playbooks/` (Abdeckung 128/128 Katalogfehler, Strukturcheck 0 Verstöße) (Index und Prüfstand: `references/playbooks/README.md`):
+- **36 Playbooks** in `references/playbooks/` (Abdeckung 128/128 Katalogfehler, Strukturcheck 0 Verstöße) (Index und Prüfstand: `references/playbooks/README.md`):
   `bad.md`, `decke.md`, `waende.md`, `estrich.md`, `fliesen.md`, `elektro.md`, `trockenbau.md`,
   `daemmung.md`, `fenster-tueren.md`, `bodenbelaege.md`, `sanitaer.md`, `heizung-lueftung.md`,
   `keller-mauerwerk.md`, `schimmel-feuchte.md`, `hausbau-baufirma.md`, `kosten-bauzeit.md`,
@@ -178,7 +199,8 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
   `waermepumpe-oelheizung.md`, `pv-speicher-wallbox.md`, `elektro-60er-haus.md`,
   `internet-kabelanschluss.md`, `haus-komplettsanierung.md`, `energieausweis-beratung.md`,
   `heizung-alternativen.md`, `smart-home-nachruesten.md`, `foerderung-steuern.md`,
-  `dachentwaesserung-regenwasser.md`, `foto-diagnose.md`
+  `dachentwaesserung-regenwasser.md`, `foto-diagnose.md`, `trinkwasserhygiene.md`,
+  `barrierefreiheit.md`
 - Jedes Playbook endet mit einem **Fehlerkatalog aus der Praxis** und einer **„Unbelegt“-Liste** — die
   Quelle steht als Video-ID + Zeitmarke dabei, Transkripte liegen in `references/transkripte/`.
 
@@ -211,6 +233,8 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | „Was sagt das Foto?", Risse, Schimmel, Pfusch erkennen | `foto-diagnose.md` |
 | Feuchter Keller, Mauerwerk, Salzausblühungen, Risse im Mauerwerk | `keller-mauerwerk.md` |
 | Schimmel, Luftfeuchte, richtig lüften, Schimmel entfernen | `schimmel-feuchte.md` |
+| Legionellen, Trinkwasser, Warmwassertemperatur, Bleileitung, Spülen | `trinkwasserhygiene.md` |
+| Barrierefrei, DIN 18040, Haltegriffe, Türbreite, Schwellen, Treppenlift, Pflegekasse | `barrierefreiheit.md` |
 | Haus bauen, Baufirma auswählen, Werkvertrag, Baubegleitung, Abnahme | `hausbau-baufirma.md` |
 | „Was kostet das?", „Wie lange dauert das?", Angebot prüfen, Nachträge | `kosten-bauzeit.md` |
 | Werkzeug kaufen/leihen, Staub, Absaugung, Asbest, Entsorgung | `werkzeug-sicherheit.md` |
@@ -229,22 +253,27 @@ später nicht mehr zu ändern ist.
 Abschnitte hier (Grenzen, Eigenleistung, Abnahme) — und im Zweifel sagen, dass es dazu (noch) kein
 Playbook gibt, statt aus dem Gedächtnis zu antworten.
 
-**Prüfstand statt Bauchgefühl:** `scripts/fehlercheck.py` prüft den Skill gegen die Fehlerliste aus zehn
+**Prüfstand statt Bauchgefühl:** `scripts/fehlercheck.py` prüft den Skill gegen die Fehlerliste aus 15
 Top-Fehler-Videos (`references/fehlerkatalog.json`, Stand und aktuelle Quote in
 `references/playbooks/README.md`). Nach jeder Inhaltsänderung:
 
 ```bash
 python3 scripts/fehlercheck.py --gaps        # was fehlt, gruppiert nach Playbook
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle: Zahl MUSS fallen
-python3 scripts/linkcheck.py                 # alle Quellen-URLs; 404 = tot, Bot-Blocker und -k-Fälle sind ausgenommen
 python3 scripts/strukturcheck.py             # Pflichtabschnitte je Playbook, Quellenzahl, Preis-Datum
+python3 scripts/querkcheck.py                # widersprüchliche Zahlbänder zwischen Dateien
+python3 scripts/router_test.py               # 30 Alltagsfragen gegen die Router-Tabelle
+python3 scripts/material.py selftest         # Rechenwerkzeug gegen bekannte Sollwerte
+python3 scripts/linkcheck.py                 # alle Quellen-URLs; 404 = tot, Bot-Blocker und -k-Fälle sind ausgenommen
 ```
 
 Zwei Cronjobs halten den Stand: **montags 9:00** der Wächter `~/.hermes/scripts/renov_skill_health.py`
 (Abdeckung + Links, schweigt wenn alles gut ist) und **quartalsweise** ein Sammellauf, der neue
 Fehler-Videos sucht, transkribiert und einarbeitet.
 
-**Was der Prüfstand nicht kann:** `fehlerkatalog.json` stammt aus zehn Videos. Die später ergänzten
+**Was der Prüfstand nicht kann:** `fehlerkatalog.json` stammt aus 15 Videos — den ersten zehn zu Hausbau/
+Sanierung/Dämmung/Elektro/Bad/Fliesen/Estrich und fünf weiteren zu Wärmepumpe im Altbau, Speichergröße,
+Wechselrichterauslegung und Elektrik im 70er-Bestand. Die später ergänzten
 Themen (Küche, Außen, Treppe, Dachboden, Entkernen, Rechtsseite) sind inhaltlich dokumentiert, aber
 automatisch noch nicht geprüft — dort gilt nur die Quellenprüfung.
 
@@ -267,6 +296,11 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
    angleichen, sonst hat der Skill zwei Wahrheiten.
 5. **Danach**: `fehlercheck.py`, `linkcheck.py`, Index-Zeile, `SKILL.md`-Liste, Abdeckung im README
    nachziehen.
+6. **Router-Zeile mit Alltagswortlaut, nicht mit Fachsprache.** Die Tabelle muss die Wörter enthalten,
+   die ein Laie tippt (Fliesenleger, Treppengeländer, Regenrinne, Vorkasse, „bleibt feucht"), sonst
+   landet die Frage in einer fremden Datei, obwohl das Playbook existiert. Danach `router_test.py`:
+   jede neue Frage, die nicht in der erwarteten Datei landet, ist ein Vokabular-Loch in der Tabelle —
+   Zeile nachschärfen, nicht Erwartung anpassen.
 
 ## Werkzeuge (rechnen und prüfen statt schätzen)
 
@@ -277,6 +311,7 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
 - `scripts/linkcheck.py` — alle Quellen-URLs (HEAD/GET, `-k`-Fallback für kaputte Zertifikatsketten).
 - `scripts/querkcheck.py` — widersprüchliche Zahlenbänder zwischen Dateien; geprüfte Ausnahmen
   stehen in `references/querkcheck-bekannt.json`.
+- `references/quellen-top10.md` — zehn geprüfte Anleitungs-Portale plus die Regel, welche Quellen Zahlen liefern dürfen.
 - `scripts/router_test.py` — 30 Alltagsfragen gegen die Router-Tabelle (`references/router-test.json`).
 
 ## Bauen und Prüfen — Regeln, die für jede Erweiterung gelten
@@ -370,7 +405,7 @@ Playbook, zuerst `references/quellen.md` und `references/faktencheck.md` prüfen
 - `references/tests/README.md` — wie der Prüfstand funktioniert (Abdeckungstest, Negativkontrolle,
   Katalog-Pflege, Linkprüfung); `references/tests/kalt-warm.md` — die Kalt/Warm-Probe als Maß dafür,
   was ein Playbook tatsächlich hinzufügt.
-- `references/transkripte/` — zehn Video-Transkripte mit Zeitmarken (Quelle jedes Fehlers im Katalog).
+- `references/transkripte/` — 15 Video-Transkripte mit Zeitmarken (Quelle jedes Fehlers im Katalog).
 - `scripts/fehlercheck.py`, `scripts/linkcheck.py`, `scripts/strukturcheck.py` — Abdeckungs-, Link- und
   Strukturprüfung, alle mit Exit-Code; `scripts/publish_skill.py` veröffentlicht die generalisierte Kopie.
 - `scripts/vtt2txt.py` — Auto-Untertitel (VTT) entdoppeln und als Transkript mit Zeitmarken schreiben,

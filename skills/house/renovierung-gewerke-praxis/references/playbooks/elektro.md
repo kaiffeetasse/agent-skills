@@ -482,6 +482,23 @@ Jeder Punkt ist im Video belegt (`references/fehlerkatalog.json`); Zeitmarke = F
 - **Nicht jeder Verbraucher braucht einen eigenen Stromkreis**: „Steckdosen kann man nie genug haben"
   führt zu 14 Sicherungen für 14 Dosen (Werkstattgeräte wie Tischkreissäge/Bandsäge ausgenommen) — mehr
   Kosten und mehr Fehlerquellen statt mehr Sicherheit (eNpMPWvnWiI-06).
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Lage vor Stückzahl**: Steckdose an jeder Raumecke und neben jeder Tür ist die Praxisregel, die
+  Stückzahl-Tabelle ist die Untergrenze. *Erfahrungswert aus der Praxis, nicht belegt.*
+- **Lampenauslass nicht direkt neben Schalter oder Steckdose** setzen; Vorhänge, Schränke und Betten
+  vorher festlegen — sonst wird nach dem Streichen gespachtelt und neu gestrichen.
+- **Bedienstellen planen**: in Räumen mit mehreren Ausgängen Taster an jeder Tür; Flur als ein Raum
+  behandeln; Wechselschaltung nur an den Wegen, die wirklich benutzt werden.
+- **Deckenventilator**: zwei Kanäle (Licht und Ventilator getrennt) und die Aufhängestelle in der
+  Trockenbaudecke verstärken.
+- **Schaltbare Steckdose** für LED-Streifen vorsehen — billiger und dauerhafter als jede Funklösung.
+- **Schaumstoffstopfen in Gerätedosen** beim Spachteln und Tapezieren, sonst ist die Dose voll Mörtel.
+- **LAN-Dose im Technikraum** für Wärmepumpe, Speicher und Wechselrichter — die Geräte werden
+  ferngewartet, Funk ist im Keller keine Lösung.
+- **Außen-Leerrohre** nicht nur für Garten, Bewässerung und Kamera legen, sondern auch für Rasenroboter,
+  Garagentor, Klingel und Pool/Sauna.
+
 ## Nachtrag: FI-Aufteilung und Ausfallsicherheit (Kalt/Warm-Test 09.11.2026)
 
 Der Vergleich mit einer Antwort ohne Wissensbasis hat gezeigt: Das Playbook war beim FI zu grob. Ergänzt:

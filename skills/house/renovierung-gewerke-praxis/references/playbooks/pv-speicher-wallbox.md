@@ -567,3 +567,27 @@ Was hier **nicht** steht, weil ich es nicht mit einer prüfbaren Quelle belegen 
 ---
 
 *Verwandte Playbooks: `elektro.md` (Zählerschrank, FI, Querschnitt, NAV-Grenze), `heizung-lueftung.md` (Wärmepumpe, Heizstab, GEG), `kosten-bauzeit.md` (Angebotsvergleich, Nachträge), `recht-renovierung.md` (Denkmalschutz, Nachbarrecht, Gerüst).*
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Zweite Speicher-Faustformel** (neben 1,5 kWh je 1.000 kWh Verbrauch): **0,5 kWh bis 2 kWh je kWp**
+  Anlagenleistung. Bei 10 kWp also 5–20 kWh — die Spanne ist bewusst weit, weil Notstromwunsch und
+  Fahrprofil sie verschieben. Eine dritte Rechnung aus demselben Video: Jahresverbrauch **durch 500 bis
+  durch 800** teilen (7.000 kWh → 8,75 kWh bei /800).
+- **Bruttokapazität und Nettokapazität** sind zwei verschiedene Zahlen im Datenblatt: brutto ist die Zellkapazität,
+  netto das, was der Wechselrichter nutzbar entlässt. Wer Preise vergleicht, vergleicht **netto**.
+- **Lade- und Entladeverluste 10 bis 20 %** je Zyklus: der Strom aus dem Speicher muss also mindestens 10–20 %
+  günstiger eingekauft werden als der Bezug im Moment der Entnahme — sonst ist die Verschiebung ein
+  Nullsummenspiel.
+- **Netzentgelte und Steuern nicht vergessen**: auf Börsenstrompreise kommen in Deutschland nach der
+  Rechnung des Videos **20 bis 25 Cent** Steuern und Netzentgelte obendrauf — wer mit Börsenpreisen
+  rechnet, rechnet am realen Bezugspreis vorbei (Größenordnung, keine Tarifauskunft).
+- **Notstromreserve**: wenn der Speicher im Ausfall Licht und Kühlschrank tragen soll, **20–30 %** größer
+  dimensionieren — das ist Reserve, keine Rendite.
+- **Entladeleistung ist das Nadelöhre**, nicht die Kapazität: ein 22-kW-Auto an einer 22-kW-Wallbox braucht
+  rund **25 kW** AC-Ausgangsleistung am Wechselrichter, sonst kommt der Rest aus dem Netz. Kleine
+  Wechselrichter begrenzen auch die spätere **Speichererweiterung**.
+- **Geräte verschwinden vom Markt**: Wechselrichter- und Speichermodelle werden abgekündigt, Ersatz und
+  Erweiterung nach fünf Jahren können teuer oder unmöglich sein — bei der Auswahl auf Stückzahlen und
+  Herstellerservice achten, nicht nur auf den Datenblattpreis.
+- **Wechselrichter-Wirkungsgrad 96 bis 98 Prozent** im guten Lastbereich; unter **0,3** der Bemessungsleistung fällt
+  er sichtbar ab — deshalb nicht maßlos überdimensionieren, aber auch nicht unter die Wallbox-Last gehen.

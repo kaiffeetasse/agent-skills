@@ -213,3 +213,17 @@ Vollständig in **`faktencheck.md`** (24 geprüfte URLs). Kurzurteil:
   „Verbindungen auf Sicherheit und Dichtigkeit prüfen"), nur über HwO Anlage A Nr. 24.
 - **DIN-Inhalte**: Grenzwerte/Abschnitte sind ohne Normkauf nicht zitierfähig; diese Datei belegt Existenz,
   Titel und Ausgabe, nicht den Inhalt.
+
+## Luftdichtheit
+
+DIN 4108-7 — **Ausgabe 2026-04**, ersetzt 2011-01. Durchdringungen sind so anzuordnen, dass der luftdichte Anschluss handwerklich herstellbar bleibt. Beleg: https://www.bionic3.de/2026/06/11/neue-luftdichtheits-norm-4108-7/ (200, 09.11.2026).
+
+## Wo man nachschlägt (Anleitungen, nicht Zahlen)
+
+Zehn geprüfte Portale für praktische Anleitungen — mit Zugangsstatus, Stärken und Grenzen:
+`references/quellen-top10.md`. Kurzfassung: **BauNetz Wissen** (Bautechnik, redaktionell),
+**selbst.de** (Heimwerker-Schritt-für-Schritt), **OBI Magazin** und **HORNBACH Ratgeber** (breit, aber
+Links veralten), **Elektropraktiker** (Elektro-Praxis), **IKZ/SBZ** (SHK), **Malerblatt/bauhandwerk/
+dach+holzbau** (Gewerke), **bau.net** (Forum, Erfahrung ohne Belegcharakter), **Verbraucherzentrale**
+(Recht/Geld), **baufachinformation.de** (Fraunhofer IRB, Nachweis, Inhalte kostenpflichtig).
+Regel: Anleitung darf von dort kommen, **Zahl nur aus Gesetz, Norm, Datenblatt oder Messung**.

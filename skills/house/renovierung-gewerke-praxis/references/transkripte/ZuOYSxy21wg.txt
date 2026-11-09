@@ -1,0 +1,77 @@
+[00:00:02] servus Freunde des strumps schön dass wieder dabei seid heute möchte ich mit euch ein mal ein erschreckendes Video machen das heißt ich möchte euch heute mal zeigen wie gefährlich auch elektrischer Strom sein kann und wie gefährlich manche Fehler auch hier im albau sein können ich habe euch hier mit meiner Mustertafel hab mal wieder bastelbastel gespü und habe mir hier mal eine elektrische Anlage
+
+[00:00:24] nachempfunden in den klassischen albau hier mit auch mit den Farben gehen wir aber dann noch drauf ein und möchte mit euch ein mal ein Fehler Durchspielen der wirklich passiert ist und den ich selber miterlebt habe miterlebt habe miterlebt habe als Kind wie mir hier in dieses Haus eingezogen sind und die Umbaumaßnahmen begonnen haben heute möchte ich auch einen ganzen
+
+[00:00:56] anderen Ablauf mal machen wie sonst immer normalerweise gehe ich ja erst mal Schritt für Schritt das ganze Video durch welcher Fehler Blabla leberkass so und das Problem ist Hal einfach viele springen mir dann ABW das Video ist zu lang okay verständlich passt auf wir machen jetzt eins ich zeige euch jetzt erst einmal die Auswirkung des Fehlers wie gefährlich das er ist und dann werden wir uns werden wir uns mal anschauen wie wir den Fehler rausfinden
+
+[00:01:20] bzw dass man ihn teilweise gar nicht rausfinden rausfinden rausfinden kann also das ist ja ganz normale Elektroinstallation in dem Haus sagen wir jetzt mal so Abbau ja 1970 da war noch die alten Farben verwendet das was grau für den Neutralleiter rot war der Schutzleiter und schwarz war die Phase es hat er dann teilweise nur Stegleitungen gegeben da
+
+[00:01:41] wo nur schwarz und grau drin war dass man mir ungefähr die Basics herbringen das war die ist jetzt simuliert man jetzt das Abstellzimmer das war das Bad und dann haben wir hier noch eine Leitung rüber die wo in die Küche gegangen ist fehlerstromschutzschal Fehlerstromschutzschalter also war Fehlanzeige haben wir nicht gehabt wir haben noch diese schwarzen Metalltafeln gehabt wo der zellerler drauf der SE der
+
+[00:02:05] ferrariis zellerler drauf gehangen ist und wir haben drei oder vier Schraubsicherungen gehabt fürs komplette Haus so war ungefähr die Elektroinstallation in dem Haus was meine Eltern gekauft haben genau so jetzt habe ich gesagt zeige euch ein mal was der Fehler ist also die muss ich nur schnell sagen die elektrische funktioniert hier einmal frei die Geschichte war wie folgt das heißt da
+
+[00:02:27] also der Robert und ich wir haben immer was was gelegentlich wenn wir an den Kühlschrank gefasst haben hat's bei uns gekitzelt und das hat uns unsere Eltern am Anfang nicht geglaubt und es war ja nicht immer also das war ja der Witz an der der der Geschichte und einmal hat die Mama mich am Arm gehabt und hat ein Kühlschrank hing gefasst und hat auch eine
+
+[00:02:49] gekrisselt also gebritzelt bekommen und dann haben meine Eltern quasi ein Elektriker beauftragte wo sich das Ganze dann noch mal angeschaut hat das möchte mit euch jetzt mitm toaser mal simulieren und wie ich ja vorhin schon gesagt habe das verteile war der Fehler hat er nicht immer ist nicht immer aufgetreten das heißt sch ich habe jetzt hier das Metallgehäuse von meinem toaser jetzt richtig schön in der Hand ich neh ich kuschel ihn sogar so und damit wer
+
+[00:03:11] sagt ich habe isolierte Schuhe an fasse ich jetzt hier noch an den Schutzleiter es passiert gar nichts so und jetzt lass wir den Fehler mal arbeiten ich habe jetzt alles schon mal hergerichtet es seht ja schon meine Schutzausrüstung das hier sind isolierende Handschuhe bis 1000 Volt für die Augen habe ich auch was ich habe mir hier vom PE mit einer Messleitung hier Verlängerung gemacht
+
+[00:03:35] und als ja karchen oder keine Ahnung wie man unser Würstchen nennen habe ich mir jetzt wienerwürstel hergenommen als Versuchskaninchen so ich stecke jetzt hier mit der Messleitung einfach in in die in das Würstchen hinein oder in die Wurst bayerisch so und jetzt gehen wir her und sagen wir mal das sind jetzt meine wixgriffel und ich fass jetzt den
+
+[00:03:59] Kühlschrank das was ist jetzt los also ich sage
+
+[00:04:21] jetzt mal so bei der Intensität was jetzt da gerade abgelaufen ist natürlich hätte das jetzt mit duspull auch zeigen können aber da wäre es ja langweilig und wir wollen ja Biss Action hier aber jetzt scha me jetzt fehlt wieder gar nichts und das ist das Perfide an dem Fehler schauen wir uns schnell unser herwstel an also das hab natürlich schon
+
+[00:04:45] Verbrennungen hoch hochgradige Verbrennungen so natürlich hat was mit der Netzspannung zu tun das heißt wir haben irgendwie aufs Gehäuse haben wir 230 Volt Spannung bekommen gegen Erdpotential und das ist jetzt genau das Problem Problem Problem Schutz Leiter hat da irgendwo ein Fehler gehabt so ich kann natürlich hier mit dem feinsten an Equipment auffahren und kann ich das natürlich zeigen zu der Geschichte es wurde dann ein Elektriker
+
+[00:05:08] gerufen der hat sich das Ganze angeschaut und ist halt dann erst einm hergegangen anscheinend ich erzähl es jetzt aus Gedächtnisprotokoll so ungefähr und hat er dann erst einm Messung gemacht okay und hat er mal geschaut gut wir haben hier Netzspannung und Schutzleiter ist auch vorhanden so das hat er bei allen Steckdosen gemacht und das kann ich euch hier bei dieser besagten Steckdose auch schnell zeigen so also unser Duspol gehen wir
+
+[00:05:35] jetzt hier rein schaut's ja 230 Volt ich drücke jetzt hier die zwei Tasten somit wird ein Lastwiderstand freigeschalten dass die Spannung auch wirklich anliegt so und jetzt gehen wir her Phase ist rechts sch her also schutzleit ist vorhanden l gegen N haben wir jetzt ein Durchgang
+
+[00:05:58] Durchgang Durchgang ähm ähm ähm aber es ist her keine Gefahr das gleiche Spiel machen wir jetzt hier im Badezimmer sch Badezimmer sch ja reelle Spannung reelle Spannung
+
+[00:06:19] gegenschutzleiter und da drüben ist genau dasselbe ich kann sich auch nicht zeigen sch zeigen sch zeigen sch ja liegt auch an also Spannung ist reell so ich schätze mal die Sucherei hat dann einige Tage gedauert wahrscheinlich Stunden Stunden Tage keine Ahnung bis man das dann rausgefunden hat es war nämlich jetzt so ich löse jetzt das Ganze gleich einm auf weil sonst können wir uns nämlich die nächsten 5 Stunden
+
+[00:06:41] unterhalten also unterhalten also unterhalten also Bart ab also aus dem Badezimmer wurde ein Badezimmer und ein Abstellzimmer gemacht und man braucht ja hier noch mal eine Lampe und die Lampe wurde von einer Klemmdose abgeklemmt und wir haben hier diese klassischen Farben gehabt so das das Problem ist natürlich Mauerwerk wurde nicht aufgerissen anscheinend und
+
+[00:07:02] es wurden halt hier irgendwo vom Elektriker oder keine Ahnung wer das jetzt gemacht hat ich will jetzt ja hier auch keinen beschuldigen auf alle Fälle wurde jetzt hier der rote Draht also der sogenannte PE wurde als schaltrah verwendet ihr wisst ja selber im Altbau oder in in in so älteren Bauwerken ist natürlich auch so durch die Zeit wird
+
+[00:07:25] natürlich irgendwas durchgeklemmt und rumgeklemmt und das wird als PE verwendet und dann und deswegen auch die Prämisse bit schon hier aufpassen so jetzt passt auf jetzt schalten wir hier einfach mal im Bad das Licht an und jetzt schauen wir uns mal die Steckdose an so wir haben jetzt zwischen L und N 230 Volt alles wunderbar und jetzt gehen wir mal auf de pe jetzt zeigt mal Achtung Durchgang an
+
+[00:07:48] mit Netzspannung jetzt gehen wir mal schnell rüber jetzt mache ich quasi Neutralleiter und ein PE und jetzt schaut mal auf mein Duspol also ich habe jetzt quasi auf dem ich schnell richtig ich reingehen so so sieht man schön genau so jetzt schalte ich die Lampe Weg jetzt habe ich Durchgang
+
+[00:08:13] aber L und N habe ich wieder 230 Volt und L auf P habe ich jetzt wieder 230 Volt und wie funktioniert das jetzt das perverse an diesem Fehler ist das wenn im Bad das Licht gebrannt hat war auf den Steckdosen in der Küche auf dem Schutzleiter 230 Volt drauf unser Glück war folgendes dass wir oben einen
+
+[00:08:37] sogenannten fellboden drin haben also ein sogenanntes Balkenlager auf dem ein Holzfußboden verbaut war und der natürlich sehr gut isoliert sonst wären wir wahrscheinlich nicht mehr da so das ist mal der eine Fehler der zweite Fehler ist folgendes wenn die Lampe ausgeschalten ist und ich fange hier messen an habe ich auf dem PE Potential zum Reich so zu sagen woher kommt das und das ist jetzt der Punkt
+
+[00:09:04] was DAF ich zeig's euch wir gehen jetzt her und entfernen das Leuchtmittel und früher war das nur nicht so mit die LED Leuchten oder sonstiges sondern früher hat man noch ganz normale ich sag jetzt fallobstmäßig also sogenannte so eine Teile drin gehabt und
+
+[00:09:24] natürlich habe ich hier über diesen Draht eine saubere Verbindung zwar mit Widerstand aber ich habe eine ordentliche Verbindung zum Neutralleiter und das hat sozusagen die Erde vorgetäuscht weil jetzt wenn ich messen Anfang dann schaut die Welt ganz anders aus also wir messen jetzt wieder L auf n 230 Volt und jetzt gehen wir mal auf
+
+[00:09:49] dem PE und jetzt zeigt mal Achtung 0 Volt an ich hoffe man kann sehen vom spiegeln her wenn ich auf N und PE gehe habe ich auch 0 Volt das heißt hier hat der keine verbindung ich bau jetzt mein fallopst wieder fallopst wieder fallopst wieder ein ich weiß nicht wo er den Fehler gemacht hat der Kollege also ich war damals glaube ich 10 Jahre alt und ich mach's jetzt wirklich aus dem Gedächtnis
+
+[00:10:13] raus so ich weiß nicht wo er sich verklemmt hat auf alle Fälle stand der Ding ist folgende diese Steckdose ist ganz normal angeschlossen das heißt grau ist Neutralleiter rot ist der Schutzleiter und schwarz ist die Phase das wurde hier in Dosen durchgebrückt und hier haben wir noch mal ob jetzt hier eine Dose war weiß ich nicht ich habe es jetzt einfach nur so jetzt mal gemacht und hier ist quasi die Leitung
+
+[00:10:35] durchgelaufen und die lampenleitung mit N und L also mit grau und und schwarz wurde hier in in einer Dose oder in der hauptdose keine Ahnung irgendwo umgeklemmt und es wurde uns sozusagen der rote Draht als Schaltdraht für die Lampe verwendet aber es wurde nicht geschaut ob das noch weiterläuft und ist
+
+[00:10:59] immer das gefährliche weil ihr wisst ja selber D kommt der raufuser Tapete drüber da wird drüber geputzt D kommen Fliesen drüber dann hast du irgendwo eine Klemmdose die wo eigentlich gar nicht mehr existiert weil sie keiner mehr weiß und keiner mehr und keiner mehr sieht und das ist jetzt genau das Problem im albau wenn du hier irgendwo mit Teilsanierungen anfängst sondern wenn dann komplett raus das Zeug und komplett neu machen so und hier habe ich das Ganze
+
+[00:11:21] das Ganze das Ganze nachempfunden das heißt schwarz ist L geht zum Schalter runter und zur Steckdose dann der graue ist der Neutralleiter geht hier auch durch grau auf grau auf grau so und dann war es im Endeffekt wahrscheinlich so dann haben wir einfach hier den roten abgeklemmt W näher ran oder war ich erkl schnell und dann hab wir den roten Draht
+
+[00:11:45] einfach verwendet als als Schaltdraht für die Lampe weil Putz wurde ja nicht rausgerissen sondern es war ja nur umklemmerei und hat die bestehenden Leitungen verwendet anstatt hier eine neue Leitung zu ziehen so hier undten die Steckdose hat sozusagen jetzt diese klassische Nullung das heißt zwischen Neutralleiter und Schutzleiter ist eine Brücke drin und wurde auf den grauen drah angeschlossen und der L wurde auf
+
+[00:12:09] den schwarzen drah angeschlossen und somit habe ich hier in dieser Kombination den roten drah frei hier ist das gleiche Spiel hier haben wir wieder normale Installation das heißt ich habe der graue ist der Neutralleiter der rote ist der Schutzleiter und der schwarze ist sozusagen der also die Phase so genau und hier ist der Knaus begraben und das
+
+[00:12:31] ist jetzt so Problem jetzt passt auf jetzt schauen wir uns das unten noch mal schnell an wie ich das gemacht habe und dann haben wir eigentlich eh schon wieder durch ich sage Hal bin ich rcht zackig unterwegs genau so jetzt noch mal vom nahen also kurze Erklärung noch mal für die aufmerksamen dass es auch seht sch h hier ist eine Brücke drin zwischen N und PE ist ja kein Problem weil wir haben ja keinen fehlerstromchutzschalter in dieser
+
+[00:12:53] Installation gehabt es ist nie aufgefallen welches Potenzial dass ich hier zieh so hier haben wir ein L der L geht auf den Schalter und vom Schalter nehme ich den roten drah als schaltrdrah her gehe auf meine Dose auf meine Klemmdose drauf ob es jetzt wirklich in der Klemmdose war weiß ich nicht war ich noch zu jung so und dann geht das ganze Übel hier einfach weiter hier wurde die Lampe einfach mit dazwischen gehängt
+
+[00:13:15] hängt halt irgendwo mit auf dem roten Draht und hier drüben haben wir jetzt die die die küchenzuleitung und dort ist wieder ganz normal angeschlossen so wie es eigentlich im ganzen Gebäude war das heißt den grauen auf n den roten auf l und den schwarzen hier auf L also auf rechts ist jetzt egal so und so kommt ein Fehler zustande der dich tödlich
+
+[00:13:37] umbringen kann sagen wir jetzt mal ganz salop so meine lieben Freunde der gepflegten Elektroinstallation und der elektroounterhaltung ich hoffe ich habe euch nicht zu sehr geschockt aber das ist jetzt mal so Punkt gewesen wo man halt eingefallen ist hät da könnte i mal tolles Video drüber machen also wenn ihr albausanierung macht und auch an meine Kollegen bitte
+
+[00:13:59] Kollegen bitte Kollegen bitte alles neu alles neu alles neu machen und ob es die lampenleitung ist oder sonst irgendwas keine Ahnung also ich weiß sch ist immer schwierig weil dann darf du nicht viel kosten und man darf nicht viel aufschlitzen und und Tralala und Pipo aber ihr seht ja selber wie schnell das so ein Fehler entsteht wenn irgendwo irgendwelche Farben verklemmt werden und das war früher wahrscheinlich Gang ge also kenne ein paar Fälle da wo es halt paar Sachen
+
+[00:14:21] passiert sind die wollt nicht so ausin sind und das ist auch der Punkt also bit schon hier bissel mit Hirnschmalz it ich hab gesehen dieser Fehler da kannst schon ein paar Tage verbringen bis du den rausfindst und V allem wenn du jetzt irgendwo eine Dose hast die wo z.B zugefließt worden ist zugeputzt worden ist oder sonstiges du suchst dich dumm und duslig also du hast keine
+
+[00:14:44] schance du musst dann irgendwas musst du dann irgendwas einfallen lassen und in diesem Sinne meine lieben Freunde des strums Wünsche jetzt auf alle Fälle noch einen schönen Tag ein schönen Abend macht es gut und ich hoffe ich kann erzählen und wir sehen uns in den nächsten Videos euer Markus für Freunde strumps servus

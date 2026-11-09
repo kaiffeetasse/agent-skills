@@ -435,6 +435,13 @@ Ohne Messgerät keine Einregulierung. Wer „nach Gefühl" dreht, stellt nur die
 
 ---
 
+## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
+
+- **Jeder Raum braucht eine eigene Heizfläche**, auch Ankleide, Abstellraum und Hauswirtschaftsraum:
+  **GEG § 63** verlangt raumweise Regelung; die Ausnahme gilt nur für kleine Flächen mit
+  Flächenheizung (< 6 m²). Wer die Ankleide an einen Nachbarraum hängt, heizt sie im Winter nicht —
+  und der Schimmel kommt zuerst in der Ecke.
+
 ## 10. Unbelegt / offen (bewusst nicht als Fakt verkauft)
 
 - **„15 % Heizenergie durch Entlüften"** stammt aus dem Mac-Paverick-Video `[Q22]` und ist dort nicht belegt. Plausibel ist ein Effekt nur, wenn die Anlage tatsächlich Luft hat — nicht als Dauerersparnis.
