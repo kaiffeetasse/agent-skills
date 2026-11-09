@@ -334,7 +334,7 @@ zweimal zahlen. Der Fliesenleger im Video macht den Boden deshalb bewusst zuletz
 |---|---|---|
 | **Elektro** (neu/ändern) | Errichten, Erweitern, Ändern hinter der Hausanschlusssicherung nur durch eingetragenes Installationsunternehmen (NAV § 13 Abs. 2); Instandhaltung ist ausgenommen, aber Schutzmaßnahmen prüfen ist Fachwissen | [Q29] |
 | **Gas** (Therme, Herd, Leitung) | Fachbetrieb nach TRGI, ohne Ausnahme | [Q29] |
-| **Trinkwasser-Neuinstallation** | zulassungspflichtiges Handwerk (HwO Anlage A Nr. 24); dazu DIN EN 806 / VDI/DVGW 6023, Keimfreiheit, Druckprobe; Armaturentausch ist Eigenleistung | [Q29] |
+| **Trinkwasser-Neuinstallation** | zulassungspflichtiges Handwerk (HwO Anlage A Nr. 24); dazu DIN EN 806 / VDI 6023 Blatt 1:2023-09, Keimfreiheit, Druckprobe; Armaturentausch ist Eigenleistung | [Q29] |
 | **Tragwerk / Wanddurchbruch** | Statik; eine „nicht tragende" Wand ist bis zum Gegenbeweis tragend | [Q29] |
 | **Asbest-Rückbau** (Baubeginn vor 31.10.1993) | ASI-Arbeit, Anzeige 7 Tage vorher, Sachkunde; gilt auch für Privatpersonen | [Q30] |
 | **Estrich** (neu, großflächig) | Belegreife, Fugen, Höhenlage — danach ist alles zu spät | [Q17] |

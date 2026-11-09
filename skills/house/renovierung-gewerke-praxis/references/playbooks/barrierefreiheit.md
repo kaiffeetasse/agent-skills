@@ -646,3 +646,15 @@ veröffentlichte Fassung [Q2].
 `kueche.md` (Arbeitshöhe, Anschlüsse, Geräte) · `treppe.md` (DIN 18065, Geländer, Bestandsschutz) ·
 `sanitaer.md` (Vorwand, Wasser, Abwasser) · `foerderung-steuern.md` (BEG-EM, § 35a — Barriereförderung
 ist dort **nicht** Thema) · `recht-renovierung.md` (Genehmigungen, Denkmalschutz).
+
+## Selbst geprüft am 09.11.2026
+
+Aus dem bayerischen Planungsleitfaden (PDF, HTTP 200, `pdftotext` gelesen), der DIN 18040-1/-2 wörtlich
+zitiert:
+- **DIN 18040-2** (Wohnungen): Bewegungsfläche vor WC, Waschtisch, Wanne und im Duschplatz **120 × 120 cm**;
+  **150 × 150 cm** ist die mit **„R"** gekennzeichnete Stufe (rollstuhlgerecht), nicht der Normalfall.
+- **DIN 18040-1** (öffentlich): **150 × 150 cm** vor Sanitärobjekten, WC-Becken beidseitig anfahrbar
+  (Tiefe 70 cm, Breite 90 cm je Seite).
+- **WC-Becken einschließlich Sitz: 46–48 cm** in beiden Teilen; Rückenstütze **55 cm** hinter der
+  Vorderkante; Dusch-Klappsitz mindestens **45 cm** tief, Sitzhöhe ebenfalls 46–48 cm.
+- Armaturen: Einhebel oder berührungslos, Warmwasser auf **45 °C** begrenzt (Verbrühungsschutz).

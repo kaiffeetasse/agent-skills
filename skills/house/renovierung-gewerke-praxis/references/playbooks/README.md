@@ -15,7 +15,7 @@ gleich, damit man schnell zur Antwort kommt:
 Regel: nur belegte Zahlen oder als Schätzung markiert. Wo zwei Quellen sich widersprechen, steht der
 Widerspruch — nicht der Mittelwert.
 
-## Stand: 34 Playbooks
+## Stand: 36 Playbooks
 
 | Playbook | Datei | Inhalt |
 |---|---|---|
@@ -53,6 +53,8 @@ Widerspruch — nicht der Mittelwert.
 | Förderung & Steuern | `foerderung-steuern.md` | BEG-EM-Quoten 2026, § 35a/35c, Grundsteuer, Antragsweg |
 | Dach, Regenwasser, Garage | `dachentwaesserung-regenwasser.md` | Rinnenbemessung, Versickerung, Zisterne, Garage |
 | Foto-Diagnose | `foto-diagnose.md` | Was ein Bild hergibt — und was nicht (Risse, Schimmel, Elektro) |
+| Trinkwasserhygiene | `trinkwasserhygiene.md` | Legionellen, TrinkwV 2023, VDI 6023 Blatt 1, Blei, Spülen/Desinfektion |
+| Barrierefreiheit | `barrierefreiheit.md` | DIN 18040-1/-2, Bad, Küche, Türen, Rampen, Nachrüstung, Förderung |
 
 ## Quellenstand
 

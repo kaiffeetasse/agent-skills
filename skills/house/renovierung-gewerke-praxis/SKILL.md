@@ -234,7 +234,7 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | Feuchter Keller, Mauerwerk, Salzausblühungen, Risse im Mauerwerk | `keller-mauerwerk.md` |
 | Schimmel, Luftfeuchte, richtig lüften, Schimmel entfernen | `schimmel-feuchte.md` |
 | Legionellen, Trinkwasser, Warmwassertemperatur, Bleileitung, Spülen | `trinkwasserhygiene.md` |
-| Barrierefrei, DIN 18040, Haltegriffe, Türbreite, Schwellen, Treppenlift, Pflegekasse | `barrierefreiheit.md` |
+| Barrierefrei, Rollstuhl, DIN 18040, Haltegriffe, Türbreite, barrierefreie Dusche, Schwellen, Treppenlift, Pflegekasse | `barrierefreiheit.md` |
 | Haus bauen, Baufirma auswählen, Werkvertrag, Baubegleitung, Abnahme | `hausbau-baufirma.md` |
 | „Was kostet das?", „Wie lange dauert das?", Angebot prüfen, Nachträge | `kosten-bauzeit.md` |
 | Werkzeug kaufen/leihen, Staub, Absaugung, Asbest, Entsorgung | `werkzeug-sicherheit.md` |

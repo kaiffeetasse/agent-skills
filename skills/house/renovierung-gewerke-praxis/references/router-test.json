@@ -118,5 +118,13 @@
   {
     "frage": "Welchen Boden lege ich auf die Fußbodenheizung, Laminat oder Vinyl?",
     "erwartet": "bodenbelaege.md"
+  },
+  {
+    "frage": "Wir haben eine Bleileitung im Haus und im Bad riecht es aus dem Warmwasser – Legionellen?",
+    "erwartet": "trinkwasserhygiene.md"
+  },
+  {
+    "frage": "Meine Mutter ist auf den Rollstuhl angewiesen, wie breit muss die Tür und die Dusche sein?",
+    "erwartet": "barrierefreiheit.md"
   }
 ]

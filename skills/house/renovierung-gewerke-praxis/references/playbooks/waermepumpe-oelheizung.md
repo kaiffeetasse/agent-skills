@@ -473,7 +473,7 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 **Vor der Abnahme**
 - [ ] Hydraulischer Abgleich nach Verfahren B dokumentiert (Einstellwerte, raumweise Heizlast)
 - [ ] Wärmemengenzähler + Stromzähler für die JAZ eingebaut
-- [ ] Heizkurve eingestellt, Nachtabsenkung konfiguriert
+- [ ] Heizkurve eingestellt; **keine tiefe Nachtabsenkung** (Wärmepumpe hält die Temperatur, Aufheizen kostet mehr als das Halten)
 - [ ] Dichtheitsprotokoll Heizung, Elektro-Messprotokoll (DIN VDE 0100-600)
 - [ ] Stilllegungs-/Entsorgungsbescheinigung Öltank im Ordner
 - [ ] Schornsteinverschluss dokumentiert und mitgeteilt `[Q16]`

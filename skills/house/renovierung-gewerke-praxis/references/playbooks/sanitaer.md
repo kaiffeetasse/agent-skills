@@ -52,7 +52,7 @@ Das sind die einzigen Zahlen, bei denen Sie als Bauherr wirklich mitreden müsse
 | Objekt | Maß | Quelle/Anmerkung |
 |---|---|---|
 | WC | Oberkante Keramik **41–42 cm** über Fertigfußboden (ohne Sitz) | Geberit-Standard [Q1]; 40 cm ist die klassische Herstellerangabe, 42 cm heute üblich [Q23] |
-| WC bei großen Menschen / Barrierefreiheit | 45–49 cm | Geberit nennt 45–49 cm für barrierefreie WCs [Q1]; individuell vereinbaren, nicht „irgendwie höher“ |
+| WC barrierefrei | **46–48 cm** | DIN 18040-2, am 09.11.2026 im Planungsleitfaden geprüft; Geberit nennt 45–49 cm als Herstellerband [Q1] — Norm geht vor Herstellerband |
 | Betätigungsplatte | Mitte auf **ca. 100 cm** | Geberit [Q1] |
 | Waschtisch | Oberkante **85–90 cm** (Richtwert), Anschlüsse WW/KW auf 48,4 cm, Ablauf 43,4 cm | Geberit [Q1] — dort steht in der Tabelle 85–95 cm, im Fließtext 85–90 cm; Anschlusshöhen 484/434 mm nach derselbermacher.de [Q22] |
 | Spiegelschrank | Unterkante 100–125 cm, Oberkante 200–220 cm | Geberit [Q1] |
@@ -530,7 +530,7 @@ Bauwerk, Beginn mit der Abnahme. https://www.gesetze-im-internet.de/bgb/__634a.h
 
 **Weitere Abweichungen Text ↔ Quelle** (im Text als Abweichung markiert, nicht angeglichen):
 
-- WC-Höhe barrierefrei: Text sagte 45–48 cm, Quelle 45–49 cm [Q1] → auf 45–49 cm korrigiert.
+- WC-Höhe barrierefrei: Herstellerangabe 45–49 cm [Q1], **Norm DIN 18040-2: 46–48 cm** — Norm gilt, Herstellerband steht daneben.
 - Elementbreite: 50 cm im Text, Datenblatt-Packmaß 52,6 cm [Q2], Händlerangabe 50 cm [Q3].
 - 3-Liter-Länge DN 15: eigene Rechnung 22,6 m, TÜV SÜD nennt rund 15 m (anderes Innenmaß) [Q10].
 - Waschtischhöhe: Geberit-Tabelle 85–95 cm, Geberit-Fließtext 85–90 cm [Q1].
