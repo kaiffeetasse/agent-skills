@@ -1,0 +1,119 @@
+[
+  {
+    "noun": "putz",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "10–20 €/m² in dachboden-holzdecke.md:447",
+      "40–80 €/m² in aussen-fassade-terrasse.md:372",
+      "40–70 €/m² in sanitaer.md:485"
+    ]
+  },
+  {
+    "noun": "wdvs",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "40–80 €/m² in aussen-fassade-terrasse.md:425",
+      "150–200 €/m² in aussen-fassade-terrasse.md:12",
+      "150–200 €/m² in aussen-fassade-terrasse.md:49"
+    ]
+  },
+  {
+    "noun": "abdichtung",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "50–200 €/m² in haus-komplettsanierung.md:68",
+      "300–600 €/m² in haus-komplettsanierung.md:693",
+      "300–600 €/m² in haus-komplettsanierung.md:1107"
+    ]
+  },
+  {
+    "noun": "bad",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "50–200 €/m² in haus-komplettsanierung.md:1106",
+      "400–1.000 €/m² in haus-komplettsanierung.md:415",
+      "400–1.200 €/m² in haus-komplettsanierung.md:466"
+    ]
+  },
+  {
+    "noun": "estrich",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "17–27 €/m² in estrich.md:362",
+      "500–1.500 €/m² in haus-komplettsanierung.md:416"
+    ]
+  },
+  {
+    "noun": "farbe",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "0,50–1 €/m² in aussen-fassade-terrasse.md:370",
+      "10–20 €/m² in aussen-fassade-terrasse.md:455",
+      "25–80 €/m² in dachboden-holzdecke.md:456"
+    ]
+  },
+  {
+    "noun": "fenster",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "110–170 €/m² in haus-komplettsanierung.md:458",
+      "400–1.200 €/m² in haus-komplettsanierung.md:1106",
+      "500–600 €/m² in fenster-tueren.md:158"
+    ]
+  },
+  {
+    "noun": "terrasse",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "5–6 €/m² in estrich.md:181",
+      "12–18 €/m² in aussen-fassade-terrasse.md:374",
+      "15–75 €/m² in aussen-fassade-terrasse.md:374"
+    ]
+  },
+  {
+    "noun": "asphalt",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "40–60 €/m² in aussen-fassade-terrasse.md:380",
+      "110–135 €/m² in aussen-fassade-terrasse.md:256"
+    ]
+  },
+  {
+    "noun": "fliesen",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "30–70 €/m² in bad.md:382",
+      "120–200 €/m² in bad.md:570"
+    ]
+  },
+  {
+    "noun": "pflaster",
+    "unit": "€/m²",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "15–75 €/m² in aussen-fassade-terrasse.md:456",
+      "110–135 €/m² in aussen-fassade-terrasse.md:378",
+      "180–240 €/m² in aussen-fassade-terrasse.md:379"
+    ]
+  },
+  {
+    "noun": "putz",
+    "unit": "€/m",
+    "reason": "geprüft 09.11.2026: unterschiedlicher Bezug (Material vs. Gesamtleistung bzw. anderer Bauteil) — kein Widerspruch",
+    "beispiele": [
+      "5–20 €/m in sanitaer.md:349",
+      "25–40 €/m in sanitaer.md:485",
+      "30–80 €/m in sanitaer.md:485"
+    ]
+  }
+]

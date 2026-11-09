@@ -187,12 +187,12 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | So fragt man | Datei |
 |---|---|
 | Bad sanieren, Dusche/Wanne tauschen, Feuchtraum, „Fliesen im Bad" | `bad.md` |
-| Decke streichen, spachteln, abhängen, Risse in der Decke | `decke.md` |
+| Decke streichen, spachteln, Deckenfarbe, Risse in der Decke | `decke.md` |
 | Wände spachteln/streichen/tapezieren, Wand versetzen, Nische | `waende.md` |
-| Estrich, Ausgleichsmasse, Belegreife, „Boden aufbauen", Türblatt zu niedrig | `estrich.md` |
-| Fliesen legen, verfugen, großformatig, Abdichtung unter Fliesen | `fliesen.md` |
-| Steckdose, Sicherung, FI/RCD, Verteiler, Kabel, „Strom im Bestand" | `elektro.md` |
-| Vorsatzschale, abgehängte Decke, Schacht, Brandschutz, Schallschutz | `trockenbau.md` |
+| Estrich, Estrich noch feucht, Estrich trocknet nicht, wann belegreif, Ausgleichsmasse, „Boden aufbauen", Türblatt zu niedrig | `estrich.md` |
+| Fliesen legen, Fliesenleger, auf Fliesen kleben/überkleben, verfugen, großformatig, Abdichtung unter Fliesen | `fliesen.md` |
+| Steckdose, Stromkreis, Schmelzsicherung, FI/RCD, Verteiler, Kabel, „Strom im Bestand" | `elektro.md` |
+| Vorsatzschale, Decke abhängen (Flur, Keller), Schacht, Brandschutz, Schallschutz | `trockenbau.md` |
 | Dämmen: Dach, Fassade, Kellerdecke, Innendämmung, Dampfbremse | `daemmung.md` |
 | Fenster/Türen tauschen, einstellen, aufarbeiten, RC2, Anschluss | `fenster-tueren.md` |
 | Laminat, Vinyl, Parkett, Kork, Trittschall, Sockelleisten | `bodenbelaege.md` |
@@ -206,7 +206,7 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | Elektro komplett neu (Altbau/60er), Nullung, Alu-Leiter, Zählerplatz | `elektro-60er-haus.md` |
 | Internet/Kabel/Glasfaser, HÜP, Hausnetz | `internet-kabelanschluss.md` |
 | „Haus komplett sanieren", Reihenfolge, Budget, Steuerung | `haus-komplettsanierung.md` |
-| Dachrinne, Versickerung, Zisterne, Garage | `dachentwaesserung-regenwasser.md` |
+| Dachrinne/Regenrinne läuft über, Regenwasser versickert, Zisterne, Garage | `dachentwaesserung-regenwasser.md` |
 | Smart Home nachrüsten, KNX, Funk, Datensicherheit | `smart-home-nachruesten.md` |
 | „Was sagt das Foto?", Risse, Schimmel, Pfusch erkennen | `foto-diagnose.md` |
 | Feuchter Keller, Mauerwerk, Salzausblühungen, Risse im Mauerwerk | `keller-mauerwerk.md` |
@@ -214,12 +214,12 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | Haus bauen, Baufirma auswählen, Werkvertrag, Baubegleitung, Abnahme | `hausbau-baufirma.md` |
 | „Was kostet das?", „Wie lange dauert das?", Angebot prüfen, Nachträge | `kosten-bauzeit.md` |
 | Werkzeug kaufen/leihen, Staub, Absaugung, Asbest, Entsorgung | `werkzeug-sicherheit.md` |
-| Küche planen, Arbeitshöhe, Anschlüsse, Dunstabzug, Geräte | `kueche.md` |
+| Küche planen, Arbeitshöhe, Arbeitsplatte, Steckdosen in der Küche, Anschlüsse, Dunstabzug, Geräte | `kueche.md` |
 | Fassade streichen/dämmen (außen), Terrasse, Einfahrt pflastern, Gefälle | `aussen-fassade-terrasse.md` |
-| Treppe streichen, entlacken (Blei), Belag, Geländer, Steigungsmaße | `treppe.md` |
+| Treppe streichen, entlacken (Blei), Belag, Treppengeländer, Auftritt/Steigung | `treppe.md` |
 | Dachboden ausbauen, Holzbalkendecke, Balken streichen, Holzwurm, Last | `dachboden-holzdecke.md` |
-| Entkernen, Bauschutt, Container, „was darf ich selbst rausreißen" | `entkernen-entsorgung.md` |
-| Genehmigung nötig?, Nachbar/Gerüst, Denkmalschutz, Versicherung, Helfer | `recht-renovierung.md` |
+| Entkernen, Bauschutt, Container, Dämmwolle/Kleber entsorgen, „was darf ich selbst rausreißen" | `entkernen-entsorgung.md` |
+| Genehmigung nötig?, Nachbar/Gerüst, Denkmalschutz, Versicherung, Helfer, Vorkasse, Werkvertrag, Mängel, Gewährleistung | `recht-renovierung.md` |
 
 **Bei Mischfragen** („Bad komplett") gilt die Reihenfolge, nicht das Thema: Rohinstallation → Estrich →
 Abdichtung → Fliesen → Türen. Dann mehrere Playbooks in dieser Ordnung lesen; das erste bestimmt, was
@@ -236,7 +236,7 @@ Top-Fehler-Videos (`references/fehlerkatalog.json`, Stand und aktuelle Quote in
 ```bash
 python3 scripts/fehlercheck.py --gaps        # was fehlt, gruppiert nach Playbook
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle: Zahl MUSS fallen
-python3 scripts/linkcheck.py                 # alle 736 URLs; 404 = tot, Bot-Blocker sind ausgenommen
+python3 scripts/linkcheck.py                 # alle Quellen-URLs; 404 = tot, Bot-Blocker und -k-Fälle sind ausgenommen
 python3 scripts/strukturcheck.py             # Pflichtabschnitte je Playbook, Quellenzahl, Preis-Datum
 ```
 
@@ -268,6 +268,17 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
 5. **Danach**: `fehlercheck.py`, `linkcheck.py`, Index-Zeile, `SKILL.md`-Liste, Abdeckung im README
    nachziehen.
 
+## Werkzeuge (rechnen und prüfen statt schätzen)
+
+- `scripts/material.py` — Mengen und U-Werte: `fliesen`, `ausgleich`, `farbe`, `u-wert`,
+  `heizlast`, `estrich`, `selftest`. Jede Formel nennt ihre Herkunft; Setzungen sind so markiert.
+- `scripts/fehlercheck.py` — deckt der Text die Fehler aus den Videos ab (`--gaps`, `--ablate`).
+- `scripts/strukturcheck.py` — Pflichtabschnitte, Zahlen, Quellen, Unbelegt-Liste, Preisstand.
+- `scripts/linkcheck.py` — alle Quellen-URLs (HEAD/GET, `-k`-Fallback für kaputte Zertifikatsketten).
+- `scripts/querkcheck.py` — widersprüchliche Zahlenbänder zwischen Dateien; geprüfte Ausnahmen
+  stehen in `references/querkcheck-bekannt.json`.
+- `scripts/router_test.py` — 30 Alltagsfragen gegen die Router-Tabelle (`references/router-test.json`).
+
 ## Bauen und Prüfen — Regeln, die für jede Erweiterung gelten
 
 1. **Playbook zuerst lesen, dann antworten.** Die Zahlen sind belegt, die Erinnerung nicht.
@@ -282,7 +293,11 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
    VOB/B steht **nicht** auf gesetze-im-internet.de (404) und ist kein Gesetz, sondern Vertragsbestandteil.
    Status prüfen: 200 = gut, 401/403/429 = existiert (Bot-Schutz), 404/410/000 = tot. **200 ist aber kein
    Inhaltsnachweis**: Landesrechtsportale liefern für jede Dokument-URL eine JS-Hülle mit 200 — dort den
-   Text über die amtliche PDF-Fassung holen. Tote Links im Text als tot **markieren**, nicht stillschweigend
+   Text über die amtliche PDF-Fassung holen. Auch ein PDF-Link kann mit 200 eine HTML-Seite zurückgeben:
+   dann `curl -skL -o x.pdf … && file x.pdf` prüfen und den Text mit `pdftotext -layout x.pdf -` lesen —
+   nur was im PDF steht, ist belegt. Antwortet ein Host auf 000, obwohl die Seite im Browser lädt, ist die
+   **Zertifikatskette** unvollständig (typisch kfw.de, Behörden-PDFs): `curl -k` probieren und den Link als
+   erreichbar führen, nicht als tot löschen. Tote Links im Text als tot **markieren**, nicht stillschweigend
    löschen — die Aussage verliert damit ihre Grundlage.
 5. **Kein Volltext-Zitat aus einer Norm, die man nicht gekauft hat.** Belegt sind Nummer, Titel und
    gültige Ausgabe; Inhalte nur über eine zitierende Fachquelle.
@@ -299,6 +314,22 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
    angleichen. Bleiben Einzelfassungen stehen, liefert der Skill je nach Router-Ziel eine andere Antwort —
    und die nächste Recherche muss den Widerspruch erneut auflösen. Ein korrigierter Asbest-Satz betraf
    sechs Dateien; ein Patch an einer hätte fünf falsche Fassungen konserviert.
+9. **Geld und Fristen nur aus der Primärquelle.** Fördersätze, Deckel, Stichtage und Paragraphen aus
+   Merkblatt, Richtlinie oder Gesetz holen — nicht aus Portalartikel, Verbandsblog oder Herstellerseite.
+   Widerspricht eine Sekundärquelle der Primärquelle, gilt die Primärquelle, und die Gegenangabe wandert
+   in den Abschnitt „Widersprüche" statt in den Fließtext. Beispiel aus der eigenen Arbeit: zwei
+   Fachportale nannten „15 % Grundförderung ab 2027 plus Wertschöpfungsbonus"; das KfW-Merkblatt 458
+   (Stand 09/2026) sagt **30 % Grundförderung, kein Bonus** — hätte man dem Portal geglaubt, wäre die
+   Förderberatung um mehrere Tausend Euro falsch gewesen. Regel: erst PDF laden, Text suchen
+   (`pdftotext -layout … | grep -n "Prozent"`), dann zitieren.
+10. **Neuschreiben ist ein Regressionsrisiko, nicht nur eine Verbesserung.** Wird ein Playbook von Grund
+    auf neu gebaut (mehr Quellen, bessere Struktur), verschwinden die aus Videos destillierten Regeln
+    stillschweigend — die Abdeckungsquote fällt, obwohl das Playbook belegter aussieht. Nach jedem
+    Rewrite sofort `fehlercheck.py` fahren, den Abfall als **Regressionsbefund** behandeln und die
+    verlorenen Regeln als eigenen Abschnitt („Fehler aus den Praxis-/Video-Quellen") zurückholen.
+    Umgekehrt gilt: schreibt man die fehlenden Katalogbegriffe nur ab, um die Quote zu heben, sättigt die
+    Zahl — deshalb die Ablationszahlen **immer mit** der Quote nennen (Quote = Präsenz der Regeln,
+    Qualität misst die Kalt/Warm-Probe).
 
 Änderst du an diesen Regeln etwas, laufen beide Skripte erneut — sie sind die Regression, nicht die Deko.
 

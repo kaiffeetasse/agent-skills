@@ -1,0 +1,122 @@
+[
+  {
+    "frage": "Bei uns läuft das Wasser im Waschbecken schlecht ab und es riecht aus dem Abfluss.",
+    "erwartet": "sanitaer.md"
+  },
+  {
+    "frage": "Der Estrich ist nach drei Wochen noch feucht, wann kann ich Parkett legen?",
+    "erwartet": "estrich.md"
+  },
+  {
+    "frage": "Im Bad unter der Dusche löst sich die Fuge und es ist feucht in der Ecke.",
+    "erwartet": "bad.md"
+  },
+  {
+    "frage": "Wie viele Stromkreise braucht ein Einfamilienhaus und wie sichere ich sie ab?",
+    "erwartet": "elektro.md"
+  },
+  {
+    "frage": "Reicht mein 24 Jahre alter Ölkessel noch oder brauche ich eine Wärmepumpe?",
+    "erwartet": "waermepumpe-oelheizung.md"
+  },
+  {
+    "frage": "Was bekomme ich an Förderung für Fassadendämmung und neue Fenster?",
+    "erwartet": "foerderung-steuern.md"
+  },
+  {
+    "frage": "Wie dämme ich die oberste Geschossdecke und welche Dampfbremse gehört dazu?",
+    "erwartet": "daemmung.md"
+  },
+  {
+    "frage": "Die Terrassenplatten sind abgesackt und das Gefälle stimmt nicht mehr.",
+    "erwartet": "aussen-fassade-terrasse.md"
+  },
+  {
+    "frage": "Wir wollen 10 kWp PV mit Speicher und eine Wallbox für das Elektroauto.",
+    "erwartet": "pv-speicher-wallbox.md"
+  },
+  {
+    "frage": "Im Keller riecht es modrig und die Wand ist außen feucht.",
+    "erwartet": "keller-mauerwerk.md"
+  },
+  {
+    "frage": "An der Außenwandecke im Schlafzimmer ist schwarzer Schimmel.",
+    "erwartet": "schimmel-feuchte.md"
+  },
+  {
+    "frage": "Wann muss ich einen Energieausweis vorlegen und welchen Typ?",
+    "erwartet": "energieausweis-beratung.md"
+  },
+  {
+    "frage": "Der Elektriker will den ganzen Verteiler neu machen, was kostet das im Altbau?",
+    "erwartet": "elektro-60er-haus.md"
+  },
+  {
+    "frage": "Lohnt sich ein Kabelanschluss oder soll ich auf Glasfaser warten?",
+    "erwartet": "internet-kabelanschluss.md"
+  },
+  {
+    "frage": "Wir kaufen ein Haus von 1966, komplett sanieren oder abreißen?",
+    "erwartet": "haus-komplettsanierung.md"
+  },
+  {
+    "frage": "Wie lange dauert die Sanierung und was kostet die Bauleitung?",
+    "erwartet": "kosten-bauzeit.md"
+  },
+  {
+    "frage": "Der Fliesenleger will auf die alte Fläche kleben, geht das?",
+    "erwartet": "fliesen.md"
+  },
+  {
+    "frage": "Wie hoch muss ein Treppengeländer sein und welcher Auftritt ist zulässig?",
+    "erwartet": "treppe.md"
+  },
+  {
+    "frage": "Muss ich beim Ausbau alte Dämmwolle und Kleber entsorgen lassen?",
+    "erwartet": "entkernen-entsorgung.md"
+  },
+  {
+    "frage": "Der Handwerker will Vorkasse, wie sichere ich mich vertraglich ab?",
+    "erwartet": "recht-renovierung.md"
+  },
+  {
+    "frage": "Welche Absaugung brauche ich für den Stemmhammer und was kostet die Miete?",
+    "erwartet": "werkzeug-sicherheit.md"
+  },
+  {
+    "frage": "Kann ich die Decke im Flur abhängen und was sagt der Brandschutz?",
+    "erwartet": "trockenbau.md"
+  },
+  {
+    "frage": "Der Dachboden ist ungedämmt, was kostet der Ausbau zur Wohnfläche?",
+    "erwartet": "dachboden-holzdecke.md"
+  },
+  {
+    "frage": "Welche Heizung ist günstiger im Betrieb, Pellets oder Fernwärme?",
+    "erwartet": "heizung-alternativen.md"
+  },
+  {
+    "frage": "Soll ich smarte Heizkörperthermostate und einen Rauchmelder nachrüsten?",
+    "erwartet": "smart-home-nachruesten.md"
+  },
+  {
+    "frage": "Die Regenrinne läuft über und das Regenwasser versickert nicht.",
+    "erwartet": "dachentwaesserung-regenwasser.md"
+  },
+  {
+    "frage": "Ich habe ein Foto von einem Riss, ist das schlimm?",
+    "erwartet": "foto-diagnose.md"
+  },
+  {
+    "frage": "Neue Arbeitsplatte in der Küche, welche Höhe und wo die Steckdosen?",
+    "erwartet": "kueche.md"
+  },
+  {
+    "frage": "Fenster sind undicht und ziehen, tauschen oder nur einstellen?",
+    "erwartet": "fenster-tueren.md"
+  },
+  {
+    "frage": "Welchen Boden lege ich auf die Fußbodenheizung, Laminat oder Vinyl?",
+    "erwartet": "bodenbelaege.md"
+  }
+]

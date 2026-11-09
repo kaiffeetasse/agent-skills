@@ -195,7 +195,10 @@ Heizlast [kW] ≈ Jahresverbrauch [kWh] / 2.000 h        (Vollbenutzungsstunden,
 1 l Heizöl EL = 10,0 kWh Heizwert (Hu)                 [Q31]
 ```
 
-Beispiel: 2.500 l → 25.000 kWh → **12,5 kW**. Im Fachforum wird für 3.500 l „grob 16 kW“ genannt `[Q27]` — dieselbe Größenordnung.
+Beispiel: 2.500 l → 25.000 kWh → **12,5 kW** (ohne Wirkungsgradabzug). Mit 85 % Kesselwirkungsgrad sind es
+**10,6 kW** — beide Werte sind Überschläge, die Spanne ist ehrlicher als eine Zahl. Für die Auslegung gilt
+**DIN EN 12831 raumweise**; `scripts/material.py heizlast --oel-liter 2500` rechnet beide Varianten vor.
+Im Fachforum wird für 3.500 l „grob 16 kW" genannt `[Q27]` — dieselbe Größenordnung.
 
 **Der Widerspruch:** Die Baujahrstabelle von heizung.de nennt für Gebäude **bis 1977 rund 160 W/m²** `[Q19]`; bei 150 m² wären das **24 kW** — fast das Doppelte des Verbrauchswerts. Beide Zahlen sind veröffentlicht, beide sind grob. Deshalb gilt: **raumweise Heizlast nach DIN EN 12831** ist die Entscheidungsgrundlage, der Überschlag nur die Plausibilitätsprüfung `[Q19][Q01]` (§ 60c verlangt genau dieses Verfahren). Ein zu groß gewähltes Gerät taktet, verschleißt und erreicht die JAZ nicht `[Q18]`.
 

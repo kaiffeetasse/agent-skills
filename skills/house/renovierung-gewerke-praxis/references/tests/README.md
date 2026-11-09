@@ -78,6 +78,10 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
   stattdessen ≥ 5 Paragraphen), ≥ 8 Quellen-URLs, „Unbelegt“-Abschnitt, Preisbänder mit Jahresangabe.
 - `~/.hermes/scripts/renov_skill_health.py` — Cron-Wächter, kombiniert Abdeckung und Links, schweigt im
   Normalfall.
+- **GitHub Actions** (`.github/workflows/skills-checks.yml` in der veröffentlichten Kopie): zwei Jobs.
+  `schnell` läuft bei jedem Push (strukturcheck + fehlercheck, Sekunden); `links` läuft monatlich und per
+  `workflow_dispatch`, weil 1.100+ URLs den Runner sonst in den Timeout treiben und der Push rot wird,
+  ohne dass der Inhalt schuld ist. Schlägt `schnell` fehl, ist es ein echter Befund — nicht ignorieren.
 
 ### Fallstricke der Linkprüfung (alle aufgetreten, alle im Skript behoben)
 
@@ -89,7 +93,11 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
 - **Dauerhaft blockende Hosts** (kfw.de, landesrecht-bw.de, service-bw.de) liefern grundsätzlich 000/403:
   als „bekannt blockiert" zählen, nicht als tot. Der Inhalt ist über Browser bzw. amtliche PDFs geprüft.
 - **200 ≠ Inhalt**: bei JS-Portalen liefert jede Dokument-URL eine Hülle mit 200. Vor dem Zitieren den
-  Text tatsächlich lesen, sonst wandert eine leere Seite als Beleg in den Skill.
+  Text tatsächlich lesen, sonst wandert eine leere Seite als Beleg in den Skill. Dasselbe gilt für
+  PDF-Links: `file x.pdf` prüfen — kommt HTML zurück, ist das Dokument verschwunden, obwohl der Status 200 ist.
+- **000 trotz lebender Seite = Zertifikatskette**: kfw.de und mehrere Behörden-PDFs antworten ohne `-k`
+  mit 000, mit `curl -k` mit 200. Solche Links als erreichbar führen (im Skript `200*`), nicht löschen —
+  sonst verliert der Skill eine gültige Primärquelle. Vor dem Löschen immer erst `-k` probieren.
 - **URLs aus Markdown nicht raten**: erst prüfen, dann als tot markieren *und* die URL entfernen — bleibt sie
   stehen, meldet der Wächter sie jeden Montag erneut und man gewöhnt sich an die Meldung.
 
@@ -98,6 +106,41 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
 Stichprobe der Playbook-Zahlen gegen die Originalquelle (Herstellerdatenblatt, Normenportal, Video-
 Transkript). Wird bei jeder Änderung an Zahlen wiederholt; Ergebnisse stehen in
 `../../references/quellen.md`.
+
+**Geld und Fristen nur aus der Primärquelle.** Fördersätze, Deckel, Stichtage und Paragraphen gegen
+Merkblatt, Richtlinie oder Gesetz prüfen — nicht gegen Portalartikel, ADAC/Verbraucherportale oder
+Herstellerblogs. Ablauf für PDF-Primärquellen:
+
+```bash
+curl -skL -m 60 -o m.pdf "<merkblatt-url>" -w "%{http_code}\n"
+file m.pdf                      # 200 + HTML statt PDF = Dokument ist weg, nicht „vorhanden“
+pdftotext -layout m.pdf m.txt   # dann im Text suchen, nicht im Kopf
+ grep -n -E "Prozent|2027|Höchstbetrag" m.txt
+```
+
+Belegter Fall: zwei Fachportale schrieben „15 % Grundförderung ab 2027 plus Wertschöpfungsbonus“; das
+**KfW-Merkblatt 458 (Stand 09/2026)** sagt im Volltext **30 % Grundförderung, kein Bonus**, Deckel 70 %
+(80 % nur bei zvE ≤ 30.000 €), Höchstbetrag 28.000 € mit −750 € je Halbjahr ab 01.02.2027. Der Fehler
+stand in **zwei** Playbooks und wurde vom Warm-Lauf brav weitergegeben — ein Skill mit Sekundärquelle
+verstärkt einen Fehler, statt ihn abzufangen. Konsequenz: bei jedem Kalt/Warm-Lauf die warme Antwort
+zusätzlich gegen die Primärquelle prüfen, sonst misst man nur, ob das Modell den Skill wiederholt.
+
+## Test 3b — Themenweise Kalt/Warm-Probe (mehrere Fragen je Lauf)
+
+Für einen ganzen Themenblock (z. B. Wärmepumpe, PV, Elektro-Altbau, Kabel, Förderung, Komplettsanierung):
+
+1. **Paare bilden**: gleiche Frage zweimal, einmal „nur Allgemeinwissen, keine Dateien/Skills“, einmal
+   „lies SKILL.md + zuständiges Playbook“. Beide Läufe ohne Kenntnis des anderen.
+2. **Beide Läufe parallel** starten (je ein Subagent pro Frage), damit keine Absprache entsteht.
+3. **Bewertung in drei Spalten**: was kalt richtig war, was kalt falsch war (mit Paragraph/Datum), was
+   warm zusätzlich liefert. Struktur und Ablauf sind meist schon kalt gut — der Unterschied zeigt sich
+   bei Zahlen, Fristen, Ausschlussregeln.
+4. **Warm mitprüfen**: jede warme Zahl, die aus dem Skill stammt, gegen die Primärquelle (Test 3).
+   Sonst dokumentiert man die Skill-Fehler als Erfolg.
+
+Erfahrungswert: kalte Antworten sind bei Struktur inzwischen stark und fallen vor allem bei
+Rechts-/Fördersätzen durch (weggefallene Pflichten, alte Deckel). Diese Fehler sind der eigentliche
+Nutzen des Playbooks — sie gehören in die Antwort, nicht nur in die Belegliste.
 
 ## Test 4 — Katalog-Pflege: Regel oder Anekdote?
 Der Katalog wird aus Videos gebaut und ist damit voll von Projekt-Details. Wird jedes Detail als
