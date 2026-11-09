@@ -350,7 +350,7 @@ Alle URLs am 09.11.2026 abgerufen; Status in Klammern.
   https://steuerportal-mv.de/static/Regierungsportal/Finanzministerium/Steuerportal/Dateien/Downloads/Merkblatt_zu_Steuerbegnstigungen_und_staatliche_Zulagen_zu_Baufrderung_neu.pdf
   (200)
 
-**Geprüft und tot:** `https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Grundsteuer/grundsteuer.html`
+**Geprüft und tot:** `https://www.gesetze-im-internet.de/grstg_1973/__15.html (BMF-Seite am 09.11.2026 HTTP 404 — Steuermesszahl im Gesetzestext geprüft)`
 → **404**. Ersatz: Q15.
 
 **Anzahl geprüfter Quellen: 22** — 7 Gesetze (Q1–Q4, Q13, Q14, Q21), 2 Förderrichtlinien (Q5, Q7),

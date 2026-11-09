@@ -56,7 +56,8 @@ Widerspruch — nicht der Mittelwert.
 
 ## Quellenstand
 
-**736 URLs, 734 erreichbar, 0 tot**, 2 bekannt blockiert (kfw.de, landesrecht-bw.de — Inhalt über Browser
+**1.029 URLs, 1.029 erreichbar, 0 tot**, 13 nur mit `-k` erreichbar (unvollständige Zertifikatskette,
+Inhalt lädt trotzdem — kfw.de und einzelne Behörden-PDFs). Stand 09.11.2026, `scripts/linkcheck.py`.
 geprüft). Stand 09.11.2026, geprüft mit `scripts/linkcheck.py`.
 
 ## Prüfstand

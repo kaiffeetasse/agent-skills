@@ -266,7 +266,7 @@ Das war die Vorgabe, und sie hält der Prüfung nicht stand:
 | Q10 | Homematic IP, „Rauchwarnmelder", https://homematic-ip.com/de/produkt/rauchwarnmelder | H | 200 m, 10 Jahre Batterie, > 85 dB, Access Point nötig |
 | Q11 | Aqara, „Hub M1S Gen 2", https://www.aqara.com/de/product/hub-m1s-gen-2 | H | Zigbee 3.0, 128 Geräte, 2,4 GHz, lokale Automatisierungen, Matter per OTA |
 | Q12 | Geizhals, „Aqara Hub M1S Gen2", https://geizhals.at/aqara-hub-m1s-gen2-hm1s-g02-a2767678.html | P | Preis 44,36 € |
-| Q13 | ELV Journal, „Reichweitenverlängerung im Homematic IP System", https://de.elv.com/elvjournal/homematic-ip-reichweite-erhoehen/ | H (Fachbeitrag) | Volltext; Dämpfungstabelle: Außenwand 60 %, Decke 70 %, Stahlbeton 30–90 %, Metallgewebe 100 % |
+| Q13 | ELV Journal, „Reichweitenverlängerung im Homematic IP System", — *ELV-Journal „Homematic IP Reichweite erhöhen“: HTTP 404 am 09.11.2026, Link entfernt; Reichweiten als Herstellerangabe markiert.* | H (Fachbeitrag) | Volltext; Dämpfungstabelle: Außenwand 60 %, Decke 70 %, Stahlbeton 30–90 %, Metallgewebe 100 % |
 | Q14 | Wikipedia „ZigBee", https://de.wikipedia.org/wiki/Zigbee | C | Volltext; 2,4 GHz, Mesh, bis 100 m innen / 300 m Sichtlinie |
 | Q15 | Aeotec, „What is Z-Wave?", https://aeotec.com/zwave/ | H | Volltext; Mesh, „bis 300 m", S2-Sicherheit, 868 MHz |
 | Q16 | heise online, „Matter 1.4 …", https://www.heise.de/news/Matter-1-4-eint-konkurrierende-Funknetze-und-hilft-bei-der-Energiewende-10007636.html | F | Volltext; Border Router, konkurrierende Thread-Netze, HRAP, Multi-Admin |

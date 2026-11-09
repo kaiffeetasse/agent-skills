@@ -62,6 +62,18 @@ def check(url: str, timeout: int) -> tuple[str, str]:
                     return url, code
             except Exception:
                 pass
+        if attempt == 1:
+            # Letzter Versuch ohne Zertifikatspruefung: manche Behoerden-PDFs liefern eine unvollstaendige
+            # Kette. Reachable aber TLS-kaputt ist ein Hinweis, kein toter Link.
+            for mode in (["-I"], []):
+                try:
+                    r = subprocess.run(base[:1] + ["-k"] + mode + base[1:] + [url],
+                                       capture_output=True, text=True, timeout=timeout + 5)
+                    code = r.stdout.strip()
+                    if code and code != "000":
+                        return url, "200*"
+                except Exception:
+                    pass
         if attempt == 0:
             time.sleep(2)
     return url, "000"
@@ -84,9 +96,10 @@ def main() -> int:
     dead = {u: c for u, c in results.items() if c in {"404", "410"}}
     blocked = {u: c for u, c in results.items()
                if c == "000" and not any(h in u for h in BLOCKED_HOSTS)}
+    tls = {u: c for u, c in results.items() if c == "200*"}
     known = {u: c for u, c in results.items()
              if c == "000" and any(h in u for h in BLOCKED_HOSTS)}
-    ok = len(results) - len(dead) - len(blocked) - len(known)
+    ok = len(results) - len(dead) - len(blocked) - len(known) - len(tls)
 
     if args.all:
         for u, c in sorted(results.items(), key=lambda kv: kv[1]):
@@ -97,7 +110,9 @@ def main() -> int:
         for u, c in sorted(blocked.items()):
             print(f"  KEINE ANTWORT  {u}\n        in: {', '.join(sorted(found[u]))}")
 
-    print(f"\n{ok} ok, {len(dead)} tot, {len(blocked)} ohne Antwort, "
+    for u in sorted(tls):
+        print(f"  TLS-Kette unvollstaendig (Inhalt erreichbar): {u}")
+    print(f"\n{ok} ok, {len(dead)} tot, {len(blocked)} ohne Antwort, {len(tls)} nur mit -k erreichbar, "
           f"{len(known)} bekannt blockiert (Bot-Schutz, Inhalt per Browser geprueft)")
     return 0 if not dead and not blocked else 1
 
