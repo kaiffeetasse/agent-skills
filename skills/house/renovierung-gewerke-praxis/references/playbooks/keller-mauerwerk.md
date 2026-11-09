@@ -460,6 +460,23 @@ Feuchte im Keller
   weil Wasserhaltung, Auftriebssicherung und Aushubtiefe (bis ~1 m bis hartes Gestein) nachträglich
   anfallen (nul-03).
 
+## Radon — der Schadstoff, den niemand riecht
+
+Radon ist ein radioaktives Edelgas aus dem Boden. Es tritt in Kellern und Erdgeschossen auf, ist geruchlos
+und wird beim Renovieren oft übersehen — gerade dann, wenn ohnehin aufgegraben und abgedichtet wird.
+
+- **Referenzwert: 300 Becquerel je Kubikmeter** (über das Jahr gemittelt, in Aufenthaltsräumen) —
+  § 124 StrlSchG, Volltext: https://www.gesetze-im-internet.de/strlschg/__124.html
+- **Vorsorgegebiete** legt jedes Land per Rechtsverordnung fest. Wer dort baut oder saniert, muss messen
+  und Schutzmaßnahmen prüfen; die Karte führt das BfS (https://www.bfs.de/DE/themen/ion/umwelt/radon/radon_node.html).
+- **Messen, nicht schätzen**: Messung über die Heizperiode (Oktober bis März, mindestens drei Monate) mit
+  zugelassenen Exposimetern; Kurzzeitmessungen taugen nur als Hinweis.
+- **Was beim Renovieren hilft**: dichte Bodenplatte und Anschlüsse, Abdichtung gegen Erdreich, Lüftung
+  (auch kontrollierte Lüftung mit Radon-Erfassung), Unterdruck vermeiden. Eine nachträgliche Abdichtung
+  ist günstiger als eine Sanierung nach der Messung.
+- **Unbelegt hier**: Kosten für Radonmessungen je Region und die Wirksamkeit einzelner Maßnahmen in
+  Zahlen — dafür ist eine Messreihe vor und nach der Sanierung nötig.
+
 ## Unbelegt
 
 - Erfolgsquote von Innenabdichtungssystemen über 10+ Jahre — keine belastbare Langzeitstudie gefunden.

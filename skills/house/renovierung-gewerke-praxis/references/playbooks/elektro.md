@@ -498,3 +498,7 @@ Der Vergleich mit einer Antwort ohne Wissensbasis hat gezeigt: Das Playbook war 
   (DIN VDE 0100-430); ein FI schützt Personen, nicht die Leitung.
 - **Prüfen statt glauben**: Auslösezeit und Auslösestrom werden gemessen (DIN VDE 0100-600), die Prüftaste
   am Gerät ist nur ein Funktionstest.
+
+- **PEN-Auftrennung nach DIN VDE 0100-540**: Wo aus einem TN-C-System ein TN-S wird, muss der PEN an der
+  vorgesehenen Stelle in PE und N getrennt werden — danach nie wieder verbinden. Ohne durchgehenden,
+  getrennten Schutzleiter ist die Anlage kein sauberes TN-S-System.

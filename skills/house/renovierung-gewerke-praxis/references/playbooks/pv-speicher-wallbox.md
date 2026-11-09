@@ -536,6 +536,21 @@ Was hier **nicht** steht, weil ich es nicht mit einer prüfbaren Quelle belegen 
 
 ---
 
+## Balkonkraftwerk (Steckersolar) — die kleine Schwester der Dachanlage
+
+- **Grenzen seit dem Solarpaket**: Modulleistung bis **2.000 W (2 kW)**, Wechselrichterleistung zusammen
+  **maximal 800 VA**; mehrere Geräte werden zusammengerechnet (BNetzA-FAQ, Stand 21.02.2025:
+  https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Balkon_table.html).
+- **Anmeldung**: im **Marktstammdatenregister** registrieren (Pflicht, kostenlos); die Meldung beim
+  Netzbetreiber entfällt für Steckersolargeräte nach der Sonderregelung — der Zähler wird bei
+  Rücklaufhemmung getauscht, nicht zwingend gegen einen Zweirichtungszähler.
+- **Steckdose**: Betrieb an einer normalen Schuko-Steckdose ist zulässig, aber nur mit den vom
+  Wechselrichter geforderten Schutzmaßnahmen; ein eigener Stromkreis mit Absicherung ist die saubere
+  Lösung, wenn die Leitung alt ist (siehe `elektro-60er-haus.md`).
+- **Wirtschaftlich** ist das Gerät kein Ersatz für eine Dachanlage: 800 W Einspeisegrenze, hoher
+  Eigenverbrauchsanteil, aber kleiner Ertrag — für Mietwohnung und kleine Grundlast sinnvoll, für ein
+  ganzes Haus nicht.
+
 ## 13. Die zehn Regeln zum Mitnehmen
 
 1. **Verbrauch messen, dann kWp wählen.** Ohne Zwölf-Monats-Daten ist jede Auslegung geraten.
