@@ -60,6 +60,13 @@ Widerspruch — nicht der Mittelwert.
 Inhalt lädt trotzdem — kfw.de und einzelne Behörden-PDFs). Stand 09.11.2026, `scripts/linkcheck.py`.
 geprüft). Stand 09.11.2026, geprüft mit `scripts/linkcheck.py`.
 
+## Quellenqualität (Stichprobe)
+
+`sanitaer.md` hatte als einziges Playbook **null Inline-Zitate** bei 157 Zahlen — jetzt tragen **77 %** der
+Zahlenzeilen einen `[Q]`-Verweis (Q1–Q38, jede Nummer definiert), 14 Werte sind ausdrücklich als
+Erfahrungswert in die „Unbelegt"-Liste verschoben, drei interne Widersprüche (Vorwandtiefe, Gefälle,
+Preisbasis netto/brutto) stehen offen statt gemittelt.
+
 ## Prüfstand
 
 Alle Playbooks werden gegen **130 Fehler aus zehn Top-Fehler-Videos** geprüft
