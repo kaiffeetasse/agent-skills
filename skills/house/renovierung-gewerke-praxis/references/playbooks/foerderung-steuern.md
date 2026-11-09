@@ -26,19 +26,21 @@ Die Regel, die alles bestimmt: **dieselbe Maßnahme nur einmal fördern, verschi
 geteilt werden** — Hülle über BAFA, Heizung über KfW 458, Bad über § 35a, alles in einem Projekt [Q5 Nr. 8.6].
 
 2026 ist ein Reformjahr: Die neuen BEG-Richtlinien gelten seit **21.07.2026** und laufen bis **31.12.2030**
-[Q5, Q7]. Der **Klimageschwindigkeitsbonus** liegt seitdem bei 16 % (vorher 20 %) und sinkt halbjährlich um
-4 Prozentpunkte [Q8]. Der **Effizienzbonus** und der **Emissionsminderungszuschlag** sind ersatzlos entfallen
-[Q8]. Ab **Q1 2027** fällt die Grundförderung für Wärmepumpen von 30 % auf 15 %; dafür kommt ein
-**Wertschöpfungsbonus** von 15 % für Wärmepumpen mit EU-Ursprung [Q5 Nr. 8.4.1c, 8.4.6; Q8].
+[Q5, Q7]. Der **Klimageschwindigkeitsbonus** liegt bei **16 %** und sinkt erstmals zum **01.02.2027**, danach
+halbjährlich um 4 Prozentpunkte; ab **01.08.2028** gibt es ihn nicht mehr (KfW-Merkblatt 458, Stand 09/2026,
+am 09.11.2026 im PDF geprüft). Der **Effizienzbonus** und der **Emissionsminderungszuschlag** sind ersatzlos
+entfallen [Q8]. Die **Grundförderung bleibt 30 %** — das Merkblatt nennt keine Absenkung und keinen
+Wertschöpfungsbonus; eine anderslautende Angabe („15 % ab 2027") steht unten in den Widersprüchen und ist
+**nicht belegt**.
 
-Wer eine Wärmepumpe braucht, hat 2026 den besseren Deal als 2027 — und wer nur die Hülle dämmt, verliert
-nichts, weil dort 15 % konstant bleiben [Q5 Nr. 8.4.1a].
+Wer eine Wärmepumpe braucht, verliert durch Warten trotzdem Geld: **KGB −4 Punkte je Halbjahr** und
+**Förderhöchstbetrag −750 € je Halbjahr** ab 01.02.2027.
 
 ## 1. Die Förderwege im Überblick
 
 | Weg | Was wird gefördert | Wie viel (2026) | Antragsstand / Laufzeit | Quelle |
 |---|---|---|---|---|
-| **BAFA BEG EM** – Gebäudehülle | Dämmung, Fenster, Außentüren, sommerlicher Wärmeschutz | **15 %**; +5 % iSFP (nur oberhalb der Grundgrenze), +5 % WPB ab Q1/2027; max. **30.000 €**, mit iSFP **60.000 €** förderfähige Ausgaben je WE | Antrag jederzeit; Richtlinie 21.07.2026–31.12.2030; Bewilligungszeitraum 36 Monate | [Q5, Q6, Q9] |
+| **BAFA BEG EM** – Gebäudehülle | Dämmung, Fenster, Außentüren, sommerlicher Wärmeschutz | **15 %**; +5 % iSFP (nur oberhalb der Grundgrenze); max. **30.000 €**, mit iSFP **60.000 €** förderfähige Ausgaben je WE | Antrag jederzeit; Richtlinie 21.07.2026–31.12.2030; Bewilligungszeitraum 36 Monate | [Q5, Q6, Q9] |
 | **BAFA BEG EM** – Anlagentechnik (außer Heizung) | Lüftung mit WRG, MSR-Technik | **15 %**, gleiche Höchstgrenze wie Hülle | wie oben | [Q5, Q6] |
 | **BAFA BEG EM** – Heizungsoptimierung | hydraulischer Abgleich, Effizienzpumpen | **15 %**; Emissionsminderung **50 %** | wie oben | [Q5 Nr. 8.4.1d] |
 | **BAFA BEG EM** – Fachplanung/Baubegleitung | Energieberater-Leistung im Projekt | **50 %**, gedeckelt **5.000 €** (EFH/ZFH) | wie oben | [Q5 Nr. 8.3.1b, 8.4.7] |
@@ -66,17 +68,17 @@ werden nach altem Recht beschieden [Q5 Nr. 10]. Die Änderungen in der Reihenfol
    Investitionsvolumen und nur für die Ausgaben, die die 30.000-€-Grenze *übersteigen* — und er hebt
    gleichzeitig die Höchstgrenze auf 60.000 € [Q5 Nr. 8.4.2; Q6]. Praktisch: 15 % auf 60.000 € plus 5 % auf
    die zweiten 30.000 € = **10.500 €** statt 9.000 €.
-4. **Wärmepumpen: 30 % nur noch bis Ende 2026.** Ab Q1 2027 beträgt der Fördersatz **15 %**, dafür kommt der
-   **Wertschöpfungsbonus 15 %** für Wärmepumpen mit Ursprung in der Union [Q5 Nr. 8.4.1c, 8.4.6; Q8].
-   Ob der Bonus den Wegfall ausgleicht, hängt am Fabrikat — wer eine EU-Wärmepumpe kauft, landet wieder bei
-   rund 30 %, wer eine importierte kauft, bei 15 %.
+4. **Wärmepumpen: 30 % Grundförderung bleibt.** Das KfW-Merkblatt 458 (Stand 09/2026, gültig ab 24.09.2026)
+   sagt wörtlich „Zuschuss in Höhe von 30 Prozent" und kennt **keinen Wertschöpfungsbonus**.
+   Die in einer Sekundärquelle genannte Absenkung auf 15 % ab Q1 2027 ist **hier nicht belegt** und steht
+   deshalb nur in den Widersprüchen — wer damit plant, prüft sie am Merkblatt [Q8].
 5. **Effizienzhaus-Kredit 261 ist deutlich schwächer geworden**: Tilgungszuschuss nur noch **5 % (EH 55,
    EH Denkmal) / 10 % (EH 40)**, für EH 70 und EH 85 **0 %** [Q10, Q7, Q12]. Die Sätze der Vorgängerrichtlinie
    stehen hier nicht, weil sie für 2026 nichts mehr nützen — wer sie braucht, liest das alte Merkblatt.
    Zusätzlich müssen **65 %** des Wärme- und Kältebedarfs aus erneuerbaren Energien oder unvermeidbarer
    Abwärme kommen [Q10].
-6. **WPB-Bonus (5 Prozentpunkte, Gebäudehülle) erst ab Q1 2027**, höchstens für drei Anträge, und nur mit
-   iSFP [Q5 Nr. 8.4.3].
+6. **WPB-Bonus (5 Prozentpunkte, Gebäudehülle, angeblich ab Q1 2027)** — in einer Sekundärquelle genannt,
+   im Merkblatt 458 **nicht** enthalten. Vor dem Antrag prüfen, nicht einplanen.
 7. **Einkommensbonus ist sozial gestaffelt** und ersetzt den früheren pauschalen Zuschlag: 40 % bis 30.000 €,
    30 % bis 40.000 €, 10 % bis 50.000 € zu versteuerndes Haushaltsjahreseinkommen; je minderjährigem Kind
    **10.000 €** pauschale Erhöhung der Grenze [Q5 Nr. 8.4.5; Q8].
@@ -297,7 +299,7 @@ Alle URLs am 09.11.2026 abgerufen; Status in Klammern.
 - **[Q4]** § 10f EStG (Steuerbegünstigung für zu eigenen Wohnzwecken genutzte Baudenkmale) —
   https://www.gesetze-im-internet.de/estg/__10f.html (200, Volltext geprüft)
 - **[Q5]** Förderrichtlinie BEG – Einzelmaßnahmen (BEG EM) vom 17.07.2026, in Kraft 21.07.2026 bis
-  31.12.2030 — https://energiewechsel.de/KAENEF/Redaktion/DE/PDF-Anlagen/BEG/beg-richtlinien-juli-2026/20260720-beg-einzelmassnahmen.pdf
+  31.12.2030 — https://energiewechsel.de/KAENEF/Redaktion/DE/PDF-Anlagen/BEG/beg-richtlinien-juli-2026/20260720-beg-einzelmassnahmen.pdf (liefert am 09.11.2026 HTML statt PDF — Richtlinientext damit nicht mehr abrufbar, Aussagen daraus nur noch über Merkblatt 458 belegt)
   (200; PDF vollständig ausgewertet: Nr. 5.3, 8.3, 8.4, 8.6, 9.2.1, 9.4.1, 9.5, 10)
 - **[Q6]** BAFA, Einzelmaßnahmen an der Gebäudehülle (15 %, Höchstgrenzen 30.000/60.000 €, iSFP-Bonus ab
   30.000 €) — https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Sanierung_Wohngebaeude/Gebaeudehuelle/gebaeudehuelle_node.html

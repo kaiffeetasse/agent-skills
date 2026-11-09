@@ -143,7 +143,11 @@ Rechenweg: Satz = 0,30 + 0,16 + Bonus, gedeckelt auf 0,80; Zuschuss = min(Satz; 
 
 - **KGB:** ab 01.02.2027 halbjährlich −4 Prozentpunkte; **ab Antragstellung 01.08.2028 = 0** `[Q09]`.
 - **förderfähige Kosten:** ab 01.02.2027 halbjährlich −750 €, Ende 2030 bei 22.000 € `[Q09][Q11]`.
-- **Ab Q1 2027:** Grundförderung sinkt für alle Geräte auf **15 %**, dafür **Wertschöpfungsbonus 15 %** für Wärmepumpen aus EU-Produktion; Startdatum und Herkunftskriterien „noch nicht final fest“ `[Q11]`.
+- **Ab Q1 2027 (strittig):** ADAC und ELCO nennen eine Absenkung der Grundförderung auf **15 %** mit einem
+  **Wertschöpfungsbonus 15 %** für Wärmepumpen aus EU-Produktion. Das **KfW-Merkblatt 458** (Stand 09/2026,
+  gültig ab 24.09.2026, am 09.11.2026 im PDF geprüft) sagt dagegen **30 % Grundförderung** und enthält
+  weder Absenkung noch Bonus. **Nicht gemittelt:** für die Planung gilt das Merkblatt, die Gegenangabe
+  bleibt offen und ist vor Antragstellung zu prüfen.
 - **Austausch einer bestehenden Wärmepumpe:** bis 31.12.2026 regulär förderfähig; ab Q1 2027 nur noch für Anlagen mit Einbau **vor 2008**, dann 25 % gedeckelt `[Q11]`.
 
 ### 2.4 Antragsweg und die Falle, die Geld kostet
@@ -487,7 +491,7 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 | Q08 | BBSR/Bund: „Neuregelungen mit dem GModG“ (Inkrafttreten, §§ 71–73 entfallen, Bio-Treppe, 2027 EPBD) | https://gmodg.bund.de/GModG/DE/GModGRegelungen/GModG_neu/GModG_neu-node.html | abgerufen 09.11.2026 |
 | Q09 | KfW, Infografik „Neue Bedingungen der Heizungsförderung“ (30 %, 16 %, 40/30/10 %, 28.000 €, 22.400 €) | https://www.kfw.de/PDF/Download-Center/F%C3%B6rderprogramme-(Inlandsf%C3%B6rderung)/PDF-Dokumente/Infografik_Heizungsf%C3%B6rderung_Anpassungen_Juli_2026.pdf | Stand 21.07.2026 |
 | Q10 | KfW Merkblatt 358/359 Ergänzungskredit (120.000 €, 90.000 € Einkommen, Laufzeiten) | https://kfw.de/PDF/Download-Center/F%C3%B6rderprogramme-(Inlandsf%C3%B6rderung)/PDF-Dokumente/6000005135_M_358_359.pdf | gültig ab 24.09.2026 |
-| Q11 | ADAC: KfW-Heizungsförderung 2026 (Neustart 21.07.2026, Bonusentfall, Wertschöpfungsbonus ab Q1 2027, BAFA 15 %) | https://www.adac.de/rund-ums-haus/energie/spartipps/foerderung-heizung/ | abgerufen 09.11.2026 |
+| Q11 | ADAC: KfW-Heizungsförderung 2026 (Neustart 21.07.2026, Bonusentfall, Wertschöpfungsbonus ab Q1 2027 genannt — steht im Widerspruch zum KfW-Merkblatt 458, das 30 % Grundförderung ausweist) | https://www.adac.de/rund-ums-haus/energie/spartipps/foerderung-heizung/ | abgerufen 09.11.2026 |
 | Q12 | Heid Energieberatung: „Austauschpflicht abgeschafft“ (30-Jahre-Regel, 2045-Verbot, Gasetagenheizung) | https://www.heid-energieberatung.de/ratgeber/heizung-austauschpflicht/ | aktualisiert 29.08.2026 |
 | Q13 | § 35c EStG Volltext (7/7/6 %, 40.000 €, Doppelförderungsverbot) | https://www.gesetze-im-internet.de/estg/__35c.html | 09.11.2026 |
 | Q14 | ESanMV Volltext (Anlage 6: JAZ ≥ 3,0 nach VDI 4650; natürliche Kältemittel ab 01.01.2028) | https://www.gesetze-im-internet.de/esanmv/BJNR000300020.html | 09.11.2026 |
