@@ -12,9 +12,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  renovierung:
+  # Schnell: läuft bei jedem Push, antwortet in Sekunden.
+  schnell:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,6 +27,17 @@ jobs:
       - name: Fehlerabdeckung
         working-directory: skills/house/renovierung-gewerke-praxis
         run: python3 scripts/fehlercheck.py
-      - name: Links
+
+  # Langsam (über 1.100 URLs): nur monatlich und auf Zuruf, damit ein Push nicht 20 Minuten blockiert.
+  links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Alle Quellen-URLs prüfen
         working-directory: skills/house/renovierung-gewerke-praxis
-        run: python3 scripts/linkcheck.py --jobs 4
+        run: python3 scripts/linkcheck.py --jobs 8
