@@ -175,17 +175,8 @@ Für konkrete Fragen („wie renoviere ich mein Bad?“, „wie erneuere ich die
 XY?“) liegen fertige Playbooks in `references/playbooks/`: Kurzantwort, Reihenfolge mit Tagen, Zahlen,
 Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbetrieb“, Quellen.
 
-- **36 Playbooks** in `references/playbooks/` (Abdeckung 154/154 Katalogfehler, Strukturcheck 0 Verstöße) (Index und Prüfstand: `references/playbooks/README.md`):
-  `bad.md`, `decke.md`, `waende.md`, `estrich.md`, `fliesen.md`, `elektro.md`, `trockenbau.md`,
-  `daemmung.md`, `fenster-tueren.md`, `bodenbelaege.md`, `sanitaer.md`, `heizung-lueftung.md`,
-  `keller-mauerwerk.md`, `schimmel-feuchte.md`, `hausbau-baufirma.md`, `kosten-bauzeit.md`,
-  `werkzeug-sicherheit.md`, `kueche.md`, `aussen-fassade-terrasse.md`, `treppe.md`,
-  `dachboden-holzdecke.md`, `entkernen-entsorgung.md`, `recht-renovierung.md`,
-  `waermepumpe-oelheizung.md`, `pv-speicher-wallbox.md`, `elektro-60er-haus.md`,
-  `internet-kabelanschluss.md`, `haus-komplettsanierung.md`, `energieausweis-beratung.md`,
-  `heizung-alternativen.md`, `smart-home-nachruesten.md`, `foerderung-steuern.md`,
-  `dachentwaesserung-regenwasser.md`, `foto-diagnose.md`, `trinkwasserhygiene.md`,
-  `barrierefreiheit.md`
+- **36 Playbooks** in `references/playbooks/` — vollständige Liste mit Inhaltsangabe in
+  `references/playbooks/README.md` (Abdeckung 154/154 Katalogfehler, Strukturcheck 0 Verstöße).
 - Jedes Playbook endet mit einem **Fehlerkatalog aus der Praxis** und einer **„Unbelegt“-Liste** — die
   Quelle steht als Video-ID + Zeitmarke dabei, Transkripte liegen in `references/transkripte/`.
 
