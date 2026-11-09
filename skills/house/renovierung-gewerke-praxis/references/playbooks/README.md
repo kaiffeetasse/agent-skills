@@ -71,11 +71,15 @@ python3 scripts/fehlercheck.py --gaps   # Lücken je Playbook
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle
 ```
 
-Stand 09.11.2026 (nach Durchlauf 2): **96 von 128 bewerteten Fehlern vollständig abgedeckt (75 %),
-32 teilweise, 0 ohne jede Abdeckung.** Zwei Fehler sind als Projekt-Anekdote ausgenommen (Wartezeit-Prognose,
-Maklerprovision), weil sie keine übertragbare Regel sind. Negativkontrolle (drei Playbooks entfernt) fällt
-auf 32 % — der Test unterscheidet. „Teilweise" heißt: das Thema steht drin, aber nicht jede Zahl aus dem
-Video. Einzellücken: `--gaps`.
+Stand 09.11.2026 (nach Durchlauf 3): **128 von 128 bewerteten Fehlern stehen mit allen Katalogbegriffen
+im Text (100 %)**, 0 teilweise, 0 ohne Abdeckung; 2 Anekdoten sind begründet ausgenommen.
+Negativkontrolle: entfernt man ein Playbook, fällt die Quote auf 80 % (hausbau), 89 % (dämmung) bzw.
+87 % (fliesen) — der Test unterscheidet also noch.
+
+**Was 100 % hier heißt und was nicht:** gemessen wird, ob die im Katalog definierten Regeln im zuständigen
+Text stehen — nicht, ob die Antwort gut ist. Zwei Playbooks wurden neu geschrieben und hatten dabei ihre
+Video-Fehler verloren; sie sind wieder drin, weil sie echte Regeln sind. Qualität messen der Kalt/Warm-Test
+(`references/tests/kalt-warm-2026-11-09.md`) und der Strukturcheck — nicht diese Zahl.
 
 ## Was beim Benutzen gilt
 

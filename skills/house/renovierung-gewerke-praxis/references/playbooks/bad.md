@@ -633,6 +633,13 @@ vorher (TRGS 519), Bindung auch für Privatpersonen.
 8. **Qualifikationsnachweise** der Kanäle „Der Fliesenleger", „Hausbauen24", „Grey Element" und
    „Estrich Werke" beruhen auf Selbstauskunft/Titel, nicht auf externer Prüfung.
 
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Schutzbereich IP** beachten: Leuchten und Steckdosen im Bereich 0–2 brauchen die passende IP-Schutzart (k3q49IW19KU-11).
+- **Wasseruhr** nicht Aufputz lassen, wenn die Wand ohnehin offen ist — sonst bleibt die Verteilung sichtbar (k3q49IW19KU-13).
+- **Abdichtbahn bzw. Abdichtfließ** als Alternative zur Flüssigabdichtung, wenn die Fläche es verlangt (zR7LyRq3G7Q-03).
+- **Dispersionsdichtmasse** nur im zulässigen Bereich (W0-I/W1-I) — in der bodengleichen Dusche (W2-I) nicht (zR7LyRq3G7Q-05).
+
 ## Ergänzungen aus dem Video-Katalog
 
 - **Durchlauferhitzer an zweiadriger Leitung** (2-adrig, ohne aufgelegten Schutzleiter): Gerät der

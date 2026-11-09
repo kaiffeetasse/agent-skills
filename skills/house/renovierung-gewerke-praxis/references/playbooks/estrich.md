@@ -441,6 +441,13 @@ Diese Punkte sind offen oder ausdrücklich als Erfahrungswert gekennzeichnet, we
 - **Flächengrenze für Trockenestrich in Eigenleistung** (hier als Erfahrungswert „bis ca. 20 m²“ genannt) – kein Beleg gefunden; die Anleitungen nennen nur Zeitaufwand, keine Obergrenze.[29][25]
 - **CM-% versus US-Messwerte** – die Zahlen aus [19] sind nicht in CM-% umrechenbar; unterschiedliche Verfahren, keine Umrechnung behauptet.
 
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Massivholztüren** können aufgearbeitet statt ersetzt werden — Kalkulation prüfen, bevor neue Türen bestellt werden (k3q49IW19KU-04).
+- **Ohne Dämmung Trocknungszeit > 1 Jahr** — und energetisch ist der Aufbau dann sinnlos (wnWCWCQfkvg-01).
+- **Anhydritestrich (Calciumsulfat)** braucht andere CM-Grenzwerte als Zement und ist empfindlicher gegen Feuchte (wnWCWCQfkvg-03).
+- **Zu hohe Luftfeuchtigkeit → Schimmelgefahr**, zu schnelle Trocknung → Spannungen und Risse; Fenster nicht weit öffnen, Zugluft vermeiden (wnWCWCQfkvg-05).
+
 ## Ergänzungen aus dem Video-Katalog
 
 - **Gute Estrichdicke 5–7 cm** als brauchbares Band (zu dick trocknet monatelang, zu dünn reißt); vor dem Belag **CM-Messung**, nicht „28 Tage rum"

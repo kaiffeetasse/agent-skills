@@ -405,6 +405,16 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - Gehrung und Silikonfugen sind Können, nicht Mut: wenn nicht sicher, Eckschiene/Profi holen
   (zR7LyRq3G7Q 00:14).
 
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Kleber nicht nach Preis allein wählen**: weder billigster Sack aus dem Baumarkt noch der teuerste — solide Mittelklasse — solide Mittelklasse, passend zum Format (3tVsWxStiL0-04).
+- **Herstellerangaben zur Wassermenge und Verarbeitungszeit** einhalten: die offene Zeit liegt oft bei **5 Stunden laut Hersteller**, nicht „bis es zu ziehen beginnt" (3tVsWxStiL0-05).
+- **Übergang Fliese zu Parkett**: exakter Höhenausgleich im Plan, sonst keine **bündiger Übergang**, sondern eine Stolperkante (k3q49IW19KU-06).
+- **Reihenfolge**: den fertigen Boden **abdecken bzw. abkleben**, bevor Putz-, Kleber- und Staubarbeiten weiterlaufen (zR7LyRq3G7Q-02).
+- **Werkzeugliste vorab** schreiben, sonst wird Werkzeug gekauft, das nicht zum Vorhaben passt (zR7LyRq3G7Q-12).
+- **Fliesen sind austauschbar**, die Substanz (Schall-, Hitzeschutz, Untergrund) nicht — bei Budgetknappheit dort sparen, nicht am Unterbau (nul-17).
+- **Kleber im Fachhandel vergleichen** (z. B. Schomburg) statt blind im Baumarkt kaufen (zR7LyRq3G7Q-10).
+
 ## Ergänzungen aus dem Video-Katalog (Nachtrag)
 
 - **Übergang Fliese/Parkett** bündig planen: Aufbauhöhen angleichen, Aluleiste vermeiden, sonst entsteht

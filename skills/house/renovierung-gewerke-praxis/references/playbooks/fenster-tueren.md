@@ -356,6 +356,10 @@ Ein Fenstertausch in der **bestehenden** Öffnung ist kein statischer Eingriff. 
 
 ---
 
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Türgummi** prüfen und tauschen: ein verhärteter Dichtgummi macht die beste Tür undicht (k3q49IW19KU-05).
+
 ## Quellenverzeichnis
 
 Alle URLs am 09.11.2026 abgerufen.

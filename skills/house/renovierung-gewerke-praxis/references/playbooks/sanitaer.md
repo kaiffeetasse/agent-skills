@@ -537,6 +537,10 @@ Bauwerk, Beginn mit der Abnahme. https://www.gesetze-im-internet.de/bgb/__634a.h
 - Stundensatz: Tabelle 50–70 / 70–130 €/h, Q26 nennt als Gesamtkorridor 60–130 €/h.
 - WC-Anschlussleitung: Text „DN 80/90“, Q7 nennt nur DN 80 für 4,5-/6-l-WCs.
 
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Getrennter Kreislauf** für Regen- oder Grauwasser, wenn es genutzt wird — sonst ist die Trinkwassertrennung nicht nachweisbar (sWXyiNADbFk-13).
+
 ## Unbelegt
 
 - Schallwerte von Vorwandelementen (dB) je Hersteller — Datenblattwerte, nicht nachgemessen.

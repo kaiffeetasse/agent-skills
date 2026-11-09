@@ -714,6 +714,11 @@ Messeinrichtung einschließlich der Messeinrichtung gilt Satz 4 nicht für Insta
   **Bereitstellungszinsen**, Miete länger laufen lassen.
 - **Angebot**: **Kostenvoranschlag** vs. Festpreis, Leistungsverzeichnis, Einheitspreise, Nachtragsangebot.
 - **Kontrolle**: **Protokoll mit zehn Punkten** je Begehung, Abnahme mit Mängelliste, Zahlungsplan.
+## Ergänzungen aus dem Fehlerkatalog
+
+- **Faktor 2 auf die Bauzeit** ist im Bestand die realistische Annahme, wenn die Bewohner drin bleiben (k3q49IW19KU-01).
+- **Mietvertrag 2–3 Monate länger halten**: die Übergabe verzögert sich fast immer (nul-09).
+
 ## Weitere Video-Fehler (Kosten/Bauzeit)
 
 - **Hausanschlüsse früh beantragen**: Lage des **Technikraums** und Stränge richten sich nach den
