@@ -1,5 +1,8 @@
 # Trockenbau im Bestand — das Playbook
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 **Für:** Eigenheimbesitzer, Altbau und Bestand (Massivwand, Holzbalkendecke, Betondecke).
 **Stand:** 09.11.2026. Maße in mm, sofern nicht anders angegeben.
 

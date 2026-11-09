@@ -67,3 +67,28 @@ Primärquelle durchgehend: gesetze-im-internet.de (amtliche Verkündung, nichtam
 - Die alte, eigenständige Fliesen-/Zimmerer-Ausbildungsverordnung (vor 01.08.2026) ist auf gesetze-im-internet.de nicht mehr als eigene Norm gelistet; ihren Aufhebungs-/Übergangstext habe ich nicht geprüft. Für Ausbildungsverhältnisse, die vor dem 01.08.2026 begonnen haben, gilt weiter die alte Ordnung – für Renovierungsaussagen ist das ohne Belang, für Zitate aus Altverträgen nicht.
 - bibb.de, BMBF- und IHK-Seiten habe ich nicht herangezogen, weil alle sieben Berufe über die Primärquelle vollständig belegt waren (keine Sekundärquelle nötig).
 - Nicht geprüft: ob für einzelne Berufe seit dem jeweiligen Stand weitere Änderungsverordnungen existieren (die gesetze-im-internet-Fassungen tragen „Textnachweis ab“-Fußnoten; Änderungshistorie nicht im Detail verfolgt).
+
+## Wer macht was — laut Ausbildungsordnung (Detailfassung)
+
+Belegt aus den Ausbildungsverordnungen (`references/ausbildungsordnungen.md`, je Paragraph und Zitat):
+
+- **Elektroniker/-in Energie- und Gebäudetechnik** (ElekAusbV 2021): Schutzmaßnahmen prüfen und beurteilen,
+  Hauptpotentialausgleich prüfen, Wiederholungsprüfungen nach Normen, Fehleranalyse/Instandhaltung.
+- **Anlagenmechaniker/-in SHK** (SHKAMAusbV 2016): Abdichtungsmaßnahmen an Ver- und Entsorgungsanlagen,
+  Hygiene bei Trink-/Brauchwasser, Gas- und Ölleitungen montieren, Inbetriebnahme und Funktionskontrolle.
+- **Fliesen-, Platten- und Mosaikleger/-in** (AusbauBAusbV 2024, Anlage 3): Untergründe prüfen, **Belegreife
+  durch Messverfahren ermitteln und dokumentieren**, **Verbundabdichtung nach Wassereinwirkungsklassen
+  herstellen**, Sanieren/Instandhalten.
+- **Maler/-in und Lackierer/-in** (MalerLackAusbV 2021): Untergründe prüfen (inkl. Blei/Asbest erkennen),
+  beschichten, **Putz-, Dämm- und Trockenbauarbeiten** als Grundlage, Schadensursachen beschreiben.
+- **Trockenbaumonteur/-in** (AusbauBAusbV 2024, Anlage 6): Feuchträume, Dachausbau (Dampfdiffusion,
+  Luftdichtheit), Brandschutzabschottungen, Sonderdecken — Verbundabdichtung nur **„unterscheiden und
+  beurteilen"**, nicht ausführen. Kein zulassungspflichtiges Handwerk (fehlt in HwO Anlage A).
+- **Dachdecker/-in** (DachAusbV 2016): Dampfsperr-/Luftdichtheitsschichten, energetische Bewertung im
+  Bestand, Flüssigabdichtungen, An-/Abschlüsse; elektrische Komponenten nur „mittels Steckverbindungen".
+- **Zimmerer/Zimmerin** (AusbauBAusbV 2024, Anlage 1): **tragende und nichttragende Bauteile
+  unterscheiden**, Umbauen/Rückbauen, Holzkonstruktionen, Sanieren von Holzkonstruktionen.
+
+Konsequenz für die Planung: jede Aufgabe hat einen Beruf, der sie laut Verordnung gelernt hat. Wer die
+Zuordnung nicht kennt, fragt den falschen und zahlt zweimal.
+

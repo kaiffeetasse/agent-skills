@@ -1,5 +1,8 @@
 # Kosten, Bauzeit, Angebote prüfen (Wohnung 70–90 m², Bad + 3 Räume)
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Erst Leistung, dann Preis:** ein Angebot ohne Mengen, Aufbau und Positionen ist nicht vergleichbar.

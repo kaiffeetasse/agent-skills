@@ -1,5 +1,8 @@
 # Bodenbeläge verlegen — Playbook für Eigenheimbesitzer
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Selbst machbar:** Laminat und Klick-Vinyl schwimmend. **Nicht:** Parkett kleben, Ausgleichsmasse über 3 mm.

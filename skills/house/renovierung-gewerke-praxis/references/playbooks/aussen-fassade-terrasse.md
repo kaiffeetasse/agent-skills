@@ -3,6 +3,9 @@
 **Für wen:** Bestandsbau, Eigenheim, kein Planer im Haus. Ton: Werkstatt, nicht Hörsaal.
 **Stand:** 09.11.2026. Alle Zahlen mit Quelle `[Qn]` → Quellenverzeichnis am Ende. Was ich **nicht** belegen konnte, steht ausdrücklich als *unbelegt* da.
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Fassade streichen:** selbst machbar, **30–50 €/m²** wenn Sie es machen lassen; ab 5 m Standhöhe ist die Leiter als Arbeitsplatz unzulässig, dann Gerüst [Q8][Q11].

@@ -78,6 +78,28 @@ Leistungskürzung — das finanzielle Risiko nicht fachgerechter Eigenleistung.
 
 ---
 
+### Gebäudeenergie: GEG heißt seit 29.07.2026 GModG
+
+Am **29. Juli 2026** ist das Gebäudeenergiegesetz in das **Gebäudemodernisierungsgesetz (GModG)** überführt
+worden (BGBl. 2026 I Nr. 226). Auf gesetze-im-internet steht es weiterhin unter dem alten Pfad `/geg/` —
+die Einzelnormen tragen aber schon die neue Überschrift. Selbst geprüft am 09.11.2026:
+
+- **§ 71 GModG: „(weggefallen)"** — die 65-%-EE-Pflicht für neue Heizungen gilt **nicht mehr**.
+  Wer sie zitiert, zitiert altes Recht.
+- **§ 43 GModG** (Einbau fossiler Heizungen nach dem 29.07.2026): **Biotreppe** — mindestens **10 % ab
+  01.01.2029**, **15 % ab 2030**, **30 % ab 2035**, **60 % ab 2040** aus Biomethan, Bioöl, biogenem
+  Flüssiggas oder Wasserstoff. Wortlaut geprüft.
+- **§ 60c GModG** (hydraulischer Abgleich und Heizungsoptimierung) besteht unverändert weiter.
+- Der **Energieausweis** steht in §§ 79–88 GModG; die Bedarfs-/Verbrauchswahl wird zum 01.01.2027 neu
+  geregelt (Details in `playbooks/energieausweis-beratung.md`).
+
+Quellen: https://www.gesetze-im-internet.de/geg/__71.html · /geg/__43.html · /geg/__60c.html ·
+https://www.gmodg.bund.de/GModG/DE/GModGRegelungen/GModG_neu/GModG_neu-node.html
+
+**Folge für den Skill:** Förderquoten und Fristen ändern sich schneller als jede andere Zahl hier. Jede
+Aussage dazu trägt das Datum, an dem sie geprüft wurde — und wer länger als ein Quartal später damit
+argumentiert, prüft sie neu.
+
 ## 2. Normen — Nummer, Titel, gültige Ausgabe
 
 Alle Volltexte kostenpflichtig (DIN Media/Beuth/VDE Verlag); geprüft sind **Existenz, Titel und die als

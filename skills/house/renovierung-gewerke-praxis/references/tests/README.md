@@ -74,7 +74,10 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
   `--ablate` als Negativkontrolle.
 - `scripts/linkcheck.py` — alle URLs im Skill (736), HEAD zuerst, Retry bei 000, Klammern in Pfaden
   balanciert; Bot-Blocker (kfw.de, landesrecht-bw.de) werden separat gezählt statt als tot gemeldet.
-- `~/.hermes/scripts/renov_skill_health.py` — Cron-Wächter, kombiniert beide, schweigt im Normalfall.
+- `scripts/strukturcheck.py` — Formvertrag je Playbook: Kurzantwort, ≥ 15 konkrete Zahlen (Rechts-Playbooks
+  stattdessen ≥ 5 Paragraphen), ≥ 8 Quellen-URLs, „Unbelegt“-Abschnitt, Preisbänder mit Jahresangabe.
+- `~/.hermes/scripts/renov_skill_health.py` — Cron-Wächter, kombiniert Abdeckung und Links, schweigt im
+  Normalfall.
 
 ### Fallstricke der Linkprüfung (alle aufgetreten, alle im Skript behoben)
 
@@ -146,6 +149,32 @@ yt-dlp --skip-download --write-auto-subs --sub-langs "de.*" --sub-format vtt \
   Dichtschlämme): beim Zitieren behutsam glätten und als ASR kennzeichnen.
 - **Zeitmarken sind ±10 s und können zwischen zwei Abrufen wandern.** Vor dem Zitat die Stelle im
   aktuellen Transkript erneut suchen; eine alte Minutenangabe aus einer früheren Sitzung ist keine Quelle.
+
+## Test 5 — Strukturvertrag (Form, nicht Inhalt)
+
+Der Abdeckungstest merkt nicht, wenn ein Playbook seine Quellenliste verliert oder Preise ohne Datum nennt.
+Deshalb prüft `scripts/strukturcheck.py` je Datei sechs Dinge: H1, Kurzantwort in den ersten 60 Zeilen,
+mindestens 15 konkrete Zahlen (Rechts-Playbooks: ≥ 5 `§`), mindestens 8 Quellen-URLs, einen
+„Unbelegt“-Abschnitt und — falls €-Beträge vorkommen — irgendwo eine Jahresangabe („Preisstand“).
+
+Beim ersten Lauf waren 22 von 23 Playbooks im Verstoß, überwiegend wegen fehlender Kurzantwort (13×) und
+fehlender Unbelegt-Liste (3×) — beides Zusagen aus dem README, die beim Delegieren verloren gingen. Zwei
+Dauerfälle bleiben inhaltlich zu dünn statt nur formal: ein Playbook mit 1 Quelle und eines mit 5.
+
+Lehre: **Form prüfen lassen, nicht erinnern.** Ein Playbook ohne Kurzantwort ist im Gespräch doppelt so
+teuer, weil der Agent die ersten 200 Zeilen lesen muss, um zu wissen, ob es passt.
+
+## Test 6 — Themeninventur: was fehlt überhaupt?
+
+Die Abdeckung sagt nur, was die zehn Videos verlangen. Ob ein ganzes Thema fehlt, zeigt sie nie. Dafür eine
+Liste von Begriffen quer über den Lebenszyklus eines Hauses bilden (Recht, Technik, Geld, Betrieb) und je
+Begriff die Trefferzahl im Korpus zählen — Sätze mit `grep -rIic "<begriff>" . | awk -F: '{s+=$2}'`.
+
+Null Treffer heißt: Thema fehlt. Weniger als vier Treffer heißt: erwähnt, nicht erklärt — nachziehen oder
+bewusst abgrenzen. Und: **Teilstring-Treffer prüfen**, bevor man sie als Abdeckung zählt („WEG“ traf 44×,
+weil „weg“ in „Weg“ und „wegen“ steckt; „Blei“ traf 202×, weil „bleiben“ mitgezählt wurde). Beim ersten
+Inventar waren 12 von 61 Themen blind — darunter Energieausweis, Radon, Batteriespeicher, Kabel-Internet,
+Fernwärme, sommerlicher Wärmeschutz.
 
 ## Was hier nicht getestet wird
 

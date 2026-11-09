@@ -1,5 +1,8 @@
 # Küche renovieren/erneuern – Playbook für die Bestandswohnung (8–15 m²)
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 **Stand:** 09.11.2026 · **Für:** Eigentümer einer Bestandswohnung oder eines Hauses mit 8–15 m² Küche (Baujahr 1950–2015), die die Küche ersetzen oder die Zeile neu aufbauen.
 **Was dieses Playbook ist:** Ablauf, Maße, Anschlusshöhen, Kostenband, die Fehler, die Geld kosten, Kontrollpunkte, Grenze zur Fachfirma.
 **Was es nicht ist:** eine Anleitung zum Verlegen von Trinkwasser-/Abwasserleitungen, zum Errichten elektrischer Anlagen oder zum Arbeiten an Gas. Das ist rechtlich und technisch Fachbetriebssache (Abschnitt 8).

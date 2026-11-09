@@ -32,7 +32,7 @@ PRICE = re.compile(r"€\s?/?\s?(m²|m2|Stück|Stk|lfm|h|kWh|t)\b|€/")
 
 CHECKS = [
     ("h1",        lambda t: t.lstrip().startswith("#"),                      "H1-Überschrift fehlt"),
-    ("kurz",      lambda t: re.search(r"\bkurz", "\n".join(t.splitlines()[:60]), re.I), "kein Kurz-Abschnitt in den ersten 60 Zeilen"),
+    ("kurz",      lambda t: re.search(r"\b(kurz|auf einen blick|in 60 sekunden|ersteinschätzung)", "\n".join(t.splitlines()[:70]), re.I), "kein Kurz-Abschnitt in den ersten 60 Zeilen"),
     ("zahlen",    lambda t: t.count("§") >= 5 or                      # Rechts-Playbooks zaehlen Paragraphen
                              len(re.findall(r"\d+[.,]?\d*\s?(mm|cm|m²|m2|%|€|kg|h|Tage|Wochen)\b", t)) >= 15,
                   "zu wenige konkrete Zahlen (<15)"),

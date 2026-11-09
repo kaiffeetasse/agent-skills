@@ -1,5 +1,8 @@
 # Bad komplett sanieren (6–10 m², Bestandsbau)
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Selbst machbar:** Ausbau, Fliesen, Streichen, Silikonfugen. **Nicht:** Abdichtung, Elektro, Sanitäranschluss.

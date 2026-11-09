@@ -1,5 +1,8 @@
 # Entkernen & Entsorgen
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Selbst machbar:** nichttragende Wände, Fliesen, Estrich, Einbauten — **nach** Absperren von Wasser/Strom.

@@ -1,5 +1,8 @@
 # Keller & feuchtes Mauerwerk — Playbook für Eigenheimbesitzer
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Feuchte zuerst bestimmen, dann abdichten:** aufsteigende Feuchte, drückendes Wasser, Kondensat und

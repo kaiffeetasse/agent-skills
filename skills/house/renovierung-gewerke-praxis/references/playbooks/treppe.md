@@ -1,5 +1,8 @@
 # Treppe aufarbeiten und sanieren — Playbook für Eigenheimbesitzer
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Streichen und Schleifen: selbst.** Geländer, Statik, neue Stufen: Fachbetrieb.

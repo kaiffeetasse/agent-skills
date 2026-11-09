@@ -137,6 +137,11 @@ Job-IDs entfernen. **Nach dem Push in einem frischen anonymen Klon nachweisen, d
 funktioniert** — `python3 scripts/fehlercheck.py` muss dort dieselbe Quote melden wie lokal; weicht sie
 ab, fehlt eine Datei oder ein Pfad zeigt ins lokale Home.
 
+Der Ablauf steckt in `scripts/publish_skill.py`: kopieren → generalisieren → **abbrechen** bei verbotenen
+Mustern (`/home/…`, LAN-IPs, Mails, Telefon) → Prüfskripte im Ziel laufen lassen → committen → pushen.
+`--dry-run` zeigt nur, welche Dateien ersetzt würden. Handarbeit vergisst beim zweiten Mal genau eine
+Ortsangabe, und die steht dann dauerhaft in der History.
+
 ## Recht und Planerseite (liegt lokal)
 
 Die Klotzkette-Sammlung `eine lokale Rechtssammlung
@@ -150,55 +155,39 @@ die liefert dieser Skill.
 
 ### Welche Planer-Frage gehört zu welchem Klotzkette-Skill
 
-| Frage aus der Bauherrenrolle | Skill in `hoai-leistungsphasen-praxis` |
-|---|---|
-| „Wer prüft die Elektro-/Erdungs-/Blitzschutzarbeiten?" | `lph8-bauueberwachung-elektro-erdung-blitzschutz` |
-| „Was muss ich bei MFH/EFH in der Bauüberwachung kontrollieren?" | `lph8-bauueberwachung-mehrfamilienhaus-effh` |
-| „Wie läuft die Abnahme, was unterschreibe ich?" | `abnahmefahrplan` |
-| „Sanieren oder abreißen? Was zuerst beauftragen?" | `bauherrnentscheidung-matrix` |
-| „Welche Kosten sind anrechenbar (DIN 276)?" | `anrechenbare-kosten-din276-baukostengruppen` |
-| „TGA, Brandschutz, Tragwerk koordinieren" | `fachplaner-tga-brandschutz-tragwerk-koordination` |
-| Mängelstreit, Nachtrag, Kündigung | `fachanwalt-bau-architektenrecht`, `bauwirtschaft`, `bauvergabe` |
+Zuordnung in `references/planer-skills.md` (Bauüberwachung Elektro/Erdung/Blitzschutz, MFH/EFH,
+`abnahmefahrplan`, `bauherrnentscheidung-matrix`, DIN 276, TGA-Koordination, Mängelstreit).
+Die Playbooks hier beantworten **wie man es macht**; diese Skills **wer es schuldet und wie man es beweist**.
+## Wer macht was — laut Ausbildungsordnung
 
-Die Playbooks hier beantworten **wie man es macht**; diese Skills beantworten **wer es schuldet, wer prüft
-und wie man es beweist**. Bei Streit oder Abnahme beide lesen.
+Jede Aufgabe hat einen Beruf, der sie gelernt hat; wer die Zuordnung nicht kennt, fragt den falschen und
+zahlt zweimal. Kurzfassung (Belege je Paragraph in `references/ausbildungsordnungen.md`):
 
-## Wer macht was — laut Ausbildungsordnung (nicht laut Vorurteil)
-
-Belegt aus den Ausbildungsverordnungen (`references/ausbildungsordnungen.md`, je Paragraph und Zitat):
-
-- **Elektroniker/-in Energie- und Gebäudetechnik** (ElekAusbV 2021): Schutzmaßnahmen prüfen und beurteilen,
-  Hauptpotentialausgleich prüfen, Wiederholungsprüfungen nach Normen, Fehleranalyse/Instandhaltung.
-- **Anlagenmechaniker/-in SHK** (SHKAMAusbV 2016): Abdichtungsmaßnahmen an Ver- und Entsorgungsanlagen,
-  Hygiene bei Trink-/Brauchwasser, Gas- und Ölleitungen montieren, Inbetriebnahme und Funktionskontrolle.
-- **Fliesen-, Platten- und Mosaikleger/-in** (AusbauBAusbV 2024, Anlage 3): Untergründe prüfen, **Belegreife
-  durch Messverfahren ermitteln und dokumentieren**, **Verbundabdichtung nach Wassereinwirkungsklassen
-  herstellen**, Sanieren/Instandhalten.
-- **Maler/-in und Lackierer/-in** (MalerLackAusbV 2021): Untergründe prüfen (inkl. Blei/Asbest erkennen),
-  beschichten, **Putz-, Dämm- und Trockenbauarbeiten** als Grundlage, Schadensursachen beschreiben.
-- **Trockenbaumonteur/-in** (AusbauBAusbV 2024, Anlage 6): Feuchträume, Dachausbau (Dampfdiffusion,
-  Luftdichtheit), Brandschutzabschottungen, Sonderdecken — Verbundabdichtung nur **„unterscheiden und
-  beurteilen"**, nicht ausführen. Kein zulassungspflichtiges Handwerk (fehlt in HwO Anlage A).
-- **Dachdecker/-in** (DachAusbV 2016): Dampfsperr-/Luftdichtheitsschichten, energetische Bewertung im
-  Bestand, Flüssigabdichtungen, An-/Abschlüsse; elektrische Komponenten nur „mittels Steckverbindungen".
-- **Zimmerer/Zimmerin** (AusbauBAusbV 2024, Anlage 1): **tragende und nichttragende Bauteile
-  unterscheiden**, Umbauen/Rückbauen, Holzkonstruktionen, Sanieren von Holzkonstruktionen.
-
-Konsequenz für die Planung: jede Aufgabe hat einen Beruf, der sie laut Verordnung gelernt hat. Wer die
-Zuordnung nicht kennt, fragt den falschen und zahlt zweimal.
-
+- **Elektroniker/-in Energie- und Gebäudetechnik** — Schutzmaßnahmen prüfen und beurteilen, Potentialausgleich,
+  Wiederholungsprüfungen, Fehleranalyse.
+- **Anlagenmechaniker/-in SHK** — Abdichtung an Ver-/Entsorgungsanlagen, Trinkwasserhygiene, Gas/Öl, Inbetriebnahme.
+- **Fliesen-, Platten- und Mosaikleger/-in** — Untergrund, **Belegreife messen**, **Verbundabdichtung nach
+  Wassereinwirkungsklasse**, Sanieren.
+- **Maler/-in und Lackierer/-in** — Untergrund inkl. Blei/Asbest erkennen, Beschichten, Putz/Dämmung/Trockenbau.
+- **Trockenbaumonteur/-in** — Feuchträume, Dachausbau, Brandschutz, Sonderdecken (Abdichtung nur beurteilen).
+- **Dachdecker/-in** — Dampfsperre/Luftdichtheit, Flüssigabdichtung, An- und Abschlüsse.
+- **Zimmerer/Zimmerin** — tragend/nichttragend unterscheiden, Rückbau, Holzkonstruktionen sanieren.
 ## Playbooks — Aufgabe → Vorgehen
 
 Für konkrete Fragen („wie renoviere ich mein Bad?“, „wie erneuere ich die Decke?“, „was beachte ich bei
 XY?“) liegen fertige Playbooks in `references/playbooks/`: Kurzantwort, Reihenfolge mit Tagen, Zahlen,
 Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbetrieb“, Quellen.
 
-- **23 Playbooks** in `references/playbooks/` (Index und Prüfstand: `references/playbooks/README.md`):
+- **34 Playbooks** in `references/playbooks/` (Index und Prüfstand: `references/playbooks/README.md`):
   `bad.md`, `decke.md`, `waende.md`, `estrich.md`, `fliesen.md`, `elektro.md`, `trockenbau.md`,
   `daemmung.md`, `fenster-tueren.md`, `bodenbelaege.md`, `sanitaer.md`, `heizung-lueftung.md`,
   `keller-mauerwerk.md`, `schimmel-feuchte.md`, `hausbau-baufirma.md`, `kosten-bauzeit.md`,
   `werkzeug-sicherheit.md`, `kueche.md`, `aussen-fassade-terrasse.md`, `treppe.md`,
-  `dachboden-holzdecke.md`, `entkernen-entsorgung.md`, `recht-renovierung.md`
+  `dachboden-holzdecke.md`, `entkernen-entsorgung.md`, `recht-renovierung.md`,
+  `waermepumpe-oelheizung.md`, `pv-speicher-wallbox.md`, `elektro-60er-haus.md`,
+  `internet-kabelanschluss.md`, `haus-komplettsanierung.md`, `energieausweis-beratung.md`,
+  `heizung-alternativen.md`, `smart-home-nachruesten.md`, `foerderung-steuern.md`,
+  `dachentwaesserung-regenwasser.md`, `foto-diagnose.md`
 - Jedes Playbook endet mit einem **Fehlerkatalog aus der Praxis** und einer **„Unbelegt“-Liste** — die
   Quelle steht als Video-ID + Zeitmarke dabei, Transkripte liegen in `references/transkripte/`.
 
@@ -217,7 +206,18 @@ Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbet
 | Fenster/Türen tauschen, einstellen, aufarbeiten, RC2, Anschluss | `fenster-tueren.md` |
 | Laminat, Vinyl, Parkett, Kork, Trittschall, Sockelleisten | `bodenbelaege.md` |
 | WC, Waschbecken, Vorwand, Armaturen, „Wasser läuft schlecht ab" | `sanitaer.md` |
-| Heizkörper, Fußbodenheizung, Heizungstausch, Lüftungsanlage, „GEG" | `heizung-lueftung.md` |
+| Heizkörper, Fußbodenheizung, Heizungstausch, Lüftungsanlage, „GModG/GEG" | `heizung-lueftung.md` |
+| Ölheizung raus, Wärmepumpe, Tankentsorgung, JAZ, Heizlast | `waermepumpe-oelheizung.md` |
+| Pellet, Fernwärme, Solarthermie, Gas-Hybrid, Infrarot — was passt? | `heizung-alternativen.md` |
+| PV, Speicher, Wallbox, Einspeisung, Anmeldung | `pv-speicher-wallbox.md` |
+| Förderung, Steuerbonus, Kredit, was gilt 2026 | `foerderung-steuern.md` |
+| Energieausweis, Sanierungsfahrplan, Energieberatung | `energieausweis-beratung.md` |
+| Elektro komplett neu (Altbau/60er), Nullung, Alu-Leiter, Zählerplatz | `elektro-60er-haus.md` |
+| Internet/Kabel/Glasfaser, HÜP, Hausnetz | `internet-kabelanschluss.md` |
+| „Haus komplett sanieren", Reihenfolge, Budget, Steuerung | `haus-komplettsanierung.md` |
+| Dachrinne, Versickerung, Zisterne, Garage | `dachentwaesserung-regenwasser.md` |
+| Smart Home nachrüsten, KNX, Funk, Datensicherheit | `smart-home-nachruesten.md` |
+| „Was sagt das Foto?", Risse, Schimmel, Pfusch erkennen | `foto-diagnose.md` |
 | Feuchter Keller, Mauerwerk, Salzausblühungen, Risse im Mauerwerk | `keller-mauerwerk.md` |
 | Schimmel, Luftfeuchte, richtig lüften, Schimmel entfernen | `schimmel-feuchte.md` |
 | Haus bauen, Baufirma auswählen, Werkvertrag, Baubegleitung, Abnahme | `hausbau-baufirma.md` |
@@ -246,6 +246,7 @@ Top-Fehler-Videos (`references/fehlerkatalog.json`, Stand und aktuelle Quote in
 python3 scripts/fehlercheck.py --gaps        # was fehlt, gruppiert nach Playbook
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle: Zahl MUSS fallen
 python3 scripts/linkcheck.py                 # alle 736 URLs; 404 = tot, Bot-Blocker sind ausgenommen
+python3 scripts/strukturcheck.py             # Pflichtabschnitte je Playbook, Quellenzahl, Preis-Datum
 ```
 
 Zwei Cronjobs halten den Stand: **montags 9:00** der Wächter `~/.hermes/scripts/renov_skill_health.py`
@@ -327,7 +328,7 @@ man beim Fachbetrieb die richtige Nummer nennt. Belege, Ausgaben und die Korrekt
 - **DIN 18014:2023-06** Erdungsanlagen für Gebäude; **DIN EN IEC 62305:2026-02** Blitzschutz, Teile 1–4
 - **DIN 18534-1:2025-10** Abdichtung von Innenräumen (Reihe seit 2017)
 - **DIN 4108-3:2024-03 / -4:2020-11** Wärmeschutz/Feuchteschutz, **DIN 4109-1/-2:2018-01** Schallschutz,
-  **GEG** für Energieanforderungen
+  **GModG** (früher GEG, seit 29.07.2026 umbenannt; § 71 = 65-%-Pflicht **weggefallen**, § 43 Biotreppe)
 - **VOB/C**: **DIN 18322:2023-09** Kabelleitungstiefbau, **DIN 18382:2023-09** Elektro-/Sicherheits-/
   IT-Anlagen, **DIN 18384:2019-09** Blitzschutz/Überspannung/Erdung, **DIN 18386:2019-09** Gebäudeautomation
 
@@ -365,7 +366,8 @@ man beim Fachbetrieb die richtige Nummer nennt. Belege, Ausgaben und die Korrekt
   Katalog-Pflege, Linkprüfung); `references/tests/kalt-warm.md` — die Kalt/Warm-Probe als Maß dafür,
   was ein Playbook tatsächlich hinzufügt.
 - `references/transkripte/` — zehn Video-Transkripte mit Zeitmarken (Quelle jedes Fehlers im Katalog).
-- `scripts/fehlercheck.py`, `scripts/linkcheck.py` — Abdeckungs- und Linkprüfung, beide mit Exit-Code.
+- `scripts/fehlercheck.py`, `scripts/linkcheck.py`, `scripts/strukturcheck.py` — Abdeckungs-, Link- und
+  Strukturprüfung, alle mit Exit-Code; `scripts/publish_skill.py` veröffentlicht die generalisierte Kopie.
 - `scripts/vtt2txt.py` — Auto-Untertitel (VTT) entdoppeln und als Transkript mit Zeitmarken schreiben,
   wenn neue Videos in den Katalog sollen.
 

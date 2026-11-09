@@ -1,5 +1,8 @@
 # Elektro im Bestand nachrüsten — Vorbereitung, Kosten, Pfusch-Erkennung
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Grenze zuerst:** 230 V = eingetragenes Installationsunternehmen (NAV § 13 Abs. 2). Eigenleistung endet

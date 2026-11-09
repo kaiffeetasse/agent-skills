@@ -1,5 +1,8 @@
 # Playbook: Hausbau/Sanierung mit Baufirma (Bauherr sein)
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 Der teuerste Fehler ist nicht Material, sondern **Reihenfolge und Papier**: erst Grundstück und

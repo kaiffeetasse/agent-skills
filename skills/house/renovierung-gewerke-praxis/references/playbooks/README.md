@@ -15,7 +15,7 @@ gleich, damit man schnell zur Antwort kommt:
 Regel: nur belegte Zahlen oder als Schätzung markiert. Wo zwei Quellen sich widersprechen, steht der
 Widerspruch — nicht der Mittelwert.
 
-## Stand: 23 Playbooks
+## Stand: 34 Playbooks
 
 | Playbook | Datei | Inhalt |
 |---|---|---|
@@ -42,6 +42,17 @@ Widerspruch — nicht der Mittelwert.
 | Dachboden & Holzbalkendecke | `dachboden-holzdecke.md` | Baurecht, Dämmung, Schwingung/Trittschall, Lastreserven, Holzwurm |
 | Entkernen & Entsorgen | `entkernen-entsorgung.md` | Rückbau-Reihenfolge, Schadstoffe, Container/Sortierung, regionale Gebühren |
 | Rechtsseite | `recht-renovierung.md` | Verfahrensfreiheit, Nachbarrecht, Denkmalschutz, Versicherung, Helfer |
+| Wärmepumpe statt Ölheizung | `waermepumpe-oelheizung.md` | Fristen (GModG), Förderung, JAZ/Heizlast, Tankentsorgung, Rechenbeispiel |
+| PV + Speicher + Wallbox | `pv-speicher-wallbox.md` | Auslegung, Einspeisevergütung, § 14a EnWG, Steuern, Amortisation |
+| Elektro neu im 60er-Haus | `elektro-60er-haus.md` | Nullung, Alu-Leiter, Zählerplatz, Messungen, Kosten je Stromkreis |
+| Internet/Kabel im Altbau | `internet-kabelanschluss.md` | HÜP, Pegel, Nebenkostenprivileg, Glasfaser-Vergleich, Hausnetz |
+| Haus komplett sanieren | `haus-komplettsanierung.md` | Netzplan, Budget, Steuerung, Rechenbeispiel 130 m² |
+| Energieausweis & Beratung | `energieausweis-beratung.md` | Pflichten, Bedarfs-/Verbrauchsausweis, iSFP |
+| Heizungsalternativen | `heizung-alternativen.md` | Pellet, Fernwärme, Solar, Gas-Hybrid, Infrarot im Vergleich |
+| Smart Home nachrüsten | `smart-home-nachruesten.md` | Funk vs. Bus, Vorbereitung, Kosten, Datensicherheit |
+| Förderung & Steuern | `foerderung-steuern.md` | BEG-EM-Quoten 2026, § 35a/35c, Grundsteuer, Antragsweg |
+| Dach, Regenwasser, Garage | `dachentwaesserung-regenwasser.md` | Rinnenbemessung, Versickerung, Zisterne, Garage |
+| Foto-Diagnose | `foto-diagnose.md` | Was ein Bild hergibt — und was nicht (Risse, Schimmel, Elektro) |
 
 ## Quellenstand
 

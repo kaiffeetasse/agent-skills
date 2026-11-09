@@ -1,5 +1,8 @@
 # Werkzeug, Miete & Sicherheit auf der eigenen Baustelle
 
+> **Preisstand 09/2026.** Alle Preise sind Orientierungswerte inkl. MwSt. aus den genannten Quellen —
+> regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
+
 ## Kurzantwort
 
 - **Staub ist das Hauptrisiko:** bei Handmaschinen **Staubklasse M** (TRGS 504), L-Sauger sind dort unzulässig.
