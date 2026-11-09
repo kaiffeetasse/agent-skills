@@ -1,0 +1,2055 @@
+{
+  "generated": "2026-11-09",
+  "quelle": "Transkripte in references/transkripte/, Extraktion je Video; ein Fehler = ein Testfall",
+  "videos": [
+    {
+      "id": "BjwRSuspdiA",
+      "titel": "Die 10 teuersten Fehler bei Hausbau und Sanierung",
+      "kanal": "Fertighausexperte",
+      "laenge": "33:50"
+    },
+    {
+      "id": "nulK-nz67Cc",
+      "titel": "Die 20 größten Fehler beim Hausbau!",
+      "kanal": "Fertighausexperte",
+      "laenge": "52:43"
+    },
+    {
+      "id": "sWXyiNADbFk",
+      "titel": "Unsere Haussanierung: 12 Fehler, die ich bereue",
+      "kanal": "Spiel und Zeug",
+      "laenge": "17:55"
+    },
+    {
+      "id": "k3q49IW19KU",
+      "titel": "FEHLER BEIM RENOVIEREN",
+      "kanal": "Johannes / Flipper Immo",
+      "laenge": "16:09"
+    },
+    {
+      "id": "TszegjPc69w",
+      "titel": "9 teure Dämm-Fehler",
+      "kanal": "schlau energiesparen",
+      "laenge": "18:26"
+    },
+    {
+      "id": "dW-Sf-yaEBQ",
+      "titel": "Schwerer Elektro Pfusch Teil 1",
+      "kanal": "Step by Step Elektro",
+      "laenge": "06:03"
+    },
+    {
+      "id": "eNpMPWvnWiI",
+      "titel": "Fehler in Elektroinstallationen",
+      "kanal": "ProofWood Technik",
+      "laenge": "17:21"
+    },
+    {
+      "id": "zR7LyRq3G7Q",
+      "titel": "Die 5 größten Fehler bei einer Badsanierung",
+      "kanal": "Der Fliesenleger",
+      "laenge": "21:53"
+    },
+    {
+      "id": "3tVsWxStiL0",
+      "titel": "Vermeide diese Fehler beim Fliesen verlegen",
+      "kanal": "MrHandwerk",
+      "laenge": "10:31"
+    },
+    {
+      "id": "wnWCWCQfkvg",
+      "titel": "5 Estrich Fehler die du vermeiden solltest",
+      "kanal": "Estrich Werke Süddeutschland",
+      "laenge": "05:30"
+    }
+  ],
+  "fehler": [
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-01",
+      "video": "3tVsWxStiL0",
+      "ts": "00:01:19",
+      "playbook": "fliesen.md",
+      "error": "Untergrund nicht geprüft: Boden ist nicht eben, nicht trocken und nicht staubfrei, bevor verlegt wird.",
+      "scenario": "Eigenheimbesitzer legt Bodenfliesen auf einen welligen, noch feuchten und staubigen Estrich – einzelne Fliesen liegen hohl, der Kleber haftet nicht, nach ein bis zwei Jahren lösen sich Platten.",
+      "must_contain": [
+        "ebenheit mit wasserwaage|richtscheit prüfen",
+        "trocken",
+        "staubfrei"
+      ],
+      "quote": "solltest du nicht so hier so ein Wellengang haben sondern sollte wirklich alles eben sein"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-02",
+      "video": "3tVsWxStiL0",
+      "ts": "00:02:05",
+      "playbook": "fliesen.md",
+      "error": "Haftgrund/Isoliergrund wird weggelassen – der Kleber trocknet am saugenden Beton zu schnell an.",
+      "scenario": "Auf saugendem Beton/Rohboden wird ohne Grundierung geklebt; das Wasser im Kleber zieht sofort in den Untergrund, der Kleber härtet an der Fliese, aber nicht am Boden – Fliesen lösen sich unbemerkt nach ein, zwei Jahren.",
+      "must_contain": [
+        "haftgrund",
+        "isoliergrund|sperrschicht",
+        "24 stunden trocknung|einwirkzeit"
+      ],
+      "quote": "Haftgrund ... lässt dir dann ungefähr 24 Stunden trocknen oder einwirken"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-03",
+      "video": "3tVsWxStiL0",
+      "ts": "00:02:49",
+      "playbook": "fliesen.md",
+      "error": "Falsche Zahnkelle: Zahnung zu klein für das Fliesenformat, dadurch zu wenig Kleber und Hohlräume.",
+      "scenario": "30x30-Fliese wird mit 5-mm-Zahnkelle verlegt; schon 1–2 mm Unebenheit reichen, dass zu wenig Kleber da ist, Luft eingeschlossen wird und sich die Fliese mit der Zeit löst.",
+      "must_contain": [
+        "zahnkelle passend zum format",
+        "zahnhöhe = klebermenge",
+        "kleberbett vollständig"
+      ],
+      "quote": "nimmst eine Zahnkelle von 5 mm ... kann es durchaus sein, dass der Kleber zu wenig ist"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-04",
+      "video": "3tVsWxStiL0",
+      "ts": "00:04:24",
+      "playbook": "fliesen.md",
+      "error": "Falscher Fliesenkleber: billigster oder teuerster Baumarktkleber statt solider Mittelklasse.",
+      "scenario": "Heimwerber greift zum billigsten Sack, weil „Kleber ist Kleber“; das Material ist zu schwach für den Untergrund, die Fliesen halten nicht dauerhaft. Mittelmaß plus Beratung im Markt wäre richtig.",
+      "must_contain": [
+        "mittelklasse-kleber",
+        "nicht billigster sack",
+        "herstellerangaben"
+      ],
+      "quote": "nimmt bitte nicht das Billigste vom Billigsten auch nicht das teureste vom teursten nimmt einfach ein Mittelmaß"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-05",
+      "video": "3tVsWxStiL0",
+      "ts": "00:04:49",
+      "playbook": "fliesen.md",
+      "error": "Herstellerangaben zu Wassermenge und Verarbeitungszeit werden ignoriert – angerührter Kleber/Fugenmörtel wird zu lange verarbeitet.",
+      "scenario": "Heimwerber rührt eine große Menge an und verlegt über Stunden weiter; die offene Zeit (im Video ca. 5 Stunden) ist überschritten, das Material bindet ab und verliert die Haftung.",
+      "must_contain": [
+        "verarbeitungszeit|offene zeit",
+        "5 stunden laut hersteller",
+        "wassermenge exakt abwiegen"
+      ],
+      "quote": "waren es so dass es 5 Stunden sind halte dich bitte wirklich strickt an die Angaben vom Hersteller"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-06",
+      "video": "3tVsWxStiL0",
+      "ts": "00:05:36",
+      "playbook": "fliesen.md",
+      "error": "Fliesenmenge exakt auf die Quadratmeter bestellt, kein Reservepaket für Verschnitt und Bruch.",
+      "scenario": "Für 9,5–10 m² werden genau 10 m² gekauft; beim Schneiden, Flexen und Bohren gehen Fliesen zu Bruch, ein späterer Austausch ist ohne Reserve nicht möglich – gleiche Charge oft nicht mehr lieferbar.",
+      "must_contain": [
+        "1–2 pakete reserve",
+        "verschnittzuschlag",
+        "bruch beim schneiden"
+      ],
+      "quote": "bitte nimm dann noch ein Paket extra mit oder vielleicht auch zwei"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-07",
+      "video": "3tVsWxStiL0",
+      "ts": "00:07:31",
+      "playbook": "fliesen.md",
+      "error": "Fugenmörtel wird mit dem Rührquirl („Feder“) angerührt – dadurch wird Luft eingearbeitet, die erst am nächsten Tag als Luftlöcher sichtbar wird.",
+      "scenario": "Heimwerber rührt das Fugenmaterial mit dem Quirl durch, verfugt, und am nächsten Tag sind überall kleine Löcher in den Fugen; bei viel Luft verliert die Fuge den Halt, die Fliese löst sich und Wasser dringt ein.",
+      "must_contain": [
+        "per hand mit kelle anrühren",
+        "kein rührquirl|feder",
+        "luftporen|luftlöcher"
+      ],
+      "quote": "du arbeitest Luft da in dieses Material mit hinein und verfugst es dann"
+    },
+    {
+      "scored": true,
+      "id": "3tVsWxStiL0-08",
+      "video": "3tVsWxStiL0",
+      "ts": "00:08:56",
+      "playbook": "fliesen.md",
+      "error": "Kein Verlegeplan: Startpunkt, Fugenbild und Schnittbreiten werden nicht vorher durchgerechnet.",
+      "scenario": "Heimwerber beginnt mit einer vollen Fliese an der falschen Wand und endet mit einem schmalen Streifen an der Tür; das Fugenbild wirkt unsystematisch – und bleibt die nächsten 30 Jahre sichtbar.",
+      "must_contain": [
+        "von der tür aus planen|enden",
+        "raummitte markieren",
+        "fugenbild|fugenflucht"
+      ],
+      "quote": "immer zu Tür hin damit du auch den Raum dann verlassen kannst"
+    },
+    {
+      "scored": true,
+      "id": "bjw-01",
+      "video": "BjwRSuspdiA",
+      "ts": "00:00:54",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Baukosten, Vor-/Nachteile und Firmenbewertungen ungeprüft aus dem Internet übernehmen, statt konkrete Angebote und neutrale Experten zu holen.",
+      "scenario": "Ein Bauherr liest auf den ersten fünf Google-Treffern, Fertighäuser seien 'von der Stange', hätten schlechten Schallschutz und seien billiger als Steinhäuser – und schließt daraus, Fertighaus sei für ihn erledigt. Welche Quelle darf er stattdessen für seinen Kostenrahmen heranziehen?",
+      "must_contain": [
+        "konkrete angebote vor ort",
+        "kostenvoranschlag",
+        "architekt"
+      ],
+      "quote": "die Wahrheit ist, dass da alle voneinander abschreiben"
+    },
+    {
+      "scored": true,
+      "id": "bjw-02",
+      "video": "BjwRSuspdiA",
+      "ts": "00:02:46",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Blind auf Empfehlungen von Freunden und Familie hören, ohne die eigene finanzielle und zeitliche Situation zu prüfen.",
+      "scenario": "Der Schwager sagt 'Bau bloß massiv, das hat bei uns super geklappt'. Der Bauherr will wissen, welche Fragen er sich selbst stellen muss, bevor er diese Empfehlung übernimmt.",
+      "must_contain": [
+        "eigene situation hinterfragen",
+        "zinsniveau|zeitpunkt",
+        "eigenleistung realistisch"
+      ],
+      "quote": "auf Empfehlungen von Freunden und Familie vertrauen ist oftmals der erste Impuls"
+    },
+    {
+      "scored": true,
+      "id": "bjw-03",
+      "video": "BjwRSuspdiA",
+      "ts": "00:04:44",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Planung nicht selbst in die Hand nehmen und darauf verlassen, dass Generalunternehmer/Anbieter Bodengutachten und Architekt schon 'mitliefern' – die steigen zu spät ein.",
+      "scenario": "Der Anbieter verspricht 'du brauchst dich um nichts zu kümmern'. Der Bauherr hat Bodenplatte geplant und fragt sich, ob er vor Vertragsunterschrift ein eigenes Bodengutachten braucht – und was ihm blüht, wenn er es nicht hat.",
+      "must_contain": [
+        "bodengutachten vorab",
+        "architekt|planer früh",
+        "grundstückssituation"
+      ],
+      "quote": "du brauchst dich um nichts zu kümmern"
+    },
+    {
+      "scored": true,
+      "id": "bjw-04",
+      "video": "BjwRSuspdiA",
+      "ts": "00:07:01",
+      "playbook": "keller-mauerwerk.md",
+      "error": "Keller pauschal ausschließen ('zu teuer, kostet 100.000 €'), ohne die Grundstückssituation und die Erdarbeiten durchzurechnen.",
+      "scenario": "Der Bauherr hört im Forum 'Keller lohnt nie' und will wissen, wann ein Keller auf seinem Grundstück trotzdem günstiger ist als die Bodenplatte.",
+      "must_contain": [
+        "grundstückssituation",
+        "bodenverhältnisse",
+        "technikraum|stauraum im keller"
+      ],
+      "quote": "der Keller ist doch viel zu teuer oder der kostet doch einfach nur 100.000 €"
+    },
+    {
+      "scored": true,
+      "id": "bjw-05",
+      "video": "BjwRSuspdiA",
+      "ts": "00:08:58",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Baufirma nach falschen Kriterien wählen (Regionalität, Sympathie der Beratung, schönster Grundriss, Referenzen im Baugebiet) statt nach Qualität und Preis-Leistung.",
+      "scenario": "Drei Anbieter stehen zur Wahl, einer ist 'aus der Region und total sympathisch'. Der Bauherr fragt, nach welchem Kriterium er wirklich entscheiden soll.",
+      "must_contain": [
+        "preis-leistungs-verhältnis",
+        "qualität der bausubstanz",
+        "regionale nähe nur als nebenkriterium"
+      ],
+      "quote": "ihr solltet ausschließlich die Baufirma wählen die das beste Haus zum besten Preis liefert"
+    },
+    {
+      "scored": true,
+      "id": "bjw-06",
+      "video": "BjwRSuspdiA",
+      "ts": "00:10:26",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Auf Ausstattung statt auf Bausubstanz achten – z. B. 'Edelputz' in der Baubeschreibung als Qualitätsmerkmal lesen.",
+      "scenario": "In der Baubeschreibung steht 'Edelputz' und 'hochwertige Fliesen'. Der Bauherr will wissen, welche Angaben im Wand-/Dachaufbau er stattdessen prüfen muss, weil die Substanz 50–60 Jahre bleibt.",
+      "must_contain": [
+        "wandaufbau",
+        "monolithischer wandaufbau",
+        "holzfaserdämmung im dach"
+      ],
+      "quote": "das Wort edel lädt das Wort ein bisschen auf und man hat das Gefühl man bekommt was hochwertiges"
+    },
+    {
+      "scored": true,
+      "id": "bjw-07",
+      "video": "BjwRSuspdiA",
+      "ts": "00:13:07",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Nicht richtig vergleichen und nicht verhandeln – erstes passend wirkendes Angebot nehmen, Standardvertrag unverändert unterschreiben.",
+      "scenario": "Der Bauherr hat ein Musterhaus gesehen, das 'perfekt passt', und möchte direkt unterschreiben. Warum soll er trotzdem 4–6 Angebote einholen und über Vertragskonditionen verhandeln?",
+      "must_contain": [
+        "4–6 angebote",
+        "100–200 anbieter als trumpf",
+        "vertrag an grundstückssituation anpassen"
+      ],
+      "quote": "ihr habt nur einen einzigen Trumpf gegenüber einer Baufirma"
+    },
+    {
+      "scored": true,
+      "id": "bjw-08",
+      "video": "BjwRSuspdiA",
+      "ts": "00:15:23",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Am Bausachverständigen sparen, weil man 'ja mit einer guten Firma' baut – Fehler werden dann erst spät oder gar nicht erkannt.",
+      "scenario": "Der Bauherr hat nach eigener Einschätzung eine gute Firma und will die Kosten für einen Sachverständigen sparen. Was verliert er konkret und wie oft müsste kontrolliert werden?",
+      "must_contain": [
+        "fehler frühzeitig anzeigen",
+        "protokoll mit zehn punkten",
+        "bodenplatte|keller-kontrolle"
+      ],
+      "quote": "auch bei guten Firmen geht eben relativ viel schief"
+    },
+    {
+      "scored": true,
+      "id": "bjw-09",
+      "video": "BjwRSuspdiA",
+      "ts": "00:17:17",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Eigenleistung (und Hilfe von Freunden/Familie) deutlich überschätzen – Zeitaufwand und Nachfinanzierung nicht eingeplant.",
+      "scenario": "Der Bauherr will Malerarbeiten selbst machen, 'ein Wochenende reicht'. Er fragt, wie viel Fläche und Geld realistisch auf ihn zukommt.",
+      "must_contain": [
+        "500–600 m² wandfläche",
+        "wochenenden über monate",
+        "doppelbelastung miete + rate"
+      ],
+      "quote": "500 600 Quadratmeter Wandfläche zu streichen, dann ist das nicht wenig"
+    },
+    {
+      "scored": false,
+      "id": "bjw-10",
+      "video": "BjwRSuspdiA",
+      "ts": "00:19:09",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Auf bessere Zeiten (niedrigere Zinsen/Baukosten) warten, statt zu bauen, wenn das Projekt jetzt finanziell tragbar ist.",
+      "scenario": "Der Bauherr überlegt, 2–3 Jahre zu warten, weil 'die Zinsen vielleicht fallen'. Er will eine Entscheidungsregel.",
+      "must_contain": [
+        "20 m² mehr als wette",
+        "2–3 jahre wartezeit",
+        "sinkende zinsen → steigende nachfrage|preise"
+      ],
+      "quote": "wenn es jetzt finanziell für euch funktioniert dann baut",
+      "scored_note": "Wartezeit/Baukosten-Prognose (2–3 Jahre, 20 m²) — Meinung des Sprechers, keine Regel"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-01",
+      "video": "TszegjPc69w",
+      "ts": "00:01:08",
+      "playbook": "daemmung.md",
+      "error": "Obere Geschossdecke nur 20 cm Zellulose gedämmt – zu dünn, obwohl die Höhe 40–50 cm zugelassen hätte.",
+      "scenario": "Eigenheimbesitzer dämmt die obere Geschossdecke selbst und kauft nur 20 cm Zellulose, weil das im Baumarkt als 'üblich' gilt. Der Aufpreis für 40 cm wäre nur Material plus ca. eine Dreiviertelstunde Arbeit gewesen – jetzt muss er in 20 Jahren zweimal ran (doppelte Arbeitszeit, zweimal Anfahrt).",
+      "must_contain": [
+        "aufbauhöhe vorher prüfen",
+        "decke: dicke fast immer möglich",
+        "u-wert-zielwert nennen"
+      ],
+      "quote": "habe die obere Geschossdecke leider damals nur mit 20 cm Zellulose gedämmt"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-02",
+      "video": "TszegjPc69w",
+      "ts": "00:02:41",
+      "playbook": "daemmung.md",
+      "error": "WDVS nicht fugenfrei/luftdicht verklebt – ein durchgehender Luftspalt zwischen Dämmplatte und Wand macht die Außendämmung wirkungslos.",
+      "scenario": "Hausbesitzer lässt eine Außendämmung mit verputzter Fassade machen; die Platten wurden nur gepunktet bzw. mit Dübeln fixiert. Vom Gerüst aus kann er zwischen Dämmung und Wand von oben bis unten durchsehen ('bis in den Garten'). Optik perfekt, Dämmwirkung stark eingeschränkt oder null.",
+      "must_contain": [
+        "punkt-batzen-|wulst-batzen-klebeverfahren",
+        "luftdicht und fugenfrei aufbringen",
+        "unterschied außendämmung: luftspalt = konvektion|verlust"
+      ],
+      "quote": "zwischen dem Dämmstoff und der Wand die Luft hindurchströmen kann von unten nach oben"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-03",
+      "video": "TszegjPc69w",
+      "ts": "00:03:50",
+      "playbook": "daemmung.md",
+      "error": "Hohlraum hinter der Außendämmung wird nicht erkannt/verschlossen – 2–3 cm Luft rund ums Haus, 7 m³ Füllvolumen.",
+      "scenario": "Nach der Montage fällt auf, dass hinter den Polystyrolplatten ein durchgehender Spalt liegt. Statt Rückbau werden Säcke SLS20 (rieselfähiges Schüttgut) in den Hohlraum geschüttet – sechs Wochen Arbeit, am Ende 7 m³ Verbrauch.",
+      "must_contain": [
+        "7 m³ schüttgut  als größenordnung",
+        "kontrolle vor dem verputzen"
+      ],
+      "quote": "wir hatten ihm 7 Kubikmeter SLS20 verkauft"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-04",
+      "video": "TszegjPc69w",
+      "ts": "00:04:37",
+      "playbook": "daemmung.md",
+      "error": "Innendämmung mit Luftspalt zur Außenwand erzeugt einen Taupunkt in der Wand – Tauwasser und Schimmel bleiben unsichtbar.",
+      "scenario": "Eigenheimbesitzer dämmt von innen, Platten liegen nicht satt an, dahinter bleibt Luft. Wasserdampf diffundiert in den Spalt, kondensiert am Taupunkt, der Schimmel sitzt hinter Putz/Gipsplatte. Symptome: muffiger Geruch, später Asthma – kein sichtbarer Fleck.",
+      "must_contain": [
+        "luftspalt = dampf-diffusionsbrücke",
+        "vollflächige, fugenfreie verklebung",
+        "dampfsperre|dampfbremse raumseitig, anschlüsse luftdicht"
+      ],
+      "quote": "wenn zwischen Dämmstoff auf der Innenseite und der Außenwand ein Luftspalt ist"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-05",
+      "video": "TszegjPc69w",
+      "ts": "00:05:22",
+      "playbook": "daemmung.md",
+      "error": "Plattendämmung ohne unteren Abschluss – Mäuse und Marder graben Gänge in das WDVS.",
+      "scenario": "Der Hausbesitzer findet beim Abnehmen der Polystyrolplatten ein Gangsystem von der Rückseite (wie Schweizer Käse) – Tiere haben darin ihre Höhlen und koten. In Schütt- und Zellulosedämmung passiert das kaum, in Plattenware sehr leicht.",
+      "must_contain": [
+        "abschlussschiene unten gegen die dämmplatten",
+        "plattendämmung vs. schütt-|zellulosedämmung",
+        "abschluss vor dem verputzen montieren"
+      ],
+      "quote": "Das ist in Zellulose oder auch in schüttbaren Dämmstoffen kaum möglich"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-06",
+      "video": "TszegjPc69w",
+      "ts": "00:06:07",
+      "playbook": "daemmung.md",
+      "error": "Dachdämmung von innen ohne wasserführendes Unterdach und ohne Dampfbremse – der Dämmstoff ist wirkungslos.",
+      "scenario": "Altbau mit Ziegeldeckung: Dämmung wird direkt unter die Pfannen gelegt, außen fehlt die Unterdeckbahn, innen die Dampfbremse. Tauwasser, Flugschnee oder eine verrutschte/gesprungene Pfanne bringt Wasser in den Dämmstoff. Nasser Dämmstoff dämmt nicht mehr ('wie nasse Socken im Skistiefel').",
+      "must_contain": [
+        "wasserführendes unterdach",
+        "dampfbremse raumseitig",
+        "nasser dämmstoff ≈ wirkungslos"
+      ],
+      "quote": "die wasserführende Folie vergisst und nach innen die Dampfbremse"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-07",
+      "video": "TszegjPc69w",
+      "ts": "00:08:00",
+      "playbook": "daemmung.md",
+      "error": "Außendämmung endet stumpf vor der Fensterleibung statt in die Leibung hineingezogen zu werden – Wärmebrücke mit Schimmel innen.",
+      "scenario": "Nach dem WDVS-Einbau zeigen sich graue Flecken an der Innenseite rund um die Fenster, je näher am Rahmen desto stärker. Die Dämmung wurde nicht in die Laibung geführt, die Kälte kriecht durch die durchgemauerte Leibung nach innen; dort entsteht Tauwasser.",
+      "must_contain": [
+        "dämmung in die fensterleibung ziehen",
+        "wärmebrücke laibung",
+        "'stockflecken' ist schimmel, nicht harmlos"
+      ],
+      "quote": "die Dämmung hört stumpf vor der Fensterleibung auf"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-08",
+      "video": "TszegjPc69w",
+      "ts": "00:08:43",
+      "playbook": "daemmung.md",
+      "error": "Bei Kerndämmung im zweischaligen Mauerwerk bleibt die Wärmebrücke der Fensterleibung bestehen – ohne Calciumsilikatplatten schimmelt die Laibung.",
+      "scenario": "Zweischaliges Mauerwerk wird nachträglich mit Kerndämmung versehen. An der Fensterleibung ist die Wand durchgemauert (11–12 cm Ziegel/Kalksandstein plus Putz), dort gibt es keinen Hohlraum für Dämmung. Innen bildet sich ein Schimmelstreifen an der Laibung.",
+      "must_contain": [
+        "kerndämmung zweischaliges mauerwerk",
+        "wärmebrücke nicht beseitigbar",
+        "calciumsilikatplatten innen auf die leibung"
+      ],
+      "quote": "Die Fensterleibung ist durchgemauert, da sind 11, 12 oder wie viel auch immer Zentimeter Ziegel"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-09",
+      "video": "TszegjPc69w",
+      "ts": "00:11:03",
+      "playbook": "daemmung.md",
+      "error": "Dämmstoff wird zusammengepresst – die Lufteinschlüsse verschwinden, Glasfaser liegt an Glasfaser, die Dämmwirkung bricht ein.",
+      "scenario": "Selbstbauer stopft Mineralwollmatten in die obere Geschossdecke oder in die Dachschräge, damit sie 'satt' sitzen, und drückt sie zusammen. Der Dämmwert sinkt drastisch; gleichzeitig entstehen Fugen, weil die Matte nicht mehr an Sparren und Balken anliegt.",
+      "must_contain": [
+        "kleine luftporen = besserer dämmwert",
+        "trotzdem fugenfrei an sparren|balken anliegen",
+        "aerogel|nanogel als extrembeispiel"
+      ],
+      "quote": "dann liegt Glasfaser an Glasfaser und der Dämmstoff dämmt nicht mehr"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-10",
+      "video": "TszegjPc69w",
+      "ts": "00:12:11",
+      "playbook": "daemmung.md",
+      "error": "WDVS mit durchgehenden Metalldübeln erzeugt 40–50 Wärmebrücken – Folge sind Schwarzalgen auf der Fassade.",
+      "scenario": "Weiße/grüne Punkte auf grauem Putz, vom Besitzer für Schimmel oder Moos gehalten. Es sind Algen: Die Dübel sind Metallstifte von außen nach innen, die Wärme nach außen leiten, der Putz trocknet dort schnell ab – und Algen siedeln bevorzugt auf feuchten, kalten Flächen.",
+      "must_contain": [
+        "thermisch getrennte dübel",
+        "algen ≠ schimmel",
+        "40–50 wärmebrücken im beispiel"
+      ],
+      "quote": "Wir sehen auf dem Bild hier schätzungsweise 40 bis 50 Wärmebrücken"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-11",
+      "video": "TszegjPc69w",
+      "ts": "00:14:30",
+      "playbook": "daemmung.md",
+      "error": "Fugen zwischen Dämmplatten werden mit Mörtel oder Putz verfüllt – Mörtel leitet Wärme und die Fuge bleibt Wärmebrücke.",
+      "scenario": "Der Verarbeiter füllt die Stoßfugen der Dämmplatten einfach mit dem Fassadenputz/Mörtel. Damit sind die Fugen optisch zu, energetisch aber offen: senkrechte und waagrechte Mörtelstege durchziehen die Dämmebene.",
+      "must_contain": [
+        "fugen zwischen dämmplatten fugenfrei schließen"
+      ],
+      "quote": "die Fugen zwischen den einzelnen Dämmplatten einfach mit dem Putz ausgefüllt"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-12",
+      "video": "TszegjPc69w",
+      "ts": "00:15:18",
+      "playbook": "daemmung.md",
+      "error": "Plattenware in der Dachdämmung/Leichtbau – starre Platten lassen sich zwischen Sparren nicht fugenfrei einbauen.",
+      "scenario": "Im Holzrahmenbau bzw. in der Dachschräge werden starre Dämmplatten zwischen die Sparren geschnitten. An den Übergängen zu anderen Holzteilen bleiben Zwangsfugen; die ohnehin vorhandene Wärmebrücke 'Sparren' wird verstärkt.",
+      "must_contain": [
+        "plattendämmstoffe im dach ungeeignet",
+        "matten- oder einblasdämmstoff wählen",
+        "einblasdämmung ist fugenfrei einbaubar"
+      ],
+      "quote": "Plattendämmstoffe haben im Dach nichts verloren"
+    },
+    {
+      "scored": true,
+      "id": "TszegjPc69w-13",
+      "video": "TszegjPc69w",
+      "ts": "00:16:27",
+      "playbook": "daemmung.md",
+      "error": "Leichtbau ohne raumseitig luftdicht verlegte Dampfbremse – Wasserdampf kondensiert am kalten Bauteil, Holzfäule bis zum Dachstuhlverlust.",
+      "scenario": "Dachschräge gedämmt, Dampfbremse nur 'irgendwie' verlegt, Anschlüsse an Kehlen, Pfetten und Durchdringungen nicht verklebt. Warme Luft strömt mit Feuchtigkeit nach außen, kondensiert am kalten Holz; nach Jahren ist der Dachstuhl zerstört. Von innen unsichtbar.",
+      "must_contain": [
+        "dampfbremse raumseitig, absolut luftdicht",
+        "luftdicht = gasdicht",
+        "anschlüsse|durchdringungen verklebt"
+      ],
+      "quote": "raumseitig eine absolut luftdicht verlegte Dampfbremse installiert"
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-01",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:00:26",
+      "playbook": "elektro.md",
+      "error": "Wohnungszuleitung (6 mm²) kommt aus dem Keller ohne Schutzleiter/Erdungsleiter – die Anlage hat keinen durchgehenden PE, obwohl die Wohnung als fertig übergeben werden sollte.",
+      "scenario": "Eigenheimbesitzer nach Komplettrenovierung: Verteiler und Steckdosen sind neu, alles funktioniert, aber am Kellerabgang fehlt die grün-gelbe Ader. Er will wissen, ob er einziehen kann.",
+      "must_contain": [
+        "schutzleiter fehlt",
+        "6 mm²",
+        "tn-s bzw. tn-c-s"
+      ],
+      "quote": "die Zuleitung ist ein sechs Quadrat kommt aus dem Keller raus ohne eine Erdungsleitung",
+      "symptom": "Im Verteiler fehlt die grün-gelbe Ader; Steckdosen führen Spannung, aber kein PE."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-02",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:00:34",
+      "playbook": "elektro.md",
+      "error": "Zuleitung ist oben direkt auf die Leitungsschutzschalter und die Kammschiene geklemmt statt auf einen definierten Einspeiseklemmenblock – Einspeisepunkt, Absicherung und Zugentlastung sind nicht nachvollziehbar.",
+      "scenario": "Besitzer öffnet den neuen Verteiler und sieht das dicke Kellerkabel oben auf den Automaten liegen; der Elektriker sagt, das sei „schon mal falsch“.",
+      "must_contain": [
+        "hauptleitungs-schutz",
+        "einspeiseklemme|einspeiseblock",
+        "kammschiene"
+      ],
+      "quote": "die Zuleitung die oben auf dem Automaten drauf gehen das ist schon mal falsch",
+      "symptom": "Das dicke Kellerkabel liegt oben auf den Automatenklemmen, keine Einspeiseklemme, keine Zugentlastung."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-03",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:01:00",
+      "playbook": "elektro.md",
+      "error": "Alte Bestandsleitungen wurden weiterbenutzt, ein PEN ist noch vorhanden – die Anlage ist kein sauberes TN-S-System, PE und N sind nicht durchgehend getrennt.",
+      "scenario": "Nach der Sanierung sind alte Leitungen in den Wänden geblieben; im Verteiler hängt noch ein PEN. Der Besitzer fragt, ob das für einen FI und neue Steckdosen reicht.",
+      "must_contain": [
+        "tn-c",
+        "tn-s",
+        "din vde 0100-540"
+      ],
+      "quote": "hier wurden auch die alten Leitungen benutzt wir haben hier einen pennen noch",
+      "symptom": "Im Verteiler hängt noch ein PEN; PE und N sind nicht durchgehend getrennt."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-04",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:01:20",
+      "playbook": "bad.md",
+      "error": "Durchlauferhitzer hängt an alten zweiadrigen Leitungen, teilweise ohne aufgelegten Schutzleiter und ohne klassische Nullung – Schutzklasse-I-Gerät ohne Schutzleiter im Nassbereich.",
+      "scenario": "Im Bad wurde der alte Boiler durch einen Durchlauferhitzer ersetzt, die vorhandene Leitung blieb. Dusche funktioniert warm, niemand hat den PE geprüft.",
+      "must_contain": [
+        "2-adrig",
+        "schutzklasse i",
+        "durchlauferhitzer"
+      ],
+      "quote": "das sind noch alles alte 2-adrige Leitung da sind teilweise auch gar keine Schutzleiter verdratet",
+      "symptom": "Hinter dem Durchlauferhitzer nur zwei Adern, keine grün-gelbe, kein RCD im Bad."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-05",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:01:46",
+      "playbook": "elektro.md",
+      "error": "6-mm²-Zuleitung mit 50 A abgesichert, dahinter Durchlauferhitzer plus weitere Verbraucher – Absicherung und Querschnitt passen nicht zusammen, Brandstellen an Klemmen und unter Putz vorprogrammiert.",
+      "scenario": "Eigentümer betreibt Durchlauferhitzer, Herd und Haushaltsgeräte gleichzeitig; im Verteiler sitzen 50-A-Sicherungen, die Leitung wird warm, es riecht verschmort.",
+      "must_contain": [
+        "50 a",
+        "6 mm²",
+        "strombelastbarkeit"
+      ],
+      "quote": "es reicht dann halt aus wenn wenn wenn die Anlage und mit 50 Ampere",
+      "symptom": "50-A-Sicherung vor 6 mm², Leitung wird warm, verschmorter Geruch."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-06",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:02:04",
+      "playbook": "elektro.md",
+      "error": "Durchlauferhitzer wird über 2,5 mm² bestromt, obwohl dort je nach Gerät 20–32 A fließen – Querschnitt deutlich zu klein für die Last.",
+      "scenario": "Beim Blick in die Dose hinter dem Durchlauferhitzer sieht der Besitzer eine dünne Ader; das Gerät läuft, die Leitung wird aber heiß.",
+      "must_contain": [
+        "2,5 mm²",
+        "5×4 mm²",
+        "5×6 mm²"
+      ],
+      "quote": "ich glaube das ist sogar 2,5 da damit wird der Durchlauferhitzer bestromt",
+      "symptom": "Dünne Ader (2,5 mm²) am 21–24-kW-Gerät, Leitung wird heiß."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-07",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:02:25",
+      "playbook": "elektro.md",
+      "error": "FI-Schutzschalter ist eingebaut, aber nicht angeschlossen – vorgetäuschter Personenschutz („Deko-FI“), der bei einem Fehler nicht auslöst.",
+      "scenario": "Im neuen Verteiler sitzt ein FI, die Prüftaste tut nichts, die Steckdosen laufen trotzdem. Der Besitzer hält die Anlage für sicher.",
+      "must_contain": [
+        "rcd 30 ma",
+        "typ a",
+        "nicht angeschlossen"
+      ],
+      "quote": "jeder FI Schalter ist halt da aber ist halt nicht angeschlossen",
+      "symptom": "FI sitzt im Verteiler, Prüftaste zeigt keine Wirkung, Steckdosen laufen weiter."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-08",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:02:59",
+      "playbook": "elektro.md",
+      "error": "Steckdose ohne Schutzleiter: der PE wurde offenbar abgeschnitten, das Gerät läuft trotzdem – der Körperschluss führt direkt zum Stromschlag, weil keine Schutzeinrichtung greift.",
+      "scenario": "Besitzer steckt Staubsauger und Fernseher ein, alles geht; erst beim Messen fällt auf, dass in der Dose kein PE ankommt („der Airbag fehlt“).",
+      "must_contain": [
+        "schutzleiter abgeschnitten",
+        "kein pe in der dose",
+        "schutzklasse i"
+      ],
+      "quote": "wurde der Schutzleiter anscheinend irgendwie abgeschnitten",
+      "symptom": "In der Dose kommt kein PE an, Messung L-PE bleibt ohne Anzeige, Gerät läuft trotzdem."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-09",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:03:20",
+      "playbook": "elektro.md",
+      "error": "Leuchtenanschluss an alter Leitung in „klassischer Serienschaltung“ ausgeführt, Isolierwerte der alten Adern ungeprüft – Fehler vermutlich in der Dose darüber statt in der Leitung.",
+      "scenario": "Nach dem Streichen flackert das Deckenlicht; in der Dose liegt eine alte Leitung, der Besitzer will nur die Lampe tauschen.",
+      "must_contain": [
+        "serienschaltung",
+        "wechselschaltung",
+        "isolationswiderstand ≥ 1 mω"
+      ],
+      "quote": "hier eine klassische Serienschaltung die sie nicht gemacht werden sollte",
+      "symptom": "Alte Leitung zur Lampe, Flackern, Isolierwerte ungeprüft."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-10",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:03:34",
+      "playbook": "elektro.md",
+      "error": "Ader ist abgerissen und steckt noch in der Klemme; abisoliert wurde offenbar mit dem Seitenschneider – Kerben und Querschnittsverlust an der Kupferseele.",
+      "scenario": "Beim Lampenwechsel knickt eine Ader ab, das kurze Reststück bleibt in der Klemme; der Besitzer überlegt, ob er es „so“ wieder reindrücken kann.",
+      "must_contain": [
+        "ader abgerissen",
+        "seitenschneider",
+        "kerben"
+      ],
+      "quote": "der ist sogar schon abgerissen wunderbar ja der steckt noch drin",
+      "symptom": "Ein kurzes Aderstück steckt noch in der Klemme, die Ader ist abgerissen."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-11",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:03:39",
+      "playbook": "elektro.md",
+      "error": "Leiter wurden mit dem Seitenschneider abisoliert statt mit Abisolierzange – verletzte Litzen/Seele, Bruch- und Erwärmungsstelle an der Klemmung.",
+      "scenario": "Eigenheimbesitzer sieht in der Dose, dass die Aderenden eingekerbt sind; ein Elektriker soll sagen, ob das noch zulässig ist.",
+      "must_contain": [
+        "abisolierzange",
+        "aderendhülse",
+        "litzenverletzung"
+      ],
+      "quote": "hat er wahrscheinlich mit dem Seitenschneider abisoliert",
+      "symptom": "Eingekerbte Aderenden, offensichtlich mit dem Seitenschneider abisoliert."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-12",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:03:48",
+      "playbook": "elektro.md",
+      "error": "Zwei dreiaufrige Kabel in einer Dose falsch gedeutet: eines davon ist nur die Brücke, nicht ein zweiter Stromkreis – Klemmpunkt und Brücke sind falsch zugeordnet.",
+      "scenario": "In der Abzweigdose kommen „zwei Kabel“ an; der Besitzer denkt an zwei getrennte Stromkreise, tatsächlich ist eine Ader die Brücke zur nächsten Dose.",
+      "must_contain": [
+        "brücke",
+        "drehstrom|dreiadrig",
+        "aderzahl"
+      ],
+      "quote": "das eine dreiadrige ist die Brücke für darüber",
+      "symptom": "Zwei Kabel in einer Dose, eines davon ist nur die Brücke zur nächsten Dose."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-13",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:04:40",
+      "playbook": "elektro.md",
+      "error": "Es wurde so lange geklemmt, bis es funktionierte – Try-and-error-Verdrahtung ohne Plan, dadurch liegen Spannungen auf Adern, auf denen keine sein dürfen.",
+      "scenario": "Nach mehreren Reparaturversuchen geht das Licht, aber der Besitzer bekommt beim Anfassen des Schalterrahmens ein Kribbeln.",
+      "must_contain": [
+        "try and error",
+        "stromlaufplan",
+        "spannung auf falscher ader"
+      ],
+      "quote": "so lange geklemmt hat bis es funktioniert hat",
+      "symptom": "Licht brennt, aber Kribbeln beim Berühren von Schalterrahmen/Gehäuse."
+    },
+    {
+      "scored": true,
+      "id": "dW-Sf-yaEBQ-14",
+      "video": "dW-Sf-yaEBQ",
+      "ts": "00:04:58",
+      "playbook": "elektro.md",
+      "error": "In der Dose liegt Spannung auf dem Schutzleiter – ein Gerät mit Metallgehäuse hätte am Gehäuse Netzspannung geführt (lebensgefährlicher Körperschluss).",
+      "scenario": "Besitzer schließt eine Waschmaschine mit Metallgehäuse an; beim Berühren des Gehäuses steht er unter Spannung, der FI löst nicht aus, weil er nicht angeschlossen ist.",
+      "must_contain": [
+        "spannung auf pe",
+        "körperschluss",
+        "schutzklasse i"
+      ],
+      "quote": "in den Dosen habe ich schon angeklemmt war auch Strom auf dem Schutzleiter gewesen",
+      "symptom": "Auf dem PE der Dose liegt Spannung, Gehäuse steht unter Spannung, FI löst nicht aus."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-01",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:01:18",
+      "playbook": "elektro.md",
+      "error": "„Einfach-machen“-Mentalität: Elektrik wird ohne Plan und ohne Grundkenntnisse ausprobiert, nach dem Motto „läuft doch“ – im Gegensatz zu harmlosen Bastelarbeiten endet das bei Strom in Brand oder Stromschlag.",
+      "scenario": "Eigenheimbesitzer renoviert selbst, verkabelt eine Werkstatt/Abstellraum „einfach mal“ und fragt hinterher, ob das so bleiben kann, weil alles funktioniert.",
+      "must_contain": [
+        "planung vor montage",
+        "grundkenntnisse",
+        "din vde 0100"
+      ],
+      "quote": "das mag passen wenn man irgendein Messerblock macht aber nicht für die Elektrotechnik",
+      "symptom": "Alles läuft, aber nichts ist geplant, gerechnet oder gemessen."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-02",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:02:05",
+      "playbook": "elektro.md",
+      "error": "Arbeiten an der Anlage werden allein und ohne Fachkraft ausgeführt; die Anlage wird nie von einem Elektriker durchgemessen, es existiert kein Messprotokoll.",
+      "scenario": "Nach der Sanierung läuft alles, der Besitzer hat aber kein Abnahmeprotokoll und weiß nicht, ob Isolationswerte und FI je geprüft wurden.",
+      "must_contain": [
+        "allein nicht zulässig",
+        "elektrofachkraft",
+        "nav § 13 abs. 2"
+      ],
+      "quote": "grundsätzlich derf ja alleine nicht machen",
+      "symptom": "Kein Mess- oder Abnahmeprotokoll vorhanden, niemand hat die Anlage durchgemessen."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-03",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:02:16",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Inbetriebnahme ohne Messung: Anlage wird nur „probiert“ (Gerät läuft), statt nach DIN VDE 0100-600 gemessen und dokumentiert zu werden.",
+      "scenario": "Besitzer will vor dem Einzug wissen, ob die Elektrik „passt“; gefragt wird nach einer Sichtprüfung, nicht nach einer Messung.",
+      "must_contain": [
+        "din vde 0100-600",
+        "erstprüfung",
+        "besichtigen"
+      ],
+      "quote": "auf alle Fälle messen lassen von Elektriker",
+      "symptom": "Anlage wurde nur 'probiert', keine Messwerte dokumentiert."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-04",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:02:40",
+      "playbook": "keller-mauerwerk.md",
+      "error": "„Muss sofort erledigt werden“-Mentalität: überstürzt loslegen, ohne Raum, Maschinenaufstellung und Verteilung vorher durchzuplanen – später passt nichts zusammen und wird umgebaut.",
+      "scenario": "Werkstatt im Keller/Garage soll schnell fertig werden; nach dem Einbau zeigt sich, dass die Werkbank nicht passt und die Oberfräse keinen Durchgang mehr hat.",
+      "must_contain": [
+        "planung",
+        "aufstellplan",
+        "stromlaufplan"
+      ],
+      "quote": "das ist die Mentalität muss sofort gleich sofort erledigt werden",
+      "symptom": "Nach dem Einbau passt die Werkbank nicht, Durchgang zu eng, Umbau nötig."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-05",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:05:24",
+      "playbook": "elektro.md",
+      "error": "Unterverteilung wird ohne Bedarfsrechnung gekauft und bestückt – Bestückung ist entweder viel zu klein oder unnötig groß, Reserve und spätere Erweiterung sind nicht eingeplant.",
+      "scenario": "Besitzer kauft einen Verteiler nach Gefühl; ein Jahr später kommen Wallbox, Wärmepumpe oder Werkstattmaschinen dazu und es fehlen Plätze und Reihen.",
+      "must_contain": [
+        "din 18015-1",
+        "din 18015-3",
+        "teilungseinheiten"
+      ],
+      "quote": "ich bau ja nicht einfach ir Unterverteilung und dann stellt sie aus",
+      "symptom": "Verteiler ist voll, keine Reserveplätze, Erweiterung nicht möglich."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-06",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:05:55",
+      "playbook": "elektro.md",
+      "error": "Fehlannahme „Steckdosen kann man nie genug haben“ – jeder Verbraucher bekommt einen eigenen Stromkreis, im Extremfall 14 Steckdosen mit 14 Sicherungen; das erhöht Kosten und Fehlerquote statt Sicherheit.",
+      "scenario": "Besitzer plant Werkstatt/Garage und will „alles einzeln abgesichert“, weil das im Internet als Profi-Lösung gilt.",
+      "must_contain": [
+        "eigener stromkreis nur für großverbraucher",
+        "tischkreissäge",
+        "bandsäge"
+      ],
+      "quote": "wenn ich 14 obgesicher die Steckdosen h das ist ja ist schwachsin",
+      "symptom": "14 Steckdosen mit 14 LS-Automaten, trotzdem keine sinnvolle Selektivität."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-07",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:06:51",
+      "playbook": "elektro.md",
+      "error": "RCD-Aufteilung nur nach Geschoss (ein RCD Obergeschoss, einer Erdgeschoss, einer Keller) – ein einziger Fehlerstrom schaltet ein komplettes Geschoss dunkel, Ausfallsicherheit fehlt.",
+      "scenario": "Gefriertruhe oder Heizungs-Stellmotor im Keller löst den RCD aus, gleichzeitig steht das ganze Geschoss ohne Licht da; Besitzer sucht den Fehler im Dunkeln.",
+      "must_contain": [
+        "rcd 30 ma",
+        "din vde 0100-410",
+        "aufteilung in mehrere rcd-gruppen"
+      ],
+      "quote": "RCD fürs obergeschuss RCD fürgchuss und RCD für fürs keschoss",
+      "symptom": "Ein Fehler im Keller schaltet das ganze Geschoss ab, Gefriertruhe taut auf."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-08",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:09:09",
+      "playbook": "elektro.md",
+      "error": "Keine Reserven eingeplant – weder im Verteiler, noch bei Kabelwegen, Abzweigen oder Dosen; jede Nachrüstung erzwingt Aufputz-Installation oder Umbau.",
+      "scenario": "Besitzer will später eine zusätzliche Maschine oder Steckdose anschließen und stellt fest, dass kein Kanal, keine Dose und kein Sicherungsplatz frei ist.",
+      "must_contain": [
+        "reserve",
+        "abzweigdosen",
+        "kabelreserve"
+      ],
+      "quote": "in meiner Berufswelt feststell an Reserven überall",
+      "symptom": "Kein freier Kanal, keine freie Dose, kein freier Sicherungsplatz für Nachrüstung."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-09",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:09:46",
+      "playbook": "elektro.md",
+      "error": "Verteiler wird ohne Reserve bestückt – kein Platz für einen dreipoligen C16 (Kraftstrom) und mindestens drei B16 für künftige Lichtstromkreise.",
+      "scenario": "Werkstatt bekommt eine neue Standbohrmaschine mit 400 V; im Verteiler ist kein freier Platz und keine Kraftstrom-Absicherung vorgesehen.",
+      "must_contain": [
+        "1× dreipolig c16",
+        "3× b16",
+        "400 v drehstrom"
+      ],
+      "quote": "sogar ein dreipen C16 für Kraftreserve und mindestens 3 B16",
+      "symptom": "Kein Platz für 400-V-Kraftstrom im Verteiler."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-10",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:10:36",
+      "playbook": "elektro.md",
+      "error": "Kabelkanal zu klein dimensioniert (20er statt 40er/60×100) – keine Querschnittsreserve, Nachrüsten sprengt den Kanal und wird zur Aufputz-Flickerei.",
+      "scenario": "Besitzer hat 20er Kanal verlegt, will später zwei weitere Leitungen ziehen und bekommt sie nicht durch.",
+      "must_contain": [
+        "20er kanal",
+        "40er kabelkanal",
+        "60×100"
+      ],
+      "quote": "nur weil ich kabel hab 20er leing oder dann doch ein 40 40er Kabelkanal",
+      "symptom": "20er Kanal ist voll, eine weitere Leitung geht nicht mehr durch."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-11",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:12:11",
+      "playbook": "elektro.md",
+      "error": "Zu kurze Adern in der Dose – es bleibt keine Reserve zum Nachklemmen, dadurch entsteht der eigentliche Pfusch erst beim nächsten Umbau.",
+      "scenario": "Besitzer tauscht eine Steckdose, die Adern sind nur 3 cm lang, die neue Dose lässt sich nicht mehr sauber anklemmen.",
+      "must_contain": [
+        "aderreserve",
+        "dose",
+        "nachklemmen"
+      ],
+      "quote": "wenn irgendwo die drte zu kurz wenn irgendwo zu W drin ist wird zfuscht",
+      "symptom": "Adern in der Dose nur wenige Zentimeter lang, Nachklemmen unmöglich."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-12",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:12:18",
+      "playbook": "elektro.md",
+      "error": "Adern werden „zusammengeflickt“: neues Kabel in die Sicherung gestopft oder in der Unterverteilung notdürftig angeklemmt, weil man sich nicht traut, richtig freizuschalten – lockere Klemmstelle, die warm wird und brutzelt.",
+      "scenario": "Nach einer Nachrüstung riecht es im Verteiler verschmort, eine Sicherung wird warm, das Licht flackert; der Besitzer hat Angst, den Hauptschalter zu betätigen.",
+      "must_contain": [
+        "kabel in ls-klemme gestopft",
+        "lockere klemmstelle",
+        "übergangswiderstand"
+      ],
+      "quote": "wird dann irgendwo in Sicherung eingestopft",
+      "symptom": "Verschmorter Geruch, warme Sicherung, flackerndes Licht nach einer Nachrüstung."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-13",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:13:59",
+      "playbook": "elektro.md",
+      "error": "Spannungsprüfung nur zwischen Phase und Neutralleiter – der Schutzleiter wird nicht gegen Phase geprüft, ein PE-Fehler bleibt unentdeckt.",
+      "scenario": "Besitzer prüft mit dem Duspol „ob Saft drauf ist“, Steckdose zeigt Spannung, trotzdem steht das Gerätegehäuse später unter Spannung.",
+      "must_contain": [
+        "zweipoliger spannungsprüfer",
+        "duspol",
+        "l gegen n"
+      ],
+      "quote": "nur Phasen und nulliter in der Steckdosen und Phasen gegen Schutzleiter",
+      "symptom": "Steckdose zeigt Spannung, ein PE-Fehler bleibt bei dieser Prüfung unentdeckt."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-14",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:15:07",
+      "playbook": "elektro.md",
+      "error": "Sicherungen und Stromkreise sind gar nicht oder falsch beschriftet – im Fehlerfall oder bei Reparatur wird der falsche Kreis abgeschaltet bzw. der Fehler nicht gefunden.",
+      "scenario": "Besitzer will vor Bohrarbeiten die Steckdose abschalten, im Verteiler stehen keine oder falsche Bezeichnungen; er rät und trifft den falschen Stromkreis.",
+      "must_contain": [
+        "0100-510",
+        "stromkreisverzeichnis",
+        "sicherungsnummer"
+      ],
+      "quote": "beschriften Haut entweder gar nicht h oder so F das wieder nich nutzt",
+      "symptom": "Verteiler ohne oder mit falscher Beschriftung, Stromkreis nicht zuzuordnen."
+    },
+    {
+      "scored": true,
+      "id": "eNpMPWvnWiI-15",
+      "video": "eNpMPWvnWiI",
+      "ts": "00:16:56",
+      "playbook": "elektro.md",
+      "error": "Spannungsprüfer wird als Installations-Messgerät missverstanden – er zeigt nur an, ob Spannung anliegt, ersetzt aber keine Isolations-, Schleifen- oder RCD-Prüfung.",
+      "scenario": "Besitzer hat sich einen Duspol gekauft und glaubt, damit die Elektrik „durchgemessen“ und abgenommen zu haben.",
+      "must_contain": [
+        "spannungsprüfer ≠ messgerät",
+        "din vde 0100-600",
+        "isolationsmessgerät"
+      ],
+      "quote": "Spannungsprüfer kein Messgerät kein v gerät das in der Lage ist eine Elektroinstallation zu überprüfen",
+      "symptom": "Duspol zeigt Spannung, die Anlage ist trotzdem nie fachgerecht geprüft."
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-01",
+      "video": "k3q49IW19KU",
+      "ts": "00:00:50",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Bauzeit wurde zu knapp geplant – Renovierungen dauern regelmäßig etwa doppelt so lange wie geplant.",
+      "scenario": "Wie lange dauert die Kernsanierung einer 60-m²-Wohnung realistisch, und wie viel Puffer setze ich im Zeitplan an?",
+      "must_contain": [
+        "faktor 2 auf bauzeit",
+        "puffer im zeitplan",
+        "gewerke nacheinander"
+      ],
+      "quote": "es dauert in der Regel auch einfach immer ungefähr doppelt so lange als geplant"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-02",
+      "video": "k3q49IW19KU",
+      "ts": "00:01:10",
+      "playbook": "estrich.md",
+      "error": "Aufbauhöhe von Ausgleichsmasse plus Parkett nicht vorab gerechnet – Boden kam fast auf Flurniveau, Türblatt musste gekürzt und eine Schwelle eingefräst werden.",
+      "scenario": "Wie viel Aufbauhöhe bringt Ausgleichsmasse plus Parkett, und passt das noch unter meine vorhandenen Türen?",
+      "must_contain": [
+        "aufbauhöhe in mm",
+        "ausgleichsmasse",
+        "parkettdicke"
+      ],
+      "quote": "der Boden ist einfach höher geworden insgesamt"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-03",
+      "video": "k3q49IW19KU",
+      "ts": "00:02:19",
+      "playbook": "estrich.md",
+      "error": "Fuge zwischen Betonfertigteilen (1970er) vor dem Gießen der Ausgleichsmasse nicht abgedichtet – die Masse lief an der Wand zum Nachbarn herunter ins Treppenhaus.",
+      "scenario": "Ich will Ausgleichsmasse vergießen – wie verhindere ich, dass sie durch Fugen in die Nachbarwohnung oder ins Treppenhaus läuft?",
+      "must_contain": [
+        "fugen abdichten",
+        "randdämmstreifen",
+        "betonfertigteile|elementfuge"
+      ],
+      "quote": "diese flüssige Masse … ist sozusagen hier runtergelaufen und an der Wand runter zum Nachbarn"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-04",
+      "video": "k3q49IW19KU",
+      "ts": "00:03:49",
+      "playbook": "estrich.md",
+      "error": "Sieben alte Massivholztüren für 1200 € aufbereiten lassen (grundieren, schleifen, grundieren, zweimal lackieren, versiegeln) – danach vom Maler über abgeklebte Stellen gestrichen, vier- bis fünfmal nachgearbeitet.",
+      "scenario": "Alte Holztüren aufbereiten oder ersetzen – mit welcher Reihenfolge und welchen Kosten muss ich rechnen, und wie kontrolliere ich den Maler?",
+      "must_contain": [
+        "massivholztür",
+        "grundieren",
+        "schleifen"
+      ],
+      "quote": "der hat da einfach drüber gestrichen … hat's nicht abgezogen, einfach drüber gepappt"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-05",
+      "video": "k3q49IW19KU",
+      "ts": "00:04:55",
+      "playbook": "fenster-tueren.md",
+      "error": "Verzogene alte Türzargen (Baujahr 1970) behalten – Türen schließen nicht mehr, es klappert, kein Türgummi vorhanden; nur mit Schaumstoff-Fugenband als Notlösung gedämpft.",
+      "scenario": "Meine alten Türzargen sind schief – kann ich die Türen behalten und nur ein Gummi einsetzen, oder muss ich Zargen und Türen tauschen?",
+      "must_contain": [
+        "türzarge verzogen",
+        "flucht",
+        "türgummi"
+      ],
+      "quote": "die sind einfach nicht mehr kerzengerade … so ein bisschen gegeneinander verzogen"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-06",
+      "video": "k3q49IW19KU",
+      "ts": "00:06:05",
+      "playbook": "fliesen.md",
+      "error": "Übergang Fliese/Parkett ohne exakten Höhenausgleich geplant – laut Erfahrung ist eine Alu-Übergangsleiste in guter Ausführung keine Option, der Übergang muss bündig sitzen.",
+      "scenario": "Wie bekomme ich den Übergang von Fliesen auf Parkett bündig hin, ohne Aluleiste?",
+      "must_contain": [
+        "bündiger übergang",
+        "aluleiste vermeiden",
+        "aufbauhöhe angleichen"
+      ],
+      "quote": "ihr werdet niemals von mir eine Wohnung sehen, wo hier so eine Aluleiste ist"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-07",
+      "video": "k3q49IW19KU",
+      "ts": "00:06:30",
+      "playbook": "trockenbau.md",
+      "error": "Schattenfugen geplant, aber alte Wände sind uneben und die Fugen nicht gleichmäßig dick – beim Verputzen musste aufwendig nachgearbeitet werden.",
+      "scenario": "Ich möchte Schattenfugen – was muss ich am Putz und an den Wänden vorher prüfen, damit die Fuge gleichmäßig läuft?",
+      "must_contain": [
+        "schattenfuge",
+        "fugenbreite gleichmäßig",
+        "putz uneben"
+      ],
+      "quote": "die Wände früher … haben auch auf Baustellen einfach noch ein bisschen mehr gesoffen als wir heutzutage"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-08",
+      "video": "k3q49IW19KU",
+      "ts": "00:07:25",
+      "playbook": "bad.md",
+      "error": "Bad ohne Deckenauslass geplant, weil die alte Betondecke nicht geschlitzt werden kann – Lösung nur indirektes Licht, bei der Besichtigung nicht bedacht.",
+      "scenario": "Im Bad gibt es keinen Deckenauslass – kann ich die Betondecke schlitzen oder brauche ich eine andere Lichtlösung?",
+      "must_contain": [
+        "betondecke",
+        "schlitzen nicht möglich",
+        "deckenauslass"
+      ],
+      "quote": "das ist eine scheiß Betondecke von früher, die schlitzt du eigentlich nicht"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-09",
+      "video": "k3q49IW19KU",
+      "ts": "00:07:48",
+      "playbook": "bad.md",
+      "error": "Lichtfarbe des Badezimmers nicht geplant – das eingesetzte Lichtband war kaltweiß und wirkte wie beim Zahnarzt, musste nachträglich getauscht werden.",
+      "scenario": "Welche Lichtfarbe nehme ich im Bad – und warum sollte das Hauptlicht diffus und nicht direkt sein?",
+      "must_contain": [
+        "lichtfarbe kelvin",
+        "2700–3000 k warmweiß",
+        "kaltweiß vermeiden"
+      ],
+      "quote": "das sah hier aus wie beim Arzt, beim Zahnarzt"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-10",
+      "video": "k3q49IW19KU",
+      "ts": "00:08:11",
+      "playbook": "bad.md",
+      "error": "Bodengleiche Dusche geplant, obwohl der Estrichaufbau zu dünn ist – es blieb nur ein Duschpodest mit Stufe statt eines negativen Gefälles.",
+      "scenario": "Ich will eine bodengleiche Dusche – reicht mein Estrichaufbau dafür, oder brauche ich ein Podest oder eine Pumpe?",
+      "must_contain": [
+        "estrichaufbau",
+        "gefälle 1–2 %",
+        "nullwert|bodenhöhe"
+      ],
+      "quote": "da wir diesen großen hohen Estrichaufbau nicht haben, können wir hier keine ebenerdige Dusche machen"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-11",
+      "video": "k3q49IW19KU",
+      "ts": "00:09:18",
+      "playbook": "bad.md",
+      "error": "Im Duschpodest lag keine passende Leitung – Kabel musste nachträglich indirekt unten durch den Podestaufbau geführt werden.",
+      "scenario": "Wie plane ich die Elektrik im Bad, wenn ich ein Duschpodest baue und später Licht im Podest brauche?",
+      "must_contain": [
+        "elektroplanung bad",
+        "leerrohr im podest",
+        "schutzbereich ip"
+      ],
+      "quote": "in diesem Podest haben wir das Kabel verlegt, weil hier war natürlich auf dieser Seite passend kein Kabel"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-12",
+      "video": "k3q49IW19KU",
+      "ts": "00:09:41",
+      "playbook": "bad.md",
+      "error": "Stand-WC übernommen, obwohl das Fallrohr im Raum steht – der Vorbau musste deutlich größer als nötig werden; Rohrversetzen wäre nur mit Betonaufstemmen, Genehmigung und ca. 2000 € möglich.",
+      "scenario": "Das alte Stand-WC steht mitten im Raum – kann ich das Fallrohr versetzen oder muss ich einen größeren Vorbau in Kauf nehmen?",
+      "must_contain": [
+        "stand-wc",
+        "fallrohr",
+        "vorwandelement geberit"
+      ],
+      "quote": "ich kann hier kein Rohr versetzen, da musst du den Beton aufkloppen"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-13",
+      "video": "k3q49IW19KU",
+      "ts": "00:10:52",
+      "playbook": "bad.md",
+      "error": "Wasseruhren blieben Aufputz – komplette Verteilung musste hinter einer gefliesten Revisionsklappe versteckt werden, was zusätzliche Kosten verursachte.",
+      "scenario": "Die Wasseruhren sitzen sichtbar auf der Wand – wie verstecke ich sie hinter Fliesen, ohne die Ablesbarkeit zu verlieren?",
+      "must_contain": [
+        "wasseruhr",
+        "aufputz",
+        "revisionsklappe"
+      ],
+      "quote": "das ist eine sogenannte Revisionsklappe … unsere komplette Verteilung ist jetzt einfach hinter der Wandoberfläche"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-14",
+      "video": "k3q49IW19KU",
+      "ts": "00:11:35",
+      "playbook": "bad.md",
+      "error": "Kein Kostenpuffer eingeplant – unvorhergesehene Zusatzarbeiten (Revisionsklappe, Türtechnik) fraßen das Budget; empfohlen werden ca. 15 % Puffer.",
+      "scenario": "Wie viel Kostenpuffer brauche ich bei einer Komplettrenovierung, und wofür ist er erfahrungsgemäß weg?",
+      "must_contain": [
+        "15 % puffer",
+        "unvorhergesehene arbeiten",
+        "nachtragsangebote"
+      ],
+      "quote": "dafür ist normalerweise so ein 15-prozentiger Puffer ganz gut"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-15",
+      "video": "k3q49IW19KU",
+      "ts": "00:11:58",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Altes Telefon als „noch gut“ behalten – in der fertig renovierten Wohnung wirkt es deplatziert und muss nachträglich getauscht werden.",
+      "scenario": "Kann ich alte Telefon-/Türsprechanlagen-Bauteile behalten, wenn sie technisch noch funktionieren?",
+      "must_contain": [
+        "türsprechanlage",
+        "altes telefon",
+        "austausch vor renovierung"
+      ],
+      "quote": "brauchst nicht austauschen, ist noch Pfennig gut … das geht jetzt nicht"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-16",
+      "video": "k3q49IW19KU",
+      "ts": "00:12:19",
+      "playbook": "bad.md",
+      "error": "Alten Heizkörper im Bad behalten, statt einen Handtuchheizkörper (Heizleiter) hinter der Tür zu setzen.",
+      "scenario": "Welchen Heizkörper nehme ich ins Bad, wenn hinter der Tür Platz ist und ich Handtücher aufhängen will?",
+      "must_contain": [
+        "handtuchheizkörper|heizleiter",
+        "rippen",
+        "position hinter der tür"
+      ],
+      "quote": "in dem Badezimmer gehört eine sogenannte … Heizleiter, wo du dein Handtuch in diese verschiedenen Rippen reinhängen kannst"
+    },
+    {
+      "scored": true,
+      "id": "k3q49IW19KU-17",
+      "video": "k3q49IW19KU",
+      "ts": "00:13:48",
+      "playbook": "fliesen.md",
+      "error": "Fußleisten wurden vom Handwerker mit geradem Stoß gestoßen statt mit Gehrungsschnitt – dadurch unterschiedliche Höhen und eine sichtbare Fuge, die nachgearbeitet werden muss.",
+      "scenario": "Wie werden Fußleisten an den Stößen verbunden, damit keine Höhenversätze und Fugen sichtbar sind?",
+      "must_contain": [
+        "gehrungsschnitt",
+        "gerader stoß vermeiden",
+        "fußleistenlänge 2 m|1,80 m"
+      ],
+      "quote": "der hat's einfach gerade gemacht – unter guten erfahrenen Fußbodenlegern macht man das nicht"
+    },
+    {
+      "scored": true,
+      "id": "nul-01",
+      "video": "nulK-nz67Cc",
+      "ts": "00:01:02",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Haus ohne eigenen Architekten planen und mit Anbieter-Grundrissen in die Angebotseinholung gehen.",
+      "scenario": "Der Bauherr will fünf Anbieter vergleichen und lässt sich von jedem einen Grundriss zeichnen. Warum ist das kein Vergleich – und wo schneidet man den Architekten ab?",
+      "must_contain": [
+        "eigener architekt",
+        "entwurfsplanung|leistungsphase 3",
+        "grundriss-maße nur richtwerte"
+      ],
+      "quote": "das Haus ohne einen Architekten planen, das ist überhaupt nicht gut"
+    },
+    {
+      "scored": true,
+      "id": "nul-02",
+      "video": "nulK-nz67Cc",
+      "ts": "00:04:46",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Hausanschlüsse zu spät beantragen und kostenmäßig unterschätzen – Technikraum-Lage und Strangplanung werden dadurch teuer umgeplant.",
+      "scenario": "Der Bauherr hat ein Kataloghaus unterschrieben, jetzt verlangt der Versorger einen anderen Hausanschluss-Punkt. Er fragt, welche Kosten und Planungen da nachziehen.",
+      "must_contain": [
+        "hausanschlüsse früh beantragen",
+        "vorgaben des netzbetreibers",
+        "technikraum verlegen"
+      ],
+      "quote": "die Hausanschlüsse auch kostentechnisch unterschätzen"
+    },
+    {
+      "scored": true,
+      "id": "nul-03",
+      "video": "nulK-nz67Cc",
+      "ts": "00:07:24",
+      "playbook": "keller-mauerwerk.md",
+      "error": "Bodengutachten zu spät beauftragen – Bodenplatte/Keller wird nach Vertragsunterschrift teuer umgeplant.",
+      "scenario": "Beim Aushub kommt nach einem Meter Fels. Der Bauherr will wissen, was ein frühes Bodengutachten verhindert hätte.",
+      "must_contain": [
+        "bodengutachten vor planung",
+        "1 m bis hartes gestein",
+        "wasserhaltung"
+      ],
+      "quote": "das Bodengutachten zu spät beauftragen"
+    },
+    {
+      "scored": true,
+      "id": "nul-04",
+      "video": "nulK-nz67Cc",
+      "ts": "00:08:31",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Kataloghauses unterschreiben, obwohl man anders bauen will – 'das passen wir später an' wird nach Unterschrift sehr teuer.",
+      "scenario": "Der Verkäufer sagt: 'Unterschreiben Sie das Kataloghaus, Details klären wir in der Bemusterung.' Der Bauherr fragt, warum das die teuerste Variante ist.",
+      "must_contain": [
+        "bebauungsplan prüfen",
+        "baufenster",
+        "statik neu rechnen"
+      ],
+      "quote": "das Haus sollte immer final geplant sein, bevor die Unterschrift setzt"
+    },
+    {
+      "scored": true,
+      "id": "nul-05",
+      "video": "nulK-nz67Cc",
+      "ts": "00:11:04",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Erstbeste Firma nehmen (erstes Musterhaus, erster Eindruck) und damit den einzigen Verhandlungshebel verspielen.",
+      "scenario": "Im Musterhauspark hat der erste Anbieter sofort gepasst. Der Bauherr will wissen, was er aufgibt, wenn er nicht weiter vergleicht.",
+      "must_contain": [
+        "über 200 fertighausanbieter",
+        "30–40 wirklich relevante",
+        "vergleichbarkeit"
+      ],
+      "quote": "die erstbeste Firma nehmen"
+    },
+    {
+      "scored": true,
+      "id": "nul-06",
+      "video": "nulK-nz67Cc",
+      "ts": "00:12:55",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Baufirma nach dem Musterhaus auswählen – Musterhäuser sind Marketing und zeigen nicht den Standard.",
+      "scenario": "Der Bauherr war im Musterhaus mit Designerküche und Markenlampen und will genau diese Firma. Was sagt das Musterhaus über das gelieferte Haus aus?",
+      "must_contain": [
+        "musterhaus = marketing",
+        "designerküche|sessel|lampen nicht im standard",
+        "baubeschreibung prüfen"
+      ],
+      "quote": "die Baufirma nach einem Musterhaus auszuwählen"
+    },
+    {
+      "scored": true,
+      "id": "nul-07",
+      "video": "nulK-nz67Cc",
+      "ts": "00:15:54",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Baufirma nach dem Verkäufer auswählen (Sympathie) statt Produkt/Baubeschreibung zu bewerten.",
+      "scenario": "Der Verkäufer war super, ein anderer patzig. Der Bauherr fragt, wie er Verkäufer und Produkt sauber trennt – und ob er bei 'schlechtem' Verkäufer die Marke wechseln muss.",
+      "must_contain": [
+        "verkäufer und produkt trennen",
+        "baubeschreibung prüfen",
+        "schallschutz"
+      ],
+      "quote": "Baufirma wählen, weil der Verkäufer so gut ist"
+    },
+    {
+      "scored": true,
+      "id": "nul-08",
+      "video": "nulK-nz67Cc",
+      "ts": "00:17:44",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Unsauber Angebote vergleichen – Angebote, die gegen den Bebauungsplan verstoßen, werden mit verglichen (Äpfel mit Birnen).",
+      "scenario": "Drei Angebote: eines mit niedrigerem Kniestock und steilerem Dach, zwei 'wie gewünscht' – aber so nicht genehmigungsfähig. Der Bauherr fragt, welches Angebot wirklich vergleichbar ist.",
+      "must_contain": [
+        "bebauungsplan prüfen",
+        "kniestock",
+        "dachneigung"
+      ],
+      "quote": "unsauber Angebote vergleichen ist auch echt ein ganz ganz großer Punkt"
+    },
+    {
+      "scored": true,
+      "id": "nul-09",
+      "video": "nulK-nz67Cc",
+      "ts": "00:20:16",
+      "playbook": "kosten-bauzeit.md",
+      "error": "Lange Bauzeit unterschätzen – keinen Zeitpuffer und keine Zusatzkosten (Miete, Bereitstellungszinsen) einplanen.",
+      "scenario": "Der Anbieter verspricht Einzug in zwei Jahren. Der Bauherr will wissen, wie er Mietvertrag und Finanzierung timen soll.",
+      "must_contain": [
+        "2–3 monate puffer",
+        "mietvertrag 2–3 monate länger halten",
+        "bereitstellungszinsen"
+      ],
+      "quote": "lange Bauzeit unterschätzen"
+    },
+    {
+      "scored": true,
+      "id": "nul-10",
+      "video": "nulK-nz67Cc",
+      "ts": "00:23:33",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Eigenleistung überschätzen – Ausbaustufen aus dem Angebot streichen, ohne den echten Arbeitsaufwand zu kennen.",
+      "scenario": "Malerarbeiten stehen mit 20.000 € im Angebot, der Bauherr will sie 'am Wochenende' selbst machen. Welche Rechnung muss er vorher aufstellen?",
+      "must_contain": [
+        "4–5 mann, 2 wochen",
+        "halbes jahr länger realistisch",
+        "30 tage urlaub gehen drauf"
+      ],
+      "quote": "Eigenleistungen überschätzen"
+    },
+    {
+      "scored": true,
+      "id": "nul-11",
+      "video": "nulK-nz67Cc",
+      "ts": "00:27:37",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Bei Eigenleistung fest auf Freunde und Familie zählen – die Hilfe fällt oft kurzfristig weg.",
+      "scenario": "Der Bauherr plant das Wochenende mit fünf Freunden zum Fliesen. Wie soll er die Hilfe realistisch einplanen?",
+      "must_contain": [
+        "freunde haben eigene familie|urlaub",
+        "jahresurlaub oft schon verbraucht",
+        "arbeit sinnvoll aufteilen"
+      ],
+      "quote": "auf Freunde und Familie zählen für die Eigenleistungen"
+    },
+    {
+      "scored": true,
+      "id": "nul-12",
+      "video": "nulK-nz67Cc",
+      "ts": "00:29:06",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Keller pauschal ausschließen ('zu teuer'), ohne Raumprogramm und Angebote zu vergleichen.",
+      "scenario": "Drei Verkäufer haben gesagt 'Keller lohnt nicht'. Der Bauherr fragt, wie er Keller vs. Bodenplatte korrekt rechnet.",
+      "must_contain": [
+        "raumbedarf zuerst",
+        "30 m² kellerräume",
+        "keller-m² günstiger als haus-m²"
+      ],
+      "quote": "Keller pauschal ausschließen, weil man denkt, es wäre zu teuer"
+    },
+    {
+      "scored": true,
+      "id": "nul-13",
+      "video": "nulK-nz67Cc",
+      "ts": "00:31:20",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Keller über die Baufirma mitkaufen, statt direkt beim Kellerhersteller anzufragen.",
+      "scenario": "Im Vertrag ist ein Kreuz 'Keller über die Firma ja/nein'. Der Bauherr fragt, was das Kreuz kostet.",
+      "must_contain": [
+        "keller direkt beim hersteller",
+        "vertragspunkt abwählbar",
+        "zwischenhändler|provision"
+      ],
+      "quote": "den Keller über die Baufirma kaufen"
+    },
+    {
+      "scored": true,
+      "id": "nul-14",
+      "video": "nulK-nz67Cc",
+      "ts": "00:33:11",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Werkvertrag ohne Grundstück unterschreiben – Festpreisbindung läuft ab Unterschrift, Planung ist ohne Grundstück unmöglich.",
+      "scenario": "Der Bauherr hat noch kein Grundstück, will sich aber 'den alten Preis sichern'. Warum ist das gefährlich?",
+      "must_contain": [
+        "festpreisbindung läuft ab unterschrift",
+        "6 monate verloren",
+        "haus nicht planbar ohne grundstück"
+      ],
+      "quote": "den Werkvertrag unterschreiben ohne ein Grundstück zu haben"
+    },
+    {
+      "scored": false,
+      "id": "nul-15",
+      "video": "nulK-nz67Cc",
+      "ts": "00:34:37",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Auf den 'Grundstücksservice' von Anbietern setzen und dafür einen Werkvertrag unterschreiben.",
+      "scenario": "Der Verkäufer bietet an, 'über unser Netzwerk' ein Grundstück zu finden – Bedingung: Werkvertrag vorher. Der Bauherr fragt, ob das ein Vorteil ist.",
+      "must_contain": [
+        "maklerprovision 3–6 %",
+        "kein vorteil nachweisbar",
+        "werkvertrag erst mit grundstück"
+      ],
+      "quote": "auf den Grundstück-Service setzen, den manche Anbieter anbieten",
+      "scored_note": "Maklerprovision 3–6 % — nicht belegte Größenordnung des Sprechers"
+    },
+    {
+      "scored": true,
+      "id": "nul-16",
+      "video": "nulK-nz67Cc",
+      "ts": "00:38:03",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Pauschal eine Quadratmeterzahl planen (130/150/200 m²), statt ein Raumprogramm mit Wertigkeiten zu definieren.",
+      "scenario": "Der Bauherr sagt 'mein Haus muss 200 m² haben'. Wie kommt er zu einer belastbaren Größe – und was kostet jeder Quadratmeter?",
+      "must_contain": [
+        "raumprogramm statt m²-zahl",
+        "wertigkeiten",
+        "1 m einsparung giebelseite"
+      ],
+      "quote": "pauschal eine bestimmte Quadratmeterzahl zu planen"
+    },
+    {
+      "scored": true,
+      "id": "nul-17",
+      "video": "nulK-nz67Cc",
+      "ts": "00:40:39",
+      "playbook": "fliesen.md",
+      "error": "Auf Ausstattung (Fliesen) statt auf Substanz (Schallschutz, Hitzeschutz) achten – Fliesen kann jeder verlegen, oft sogar als Extra.",
+      "scenario": "Der Anbieter wirbt mit 'hochwertigen Fliesen inklusive'. Der Bauherr fragt, welche Kriterien stattdessen zählen.",
+      "must_contain": [
+        "grundsubstanz statt fliesen",
+        "fliesen sind austauschbar",
+        "schallschutz"
+      ],
+      "quote": "auf Ausstattung statt Substanz achten bei der Wahl der Baufirma"
+    },
+    {
+      "scored": true,
+      "id": "nul-18",
+      "video": "nulK-nz67Cc",
+      "ts": "00:41:01",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Werkvertrag nicht prüfen und nicht verhandeln ('den unterschreiben 500 Bauherren im Jahr').",
+      "scenario": "Der Bauherr bekommt das 'Standardvertragswerk' vorgelegt. Welche Punkte sind verhandelbar und worauf muss er achten?",
+      "must_contain": [
+        "standardvertrag ist auf baufirma ausgelegt",
+        "bauzeit knapp bemessen",
+        "verzögerung durch grundstück|baugenehmigung"
+      ],
+      "quote": "den Werkvertrag nicht prüfen und nicht verhandeln"
+    },
+    {
+      "scored": true,
+      "id": "nul-19",
+      "video": "nulK-nz67Cc",
+      "ts": "00:45:11",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Finanzierung nicht vergleichen bzw. über Portale zu viele Kreditanfragen auslösen und damit das Scoring verschlechtern.",
+      "scenario": "Der Bauherr klickt auf einem Vergleichsportal 'Finanzierung anfragen' und löst fünf Anfragen aus. Was passiert mit der Bonität?",
+      "must_contain": [
+        "5 kreditanfragen = scoring-verschlechterung",
+        "2–3 anfragen statt 10",
+        "hausbank als erster ansprechpartner"
+      ],
+      "quote": "die Finanzierung nicht vergleichen"
+    },
+    {
+      "scored": true,
+      "id": "nul-20",
+      "video": "nulK-nz67Cc",
+      "ts": "00:48:11",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Ohne Bausachverständigen bauen – Mängel fallen erst bei der Hausabnahme auf, wenn sie nicht mehr wirtschaftlich behebbar sind.",
+      "scenario": "Der Bauherr will die 5.000–6.000 € für Kontrollen sparen. Welche Termine bringen am meisten und was passiert ohne Kontrolle?",
+      "must_contain": [
+        "bodenplatten-|kellerkontrolle",
+        "rohbaukontrolle",
+        "begehung vor hausabnahme"
+      ],
+      "quote": "ohne Sachverständigen den Bau durchziehen"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-01",
+      "video": "sWXyiNADbFk",
+      "ts": "00:00:47",
+      "playbook": "bad.md",
+      "error": "Teures Dusch-WC mit Bidet-Automatik und Fernbedienung eingebaut, das im Alltag immer wieder Fehlfunktionen zeigt (plötzlich heißes Wasser, verstellte Temperatur/Lüftung, Dauerlicht nachts).",
+      "scenario": "Wir wollen ein Dusch-WC mit Bidet-Funktion und Fernbedienung im Bad einbauen – lohnt sich das, oder ärgern wir uns später über die Elektronik?",
+      "must_contain": [
+        "dusch-wc",
+        "bidetfunktion",
+        "fernbedienung"
+      ],
+      "quote": "Ich laufe immer wieder in Fehlfunktionen, dass sich plötzlich das Wasser wieder richtig heiß eingestellt hat"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-02",
+      "video": "sWXyiNADbFk",
+      "ts": "00:01:56",
+      "playbook": "bad.md",
+      "error": "Unterputz-Klopapierhalter eingebaut, bei dem die Rolle verkantet und das Papier abreißt.",
+      "scenario": "Soll ich einen Unterputz-Klopapierhalter mit Klobürsten-Fach setzen lassen, oder lieber einen Aufputz-Halter?",
+      "must_contain": [
+        "unterputz-klopapierhalter",
+        "aufputz-halter",
+        "rollenführung"
+      ],
+      "quote": "oft verkantet sich das Klopapier und dann reißt es dann ab"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-03",
+      "video": "sWXyiNADbFk",
+      "ts": "00:02:19",
+      "playbook": "bodenbelaege.md",
+      "error": "Hybrid-/Designboden (Meister Lindura, Fischgrät) im Erdgeschoss verlegt: nur dünne Holzschicht, nicht abschleifbar, zeigt Abnutzung und Kratzer deutlich und war trotzdem nicht günstig.",
+      "scenario": "Wir wollen im Wohn-/Essbereich einen Holzboden, der was aushält – Hybridboden oder Echtholzparkett, und kann man den später abschleifen?",
+      "must_contain": [
+        "lindura",
+        "hybridboden",
+        "nutzschicht"
+      ],
+      "quote": "es ist auf jeden Fall nicht robust genug für unseren Wohnbereich"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-04",
+      "video": "sWXyiNADbFk",
+      "ts": "00:04:58",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Denselben Bodentyp im Obergeschoss in sehr rauer Oberfläche gewählt – hoher Sockenverschleiß, „wie auf Schmirgelpapier“.",
+      "scenario": "Der Boden ist okay, aber die Oberfläche ist sehr rau – worauf achte ich bei der Musterwahl, damit der Boden nicht die Socken aufreibt?",
+      "must_contain": [
+        "oberflächenrauheit",
+        "muster|probe begehen",
+        "sockenverschleiß"
+      ],
+      "quote": "es ist wie laufen auf Schmirgelpapier"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-05",
+      "video": "sWXyiNADbFk",
+      "ts": "00:05:20",
+      "playbook": "elektro.md",
+      "error": "Elektroinstallation durch Handwerker nicht wie besprochen ausgeführt; Ausbaureserve in der Elektroverteilung aufgebraucht, Kabel nicht nach außen gelegt, heute zweite Verteilung in der Garage nötig.",
+      "scenario": "Wie viel Reserve plane ich in der Elektroverteilung, und wie lasse ich mir Kabelwege nach draußen schriftlich bestätigen, bevor verputzt wird?",
+      "must_contain": [
+        "elektroverteilung",
+        "reserve|zählerplatz",
+        "zweite unterverteilung"
+      ],
+      "quote": "alles, was wir an Ausbaureserve in der Elektroverteilung hatten, mehr oder weniger aufgebraucht"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-06",
+      "video": "sWXyiNADbFk",
+      "ts": "00:07:13",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Dachziegel nach Muster im Winter bestellt – die schwarz matten Ziegel glänzen in der Sonne so stark, dass das Dach von der Straße weiß wirkt.",
+      "scenario": "Wir haben ein Muster der Dachziegel – wie prüfe ich vor der Bestellung, ob der Ziegel in der Sonne glänzt oder matt bleibt?",
+      "must_contain": [
+        "dachziegel",
+        "muster bei direkter sonne prüfen",
+        "glanzgrad|glanzverhalten"
+      ],
+      "quote": "die sind relativ glänzend … dann kommen wir zu einem weißen Dach nach Hause gefahren"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-07",
+      "video": "sWXyiNADbFk",
+      "ts": "00:08:40",
+      "playbook": "hausbau-baufirma.md",
+      "error": "Dachstummel/Giebel in letzter Sekunde durchgezogen – optisch gewollt, aber es gibt keinen sauberen Anschluss mehr für eine spätere Überdachung.",
+      "scenario": "Wir überlegen, den Giebel durchzuziehen – was muss ich jetzt festlegen, damit später ein Vordach/eine Überdachung noch sauber anschließen kann?",
+      "must_contain": [
+        "dachüberstand",
+        "giebel",
+        "anschlussdetails"
+      ],
+      "quote": "es macht das jetzt schwieriger, hier eine Überdachung herzustellen, weil es keinen sauberen Anschluss gibt"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-08",
+      "video": "sWXyiNADbFk",
+      "ts": "00:09:01",
+      "playbook": "elektro.md",
+      "error": "Steckdosenzahl während der Sanierung reduziert (Dreifach auf Zweifach) – es fehlen genau die Dosen an unerwarteten Orten, u. a. außen.",
+      "scenario": "Wie viele Steckdosen und welche Positionen plane ich pro Raum, damit ich später nicht mit Mehrfachsteckern arbeite?",
+      "must_contain": [
+        "steckdosen pro raum",
+        "dreifachsteckdosen",
+        "außensteckdosen"
+      ],
+      "quote": "mir fehlen eher an Orten, wo ich vorher gesagt hätte, da brauche ich ja keine Steckdose"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-09",
+      "video": "sWXyiNADbFk",
+      "ts": "00:09:46",
+      "playbook": "estrich.md",
+      "error": "Entkalkungsanlage in der eskalierenden Bauphase gestrichen – bei hohem Kalkgehalt jetzt ständiges Trockenwischen der Armaturen und teure Nachrüstung.",
+      "scenario": "Unser Wasser ist sehr kalkhaltig – brauche ich eine Enthärtungs-/Entkalkungsanlage, und wo muss sie in der Planung hin?",
+      "must_contain": [
+        "wasserhärte messen",
+        "enthärtungsanlage",
+        "kalkgehalt"
+      ],
+      "quote": "die Entkalkungsanlage zum Opfer gefallen, die haben wir erstmal rausgestrichen"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-10",
+      "video": "sWXyiNADbFk",
+      "ts": "00:10:33",
+      "playbook": "elektro.md",
+      "error": "Smart-Home-/Beleuchtungsentscheidungen nicht vorab mit allen Bewohnern abgestimmt (Klingel-Ärger, beleuchteter Spiegel und Leuchten nicht in DALI-Ausführung verfügbar).",
+      "scenario": "Wir wollen Smart Home mit DALI – worauf achte ich bei Spiegel, Leuchten und Klingel, damit nicht jedes Bauteil zum Streitfall wird?",
+      "must_contain": [
+        "dali",
+        "beleuchteter spiegel",
+        "leuchten|kompatibilität"
+      ],
+      "quote": "wenn sie einen beleuchteten Spiegel ausgesucht hat und ich gesagt habe, es müsste eine DALI Variante geben"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-11",
+      "video": "sWXyiNADbFk",
+      "ts": "00:11:39",
+      "playbook": "daemmung.md",
+      "error": "Vorbereitung für Split-Klimaanlage (Kabelkanal/Leerrohr in der Dämmung) ging im Handwerker-Chaos unter – jetzt sind Aufputz-Kabelkanäle nötig.",
+      "scenario": "Wir wollen später eine Split-Klimaanlage nachrüsten – was muss ich jetzt in Dämmung und Wand vorbereiten, damit keine Aufputzkanäle nötig werden?",
+      "must_contain": [
+        "split-klimaanlage",
+        "leerrohr|kabelkanal in dämmung",
+        "kältemittelleitung"
+      ],
+      "quote": "In dem ganzen Tohuwabohu mit dem Elektriker ist das Ganze dann irgendwie hinten übergefallen"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-12",
+      "video": "sWXyiNADbFk",
+      "ts": "00:12:23",
+      "playbook": "elektro.md",
+      "error": "Netzwerkkabel nur teilweise in Leerrohren verlegt; ein Kabel zu stark geknickt – der Gira G1 bekommt PoE, aber keine Daten und läuft nur per WLAN.",
+      "scenario": "Wie lasse ich Netzwerkkabel verlegen, damit ich später Glasfaser oder neue Leitungen nachziehen kann und kein Kabel geknickt wird?",
+      "must_contain": [
+        "leerrohr durchgehend",
+        "netzwerkkabel cat.6|cat.7",
+        "biegeradius"
+      ],
+      "quote": "Wenn ein Teil des Kabels nicht im Leerrohr liegt, kann man nichts Neues durchziehen"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-13",
+      "video": "sWXyiNADbFk",
+      "ts": "00:13:33",
+      "playbook": "sanitaer.md",
+      "error": "Nur ein Wasserkreislauf im Haus – kein separater Außenwasserzähler für Gartenbewässerung und kein getrennter Wasserdruck innen/außen.",
+      "scenario": "Wir wollen den Garten bewässern und kein Abwasser dafür zahlen – was muss ich wasserseitig jetzt vorsehen?",
+      "must_contain": [
+        "zweite wasseruhr",
+        "außenwasserhahn",
+        "getrennter kreislauf"
+      ],
+      "quote": "wir können nicht einfach im Haus irgendwo eine zweite Wasseruhr anbauen"
+    },
+    {
+      "scored": true,
+      "id": "sWXyiNADbFk-14",
+      "video": "sWXyiNADbFk",
+      "ts": "00:15:03",
+      "playbook": "elektro.md",
+      "error": "Fenstersensoren des Fensterherstellers mit hoher Ausfallquote im ersten Jahr (ca. 30 % Ausschuss) – viele Fenster haben noch offene Dosen für den Tausch.",
+      "scenario": "Ich will Fensterkontakte fürs Smart Home – wie stelle ich sicher, dass die Sensoren tauschbar bleiben und nicht nach einem Jahr ausfallen?",
+      "must_contain": [
+        "fenstersensoren",
+        "ausfallquote|erfahrungswerte",
+        "30 % ausschuss"
+      ],
+      "quote": "die haben offenbar eine relativ hohe Ausfallquote im ersten Jahr … 30 % Ausschuss"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-01",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:00:26",
+      "playbook": "estrich.md",
+      "error": "Billigangebot ohne Leistungsbeschreibung: Wärme- und Trittschalldämmung weggelassen, stattdessen 15 cm Estrich – nach einem Jahr nicht durchgetrocknet.",
+      "scenario": "Hausbesitzer nimmt per WhatsApp ein Angebot 'Estrich für 3000 €' an. Der Estrichleger spart die Wärmedämmung und die Trittschalldämmung ein und legt 15 cm Estrich. Ergebnis: Estrich trocknet nach einem Jahr noch nicht, Bodenbelag kann nie aufgelegt werden, energetisch ist der Aufbau sinnlos.",
+      "must_contain": [
+        "wärmedämmung + trittschalldämmung sind pflichtlagen",
+        "trocknungszeit > 1 jahr",
+        "energetisch sinnlos, heizkosten hoch"
+      ],
+      "quote": "der Estrichleger hat halt die Wärmedämmung und die Trittschalldämmung einfach mal weggelassen"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-02",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:01:35",
+      "playbook": "estrich.md",
+      "error": "Aufbau unter dem Estrich ist nach dem Einbau nicht mehr prüfbar – ohne dokumentiertes Angebot gibt es keine Kontrollmöglichkeit.",
+      "scenario": "Nach dem Einbringen sieht der Besitzer weder Estrichdicke noch Dämmstärke. Fehler zeigen sich erst Jahre später über hohe Heizkosten oder feuchten Estrich. Rettung ist ein Angebot, das Wärmedämmung mit Wärmeleitfähigkeit und Dicke sowie die Güteklasse des Estrichs exakt benennt.",
+      "must_contain": [
+        "aufbau vor dem einbau dokumentieren",
+        "angebot mit wärmeleitfähigkeit  und dämmdicke",
+        "güteklasse|nennfestigkeit des estrichs ausschreiben"
+      ],
+      "quote": "du siehst nicht wie viel Dämmung eingebracht wurde"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-03",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:02:45",
+      "playbook": "estrich.md",
+      "error": "Keine bewusste Auswahl der Estrichart – Zement-, Anhydrit- oder Fließestrich werden ohne Vergleich der Eigenschaften gewählt.",
+      "scenario": "Der Besitzer lässt 'irgendeinen' Estrich legen, ohne zu wissen, dass Zementestrich, Anhydritestrich und Fließestrich unterschiedliche Trocknungszeiten, Festigkeiten und Einschränkungen bei Fußbodenheizung/Feuchträumen haben. Der Belag passt später nicht zum Untergrund.",
+      "must_contain": [
+        "zementestrich",
+        "anhydritestrich",
+        "fließestrich"
+      ],
+      "quote": "keine bewusste Auswahl getroffen wird welche Estrichart verlegt wird"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-04",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:03:08",
+      "playbook": "estrich.md",
+      "error": "Unsachgemäße Estrichdicke: zu dick trocknet monatelang, zu dünn reißt auf – brauchbar sind ca. 5–7 cm.",
+      "scenario": "Estrich wird 'großzügig' dick eingebaut, weil das stabiler wirkt. Dann liegt der Estrich 3, 4 Monate bis ein halbes Jahr und der Bodenbelag kann nicht kommen. Umgekehrt reißt ein zu dünner Estrich vollflächig auf, weil er die Lasten nicht aufnimmt.",
+      "must_contain": [
+        "gute estrichdicke 5–7 cm",
+        "cm-messung vor belagseinbau"
+      ],
+      "quote": "eine gute Estrichdicke liegt irgendwo zwischen 5 cm und 7 cm"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-05",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:03:54",
+      "playbook": "estrich.md",
+      "error": "Falsche Lüftung/Trocknung: zu feucht → Schimmelgefahr, zu schnell → Spannungen, Risse und Aufschüsseln der Ränder.",
+      "scenario": "Nach dem Einbringen wird der Estrich entweder bei geschlossenen Fenstern in hoher Luftfeuchte stehen gelassen (Schimmel) oder mit starkem Durchzug 'schnell' getrocknet. Letzteres erzeugt Spannungen: Der Estrich reißt oder wölbt die Ränder hoch – er 'schüsselt'.",
+      "must_contain": [
+        "zu hohe luftfeuchtigkeit → schimmelgefahr",
+        "schüsseln: ränder ziehen nach oben",
+        "richtig lüften und richtig trocknen"
+      ],
+      "quote": "wenn du aber zu schnell lüftest und trocknest entstehen in deinem Estrich Spannungen"
+    },
+    {
+      "scored": true,
+      "id": "wnWCWCQfkvg-06",
+      "video": "wnWCWCQfkvg",
+      "ts": "00:04:38",
+      "playbook": "estrich.md",
+      "error": "Unprofessionelle Fugenplanung – Fugen werden an Türdurchgängen oder willkürlich im Raum gesetzt und passen nicht zum späteren Bodenbelag.",
+      "scenario": "Die Bewegungsfugen werden dort angeordnet, wo es dem Estrichleger gerade passt, z. B. an Türdurchgängen oder mitten im Raum. Beim Verlegen des Bodenbelags liegt die Fuge dann in der Laufachse oder mitten in der Diele und der Belag muss aufwändig geteilt werden.",
+      "must_contain": [
+        "fugenplanung vor dem einbau, schriftlich",
+        "fugen nach estrichbedarf",
+        "fugen müssen zum bodenbelag|fugenbild passen"
+      ],
+      "quote": "sehr häufig an den Türdurchgängen die Fugen gesetzt"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-01",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:01:08",
+      "playbook": "bad.md",
+      "error": "Ohne Plan und ohne Aufmaß abreißen: Bad wird zerlegt, bevor klar ist, wo Toilette, Dusche und Anschlüsse hinkommen sollen.",
+      "scenario": "Eigenheimbesitzer reißt das alte Bad komplett aus, stellt danach fest, dass die Toilette in der Ecke bleibt, die Dusche nicht größer werden kann und der Ablauf nicht dort sitzt, wo die neue Duschtasse ihn braucht – Umbau muss neu geplant, teils zurückgebaut werden.",
+      "must_contain": [
+        "grundriss",
+        "aufmaß",
+        "sanitäranschlüsse"
+      ],
+      "quote": "reißen ab und fangen an neu aufzubauen, ohne überhaupt zu wissen, was sie machen und warum"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-02",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:03:47",
+      "playbook": "fliesen.md",
+      "error": "Falsche Reihenfolge: Boden wird zu früh grundiert, obwohl danach noch Putz-, Kleber- und Staubarbeit auf ihm stattfindet.",
+      "scenario": "Heimwerker grundiert beim Start gleich den ganzen Boden mit, klebt dann Wände, Gewebe und Abdichtung – am Ende ist der Boden voller Kleberreste und Staub, alles muss abgekratzt, gesaugt und erneut grundiert werden.",
+      "must_contain": [
+        "erst wände, dann boden grundieren",
+        "haftgrund erst auf staubfreien untergrund",
+        "boden abdecken|abkleben"
+      ],
+      "quote": "Viele Leute gehen dann hin und grundieren den Boden direkt mit. Das ist aber totaler Schwachsinn."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-03",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:05:16",
+      "playbook": "bad.md",
+      "error": "Abdichtung falsch ausgeführt: falsches Material, keine oder falsche Formteile, falsche Reihenfolge – besonders im Rinnenanschlussbereich.",
+      "scenario": "Bodenebene Dusche wird gefliest, der Ablaufbereich/Rinnenanschluss aber nur oberflächlich „dicht“ gestrichen; nach Monaten läuft Wasser in Estrich und darunter liegende Wohnung, die Ursache wird erst beim Deckenfleck gefunden.",
+      "must_contain": [
+        "verbundabdichtung",
+        "abdichtbahn|abdichtfließ",
+        "flüssigabdichtung"
+      ],
+      "quote": "die Abdichtung entweder komplett falsch ausgeführt, die falsche Materialien benutzt oder falsche Formteile benutzt"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-04",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:05:59",
+      "playbook": "waende.md",
+      "error": "Flüssige/Spachtelabdichtung zu dünn: nur einmal gerollt oder gespachtelt, dadurch wird die vorgeschriebene Schichtstärke nicht erreicht.",
+      "scenario": "Heimwerker rollt die Dichtschlämme einmal mit der Rolle auf die Wand, „wird schon dicht sein“; die geforderte Schichtdicke fehlt, die Abdichtung ist hinfällig und muss komplett neu aufgebaut werden.",
+      "must_contain": [
+        "zwei spachtelgänge",
+        "schichtstärke",
+        "trockenschichtdicke laut hersteller"
+      ],
+      "quote": "Viele Leute streichen entweder mit der Rolle drauf oder spachteln einmal auf und denken, wird schon dicht sein."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-05",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:07:05",
+      "playbook": "bad.md",
+      "error": "Dichtbänder werden in Fliesenkleber gesetzt statt in Dichtschlämme/Dispersionsdichtmasse.",
+      "scenario": "Ecken und Wandanschlüsse bekommen Dichtband, aber der Handwerker/Heimwerker drückt es mit normalem Fliesenkleber an – der Kleber ist nicht dicht, Wasser zieht kapillar hinter das Band.",
+      "must_contain": [
+        "dichtband in dichtschlämme setzen",
+        "dispersionsdichtmasse",
+        "fliesenkleber ist nicht wasserdicht"
+      ],
+      "quote": "Dichtbänder bitte unbedingt mit einer Dichtschlemme kleben, nicht in Fliesenkleber kleben."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-06",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:07:27",
+      "playbook": "bad.md",
+      "error": "Formteile werden nicht benutzt: Löcher in Dichtband geschnitten statt Rohr-/Dichtmanschetten, Ecken selbst gebastelt.",
+      "scenario": "Für die Wasseranschlüsse wird ein Loch ins Dichtband geschnitten und drübergeklebt; an Innenecke und Außenecke wird improvisiert – genau dort entstehen undichte Stellen, sichtbar erst als Wasserschaden.",
+      "must_contain": [
+        "innenecke",
+        "außenecke",
+        "dichtmanschette"
+      ],
+      "quote": "Ganz oft schon gesehen, dass Leute sich einfach Dichtbänder holen, Löcher rein schneiden und über die Wasseranschlüsse kleben"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-07",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:10:02",
+      "playbook": "bad.md",
+      "error": "Badewanne/Duschwanne nur mit Silikonfuge an die Wand gesetzt, ohne Wannenband/Dichtband im Verbund der Abdichtung.",
+      "scenario": "Wanne wird an die Wand gedrückt und mit Silikon abgespritzt; weil täglich Bewegung in der Wanne ist, reißt die Fuge, Wasser läuft jahrelang hinter die Fliesen – heute nicht mehr zulässig.",
+      "must_contain": [
+        "wannenband",
+        "dichtband am wannenrand",
+        "hochgezogen an der wand"
+      ],
+      "quote": "Es gibt immer noch Installateure, die knallen Silikon an die Ränder, zack, an die Wand gedrückt."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-08",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:10:46",
+      "playbook": "fliesen.md",
+      "error": "Falscher Kleber fürs Fliesenformat: Flexkleber auch für große Formate, S1/S2 werden nicht unterschieden.",
+      "scenario": "60x60- oder XXL-Fliese wird mit normalem Flexkleber verlegt; der Kleber ist zu wenig elastisch, Fliesen lösen sich oder reißen später heraus.",
+      "must_contain": [
+        "flexkleber bis 50x50",
+        "ab 60x60 s1",
+        "xxl s2"
+      ],
+      "quote": "Ab 60 x 60 empfehle ich ganz klar ein S1 Kleber."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-09",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:11:31",
+      "playbook": "fliesen.md",
+      "error": "Entkopplungsmatte wird bei rissigem Untergrund/altem Estrich weggelassen – Risse übertragen sich auf die Fliesen.",
+      "scenario": "Auf einem alten, stark gerissenen Estrich werden Fliesen direkt verklebt; der Untergrund arbeitet weiter, die Fliesen reißen mit, alles muss raus und mit Entkopplungsmatte neu aufgebaut werden.",
+      "must_contain": [
+        "entkopplungsmatte",
+        "alter estrich",
+        "risse"
+      ],
+      "quote": "der Untergrund reißt weiter, eure Fliesen reißen mit"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-10",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:12:16",
+      "playbook": "fliesen.md",
+      "error": "Kleber blind im Baumarkt gekauft statt Fachhandel verglichen – Baumarktqualität ist nicht billiger.",
+      "scenario": "Heimwerker kauft den 20–22-€-Sack aus dem Baumarkt; beim Baustoffhändler kostet ein guter S1-Kleber 21 € – gleicher Preis, aber deutlich bessere Qualität und Beratung.",
+      "must_contain": [
+        "fliesenfachhandel|baustoffhandel",
+        "s1-kleber",
+        "schomburg"
+      ],
+      "quote": "Ich bezahle für ein guten S1 Kleber bei meinem Händler 21 €."
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-11",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:13:26",
+      "playbook": "fliesen.md",
+      "error": "Selbstüberschätzung bei Königsdisziplinen: Gehrung 45°, Schienen um die Ecke biegen, Silikonfugen – ohne Übung am Probestück.",
+      "scenario": "Heimwerker will Gehrung an der Außenkante, versaut mehrere Fliesen und das Gesamtbild; Alternative wären Edelstahl-/Eckschienen oder ein Profi nur für Silikon und Gehrung.",
+      "must_contain": [
+        "gehrung 45°",
+        "probestücke üben",
+        "edelstahlschiene"
+      ],
+      "quote": "Gehrung schneiden ... ist absolute Königsdisziplin und selbst ich habe damit wirklich zu kämpfen"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-12",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:08:56",
+      "playbook": "fliesen.md",
+      "error": "Falsches Werkzeug gekauft, weil Bedarf vorher nicht geklärt wurde – Geld ausgegeben und während der Arbeit doch neu kaufen.",
+      "scenario": "Heimwerker merkt erst beim Verlegen, dass Zahnkelle, Fliesenschneider oder Mischwerkzeug nicht passen, fährt mitten in der Arbeit in den Baumarkt und hat Fehlkäufe in der Ecke stehen.",
+      "must_contain": [
+        "werkzeugliste vorab",
+        "zahnkelle passend zum format",
+        "fliesenschneider"
+      ],
+      "quote": "Ihr habt Geld ausgegeben für Zeug, was ihr gar nicht braucht ... und müsst wieder in den Baumarkt rennen"
+    },
+    {
+      "scored": true,
+      "id": "zR7LyRq3G7Q-13",
+      "video": "zR7LyRq3G7Q",
+      "ts": "00:17:30",
+      "playbook": "bad.md",
+      "error": "Badewanne zu weit vorne einmauern – Fliesen stehen über den Wannenrand und bilden eine scharfe Kante.",
+      "scenario": "Nach dem Einmauern der Wanne steht die Fliesenkante vorne über dem Wannenrand; der Übergang ist scharfkantig und lässt sich nicht mehr sauber schließen. Kontrolle vorher mit zwei Fliesen-Abfallstücken.",
+      "must_contain": [
+        "einbautiefe wanne",
+        "wannenrand bündig",
+        "fliesenstärke + kleberbett einrechnen"
+      ],
+      "quote": "eure Fliesen stehen über dem Wannenrand über. Ihr habt eine Ecke, die immer scharfkantig ist."
+    }
+  ],
+  "nicht_bewertet": [
+    {
+      "id": "bjw-10",
+      "grund": "Wartezeit/Baukosten-Prognose (2–3 Jahre, 20 m²) — Meinung des Sprechers, keine Regel"
+    },
+    {
+      "id": "nul-15",
+      "grund": "Maklerprovision 3–6 % — nicht belegte Größenordnung des Sprechers"
+    }
+  ]
+}
