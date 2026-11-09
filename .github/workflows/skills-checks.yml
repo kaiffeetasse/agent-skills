@@ -27,6 +27,15 @@ jobs:
       - name: Fehlerabdeckung
         working-directory: skills/house/renovierung-gewerke-praxis
         run: python3 scripts/fehlercheck.py
+      - name: Rechenwerkzeug (Selbsttest)
+        working-directory: skills/house/renovierung-gewerke-praxis
+        run: python3 scripts/material.py selftest
+      - name: Router-Tabelle
+        working-directory: skills/house/renovierung-gewerke-praxis
+        run: python3 scripts/router_test.py
+      - name: Widersprüche zwischen Playbooks
+        working-directory: skills/house/renovierung-gewerke-praxis
+        run: python3 scripts/querkcheck.py
 
   # Langsam (über 1.100 URLs): nur monatlich und auf Zuruf, damit ein Push nicht 20 Minuten blockiert.
   links:
