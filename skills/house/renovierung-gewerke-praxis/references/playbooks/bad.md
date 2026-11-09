@@ -1,5 +1,15 @@
 # Bad komplett sanieren (6–10 m², Bestandsbau)
 
+## Kurzantwort
+
+- **Selbst machbar:** Ausbau, Fliesen, Streichen, Silikonfugen. **Nicht:** Abdichtung, Elektro, Sanitäranschluss.
+- **Kosten:** 900–3.500 €/m² je nach Ausstattung; **15 % Puffer** zusätzlich.
+- **Dauer:** 4–8 Wochen bei einem Bad, davon 1 Woche reine Trockenzeit.
+- **Reihenfolge:** Rohinstallation → Estrich (Gefälle!) → Abdichtung → Fliesen → Einbau → Silikon.
+- **Kritisch:** Flüssigabdichtung **≥ 0,5 mm Trockenschicht** in zwei Gängen, Dichtband **in** die Schlämme,
+  nicht in Fliesenkleber. Fehler dort kosten den ganzen Aufbau.
+
+
 **Praxis-Playbook für Eigenheimbesitzer, die selbst renovieren.** Ton: Handwerker zu Laie.
 Stand der Quellenprüfung: **09.11.2026**. Jede Zahl trägt eine Quellennummer `[Qn]`, die am Ende
 aufgelöst wird. Zeitangaben aus YouTube sind aus **automatischen Untertiteln** abgeleitet (±10 s) und

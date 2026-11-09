@@ -1,5 +1,14 @@
 # Heizung & Lüftung im Bestand — Playbook für Eigenheimbesitzer
 
+## Kurzantwort
+
+- **Heizkörper tauschen und Abgleich sind Eigenleistung** (bis auf Eingriffe an Gas/Öl).
+- **Die Zahl, die zählt:** ein Heizkörper für 75/65 liefert bei **55/45 nur etwa die Hälfte** der Leistung —
+  deshalb wird bei Wärmepumpe getauscht oder vergrößert.
+- **Fußbodenheizung:** Aufbauhöhe 2–10 cm je System, auf Holzbalkendecke nur trocken und mit Statik.
+- **Lüften:** Lüftungskonzept nach DIN 1946-6 ist bei dichter Hülle Pflicht, nicht Kür.
+
+
 **Stand:** 09.11.2026 · **Zielgruppe:** Eigentümer eines Ein-/Zweifamilienhauses, handwerklich begabt, kein SHK-Profi
 **Grenze dieses Playbooks:** Du entscheidest, bereitest vor, kaufst, prüfst Angebote und erkennst Pfusch. Gasinstallation, Kesseltausch, KWL-Einbau und alles am Estrich bleiben Fachbetrieb (Begründung unten). Alle Preise sind **Bänder**, keine Punktpreise; alle Zahlen mit `[Qnn]` sind belegt, alle ohne Kürzel sind Erfahrungswerte und als solche gekennzeichnet.
 

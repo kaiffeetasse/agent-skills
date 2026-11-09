@@ -77,7 +77,7 @@ Hausbau" (nulK-nz67Cc), beide von Bausachverständigen; Transkripte in `referenc
 **Unbelegt / Einordnung:** Die Zahlen der Videos (z. B. Bodenaustausch 25.000–30.000 €, 15–20 Mängel pro
 Begehung) sind Erfahrungswerte der Sprecher, keine Statistik — als Größenordnung brauchbar, nicht als
 Kalkulationsgrundlage. HOAI-Leistungsphasen im Detail: siehe Klotzkette-Skill
-`hoai-leistungsphasen-praxis` (liegt lokal in `~/workspace/deutsches-recht-repo`).
+`hoai-leistungsphasen-praxis` (liegt lokal in `eine lokale Rechtssammlung
 
 ## Ergänzungen aus dem Video-Katalog
 

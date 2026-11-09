@@ -1,5 +1,14 @@
 # Fenster & Türen im Bestand — Playbook für Eigenheimbesitzer
 
+## Kurzantwort
+
+- **Tausch ist Fachbetrieb**, Einstellen und Aufarbeiten geht selbst.
+- **Anschluss entscheidet:** **Kompriband 8–18 mm** innen dichter als außen, **Schaum dichtet nicht** —
+  die Fuge wird von innen luftdicht, von außen schlagregendicht.
+- **Befestigung:** 700 mm bzw. 800 mm Abstand, Abstand zur Ecke ≤ 150 mm; Kürzen max. 15/30 mm je Bauart.
+- **Sicherheit:** RC2 hält etwa **3 Minuten** auf — kein Ersatz für Alarmanlage, aber Zeitgewinn.
+
+
 **Für wen:** Bestandsbau, kein Neubau, kein Planer im Haus. Ton: Werkstatt, nicht Hörsaal.
 **Stand:** 09.11.2026. Alle Zahlen mit Quelle `[Qn]` → Quellenverzeichnis am Ende. Was ich **nicht** belegen konnte, steht ausdrücklich als *unbelegt* da.
 

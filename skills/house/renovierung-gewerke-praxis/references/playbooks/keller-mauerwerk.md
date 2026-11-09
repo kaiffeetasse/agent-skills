@@ -1,5 +1,17 @@
 # Keller & feuchtes Mauerwerk — Playbook für Eigenheimbesitzer
 
+## Kurzantwort
+
+- **Feuchte zuerst bestimmen, dann abdichten:** aufsteigende Feuchte, drückendes Wasser, Kondensat und
+  Spritzwasser brauchen verschiedene Systeme (DIN 18533 W1-E bis W4-E).
+- **Messung statt Gefühl:** Darrprobe oder CM-Messung am Bohrkern; ein Feldmessgerät an der Wandoberfläche
+  sagt fast nichts.
+- **Innenabdichtung ist ein Kompromiss:** die Wand bleibt nass, die Abdichtung hält das Wasser im Bauteil.
+  Ehrlich sagen, statt verkaufen.
+- **Horizontalsperre** nachträglich nur mit Verfahren, die zur Wand passen (Säge, Injektion, Blech) — und
+  mit Erfolgskontrolle.
+
+
 **Zweck:** Vom Symptom zur richtigen Maßnahme, ohne Geld an der falschen Stelle zu verbrennen.
 **Grundregel:** Ursache → Diagnose → Konzept → Ausführung → Erfolgskontrolle. Wer mit Maßnahme 3 beginnt, zahlt zweimal.
 
@@ -444,3 +456,9 @@ Feuchte im Keller
 - **Bodengutachten vor der Planung**, nicht nach der Unterschrift: Bodenplatte/Keller werden sonst teurer,
   weil Wasserhaltung, Auftriebssicherung und Aushubtiefe (bis ~1 m bis hartes Gestein) nachträglich
   anfallen (nul-03).
+
+## Unbelegt
+
+- Erfolgsquote von Innenabdichtungssystemen über 10+ Jahre — keine belastbare Langzeitstudie gefunden.
+- Preisunterschied zwischen Injektions- und Flächenabdichtung außerhalb der genannten Beispiele.
+- Wirkung von Luftentfeuchtern im Dauerbetrieb als „Sanierung" — Herstellerangaben, kein Feldversuch.

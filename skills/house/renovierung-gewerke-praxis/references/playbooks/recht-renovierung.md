@@ -1,5 +1,15 @@
 # Rechtsseite der Renovierung: Genehmigung, Nachbarn, Denkmal, Versicherung, Helfer
 
+## Kurzantwort
+
+- **„Verfahrensfrei" heißt nicht „rechtsfrei"**: auch verfahrensfreie Vorhaben müssen Abstandsflächen,
+  Bebauungsplan und Denkmalschutz einhalten (§ 50 Abs. 5 LBO BW).
+- **Nachbar:** Gerüst zwei Wochen vorher anzeigen, 0,50 m Abstand zur Grenze; Überbau nur bei sofortigem
+  Widerspruch (§ 912 BGB).
+- **Denkmal ist eine zweite Schiene** — Genehmigung der Denkmalbehörde zusätzlich zur Baugenehmigung.
+- **Helfer:** BG-BAU-Anmeldung unabhängig von Bezahlung; „ohne Rechnung" macht den Vertrag nichtig.
+
+
 **Praxis-Playbook für Eigenheimbesitzer in Baden-Württemberg, die selbst renovieren.**
 Ton: Handwerker zu Bauherr. Klartext, aber mit Paragraphen — damit du im Bauamt, beim Nachbarn
 und beim Versicherer nicht der Laie bist, der sich überrumpeln lässt.

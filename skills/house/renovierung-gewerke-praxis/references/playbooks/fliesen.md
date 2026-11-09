@@ -1,5 +1,14 @@
 # Fliesen legen — Praxis-Playbook (Wand/Boden, Bad/Küche/Flur)
 
+## Kurzantwort
+
+- **Selbst machbar:** kleine Flächen, gerade Räume, Untergrund vorbereitet. **Nicht:** Dusche ohne
+  Verbundabdichtung, Großformate an der Wand ohne Plan.
+- **Zahnung = Klebermenge:** 6 mm ≈ 2,0–2,3 kg/m², 10 mm ≈ 3,0–3,3 kg/m²; **ab 60×60 S1**, XXL S2.
+- **Abdichtung:** DIN 18534, zwei Lagen mit Farbkontrolle, Band in der ersten Lage, 5 cm Überlappung.
+- **Menge:** Fläche + 5–10 % Verschnitt, **1–2 Pakete Reserve** für spätere Reparaturen.
+
+
 **Stand:** 09.11.2026 · **Zielgruppe:** Eigenheimbesitzer ohne Fliesenleger-Ausbildung
 **Methode:** Jede Aussage trägt eine Quellennummer `[Qn]` (Liste am Ende, mit URL). Minutenangaben bei Videos sind aus den **automatischen Untertiteln** (±10 s) und als „Min." gekennzeichnet — sie sind Hörbelege, keine Bildbelege. Was ich nicht belegen konnte, steht unter **„Unbelegt"** und ist im Text als *[unbelegt]* markiert.
 

@@ -1,5 +1,13 @@
 # Decke erneuern — das Playbook
 
+## Kurzantwort
+
+- **Selbst machbar:** Streichen, Spachteln bis Q2, Tapezieren. **Nicht:** Statik, Trockenbau mit Brandschutz.
+- **Spachtelstufen:** Q1–Q4; Trockenzeit **24 h je mm** Schichtdicke, sonst bleibt es wellig.
+- **Abhängen kostet Höhe:** 2 × CD 27 + 12,5 mm = **66,5 mm**, in der Praxis 80 mm.
+- **Risse:** erst die Ursache klären (Setzung, Temperatur, Fuge), dann reparieren — sonst reißt es wieder.
+
+
 **Für:** Eigenheimbesitzer, Altbau und Bestand, Decken aus Beton oder Holzbalken.
 
 **Stand:** 09.11.2026. Maße in mm, cm und m wie angegeben.

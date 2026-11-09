@@ -1,4 +1,13 @@
 # Estrich & Bodenaufbau im Bestand
+
+## Kurzantwort
+
+- **Nicht selbst machen** — Höhenlage, Fugen und Belegreife sind die Punkte, an denen später alles zu spät ist.
+- **Dicken:** Zement 40 mm schwimmend, **45 mm mit Fliesen**, Calciumsulfat 30–40 mm, Heizestrich 45 mm über Rohr.
+- **28 Tage sind Erhärtung, nicht Belegreife**: CM-Messung, Grenzwerte **2,0/1,8 CM-%** (Zement),
+  **0,5/0,3** (Calciumsulfat); real 6–8 Wochen.
+- **Wichtig im Angebot:** System, Nenndicke, Dämmdicke **und λ-Wert**, Güteklasse, Fugenplan.
+
 **Praxis-Playbook für Eigenheimbesitzer** · Stand 09.11.2026
 Zahlen statt Adjektive. Jede Aussage mit Quelle `[n]`; Video-Timecodes als `(Video m:ss)`. Videozitate sind sinngemäß nach dem automatischen Transkript, der Timecode bezeichnet die Stelle im Video. Was ich nicht belegen konnte, steht am Ende unter **Unbelegt**.
 

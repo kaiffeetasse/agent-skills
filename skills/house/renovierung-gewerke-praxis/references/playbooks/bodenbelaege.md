@@ -1,5 +1,14 @@
 # Bodenbeläge verlegen — Playbook für Eigenheimbesitzer
 
+## Kurzantwort
+
+- **Selbst machbar:** Laminat und Klick-Vinyl schwimmend. **Nicht:** Parkett kleben, Ausgleichsmasse über 3 mm.
+- **Die Wahl entscheidet die Aufbauhöhe**: Türblatt, Übergänge und Heizungsrohre vorher messen.
+- **Kennzahlen:** Laminat 8–12 mm, Vinyl 4–6 mm, Parkett 14–22 mm, Trittschalldämmung 2–3 mm.
+- **Untergrund:** Ebenheit 2 mm/1 m, Restfeuchte per CM-Messung — nicht am Kalender ablesen.
+- **Falle:** Hybrid- und Designboden mit dünner Furnierschicht ist **nicht schleifbar**.
+
+
 **Gilt für:** Laminat, Vinyl (Klick + geklebt), Fertigparkett, Kork, Linoleum. **Nicht** für Fliesen.
 **Grundhaltung:** Die meisten Reklamationen kommen aus Untergrund und Fugen, nicht aus dem Belag. Wer die ersten zwei Kapitel sauber abarbeitet, hat den Rest leicht.
 
@@ -371,3 +380,9 @@ Quellen: Handwerksratgeber [Q29], Bodenbelag-Preise Deutschland [Q11], Parkett-S
 - **Oberflächenrauheit vor der Bestellung prüfen**: derselbe Bodentyp in rauer Oberfläche im Obergeschoss
   bedeutet **Sockenverschleiß** („wie auf Schmirgelpapier") — Muster begehen, nicht nur im Prospekt ansehen
   (sWXyiNADbFk-04).
+
+## Unbelegt
+
+- Lebensdauer-Erwartungen je Belag („10–15 Jahre") — Herstellerangaben, keine unabhängige Messung.
+- Aufpreis für „geölt statt lackiert" im Handwerk — regional sehr unterschiedlich, keine belastbare Quelle.
+- Trittschallverbesserung einzelner Unterlagen in dB — Datenblattwerte der Hersteller, nicht nachgemessen.

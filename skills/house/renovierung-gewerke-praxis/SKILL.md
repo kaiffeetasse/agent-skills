@@ -125,9 +125,22 @@ und wird so gekennzeichnet.
 - **Belegakte/Bauwerksbuch** anlegen: Angebote, Rechnungen, Protokolle, Fotos, Herstellerunterlagen,
   Garantiescheine – pro Gewerk ein Ordner, digital und einmal ausgedruckt.
 
+## Veröffentlicht
+
+Öffentliche Kopie: `github.com/kaiffeetasse/agent-skills` → `skills/house/renovierung-gewerke-praxis`.
+Die lokale Fassung ist die Arbeitsversion; veröffentlicht wird eine **Kopie**, kein Symlink, damit der
+Installations-Helfer des Repos den Stand aktualisieren kann.
+
+Beim Veröffentlichen gilt: Landkreis- und Ortsnamen generalisieren (die belegten Zahlen bleiben, der Ort
+fällt weg), Gebühren-URLs mit Ortsnamen durch die Quellenangabe in Worten ersetzen, interne Pfade und
+Job-IDs entfernen. **Nach dem Push in einem frischen anonymen Klon nachweisen, dass die Kopie
+funktioniert** — `python3 scripts/fehlercheck.py` muss dort dieselbe Quote melden wie lokal; weicht sie
+ab, fehlt eine Datei oder ein Pfad zeigt ins lokale Home.
+
 ## Recht und Planerseite (liegt lokal)
 
-Eine lokale Rechtssammlung mit dem Plugin **`hoai-leistungsphasen-praxis`** die Skills für die Planer-/Bauherrenseite, u. a.
+Die Klotzkette-Sammlung `eine lokale Rechtssammlung
+Plugin **`hoai-leistungsphasen-praxis`** die Skills für die Planer-/Bauherrenseite, u. a.
 `lph8-bauueberwachung-elektro-erdung-blitzschutz`, `lph8-bauueberwachung-mehrfamilienhaus-effh`,
 `abnahmefahrplan`, `bauherrnentscheidung-matrix`, `anrechenbare-kosten-din276-baukostengruppen`,
 `fachplaner-tga-brandschutz-tragwerk-koordination`, `foerdermittel-baukosten`. Dazu `bauwirtschaft`,
@@ -289,6 +302,11 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
    keinen Nutzen — dann Zahlen, Quellen und Vollständigkeit nachlegen oder es mit einem Nachbarthema
    zusammenlegen. Umgekehrt gilt: wird die kalte Antwort **besser** als das Playbook, ist das Playbook
    falsch und wird korrigiert, nicht verteidigt.
+8. **Eine Korrektur gilt für alle Dateien, nicht nur für die, in der sie auffiel.** Sobald ein Stichtag,
+   eine Norm oder eine Pflicht berichtigt wird: `grep -rn "<Begriff>" references/` und **jede** Fundstelle
+   angleichen. Bleiben Einzelfassungen stehen, liefert der Skill je nach Router-Ziel eine andere Antwort —
+   und die nächste Recherche muss den Widerspruch erneut auflösen. Ein korrigierter Asbest-Satz betraf
+   sechs Dateien; ein Patch an einer hätte fünf falsche Fassungen konserviert.
 
 Änderst du an diesen Regeln etwas, laufen beide Skripte erneut — sie sind die Regression, nicht die Deko.
 

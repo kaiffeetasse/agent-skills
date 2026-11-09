@@ -1,5 +1,15 @@
 # Elektro im Bestand nachrüsten — Vorbereitung, Kosten, Pfusch-Erkennung
 
+## Kurzantwort
+
+- **Grenze zuerst:** 230 V = eingetragenes Installationsunternehmen (NAV § 13 Abs. 2). Eigenleistung endet
+  bei Schlitzen, Dosen, Leerrohren und Kabelziehen nach Vorgabe.
+- **Bestand prüfen:** zweiadrige Leitungen, klassische Nullung, fehlender PE, „Deko-FI“ — vor jedem Anbau.
+- **Kosten:** 80–150 € je Steckdose, Zählerschrank 1.490–2.380 €, E-CHECK 80–660 €.
+- **Pflichten:** RCD 30 mA für Steckdosenkreise, Prüfprotokoll nach DIN VDE 0100-600, Kennzeichnung nach
+  DIN VDE 0100-510 Abschnitt 514.
+
+
 **Zielgruppe:** Eigenheimbesitzer, Bestand 1950–1990, die Elektrik modernisieren wollen.
 **Stand:** 09.11.2026. Alle Preise sind Orientierungswerte, kein Angebot. Alle Faktenaussagen tragen eine Quellennummer [Q#]; die Quellen stehen mit URL, Typ und Datum in §9.
 

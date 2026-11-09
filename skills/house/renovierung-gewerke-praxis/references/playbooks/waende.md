@@ -1,4 +1,12 @@
 # Wände: spachteln, streichen, tapezieren
+
+## Kurzantwort
+
+- **Streichen, Tapezieren, Spachteln bis Q2: selbst.** Putz erneuern und Wände versetzen: Fachbetrieb.
+- **Spachteln:** 1,7–1,8 kg/m² pro Millimeter Schichtdicke, **24 h Trockenzeit je mm**.
+- **Farbe:** 6,25–8,5 m²/l je nach Untergrund und Farbton — lieber einmal mehr rechnen als nachkaufen.
+- **Untergrund:** Haftung prüfen (Kreide, Silikat, Nikotin), grundieren statt hoffen.
+
 **Praxis-Playbook für Eigenheimbesitzer** · Stand 09.11.2026
 
 **Wie du das liest**

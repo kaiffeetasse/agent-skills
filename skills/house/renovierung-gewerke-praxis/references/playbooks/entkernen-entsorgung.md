@@ -1,4 +1,14 @@
 # Entkernen & Entsorgen
+
+## Kurzantwort
+
+- **Selbst machbar:** nichttragende Wände, Fliesen, Estrich, Einbauten — **nach** Absperren von Wasser/Strom.
+- **Vorher prüfen:** **Asbest** bei Baubeginn vor 31.10.1993, KMF vor 1996, PAK-Kleber, Blei.
+  Erkundung und Beprobung sind keine Formsache: bei Verdacht nicht stemmen, sondern beproben lassen.
+- **Entsorgung:** getrennt anliefern (Bauschutt, Holz, Gips, Dämmung, Sonderabfall) — **Mischlieferung
+  wird nach dem teuersten Bestandteil abgerechnet**.
+- **Nicht selbst:** tragende Bauteile, Asbest (ASI-Betrieb mit Anzeige), Abklemmen von Gas/Wasser/Elektro.
+
 **Praxis-Playbook für Eigenheimbesitzer** · Stand 09.11.2026
 
 **Wie du das liest**

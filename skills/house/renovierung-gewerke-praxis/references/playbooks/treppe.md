@@ -1,5 +1,14 @@
 # Treppe aufarbeiten und sanieren — Playbook für Eigenheimbesitzer
 
+## Kurzantwort
+
+- **Streichen und Schleifen: selbst.** Geländer, Statik, neue Stufen: Fachbetrieb.
+- **Maße (DIN 18065):** Auftritt **23–37 cm**, Steigung 14–20 cm; 2 × Steigung + Auftritt ≈ 59–65 cm.
+  Die oft genannten 26–32 cm sind Komfortband, keine Normgrenze.
+- **Geländer:** 900 mm bis 12 m Absturzhöhe, 1100 mm darüber.
+- **Blei:** Lack vor 1989 kann Blei enthalten — nicht schleifen, sondern abbeizen.
+
+
 **Gilt für:** gerade, gewendelte und offene Holztreppen im Bestand, Betontreppen mit Belag, Geländer und Handlauf.
 **Nicht hier:** Treppenneubau (siehe `kosten-bauzeit.md`), Außentreppen im Gelände, Treppenlifte, Stahltreppen-Sonderbau.
 

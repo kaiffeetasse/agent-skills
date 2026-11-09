@@ -1,5 +1,14 @@
 # Kosten, Bauzeit, Angebote prüfen (Wohnung 70–90 m², Bad + 3 Räume)
 
+## Kurzantwort
+
+- **Erst Leistung, dann Preis:** ein Angebot ohne Mengen, Aufbau und Positionen ist nicht vergleichbar.
+- **Bauzeit** hängt an der Reihenfolge, nicht am Fleiß: Rohinstallation → Estrich → Abdichtung → Belag →
+  Türen; jede Umstellung kostet Tage.
+- **Puffer:** 10–15 % auf die Summe, plus 5 % für Unvorhergesehenes im Bestand.
+- **Recht:** Abnahme nach § 640 BGB, Gewährleistung 5 Jahre (§ 634a), VOB/B 4 Jahre — Vertrag lesen.
+
+
 **Praxis-Playbook für Eigenheimbesitzer, die selbst renovieren.** Ton: Handwerker zu Laie.
 Stand der Quellenprüfung: **09.11.2026**. Jede Zahl trägt eine Quellennummer `[Qn]`, die in
 Abschnitt 10 aufgelöst wird.

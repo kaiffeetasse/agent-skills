@@ -1,5 +1,13 @@
 # Sanitär im Bestand – Playbook für Bad und Küche
 
+## Kurzantwort
+
+- **Armaturen tauschen, Dichtungen, Siphon: selbst.** Wasserleitungen neu, Abwasser und Gas: Fachbetrieb.
+- **Maße:** Vorwand 14,6 cm Tiefe, WC-Sitzhöhe 41–42 cm, Duschfläche 90×90 cm.
+- **Gefälle:** 0,5–1 cm/m Abwasser, **nie mehr als das nötige** — zu viel Gefälle macht Feststoffe absetzen.
+- **3-Liter-Regel:** Wasser in der Leitung bis zur Zapfstelle; lange Wege bedeuten Wartezeit und Verlust.
+
+
 **Stand:** 09.11.2026 · **Für:** Eigenheimbesitzer mit Baujahr 1950–2010, die ein Bad oder eine Küche sanieren und dabei nicht über den Tisch gezogen werden wollen.
 
 **Was dieses Playbook ist:** Vorbereitung, Entscheidungen, Maße, Kosten, Prüfmethoden, Pfusch-Erkennung.
@@ -490,3 +498,9 @@ Alle Quellen am 09.11.2026 abgerufen und inhaltlich geprüft.
 - **Zweiten Wasserkreislauf vorsehen**: getrennte Leitung mit **zweiter Wasseruhr** für Gartenbewässerung
   und **Außenwasserhahn**, sonst zahlt man Abwassergebühr für Gießwasser und hat keinen frostsicheren
   Ablass (sWXyiNADbFk-13).
+
+## Unbelegt
+
+- Schallwerte von Vorwandelementen (dB) je Hersteller — Datenblattwerte, nicht nachgemessen.
+- Lebensdauer von Pressfittingen in Abhängigkeit der Wasserqualität — keine unabhängige Langzeitmessung.
+- Regionale Preisunterschiede bei Sanitärmontage (€/Stunde) außerhalb der genannten Bänder.

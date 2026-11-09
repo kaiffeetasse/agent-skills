@@ -1,5 +1,13 @@
 # Werkzeug, Miete & Sicherheit auf der eigenen Baustelle
 
+## Kurzantwort
+
+- **Staub ist das Hauptrisiko:** bei Handmaschinen **Staubklasse M** (TRGS 504), L-Sauger sind dort unzulässig.
+- **Mieten statt kaufen:** Stemmhammer ~44 €/Tag, M-Sauger ~39 €/Tag — rechnet sich ab wenigen Tagen.
+- **Asbest:** vor 31.10.1993 beproben; Entsorgung regional z. B. **135 €/t**, Anlieferung nur zu Terminen.
+- **Schutz:** Gehör, Augen, Atem — und nie allein auf einer Leiter mit Werkzeug in der Hand.
+
+
 **Zielgruppe:** Eigenheimbesitzer, die selbst renovieren (Rückbau, Trockenbau, Fliesen, Maler, Elektro-Vorbereitung).
 **Stand:** 09.11.2026. Alle Preise sind Stichtags-Preise (brutto, wenn nicht anders vermerkt) und als **Band** zu lesen,
 nicht als Festpreis. Quellennummern [Q1]–[Q34] am Ende, jede Zahl ist dort zugeordnet.
