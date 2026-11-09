@@ -92,33 +92,13 @@ Belegt aus den Ausbildungsverordnungen (`references/ausbildungsordnungen.md`, je
 Konsequenz für die Planung: jede Aufgabe hat einen Beruf, der sie laut Verordnung gelernt hat. Wer die
 Zuordnung nicht kennt, fragt den falschen und zahlt zweimal.
 
-## Meisterprüfung und Externenprüfung
+## Zulassung zur Prüfung — nur die zwei Sätze, die zählen
 
-- **Vier selbständige Prüfungsteile** (HwO § 45 Abs. 3, AMVO § 1): Teil I fachpraktisch, Teil II
-  fachtheoretisch, Teil III betriebswirtschaftlich/kaufmännisch/rechtlich, Teil IV berufs- und
-  arbeitspädagogisch. Teile III und IV sind für alle Gewerke gleich, Teil I/II je Gewerk.
-- **Teil III**: drei Handlungsfelder (Wettbewerbsfähigkeit beurteilen; Gründungs- und Übernahmeaktivitäten;
-  Unternehmensführungsstrategien), **schriftlich, zwei Stunden je Handlungsfeld** (AMVO § 3 Abs. 1) —
-  nicht „von Kammer zu Kammer verschieden".
-- **Bestanden Teil III**: Mittel ≥ 50, kein Handlungsfeld < 30 (AMVO § 3 Abs. 4 Nr. 1); nach der
-  Ergänzungsprüfung höchstens ein Handlungsfeld < 50 (Abs. 4 Nr. 2). Die Ergänzungsprüfung gibt es nur in
-  **einem** von höchstens zwei Feldern mit 30–49 Punkten (Abs. 3), auf Antrag; Gewichtung schriftlich :
-  mündlich = 2 : 1 (MPVerfV § 18 Abs. 2). Nötige mündliche Punktzahl: **150 − 2 × schriftlich**.
-- **Ohne Ausbildungsbetrieb zum Gesellen**: Externenprüfung nach **BBiG § 45 Abs. 2** — nicht HwO § 45
-  Abs. 2 (dort steht der Zweck der Meisterprüfung). Voraussetzung ist Berufstätigkeit von mindestens
-  **dem Eineinhalbfachen der Ausbildungsdauer**, bei drei Jahren also 4,5 Jahre. Zulassung entscheidet die
-  zuständige Stelle, bei Ablehnung der Prüfungsausschuss (BBiG § 46 Abs. 1); für die Meisterprüfung der
-  Vorsitzende, bei Ablehnung der Ausschuss (HwO § 49 Abs. 5).
-- **Meister ohne Gesellenprüfung im eigenen Handwerk**: HwO § 49 Abs. 2 Nr. 1 — andere Gesellen- oder
-  Abschlussprüfung plus mehrjährige Berufstätigkeit, **„nicht mehr als drei Jahre"** (§ 49 Abs. 2 S. 2).
-- **Hilfsmittel wie Tabellenbuch/Formelsammlung** sind **nicht gesetzlich** zugelassen, sondern nach der
-  Prüfungsordnung der zuständigen Stelle (BBiG § 47 Abs. 1); die erlaubten Mittel werden mit der Zulassung
-  mitgeteilt (HWK-GPO § 13 Abs. 3), Benutzung nicht zugelassener Hilfsmittel ist Täuschung (§ 22 Abs. 1).
+- **Externenprüfung** (ohne Ausbildungsbetrieb): **BBiG § 45 Abs. 2** verlangt Berufstätigkeit von
+  mindestens dem **Eineinhalbfachen der Ausbildungsdauer**. Nicht HwO § 45 Abs. 2 zitieren — dort steht
+  der Zweck der Meisterprüfung.
+- **Wer eine Gesellenprüfung in einem anderen Beruf hat**, kann nach HwO § 49 Abs. 2 Nr. 1 zugelassen
+  werden; die zusätzliche Berufstätigkeit darf „nicht mehr als drei Jahre" betragen (§ 49 Abs. 2 S. 2).
 
-**Korrektur einer verbreiteten Fehlangabe:** Die Externenprüfung steht **nicht** in § 45 Abs. 2 HwO
-(dort: Zweck der Meisterprüfung), sondern in **§ 45 Abs. 2 BBiG** („mindestens das Eineinhalbfache der
-Zeit, die als Ausbildungsdauer vorgeschrieben ist"). Wer HwO § 45 Abs. 2 zitiert, zitiert die falsche Norm.
-
-**Ausbildungsdauern (für § 49 Abs. 1 S. 2 HwO relevant):** Elektroniker und Anlagenmechaniker SHK
-**3,5 Jahre** (§ 2 der jeweiligen Ausbildungsverordnung), die sieben Berufe in diesem Dokument sonst
-drei Jahre.
+Prüfungsmodalitäten, Punkteregeln und Hilfsmittel sind für die Arbeit am Bau irrelevant und hier
+bewusst nicht dokumentiert.

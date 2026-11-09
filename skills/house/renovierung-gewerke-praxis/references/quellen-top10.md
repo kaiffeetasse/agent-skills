@@ -15,11 +15,13 @@ Autoren sind Architekten und Ingenieure. **HTTP 200.** Einschränkung: Seiten si
 Textabruf liefert oft nur die Navigation — im Browser vollständig.
 Beispiel: `baunetzwissen.de/bauphysik/fachwissen/waermeschutz/der-u-wert-als-bauphysikalische-kenngroesse-433`
 
-## 2. Selbst ist der Mann — selbst.de
+## 2. Selbst ist der Mann — selbst.de ⚠️ nur noch als Archiv
 
-Die größte deutsche Sammlung **Schritt-für-Schritt-Anleitungen für Heimwerker**: Renovieren, Möbelbau,
-Garten, Werkzeug. Gut für Reihenfolge, Werkzeugliste und Zeitaufwand. **HTTP 200.** Keine Normzitate —
-für „darf ich das" untauglich, für „wie fange ich an" sehr brauchbar.
+**Korrektur vom 09.11.2026:** Die Seite ist als Artikelarchiv **tot**. Jede Artikel-URL antwortet **301**
+und leitet auf `bauer-plus.de/selbst-info` um — dort steht eine Magazin-Landingpage, kein Anleitungsarchiv
+(`curl -skIL` selbst geprüft). Inhalte sind nur noch über **Wayback-Kopien** erreichbar (2023–2026).
+Wer daraus zitiert, nennt die Archivkopie mit Datum. Für neue Recherchen: nicht mehr verwenden,
+stattdessen Nr. 3, 4 und 7.
 
 ## 3. OBI Magazin — obi.de/magazin
 
@@ -31,6 +33,9 @@ Wer daraus zitiert, prüft den Link am Zitiertag und nennt das Datum.
 
 Anleitungen plus Projektpläne und Materiallisten, oft mit Preisbezug. **HTTP 403 für Skripte**
 (Bot-Schutz, „Client Challenge") — im Browser normal nutzbar. Für Automatisierung ungeeignet.
+
+**Messhinweis:** OBI und bau.net beantworten **HEAD** mit 404, auf **GET** aber 200. Ein Linkchecker, der nur
+HEAD prüft, meldet beide als tot — `linkcheck.py` prüft deshalb seit dem 09.11.2026 mit GET nach.
 
 ## 5. Elektropraktiker — elektropraktiker.de
 

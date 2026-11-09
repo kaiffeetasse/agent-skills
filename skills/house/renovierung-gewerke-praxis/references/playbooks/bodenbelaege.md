@@ -63,6 +63,12 @@ Gemessen mit Richtscheit/Alu-Latte, größte Vertiefung zwischen zwei Auflagepun
 
 Das ist **strenger als die Fliesen-Toleranz**. Praktisch: mit 2-m-Latte abfahren, jede Stelle markieren, an der die Latte kippt. Ausgleich mit selbstnivellierender Masse: **1,5–1,8 kg/m² pro Millimeter Schichtdicke** (Baumit 1,8; Knauf 1,6) [Q5][Q6]. 20 m² × 3 mm × Rechenwert 1,7 = **102 kg** — also fünf 20-kg-Säcke plus Reserve. Wer „nur mal kurz drüberspachtelt", kommt mit 2 Säcken nicht hin.
 
+**Gegenwert aus dem Portal:** OBI nennt **„Unebenheiten von mehr als 3 mm pro Längenmeter"** als Grenze, ab der sich
+Laminat verwindet, aufspringt oder an der Nut-Feder-Verbindung bricht ([OBI Laminat verlegen](https://www.obi.de/magazin/bauen/boden/laminat-verlegen)
+(geprüft 09.11.2026)). Das ist **lockerer** als die 2 mm/1 m aus der EPLF-Tabelle und liegt näher an der
+Fliesen-Toleranz. Für die Praxis gilt der strengere Wert: 3 mm schluckt eine Klickware noch, aber die Fuge arbeitet
+und wird mit der Zeit sichtbar. Der Portalwert taugt als „ab hier auf jeden Fall ausgleichen", nicht als Freigabe.
+
 ### 1.3 Altbelag: was draufbleiben darf und was nicht
 
 - **Teppich:** immer raus [Q4].
@@ -87,6 +93,12 @@ Das ist der Punkt, an dem am meisten falsch gemacht wird, weil „mehr" nicht �
 - *Doppelt:* auf altem Linoleum noch eine Folie, oder auf Holzdielen eine Folie → Feuchte sitzt zwischen zwei Sperren, Schimmel im Hohlraum. Genau deshalb steht in der EPLF-Regel: bei Holz **keine** Dampfbremse [Q4].
 
 **Trittschall praktisch:** 2 mm Dämmunterlage bringt typ. 14–18 dB [Q9]; eine 2-mm-Kork/PE-Unterlage ist kein Wärmedämmwunder, sondern Trittschall und Unebenheitsausgleich. Bei Fußbodenheizung zählt der Gesamt-Wärmedurchlasswiderstand des Bodenaufbaus: **≤ 0,15 m²K/W** [Q4]. Beispielwerte: Parador Vinyl 9,4 mm = 0,068; HARO Parkett 13,5 mm = 0,110; Korkfertigparkett 10,5 mm = 0,102 [Q8][Q9][Q10]. Alle drei liegen unter 0,15 — ein 8-mm-Laminat plus 5-mm-Dämmmatte kann dagegen drüberrutschen.
+
+**Die Matte hat eine Oben- und eine Unten-Seite.** Bei zweilagigen Unterlagen gehört die **weiße Textilseite unter
+Vinyl nach oben**, unter Laminat/Parkett dagegen nach unten ([selbst.de „Vinyl-Laminat verlegen", Archivkopie](https://web.archive.org/web/20250618100131/https://www.selbst.de/vinyl-laminat-vinyl-fussboden-verlegen-55677.html)
+(geprüft 09.11.2026)). Falsch herum gedreht verliert die Matte ihren Unebenheitsausgleich, und der dünne Vinylboden
+zeigt jede Kante. Das ist ein **Erfahrungswert des Portals** aus einem verlegten Produkt, keine allgemeine Regel —
+die Packung der Matte sagt, welche Seite nach oben gehört.
 
 ---
 
@@ -117,6 +129,12 @@ Trägerplatte aus HDF, Dekorfolie, Nutzschicht = Melaminharz. Vorteile: billig, 
 
 Wichtig: Laminat ist laut EPLF **nicht** für Bereiche mit häufiger Wasserbenetzung (Bad, Waschraum) spezifiziert — nur mit ausdrücklicher Herstellerfreigabe [Q4]. „Wasserfestes Laminat" heißt: 24 h stehendes Wasser auf der Oberfläche schadet nicht — es heißt nicht, dass die Fugen dicht sind.
 
+**Wie viel „aufquellen" ist:** OBI beziffert die Volumenzunahme der Hartfaser-Trägerplatte bei Wasserkontakt mit
+**30–40 %** ([OBI Laminat verlegen](https://www.obi.de/magazin/bauen/boden/laminat-verlegen) (geprüft 09.11.2026)).
+Damit ist klar, warum eine feuchte Estrichplatte oder ein Wischwasser-Rest in der Fuge nicht „etwas Aufwölbung",
+sondern ein zerstörtes Nut-Feder-Profil bedeutet — die Zahl ist eine Portalangabe, die Größenordnung deckt sich mit
+der EPLF-Aussage zur Feuchteempfindlichkeit [Q4].
+
 ### 2.3 Fertigparkett
 
 3-Schicht-Aufbau: Nutzschicht Eiche 2,5–3,5 mm, Mittellage Fichte, Gegenzug. Aufbauhöhen: HARO Serie 2500 = 12,0 mm / 2,5 mm Nutzschicht, Serie 4000 = 13,5 mm / 3,5 mm; 2-Schicht-Stabparkett 10,0 mm, wird nur verklebt [Q9]. Durch die abgesperrte Bauweise arbeitet es ca. 70 % weniger als Massivholz [Q9]. Wärmedurchlasswiderstand 0,102–0,110 m²K/W → Fußbodenheizung geeignet [Q9].
@@ -130,6 +148,25 @@ Korkfertigparkett 10,5 mm (HDF-Träger + 3 mm Kork + Korkdämmunterlage), Nutzun
 ### 2.5 Linoleum
 
 Rollenware 2,0–2,5 mm, vollflächig zu verkleben, kein Unterlagsmaterial zulässig [Q7]. Natürlicher Rohstoff (Leinöl, Korkmehl, Jute), antibakteriell, sehr strapazierfähig, fußwarm. Für Fußbodenheizung geeignet, **Oberflächentemperatur max. 27 °C**; Heizung 48 h vor und 48 h nach der Verlegung aus, danach langsam hochfahren [Q7]. Raumklima bei Verlegung: Untergrund ≥ 15 °C, Luft ≥ 18 °C, ≤ 26 °C, rF ≤ 75 % [Q7]. Frisch verlegtes Linoleum kann einen „Reifeschleier" (Gelbfilm) haben — verschwindet unter Tageslicht innerhalb von ca. 24 h [Q7]. Nicht abschleifen, nur neu beschichten.
+
+### 2.6 PVC-Bahn (Rolle) — der Unterschied zu Klickvinyl
+
+Rollenware ist kein Klickbelag: sie wird zugeschnitten, ausgelegt und je nach Raumgröße verklebt
+([OBI PVC verlegen](https://www.obi.de/magazin/bauen/boden/pvc-verlegen) (geprüft 09.11.2026)):
+
+- **Zuschnitt mit Überstand:** ringsum **ca. 10 cm** überstehen lassen, Ecken im **45°**-Winkel einschneiden und
+  ebenfalls 10 cm Überstand behalten (ebd.).
+- **Verschnitt 5–10 %** beim Ausmessen zugeben (ebd.).
+- **Kleben:** Bahn zur Hälfte zurückklappen, Kleber mit Bodenroller/Zahnspachtel auf den Untergrund, **ablüften
+  lassen**, zurückklappen und mit der **Andrückwalze** festrollen (ebd.).
+- **Kleinere Räume** dürfen lose verlegt und mit doppelseitigem Klebeband fixiert werden; in größeren Räumen
+  vollflächig verkleben (ebd.).
+- **Rand:** an allen Wänden eine kleine Dehnungsfuge lassen und mit dem Teppichlineal gerade abschneiden (ebd.).
+- **Untergrund:** Altbelag und alte Kleberreste vollständig entfernen, Risse und Unebenheiten spachteln, Masse
+  **vollständig** austrocknen lassen, ggf. Haftgrund (ebd.). Türen für die Verlegezeit aushängen (ebd.).
+
+Das ist der Belag, bei dem „einmal richtig, dann 20 Jahre" gilt: anders als Klickware verzeiht er keinen
+Untergrundfehler, weil jede Kante im Gegenlicht sichtbar bleibt (§2.1).
 
 ---
 
@@ -146,6 +183,12 @@ Rollenware 2,0–2,5 mm, vollflächig zu verkleben, kein Unterlagsmaterial zulä
 ### 3.2 Dehnungsfugen — die Zahlen
 
 - **Randfuge: 8–12 mm** zu allen Wänden, Türzargen, Pfeilern, Rohren, festen Einbauten [Q4]. Die meisten Hersteller nennen 10 mm [Q17][Q19].
+- **Die Portalangaben weichen ab und stehen deshalb daneben:** OBI nennt für Laminat **10–15 mm** in der Anleitung
+  und **10–20 mm** in den FAQ derselben Seite ([OBI Laminat verlegen](https://www.obi.de/magazin/bauen/boden/laminat-verlegen)
+  (geprüft 09.11.2026)), selbst.de für **Klick-Vinyl mindestens 5 mm** ([selbst.de „Vinyl-Laminat verlegen", Archivkopie](https://web.archive.org/web/20250618100131/https://www.selbst.de/vinyl-laminat-vinyl-fussboden-verlegen-55677.html)
+  (geprüft 09.11.2026)). Drei Werte, drei Beläge, kein Widerspruch in der Sache — aber auch keine gemeinsame Zahl:
+  EPLF (8–12 mm) ist der Verbandswert für Laminat, OBI liegt darüber, Vinyl braucht weniger, weil es sich über
+  Wärme und nicht über Feuchte ausdehnt (ebd.). Nicht mitteln; den Wert des Belagherstellers nehmen.
 - **Zusätzliche Feld-Fuge** bei Flächen > 8 m in Verlegerichtung bzw. > 12 m in Dielenlängsrichtung, in jedem Türdurchgang, bei versetzten Räumen und entlang von Fugen im Untergrund [Q4].
 - **Warum 8 m?** Laminat dehnt sich ca. 2 mm pro Meter; bei 8 m sind das 16 mm — die 10-mm-Randfuge ist dann rechnerisch aufgebraucht [Q20].
 - **Türdurchgang ist immer eine Fuge**, auch wenn derselbe Belag weiterläuft. Wer „durchlegt", bekommt eine Wölbung mitten im Durchgang [Q20][Q21].
@@ -171,6 +214,34 @@ Wenn das Blatt doch muss:
 - Röhrenspantür: **max. 50 mm** kürzen, danach Vollholzleiste in den Hohlraum einleimen [Q23].
 - **Nicht** kürzen: Türen mit absenkbarer Bodendichtung (Mechanik sitzt unten), Brandschutz-/Rauchschutz-/Schallschutztüren (Zulassung erlischt) [Q23].
 - Schnittlinie abkleben, mit Führungsschiene sägen, Kante versiegeln [Q23].
+
+---
+
+### 3.5 Parkett kleben — die Zahlen, die den Unterschied machen
+
+Vollflächig verklebtes Parkett arbeitet praktisch nicht und überträgt Wärme direkter (Fußbodenheizung), verlangt
+aber einen planen, sauberen Untergrund und Disziplin beim Kleber ([selbst.de „Parkett verlegen", Archivkopie](https://web.archive.org/web/20250815061416/https://www.selbst.de/anleitung-parkett-verlegen-47328.html)
+(geprüft 09.11.2026)):
+
+| Punkt | Wert |
+|---|---|
+| Kleber auftragen | nur so viel, wie in **30 min** belegt werden kann (offene Zeit) |
+| Zahnspachtel | **B15** für Parkettkleber |
+| Dehnungsfuge zur Wand | **10 mm**, mit Keilen gesichert |
+| Dielenversatz | **mindestens 30 cm** |
+| Mindestgröße der Dielen | nicht kürzer als **30 cm**, nicht schmaler als **5 cm** |
+| Federseite | zur Wand, damit die nächste Reihe schräg eingeschwenkt werden kann |
+| Anpressdruck | verlegte Dielen beschweren, solange der Kleber offen ist |
+| Akklimatisierung | **48 h** geschlossen, liegend, im Verlegraum |
+
+Praktisch heißt das: Kleber abschnittsweise mit dem Zahnspachtel abziehen, Dielen einschwenken, **kein Kleber in
+Nut und Feder**, Klebstoff auf der Diele sofort mit Tuch und Spiritus abwischen (ebd.). Wer den Kleber zu großzügig
+über die Fläche zieht, verliert die offene Zeit und bekommt Hohlstellen — die Stelle lässt sich später nur durch
+Aufnehmen der Dielen korrigieren.
+
+**Schwimmend oder kleben?** Verklebt wird bei Fußbodenheizung, großen zusammenhängenden Flächen und wenn der Boden
+nicht mehr aufgenommen werden soll; schwimmend bleibt die Rückbau-Option (ebd.). Die Verlegeschritte sind bis auf
+Kleber und Trittschallmatte identisch (ebd.).
 
 ---
 
@@ -232,7 +303,7 @@ Quellen: Preisübersicht 2026 [Q24], DIY-Beispielrechnung 25 m² mit 90 € Masc
 
 6. **Klickverbindung mit Gewalt.** Dielen schräg ansetzen, absenken, einrasten — so beschreiben es HARO und Parador [Q17][Q33]. Mit Hammer und Schlagholz wird nur über einem Schlagklotz gearbeitet, nie direkt auf der Kante. Wer die Feder bricht, merkt es erst beim nächsten Reihenwechsel; die Stelle lässt sich nicht mehr spannungsfrei schließen. Zum Gegenchecken: planeo-Video „Die 10 häufigsten Fehler beim Vinylboden verlegen" [Q27].
 
-7. **Heizungsrohre „überbaut".** Rohre sind feste Bauteile — der Belag braucht auch dort Dehnungsfuge. Richtig: Loch 10 mm größer als das Rohr, Ausschnitt schräg zur Wand, eingesetztes Stück wieder einleimen, Rosette drüber [Q19]. Kein Ausschneiden „auf Stoß" und kein Zuschmieren mit Acryl.
+7. **Heizungsrohre „überbaut".** Rohre sind feste Bauteile — der Belag braucht auch dort Dehnungsfuge. Richtig: Loch 10 mm größer als das Rohr, Ausschnitt schräg zur Wand, eingesetztes Stück wieder einleimen, Rosette drüber [Q19]. Kein Ausschneiden „auf Stoß" und kein Zuschmieren mit Acryl. **Die Zugabe ist in den Quellen unterschiedlich:** +10 mm (toom, oben) gegenüber **Rohrdurchmesser + 20 mm** ([OBI Laminat verlegen](https://www.obi.de/magazin/bauen/boden/laminat-verlegen) (geprüft 09.11.2026)). Beide Werte stehen nebeneinander, weil sie dieselbe Funktion haben — Luft für die Bewegung; 20 mm ist die bequemere Bohrung, 10 mm reicht bei sauberer Rosette. Wer 0 mm nimmt, bekommt eine Zwangsfuge und eine Wölbung.
 
 8. **Unebener Untergrund nicht ausgeglichen.** Klebevinyl zeigt jede Kante im Gegenlicht; ein dokumentierter Fall: Fliesenestrich geschliffen und „an erforderlichen Stellen" nachgespachtelt, Ergebnis wellig, Streit über Toleranzen [Q13]. Toleranz Klick: 2 mm/1 m, 3 mm/2 m [Q4].
 
@@ -368,6 +439,16 @@ Quellen: Handwerksratgeber [Q29], Bodenbelag-Preise Deutschland [Q11], Parkett-S
 - [Q34] wolfcraft, „Laminat richtig verlegen — Anleitung Schritt für Schritt": https://www.youtube.com/watch?v=HZOyEJXO25U
 - [Q35] OBI HowTo, „Parkett abschleifen und versiegeln": https://www.youtube.com/watch?v=WwNxc-KvcWs
 - [Q36] BAUHAUS, „Parkett schleifen — so geht's richtig": https://www.youtube.com/watch?v=_gehc-RNTJo
+
+**Heimwerker-Portale (OBI Magazin, selbst.de)**
+- [Q37] OBI, „Laminat verlegen – Schritt für Schritt" (10–15/10–20 mm Randfuge, 3 mm/Lfm, Quellung 30–40 %, Rohrloch +20 mm, 48 h bei 18 °C/50–70 % rF, 20 m² ≈ 1 Tag): https://www.obi.de/magazin/bauen/boden/laminat-verlegen — **200** (GET; HEAD 404)
+- [Q38] OBI, „PVC verlegen" (10 cm Überstand, 45°-Ecken, 5–10 % Verschnitt, Kleber ablüften, Andrückwalze, lose nur im kleinen Raum): https://www.obi.de/magazin/bauen/boden/pvc-verlegen — **200**
+- [Q39] selbst.de, „Anleitung: Parkett verlegen" (Kleber 30 min offen, Zahnspachtel B15, 10 mm Fuge, 30 cm Versatz, Dielen ≥30/≥5 cm, 48 h): https://web.archive.org/web/20250815061416/https://www.selbst.de/anleitung-parkett-verlegen-47328.html — **200** (Archivkopie 15.08.2025)
+- [Q40] selbst.de, „Vinyl-Laminat verlegen" (5 mm Randfuge, 4,2 mm Aufbau, Matte weiße Seite nach oben, 30 cm Reststück, 3 Pakete mischen): https://web.archive.org/web/20250618100131/https://www.selbst.de/vinyl-laminat-vinyl-fussboden-verlegen-55677.html — **200** (Archivkopie 18.06.2025)
+
+**Abrufvermerk selbst.de (09.11.2026):** Die Live-URLs antworten mit **301** auf `bauer-plus.de/selbst-entdecken`
+und **302** auf eine Magazin-Landingpage; selbst.de existiert als Artikelarchiv nicht mehr. Zitiert sind
+Wayback-Kopien (Status 200, Datum je Eintrag) — belegt, aber nicht am Original nachprüfbar.
 
 ---
 

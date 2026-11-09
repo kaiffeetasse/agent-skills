@@ -94,6 +94,10 @@ CM-Messung nach TKB-Merkblatt 16:[1]
 
 Dicken über **80 mm** unterliegen betontechnologischen Grundsätzen und sind nach EC 2 als Betonplatte zu bemessen – dann wird es ein Statikthema, kein Estrichthema.[4]
 
+**Die im Video genannte „gute Estrichdicke 5–7 cm" ist keine Estrichdicke, sondern der Gesamtaufbau** — 45 mm Heizestrich über Rohr plus 16–20 mm Rohrebene ergibt 6,1–6,5 cm. Die **Nenndicke des Estrichs** steht in der Tabelle darüber (40/45 mm) und wird davon nicht berührt. Zu dick trocknet monatelang, zu dünn reißt. Vor dem Belag zählt trotzdem nur die **CM-Messung**, nicht „28 Tage rum" (wnWCWCQfkvg 00:03:08).
+
+**Im Angebot ausschreiben:** Wärmeleitfähigkeit (λ) und **Dämmdicke** der Dämmung plus **Güteklasse/Nennfestigkeit** des Estrichs — sonst ist nach dem Einbau nicht prüfbar, was verbaut wurde (wnWCWCQfkvg-02).
+
 **Rechenbeispiel Höhenverlust:** Zementestrich schwimmend 45 mm + 30 mm Trittschalldämmung = **75 mm** Aufbau. Gegenüber dem alten Boden (z. B. 20 mm Parkett auf Lagerhölzern) sind das 55 mm, die irgendwo hin müssen.
 
 ### 2.2 Trockenestrich: die Sparvariante bei der Höhe
@@ -107,6 +111,30 @@ Dicken über **80 mm** unterliegen betontechnologischen Grundsätzen und sind na
 | Brio 23 WF (23 + 10 mm Holzfaser) | 33 mm | 31,1 kg/m² | [6] |
 
 **Untergrenze des Systems:** mindestens **10 mm Ausgleichsschüttung + 18 mm Element = 28 mm** (eigene Rechnung aus [25] und [6]). Damit sparst du gegenüber 75 mm Nassaufbau rund **45 mm** – das ist der Unterschied zwischen „Türblatt kürzen“ und „Türblatt ersetzen“.
+
+**Wenn Großformat darauf soll, ändert sich der Aufbau — nicht nur der Kleber.** Ein normaler Trockenestrich ist nicht „formstabil genug“ für 120 × 120; die Systemanbieter lösen das mit einer dritten Lage und einem abgestimmten Kleber:
+
+| Baustein | Wert / Bedingung |
+|---|---|
+| Aufbau für Großformat | 30 mm Estrichelement (Holzfaserkaschierung) **+ 10 mm Gipsfaserplatte** als dritte Lage, verklebt **und** verschraubt/verklammert |
+| Flächengewicht | **knapp 37 kg/m²** — ein 50-mm-Zementestrich liegt bei **~110 kg/m²**, also gut **70 kg/m²** mehr |
+| Rohdecke | Massiv- oder Brettstapeldecke ideal; bei Holzbalkendecke Durchbiegung der Balken **und** der tragenden Beplankung **≤ L/500** |
+| Niveauausgleich | ausschließlich **gebundene** Produkte; Nivelliermasse bis **20 mm** (selbst verlaufend, ab **1 mm** Schichtdicke stuhlrollenfest), gebundene Schüttung bis **2000 mm** Schütthöhe |
+| Schüttung | Trockenrohdichte **350 kg/m³** (Ausgleichsschüttung **400 kg/m³**), Baustoffklasse **A2** nach DIN 4102, begehbar nach **6 h**, belegreif nach **24 h** |
+| Verlegung der Elemente | zwei werkseitig verklebte Platten mit **50 mm Versatz** (Stufenfalz), schleppender Verband, Fugenversatz **≥ 20 cm** |
+| Dehnungsfugen (unbeheizt) | Felder **max. 64 m²**, Kantenlänge **max. 8 m** — Details nach **ZDB-Merkblatt Bewegungsfugen** |
+
+**Formatgrenzen des Systems** (damit du weißt, wann der Trockenestrich aussteigt):
+
+| Nutzung | Grenze |
+|---|---|
+| Anwendungsbereich 1 (Wohnräume, Hotelzimmer inkl. Bad, Einzellast **1,0 kN**, Nutzlast **1,5 (2,0) kN/m²**) | keine Formatbeschränkung, Fliesendicke **> 9 mm** |
+| Anwendungsbereich 2 (Büroflächen, Praxen; **2,0 kN** Einzellast, **2,0 kN/m²** Nutzlast) | Kantenlänge **≤ 1200 mm** |
+| Naturstein auf demselben Aufbau | **> 15 mm** Dicke → **≤ 800 mm**; **> 20 mm** → **≤ 1200 mm** |
+
+Quelle: [Bauhandwerk – Trockenestrich-Elemente für großformatige Fliesen](https://www.bauhandwerk.de/artikel/bhw_2017-12_trockenestrich_elemente_fuer_grossformatige_fliesen-3060738.html) (geprüft 09.11.2026), BHW 12/2017; zweite Fundstelle mit denselben Zahlen: [Bauhandwerk – Große Formate auf Trockenestrich](https://www.bauhandwerk.de/artikel/bhw_Grosse_Formate_auf_Trockenestrich-2644000.html) (geprüft 09.11.2026). **Einordnung:** Das sind Systemangaben eines Herstellers für seinen Aufbau — kein allgemeiner Freibrief. Wer 120 × 120 auf 2 E 11 ohne dritte Lage legt, hat keine Systemfreigabe; die Verlegeseite steht in `fliesen.md` §3.6.
+
+**Auf der Holzbalkendecke ist die Schüttung der Schallhebel** — und sie hat harte Grenzen: Ausgleichsschüttung (mineralisches Porenbetongranulat) darf **minimal 10 mm**, **maximal 100 mm** hoch liegen; darunter kein Niveauausgleich, darüber wird es eine andere Konstruktion. Für die schalltechnische Ertüchtigung von Holzbalkendecken gibt es Wabensysteme in **30 oder 60 mm** Höhe, die mit Schüttung verfüllt werden. Der gebundene Schüttungsbinder (mit Zement angemischt, pumpfähig) läuft von **10 bis 200 mm**, ist **A1** nichtbrennbar und erreicht je Konstruktion **F120**; begehbar nach **12 h**, belegreif nach **24 h**. Auf Holzbalkendecken gehört zuerst ein **diffusionsoffener Rieselschutz** auf die Schalung. Quelle: [Bauhandwerk – Ausgleichsschüttungen](https://bauhandwerk.de/artikel/ausgleichsschuettungen-ermoeglichen-wirtschaftliche-konstruktionen-zum-schall-brand-und-waermeschutz-4138273.html) (geprüft 09.11.2026).
 
 ### 2.3 Ausgleichsmasse als „dünne“ Lösung
 
@@ -125,6 +153,8 @@ Dicken über **80 mm** unterliegen betontechnologischen Grundsätzen und sind na
 - Übliche Bodenluft (Spalt Unterkante Tür – Oberkante Fertigfußboden): **5–7 mm**, zulässig 1–12 mm.[30]
 - Preiswerte Fertigtüren mit Verbundeinlage haben unten nur **einen** Rahmen – Kürzbarkeit reduziert sich dadurch deutlich.[30]
 - Höhenversatz zu angrenzenden Bauteilen: bei Abnahme **max. 1,5 mm** nach oben oder unten; darüber brauchst du eine Schwelle oder ein Übergangsprofil.[2]
+- **Aufbauhöhe in mm vorher rechnen:** Ausgleichsmasse + Parkettdicke + Türzarge/Türblatt ergeben sonst ein gekürztes Türblatt (k3q49IW19KU-02).
+- **Massivholztüren** können aufgearbeitet statt ersetzt werden — Kalkulation prüfen, bevor neue Türen bestellt werden (k3q49IW19KU-04).
 
 **Praxisrechnung:** 55 mm zusätzlicher Aufbau, 15 mm Kürzungsreserve → 40 mm fehlen. Lösung in dieser Reihenfolge: (a) Aufbau auf Trockenestrich 28 mm reduzieren, (b) Türblatt mit Vollspaneinlage nehmen (30 mm), (c) Türblatt neu, (d) Schwelle.
 
@@ -186,7 +216,7 @@ Wasser im Bau: Ein Einfamilienhaus mit 150 m² trägt über einen Nassestrich **
 - **Scheinfugen** (Sollbruchstellen) zwingend bei Zementestrich an: Türdurchgängen, einspringenden Ecken, Durchdringungen (Bodeneinläufe), umlaufend an Stützen, zur Teilung großer Flächen.[13]
 - **Feldgrößen** nach ZDB-Merkblatt: Zementestrich unbeheizt **8 m / 60 m²**, beheizt **6,5 m / 40 m²**; Calciumsulfatestrich unbeheizt **20 m / 100 m²**, beheizt **10 m / 100 m²**.[5]
 - **Bewegungs- und Randfugen** gehen über den **gesamten Querschnitt** und dürfen keine Mörtel- oder Kleberreste enthalten.[13]
-- Fugenplan ist Sache des Planers und gehört in die Leistungsbeschreibung; die Profile werden **vor** dem Estrichbau gesetzt.[5][18]
+- Fugenplan ist Sache des Planers und gehört in die Leistungsbeschreibung; die Profile werden **vor** dem Estrichbau gesetzt.[5][18] Die **Fugenplanung gehört schriftlich vor den Einbau**: Fugen **nach Estrichbedarf** (Feldgröße, Türdurchgänge) und passend zum späteren Bodenbelag — nicht willkürlich im Raum (wnWCWCQfkvg-06).
 
 **Fußbodenheizung**
 - Belegreifheizen frühestens **21 Tage** nach Ende der Estricharbeiten (Schnellestrich: 2–4 Tage): **3 Tage 25 °C**, dann **4 Tage max. Auslegungs-Vorlauftemperatur (i. d. R. 45 °C)**.[11]
@@ -218,7 +248,15 @@ Zementestrich ist nach **3 Tagen begehbar**, nach **7 Tagen** für höhere Laste
 
 Quelle: [1]. Dieselben Werte bestätigen Baumit [11], Schönox [10] und TKB 8 [2].
 
+**Anhydritestrich (Calciumsulfat)** braucht andere CM-Grenzwerte als Zement und ist empfindlicher gegen Feuchte (wnWCWCQfkvg-03).
+
 **Wichtig für Parkett:** Wer die Probe aus dem Querschnitt zieht, muss **1,8 %** einhalten, nicht 2,0 %.[1] Diese 0,2 Prozentpunkte entscheiden mit darüber, ob der Boden liegt oder sich Wochen später aufwölbt.[12]
+
+> **Offener Widerspruch bei Calciumsulfat — nebeneinander gestellt, nicht gemittelt.** Das TKB-Merkblatt 16 (12/2024) nennt für **beheizten CAF ≤ 0,3 %** (Tabelle oben). Die **DIN 18560-1** sagt nach Lesart von VDPM, Industrie und Sachverständigen: **beheizte und unbeheizte CAF sind ab ≤ 0,5 CM-% belegreif.** Beides steht gleichzeitig im Raum, und die Differenz ist keine Formalie: 0,5 statt 0,3 kann auf der Baustelle **Wochen** Trocknungszeit bedeuten.
+>
+> Die Faktenlage dahinter, damit du entscheiden kannst: Der Wert **0,3 %** wurde **1995** für beheizte CAF von 0,5 auf 0,3 verschärft — nach Darstellung von Lanxess „ohne jegliche wissenschaftliche Untersuchung". In **Österreich** gilt seit der „Planungs- und Ausführungsrichtlinie Fließestriche" (5. Aufl. 2017) **0,5 %** für beheizt und unbeheizt, in der **Schweiz** waren es 0,8 (unbeheizt) / 0,5 (beheizt), in **Frankreich** 0,5 bis 1 % (gesetzlich). Der **ZVPF** als Hauptkritiker wurde 2016/2018 aufgefordert, Schäden vorzulegen, die ursächlich auf 0,5 CM-% zurückgehen — bis Redaktionsschluss des Beitrags **kein dokumentierter Fall**. Umgekehrt nennt dieselbe Quelle für **Zementestrich** einen DIN-Belegreifwert von **1,8 CM-%** — also deutlich feuchter als das, was beim CAF diskutiert wird.
+>
+> **Was du daraus machst:** Für die Abnahme zählt, was **schriftlich** vereinbart ist. Lass dir die Freigabe des **Belagherstellers** für deinen CAF bei 0,5 % geben (viele erteilen sie), oder halte 0,3 % ein und plane die Zeit. Quelle: [Bauhandwerk – Restfeuchtegehalt ≤ 0,5 CM-% bei CAF](https://bauhandwerk.de/artikel/bhw_2018-06_Restfeuchtegehalt_0_5_CM-_bei_CAF_ist_marktgerecht_und_sicher-3171416.html) (geprüft 09.11.2026), BHW 2018-06.
 
 ### 4.3 Zeit bis zur Belegreife – belegte Zahlen
 
@@ -241,6 +279,8 @@ Wirksam: geschlossener Baukörper, Innentemperatur im zulässigen Bereich, Luftb
 Unwirksam bis schädlich: Direktheizer, die selbst Wasser in den Bau tragen.[12]
 Klima während der Trocknung: **18–25 °C**, **40–65 % r. F.**, Zugluft vermeiden, keine direkte Sonneneinstrahlung.[2]
 Praxis-Trick aus dem Video: **nur eine Raumseite** lüften (Fenster gekippt), 15–30 min, dann schließen, morgens und abends – zwei gegenüberliegende offene Fenster erzeugen Zugluft und Risse.[16][17]
+
+Dahinter steht ein doppeltes Risiko: **zu hohe Luftfeuchtigkeit → Schimmelgefahr**, **zu schnelle Trocknung → Spannungen und Risse**. Fenster deshalb nicht weit öffnen, Zugluft vermeiden (wnWCWCQfkvg-05).
 
 ### 4.5 Wenn nicht gemessen werden kann
 
@@ -287,6 +327,8 @@ Grundierung ist keine Kür: Sie stellt die **gleichmäßige Saugfähigkeit** ein
 3. **Nass in nass arbeiten.** Wer in Etappen gießt, ohne „wet edge“, bekommt Stufen zwischen den Güssen.[20]
 4. **Randfuge frei halten.** Bei höheren Schichtdicken darf keine Verbindung zu aufgehenden Bauteilen entstehen; der Randstreifen darf nicht mit eingespachtelt werden.[10][2]
 
+**Elementfugen vor dem Vergießen abdichten:** Bei **Betonfertigteilen** (z. B. 1970er) läuft die Ausgleichsmasse sonst durch die **Elementfuge** in die darunterliegende Wohnung (k3q49IW19KU-03).
+
 ---
 
 ## 6. Die acht Fehler, die am meisten Geld kosten
@@ -297,7 +339,7 @@ Grundierung ist keine Kür: Sie stellt die **gleichmäßige Saugfähigkeit** ein
 
 ### Fehler 2 – belegt nach Kalender statt nach Messung
 **Folge:** Restfeuchte wandert in den Belag; Ablösung, Verfärbung, Aufwölbung – Wochen später.[12]
-**Beleg:** „Ein Datum für die Belegreife lässt sich nicht aus dem Einbautag ableiten.“[12] Video: Der zweithäufigste Fehler sei, den Belag zu verlegen, bevor der Estrich trocken ist (Video 2:15–2:21).[17]
+**Beleg:** „Ein Datum für die Belegreife lässt sich nicht aus dem Einbautag ableiten.“[12] Video: Der zweithäufigste Fehler sei, den Belag zu verlegen, bevor der Estrich trocken ist (Video 2:15–2:21).[17] Deshalb **CM-Messung vor dem Belagseinbau** einplanen — nicht nur „28 Tage um" (wnWCWCQfkvg-04).
 
 ### Fehler 3 – nur die Oberfläche gemessen
 **Folge:** Oberfläche trocken, Kern nass – perfekte Bedingungen für Schimmel unter dem Belag.
@@ -317,7 +359,7 @@ Grundierung ist keine Kür: Sie stellt die **gleichmäßige Saugfähigkeit** ein
 
 ### Fehler 7 – Dämmung gespart oder falsch dimensioniert
 **Folge:** zu dicker Estrich, jahrelange Trocknung, hohe Heizkosten, keine Trittschalldämmung.
-**Beleg:** Video: Anbieter ließ Wärme- und Trittschalldämmung weg und legte 15 cm Estrich – der sei nach einem Jahr noch nicht durchgetrocknet (Video 0:47–1:00).[16] Dämmung c ≤ 5 bzw. 3 mm, festere Lage oben.[5] Falsche Dämmung, die sich unter dem Gewicht verformt, steht in der Fehlerliste von sanier.de an dritter Stelle.[27]
+**Beleg:** Video: Anbieter ließ Wärme- und Trittschalldämmung weg und legte 15 cm Estrich – der sei nach einem Jahr noch nicht durchgetrocknet (Video 0:47–1:00).[16] Dämmung c ≤ 5 bzw. 3 mm, festere Lage oben.[5] Falsche Dämmung, die sich unter dem Gewicht verformt, steht in der Fehlerliste von sanier.de an dritter Stelle.[27] **Ohne Dämmung Trocknungszeit > 1 Jahr** — und energetisch ist der Aufbau dann sinnlos, die Heizkosten steigen dauerhaft (wnWCWCQfkvg-01).
 
 ### Fehler 8 – kein Gefälle im Bad bzw. Gefälle im falschen System
 **Folge:** Wasser läuft nicht ab, steht vor der Tür, Abdichtung wird dauerbelastet.
@@ -424,6 +466,10 @@ Die Spannweite ist kein Fehler der Quellen, sondern Region, Auslastung und Aufba
 30. JELD-WEN: „Kürzbarkeit von Türen“, Register A5-5, Stand 06/2013 — https://www.jeld-wen.biz/pages/file.ashx?p=/media/1119675/K_A5-5_JW_DE.pdf
 31. emax-haustechnik: „Gefälle in der Dusche: Fakten & Wissen“, 28.02.2022 — https://emax-haustechnik.de/magazin/gefaelle-in-der-dusche
 32. Staenis: „Wird in Estrich ein Bewehrungsnetz oder Estrichnetz benötigt?“, 27.05.2021 — https://www.staenis.com/de-DE/Blog/ReinforcementMesh
+33. Bauhandwerk: „Trockenestrich-Elemente für großformatige Fliesen“ (BHW 12/2017), geprüft 09.11.2026 — https://www.bauhandwerk.de/artikel/bhw_2017-12_trockenestrich_elemente_fuer_grossformatige_fliesen-3060738.html — 37 kg/m² vs. 110 kg/m², L/500, Nivelliermasse ≤ 20 mm, Schüttung ≤ 2000 mm/350 kg/m³/A2, 6 h/24 h, 64 m²/8 m, Formatgrenzen AB1/AB2.
+34. Bauhandwerk: „Große Formate auf Trockenestrich“ (Fermacell/Sopro), geprüft 09.11.2026 — https://www.bauhandwerk.de/artikel/bhw_Grosse_Formate_auf_Trockenestrich-2644000.html — zweite Fundstelle derselben Systemzahlen (37 vs. 110 kg/m², Naturstein > 15 /> 20 mm).
+35. Bauhandwerk: „Ausgleichsschüttungen ermöglichen wirtschaftliche Konstruktionen zum Schall-, Brand- und Wärmeschutz“, geprüft 09.11.2026 — https://bauhandwerk.de/artikel/ausgleichsschuettungen-ermoeglichen-wirtschaftliche-konstruktionen-zum-schall-brand-und-waermeschutz-4138273.html — Ausgleichsschüttung min. **10 mm**, max. **100 mm**; Waben 30/60 mm; Schüttungsbinder 10–200 mm, A1, **F120**, 12 h begehbar / 24 h belegreif; Holzbalkendecke: diffusionsoffener Rieselschutz.
+36. Bauhandwerk: „Restfeuchtegehalt ≤ 0,5 CM-% bei CAF ist marktgerecht und sicher“ (BHW 2018-06), geprüft 09.11.2026 — https://bauhandwerk.de/artikel/bhw_2018-06_Restfeuchtegehalt_0_5_CM-_bei_CAF_ist_marktgerecht_und_sicher-3171416.html — DIN 18560-1: CAF beheizt/unbeheizt **≤ 0,5 CM-%** belegreif; Verschärfung auf 0,3 % 1995; AT 0,5, CH 0,8/0,5, FR 0,5–1 %; ZVPF-Schadensliste leer; Zementestrich 1,8 CM-%.
 
 ---
 
@@ -440,32 +486,4 @@ Diese Punkte sind offen oder ausdrücklich als Erfahrungswert gekennzeichnet, we
 - **Kürzung von Türblättern unter 15 mm bei Verbundeinlage** – Hersteller kontaktieren, keine allgemeine Regel.[30]
 - **Flächengrenze für Trockenestrich in Eigenleistung** (hier als Erfahrungswert „bis ca. 20 m²“ genannt) – kein Beleg gefunden; die Anleitungen nennen nur Zeitaufwand, keine Obergrenze.[29][25]
 - **CM-% versus US-Messwerte** – die Zahlen aus [19] sind nicht in CM-% umrechenbar; unterschiedliche Verfahren, keine Umrechnung behauptet.
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Massivholztüren** können aufgearbeitet statt ersetzt werden — Kalkulation prüfen, bevor neue Türen bestellt werden (k3q49IW19KU-04).
-- **Ohne Dämmung Trocknungszeit > 1 Jahr** — und energetisch ist der Aufbau dann sinnlos (wnWCWCQfkvg-01).
-- **Anhydritestrich (Calciumsulfat)** braucht andere CM-Grenzwerte als Zement und ist empfindlicher gegen Feuchte (wnWCWCQfkvg-03).
-- **Zu hohe Luftfeuchtigkeit → Schimmelgefahr**, zu schnelle Trocknung → Spannungen und Risse; Fenster nicht weit öffnen, Zugluft vermeiden (wnWCWCQfkvg-05).
-
-## Ergänzungen aus dem Video-Katalog
-
-- **Gute Estrichdicke 5–7 cm** als brauchbares Band (zu dick trocknet monatelang, zu dünn reißt); vor dem Belag **CM-Messung**, nicht „28 Tage rum"
-  (wnWCWCQfkvg 00:03:08).
-- **Wasserhärte messen**, bevor die Enthärtungsanlage aus dem Budget gestrichen wird: hoher Kalkgehalt
-  rächt sich als ständiges Trockenwischen und macht die Nachrüstung teurer (sWXyiNADbFk-09).
-- **Aufbauhöhe in mm vorher rechnen**: Ausgleichsmasse + Parkettdicke + Türzarge/Türblatt ergeben sonst
-  ein gekürztes Türblatt (k3q49IW19KU-02).
-### Weitere Video-Fehler (Estrich)
-
-- **Elementfugen vor dem Vergießen abdichten**: Bei **Betonfertigteilen** (z. B. 1970er) läuft die
-  Ausgleichsmasse sonst durch die **Elementfuge** in die darunterliegende Wohnung (k3q49IW19KU-03).
-- **Ohne Dämmung dauert die Trocknung über ein Jahr** — und energetisch ist der Aufbau dann sinnlos, die
-  Heizkosten steigen dauerhaft (wnWCWCQfkvg-01).
-- **Angebot muss den Aufbau ausschreiben**: Wärmeleitfähigkeit (λ) und **Dämmdicke** der Dämmung, plus
-  **Güteklasse/Nennfestigkeit** des Estrichs — sonst ist nach dem Einbau nicht prüfbar, was verbaut wurde
-  (wnWCWCQfkvg-02).
-- **CM-Messung vor dem Belagseinbau** (nicht nur „28 Tage um"), sonst wird auf Restfeuchte belegt
-  (wnWCWCQfkvg-04).
-- **Fugenplanung vor dem Einbau, schriftlich**: Fugen **nach Estrichbedarf** (Feldgröße, Türdurchgänge)
-  und passend zum späteren Bodenbelag — nicht willkürlich im Raum (wnWCWCQfkvg-06).
+- **Wasserhärte messen, bevor die Enthärtungsanlage aus dem Budget gestrichen wird** (sWXyiNADbFk-09) — gehört inhaltlich nicht zum Estrich, sondern zur Trinkwasser-/Enthärtungsplanung; hier abgelegt, damit der Punkt nicht verloren geht: hoher Kalkgehalt rächt sich als ständiges Trockenwischen und macht die Nachrüstung teurer.

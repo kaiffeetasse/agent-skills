@@ -73,6 +73,8 @@ Daraus ergibt sich (gerechnet, n = 1,3, Raum 20 °C):
 
 **Konsequenz:** Ein Heizkörper, der bei 75/65 „passt", liefert bei 55/45 nur die Hälfte. Wer für eine Wärmepumpe tauscht und „die gleiche Größe" wieder einbaut, hat Geld ausgegeben und nichts gewonnen. Der BWP empfiehlt, die Vorlauftemperatur auf **maximal 50 °C** zu begrenzen und dafür zu prüfen, ob die vorhandenen Radiatoren die Räume noch versorgen — oft reicht es, **nur einzelne** Radiatoren zu vergrößern `[Q10]`.
 
+**Gleiche Mitteltemperatur ist nicht gleiche Auslegung:** 60/45 ergibt eine mittlere Heizflächentemperatur von **52,5 °C** (Δ 32,5 K zu 20 °C Raum). 55/50 mit nur **5 K** Spreizung ergibt dieselben 52,5 °C — aber einen deutlich höheren Massenstrom. Wer nur die Spreizung verkleinert und die Ventile nicht prüft, bekommt Strömungsgeräusche und Unterversorgung; vorhandene Ventile sind für den höheren Durchsatz oft nicht ausgelegt (Beispiel: Ventileinsatz für **80–220 kg/h**). Die Heizlastrechnung und der Abgleich kommen vor der Temperaturoptimierung ([IKZ, „Wärmepumpen im Bestand nachrüsten“](https://www.ikz.de/detail/news/detail/waermepumpen-im-bestand-nachruesten-eine-gute-anlagenhydraulik-als-basis-fuer-effizienz), 28.10.2025, geprüft 09.11.2026, HTTP 200).
+
 **Was du wirklich brauchst:** eine **raumweise Heizlastberechnung nach DIN EN 12831**, nicht die Quadratmeter-Faustformel. Im Fachforum ist der Satz dazu eindeutig: „Heizlastberechnung machen! Alles andere kommt nur von der Glaskugel" `[Q28]`. Die Heizlast kannst du von einem Energieberater rechnen lassen (Erfahrungswert: ~100–300 €) — das ist billiger als ein falsch gekaufter Heizkörper und die Grundlage für jeden Förderantrag.
 
 **Typen (Plattenheizkörper):** Die Zahl bezeichnet **Platten + Konvektorlamellen**: Typ 22 = 2 Platten, 2 Lamellen; Typ 33 = 3 Platten, 3 Lamellen `[Q38]`. Bei gleicher Baulänge und -höhe liefert Typ 33 mehr Leistung als Typ 22, ist aber tiefer (mehr Wandabstand, mehr Staubfläche). Im Zweifel: **größerer Typ statt höherer Vorlauf** `[Q28]`.
@@ -142,6 +144,8 @@ Was du wissen musst:
 - **Alte Handventile vs. Thermostat:** Der Energiesparkommissar zeigt den Unterschied im Schnittmodell: Handventil = „Ventil auf, mehr Wärme, Ventil zu, keine Wärme"; Thermostatventil regelt über den Stift und die Raumtemperatur `[Q19, 00:05:06–00:15:59]`. Ein Thermostatkopf spart nicht durch Magie, sondern weil er **nicht dauerhaft volle Leistung** durchlässt.
 - **Kosten** (Fachforum, keine Rechnung): „nicht mehr als 500 €" für 6 Ventile, wenn es Heimeier-Ventile sind und nur die Einsätze getauscht werden, 1–2 Stunden bei vorhandener Absperrung; eine andere Schätzung: 2 Monteurstunden + **30 € pro Ventileinsatz** `[Q37]`.
 
+**Jeder Raum braucht eine eigene Heizfläche — auch Ankleide, Abstellraum und Hauswirtschaftsraum.** GEG § 63 verlangt eine raumweise Regelung; die Ausnahme gilt nur für kleine Flächen mit Flächenheizung (< 6 m²). Wer die Ankleide an einen Nachbarraum hängt, heizt sie im Winter nicht — und der Schimmel kommt zuerst in die Ecke.
+
 ### 2.4 Hydraulischer Abgleich — einfach erklärt
 
 **Das Problem:** Jeder Heizkörper bekommt so viel Wasser, wie der Weg des geringsten Widerstands zulässt. Der nahe, kleine Heizkörper im Flur wird überflutet und überheizt; der große im kalten Eckzimmer bekommt zu wenig. Der Thermostatkopf regelt zwar die Raumtemperatur, aber nur durch **Zudrehen** — die Pumpe arbeitet dann gegen geschlossene Ventile, und die Rücklauftemperatur steigt, was den Kessel/Wärmepumpe unwirtschaftlich macht.
@@ -165,6 +169,17 @@ Drei Stufen, aufsteigend im Aufwand:
 **Kosten:** Einfamilienhaus **ca. 925 €**, Spanne **650–1.250 €**; Mehrfamilienhaus 500 m²/5 WE ca. 5.000 €; BAFA-Zuschuss 15 % `[Q13]`.
 
 **Kann ich das selbst?** Den thermischen Abgleich ja — mit Geduld und einem Thermometer. Das „richtige" Verfahren B nein: Es braucht die raumweise Heizlast und **voreinstellbare Ventile**. Wer alte, nicht voreinstellbare Ventile hat, kann nur thermisch arbeiten oder muss Ventile tauschen lassen. Im Forum wird genau das diskutiert — inklusive der Warnung, dass Smart-Home-Ventile, die alle gleichzeitig öffnen, „das komplette Gegenteil von hydraulischem Abgleich" sind `[Q26]`.
+
+**Die fünf Schritte, an denen ein Abgleich-Protokoll erkennbar ist** `[Q42]`:
+1. **Raumweise Heizlast** — die BEG-Förderung verlangt Verfahren B mit vereinfachter raumweiser Heizlast, nicht die Gebäudeheizlast allein.
+2. **Zonen bilden** — hydraulisch unabhängige Einheiten mit konstantem Differenzdruck; ab mehreren Strängen gehören Differenzdruckregler davor. Kleine EFH können eine Zone bleiben.
+3. **Übertragerflächen bewerten** — Heizkörperleistung gegen Raumheizlast; der Quotient ist der Überdimensionierungsfaktor und zeigt die „Absenkgrenze" und den Schlechtpunkt.
+4. **Statisch oder dynamisch entscheiden** — statisch (druckabhängige Armaturen) deckt den Volllastfall, dynamisch (druckunabhängige Ventile) auch Teillast; bei träger Fußbodenheizung im EFH kann statisch genügen.
+5. **Massenströme, Rücklauftemperaturen, Ventil- und Pumpeneinstellungen rechnen** — mit Software, nicht mit Daumenwerten.
+
+Ziel ist immer: der entfernteste Heizkörper jeder Zone bekommt seinen Nennmassenstrom, es entstehen keine Fließgeräusche, und jedes Ventil hat gute **Ventilautorität** `[Q42]`.
+
+**Rücklaufgrenzen und die 10-%-Regel:** Gas-Brennwert sollte **≤ 45 °C** Rücklauf fahren, Öl-Brennwert **≤ 40 °C**. Ein Heizkörper mit doppeltem Durchfluss liefert nur **ca. 10 %** Mehrleistung — aber eine unzulässig hohe Rücklauftemperatur und Unterversorgung der entfernten Körper. Bei Gebäuden bis **500 m² je Pumpe** darf der Rohrnetzeinfluss beim Abgleich vernachlässigt werden; der Differenzdruck über dem Thermostatventil wird pauschal mit **100 mbar** angesetzt ([IKZ, „Feindosierung der Wassermenge“](https://www.ikz.de/detail/news/detail/feindosierung-der-wassermenge-hydraulischer-abgleich-im-gebaeudebestand), 05.09.2011, geprüft 09.11.2026, HTTP 200).
 
 ---
 
@@ -247,6 +262,9 @@ Planungsdetails, die man später nicht mehr korrigiert `[Q04]`:
 
 **Was es leistet:** Es weist nach, dass die Wohnung auch bei Abwesenheit und geschlossenen Fenstern genug Luftwechsel für den **Feuchteschutz** hat — oder dass technische Lüftung nötig ist. Die Norm kennt vier Stufen: Lüftung zum Feuchteschutz, reduzierte Lüftung, Nennlüftung, Intensivlüftung `[Q04]`.
 
+**Die Zahlen der Ausgabe 2019** `[Q43][Q44]`: Nennlüftung für **20 m² ≈ 35 m³/h** (Ausgabe 2009: ~55 m³/h, damals für 30 m² abgelesen), für **200 m² ≈ 160 m³/h** (2009: ~210 m³/h); ab **210 m²** kommt ein Zuschlag von **4 m³/h je 10 m²** dazu. Die Stufenfaktoren sind **f_LSt = 0,7** (reduziert), **1,0** (Nennlüftung) und **1,3** (Intensivlüftung). Der Feuchteschutz ergibt sich aus
+`q_v,ges,NE,FL = f_WS · (−0,002 · A_NE² + 1,15 · A_NE + 11)` — für 70 m² sind das **25 m³/h**; die Infiltration aus `q = e_z · V_NE · n50`, im Beispiel 175 m³ und n50 = 1,0 → **7 m³/h**. Von **geringer Belegung** darf bei **≥ 40 m²/Person** ausgegangen werden; Mietwohnungen werden hoch belegt gerechnet. Freie Lüftung wird mindestens auf Feuchteschutz ausgelegt, ventilatorgestützte mindestens auf Nennlüftung; Sammelleitungen sind mit **max. 5 m/s** zu dimensionieren ([SBZ, „DIN 1946-6: Erstellung eines Lüftungskonzepts“](https://www.sbz-online.de/lueftung-klima/sbz-serie-teil-2-das-ist-neu-der-din-1946-6-erstellung-eines-lueftungskonzepts), 10.12.2020, und [Teil 3](https://www.sbz-online.de/lueftung-klima/sbz-serie-teil-3-das-ist-neu-der-din-1946-6-lueftungssysteme-auslegen), 13.01.2021, beide geprüft 09.11.2026, HTTP 200).
+
 **Kosten:** **300–400 €** für Ein-/Zweifamilienhaus `[Q04]`.
 
 **Der Streitpunkt, den du kennen musst:** Die DIN 1946-6 ist **keine baurechtlich eingeführte Norm** — sagt ein Energieberater im Video ausdrücklich: „das bedeutet, sie ist nicht verpflichtend" `[Q25, 00:03:19–00:03:25]`. Die Verbraucherzentrale formuliert dagegen „erforderlich" `[Q04]`. Beides ist vereinbar: **Unmittelbar erzwingt sie keine Behörde; geschuldet ist der Nachweis über die anerkannten Regeln der Technik und über den Werkvertrag.** Praktisch heißt das: Verlange das Konzept vom ausführenden Betrieb oder von einem Energieberater — die Verantwortung für den Nachweis und für die Feuchte im Haus bleibt bei dir als Bauherrn.
@@ -278,6 +296,8 @@ Ohne Messgerät keine Einregulierung. Wer „nach Gefühl" dreht, stellt nur die
 | 7 | **Nachtabsenkung** — nur bei Kessel + Heizkörpern sinnvoll | 10 min | gering bis mittel | `[Q02]` |
 
 **Wichtig zur Nachtabsenkung:** Die Verbraucherzentrale schreibt ausdrücklich, dass bei **Wärmepumpen oder Fußbodenheizung** eine starke Absenkung oder Abschaltung wenig bringt, den Komfort senkt „und meistens sogar der Effizienz" schadet `[Q02]`. Wer mit FBH nachts 5 K absenkt, heizt morgens mit schlechterem COP nach.
+
+**Heizkurve: der Einstellfehler, der 10 K kostet** `[Q45]`. Bei Wärmepumpen wird die Heizkurve über die **Rücklauftemperatur** geführt. Wer dort die Vorlauftemperatur einprogrammiert, erzeugt **5–10 K** zu viel; mit den üblichen Angstzuschlägen liegt die Anlage schnell **mindestens 10 K** über dem notwendigen Niveau. Der Faustwert für die Effizienz ist **2,5 % Strom je Kelvin** — 45 statt 35 °C Vorlauf bedeuten rund **25 %** mehr Strom für dieselbe Wärme. Vorgehen: Heizkurve schrittweise absenken, bis der **Schlechtpunkt** erreicht ist, dann nur diesen einen Raum mit größerer Heizfläche versorgen — nicht die Vorlauftemperatur wieder anheben. Die Jahresarbeitszahl wird nach **VDI 4650** im ersten Jahr monatlich, danach jährlich geprüft; ein Pufferspeicher dient vor allem der Mindestlaufzeit des Verdichters von **10 Minuten** und dem Mindestvolumenstrom, nicht der Effizienz ([SBZ, „Wärmepumpe Teil 4 – Hydraulik und Regelung“](https://www.sbz-online.de/heizung/sbz-serie-waermepumpe-teil-4-hydraulik-und-regelung), 01.06.2023, geprüft 09.11.2026, HTTP 200).
 
 **Heizkörpernische — die Zahlen:** Der Energiesparkommissar misst an einem ~55 °C warmen Heizkörper in einer Nische: Der Wärmeverlust sinkt **ohne Alu-Beschichtung um etwa ein Drittel**, **mit Beschichtung um über 41 %** `[Q18, 00:03:56–00:04:11]`. Mit zwei Dämm-Lagen und Folie kommt er auf **~44 %** Verlustreduktion, ohne Nische (flache Wand) auf **~35 %**, mit nur **einer** Lage nur **~25 %** `[Q18, 00:07:39–00:14:17]`. Das sind Kanal-Messungen, keine unabhängige Studie — die Größenordnung ist aber plausibel und deckt sich mit dem physikalischen Mechanismus (Strahlung + Konvektion hinter dem Körper).
 
@@ -331,6 +351,11 @@ Ohne Messgerät keine Einregulierung. Wer „nach Gefühl" dreht, stellt nur die
 **Symptom:** Kaum messbare Wirkung.
 **Ursache:** Reflexion allein reicht nicht; Dämmung + Folie zusammen `[Q18]`.
 **Abhilfe:** Dämmplatte plus kaschierte Folie, zwei Lagen, sauber absaugen und staubfrei verkleben `[Q18, 00:08:13–00:09:42]`.
+
+### 6.10 Einrohrheizung: der Abgleich, der anders funktioniert
+**Symptom:** Stränge sind überversorgt, das Gebäude ist überheizt, Räume lassen sich schlecht regeln, die Temperaturspreizung im Strang ist zu klein.
+**Ursache:** In einer Einrohrheizung sind alle Heizkörper hintereinandergeschaltet. Drosselt ein Thermostatventil, fließt mehr Wasser über den Bypass, der Folgeheizkörper wird überversorgt — eine Kettenreaktion bis zum letzten Körper, und die Rücklauftemperatur steigt. Ein einfacher Abgleich oder eine zentrale Rücklaufbegrenzung löst das nicht: Beide senken den Volumenstrom pauschal und unterversorgen einzelne Stränge `[Q48]`.
+**Abhilfe:** lastabhängiger Abgleich **je Strang** mit druckunabhängigem Abgleich- und Regelventil plus selbsttätigem Thermostatregler, der bei Überschreiten der Rücklauftemperatur den Strangvolumenstrom drosselt. Im Feldtest (Stettin, drei Plattenbauten, Dezember 2009) waren das **15–20 %** Einsparung; ein zusätzlicher elektronischer Regler brachte in sechs Monaten **weitere 5 %**. Das ist ein Feldtest an Einrohranlagen, keine garantierte Einsparung `[Q48]`.
 
 ---
 
@@ -433,14 +458,16 @@ Ohne Messgerät keine Einregulierung. Wer „nach Gefühl" dreht, stellt nur die
 - `[Q35]` r/Handwerker, „Entlüftungsventil tauschen", 19.10.2023. https://www.reddit.com/r/Handwerker/comments/17bq41b/ — DIY-Versuch: Vor-/Rücklauf abgesperrt, trotzdem Druck auf dem Körper; Antwort: eines der Ventile ist defekt, Heizkörper abkühlen lassen und prüfen, welches warm wird.
 - `[Q36]` r/HVAC, „Single radiator works for 2 days if I drain it and then stops", 2018. https://www.reddit.com/r/HVAC/comments/7vhf8s/ — nur als Vergleich: Luft steigt nach oben, manuelles Entlüften am höchsten Punkt; automatische Entlüfter = Leckrisiko; diffusionsoffene PEX als Ursache für Lufteintrag.
 
+**Fachmedien (SBZ, IKZ — geprüft 09.11.2026, HTTP 200)**
+- `[Q42]` SBZ Online, „Hydraulischer Abgleich heute – Teil 3: Orientierung im Labyrinth der Abgleichschritte", 28.09.2022 (Ausgabe 13-2022). https://www.sbz-online.de/heizung/hydraulischer-abgleich-heute-sbz-serie-teil-3-orientierung-im-labyrinth-der — BEG verlangt Verfahren B mit vereinfachter raumweiser Heizlast; fünf Schritte; Zonierung/Differenzdruckregler; statisch vs. dynamisch; Ventilautorität.
+- `[Q43]` SBZ Online, „Das ist neu in der DIN 1946-6: Erstellung eines Lüftungskonzepts", 10.12.2020. https://www.sbz-online.de/lueftung-klima/sbz-serie-teil-2-das-ist-neu-der-din-1946-6-erstellung-eines-lueftungskonzepts — 20 m² ≈ 35 m³/h, 200 m² ≈ 160 m³/h, 2009-Vergleich, f_LSt 0,7/1,0/1,3, Zuschlag ab 210 m², 5 m/s Sammelleitung.
+- `[Q44]` SBZ Online, „Das ist neu in der DIN 1946-6: Lüftungssysteme auslegen", 13.01.2021. https://www.sbz-online.de/lueftung-klima/sbz-serie-teil-3-das-ist-neu-der-din-1946-6-lueftungssysteme-auslegen — Feuchteschutzformel, 70 m² = 25 m³/h, n50 = 1,0 → 7 m³/h, geringe Belegung ≥ 40 m²/Person, ventilatorgestützt mind. Nennlüftung.
+- `[Q45]` SBZ Online, „SBZ-Serie Wärmepumpe: Teil 4 – Hydraulik und Regelung", 01.06.2023 (Ausgabe 05-2023). https://www.sbz-online.de/heizung/sbz-serie-waermepumpe-teil-4-hydraulik-und-regelung — 2,5 %/K, 45 statt 35 °C ≈ 25 % mehr Strom, Heizkurve über Rücklauf, 5–10 K bzw. ≥ 10 K Überhöhung, Puffer/Mindestlaufzeit 10 min, JAZ nach VDI 4650.
+- `[Q46]` IKZ, „Feindosierung der Wassermenge – Hydraulischer Abgleich im Gebäudebestand", 05.09.2011. https://www.ikz.de/detail/news/detail/feindosierung-der-wassermenge-hydraulischer-abgleich-im-gebaeudebestand — Rücklauf Gas-Brennwert ≤ 45 °C / Öl ≤ 40 °C, doppelter Durchfluss ≈ 10 % Mehrleistung, ≤ 500 m² je Pumpe, 100 mbar Ventildifferenzdruck.
+- `[Q47]` IKZ, „Wärmepumpen im Bestand nachrüsten – eine gute Anlagenhydraulik als Basis für Effizienz", 28.10.2025. https://www.ikz.de/detail/news/detail/waermepumpen-im-bestand-nachruesten-eine-gute-anlagenhydraulik-als-basis-fuer-effizienz — 60/45 und 55/50 ergeben beide 52,5 °C Mittel; höherer Massenstrom; Ventileinsatz 80–220 kg/h.
+- `[Q48]` IKZ, „Drei, die zueinander passen: Volumenstrom, Temperatur und Wärmebedarf", 27.08.2014. https://www.ikz.de/detail/news/detail/drei-die-zueinander-passen-volumenstrom-temperatur-und-waermebedarf — Einrohrheizung, Kettenreaktion, lastabhängiger Abgleich, Feldtest 15–20 % + 5 %.
+
 ---
-
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Jeder Raum braucht eine eigene Heizfläche**, auch Ankleide, Abstellraum und Hauswirtschaftsraum:
-  **GEG § 63** verlangt raumweise Regelung; die Ausnahme gilt nur für kleine Flächen mit
-  Flächenheizung (< 6 m²). Wer die Ankleide an einen Nachbarraum hängt, heizt sie im Winter nicht —
-  und der Schimmel kommt zuerst in der Ecke.
 
 ## 10. Unbelegt / offen (bewusst nicht als Fakt verkauft)
 
@@ -450,4 +477,9 @@ Ohne Messgerät keine Einregulierung. Wer „nach Gefühl" dreht, stellt nur die
 - **r/Selbstbau**: Die Recherche ergab keinen belastbaren Thread zum Thema Heizung/Lüftung; deshalb wird das Subreddit hier nicht zitiert. r/Handwerker und r/handwerk decken die deutsche DIY-Perspektive ab.
 - **„Heizkörper entkalken"**: Für geschlossene Heizkreise gibt es keine belastbare Quelle, dass Kalk die Ursache ist; die belegten Themen sind Luft, Schlamm und Ventile. Deshalb steht in §2.2 bewusst die Gegenaussage.
 - **DIN-Volltexte** (1946-6, EN 1264-4, EN 12831) sind kostenpflichtig. Belegt sind Nummer, Titel, Ausgabe und die zitierte Sekundärstelle — nicht der Normtext selbst.
+- **GEG § 63 (raumweise Regelung, Ausnahme < 6 m² Flächenheizung)** stammt aus dem Video-Gegencheck; der Normtext wurde in dieser Recherche nicht geprüft.
 - **Zeitangaben** (1–2 h/Heizkörper, 1 Tag Abgleich) sind Erfahrungswerte ohne Quelle.
+- **„2,5 % Strom je Kelvin"** ist ein Daumenwert aus der SBZ-Serie `[Q45]`, keine Messreihe; die 25 % für 10 K sind daraus gerechnet.
+- **DIN-1946-6-Volumenströme** (35/160 m³/h) sind aus den Vergleichsbildern der SBZ-Artikel abgelesen `[Q43][Q44]`, nicht aus dem kostenpflichtigen Normtext; die Formel und die Stufenfaktoren sind dort zitiert.
+- **Einrohr-Einsparung 15–20 %** stammt aus einem Feldtest an drei Plattenbauten in Stettin 2009 `[Q48]`; auf ein EFH mit anderer Hydraulik ist der Wert nicht übertragbar.
+- **W-553-Verfahrenswerte** (5 K, 200 l/h, 11/7 W/m) sind über SBZ 2011 belegt (Quelle Q30 in `trinkwasserhygiene.md`); der Artikel zitiert TrinkwV 2011 und EnEV, die Normausgabe W 553 selbst wurde nicht gekauft.

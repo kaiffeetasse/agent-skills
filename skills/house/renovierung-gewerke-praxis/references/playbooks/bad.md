@@ -78,6 +78,9 @@ belegt** (siehe Abschnitt 10).
 - Alte Fliesen nur überfliesen, wenn sie wirklich fest sind, der Untergrund tragfähig ist und der
   Kleberhersteller es freigibt (PCI nennt „alte Keramikbeläge" als möglichen Untergrund [Q17]).
   Der Internet-Rat „einfach drüberfließen" [Q8] ignoriert Höhenaufbau, Türblatt und Abdichtungsebene.
+- Vor dem Abriss **Grundriss und Sanitäranschlüsse aufnehmen** (Aufmaß mit Maßen): Toilette, Fallrohr,
+  Ablauf der Duschtasse, Vorwandtiefe. Ohne das wird neu gebaut und wieder zurückgebaut
+  (zR7LyRq3G7Q-01).
 
 ### Schritt 2 — Rohinstallation
 Sanitär und Elektro kommen **vor** Putz und Abdichtung. Reihenfolge laut Fachkanal: anzeichnen, Dosen
@@ -85,6 +88,15 @@ bohren, Schlitz fräsen, Dosen eingipsen, Leitungen verlegen, Kabel einziehen.
 Wer 230-V-Arbeiten selbst macht, riskiert Gewährleistung und im Schadensfall den Versicherungsschutz
 (§ 81 Abs. 2 VVG): Errichten/Ändern hinter der Hausanschlusssicherung ist dem eingetragenen
 Installationsunternehmen vorbehalten (NAV § 13 Abs. 2) [Q29].
+
+Was in diesem Schritt mitentschieden wird:
+- **Wasseruhr** nicht Aufputz lassen, wenn die Wand ohnehin offen ist — sonst bleibt die Verteilung
+  sichtbar (k3q49IW19KU-13).
+- **Elektroplanung Bad vor dem Podest**: **Leerrohr im Podest** vorsehen, Leitungen für Licht/Spiegel,
+  **Schutzbereich IP** beachten (Schutzbereiche 0–2 mit passender IP-Schutzart) (k3q49IW19KU-11).
+- **Deckenauslass früh prüfen**: In einer **Betondecke** ist **Schlitzen nicht möglich** (kein
+  Deckenauslass nachträglich) — ohne Auslass bleibt nur indirektes Licht. Bei der Besichtigung den
+  Deckenaufbau ansehen, bevor die Lichtplanung steht (k3q49IW19KU-08).
 
 ### Schritt 3 — Vorwand / Trockenbau
 - WC-Vorwandelement mit **12-cm-Spülkasten** (Geberit Duofix, Bauhöhe 112 cm) [Q19]: fertige
@@ -94,6 +106,8 @@ Installationsunternehmen vorbehalten (NAV § 13 Abs. 2) [Q29].
   Spannungsrisse nach Monaten.
 - Feuchtraumplatten (Gipsfaser/Zement) statt Standard-Gipskarton im Duschbereich; der
   Trockenbaumonteur lernt Abdichtung nur „unterscheiden und beurteilen", nicht ausführen.
+- **Stand-WC prüfen**: Steht das **Fallrohr** im Raum, wird der Vorbau größer als geplant; Rohrversetzen
+  heißt Beton aufstemmen plus Genehmigung und kostet vierstellig (k3q49IW19KU-12).
 
 ### Schritt 4 — Estrich und Gefälle
 Das ist der Zeitkiller. Zementestrich ist nach den anerkannten Regeln der Technik **28 Tage** zu
@@ -105,6 +119,9 @@ Zementestrich < 2,0 CM-% (beheizt < 1,8), Calciumsulfat < 0,5 CM-% — nicht am 
 trocken ist) und baut nur die Dusche mit einem **Gefälleelement** auf. Genau das empfiehlt ein
 SHK-Profi im Forum für ein DIY-Bad [Q12]. Estrich nur dort neu, wo die Höhe es erzwingt; über der
 Duschrinne mindestens **50 mm** Estrich [Q5].
+
+**Bodengleiche Dusche nur mit passendem Estrichaufbau:** Gefälle **2 %** — das in einem Video genannte **Gefälle „1–2 %“** wird hier nicht übernommen, weil 1 % im Ebenheits-Toleranzbereich der Fliesen liegt und Wasser stehen lässt; Nullwert/Bodenhöhe vorher
+rechnen. Ist der Aufbau zu dünn, bleibt nur ein Duschpodest mit Stufe (k3q49IW19KU-10).
 
 ### Schritt 5 — Abdichtung (der Kern)
 System wählen und **im System bleiben**: Grundierung, Dichtband, Ecken, Manschetten und
@@ -165,6 +182,9 @@ bei breiten Fugen **Rundschnur** einlegen gegen Dreifach-Flankenhaftung, in eine
 Quellen: 0,5 mm / 1,2 kg/m² / 2 Aufträge / 2–4 h / 24 h [Q16]; Band in 1. Lage, Ecken, Manschetten
 [Q16][Q4]; Kleberverbrauch und Zeiten [Q17]; Fugenverbrauch [Q18].
 
+**Grenze der Dispersionsdichtmasse:** nur im zulässigen Bereich (W0-I/W1-I) — in der bodengleichen
+Dusche (W2-I) nicht (zR7LyRq3G7Q-05).
+
 **Variante B — zementäre Dichtschlämme (2K):** Trockenschicht **≥ 2 mm**, in zwei bis drei
 Arbeitsgängen; im BAUHAUS-Workshop heißt es, die erste Lage erreiche ca. 1,5 mm und man müsse
 zwingend nachlegen, um auf 2 mm zu kommen (04:28 und 11:39, Auto-Untertitel) [Q4]. Höhere
@@ -172,7 +192,8 @@ Schichtdicke = mehr Reserve gegen Überstreichen, aber auch mehr Gewicht und ste
 
 **Variante C — Bahnenabdichtung (z. B. KERDI):** 0,5 mm PE-Bahn mit Vlies, im Dünnbettkleber
 (3×3 oder 4×4 mm Zahnung) vollflächig einbetten, Stöße **5 cm** überlappen, Ecken als Formteile,
-Rohre mit Manschetten [Q3].
+Rohre mit Manschetten [Q3]. Wo die Fläche es verlangt, ist **Abdichtbahn bzw. Abdichtfließ** die
+Alternative zur Flüssigabdichtung (zR7LyRq3G7Q-03).
 
 ### 3.2 Trocken- und Wartezeiten
 
@@ -216,10 +237,17 @@ Rohre mit Manschetten [Q3].
 | Wannenanschluss-Formteile Überlappung | ≥ 5 cm, 5 cm über OKFF | [Q3] |
 | Duschrinnen-Flanschbreite bis W2-I | ≥ 30 mm; W3-I ≥ 50 mm | [Q20] |
 | WC-Vorwandelement | 12 cm Spülkasten, Bauhöhe 112 cm | [Q19] |
+| Beleuchtung Waschtisch | **≥ 300 lx** auf der Waschtischfläche, **zwei Leuchten rechts und links am Spiegel** statt einer Deckenleuchte im Rücken | licht.wissen 14, S. 34 |
+| Farbwiedergabe der Badbeleuchtung | **Ra ≥ 90** (Hauttöne) | licht.wissen 14, S. 34 |
+| Lichtfarbe Bad | **Lichtfarbe in Kelvin planen**: **2700–3000 K warmweiß**, **Kaltweiß vermeiden** (ab ~5000 K wirkt es wie beim Zahnarzt); vor der Installation festlegen, nicht nach dem Einbau tauschen | k3q49IW19KU-09 |
 
 **Zur 90×90-Frage:** 90×90 ist das übliche Standardmaß, nicht das Minimum. Unter 80×80 wird es
 körperlich eng, und der Duschvorhang ist keine Duschabtrennung — ohne feste Abtrennung gilt die
 **gesamte** Bodenfläche als W2-I (hohe Wasserbeanspruchung) und muss abgedichtet werden [Q21].
+
+**Einbautiefe der Wanne rechnen:** Wannenrand bündig mit der Fliesenfläche heißt Fliesenstärke **plus
+Kleberbett** einrechnen; die Wanne wird **hochgezogen an der Wand** abgedichtet — sonst steht die Fliese
+über und bildet eine scharfe Kante (zR7LyRq3G7Q-13).
 
 ---
 
@@ -260,6 +288,19 @@ teurer als der Baumarkt (12:21–13:04, Auto-Untertitel) [Q1]. Das ist eine Mein
 aber die Systemlogik dahinter ist belegt: Alle Komponenten einer Verbundabdichtung müssen im System
 geprüft sein (abP/ETA) [Q3]. Mischen von vier Herstellern ist ein Gewährleistungsausschluss.
 
+### Ausstattung: was sich statt Standard lohnt
+- **HPL-Waschtisch** (Resopal, nach **EN 438**) ist die robuste Alternative zu Keramik und Mineralguss —
+  unempfindlich gegen Kratzer und Reiniger; Datenblatt prüfen, nicht Prospekt.
+- **Epoxidfugen im Bad**: chemisch beständig und dicht, aber **Weiß vergilbt unter UV-Licht** — bei
+  Tageslicht im Bad ein echter Nachteil, kein Marketingdetail (Herstellerhinweise ARDEX EG 8 plus).
+- **Dusch-WC** mit Bidetfunktion und Fernbedienung: hohe Störanfälligkeit im Alltag (heißes Wasser,
+  verstellte Einstellungen), Ersatzteil- und Bedienlogik vorher prüfen (sWXyiNADbFk-01).
+- **Unterputz-Klopapierhalter** und andere Unterputz-Accessoires (Papierhalter, Bürstenfach) sind nach
+  dem Einbau nicht revisionierbar: Rollenführung vorher prüfen, sonst Aufputz-Variante wählen
+  (sWXyiNADbFk-02).
+- **Bad-Heizkörper**: statt des alten Rippen-Heizkörpers einen **Handtuchheizkörper** (Heizleiter) hinter
+  der Tür vorsehen — Platz, Höhe und Anschluss früh klären (k3q49IW19KU-16).
+
 ---
 
 ## 5. Die typischen Fehler (mit Quelle)
@@ -287,6 +328,8 @@ abgedichtet, keine Vliesecken, Flüssigfolie direkt auf alten Kleber — Antwort
 Wartungsfugen" (10:03–10:20, Auto-Untertitel) [Q1]. Richtig ist ein **Wannenrand-Dichtband**, das in
 die Flächenabdichtung eingebunden wird; die Formteile mindestens 5 cm überlappend [Q4][Q3].
 Silikon allein ist keine Abdichtung — es ist die wartungsbedürftige Fuge *über* der Abdichtung.
+Dasselbe gilt für die **Duschtasse**: **Wannenband** bzw. Dichtband im Verbund der Abdichtung, **an der
+Wand hochgezogen**; die Silikonfuge ist Wartungsfuge und ersetzt keine Abdichtung (zR7LyRq3G7Q-07).
 
 ### Fehler 5 — Rohrdurchdringung ohne Manschette
 Leitungen müssen von einer Dichtmanschette mit flexibler Dichtlippe wasserdicht umschlossen werden,
@@ -325,6 +368,16 @@ dem Forengerede), aber nur wenn es sauber und fettfrei ist (03:54, Auto-Untertit
 Fehler Nr. 1 im Fachvideo ist nicht Material, sondern „die meisten Leute fangen einfach an" (01:13)
 [Q1]. Konkret: Boden vor Wand gefliest, Dosen nach dem Putz, Türzarge vor Fertigboden — jedes Mal
 zweimal zahlen. Der Fliesenleger im Video macht den Boden deshalb bewusst zuletzt (21:34) [Q2].
+
+### Fehler 11 — Leuchten und Steckdosen ohne passende IP-Schutzart
+**Symptom:** Leuchte oder Steckdose im Schutzbereich 0–2, ohne dass die Schutzart geprüft wurde.
+**Richtig:** Im Bereich 0–2 brauchen Leuchten und Steckdosen die passende **IP-Schutzart**
+(k3q49IW19KU-11); die Elektroplanung gehört deshalb vor den Podestaufbau (Schritt 2).
+
+### Fehler 12 — Durchlauferhitzer an zweiadriger Leitung
+**Symptom:** 2-adrige Leitung ohne aufgelegten Schutzleiter, daran ein Gerät der **Schutzklasse I**.
+**Warum:** Ein Gerät der Schutzklasse I ohne PE ist nicht zulässig. **Was tun:** Ein Durchlauferhitzer
+braucht einen eigenen Stromkreis, **5-adrig** mit PE und RCD 30 mA (dW-Sf-yaEBQ 00:01:20; k3q49IW19KU).
 
 ---
 
@@ -370,7 +423,9 @@ rechtliche Freigabe. Vorher mit dem Elektrobetrieb klären, wer welche Haftung �
 
 Bandbreite pro m² über alle Portale: **900–3.500 €/m²**, Standard ~1.200 €/m² [Q22][Q23][Q25].
 Arbeitszeit: ca. **120 h für 8 m²**, 60 €/h = 7.200 € Lohn [Q23]. Fliesenlegen: Arbeitszeitrichtwert
-**ca. 1 h/m²** inkl. Rüstzeit und Verfugung (Aussage Fliesenlegermeister) [Q9].
+**ca. 1 h/m²** inkl. Rüstzeit und Verfugung (Aussage Fliesenlegermeister) [Q9]. Auf das Budget kommen
+**15 % Puffer** (Kostenpuffer) für unvorhergesehene Arbeiten (Revisionsklappe, Türtechnik) — sonst
+fressen Nachtragsangebote das Budget (k3q49IW19KU-14).
 
 ### 7.2 Eigenleistung (Rechnung + Erfahrungsberichte)
 
@@ -632,57 +687,3 @@ vorher (TRGS 519), Bindung auch für Privatpersonen.
    indirekt, ist aber kein Normzitat.
 8. **Qualifikationsnachweise** der Kanäle „Der Fliesenleger", „Hausbauen24", „Grey Element" und
    „Estrich Werke" beruhen auf Selbstauskunft/Titel, nicht auf externer Prüfung.
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Schutzbereich IP** beachten: Leuchten und Steckdosen im Bereich 0–2 brauchen die passende IP-Schutzart (k3q49IW19KU-11).
-- **Wasseruhr** nicht Aufputz lassen, wenn die Wand ohnehin offen ist — sonst bleibt die Verteilung sichtbar (k3q49IW19KU-13).
-- **Abdichtbahn bzw. Abdichtfließ** als Alternative zur Flüssigabdichtung, wenn die Fläche es verlangt (zR7LyRq3G7Q-03).
-- **Dispersionsdichtmasse** nur im zulässigen Bereich (W0-I/W1-I) — in der bodengleichen Dusche (W2-I) nicht (zR7LyRq3G7Q-05).
-
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Licht ist Teil der Badplanung, nicht Elektro-Nachlauf.** Belegt: **≥ 300 lx** auf der Waschtischfläche,
-  **zwei Leuchten rechts und links am Spiegel** statt einer Deckenleuchte im Rücken, **Ra ≥ 90** für
-  Hauttöne. Quelle: licht.wissen 14 (Fördergemeinschaft Gutes Licht), S. 34.
-- **HPL-Waschtisch** (Resopal, nach **EN 438**) ist die robuste Alternative zu Keramik und Mineralguss —
-  unempfindlich gegen Kratzer und Reiniger; Datenblatt prüfen, nicht Prospekt.
-- **Epoxidfugen im Bad**: chemisch beständig und dicht, aber **Weiß vergilbt unter UV-Licht** — bei
-  Tageslicht im Bad ein echter Nachteil, kein Marketingdetail (Herstellerhinweise ARDEX EG 8 plus).
-
-## Ergänzungen aus dem Video-Katalog
-
-- **Durchlauferhitzer an zweiadriger Leitung** (2-adrig, ohne aufgelegten Schutzleiter): Gerät der
-  **Schutzklasse I** ohne PE ist nicht zulässig. Ein Durchlauferhitzer braucht einen eigenen Stromkreis,
-  **5-adrig** mit PE und RCD 30 mA (dW-Sf-yaEBQ 00:01:20; k3q49IW19KU).
-- **Lichtfarbe vor der Installation festlegen**: im Bad **2700–3000 K warmweiß**, Kaltweiß wirkt wie beim
-  Zahnarzt und wird nachträglich getauscht (Lichtband-Erfahrung, k3q49IW19KU-09).
-- **Bodengleiche Dusche nur mit passendem Estrichaufbau**: Gefälle **1–2 %**, Nullwert/Bodenhöhe vorher
-  rechnen. Ist der Aufbau zu dünn, bleibt nur ein Duschpodest mit Stufe (k3q49IW19KU-10).
-- **Elektroplanung Bad vor dem Podest**: Leerrohr in den Podestaufbau, Leitungen für Licht/Spiegel,
-  Schutzbereiche 0–2 mit passender **IP-Schutzart (IP-Schutzbereich)** (k3q49IW19KU-11).
-- **15 % Puffer** (Kostenpuffer) für unvorhergesehene Arbeiten (Revisionsklappe, Türtechnik) — sonst fressen
-  Nachtragsangebote das Budget (k3q49IW19KU-14).
-- **Dusch-WC mit Bidetfunktion und Fernbedienung**: hohe Störanfälligkeit im Alltag (heißes Wasser,
-  verstellte Einstellungen), Ersatzteil- und Bedienlogik vorher prüfen (sWXyiNADbFk-01).
-- **Einbautiefe der Wanne rechnen**: Wannenrand bündig mit der Fliesenfläche heißt Fliesenstärke **plus
-  Kleberbett** einrechnen; die Wanne wird **hochgezogen an der Wand** abgedichtet — sonst steht die Fliese über und bildet eine scharfe Kante (zR7LyRq3G7Q-13).
-- **Unterputz-Klopapierhalter** und andere Unterputz-Accessoires (Papierhalter, Bürstenfach) sind nach dem Einbau nicht revisionierbar:
-  Rollenführung vorher prüfen, sonst Aufputz-Variante wählen (sWXyiNADbFk-02).
-
-- **Deckenauslass früh prüfen**: In einer **Betondecke** ist **Schlitzen nicht möglich** (kein Deckenauslass nachträglich) — ohne Auslass
-  bleibt nur indirektes Licht. Bei der Besichtigung den Deckenaufbau ansehen, bevor die Lichtplanung steht
-  (k3q49IW19KU-08).
-### Weitere Video-Fehler (Bad)
-
-- **Lichtfarbe in Kelvin planen**: 2700–3000 K warmweiß im Bad; **Kaltweiß vermeiden** (ab ~5000 K wirkt
-  es wie beim Zahnarzt) — Lichtfarbe vor der Installation festlegen, nicht nach dem Einbau tauschen
-  (k3q49IW19KU-09).
-- **Vor dem Abriss Grundriss und Sanitäranschlüsse aufnehmen** (Aufmaß mit Maßen): Toilette, Fallrohr,
-  Ablauf der Duschtasse, Vorwandtiefe. Ohne das wird neu gebaut und wieder zurückgebaut (zR7LyRq3G7Q-01).
-- **Stand-WC prüfen**: Steht das **Fallrohr** im Raum, wird der Vorbau größer als geplant; Rohrversetzen
-  heißt Beton aufstemmen plus Genehmigung und kostet vierstellig (k3q49IW19KU-12).
-- **Bad-Heizkörper**: statt des alten Rippen-Heizkörpers einen **Handtuchheizkörper** (Heizleiter) hinter
-  der Tür vorsehen — Platz, Höhe und Anschluss früh klären (k3q49IW19KU-16).
-- **Wanne/Duschtasse**: **Wannenband** bzw. Dichtband im Verbund der Abdichtung, **an der Wand hochgezogen**;
-  die Silikonfuge ist Wartungsfuge und ersetzt keine Abdichtung (zR7LyRq3G7Q-07).

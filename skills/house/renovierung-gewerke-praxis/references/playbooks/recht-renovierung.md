@@ -11,6 +11,8 @@
   Widerspruch (§ 912 BGB).
 - **Denkmal ist eine zweite Schiene** — Genehmigung der Denkmalbehörde zusätzlich zur Baugenehmigung.
 - **Helfer:** BG-BAU-Anmeldung unabhängig von Bezahlung; „ohne Rechnung" macht den Vertrag nichtig.
+- **Geld:** keine Vorkasse vor Leistungsbeginn (kein Rechtsanspruch, § 632a BGB); Mängel schriftlich
+  rügen und **1–2 Wochen** Frist setzen; Einbehalt = **doppelte** Beseitigungskosten (§ 641 Abs. 3 BGB).
 
 
 **Praxis-Playbook für Eigenheimbesitzer in Baden-Württemberg, die selbst renovieren.**
@@ -492,6 +494,11 @@ unwirksam. [Q28]
 - den Versicherungsschutz, wenn die Versicherung von fachgerechter Ausführung ausgeht,
 - und riskiert ein Bußgeldverfahren. Das ist kein guter Tausch.
 
+**Schwarzarbeit ist kein Bagatelldelikt:** Wer Handwerker ohne Rechnung beschäftigt, riskiert
+Nachzahlung von Lohnsteuer und Sozialabgaben, den Verlust der Steuerabzüge nach § 35a EStG — und
+**keine Gewährleistung**, weil ohne Rechnung kein Vertragsnachweis existiert. Die Handwerkerhaftung
+greift nur bei dokumentierter Beauftragung.
+
 ### 6.4 Wer haftet, wenn der Helfer etwas kaputt macht
 
 Der Helfer haftet für seinen Schaden nach § 823 BGB; du als Bauherr haftest für die
@@ -563,6 +570,30 @@ Grund: Wer die E-Mail verliert, hat nichts.
   → Praktisch: **Nachtrag vor Ausführung** schriftlich anordnen, mit Preis und Terminfolge. Ein
   Nachtrag, der nach der Ausführung kommt, ist ein Streit.
 
+**Was die Verbraucherzentrale beim Auftrag verlangt** — Stand 03.02.2026, unabhängige Verbraucherberatung,
+keine Anwaltsmeinung: Auftrag „so genau wie möglich" erteilen und **Umfang, Ausführungstermin und
+Vergütung verbindlich, am besten schriftlich** regeln; Absprachen vor Ort schriftlich festhalten und
+möglichst einen **eigenen Zeugen** mitnehmen; **zwei bis drei Kostenvoranschläge** einholen, die
+Leistungen *und* Material detailliert ausweisen, damit du über Stundensätze und Materialpreise
+vergleichst; eine **Vergütung für den Kostenvoranschlag** darf nur verlangt werden, wenn sie **vorher
+ausdrücklich vereinbart** wurde. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026)
+
+**Kostenvoranschlag ist nicht Festpreis.** Steigen die Kosten **um mehr als 15 bis 20 Prozent**, muss der
+Betrieb das **unverzüglich** mitteilen; du kannst dann kündigen, zahlst aber die bereits erbrachten
+Teilleistungen. Ein **Festpreis darf nicht überschritten** werden — nachträgliche Arbeiten sind dann eine
+Auftragsänderung mit eigenem Preis. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026) — dieselbe Schwelle nennt die Verbraucherzentrale in der Beauftragungs-Checkliste
+[Handwerker finden](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664)
+(geprüft 09.11.2026).
+
+**Terminverzug braucht eine Frist, keine Geduld.** Hält der Betrieb einen fest vereinbarten Termin nicht
+ein, kommt er in Verzug; **eine bis zwei Wochen** Nachfrist sind im Regelfall angemessen, danach hast du
+Anspruch auf Ersatz des Verzögerungsschadens — aber nur, wenn die Verzögerung auf seiner Haltung beruht.
+Krankheit oder fehlende Vorarbeiten anderer Gewerke entlasten ihn. Gegenmittel gegen das Risiko:
+**schriftliche Vertragsstrafe** für den Fall der Terminüberschreitung. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026)
+
 ### 8.2 Abnahme
 
 **§ 640 BGB:**
@@ -576,6 +607,13 @@ Grund: Wer die E-Mail verliert, hat nichts.
   und Rücktritt/Minderung nur zu, wenn du dir deine Rechte **bei der Abnahme vorbehältst**. [Q5]
   → **Deshalb: Abnahmeprotokoll mit Mängelliste, und der Satz „Abnahme unter Vorbehalt der
   aufgeführten Mängel".** Ohne Vorbehalt ist der bekannte Mangel erledigt.
+
+**Die Praxis-Seite derselben Regel:** Die Verbraucherzentrale beschreibt die Abnahme als Billigung „als
+im Wesentlichen vertragsgemäß" und rät, das fertige Werk **vorher ausgiebig zu prüfen** — nicht aus
+Höflichkeit abzunehmen, weil der Handwerker vor der Tür steht. Wer im Protokoll Mängel rügt, muss den
+Satz **„Die Geltendmachung von Gewährleistungsansprüchen bleibt vorbehalten"** ergänzen. Erst mit der
+Abnahme wird der Lohn fällig; du hast im Gegenzug Anspruch auf eine **ausführliche Rechnung**. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026)
 
 ### 8.3 Gewährleistung — 5 Jahre, aber nicht immer
 
@@ -621,6 +659,26 @@ Die letzte Rate ist dein Druckmittel. 5 % sind bei 30.000 € Bad 1.500 € — 
 Nachbesserung zu erzwingen, wenig genug, dass der Handwerker nicht existenziell getroffen ist.
 **Keine Rate ohne prüfbaren Zwischenstand.** Wer nach „Bauchgefühl" zahlt, zahlt zweimal.
 
+**Vorkasse ist kein Rechtsanspruch — und kein Sicherungsinstrument.** § 632a BGB gibt Abschläge für
+**erbrachte** Leistungen; angelieferte Bauteile sind nur abschlagsfähig, wenn dir das Eigentum übertragen
+oder eine Sicherheit geleistet wird [Q40]. Einen **gesetzlichen Anspruch** auf Zahlung **vor** dem ersten
+Spatenstich gibt es nicht. Genau darin liegt das Risiko: Wird der Betrieb insolvent, ist deine Vorauszahlung
+nur noch eine Forderung, die du **zur Insolvenztabelle** anmeldest — die Verbraucherzentrale rät
+ausdrücklich, sich „auf keinen Fall" auf Vorkasse einzulassen, und empfiehlt **Leistung Zug um Zug**.
+[Insolvenz](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/wenn-eine-firma-insolvent-wird-das-sind-ihre-rechte-10630)
+(geprüft 09.11.2026) Im Forum (bau.net) werden genau solche Fälle geschildert: Anzahlungsforderungen vor
+Auftragsbeginn, die über den Materialanteil hinausgehen — das ist ein **Problemhinweis, kein Beleg**
+dafür, wie häufig das ist [Fall 1](https://bau.net/forum/sanitaer/11239.php),
+[Fall 2](https://bau.net/forum/fenster-tueren/13376.php) (geprüft 09.11.2026, Forenbeiträge).
+
+**Mängel-Einbehalt.** Kannst du die Beseitigung eines Mangels verlangen, darfst du nach Fälligkeit einen
+angemessenen Teil der Vergütung zurückhalten — „angemessen ist in der Regel **das Doppelte** der für die
+Beseitigung des Mangels erforderlichen Kosten" (§ 641 Abs. 3 BGB). [§ 641 BGB](https://www.gesetze-im-internet.de/bgb/__641.html)
+(geprüft 09.11.2026) [Q41] Die Verbraucherzentrale formuliert dieselbe Größe als Praxisregel („mindestens das
+Doppelte dessen, was eine Behebung … voraussichtlich kosten wird"). [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026) Das ist **kein** Einbehalt „bis zur Abnahme" und **kein** Generalfreibrief: der
+Betrag muss sich auf einen konkreten, gerügten Mangel beziehen.
+
 ### 8.5 Die Dokumentenmappe (Bauwerksbuch)
 
 Pro Gewerk ein Ordner, digital plus einmal ausgedruckt:
@@ -631,9 +689,47 @@ Abnahmeprotokoll, Mängelliste mit Fristen, Herstellerunterlagen, Garantieschein
 
 Das ist bei einem Verkauf bares Geld und bei einem Schadensfall die Beweisgrundlage.
 
+### 8.6 Mängelrüge: Form, Frist, Eskalation
+
+Die Reihenfolge ist nicht Geschmackssache, sondern Voraussetzung für die nächste Stufe:
+
+1. **Schriftlich rügen, mit Foto und Datum.** Mündlich gerügte Mängel sind später kaum zu beweisen —
+   die Verbraucherzentrale rät ausdrücklich zu Schriftform plus Foto. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+   (geprüft 09.11.2026)
+2. **Frist setzen: ein bis zwei Wochen** sind nach derselben Quelle im Regelfall angemessen. Die
+   Nachbesserung ist für dich **kostenlos**.
+3. **Erst nach fruchtlosem Fristablauf selbst beauftragen.** § 637 Abs. 1 BGB: Der Besteller kann nach
+   erfolglosem Ablauf einer angemessenen Nacherfüllungsfrist den Mangel selbst beseitigen und Ersatz der
+   erforderlichen Aufwendungen verlangen; **Abs. 3** gibt einen **Vorschuss** auf diese Kosten.
+   [§ 637 BGB](https://www.gesetze-im-internet.de/bgb/__637.html) (geprüft 09.11.2026) [Q42]
+4. **Ohne Fristsetzung** geht es nur, wenn die Nacherfüllung fehlgeschlagen, verweigert oder dir
+   unzumutbar ist (§ 637 Abs. 2, § 323 Abs. 2 BGB) — nicht, weil du keine Zeit mehr hast.
+
+**Der Fehler, der die Kette abbricht:** Geld einbehalten, aber nie gerügt. Im Forum wird genau diese
+Reihenfolge berichtet — Mängel sind da, der Betrieb kommt unregelmäßig, der Bauherr behält einen Teil
+des Geldes ein, ohne vorher schriftlich gerügt und gefristet zu haben. Ergebnis: Der Betrieb klagt auf
+Zahlung, und der Einbehalt ist nicht mehr durchsetzbar, weil die Mängelanzeige fehlt.
+[Handwerker-Pfusch](https://bau.net/forum/handwerk/10202.php) (geprüft 09.11.2026, Forenbeitrag — nur
+Problemhinweis). Die Regel dahinter steht in § 641 Abs. 3 BGB und in der VZ-Reihenfolge „rügen → Frist →
+zurückhalten → nach Fristablauf selbst" [Q5].
+
+### 8.7 Rechnung prüfen, bevor du zahlst
+
+Eine Rechnung ist **prüffähig** oder sie ist es nicht. Zur prüfbaren Schlussrechnung gehören die
+Aufstellung nach Positionen **und** die Anlagen (Bautagebuch, Arbeitsnachweise, Maschineneinsatz,
+Belege von Drittfirmen). Du sollst das Angebot neben die Rechnung legen und Position für Position
+abgleichen können. Unklare oder unberechtigte Positionen **vor** der Zahlung schriftlich rügen; ist die
+Rechnung nicht prüfbar, forderst du eine prüfbare Schlussrechnung an. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026)
+
+Und die einfache Regel, die in der VZ-Checkliste steht: **erst vollständig zahlen, wenn alles zur
+Zufriedenheit erledigt ist** — Lohn, Fahrt und Material einzeln aufgeführt, weil genau diese Posten
+steuerlich relevant sind (§ 35a EStG, siehe `foerderung-steuern.md`). [Handwerker finden](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664)
+(geprüft 09.11.2026)
+
 ---
 
-## 9. Die zehn typischen Fehler — mit Folge und Paragraph
+## 9. Die zwölf typischen Fehler — mit Folge und Paragraph
 
 | # | Fehler | Was passiert | Norm |
 |---|---|---|---|
@@ -647,6 +743,8 @@ Das ist bei einem Verkauf bares Geld und bei einem Schadensfall die Beweisgrundl
 | 8 | Helfer nicht bei BG BAU angemeldet | Haftung für Personenschaden, Beitragsnachforderung | § 136 Abs. 3 SGB VII; BG BAU [Q17][Q26] |
 | 9 | „Ohne Rechnung" saniert | Vertrag nichtig, keine Gewährleistung, kein Werklohn | § 1 SchwarzArbG; BGH VII ZR 6/13 [Q15][Q28] |
 | 10 | Abnahme ohne Vorbehalt, keine Mängelliste | bekannte Mängel sind erledigt; 5-Jahres-Frist läuft ab | § 640 Abs. 3 BGB [Q5] |
+| 11 | Vorkasse/Anzahlung vor Leistungsbeginn ohne Sicherheit | bei Insolvenz nur Forderung zur Insolvenztabelle, Geld praktisch weg | § 632a BGB (Abschlag nur auf erbrachte Leistung) [Q40] |
+| 12 | Geld einbehalten, aber nie schriftlich gerügt und gefristet | Einbehalt nicht durchsetzbar, Betrieb klagt auf Zahlung; Selbstvornahme scheitert an § 637 | § 634 Nr. 4, § 637 BGB |
 
 ---
 
@@ -717,6 +815,10 @@ pflicht erfüllt hast — und die Grundlage für die Anmeldung bei der BG BAU [Q
 
 ## 11. Quellen — jede am 09.11.2026 per Abruf geprüft
 
+> **Prüfhinweis zu bau.net:** Die Foren-URLs antworten auf **HEAD mit 404**, auf **GET mit 200**
+> (nachgeprüft am 09.11.2026). `scripts/linkcheck.py` prüft zuerst per HEAD und meldet sie deshalb
+> fälschlich als tot — der Inhalt wurde jeweils per GET gelesen. Foren sind **Problemhinweis, kein Beleg**.
+
 **Bundesrecht (gesetze-im-internet.de, HTTP 200, Volltext gelesen):**
 
 - **[Q1]** BGB § 906 — Zuführung unwägbarer Stoffe.
@@ -768,6 +870,38 @@ pflicht erfüllt hast — und die Grundlage für die Anmeldung bei der BG BAU [Q
   https://www.gesetze-im-internet.de/bgb/__650c.html
 - **[Q40]** BGB § 632a — Abschlagszahlungen.
   https://www.gesetze-im-internet.de/bgb/__632a.html
+- **[Q41]** BGB § 641 — Fälligkeit der Vergütung; Abs. 3 Zurückbehaltung „in der Regel das Doppelte
+  der für die Beseitigung des Mangels erforderlichen Kosten" (Volltext geprüft).
+  https://www.gesetze-im-internet.de/bgb/__641.html
+- **[Q42]** BGB § 637 — Selbstvornahme nach fruchtloser Frist; Abs. 3 Vorschuss auf die Aufwendungen
+  (Volltext geprüft).
+  https://www.gesetze-im-internet.de/bgb/__637.html
+
+**Verbraucherzentrale (unabhängige Verbraucherberatung, für Verbraucherrechte und Vertragspraxis
+belegfähig) — und Foren (nur Problemhinweis, kein Beleg):**
+
+- **[Q43]** Verbraucherzentrale — „Handwerker: Was bei einem Auftrag zu beachten ist", Stand
+  **03.02.2026**. Belegt: Auftrag schriftlich (Umfang/Termin/Vergütung), Zeuge, 2–3 Kostenvoranschläge,
+  Kostenvoranschlag nur gegen ausdrückliche Vereinbarung vergütet, 15–20-%-Schwelle, Festpreis,
+  Vertragsstrafe, Verzugsfrist 1–2 Wochen, Abnahme + Vorbehaltssatz, Einbehalt „mindestens das
+  Doppelte", Nachbesserungsfrist 1–2 Wochen, prüffähige Rechnung mit Anlagen.
+  https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762
+- **[Q44]** Verbraucherzentrale — „Handwerker finden: So vermeiden Sie böse Überraschungen", Stand
+  **10.12.2025**. Belegt: Angebot bindend / Kostenvoranschlag unverbindlich, Vor-/Nach-/Nebenarbeiten
+  (beim Fenstertausch z. B. Gerüst), Vertragsinhalt Fenster (Anzahl, Maße, Rahmenmaterial,
+  Verglasungsart), Ergebnisprüfung, Rechnung erst nach Zufriedenheit zahlen.
+  https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664
+- **[Q45]** Verbraucherzentrale — „Wenn eine Firma insolvent wird: Das sind Ihre Rechte", Stand
+  **26.02.2025**. Belegt: Vorauszahlung wird Forderung zur Insolvenztabelle, „auf keinen Fall" Vorkasse,
+  Empfehlung Leistung Zug um Zug.
+  https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/wenn-eine-firma-insolvent-wird-das-sind-ihre-rechte-10630
+- **[Q46]** bau.net-Forum, Thread „Handwerker-Pfusch? Rechte & Reklamation" — berichtet: Mängel,
+  unregelmäßige Termine, Einbehalt ohne vorherige Mängelanzeige. **Nur Problemhinweis**, keine
+  Häufigkeitsaussage, keine Rechtsquelle.
+  https://bau.net/forum/handwerk/10202.php
+- **[Q47]** bau.net-Forum, Threads „Badmodernisierung: Hohe Anzahlung?" und „Vorauskasse bei
+  Fenstermodernisierung" — berichtet: Anzahlungsforderung vor Auftragsbeginn. **Nur Problemhinweis.**
+  https://bau.net/forum/sanitaer/11239.php · https://bau.net/forum/fenster-tueren/13376.php
 
 **Landesrecht Baden-Württemberg (nicht auf gesetze-im-internet.de):**
 
@@ -873,15 +1007,18 @@ Ehrlich benannt, damit du weißt, wo du nachfragen musst:
 8. **Bauphysikalische Details** zu Fachwerkdämmung (Diffusion, Tauwasser, Sockelanschluss) sind
    hier **nicht** belegt und gehören in `references/playbooks/daemmung.md` und
    `keller-mauerwerk.md`, nicht in dieses Rechts-Playbook.
+9. **Die 15–20-%-Schwelle beim Kostenvoranschlag ist Beratungspraxis, keine Gesetzeszahl.** Sie steht
+   so bei der Verbraucherzentrale [Q43], nicht im BGB; das Gesetz verlangt bei „wesentlicher
+   Überschreitung" eine unverzügliche Anzeige, nennt aber keinen Prozentsatz. Wer die Zahl im Streit
+   braucht, stützt sich auf die VZ-Aussage — nicht auf einen Paragraphen.
+10. **bau.net ist kein Beleg.** Die Forenthreads [Q46][Q47] belegen nur, dass ein Problem **auftritt**,
+    nicht wie oft, nicht in welcher Höhe und nicht, was rechtlich gilt. Jede Regel in diesem Playbook,
+    die sich auf einen Forenfall stützt, ist zusätzlich mit Gesetz oder Verbraucherzentrale belegt.
+11. **Ob eine Vertragsstrafe bei Terminüberschreitung durchsetzbar ist,** hängt an ihrer Formulierung
+    (Höhe, Verschulden, AGB-Kontrolle). Die VZ nennt sie als Mittel [Q43], bewertet aber keine
+    konkreten Klauseln — im Streit ist das Anwaltsarbeit.
 
 ---
-
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Schwarzarbeit ist kein Bagatelldelikt**: Wer Handwerker ohne Rechnung beschäftigt, riskiert
-  Nachzahlung von Lohnsteuer und Sozialabgaben, den Verlust der Steuerabzüge nach § 35a EStG — und
-  **keine Gewährleistung**, weil ohne Rechnung kein Vertragsnachweis existiert. Die Handwerkerhaftung
-  greift nur bei dokumentierter Beauftragung.
 
 ## 13. Die Kurzfassung auf einer Seite
 

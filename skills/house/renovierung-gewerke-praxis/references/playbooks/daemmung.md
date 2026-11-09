@@ -83,6 +83,12 @@ sommerlicher Wärmeschutz schwach `[Q19]`) und das Gesundheitsthema KMF: **Glasw
 krebserregend**, neue Wolle ist mit RAL-Gütezeichen unbedenklich, reizt aber Haut und Atemwege — Staubschutz,
 Handschuhe, nicht quetschen `[Q13]`.
 
+**Warum Wasser der eigentliche Feind ist, in einer Zahl:** trockene Dämmwolle hat einen Luftanteil von **bis zu
+92 %** — dieser Luftanteil *ist* die Dämmwirkung. Wasser leitet Wärme deutlich besser als Luft, verdrängt sie
+im Porenraum und nimmt damit genau das weg, was bezahlt wurde. Deshalb ist „die Dämmung ist nass" kein
+Schönheitsfehler, sondern ein λ-Verlust, und deshalb steht Feuchteschutz vor Dämmstärke
+[BauNetz: Dämmung und Feuchteschäden](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/daemmung-und-feuchteschaeden-energetische-ziele-und-bilanzierung-5019664) (geprüft 09.11.2026).
+
 **Holzfaser** ist der Stoff für Bauherren, die sommerlichen Hitzeschutz und Feuchteregulierung mitkaufen wollen:
 c 2.100–2.500, μ = 2, sd-Wert 0,08 m bei 40 mm `[Q21]` — also **diffusionsoffen und kapillaraktiv**, was
 Innendämmung und Altbaudach erst verträglich macht. Preis: mehr als das Doppelte von EPS `[Q13]`.
@@ -100,6 +106,11 @@ Stellen: Kellerdecke mit begrenzter Höhe und Gauben/Nischen.
 **Schaumglas** ist die Antwort auf „darf nass werden": geschlossenzellig, druckfest, A1, nimmt praktisch kein
 Wasser auf. Deshalb Sockel, Perimeter, Flachdach, Bodenplatte. λ 0,038–0,055 nach `[Q19]`, nach `[Q24]` bis 0,070
 — die Streuung ist Produktqualität, nicht Messfehler.
+
+Der eine Fehler, der Schaumglas zerstört, sitzt an der **Schnittkante**: dort werden die Zellen geöffnet, Wasser
+dringt ein, und der Frost-Tau-Wechsel sprengt das Gefüge bis zum Totalverlust der Dämmwirkung. Deshalb sind
+Schnittflächen und Platten allseitig zu beschichten (Bitumen) und Platten nicht mit offener Kante zu verlegen
+[BauNetz: Dämmung und Feuchteschäden](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/daemmung-und-feuchteschaeden-energetische-ziele-und-bilanzierung-5019664) (geprüft 09.11.2026).
 
 **Glasschaum-Schotter** ist kein Plattenstoff, sondern eine Schüttung unter der Bodenplatte: kapillarbrechend,
 lastabtragend, A1, aus Recyclingglas. λ 0,060–0,120 `[Q24]` ist der schlechteste Wert der ganzen Liste — dafür
@@ -141,6 +152,17 @@ daran, dass biogener Kohlenstoff in den Quellen unterschiedlich verbucht wird (s
   vergleicht, muss fragen: **mit oder ohne biogenen Kohlenstoff, welches Modul, welche Rohdichte?**
 - **Mineraldämmplatte λ.** `[Q13]` nennt in der Tabelle 0,035, im Text darunter 0,045 W/(m·K) — innerhalb einer
   Quelle. Der Textwert deckt sich mit `[Q24]` (≈ 0,045); die Tabelle ist der Ausreißer.
+- **Kalziumsilikat-λ.** `[Q19]` nennt 0,05–0,07 W/(m·K), BauNetz nennt **0,065–0,1**
+  [BauNetz: Innendämmsysteme](https://www.baunetzwissen.de/daemmstoffe/fachwissen/daemmstoffe/innendaemmsysteme-1660707) (geprüft 09.11.2026).
+  Der untere Rand deckt sich, der obere nicht: 0,1 ist der Wert für die schwächste Platte, 0,05 für die beste.
+  Für den U-Wert der Innendämmung zählt der Bemessungswert des **eingenauten** Produkts, nicht der beste Katalogwert.
+- **WDVS-Dübel und Algen — Vorzeichen streitig.** `[Q28]` führt 40–50 Dübel-Wärmebrücken pro Fassade als Grund
+  für Schwarzalgen an. BauNetz beschreibt denselben Mechanismus mit umgekehrtem Ergebnis: im Bereich des
+  Kunststoffdübels ist die Oberfläche **wärmer** als die angrenzende Dämmfläche und trocknet schneller, „was einen
+  Befall mit Algen vorbeugt"
+  [BauNetz: Wärmebrücken: Arten](https://www.baunetzwissen.de/bauphysik/fachwissen/waermeschutz/waermebruecken-arten-4386775) (geprüft 09.11.2026).
+  Beides ist nicht gleichzeitig richtig. Die Auflösung liegt im Dübelsystem (Metallanker leitet, Kunststoffteller
+  dämmt) — wer Algen auf eine Dübelreihe zurückführt, muss das verbaute System zeigen, nicht die Anzahl.
 - **Sommerlicher Wärmeschutz, Normstand.** § 14 GModG verweist auf **DIN 4108-2:2013-02** `[Q04]`; die
   Fachliteratur beschreibt die Novellierung der Norm `[Q07][Q25]`. Wer heute nachweist, muss die im Gesetz
   zitierte Fassung und die vertraglich vereinbarte auseinanderhalten.
@@ -253,22 +275,65 @@ Wer nur die Kellerdecke dämmt, lässt die Kellerwand als „Kühlrippe" stehen.
 pragmatischen Kompromiss: die **oberen 50 cm der Kellerwand** mitdämmen, etwa **6 cm** Dicke, weil dort der
 Übergang zur Außenwand liegt `[Q16]`.
 
+**Der Aufbau, wenn nicht drückendes Wasser ansteht** (von außen): Sperrschicht als Abklebung oder
+Dickbeschichtung auf das Mauerwerk, darauf die Perimeterdämmplatten im Verband mit lösungsmittelfreier
+Klebemasse verklebt, sodass eine Hinterspülung ausgeschlossen ist; bei mehrlagigem Aufbau Fugen versetzt;
+davor eine Dränschicht aus Kies mit eingelegten Dränagerohren. Lichtschächte möglichst entfernen, neue Elemente
+thermisch getrennt **vor** der Dämmebene anbringen — sonst ist der Schacht die Wärmebrücke, die die Dämmung
+wieder aufhebt [BauNetz: Perimeterdämmung](https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/perimeterdaemmung-2592175) (geprüft 09.11.2026).
+
+**Materialgrenze, die oft falsch zitiert wird:** XPS ist geschlossenzellig und deshalb auch bei drückendem Wasser
+einsetzbar, Schaumglas wird vollflächig verklebt (damit kein Wasser zwischen Bauwerk und Dämmung läuft). **EPS
+ist dagegen nur bei nicht drückendem Wasser bzw. Bodenfeuchte zulässig** und braucht als Perimeterdämmung eine
+allgemeine bauaufsichtliche Zulassung des DIBt. In der Hohlkehle gehört eine Sonderplatte mit gerundeten Kanten
+eingebaut, sonst beschädigt die Plattenkante die Abdichtung
+[BauNetz: Kelleraußenwände dämmen](https://www.baunetzwissen.de/daemmstoffe/fachwissen/wand/kelleraussenwaende-daemmen-2436347) (geprüft 09.11.2026).
+
+**Das ist ein Widerspruch zur Liste oben** (`[Q19]` nennt nur XPS, PUR und Schaumglas): `[Q19]` beschreibt die
+uneingeschränkt geeigneten Stoffe, BauNetz die bedingte Zulassung von EPS. Für die Ausschreibung heißt das —
+„Perimeterdämmung EPS" ist nur mit Zulassungsnachweis und nur für den Lastfall Bodenfeuchte/nicht drückendes
+Wasser (W1-E) zulässig, nicht für W2-E.
+
+Der U_max von **0,30 W/(m²K)** für Wände gegen Erdreich gilt für Wohngebäude und für Zonen von Nichtwohngebäuden
+mit Innentemperaturen **≥ 19 °C** — wer eine unbeheizte Zone als „Nichtwohngebäude" deklariert, ändert damit
+nichts an der Anforderung, sondern nur am Rechenweg
+[BauNetz: Perimeterdämmung](https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/perimeterdaemmung-2592175) (geprüft 09.11.2026).
+
 ### 2.7 Innendämmung — die riskanteste Variante
 
 Innendämmung ist die einzige Dämmung, die den Taupunkt **in die Wand verschiebt** und damit Feuchte erzeugt, die
 vorher nicht da war `[Q28]`. Sie ist trotzdem richtig — aber nur unter Bedingungen: denkmalgeschützte Fassade,
 einzelne Wohnung, keine außenseitige Möglichkeit.
 
-Bautechnisch gilt: **kapillaraktiv** dämmen (Holzfaser, Calciumsilikat, Mineralschaum) und raumseitig eine
-Dampfbremse mit definiertem sd-Wert, die Anschlüsse luftdicht. Calciumsilikat hat λ 0,05–0,07 und wird wegen
+Bautechnisch gilt: **kapillaraktiv** dämmen (Holzfaser, Calciumsilikat, Mineralschaum); bei Systemen **mit**
+Dampfbremse sitzt sie raumseitig mit definiertem sd-Wert, und alle Anschlüsse sind luftdicht. Calciumsilikat hat
+λ 0,05–0,07 und wird wegen
 seines hohen pH-Werts und der Kapillarität für genau diese Fälle eingesetzt `[Q19]`. Ein Luftspalt zwischen
 Dämmung und Wand ist ein Fehler, keine Entkopplung: dort zirkuliert Raumluft und kondensiert `[Q28]`.
+
+**Drei Systemfamilien, nicht ein System:** *kapillaraktiv* (z. B. Kalziumsilikatplatten, arbeitet **ohne**
+raumseitige Dampfbremse, reguliert Feuchte über die Kapillarität — Voraussetzung ist vollflächiges Verkleben
+ohne Hohlraum); *diffusionsoffen* (feuchtevariable Dampfbremse plus Faserdämmstoff, für Wände, die nach innen
+austrocknen müssen, z. B. Sichtfachwerk); *mit Dampfbremse* (Hartschaumplatten, die selbst die Bremse sind, oder
+Mineralwolle plus Folie). In allen drei Fällen muss die Außenwand trocken, schimmelfrei und schlagregendicht
+sein, und aufsteigende Baufeuchte ist vorher auszuschließen
+[BauNetz: Innendämmsysteme](https://www.baunetzwissen.de/daemmstoffe/fachwissen/daemmstoffe/innendaemmsysteme-1660707) (geprüft 09.11.2026).
+λ für Kalziumsilikat gibt dieselbe Quelle mit **0,065 bis 0,1 W/(m·K)** an, nicht mit 0,05–0,07 — der
+Widerspruch steht in 1.4.
 
 **Wichtig gegen ein verbreitetes Missverständnis:** DIN 4108-3 führt „Wände mit Innendämmung ohne
 Schlagregenbeanspruchung" ausdrücklich unter den **nachweisfreien Konstruktionen** `[Q08]`. „Ohne Feuchtenachweis"
 ist also nicht automatisch ein Pfusch — es ist der Normalfall für diese Konstruktion, **sofern** der Mindestwärmeschutz
 und die luftdichte Ausführung nach DIN 4108-7 eingehalten sind. Ein Nachweis ist Pflicht, sobald die Konstruktion
 nicht in dieser Liste steht (Schlagregen, Holz, Sonderaufbau).
+
+Die Nachweisfreiheit hängt aber an **zwei Zahlen**, die selten danebenstehen: zulässig ist sie bei Innendämmung
+mit Innenputz, wenn der Innenputz einen Wärmedurchlasswiderstand **R ≤ 1,0 m²K/W** und der Aufbau raumseitig
+**sd,i ≥ 0,5 m** hat; bei Holzbauweise nach DIN 68800-2 mit außenseitigem WDVS oder VHF gilt **sd,i ≥ 2 m**; bei
+von innen gedämmtem Sichtfachwerk **R ≤ 1,0 m²K/W** und raumseitige Bekleidung mit **sd,i 1,0–2,0 m**
+[BauNetz: Nachweisfreie Konstruktionen](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/nachweisfreie-konstruktionen-des-feuchteschutzes-4828674) (geprüft 09.11.2026).
+Wer dicker oder dichter baut als diese Grenzen, verlässt den nachweisfreien Bereich und braucht den
+Glaser-Nachweis — auch wenn die Konstruktion „Innendämmung ohne Schlagregen" heißt.
 
 ### 2.8 Sockel
 
@@ -333,6 +398,22 @@ DIN 4108-3 ist die Norm für den klimabedingten Feuchteschutz; ihr rechnerisches
 **Glaser-Verfahren**: es vergleicht den Dampfdruckverlauf mit dem Sättigungsdampfdruck im Bauteil und ermittelt,
 wo und wie viel Tauwasser im Winter ausfällt `[Q08]`.
 
+**Die Randbedingungen, mit denen gerechnet wird** (sie stehen in der Norm, nicht im Datenblatt):
+Tauperiode **90 Tage = 2.160 Stunden**, Dezember bis Februar, innen **20 °C / 50 % rF** → Wasserdampfpartialdruck
+**1.168 Pa**, außen **−5 °C / 80 % rF** → **321 Pa**; Verdunstungsperiode **90 Tage = 2.160 Stunden**, Juni bis
+August, innen und außen je **1.200 Pa**. Die Norm unterscheidet vier Lastfälle: kein Tauwasser, Ausfall in einer
+Ebene, in zwei Ebenen, in einem Bereich
+[BauNetz: Tauwasser und Glaser-Verfahren](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/tauwasser-und-glaser-verfahren-4421843) (geprüft 09.11.2026).
+Der Wert dieser Zahlen liegt nicht in der Genauigkeit, sondern in der Vergleichbarkeit: −5 °C über 90 Tage sind
+nicht das Klima jeder Region, und die Norm rechnet bewusst mit einer Sicherheit. Wer mit anderen Randbedingungen
+rechnet, muss das sagen — sonst sind zwei „Tauwasser-Nachweise" nicht vergleichbar.
+
+Für beidseitig eingeschlossene Holzkonstruktionen nennt dieselbe Quelle zusätzlich eine **Empfehlung** (keine
+Normanforderung) von **maximal 0,25 kg/m²** Tauwassermasse
+[BauNetz: Tauwasser und Glaser-Verfahren](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/tauwasser-und-glaser-verfahren-4421843) (geprüft 09.11.2026) —
+strenger als die 1,0/0,5 kg/m², die als Normgrenze gelten, und der Wert, der bei Streitfällen über Holzaufbauten
+zuerst genannt wird.
+
 Tauwasser ist **nicht grundsätzlich verboten**. Unschädlich ist es, wenn `[Q08]`:
 
 - das Wasser in der Tauperiode (Winter) anfällt und in der Verdunstungsperiode (Sommer) wieder abgegeben wird,
@@ -351,6 +432,21 @@ Holzwände nach DIN 68800-2, erdberührte Wände mit Bauwerksabdichtung/Perimete
 Perimeterdämmung, Außenwände mit zugelassenem WDVS und Warmdächer mit raumseitigem sd ≥ 100 m (ohne Holzbauteile
 dazwischen) `[Q08]`. Wer eine dieser Konstruktionen baut, braucht keinen Glaser-Nachweis — aber die
 Randbedingungen müssen exakt passen.
+
+**Warum der Nachweis trotzdem schnell Pflicht wird:** DIN 4108-3 zählt zu den **bauaufsichtlich eingeführten**
+technischen Regeln (Musterbauordnung § 3 Abs. 3, Muster-Liste der Technischen Baubestimmungen); die Nachweise
+sind deshalb bereits im Bauantragsverfahren abzustimmen. Das DIBt nimmt in dieser Muster-Liste (Abschnitt A 6.2)
+allerdings die **Anhänge B und D** aus — die hygrothermische Simulation nach Anhang D ist damit **nicht**
+bauaufsichtlich eingeführt, obwohl die Norm sie beschreibt. Wer eine Simulation als „normgerechten Nachweis"
+verkauft, überzeichnet ihren Status; wer sie braucht (außenseitig dampfbremsende Schichten, Dachbegrünung,
+feuchtevariable Baustoffe), muss sie als vereinbarte Zusatzleistung beauftragen
+[BauNetz: DIN 4108-3 – Grenzen der Anwendbarkeit](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/din-4108-3-die-grenzen-der-anwendbarkeit-im-feuchteschutz-4794266) (geprüft 09.11.2026).
+
+**Wann die Simulation die richtige Antwort ist:** Das vereinfachte Periodenbilanzverfahren lässt veränderliche
+Klimarandbedingungen, Baufeuchte, Strahlungswärme, Nutzschichten (Gründächer) und feuchteabhängige
+Materialkennwerte außer Acht. Genau dann gilt das genaue Verfahren nach **DIN EN 15026** — über mehrere Jahre,
+mit realitätsnahen Klimadaten
+[BauNetz: Rechnerischer Nachweis des Tauwasserschutzes](https://www.baunetzwissen.de/holz/fachwissen/waerme--und-feuchteschutz/rechnerischer-nachweis-des-tauwasserschutzes-8607305) (geprüft 09.11.2026).
 
 ### 3.3 sd-Wert und die Richtung der Dampfbremse
 
@@ -427,7 +523,9 @@ Akademikerproblem, sondern die zweite große Verlustquelle nach der undichten Da
 
 - **Fensterleibung**, wenn sie nicht in die Dämmebene gezogen wird → Schimmel in der Laibung `[Q28]`
 - **Deckenauflager** und **Balkonplatten**, die durch die Dämmung stoßen (der Klassiker: Stahlbeton λ ≈ 2,1)
-- **Ecken** (geometrisch bedingt, auch ohne Materialfehler)
+- **Ecken** (geometrisch bedingt, auch ohne Materialfehler): die Innenoberfläche liegt dort **2–3 K** unter der
+  angrenzenden Wandfläche — der Grund, warum der Befall in der Ecke beginnt und die Fläche daneben sauber bleibt
+  [BauNetz: Wärmebrücken: Arten](https://www.baunetzwissen.de/bauphysik/fachwissen/waermeschutz/waermebruecken-arten-4386775) (geprüft 09.11.2026).
 - **Dübel** im WDVS ohne thermische Trennung — 40–50 Stück pro Fassade `[Q28]`
 - **Rollladenkästen** und **Heizkörpernischen**, die nicht mitgedämmt werden `[Q26]`
 - **Sparren** im Dach (Holz λ ≈ 0,13 gegen Dämmung 0,035) `[Q24]`
@@ -534,21 +632,37 @@ Alle mit Quelle; die Video-Fälle mit Zeitmarke im Transkript (`references/trans
 2. **WDVS nicht fugenfrei verklebt** (kein Punkt-/Wulst-Batzen-Verfahren): Luft strömt hinter der Dämmung von
    unten nach oben, die Außendämmung ist wirkungslos `[Q28, 00:02:41]`.
 3. **Hohlraum nicht erkannt:** 2–3 cm Luft rund ums Haus sind bei 7 m³ Füllvolumen eine Größenordnung, die man
-   **vor** dem Verputzen kontrolliert und schließt `[Q28, 00:03:50]`.
-4. **Innendämmung mit Luftspalt** erzeugt einen Taupunkt in der Wand; nur vollflächig, fugenfrei verklebt, mit
-   Dampfbremse und luftdichten Anschlüssen `[Q28, 00:04:37]`. Muffiger Geruch ist das Indiz.
+   **vor** dem Verputzen kontrolliert und schließt `[Q28, 00:03:50]`. Bei einem Einfamilienhaus kommen schnell
+   **7 m³ Schüttgut als Größenordnung** zusammen, wenn hinter der Dämmung Luft bleibt (TszegjPc69w-03); Luft
+   hinter den Platten strömt (Konvektion), die Dämmwirkung ist weg, obwohl die Dicke stimmt. Vor dem Verputzen
+   abklopfen und Hohlstellen nachkleben (TszegjPc69w-03).
+4. **Innendämmung mit Luftspalt** erzeugt einen Taupunkt in der Wand — es kommt zu Schimmel und Frostschäden.
+   Nur vollflächig, fugenfrei verklebt, mit Dampfbremse und luftdichten Anschlüssen, kein Luftspalt
+   `[Q28, 00:04:37]`. Muffiger Geruch ist das Indiz.
+   **Vollflächige, fugenfreie Verklebung** ist die Regel — Punktverklebung nur, wo der Untergrund es zulässt,
+   sonst Konvektion (TszegjPc69w-04).
 5. **Tiere im WDVS:** ohne **Abschlussschiene unten** graben Mäuse und Marder Gänge in die Platten, Kot im
-   Hohlraum; kein Gift in der Dämmebene `[Q28, 00:05:22]`.
+   Hohlraum; kein Gift in der Dämmebene `[Q28, 00:05:22]`. Unten offen wirkt die Dämmung wie ein Kamin, kalte
+   Luft zieht hinter die Platten — Abschlussprofil bzw. Sockelanschluss vorsehen (TszegjPc69w-05).
+   Tiergänge entstehen vor allem in **Plattendämmung vs. Schütt-/Zellulosedämmung**: in Schütt- und
+   Zellulosedämmung passiert das kaum, in Plattenware sehr leicht (TszegjPc69w-05).
 6. **Dachdämmung innen ohne wasserführendes Unterdach und ohne Dampfbremse:** Wasser darf nie in den Dämmstoff
    tropfen; im Altbau fehlt das Unterdach häufig `[Q28, 00:06:07]`.
-7. **Fensterleibung nicht in die Dämmung gezogen** → Wärmebrücke, Schimmel in der Laibung. Bei Kerndämmung im
-   zweischaligen Mauerwerk ist die Wärmebrücke nicht beseitigbar; dann Calciumsilikat raumseitig `[Q28, 00:08:00]`.
+7. **Fensterleibung nicht in die Dämmung gezogen** → Wärmebrücke, Schimmel in der Laibung; die Dämmung in die
+   Leibung hineinziehen. **„Stockflecken" ist Schimmel, nicht harmlos**: braune Flecken an der Leibung sind
+   ein Feuchteindiz, kein Schönheitsfehler (TszegjPc69w-07). Bei Kerndämmung im zweischaligen Mauerwerk ist
+   die Wärmebrücke nicht beseitigbar; dann Calciumsilikat raumseitig `[Q28, 00:08:00]`.
 8. **Dämmstoff zusammengepresst:** gequetschte Matten haben keine Lufteinschlüsse mehr, Glasfaser liegt an
-   Glasfaser, die Dämmwirkung bricht ein — trotzdem fugenfrei anliegen `[Q28, 00:11:03]`.
+   Glasfaser, die Dämmwirkung bricht ein — trotzdem fugenfrei anliegen `[Q28, 00:11:03]`. Nie in Hohlräume
+   pressen, lieber passend schneiden — **kleine Luftporen = besserer Dämmwert** (TszegjPc69w-09).
 9. **Fugen mit Mörtel oder Putz verfüllt:** Mörtel leitet Wärme, die Fuge bleibt Wärmebrücke `[Q28, 00:14:30]`.
 10. **Plattenware im Dach/Leichtbau:** starre Platten lassen sich zwischen Sparren nicht fugenfrei einbauen →
-    Matten oder Einblasdämmung `[Q28, 00:15:18]`.
+    Matten oder Einblasdämmung `[Q28, 00:15:18]`. **Plattendämmstoffe im Dach ungeeignet**: bei Leichtbau und
+    Dachschräge **Matten- oder Einblasdämmstoff wählen**, sonst bleiben Fugen — bei Dachschräge und Leichtbau
+    einblasen (Zellulose) oder zweite Lage versetzt (TszegjPc69w-12).
 11. **Fehlende Dampfbremse im Leichtbau** und **Dübel-Wärmebrücken** (40–50 Stück) `[Q28, 00:16:27, 00:12:11]`.
+    **40–50 Wärmebrücken im Beispiel** durch durchgehende Metalldübel — thermisch getrennte Tellerdübel
+    verwenden (TszegjPc69w-10).
 12. **Sommerlichen Hitzeschutz ignoriert.** Wer nur auf λ schaut, kauft eine Dämmung, die im Winter gut und im
     Sommer nutzlos ist; c und außenliegender Sonnenschutz entscheiden `[Q19][Q04]`.
 13. **Innendämmung ohne Prüfung der Nachweisfreiheit.** Zulässig ist der Verzicht auf den Glaser-Nachweis nur
@@ -561,6 +675,8 @@ Alle mit Quelle; die Video-Fälle mit Zeitmarke im Transkript (`references/trans
     Atemwege — Handschuhe, Atemschutz, keine offene Haut `[Q13]`.
 17. **U-Wert mit dem Nennwert gerechnet** statt mit dem Bemessungswert: 0,037 vs. 0,038 klingt nach nichts,
     ist aber ein systematischer Fehler in jedem Nachweis `[Q09]`.
+18. **Split-Klimaanlage vergessen:** Leerrohr bzw. Kabelkanal für die Kältemittelleitung muss vor der Dämmung
+    liegen, sonst bleibt nur Aufputz (sWXyiNADbFk-11).
 
 ---
 
@@ -767,6 +883,39 @@ Zwei weitere Videos wurden nur auf Existenz/Titel geprüft (oEmbed), **nicht inh
 *Dachdämmung richtig verstehen in nur 15 min* (https://www.youtube.com/watch?v=b84FyffRoRY) und
 *Welche Dämmung schützt am besten vor HITZE?* (https://www.youtube.com/watch?v=9cTUFoRMQd0).
 
+**[Q29]** BauNetz Wissen — *Perimeterdämmung. Nachträgliche Außendämmung für Kellerwände bei nicht drückendem
+Wasser* (Aufbau Sperrschicht → Platten im Verband → Kiesdränung; Lichtschächte entfernen; U_max 0,30 W/(m²K) bei
+Innentemperaturen ≥ 19 °C). https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/perimeterdaemmung-2592175
+
+**[Q30]** BauNetz Wissen — *Kelleraußenwände dämmen* (XPS auch bei drückendem Wasser, EPS nur bei Bodenfeuchte und
+mit DIBt-Zulassung, Schaumglas vollflächig verklebt, Sonderplatte in der Hohlkehle).
+https://www.baunetzwissen.de/daemmstoffe/fachwissen/wand/kelleraussenwaende-daemmen-2436347
+
+**[Q31]** BauNetz Wissen — *Nachweisfreie Konstruktionen des Feuchteschutzes* (Innendämmung mit Innenputz
+R ≤ 1,0 m²K/W und sd,i ≥ 0,5 m; Holzbau sd,i ≥ 2 m; Fachwerk sd,i 1,0–2,0 m; Fugenanteil ≥ 5 %).
+https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/nachweisfreie-konstruktionen-des-feuchteschutzes-4828674
+
+**[Q32]** BauNetz Wissen — *Innendämmsysteme. Kapillaraktiv, diffusionsoffen oder mit Dampfbremse* (drei
+Systemfamilien; Kalziumsilikat λ 0,065–0,1 W/(m·K); Voraussetzung trockene, schlagregendichte Außenwand).
+https://www.baunetzwissen.de/daemmstoffe/fachwissen/daemmstoffe/innendaemmsysteme-1660707
+
+**[Q33]** BauNetz Wissen — *Wärmebrücken: Arten* (material-, konstruktions- und geometriebedingt; Raumecke 2–3 K
+kälter; Kunststoffdübel trocknet die Fassade punktuell und beugt Algen vor — Gegenposition zu `[Q28]`).
+https://www.baunetzwissen.de/bauphysik/fachwissen/waermeschutz/waermebruecken-arten-4386775
+
+**[Q34]** BauNetz Wissen — *DIN 4108-3: Die Grenzen der Anwendbarkeit im Feuchteschutz* (bauaufsichtlich
+eingeführte Norm nach MBO § 3 Abs. 3; DIBt Muster-Liste A 6.2 nimmt Anhänge B und D aus; Artikel bezieht sich auf
+die Fassung 2018-10). https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/din-4108-3-die-grenzen-der-anwendbarkeit-im-feuchteschutz-4794266
+
+**[Q35]** BauNetz Wissen — *Dämmung und Feuchteschäden: Energetische Ziele und Bilanzierung* (Dämmwolle bis 92 %
+Luftanteil; Schaumglas-Schnittkanten offene Poren, Frost-Tau-Sprengung, Bitumenbeschichtung).
+https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/daemmung-und-feuchteschaeden-energetische-ziele-und-bilanzierung-5019664
+
+**[Q36]** BauNetz Wissen — *Rechnerischer Nachweis des Tauwasserschutzes* (Grenzen des Periodenbilanzverfahrens;
+hygrothermische Simulation nach DIN EN 15026). Berücksichtigt Tabelle 1 aus DIN 4108-3 und DIN 68800-2.
+https://www.baunetzwissen.de/holz/fachwissen/waerme--und-feuchteschutz/rechnerischer-nachweis-des-tauwasserschutzes-8607305
+
+
 **Normen (Nummer/Ausgabe belegt, Volltext kostenpflichtig):** DIN 4108-2:2013-02 (vom GModG in § 14 zitiert),
 DIN 4108-3 (klimabedingter Feuchteschutz; Ausgabe 2024-03 nach `references/quellen.md`), DIN 4108-4:2020-11
 (Bemessungswerte), DIN 4108-7 (Luftdichtheit), DIN 4108 Beiblatt 2:2019 (Wärmebrücken), DIN 4102-1
@@ -774,33 +923,6 @@ DIN 4108-3 (klimabedingter Feuchteschutz; Ausgabe 2024-03 nach `references/quell
 DIN EN 13162/13171 (Mineralwolle/Holzfaser), DIN EN ISO 6946 (U-Wert).
 
 ---
-
-## Fehler aus den Video-Quellen (Praxis, mit Zeitmarke im Transkript)
-
-- **Hohlraum hinter der Außendämmung**: Luft hinter den Platten strömt (Konvektion), die Dämmwirkung ist
-  weg, obwohl die Dicke stimmt. Vor dem Verputzen abklopfen und Hohlstellen nachkleben (TszegjPc69w-03).
-- **Innendämmung mit Luftspalt zur Außenwand**: der Taupunkt wandert in die Wand, es kommt zu Schimmel und
-  Frostschäden. Platten vollflächig verklebt, kein Luftspalt (TszegjPc69w-04).
-- **Plattendämmung ohne unteren Abschluss**: unten offen wirkt wie ein Kamin, kalte Luft zieht hinter die
-  Dämmung. Abschlussprofil bzw. Sockelanschluss vorsehen (TszegjPc69w-05).
-- **Dämmung endet stumpf vor der Fensterleibung**: die Leibung bleibt Wärmebrücke und schimmelt. Dämmung
-  in die Leibung hineinziehen (TszegjPc69w-07).
-- **Dämmstoff zusammengepresst**: gequetschte Matten verlieren Luftporen, der λ-Wert steigt messbar. Nie
-  in Hohlräume pressen, lieber passend schneiden (TszegjPc69w-09).
-- **Durchgehende Metalldübel im WDVS**: 40–50 Wärmebrücken, sichtbar als Algenflecken. Thermisch getrennte
-  Tellerdübel verwenden (TszegjPc69w-10).
-- **Plattenware in der Dachdämmung / im Leichtbau**: zwischen den Platten bleiben Fugen und Hohlräume.
-  Bei Dachschräge und Leichtbau einblasen (Zellulose) oder zweite Lage versetzt (TszegjPc69w-12).
-- **Split-Klimaanlage vergessen**: Leerrohr bzw. Kabelkanal für die Kältemittelleitung muss vor der
-  Dämmung liegen, sonst bleibt nur Aufputz (sWXyiNADbFk-11).
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Größenordnung Hohlraum**: bei einem Einfamilienhaus kommen schnell **7 m³ Schüttgut als Größenordnung** zusammen, wenn hinter der Dämmung Luft bleibt (TszegjPc69w-03).
-- **Vollflächige, fugenfreie Verklebung** ist die Regel — Punktverklebung nur, wo der Untergrund es zulässt, sonst Konvektion (TszegjPc69w-04).
-- **„Stockflecken" ist Schimmel, nicht harmlos**: braune Flecken an der Leibung sind ein Feuchteindiz, kein Schönheitsfehler (TszegjPc69w-07).
-- **40–50 Wärmebrücken im Beispiel** durch durchgehende Metalldübel — thermisch getrennte Tellerdübel (TszegjPc69w-10).
-- **Plattendämmstoffe im Dach ungeeignet**: bei Leichtbau und Dachschräge **Matten- oder Einblasdämmstoff wählen**, sonst bleiben Fugen (TszegjPc69w-12).
 
 ## 11. Unbelegt
 

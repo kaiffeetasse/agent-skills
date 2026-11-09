@@ -47,6 +47,8 @@
 - **Dünnbett kann keinen Höhenausgleich.** Ebenheit ist Voraussetzung; sonst spachteln oder Platte aufschrauben `[Q12]`.
 - **Grundierung nach Saugfähigkeit wählen**, nicht „irgendeine": stark und unterschiedlich saugend → Grundierung/Sperrgrund; nicht saugfähig → Haftprimer; Calciumsulfatestrich → Multigrund/Sperrgrund `[Q2]`. PCI: stark saugende Zementuntergründe mit Gisogrund **1 : 1 mit Wasser** `[Q1]`.
 - **Warum überhaupt grundieren:** Der Estrich zieht dem Kleber das Wasser weg, der Kleber bindet zu schnell ab und haftet nicht. MrHandwerk nennt genau das „Fehler 1" (Min. 02:20–02:41) `[Q14]`.
+- **Eben, trocken, staubfrei:** Die Ebenheit mit **Wasserwaage/Richtscheit** prüfen — **1–2 mm auf 2 m** sind die Toleranz, ab der es sichtbar wird (3tVsWxStiL0 00:01:19).
+- **Haftgrund/Isoliergrund nicht weglassen:** saugender Beton zieht dem Kleber das Wasser weg; **24 Stunden Einwirkzeit** vor dem Verlegen einplanen (3tVsWxStiL0 00:02:05).
 
 ### 1.3 Abdichtung — nur Nassbereich, aber dann richtig
 
@@ -56,9 +58,17 @@
 - **Höhen:** Ist nur der Boden abzudichten, muss die Abdichtung **mindestens 5 cm über OKFF** an der Wand hochgeführt werden `[Q4]`. Bei **W2-I/W3-I** ist die Abdichtung **mindestens 20 cm über die höchste Zapfstelle** zu führen `[Q5]`.
 - **Systemtreue:** Alle Komponenten einer Verbundabdichtung (AIV) müssen im System geprüft sein und ein **abP oder ETA** haben `[Q4]`. Handwerkskult (Fliesenlegermeister) im Video: „ihr müsst komplett im System bleiben, das heißt von der Grundierung über die …" (Min. 02:40) `[Q7]`.
 - **Details, die Laien weglassen:** Dichtmanschetten an Rohrdurchführungen (mit flexibler Dichtlippe), Dichtband in Ecken, Abdichtung in Türleibungen hochziehen, unter/hinter Wannen fortführen `[Q4]`.
+- **Formteile statt Löcher:** Für Innen-/Außenecken und Rohrdurchdringungen **Formteile und Dichtmanschetten** benutzen — keine Löcher ins Dichtband schneiden (zR7LyRq3G7Q 00:07:29).
+- **Dichtband in Dichtschlämme kleben, nicht in Fliesenkleber** — Fliesenkleber ist nicht dicht (zR7LyRq3G7Q 00:07:05).
+- **Wanne/Duschtasse mit Wannenband** abdichten, nicht nur mit Silikon; die **Silikonfuge ist Wartungsfuge**, kein Abdichtungsersatz (zR7LyRq3G7Q 00:10:02).
+- **Wanne nicht zu weit vorne einmauern**, sonst stehen die Fliesen über den Wannenrand (zR7LyRq3G7Q 00:13).
 - **Kein Silikon als Abdichtung:** „Umlaufende Dichtstofffugen stellen keine normkonforme Abdichtung dar" `[Q4]`.
 - **Gefälle:** Praxiswert **1–2 %** zum Ablauf `[Q25]`; Schlüter fordert „ausreichendes Gefälle zum Entwässerungspunkt", ohne Zahl `[Q4]`. Bei bodengleicher Dusche ist das Gefälle Estricharbeit **vor** der Abdichtung.
-- **Flüssigabdichtung in zwei Gängen** — dünn gestrichen ist nicht dicht; der Schichtaufbau wird nur mit zwei Aufträgen erreicht (Der Fliesenleger, Bad-Video, Min. 06:06, bereits im Skill-Archiv verifiziert).
+- **Flüssigabdichtung in zwei Gängen** — dünn gestrichen ist nicht dicht; der Schichtaufbau wird nur mit zwei Aufträgen erreicht (Der Fliesenleger, Bad-Video, Min. 06:06, bereits im Skill-Archiv verifiziert). Erst damit ist die **Schichtstärke** erreicht; ein Anstrich ist keine Abdichtung (zR7LyRq3G7Q 00:06:04).
+
+**Der Wannenrand ist der gerichtlich beliebteste Streitfall** — und die Norm ist eindeutig: „Dichtstofffugen am Wannenrand stellen keine Abdichtung im Sinne dieser Norm dar" (**DIN 18534-1**, Abschnitt 8.5.2). Statt Silikon nennt die Norm zwei Wege: (a) Wannenrand über ein **Wannenranddichtband/eine Zarge** an die Abdichtungsschicht anschließen, oder (b) die Abdichtungsschicht **unter und hinter** der Wanne fortführen, ggf. mit Unterflur-Entwässerung. Wichtig für die Planung: Unter/hinter der Wanne dürfen nur die für die Wanne nötigen Leitungen liegen, und die Abdichtungsschicht darf **keine Kräfte parallel zu ihrer Ebene** aufnehmen — die Last aus Befüllung/Betreten muss über Auflager/Unterkonstruktion in den Untergrund. Das System braucht ein **abP oder eine ETA nach ETAG 022**; nur aufeinander abgestimmte, im System geprüfte Werkstoffe sind zulässig.
+
+Praxisdetails, die den Unterschied machen: **4 mm dickes Schaum-Distanzband** auf dem Wannenrand ergibt eine gerade Silikonfuge ohne Schallbrücke und wird nach dem Verfugen wieder abgezogen; ein **2 cm breiter PVC-Schutzstreifen** im Band hält den Fliesenkleber aus der Dehnzone, damit die Bewegung der Wanne aufgenommen wird und das Band nicht abreißt. Quelle: [Bauhandwerk – Wannenabdichtung nach DIN 18534](https://www.bauhandwerk.de/artikel/bhw_Wichtiges_Detail_Wannenabdichtung_nach_Abdichtungsnorm_DIN_18534-3370227.html) (geprüft 09.11.2026).
 
 ### 1.4 Hohlstellen im Altbestand
 
@@ -82,8 +92,11 @@
 | **F** | schnell erhärtend | Kurze Korrigierzeit — für Anfänger riskant `[Q12]` |
 
 - **Faustgrenze aus der Praxis:** Ein „ganz normaler Flexkleber" ist laut Fliesenleger „eigentlich nur geeignet bis zu dem Format von 50 × 50"; darüber **S1**, bei XXL **S2** (Min. 14:15–14:44) `[Q10]`.
+- **Kleberklasse nach Format**, als eigene Regel: **Flexkleber bis 50x50** reicht; **ab 60x60 S1**, XXL **S2** — S1 und S2 nicht verwechseln (zR7LyRq3G7Q-08).
 - **Nicht C1 mit C2 verwechseln, wenn's schiefgehen kann:** C2 kostet pro Sack wenig mehr, S1 noch etwas — der Unterschied ist die Haftungssicherheit bei Bewegung.
+- **Kleber nicht nach Preis allein wählen:** weder billigster Sack aus dem Baumarkt noch der teuerste — solide Mittelklasse, passend zum Format. Ein Baumarktsack kostet **20–22 €**, S1 im Fachhandel **21 €**: vergleichen statt blind im Baumarkt kaufen, z. B. bei Schomburg (3tVsWxStiL0-04; zR7LyRq3G7Q-10).
 - **Dispersionskleber** (gebrauchsfertig) nur innen, meist Fliese auf Fliese oder Hartschaum-Wannenträger `[Q12]`. Für Nassbereich-Boden ungeeignet — *[unbelegt, aber Herstellerangaben schließen ihn dort aus]*.
+- **Verarbeitungszeit ist herstellerspezifisch, nicht „ungefähr eine Stunde":** Ein Fliesenleger nennt für seine Marke **5 Stunden laut Hersteller** und betont ausdrücklich, dass Wassermenge und Verarbeitungszeit **je Hersteller unterschiedlich** sind — für Kleber *und* Fugenmörtel (Min. 04:49–05:12) `[Q14]`. Die geprüften Merkblätter liegen darunter: PCI Flexmörtel S1 **Topfzeit 3 h**, klebeoffen **30 min**, verfugbar nach **6 h** `[Q1]`; Sopro Classic C2 nach **24 h** verfugbar `[Q2]`; Mapei Keracolor FF **2 h** verarbeitbar, **10–20 min** Waschzeit `[Q3]`. Wer die Zeit überschreitet, verliert Haftung und Farbe — nicht die Geduld.
 
 ### 2.2 Zahnspachtel: welche Zahnung für welches Format
 
@@ -119,6 +132,8 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 
 → **Merksatz:** 10-mm-Zahnung = **3,0–3,3 kg/m²**; ein 25-kg-Sack reicht damit für **ca. 7,5–8 m²** `[Q1][Q2]`. Bei Buttering (Rückseite zusätzlich) kommt **ca. 1 kg/m²** obendrauf — *[unbelegt als exakter Wert; Hersteller rechnen den Mehrverbrauch nicht aus]*.
 
+**Zahnhöhe = Klebermenge, in einem Satz:** Die 5-mm-Zahnkelle ist für 30×30 zu klein; 6 mm = **2,0–2,3 kg/m²**, 10 mm = **3,0–3,3 kg/m²**, ab 60×60 **11–12 mm** (3tVsWxStiL0 00:02:49; zR7LyRq3G7Q 00:10:46).
+
 ### 2.4 Fugenmörtel und Fugenbreite
 
 - **Fugenbreite:** Bei kalibriertem Feinsteinzeug 60×60 sind **2–3 mm** ein sinnvolles Maß; bei Toleranzen der Fliesen von ±1 mm wird eine 2-mm-Fuge zum Glücksspiel (Fachforum, 2011) `[Q21]`.
@@ -126,6 +141,7 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Verbrauch** (Mapei-Tabelle, 5 mm Fuge) `[Q3]`: 30×30×10 → **0,5 kg/m²**; 60×60×10 → **0,3 kg/m²**; 10×10 cm Mosaik → **1,1–1,4 kg/m²**.
 - **Formel** (Mapei): `(A+B) / (A×B) × C × D × 1,5 = kg/m²` mit A/B = Kantenlängen in mm, C = Fliesendicke, D = Fugenbreite `[Q3]`. Für 30×30 cm, 10 mm dick, 3 mm Fuge: (300+300)/(300×300) × 10 × 3 × 1,5 ≈ **0,3 kg/m²**.
 - **Anmachwasser:** 23–30 Gew.-% (Boden eher 25–32 %), **2–3 Minuten reifen lassen**, nochmals durchrühren, dann **ca. 2 Stunden verarbeitbar** `[Q3]`.
+- **Fugenmörtel nicht mit dem Rührquirl anrühren** — der schlägt Luftporen ein (Luftlöcher im Mörtel); von Hand oder langsam mischen (3tVsWxStiL0).
 
 ### 2.5 Silikon: nur elastisch, nur an den richtigen Stellen
 
@@ -133,6 +149,8 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Zementfuge nie in Anschluss-/Bewegungsfugen:** „Anschluss- und Bewegungsfugen in Wand- und Bodenflächen niemals mit Keracolor FF verfugen" `[Q3]`.
 - **Bewegungsfugen als Felder:** Fachforum nennt Felder von **25–30 m²** mit **mindestens 7 mm** breiten Bewegungsfugen (Fliesenleger, 2011) `[Q21]` — Richtwert, keine Normzahl.
 - **Sanitärsilikon ist kein Abdichtungsersatz** `[Q4]`.
+- **Ecken und Anschlüsse elastisch, Flächen starr** — nicht alles mit demselben Material (zR7LyRq3G7Q; PCI/Mapei-Verarbeitungsrichtlinien).
+- **Epoxidfugenmörtel ersetzt die elastische Eckfuge nicht.** Auch bei Epoxid verlangt der Hersteller, dass **Eck- und Anschlussfugen elastisch** (Silikon) geschlossen werden — Epoxid in der Ecke reißt bei Bewegung. Quelle: PCI-Durapox-TMB, technisches Merkblatt (09.11.2026 geprüft, HTTP 200). Damit ist die in Videos verbreitete Aussage „Epoxid ist flexibel, deshalb reicht es in der Ecke" widerlegt.
 
 ---
 
@@ -164,6 +182,8 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Ansetztechnik:** Fliese dicht an die vorherige anlegen und **auf Fugenbreite wegziehen** — so quillt kein Kleber in die Fuge (Min. 06:21) `[Q8]`, Min. 13:10 `[Q9]`.
 - **Kleber sofort abwischen**, nicht antrocknen lassen (Min. 07:45) `[Q8]`.
 - **Fliesen sind nicht exakt gleich groß:** trotz Keilen mit Augenmaß kontrollieren (Min. 08:49 / 13:41) `[Q8][Q9]`.
+- **Verlegeplan/Fugenbild vorher zeichnen**, **Raummitte markieren**, **Schnittbreite am Rand berechnen** — nicht in einer Ecke anfangen und hoffen (3tVsWxStiL0 00:08:56).
+- **Übergang Fliese/Parkett bündig planen:** exakter Höhenausgleich im Plan, Aufbauhöhen angleichen, Aluleiste vermeiden — sonst entsteht kein bündiger Übergang, sondern eine Stolperkante (k3q49IW19KU-06).
 
 ### 3.4 Großformat ≥ 60×60
 
@@ -182,6 +202,26 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Entkopplungsmatte** ist der zweite Weg; im Hornbach-Video wird sie mit Flexkleber verklebt, Übergänge markiert, am nächsten Tag weitergearbeitet (Min. 07:09 / 09:57) `[Q9]`.
 - **Ob nötig, ist Streit:** Bei 60×60 auf Fußbodenheizung/Calciumsulfatestrich diskutieren Fachleute die Matte kontrovers, Kosten ca. **15 €/m²**; zwei Fliesenleger im Thread würden ohne Matte verlegen (Fachforum, 2017) `[Q18]`.
 - **Fußbodenheizung:** Aufheizprotokoll und Feuchtemessung verlangen — beim Hohllagen-Fall fehlten beide (Fachforum, 2011) `[Q21]`.
+- **Auf altem Estrich/Heizestrich Entkopplungsmatte vorsehen**, sonst überträgt sich Bewegung in die Fliese (zR7LyRq3G7Q).
+
+### 3.6 Großformat auf Trockenestrich — die Systemgrenzen
+
+Trockenestrich und 120 × 120 vertragen sich — aber nur in einem definierten Aufbau. Die Hersteller (Fermacell/Sopro) nennen drei Voraussetzungen, und **alle drei** müssen erfüllt sein:
+
+1. **Steifigkeit:** dritte Lage **10 mm Gipsfaserplatte** (bzw. **12,5 mm** zementgebundene Platte) auf dem Estrichelement, verklebt **und** verschraubt/verklammert. Ergebnis: knapp **37 kg/m²** Flächengewicht — ein 50-mm-Zementestrich wiegt **~110 kg/m²**.
+2. **Untergrund:** vollflächiges Aufliegen; Rohdecke mit ausreichender Biegesteifigkeit (Massiv-/Brettstapeldecke ideal), bei Holzbalkendecken Durchbiegung **≤ L/500**. Niveauausgleich **nur gebunden** — ungebundene Schüttungen geben die Steifigkeit nicht.
+3. **Kleber im System:** **Reaktionsharz-Grundierung** auf dem Trockenestrich (verhindert, dass Anmachwasser in die Konstruktion zieht — bei den kleinen Fugen kann es sonst kaum austrocknen) plus **hochflexibler, schnell härtender zementärer Kleber** im **kombinierten Verfahren**: Zahnung sowohl auf dem Untergrund als auch auf der Fliesenrückseite, vollflächig.
+
+**Was dann geht:**
+
+| Nutzung | Fliesenformat |
+|---|---|
+| Wohnräume/Flure, Hotelzimmer inkl. Bad (Einzellast **1,0 kN**, Nutzlast **1,5 (2,0) kN/m²**) | **keine** Formatbeschränkung, Fliesendicke **> 9 mm**; auch lange/schmale Holzoptik |
+| Büroflächen, Praxen (**2,0 kN** / **2,0 kN/m²**) | Kantenlänge **≤ 1200 mm** |
+
+**Fugen:** Verbandart frei, aber **Dehnungsfugen** einplanen — bei unbeheizten Konstruktionen Felder **max. 64 m²** mit Kantenlänge **max. 8 m**; Ausbildung nach **ZDB-Merkblatt Bewegungsfugen**. Verfugt wird mit **flexiblem** Fugenmörtel, nicht mit dem starren Standardmörtel.
+
+Quelle: [Bauhandwerk – Trockenestrich-Elemente für großformatige Fliesen](https://www.bauhandwerk.de/artikel/bhw_2017-12_trockenestrich_elemente_fuer_grossformatige_fliesen-3060738.html) (geprüft 09.11.2026). Der Aufbau selbst (Dicken, Gewichte, Schüttungen) steht in `estrich.md` §2.2 — hier steht nur, was der Fliesenleger daraus machen darf.
 
 ---
 
@@ -193,6 +233,8 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - **Werkzeuge nach Aufgabe:** Fliesenschneider (gerade Schnitte), Fliesenbrechzange (dünne Fliesen, Kanten), Fliesenlochzange/„Papageienschnabel" (runde Aussparungen am Rand), Fliesenlochgerät mit Hammer (Löcher für Heizungsanschlüsse) `[Q15]`.
 - **Flex/Handkreissäge nur mit Diamantblatt**, Schutzbrille + Gehörschutz; Tischkreissäge mit **Wasserbehälter** zur Kühlung, auch für Gehrungsschnitte `[Q15]`.
 - **Der Anfängerfehler beim Freihandschneiden:** leicht schräg gehalten = schiefer Schnitt, kaum zu korrigieren. Profi-Trick: ein Stück Bodenfliese als **Anschlag** anlegen, Werkstück einspannen, dann mit zwei Händen führen (Min. 00:29–01:06) `[Q20]`.
+- **Königsdisziplinen:** Gehrung 45°, Schienen um die Ecke biegen, Silikonfugen — erst an **Probestücken** üben oder Edelstahlschiene/Profi nehmen. Gehrung und Silikonfugen sind Können, nicht Mut; wer nicht sicher ist, holt sich Eckschiene oder Profi (zR7LyRq3G7Q-11; zR7LyRq3G7Q 00:14).
+- **Fußleisten mit Gehrung**, nicht mit **geradem Stoß** — sonst unterschiedliche Höhen und sichtbare Fuge; Standardlängen sind **2 m bzw. 1,80 m**, das bestimmt die Stoßstellen (k3q49IW19KU-17).
 - **Schnittkante immer zur Wand** (Min. 09:53) `[Q8]` — die sichtbare Kante ist die Werkskante.
 
 ### 4.2 Bohren (Armaturen, Duschstange, Handtuchhalter)
@@ -224,6 +266,12 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 **Verfugbarkeit ist der harte Takt:** PCI gibt 6 h an, Sopro 24 h `[Q1][Q2]`. Wer nach Herstellerangabe des Klebers geht (Rückseite des Sacks lesen!) ist sicher; wer „nach Gefühl" nach 3 Stunden verfugt, riskiert Ausblühungen und Risse — Mapei nennt als Ursache ausdrücklich Restfeuchte und nicht vollständig hydratisierten Fugenmörtel `[Q3]`.
 
 **Verschnitt einplanen:** Quadratmeter **+ 10 % Verschnitt + 5 % Reserve**; je kleiner der Raum und je größer das Format, desto mehr Verschnitt `[Q24]`. Bei Diagonalverlegung mehr — *[unbelegt, Quelle nennt nur „größer"]*.
+
+**Reserve ist mehr als Verschnitt:** **1–2 Pakete Reserve** derselben Charge und **Verschnittzuschlag** einplanen — der Paketinhalt ergibt selten glatte m², und eine Nachbestellung trifft selten dieselbe Charge (3tVsWxStiL0).
+
+**Herstellerangaben zur Wassermenge und Verarbeitungszeit einhalten:** Wasser exakt abwiegen (**nicht nach Gefühl**), nur **portionenweise anmischen**, **Sackaufdruck** beachten. Die **klebeoffene Zeit** beträgt bei Standard-Dünnbettmörtel **20–30 Minuten**, bei Klebern der Klasse **E** mindestens **30 Minuten** (DIN EN 12004: „E = extended open time") — danach haftet der Fliese nicht mehr. Die im Video genannte Angabe „oft 5 Stunden" ist mit der Norm nicht vereinbar und wird **nicht übernommen**; gemeint ist vermutlich die Topfzeit im Eimer, nicht die offene Zeit auf dem Untergrund (3tVsWxStiL0 00:04:49; 3tVsWxStiL0-05).
+
+**Reihenfolge:** den fertigen Boden **abdecken bzw. abkleben**, bevor Putz-, Kleber- und Staubarbeiten weiterlaufen (zR7LyRq3G7Q-02).
 
 ---
 
@@ -274,7 +322,7 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 | **Altbau vor 1993 mit Kleberresten** | Asbestverdacht in Fliesenkleber/Bodenklebern; Rückbau nur ASI | Skill `renovierung-gewerke-praxis` |
 | **Estrich/Gefälle herstellen** | Höhenlage, Bewehrung, Trocknung — danach ist alles zu spät | `[Q1][Q2]` |
 
-**Die wirtschaftliche Rechnung:** Ein 6-m²-Bad in Eigenleistung spart Lohn, kostet aber 4 Tage Zeit, Werkzeugmiete (Nassschneider, Nivelliersystem) und das Risiko der Abdichtung. Der teuerste Laienfehler im Haus ist nicht die schiefe Fliese, sondern die undichte Dusche `[Q4][Q6]`.
+**Die wirtschaftliche Rechnung:** Ein 6-m²-Bad in Eigenleistung spart Lohn, kostet aber 4 Tage Zeit, Werkzeugmiete (Nassschneider, Nivelliersystem) und das Risiko der Abdichtung. Der teuerste Laienfehler im Haus ist nicht die schiefe Fliese, sondern die undichte Dusche `[Q4][Q6]`. Dazu die Prioritätenregel: **Fliesen sind austauschbar, die Substanz (Schall-, Hitzeschutz, Untergrund) nicht** — bei knappem Budget dort sparen, nicht am Unterbau (nul-17).
 
 ---
 
@@ -290,6 +338,8 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 | Nivelliersystem | für Großformat, 1 Beutel/Set pro ~10 m² | `[Q10]` |
 | Grundierung | 1 Kanister, Verbrauch laut Eimer | `[Q2]` |
 | Dichtband/Dichtmanschetten | nur Nassbereich, Systemprodukt | `[Q4]` |
+
+**Werkzeugliste vorab schreiben** (Nassschneider, Zahnkellen, Fluchtlatte) und **vor** dem Kauf klären, was das Vorhaben wirklich braucht — sonst wird dreimal gekauft oder Werkzeug, das nicht passt (zR7LyRq3G7Q 00:12; zR7LyRq3G7Q-12).
 
 ---
 
@@ -339,6 +389,11 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 - `[Q24]` Fliesen Kemmler, **Glossar „Verschnitt"**: Formel „m² / Fliesenfläche + 10 % Verschnitt + 5 % Reserve", je kleiner der Raum / größer das Format, desto mehr Verschnitt. https://www.fliesen-kemmler.de/ueber-uns/glossar/verschnitt
 - `[Q25]` fliesenwuensche.de, **„Nassraum: Definition, Normen & Abdichtung nach DIN 18534"**: Gefälle 1–2 % zum Ablauf (mit Verweis auf SBZ/EN 1253). https://fliesenwuensche.de/glossar/nassraum-definition-normen-abdichtung-nach-din-18534/
 
+**Fachpresse (bauhandwerk.de, geprüft 09.11.2026)**
+
+- `[Q26]` Bauhandwerk, **„Wichtiges Detail: Wannenabdichtung nach Abdichtungsnorm DIN 18534"**: DIN 18534-1 Punkt 8.5.2 (zwei Wege am Wannenrand), „Dichtstofffugen am Wannenrand stellen keine Abdichtung im Sinne dieser Norm dar", keine Kräfte parallel zur Abdichtungsebene, **abP/ETAG 022**, **4 mm** Schaum-Distanzband, **2 cm** PVC-Schutzstreifen. https://www.bauhandwerk.de/artikel/bhw_Wichtiges_Detail_Wannenabdichtung_nach_Abdichtungsnorm_DIN_18534-3370227.html
+- `[Q27]` Bauhandwerk, **„Trockenestrich-Elemente für großformatige Fliesen"** (BHW 12/2017): dritte Lage **10 mm** (bzw. **12,5 mm**), **37 kg/m²** vs. **110 kg/m²**, **L/500**, Nivelliermasse **≤ 20 mm**, nur gebundene Schüttung, Formate AB1 unbegrenzt bei **> 9 mm**, AB2 **≤ 1200 mm**, Dehnungsfugen **64 m² / 8 m**, Reaktionsharzgrundierung + hochflexibler Kleber im kombinierten Verfahren. https://www.bauhandwerk.de/artikel/bhw_2017-12_trockenestrich_elemente_fuer_grossformatige_fliesen-3060738.html
+
 **Geprüft, aber nicht zitierfähig**
 
 - **Reddit (r/Tile, r/DIY, r/HomeImprovement, r/Handwerk):** alle Threads am 09.11.2026 über Direktabruf, `.json`, RSS, old.reddit, r.jina.ai und Browser mit **403 / Netzwerk-Blockade** gescheitert. Deshalb **keine** Reddit-Zitate in diesem Dokument — die einschlägigen Threads (Backbuttering, Coverage) sind inhaltlich durch `[Q17]` und `[Q12]` abgedeckt. In der Skill-Datei `praxisbeispiele.md` liegt ein früher verifizierter r/DIY-Thread (`/comments/oigc3k`), der hier nicht erneut geprüft werden konnte.
@@ -357,80 +412,3 @@ Grundwert: **ca. 2,0 kg/m² pro mm Kleberbettdicke** `[Q2]`.
 8. **Konkrete Hohlflächen-Toleranz in Prozent je nach Nutzungsklasse** — ISH nennt 2/3, aber keine Differenzierung nach Wohnbereich/Feuchtraum `[Q17]`.
 9. **Fliesenlegerforum.de** — in den Suchergebnissen nicht als erreichbarer Thread aufgetaucht; die Forenabdeckung erfolgt über bauexpertenforum und expertenforum-bau.
 10. **Preise** (Kleber pro Sack, Lohn pro m²) — bewusst weggelassen, weil tagesaktuell und regional; Zahlen ohne Datum wären hier schädlich.
-
-## Fehlerkatalog aus der Praxis (10 Videos, Stand 09.11.2026)
-
-**Untergrund**
-- Eben, trocken, **staubfrei**: Ebenheit mit **Wasserwaage/Richtscheit** prüfen, 1–2 mm auf 2 m sind
-  die Toleranz, ab der es sichtbar wird (3tVsWxStiL0 00:01:19).
-- **Haftgrund/Isoliergrund** nicht weglassen: saugender Beton zieht dem Kleber das Wasser, **24 Stunden
-  Einwirkzeit** vor dem Verlegen (3tVsWxStiL0 00:02:05).
-- Auf altem Estrich/Heizestrich **Entkopplungsmatte** vorsehen, sonst überträgt sich Bewegung in die
-  Fliese (zR7LyRq3G7Q).
-
-**Kleber und Zahnung**
-- **Zahnhöhe = Klebermenge**: 5-mm-Zahnkelle ist für 30×30 zu klein, 6 mm = 2,0–2,3 kg/m²,
-  10 mm = 3,0–3,3 kg/m², ab 60×60 **11–12 mm** (3tVsWxStiL0 00:02:49; zR7LyRq3G7Q 00:10:46).
-- Kleberklasse nach Format: klein 50x50 Flex, ab 60x60 **S1**, XXL **S2** (zR7LyRq3G7Q 00:10:46).
-- Nicht das billigste und nicht das teuerste Produkt: **Mittelklasse** reicht; Baumarktsack 20–22 €
-  gegen 21 € für S1 im Fachhandel — vergleichen (zR7LyRq3G7Q).
-- Herstellerangaben sind keine Deko: **Wassermenge exakt abwiegen**, nur **portionenweise anmischen**,
-  **Sackaufdruck** beachten, Verarbeitungszeit (oft **5 Stunden**) nicht überschreiten
-  (3tVsWxStiL0 00:04:49).
-- Fugenmörtel **nicht mit dem Rührquirl** anrühren (Luftporen/Luftlöcher), von Hand oder langsam
-  (3tVsWxStiL0).
-
-**Planung und Verschnitt**
-- **Verlegeplan/Fugenbild** vorher zeichnen, **Raummitte markieren**, **Schnittbreite am Rand
-  berechnen** — nicht in einer Ecke anfangen und hoffen (3tVsWxStiL0 00:08:56).
-- **1–2 Pakete Reserve** derselben Charge, **Verschnittzuschlag** einplanen; Paketinhalt ergibt selten
-  glatte m² (3tVsWxStiL0).
-
-**Abdichtung im Nassbereich**
-- **Zwei Spachtelgänge** Flüssigabdichtung, erst damit ist die **Schichtstärke** erreicht; ein Anstrich
-  ist keine Abdichtung (zR7LyRq3G7Q 00:06:04).
-- **Dichtbänder in Dichtschlämme** kleben, **nicht in Fliesenkleber** — Fliesenkleber ist nicht dicht
-  (zR7LyRq3G7Q 00:07:05).
-- **Formteile** für Innen-/Außenecken und **Dichtmanschetten** für Rohrdurchdringungen benutzen, keine
-  Löcher ins Dichtband schneiden (zR7LyRq3G7Q 00:07:29).
-- Wanne/Duschtasse: **Wannenband** statt nur Silikon; **Silikonfuge ist Wartungsfuge**, kein
-  Abdichtungsersatz (zR7LyRq3G7Q 00:10:02).
-- Wanne nicht zu weit vorne einmauern, sonst stehen die Fliesen über den Wannenrand (zR7LyRq3G7Q 00:13).
-- Ecken und Anschlüsse **elastisch** (Silikon) verfügen, Flächen starr — nicht alles mit demselben
-  Material (zR7LyRq3G7Q; PCI/Mapei-Verarbeitungsrichtlinien).
-
-**Werkzeug und Erwartung**
-- Werkzeug **vor** dem Kauf klären (Nassschneider, Zahnkellen, Fluchtlatte), sonst wird dreimal gekauft
-  (zR7LyRq3G7Q 00:12).
-- Gehrung und Silikonfugen sind Können, nicht Mut: wenn nicht sicher, Eckschiene/Profi holen
-  (zR7LyRq3G7Q 00:14).
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Kleber nicht nach Preis allein wählen**: weder billigster Sack aus dem Baumarkt noch der teuerste — solide Mittelklasse — solide Mittelklasse, passend zum Format (3tVsWxStiL0-04).
-- **Herstellerangaben zur Wassermenge und Verarbeitungszeit** einhalten: die offene Zeit liegt oft bei **5 Stunden laut Hersteller**, nicht „bis es zu ziehen beginnt" (3tVsWxStiL0-05).
-- **Übergang Fliese zu Parkett**: exakter Höhenausgleich im Plan, sonst keine **bündiger Übergang**, sondern eine Stolperkante (k3q49IW19KU-06).
-- **Reihenfolge**: den fertigen Boden **abdecken bzw. abkleben**, bevor Putz-, Kleber- und Staubarbeiten weiterlaufen (zR7LyRq3G7Q-02).
-- **Werkzeugliste vorab** schreiben, sonst wird Werkzeug gekauft, das nicht zum Vorhaben passt (zR7LyRq3G7Q-12).
-- **Fliesen sind austauschbar**, die Substanz (Schall-, Hitzeschutz, Untergrund) nicht — bei Budgetknappheit dort sparen, nicht am Unterbau (nul-17).
-- **Kleber im Fachhandel vergleichen** (z. B. Schomburg) statt blind im Baumarkt kaufen (zR7LyRq3G7Q-10).
-
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Epoxidfugenmörtel ist kein Ersatz für die elastische Eckfuge.** Auch bei Epoxid verlangt der Hersteller,
-  dass **Eck- und Anschlussfugen elastisch** (Silikon) geschlossen werden — Epoxid in der Ecke reißt bei
-  Bewegung. Quelle: PCI-Durapox-TMB technisches Merkblatt (09.11.2026 geprüft, HTTP 200).
-  Damit ist die in Videos verbreitete Aussage „Epoxid ist flexibel, deshalb reicht es in der Ecke" widerlegt.
-
-## Ergänzungen aus dem Video-Katalog (Nachtrag)
-
-- **Übergang Fliese/Parkett** bündig planen: Aufbauhöhen angleichen, Aluleiste vermeiden, sonst entsteht
-  eine Stolperkante (k3q49IW19KU-06).
-- **Königsdisziplinen**: Gehrung 45°, Schienen um die Ecke biegen, Silikonfugen — erst an **Probestücken**
-  üben oder Edelstahlschiene/Profi nehmen (zR7LyRq3G7Q-11).
-### Weitere Video-Fehler (Fliesen)
-
-- **Kleberklasse nach Format**: **Flexkleber bis 50x50** reicht; **ab 60x60 S1**, XXL-Formate **S2** (S1/S2 nicht verwechseln)
-  (zR7LyRq3G7Q-08).
-- **Fußleisten mit Gehrung**, nicht mit **geradem Stoß** — sonst unterschiedliche Höhen und sichtbare Fuge;
-  Standardlängen sind **2 m bzw. 1,80 m**, das bestimmt die Stoßstellen (k3q49IW19KU-17).

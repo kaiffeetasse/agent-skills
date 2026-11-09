@@ -55,6 +55,9 @@ ELEKTRO+ gibt dafür eine Checkliste heraus und schreibt ausdrücklich: am Zähl
 - **Zweiadrig (L + PEN):** klassische Nullung, in Deutschland für Neuanlagen seit **1. Mai 1973** verboten (Übergangsfrist bis 31.03.1974); PEN-Verbindungen nur noch ab 10 mm² Cu / 16 mm² Al [Q2].
 - **Dreiadrig (L + N + PE):** heutiger Standard für Licht/Steckdosen, 1,5 mm² [Q18].
 - **Fünfadrig (3×L + N + PE):** Drehstrom für Herd, Durchlauferhitzer, Wallbox, Wärmepumpe [Q13][Q3].
+- **PEN-Auftrennung nach DIN VDE 0100-540:** Wo aus einem TN-C-System ein TN-S wird, muss der PEN an der
+  vorgesehenen Stelle in PE und N getrennt werden — danach nie wieder verbinden. Ohne durchgehenden,
+  getrennten Schutzleiter ist die Anlage kein sauberes TN-S-System.
 
 ### 2.3 Messen: wer darf was
 
@@ -77,6 +80,9 @@ ELEKTRO+ gibt dafür eine Checkliste heraus und schreibt ausdrücklich: am Zähl
 | Durchbrüche **nicht tragender** Bauteile, Kernlochbohrungen nach Freigabe [Q10] | Durchbruch in tragenden Bauteilen, Statik [Q10] |
 | Verputzen der Schlitze, Spachteln, Streichen [Q10] | Zählerschrank öffnen, Zählerantrag stellen [Q1][Q8] |
 | Fotos jeder offenen Wand mit Maßband, Aufmaß, Raumliste [Q10] | Änderung/Erweiterung der Anlage „mal eben" [Q1] |
+
+**Handgriff, der später Ärger spart:** Schaumstoffstopfen in die Gerätedosen beim Spachteln und
+Tapezieren — sonst ist die Dose voll Mörtel.
 
 **Was Praktiker dazu sagen (Forum/Community, keine Rechtsquelle):**
 - „Ein und Anbauen darfst du alles, nur einschalten bzw. ans Netz bringen darfst du es nicht" — Berufsangabe Elektriker/IT-Systemelektroniker [Q20].
@@ -101,6 +107,8 @@ ELEKTRO+ gibt dafür eine Checkliste heraus und schreibt ausdrücklich: am Zähl
 | **5-adrig (3L + N + PE)** | projektiert | 16/32 A | Herd, Durchlauferhitzer, Wallbox — Auslegung durch Fachbetrieb [Q13] |
 
 **Merksatz:** 1,5 mm² ist für einen B16-Steckdosenstromkreis ausreichend — ein pauschales „2,5 mm² ist vorgeschrieben" gibt es nicht [Q18]. Umgekehrt gilt: 2,5 mm² rettet keine 50-A-Absicherung. Genau dieser Fall steht im Pfusch-Video: 6 mm² Zuleitung mit 50 A, dahinter ein Durchlauferhitzer mit 2,5 mm² [Q3, 01:59–02:24].
+
+**Länge prüfen statt Querschnitt raten:** Bei **3 % Spannungsfall** sind **3 × 2,5 mm² hinter B6 maximal 150 m** (DIN VDE 0100-520 Beiblatt 2, Tabelle 2). Für Beleuchtungsstromkreise gilt **3 %**, nicht 5 % — die 5 % der IEC-Tabelle sind der informativen Anhang-G-Wert für andere Verbraucher. Die im Artikel behaupteten 191 m ließen sich mit der Tabelle nicht nachrechnen ([Elektropraktiker, „Dimensionierung einer Zuleitung“](https://www.elektropraktiker.de/fachartikel/detail/dimensionierung-einer-zuleitung), ep 12/2020, geprüft 09.11.2026, HTTP 200).
 
 ### 4.2 Stromkreise (DIN 18015-2, Stufe 1)
 
@@ -152,6 +160,35 @@ Die Norm gilt für **Unterputz**; Aufputz ist frei [Q24]. Im Video (Projektbeisp
 | FI/LS einbauen + prüfen | 0,2–0,3 h | [Q11] |
 | E-Check je Stromkreis | 0,15–0,25 h | [Q11] |
 | Komplettsanierung 120 m² EFH | 80–100 h, 5–10 Arbeitstage | [Q10] |
+
+### 4.6 FI-Aufteilung und Ausfallsicherheit
+
+Die Aufteilung entscheidet, wie oft ein Fehlerstrom das halbe Haus dunkel legt:
+
+- **Ableitströme summieren sich**: an einen 30-mA-RCD gehören in der Praxis **nicht mehr als etwa sechs
+  Stromkreise** (Erfahrungswert, keine Normzahl). Viele Schaltnetzteile, lange Leitungen und alternde
+  Elektronik bringen 10–15 mA zusammen — dann löst der RCD ohne Isolationsfehler aus.
+- **Gliederung nach Verbraucher, nicht nach Geschoss**: kritische Kreise (Kühl-/Gefriergeräte, Router,
+  Heizungssteuerung, Alarmanlage) getrennt führen, Licht/Flur separat. **RCBO (FI/LS) je kritischem Kreis**
+  ist die sauberste Lösung — dann fällt nur dieser Kreis.
+- **Typ richtig wählen**: Typ A ist Standard; Typ B ist für Wallbox, PV-Wechselrichter und Frequenzumrichter
+  mit glattem Gleichfehlerstrom nötig. Bei vorgelagertem selektivem RCD (300 mA Typ S) Selektivität prüfen.
+- **RCD ersetzt keinen Leitungsschutz**: Kurzschluss- und Überlastschutz bleiben eigene Aufgabe
+  (DIN VDE 0100-430); ein FI schützt Personen, nicht die Leitung.
+- **Prüfen statt glauben**: Auslösezeit und Auslösestrom werden gemessen (DIN VDE 0100-600), die Prüftaste
+  am Gerät ist nur ein Funktionstest.
+- **Prüfstrom und Auslösefenster** (Produktnorm, nicht Prüfnorm): Sinus **0,5–1 × I∆N**, pulsierender
+  Gleichstrom **0,35–1,4 × I∆N**, glatter Gleichstrom **0,5–2 × I∆N**. Typ A wird mit pulsierendem
+  Gleichstrom geprüft — das ist die größte Auslösebandbreite; Prüfgeräte erhöhen in Stufen
+  **< 1/30 I∆N** (DIN EN 61557), manche legen **6 mA DC** dazu. Bewertet wird nach
+  **DIN VDE 0100-600:2017-06, Abschnitt 6.4.3.7.1**: Wirksamkeit ist nachgewiesen, wenn die Abschaltung
+  bei einem Fehlerstrom **≤ I∆N** erfolgt. Die engeren Produktnorm-Fenster sind Prüfmaßstab, keine
+  Errichtungsanforderung ([Elektropraktiker, „Prüfung von RCDs“](https://www.elektropraktiker.de/nachrichten/nachricht/pruefung-von-rcds?p=all), 28.01.2020, geprüft 09.11.2026, HTTP 200).
+- **Auslösezeit** ist ein Messwert, keine Typangabe: an Altanlagen wurden **10–250 ms** gemessen; im
+  TT-System waren für Endstromkreise **≤ 0,2 s** zulässig (DIN VDE 0100-410:2007-06 — alte Ausgabe,
+  hier nur als gemessenes Zeitband und Physik, nicht als geltende Anforderung). Die aktuelle Bewertung
+  läuft über Abschaltbedingung und Auslösestrom, nicht über eine pauschal zitierte Millisekundenzahl
+  ([Elektropraktiker, „Auslösezeiten von RCDs“](https://www.elektropraktiker.de/fachartikel/detail/ausloesezeiten-von-fehlerstrom-schutzeinrichtungen-rcds), ep 7/2009, geprüft 09.11.2026, HTTP 200).
 
 ---
 
@@ -280,7 +317,7 @@ Küchenmodernisierung, 6 neue Steckdosen, 8 m Leitung UP, 2 Lichtauslässe, Herd
 
 ### Bonus: kein Prüfprotokoll
 **Symptom:** „läuft doch", keine Messung, kein Stromlaufplan.
-**Warum:** Die Erstprüfung ist bei Neu/Änderung Pflicht und umfasst 16 Sichtprüfungspunkte, Isolationsmessung (min. 1 MΩ), Schutzleiterdurchgängigkeit, RCD-Test, Schleifenimpedanz [Q17]. Ohne Protokoll fehlt der Nachweis gegenüber Versicherung und Käufer [Q14].
+**Warum:** Die Erstprüfung ist bei Neu/Änderung Pflicht und umfasst 16 Sichtprüfungspunkte, Isolationsmessung (min. 1 MΩ bei **500 V Messgleichspannung**), Schutzleiterdurchgängigkeit, RCD-Test, Schleifenimpedanz [Q17]. Ohne Protokoll fehlt der Nachweis gegenüber Versicherung und Käufer [Q14].
 
 ---
 
@@ -300,6 +337,38 @@ Küchenmodernisierung, 6 neue Steckdosen, 8 m Leitung UP, 2 Lichtauslässe, Herd
 | **Rauchmelder** | Pflicht in allen 16 Ländern, Details in der Landesbauordnung (Schlafräume + Rettungswege) | [Q32] |
 
 **Wallbox-Vorbereitung konkret:** Leerrohr vom Zählerplatz zum Stellplatz, eigener Stromkreis, Platz im Verteiler, Zuleitung nach Berechnung (13–40 €/m) [Q28]. Anmeldung beim Netzbetreiber ist Pflicht; eine Zustimmung wird erst über 12 kW gebraucht [Q13].
+
+**Hauptpotentialausgleich — die Querschnitte:** Mindestens **6 mm² Kupfer**, **16 mm² Aluminium** oder
+**50 mm² Stahl**; mehr als **25 mm² Kupfer** (oder vergleichbare Querschnitte) braucht die Verbindung zur
+Haupterdungsschiene nicht (DIN VDE 0100-540, Abschnitt 544.1). Der Mindestquerschnitt ist thermisch und
+mechanisch knapp bemessen — 6 mm² ist das Minimum, nicht die Reserve; bei großen Außenleiterquerschnitten
+und hohen Sicherungsnennströmen ist der Spannungsfall am Potentialausgleichsleiter die zweite Grenze
+([Elektropraktiker, „Querschnitt der Schutzpotentialausgleichsleiter“](https://elektropraktiker.de/nachrichten/nachricht/querschnitt-der-schutzpotentialausgleichsleiter?p=all), 09.10.2018, geprüft 09.11.2026, HTTP 200).
+
+**Details, die im Alltag den Unterschied machen** (Praxis-Erfahrungen; wo nicht anders belegt, sind sie
+nicht belegt):
+
+- **Lage vor Stückzahl**: Steckdose an jeder Raumecke und neben jeder Tür ist die Praxisregel, die
+  Stückzahl-Tabelle ist die Untergrenze. *Erfahrungswert aus der Praxis, nicht belegt.*
+- **Lampenauslass nicht direkt neben Schalter oder Steckdose** setzen; Vorhänge, Schränke und Betten
+  vorher festlegen — sonst wird nach dem Streichen gespachtelt und neu gestrichen.
+- **Bedienstellen planen**: in Räumen mit mehreren Ausgängen Taster an jeder Tür; Flur als ein Raum
+  behandeln; Wechselschaltung nur an den Wegen, die wirklich benutzt werden.
+- **Deckenventilator**: zwei Kanäle (Licht und Ventilator getrennt) und die Aufhängestelle in der
+  Trockenbaudecke verstärken.
+- **Schaltbare Steckdose** für LED-Streifen vorsehen — billiger und dauerhafter als jede Funklösung.
+- **LAN-Dose im Technikraum** für Wärmepumpe, Speicher und Wechselrichter — die Geräte werden
+  ferngewartet, Funk ist im Keller keine Lösung.
+- **Außen-Leerrohre** nicht nur für Garten, Bewässerung und Kamera legen, sondern auch für Rasenroboter,
+  Garagentor, Klingel und Pool/Sauna.
+- **Lichtsteuerung**: DALI bzw. dimmbare Kreise vorsehen, **beleuchteter Spiegel** und Leuchten auf
+  Kompatibilität prüfen — sonst wird die Szene nachträglich verkabelt (sWXyiNADbFk-10).
+- **Fenstersensoren** (Fensterhersteller-Systeme) haben Erfahrungswerte mit hoher Ausfallquote im ersten
+  Jahr (im Beispiel **30 % Ausschuss**): Dosen/Leitungen vorsehen, Systemwahl nach Erfahrungswerten, nicht
+  nach Prospekt (sWXyiNADbFk-14).
+- **Nicht jedes Gerät braucht einen eigenen Stromkreis** — Großverbraucher (Herd, Backofen, Geschirrspüler, Waschmaschine, Trockner, Warmwasser, Wallbox) schon, siehe oben; Steckdosengeräte nicht.: „Steckdosen kann man nie genug haben"
+  führt zu 14 Sicherungen für 14 Dosen (Werkstattgeräte wie Tischkreissäge/Bandsäge ausgenommen) — mehr
+  Kosten und mehr Fehlerquellen statt mehr Sicherheit (eNpMPWvnWiI-06).
 
 ---
 
@@ -345,12 +414,17 @@ Küchenmodernisierung, 6 neue Steckdosen, 8 m Leitung UP, 2 Lichtauslässe, Herd
 | Q34 | elektro-plus, „Wann Hausbesitzer ihre Elektroanlage modernisieren sollten", https://www.elektro-plus.com/presse/wann-hausbesitzer-ihre-elektroanlage-modernisieren-sollten (28.05.2026) | V | Volltext; Bestandsschutz, Wärmepumpe, E-CHECK |
 | Q35 | elektro.net, „Elektrische Anlagen in Wohngebäuden – Teil 2: Art und Umfang der Mindestausstattung", https://www.elektro.net/120701/teil-2-art-und-umfang-der-mindestausstattung/ (06.10.2021) | N | Volltext; 3-/4-reihiger Verteiler, 12 TE, Kommunikationsverteiler |
 | Q36 | BGB § 634a (Verjährung), https://www.gesetze-im-internet.de/bgb/__634a.html | G | Volltext; 5 Jahre bei Bauwerk, Fristbeginn Abnahme |
+| Q37 | Elektropraktiker, „Prüfung von RCDs", https://www.elektropraktiker.de/nachrichten/nachricht/pruefung-von-rcds?p=all (28.01.2020) | N | Volltext; Auslösefenster 0,5–1 / 0,35–1,4 / 0,5–2 × I∆N, 6 mA DC, Stufen < 1/30 I∆N |
+| Q38 | Elektropraktiker, „Querschnitt der Schutzpotentialausgleichsleiter", https://elektropraktiker.de/nachrichten/nachricht/querschnitt-der-schutzpotentialausgleichsleiter?p=all (09.10.2018) | N | Volltext; DIN VDE 0100-540 Abschn. 544.1: 6/16/50 mm², max. 25 mm² Cu |
+| Q39 | Elektropraktiker, „Dimensionierung einer Zuleitung", https://www.elektropraktiker.de/fachartikel/detail/dimensionierung-einer-zuleitung (ep 12/2020) | N | Volltext; 3 % Beleuchtung, 2,5 mm²/B6 max. 150 m (Beiblatt 2, Tabelle 2) |
+| Q40 | Elektropraktiker, „Prüfpflicht im privaten Bereich", https://www.elektropraktiker.de/fachartikel/detail/pruefpflicht-im-privaten-bereich/ (ep 6/2007) | N | Volltext; wiederkehrende Prüfung ohne Frist, keine Kontrolle, Vermietung → BG-Fristen |
+| Q41 | Elektropraktiker, „Auslösezeiten von Fehlerstrom-Schutzeinrichtungen (RCDs)", https://www.elektropraktiker.de/fachartikel/detail/ausloesezeiten-von-fehlerstrom-schutzeinrichtungen-rcds (ep 7/2009) | N | Volltext; 10–250 ms gemessen, TT ≤ 0,2 s nach DIN VDE 0100-410:2007-06 (alte Ausgabe) |
 
-**Anzahl geprüfter Quellen: 36** — 3 Gesetz/UVV (Q1, Q19, Q36), 8 Norm/Fachverlag (Q6, Q7, Q17, Q21, Q29, Q30, Q31, Q35), 6 Verband/Initiative (Q8, Q9, Q13, Q16, Q32, Q34), 5 Fachbetrieb/Fachblog (Q5, Q10, Q18, Q22, Q24), 5 Preisportal (Q11, Q12, Q14, Q27, Q28), 6 Community/Referenz (Q2, Q4, Q15, Q20, Q23, Q33), 3 Video (Q3, Q25, Q26).
+**Anzahl geprüfter Quellen: 41** — 3 Gesetz/UVV (Q1, Q19, Q36), 13 Norm/Fachverlag (Q6, Q7, Q17, Q21, Q29, Q30, Q31, Q35, Q37–Q41), 6 Verband/Initiative (Q8, Q9, Q13, Q16, Q32, Q34), 5 Fachbetrieb/Fachblog (Q5, Q10, Q18, Q22, Q24), 5 Preisportal (Q11, Q12, Q14, Q27, Q28), 6 Community/Referenz (Q2, Q4, Q15, Q20, Q23, Q33), 3 Video (Q3, Q25, Q26).
 
 ### Was ich selbst geprüft habe (Prüftiefe)
 
-- **Volltext gelesen und zitiert:** Q1, Q2, Q3 (Untertitel), Q5, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q16, Q17, Q18, Q19, Q21, Q22, Q23, Q24, Q27, Q28, Q29, Q30, Q31, Q32, Q34, Q35, Q36.
+- **Volltext gelesen und zitiert:** Q1, Q2, Q3 (Untertitel), Q5, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q16, Q17, Q18, Q19, Q21, Q22, Q23, Q24, Q27, Q28, Q29, Q30, Q31, Q32, Q34, Q35, Q36, Q37, Q38, Q39, Q40, Q41.
 - **Nur Thread/Seite geöffnet, Zitat stichprobenartig:** Q4, Q15, Q20, Q33.
 - **Nur Existenz/Ausgabe/TOC geprüft:** Q6 (DIN 18015-2:2021-10; Normtext kostenpflichtig).
 - **Video-Zeitmarken** stammen aus automatischen Untertiteln (±10 s) und sind keine frame-genauen Angaben; Zitate können ASR-Fehler enthalten.
@@ -364,7 +438,7 @@ Küchenmodernisierung, 6 neue Steckdosen, 8 m Leitung UP, 2 Lichtauslässe, Herd
 3. **„Eigenleistung spart 50 %"** — keine Quelle. Ein Reddit-Fall nennt 5.000 € von 15.000 € (33 %) für Vorarbeiten [Q33]; Rucker sagt nur „spürbarer Teil" [Q10]. Belastbare Studie: keine gefunden.
 4. **„Neuer Verteiler macht die Anlage sicher"** — nein: fehlt der Schutzleiter, schützt der FI nicht wie vorgesehen; Rucker schreibt das ausdrücklich [Q10].
 5. **„FI ist seit 2009 Pflicht"** — Fachbetriebe nennen 1984 (Bad) und 2009 (alle Steckdosen) [Q10]. Die Normzäsuren der DIN VDE 0100-410 werden unterschiedlich datiert (2007 für ≤ 20 A, 2018 für ≤ 32 A); **belegt ist hier nur die aktuelle Anforderung: 30 mA, ≤ 32 A** [Q12].
-6. **Prüffristen für selbstgenutzte EFH** — keine gesetzliche Pflicht gefunden; ELEKTRO+ empfiehlt wiederkehrende Prüfung, DIN VDE 0105-100 nennt für Wohnungen „z. B. 10 Jahre" [Q16]. Das ist eine Empfehlung, keine Vorschrift.
+6. **Prüffristen für selbstgenutzte EFH** — keine gesetzliche Pflicht gefunden; ELEKTRO+ empfiehlt wiederkehrende Prüfung, DIN VDE 0105-100 nennt für Wohnungen „z. B. 10 Jahre" [Q16]. Das ist eine Empfehlung, keine Vorschrift. **Norm und Vollzug fallen auseinander:** DIN VDE 0105-100 verlangt seit 1997 wiederkehrende Prüfungen auch für private Anlagen, nennt aber keine Frist und wird im privaten Bereich nicht kontrolliert; bei Vermietung wurden die berufsgenossenschaftlichen Fristen von der Rechtsprechung als Maßstab herangezogen ([Elektropraktiker, „Prüfpflicht im privaten Bereich“](https://www.elektropraktiker.de/fachartikel/detail/pruefpflicht-im-privaten-bereich/), ep 6/2007 — zitiert die Ausgabe 2005-06, geprüft 09.11.2026, HTTP 200).
 7. **Kosten** — es gibt keine amtliche Statistik; alle Bänder sind Marktbeobachtungen von Portalen und Betrieben. Die Streuung zwischen Q10 (München) und Q27 (bundesweit) beträgt bis zu 100 %.
 8. **„Asbest nur bei Baujahr vor 1993"** — maßgeblich ist der **Baubeginn**, nicht das Baujahr; Details im Schwester-Playbook.
 
@@ -419,6 +493,8 @@ Jeder Punkt ist im Video belegt (`references/fehlerkatalog.json`); Zeitmarke = F
 - **Spannung auf dem PE** in der Dose = akute Gefahr, Anlage freischalten lassen (dW-Sf-yaEBQ 00:04:58).
 - Abisolieren nur mit **Abisolierzange**; Seitenschneider kerbt die Seele, bei Litze **Aderendhülse**,
   sonst Bruch- und Erwärmungsstelle (dW-Sf-yaEBQ 00:03:34, 00:03:39).
+- **Abgerissene Ader in der Klemme** und **Kerben** von der Seitenschneider-Abisolierung: Leiter kürzen
+  und mit Abisolierzange neu absetzen, sonst Bruch- und Erwärmungsstelle (dW-Sf-yaEBQ-10).
 - Eine **Brücke** ist kein zweiter Stromkreis: Aderzahl zählen, sonst wird der Klemmpunkt falsch
   gedeutet (dW-Sf-yaEBQ 00:03:48).
 - **Aderreserve** in der Dose lassen (nachklemmen später), keine **lockere Klemmstelle**, keine Klemme
@@ -435,23 +511,18 @@ Jeder Punkt ist im Video belegt (`references/fehlerkatalog.json`); Zeitmarke = F
   Aufputz-Flickerei (eNpMPWvnWiI 00:10:36).
 - Zweite **Unterverteilung** in der **Elektroverteilung** (Garage/Außen) und **Außensteckdosen** und **Dreifachsteckdosen** von Anfang an vorsehen, statt
   Dreifach- auf Zweifachdosen zu reduzieren (sWXyiNADbFk 00:05:20, 00:09:01).
-- Netzwerk: durchgehend **Leerrohr**, keine engen Knicke; PoE ersetzt kein Datenkabel (sWXyiNADbFk 00:12:23).
+- Netzwerk: durchgehend **Leerrohr**, keine engen Knicke; **Cat.6/Cat.7** und **Biegeradius** einhalten —
+  ein geknicktes Kabel liefert PoE, aber keine Daten; PoE ersetzt kein Datenkabel
+  (sWXyiNADbFk 00:12:23, sWXyiNADbFk-12).
 
 **Messen, prüfen, dokumentieren**
 - **Zweipoliger Spannungsprüfer** (Duspol): L gegen N **und** L gegen PE messen, sonst bleibt ein
   PE-Fehler unentdeckt (eNpMPWvnWiI 00:13:59).
 - Spannungsprüfer ist **kein Installationsmessgerät**: Isolations-, Schleifen- und RCD-Messung brauchen
   Prüfgeräte, die nur der Fachbetrieb hat (eNpMPWvnWiI 00:16:56).
-- Stromkreise **kennzeichnen** (Kennzeichnung nach DIN VDE 0100-510, Abschnitt 514) — im Fehlerfall
-  wird sonst der falsche Kreis abgeschaltet (eNpMPWvnWiI 00:15:07).
-
-## Ergänzungen aus dem Video-Katalog (Nachtrag)
-
-- **Lichtsteuerung**: DALI bzw. dimmbare Kreise vorsehen, **beleuchteter Spiegel** und Leuchten auf
-  Kompatibilität prüfen — sonst wird die Szene nachträglich verkabelt (sWXyiNADbFk-10).
-- **Fenstersensoren** (Fensterhersteller-Systeme) haben Erfahrungswerte mit hoher Ausfallquote im ersten
-  Jahr (im Beispiel **30 % Ausschuss**): Dosen/Leitungen vorsehen, Systemwahl nach Erfahrungswerten, nicht
-  nach Prospekt (sWXyiNADbFk-14).
+- Stromkreise **kennzeichnen** (Kennzeichnung nach DIN VDE 0100-510, Abschnitt 514), jede Sicherung mit
+  **Sicherungsnummer** — im Fehlerfall wird sonst der falsche Kreis abgeschaltet (eNpMPWvnWiI 00:15:07,
+  eNpMPWvnWiI-14).
 
 ## Begriffe und Normbezug (richtige Wortwahl)
 
@@ -470,52 +541,3 @@ Jeder Punkt ist im Video belegt (`references/fehlerkatalog.json`); Zeitmarke = F
 - **Verdrahtung**: **Serienschaltung** (zwei Schaltstellungen) vs. Wechselschaltung, **Brücke** statt
   zweitem Stromkreis, **Try-and-error-Verdrahtung** ist kein Verfahren.
 - **Kanäle**: 20er Kanal reicht nicht, **40er bzw. 60×100** vorsehen.
-### Weitere Video-Fehler (Elektro)
-
-- **Abgerissene Ader in der Klemme** und **Kerben** von der Seitenschneider-Abisolierung: Leiter kürzen
-  und mit Abisolierzange neu absetzen, sonst Bruch- und Erwärmungsstelle (dW-Sf-yaEBQ-10).
-- **Beschriftung**: jede Sicherung mit **Sicherungsnummer** und Stromkreis kennzeichnen (Kennzeichnung nach
-  DIN VDE 0100-510, Abschnitt 514); ohne Beschriftung wird im Fehlerfall der falsche Kreis abgeschaltet
-  (eNpMPWvnWiI-14).
-- **Netzwerk**: durchgehend **Cat.6/Cat.7** im Leerrohr, **Biegeradius** einhalten — ein geknicktes Kabel
-  liefert PoE, aber keine Daten (sWXyiNADbFk-12).
-- **Nicht jeder Verbraucher braucht einen eigenen Stromkreis**: „Steckdosen kann man nie genug haben"
-  führt zu 14 Sicherungen für 14 Dosen (Werkstattgeräte wie Tischkreissäge/Bandsäge ausgenommen) — mehr
-  Kosten und mehr Fehlerquellen statt mehr Sicherheit (eNpMPWvnWiI-06).
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Lage vor Stückzahl**: Steckdose an jeder Raumecke und neben jeder Tür ist die Praxisregel, die
-  Stückzahl-Tabelle ist die Untergrenze. *Erfahrungswert aus der Praxis, nicht belegt.*
-- **Lampenauslass nicht direkt neben Schalter oder Steckdose** setzen; Vorhänge, Schränke und Betten
-  vorher festlegen — sonst wird nach dem Streichen gespachtelt und neu gestrichen.
-- **Bedienstellen planen**: in Räumen mit mehreren Ausgängen Taster an jeder Tür; Flur als ein Raum
-  behandeln; Wechselschaltung nur an den Wegen, die wirklich benutzt werden.
-- **Deckenventilator**: zwei Kanäle (Licht und Ventilator getrennt) und die Aufhängestelle in der
-  Trockenbaudecke verstärken.
-- **Schaltbare Steckdose** für LED-Streifen vorsehen — billiger und dauerhafter als jede Funklösung.
-- **Schaumstoffstopfen in Gerätedosen** beim Spachteln und Tapezieren, sonst ist die Dose voll Mörtel.
-- **LAN-Dose im Technikraum** für Wärmepumpe, Speicher und Wechselrichter — die Geräte werden
-  ferngewartet, Funk ist im Keller keine Lösung.
-- **Außen-Leerrohre** nicht nur für Garten, Bewässerung und Kamera legen, sondern auch für Rasenroboter,
-  Garagentor, Klingel und Pool/Sauna.
-
-## Nachtrag: FI-Aufteilung und Ausfallsicherheit (Kalt/Warm-Test 09.11.2026)
-
-Der Vergleich mit einer Antwort ohne Wissensbasis hat gezeigt: Das Playbook war beim FI zu grob. Ergänzt:
-
-- **Ableitströme summieren sich**: an einen 30-mA-RCD gehören in der Praxis **nicht mehr als etwa sechs
-  Stromkreise** (Erfahrungswert, keine Normzahl). Viele Schaltnetzteile, lange Leitungen und alternde
-  Elektronik bringen 10–15 mA zusammen — dann löst der RCD ohne Isolationsfehler aus.
-- **Gliederung nach Verbraucher, nicht nach Geschoss**: kritische Kreise (Kühl-/Gefriergeräte, Router,
-  Heizungssteuerung, Alarmanlage) getrennt führen, Licht/Flur separat. **RCBO (FI/LS) je kritischem Kreis**
-  ist die sauberste Lösung — dann fällt nur dieser Kreis.
-- **Typ richtig wählen**: Typ A ist Standard; Typ B ist für Wallbox, PV-Wechselrichter und Frequenzumrichter
-  mit glattem Gleichfehlerstrom nötig. Bei vorgelagertem selektivem RCD (300 mA Typ S) Selektivität prüfen.
-- **RCD ersetzt keinen Leitungsschutz**: Kurzschluss- und Überlastschutz bleiben eigene Aufgabe
-  (DIN VDE 0100-430); ein FI schützt Personen, nicht die Leitung.
-- **Prüfen statt glauben**: Auslösezeit und Auslösestrom werden gemessen (DIN VDE 0100-600), die Prüftaste
-  am Gerät ist nur ein Funktionstest.
-
-- **PEN-Auftrennung nach DIN VDE 0100-540**: Wo aus einem TN-C-System ein TN-S wird, muss der PEN an der
-  vorgesehenen Stelle in PE und N getrennt werden — danach nie wieder verbinden. Ohne durchgehenden,
-  getrennten Schutzleiter ist die Anlage kein sauberes TN-S-System.

@@ -3,7 +3,7 @@
 ## Warum überhaupt
 
 Ein Playbook, das sich gut liest, kann trotzdem die falschen Punkte weglassen. Deshalb wird die
-Wissensbasis gegen **Fehlerlisten aus zehn Top-Fehler-Videos** getestet (Transkripte in
+Wissensbasis gegen **Fehlerlisten aus 15 Top-Fehler-Videos** getestet (Transkripte in
 `../transkripte/`, Katalog in `../fehlerkatalog.json`).
 
 ## Test 1 — Abdeckungstest (deterministisch, jederzeit wiederholbar)
@@ -70,7 +70,7 @@ Werkvertrag) war die kalte Antwort sogar differenzierter, was zu Nachträgen in 
 
 ## Werkzeuge
 
-- `scripts/fehlercheck.py` — Abdeckung gegen den Fehlerkatalog (157 bewertete Fehler), `--gaps`, `--json`,
+- `scripts/fehlercheck.py` — Abdeckung gegen den Fehlerkatalog (154 bewertete Fehler), `--gaps`, `--json`,
   `--ablate` als Negativkontrolle.
 - `scripts/linkcheck.py` — alle URLs im Skill (über 1.100, wächst mit jedem Playbook), HEAD zuerst, Retry bei 000, Klammern in Pfaden
   balanciert; Bot-Blocker (kfw.de, landesrecht-bw.de) werden separat gezählt statt als tot gemeldet, und
@@ -222,7 +222,7 @@ Fernwärme, sommerlicher Wärmeschutz.
 
 ## Test 7 — Router: landet die Alltagsfrage in der richtigen Datei?
 
-`scripts/router_test.py` prüft 30 Fragen (`references/router-test.json`, jedes Playbook kommt vor)
+`scripts/router_test.py` prüft 32 Fragen (`references/router-test.json`, jedes Playbook kommt vor)
 gegen die Router-Tabelle in `SKILL.md`. Bewertet wird, ob die Zeile mit der größten Wortüberschneidung
 die erwartete Datei nennt — nicht, welche Datei ein Modell tatsächlich öffnet.
 
@@ -233,7 +233,10 @@ python3 scripts/router_test.py --json     # maschinenlesbar
 
 Erster Lauf: **22/30**. Die Tabelle war zu fachsprachlich — „Fliesenleger", „Treppengeländer",
 „Regenrinne", „Vorkasse" und „Dämmwolle entsorgen" trafen **keine** Zeile (Score 0), „feucht" zog eine
-Estrichfrage in den Keller. Nach dem Nachschärfen sieben Zeilen und zwei Skriptfehler: **30/30**.
+Estrichfrage in den Keller. Nach dem Nachschärfen sieben Zeilen und zwei Skriptfehler: **30/30**, nach
+Ergänzung der beiden neuen Themen (Trinkwasser, Barrierefreiheit) **32/32**. Wie bei jeder Quote gilt:
+zuerst die Frage prüfen, dann die Erwartung — wird eine Frage nur umformuliert, damit sie passt, misst
+der Test die eigene Tabelle.
 
 **Zwei Werkzeugfallen, die den Test selbst kaputt machen:**
 

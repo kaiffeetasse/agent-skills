@@ -51,7 +51,10 @@ def urls() -> dict[str, set[str]]:
 
 def check(url: str, timeout: int) -> tuple[str, str]:
     base = ["curl", "-s", "-o", "/dev/null", "-m", str(timeout), "-g",
-            "-A", "Mozilla/5.0 (X11; Linux x86_64)", "-w", "%{http_code}"]
+            "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "-H", "Accept-Language: de-DE,de;q=0.9,en;q=0.8",
+            "-w", "%{http_code}"]
     for attempt in range(2):           # zweiter Versuch nach Pause: Hosts drosseln gern
         for mode in (["-I"], []):      # erst HEAD (schnell, auch bei großen PDFs), dann GET
             try:
@@ -59,6 +62,10 @@ def check(url: str, timeout: int) -> tuple[str, str]:
                                    capture_output=True, text=True, timeout=timeout + 5)
                 code = r.stdout.strip()
                 if code and code != "000":
+                    # HEAD luegt bei manchen Seiten: OBI und bau.net antworten auf HEAD mit 404,
+                    # auf GET mit 200. Deshalb bei 4xx/5xx aus dem HEAD weiter mit GET probieren.
+                    if mode and code.startswith(("4", "5")):
+                        continue
                     return url, code
             except Exception:
                 pass

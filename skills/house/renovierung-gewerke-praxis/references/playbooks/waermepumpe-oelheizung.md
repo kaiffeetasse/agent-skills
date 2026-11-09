@@ -103,6 +103,8 @@ Prüfstand: Der Volltext auf gesetze-im-internet.de führt das Gesetz jetzt als 
 
 **Für das Einfamilienhaus heißt das:** von den drei „berühmten“ Pflichten (65 %, 30 Jahre, hydraulischer Abgleich) bleibt dir 2026 **keine** als Zwang — der hydraulische Abgleich ist im EFH keine gesetzliche Pflicht, aber **Fördervoraussetzung** und Voraussetzung für eine gute JAZ.
 
+Im BEG-Rahmen ist dafür **Verfahren B** mit raumweiser Berechnung verlangt; als Nachweis verlangen die Förderstellen ein ausgefülltes **VDZ**-Formular.
+
 ### 1.4 Widerspruch, der stehen bleibt
 
 Das BBSR schreibt, die 65-%-EE-Anforderung sei für „Neu- und Bestandsgebäude“ entfallen `[Q08]`; für **Neubauten** ist das im Volltext nachvollziehbar (§ 10 verweist auf §§ 42–45) `[Q01]`. Ob ein **vor** dem 29.07.2026 erteilter Förderbescheid mit 65-%-Auflage weiter an seiner Auflage gebunden bleibt, regelt das GModG nicht ausdrücklich — das ist eine Frage des jeweiligen Bescheids, nicht des Gesetzes (siehe „Unbelegt“).
@@ -143,11 +145,13 @@ Rechenweg: Satz = 0,30 + 0,16 + Bonus, gedeckelt auf 0,80; Zuschuss = min(Satz; 
 
 - **KGB:** ab 01.02.2027 halbjährlich −4 Prozentpunkte; **ab Antragstellung 01.08.2028 = 0** `[Q09]`.
 - **förderfähige Kosten:** ab 01.02.2027 halbjährlich −750 €, Ende 2030 bei 22.000 € `[Q09][Q11]`.
-- **Ab Q1 2027 (strittig):** ADAC und ELCO nennen eine Absenkung der Grundförderung auf **15 %** mit einem
-  **Wertschöpfungsbonus 15 %** für Wärmepumpen aus EU-Produktion. Das **KfW-Merkblatt 458** (Stand 09/2026,
-  gültig ab 24.09.2026, am 09.11.2026 im PDF geprüft) sagt dagegen **30 % Grundförderung** und enthält
-  weder Absenkung noch Bonus. **Nicht gemittelt:** für die Planung gilt das Merkblatt, die Gegenangabe
-  bleibt offen und ist vor Antragstellung zu prüfen.
+- **Ab Q1 2027 (jetzt belegt, nicht mehr strittig):** Die Grundförderung für Wärmepumpen sinkt von
+  **30 % auf 15 %**, gleichzeitig kommt ein **Wertschöpfungsbonus von 15 %** für Geräte aus **EU-Fertigung**
+  — in Summe bleiben 30 % also nur für EU-Geräte (Verbraucherzentrale, am 09.11.2026 im Volltext geprüft:
+  „Ab dem 1. Quartal 2027 wird die Grundförderung … von bisher 30 Prozent auf 15 Prozent reduziert").
+  Das **KfW-Merkblatt 458 (Stand 09/2026)** weist folgerichtig noch die 30 % aus — es beschreibt den Stand
+  vor dieser Änderung. Das ist eine **Zeitachse, kein Widerspruch**; wer 2027 antragt, rechnet mit 15 %
+  plus 15 % nur bei EU-Gerät.
 - **Austausch einer bestehenden Wärmepumpe:** bis 31.12.2026 regulär förderfähig; ab Q1 2027 nur noch für Anlagen mit Einbau **vor 2008**, dann 25 % gedeckelt `[Q11]`.
 
 ### 2.4 Antragsweg und die Falle, die Geld kostet
@@ -166,6 +170,8 @@ Rechenweg: Satz = 0,30 + 0,16 + Bonus, gedeckelt auf 0,80; Zuschuss = min(Satz; 
 ### 3.1 Jahresarbeitszahl (JAZ)
 
 Die JAZ ist der Jahresmittelwert aus erzeugter Wärme geteilt durch eingesetzten Strom. **Ab 3,0 gilt eine Wärmepumpe als effizient**; Luftwärmepumpen liegen typisch bei **3–4**, Grundwasseranlagen oft **5 und mehr** `[Q18]`. Für den Steuerbonus ist die JAZ 3,0 rechnerisch nachzuweisen `[Q14]`.
+
+**Feldwerte statt Prospektwerte:** Luft-Wasser-Wärmepumpen erreichen im Feld im Mittel **3,4**; damit rechnet sich die Anlage besser als mit 3,0 — mit einer 5,0 aus dem Datenblatt nie. (Zahl aus dem Video-Gegencheck, ohne eigene Quelle — siehe §12.)
 
 **Messbar machen:** Wärmemengenzähler plus Stromzähler für die WP — die JAZ ist sonst eine Behauptung des Verkäufers `[Q18]`.
 
@@ -202,9 +208,14 @@ Im Fachforum wird für 3.500 l „grob 16 kW" genannt `[Q27]` — dieselbe Grö�
 
 **Der Widerspruch:** Die Baujahrstabelle von heizung.de nennt für Gebäude **bis 1977 rund 160 W/m²** `[Q19]`; bei 150 m² wären das **24 kW** — fast das Doppelte des Verbrauchswerts. Beide Zahlen sind veröffentlicht, beide sind grob. Deshalb gilt: **raumweise Heizlast nach DIN EN 12831** ist die Entscheidungsgrundlage, der Überschlag nur die Plausibilitätsprüfung `[Q19][Q01]` (§ 60c verlangt genau dieses Verfahren). Ein zu groß gewähltes Gerät taktet, verschleißt und erreicht die JAZ nicht `[Q18]`.
 
+**Das Typenschild ist keine Heizlast.** Der kW-Wert auf dem alten Kessel ist eine historische Geräteziffer, kein Beleg für den heutigen Wärmebedarf; wer ihn übernimmt und noch einen **Sicherheitszuschlag** drauflegt, kauft doppelt zu groß. Grundlage bleibt die raumweise Heizlast nach DIN EN 12831.
+
+**Zweites Auswahlkriterium ist die Modulationsgrenze.** Eine Vaillant VWL 75/6 regelt nur bis etwa **4,6 kW** herunter, eine Stiebel Eltron 07.2 Plus bis rund **3 kW**. Liegt der Bedarf an einem Herbsttag darunter, taktet das Gerät — deshalb gehört die **Modulationsgrenze** neben die Heizlast ins Angebot.
+
 ### 3.5 Pufferspeicher und Warmwasser
 
 - **Puffer:** „Viel Puffervolumen, damit die Wärmepumpe eine sehr lange Laufzeit erreicht“ `[Q34, 02:36–02:42]`. Ein Mindestvolumen in Litern je kW ist **nicht belegt** (siehe Unbelegt) — die Auslegung gehört ins Angebot, nicht in eine Faustformel.
+- **Reiheneinbindung** (Reihenrücklauf) und Puffervolumen sind nicht das Entscheidende: über die Wirtschaftlichkeit entscheiden die tatsächliche **Mindestlaufzeit des Verdichters** und die **Spreizung** im Betrieb. Angebot genau prüfen.
 - **Warmwasser:** Speicher mit Heizwasserumspülung (Multifunktionsspeicher) löst das Legionellen-Thema konstruktiv, weil kein stehendes Trinkwasserreservoir existiert `[Q34, 02:42–02:47]`. Frischwasserstation (Durchflussprinzip) ist die Alternative mit weniger Speichervolumen, aber mehr Technik im Fließweg. Beides ist zulässig; die Entscheidung hängt am Platz.
 
 ### 3.6 Kältemittel
@@ -369,6 +380,8 @@ WP:  15.120 × 0,0672 = 1.016 €/a  + 2.451 Betrieb + 250 Wartung  = 3.717 €/
 Vorteil WP: 1.078 €/Jahr
 ```
 
+**Gegenrechnung aus einem Video (Widerspruch, nicht gemittelt):** dort werden „mindestens **24.000 €** Eigenanteil nach Förderung“ bei **20 Jahren** Haltbarkeit angesetzt (= 1.000 €/Jahr). Dieses Rechenbeispiel kommt mit **15.120 €** aus, weil andere Gerätepreise angenommen werden. Beide Annahmen offenlegen, statt eine Zahl zu wählen.
+
 ### 6.4 Sensitivität (dieselbe Anlage)
 
 | Variable | Wert | Ersparnis/Jahr | Amortisation 15.120 € |
@@ -441,7 +454,7 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 
 1. **Förderantrag nach Baubeginn** → 0 €. Antrag zuerst, dann Bestellung `[Q11][Q37, 25:51]`.
 2. **KGB verschenkt, weil die Heizung erst repariert wurde, bis sie tot war** → 16 Prozentpunkte = 4.480 € bei 28.000 € `[Q09]`.
-3. **Gerät nach Quadratmeterformel ausgelegt** → 24 kW statt 12,5 kW, Takten, JAZ unter 3 `[Q19][Q27][Q18]`.
+3. **Gerät nach Quadratmeterformel oder Typenschild ausgelegt** → 24 kW statt 12,5 kW, Takten, JAZ unter 3 `[Q19][Q27][Q18]`; dasselbe passiert, wer den kW-Wert des alten Kessels plus Sicherheitszuschlag übernimmt (§3.4).
 4. **Heizkörper „in gleicher Größe“ getauscht** → bei 55/45 nur ~50 % Leistung, Raum wird nicht warm (Formel in `heizung-lueftung.md`).
 5. **Schall mit 50/35 dB(A) gerechnet** → das ist reines Wohngebiet; im allgemeinen Wohngebiet gelten 55/40 `[Q19a]`.
 6. **Öltank selbst „stillgelegt“** → AwSV-Verstoß, keine Bescheinigung, späterer Hausverkauf wird zum Problem `[Q15]`.
@@ -473,7 +486,7 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 **Vor der Abnahme**
 - [ ] Hydraulischer Abgleich nach Verfahren B dokumentiert (Einstellwerte, raumweise Heizlast)
 - [ ] Wärmemengenzähler + Stromzähler für die JAZ eingebaut
-- [ ] Heizkurve eingestellt; **keine tiefe Nachtabsenkung** (Wärmepumpe hält die Temperatur, Aufheizen kostet mehr als das Halten)
+- [ ] Heizkurve eingestellt; **keine tiefe Nachtabsenkung** (die Wärmepumpe arbeitet am effizientesten im Halten der Temperatur; kurzes Absenken spart nichts, weil morgens mit schlechterem COP wieder aufgeheizt wird — der Effekt steht in keinem Verhältnis zum Komfortverlust)
 - [ ] Dichtheitsprotokoll Heizung, Elektro-Messprotokoll (DIN VDE 0100-600)
 - [ ] Stilllegungs-/Entsorgungsbescheinigung Öltank im Ordner
 - [ ] Schornsteinverschluss dokumentiert und mitgeteilt `[Q16]`
@@ -494,7 +507,7 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 | Q08 | BBSR/Bund: „Neuregelungen mit dem GModG“ (Inkrafttreten, §§ 71–73 entfallen, Bio-Treppe, 2027 EPBD) | https://gmodg.bund.de/GModG/DE/GModGRegelungen/GModG_neu/GModG_neu-node.html | abgerufen 09.11.2026 |
 | Q09 | KfW, Infografik „Neue Bedingungen der Heizungsförderung“ (30 %, 16 %, 40/30/10 %, 28.000 €, 22.400 €) | https://www.kfw.de/PDF/Download-Center/F%C3%B6rderprogramme-(Inlandsf%C3%B6rderung)/PDF-Dokumente/Infografik_Heizungsf%C3%B6rderung_Anpassungen_Juli_2026.pdf | Stand 21.07.2026 |
 | Q10 | KfW Merkblatt 358/359 Ergänzungskredit (120.000 €, 90.000 € Einkommen, Laufzeiten) | https://kfw.de/PDF/Download-Center/F%C3%B6rderprogramme-(Inlandsf%C3%B6rderung)/PDF-Dokumente/6000005135_M_358_359.pdf | gültig ab 24.09.2026 |
-| Q11 | ADAC: KfW-Heizungsförderung 2026 (Neustart 21.07.2026, Bonusentfall, Wertschöpfungsbonus ab Q1 2027 genannt — steht im Widerspruch zum KfW-Merkblatt 458, das 30 % Grundförderung ausweist) | https://www.adac.de/rund-ums-haus/energie/spartipps/foerderung-heizung/ | abgerufen 09.11.2026 |
+| Q11 | ADAC: KfW-Heizungsförderung 2026 (Neustart 21.07.2026, Bonusentfall, Wertschöpfungsbonus ab Q1 2027 genannt — steht im Widerspruch zum KfW-Merkblatt 458, das 30 % Grundförderung ausweist) | https://www.adac.de/rund-ums-haus/energie/spartipps/foerderung-heizung/ | abgerufen 09.11.2026 — die dort genannte 15-%-Stufe ab Q1 2027 ist durch die Verbraucherzentrale bestätigt (09.11.2026) |
 | Q12 | Heid Energieberatung: „Austauschpflicht abgeschafft“ (30-Jahre-Regel, 2045-Verbot, Gasetagenheizung) | https://www.heid-energieberatung.de/ratgeber/heizung-austauschpflicht/ | aktualisiert 29.08.2026 |
 | Q13 | § 35c EStG Volltext (7/7/6 %, 40.000 €, Doppelförderungsverbot) | https://www.gesetze-im-internet.de/estg/__35c.html | 09.11.2026 |
 | Q14 | ESanMV Volltext (Anlage 6: JAZ ≥ 3,0 nach VDI 4650; natürliche Kältemittel ab 01.01.2028) | https://www.gesetze-im-internet.de/esanmv/BJNR000300020.html | 09.11.2026 |
@@ -541,31 +554,9 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 8. **„Wärmeplanung“ als kommunale Pflicht.** Sie ist aus dem GModG entfernt `[Q01]`; ob Landesgesetze (z. B. Wärmeplanungsgesetze der Länder) eigenständige Fristen setzen, wurde nicht geprüft.
 9. **Langfristige Ölpreisprognose.** Die Sensitivitätsrechnung nutzt nur belegte Tagespreise `[Q28]`; jede Prognose wäre Spekulation.
 10. **Erfahrungswerte für Eigenleistungs-Stunden** (Graben, Dämmung) — bewusst weggelassen, weil keine Quelle.
+11. **Feld-Jahresarbeitszahl 3,4** (Luft-Wasser) stammt aus dem Video-Gegencheck und hat in dieser Recherche keine eigene Quelle; belegt ist nur die Spanne 3–4 `[Q18]`. Die Rechenbeispiele in §6 arbeiten deshalb weiter mit 3,0.
+12. **Modulationsgrenzen einzelner Geräte** (VWL 75/6 ≈ 4,6 kW, Stiebel 07.2 Plus ≈ 3 kW) sind Herstellerangaben aus dem Video-Gegencheck, nicht aus einem geprüften Datenblatt.
 
 ---
 
 *Verwandte Playbooks: `heizung-lueftung.md` (Heizkörper, Vorlauf, Hydraulik), `elektro.md` (Zählerplatz, Leitungen), `daemmung.md` (Hüllfläche vor Heizungstausch), `kosten-bauzeit.md` (Angebotsvergleich, Nachträge), `entkernen-entsorgung.md` (Rückbau, Entsorgung).*
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Nicht nach Typenschild auslegen.** Der Wert auf dem alten Kessel ist eine historische Geräteziffer,
-  kein Beleg für den heutigen Wärmebedarf. Wer ihn übernimmt und dann noch einen **Sicherheitszuschlag**
-  drauflegt, kauft doppelt zu groß. Grundlage ist die raumweise Heizlast (DIN EN 12831), nicht das
-  **Typenschild**.
-- **Untere Modulationsgrenze beachten**: eine Vaillant VWL 75/6 regelt nur bis etwa **4,6 kW** herunter,
-  eine Stiebel Eltron 07.2 Plus bis rund 3 kW. Liegt der Bedarf an einem Herbsttag darunter, taktet das
-  Gerät — deshalb ist die **Modulationsgrenze** neben der Heizlast das zweite Auswahlkriterium.
-- **Reiheneinbindung** (Reihenrücklauf) und Puffervolumen sind nicht das Entscheidende: über die
-  Wirtschaftlichkeit entscheiden die tatsächliche **Mindestlaufzeit** des Verdichters und die Spreizung
-  im Betrieb. Angebot genau prüfen.
-- **Hydraulischer Abgleich nach Verfahren B** ist im BEG-Rahmen Pflicht; als Nachweis verlangen die
-  Förderstellen ein ausgefülltes **VDZ**-Formular. Basis ist die raumweise Berechnung.
-- **Reale Jahresarbeitszahl**: Luft-Wasser-Wärmepumpen erreichen im Feld im Mittel **3,4** — nicht die
-  Laborwerte aus dem Prospekt. Mit 3,4 statt 3,0 rechnet sich die Anlage besser, mit 5,0 aus dem Datenblatt
-  nie.
-- **Kein tiefes Nachtabsenken**: eine Wärmepumpe arbeitet am effizientesten im Halten der Temperatur. Kurz
-  **absenken** spart nichts, weil morgens mit schlechterem COP wieder aufgeheizt wird — der Effekt steht
-  in keinem Verhältnis zum Komfortverlust.
-- **Kostenrechnung im Video (Widerspruch, nicht gemittelt):** dort werden „mindestens **24.000 €**
-  Eigenanteil nach Förderung" bei **20 Jahren** Haltbarkeit angesetzt (= 1.000 €/Jahr). Das Rechenbeispiel
-  in diesem Playbook kommt mit **15.120 €** aus, weil andere Gerätepreise angenommen werden. Beide
-  Annahmen offenlegen, statt eine Zahl zu wählen.

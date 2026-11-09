@@ -133,7 +133,7 @@ Schlechter Druck an der Regendusche ist fast immer kein „zu kleiner Rohrdurchm
 | | Zentraler Speicher | Elektrischer Durchlauferhitzer |
 |---|---|---|
 | Hygiene | Speicher ist der kritische Punkt; Temperatur und Austausch müssen stimmen | Kein Speichervolumen, kein Legionellenreservoir im Gerät |
-| Temperatur | Austritt ≥ 60 °C, Zirkulationsrücklauf ≥ 55 °C (DVGW W 551) [Q12] | bedarfsgerecht, aber leistungs- und durchflussabhängig |
+| Temperatur | Austritt ≥ 60 °C, Zirkulationsrücklauf ≥ 55 °C (DVGW W 551) [Q12]; dezentraler Erwärmer für eine Gruppenversorgung mind. **50 °C** [Q41] | bedarfsgerecht, aber leistungs- und durchflussabhängig |
 | Komfort | sofort warm, wenn Zirkulation vorhanden | 10–30 s Wartezeit je nach Leitungslänge (Erfahrungswert); Temperaturschwankung bei Mehrfachentnahme |
 | Kosten | höhere Verluste (Speicher + Zirkulation), dafür oft mit Heizung gekoppelt | Strom für Warmwasser, hohe Anschlussleistung, eigener Stromkreis |
 | Bestand | sinnvoll, wenn Zentralheizung ohnehin da ist | sinnvoll bei einem einzelnen Bad mit weitem Weg zum Speicher |
@@ -144,15 +144,17 @@ Wichtig: Auch der Durchlauferhitzer löst das Problem **nicht**, wenn die Leitun
 
 - **Pflicht, wenn** zwischen Austritt Trinkwassererwärmer und entferntester Zapfstelle **mehr als 3 Liter** Rohrinhalt liegen – dann Zirkulationsleitung oder selbstregulierende Temperaturhaltebänder (DIN 1988-200, VDI/DVGW 6023, DVGW W 551) [Q10][Q11].
 - Zirkulation ohne **Schwerkraftbremse/Rückschlagventil** drückt Warmwasser in die Kaltleitung – Klassiker: „Kaltwasser wird warm“.
-- Zirkulationspumpe muss hydraulisch abgeglichen und bedarfsgesteuert sein; eine dauerhaft laufende Pumpe kostet mehr Energie als sie an Komfort bringt.
+- Zirkulationspumpe hydraulisch abgleichen. **Hygienisch ist Dauerbetrieb**, höchstens einmal täglich für höchstens **8 Stunden** unterbrochen; eine rein zeitgesteuerte Pumpe, die nur zu Nutzungszeiten läuft, hält die 55 °C nicht [Q9][Q39]. Energie spart eine Regelung nur, wenn die Temperatur an der entferntesten Zapfstelle nachweislich gehalten wird.
 - **30-Sekunden-Regel:** Nach vollständigem Öffnen muss Kaltwasser ≤ 25 °C und Warmwasser ≥ 55 °C anliegen (DIN 1988-200, Kap. 3.6) [Q11]. Das ist der praxistaugliche Test für jede Zirkulation.
+- **W 553 statt Bauchgefühl:** Die Zirkulation wird aus den Wärmeverlusten der Warmwasserleitungen berechnet, nicht aus der Zahl der Stockwerke. Ziel ist eine Abkühlung von höchstens **5 K** im gesamten Umlauf. Kurzverfahren (nur bei **≤ 30 m** Warmwasserleitung, **≤ 20 m** längstem Zirkulationsweg und **≤ 30 mbar** Druckverlust des Rückflussverhinderers): Mindestinnendurchmesser **10 mm**, Pumpe **DN 15** mit mindestens **200 l/h bei 100 mbar**. Vereinfachtes Verfahren: **11 W/m** für frei verlegte Leitungen im Keller, **7 W/m** im Schacht, rechnerische Abkühlung **Δϑ = 2 K**, Strömung **0,2–0,5 m/s** (max. **1,0 m/s**), Pumpendruck = Σ(l × R) × **1,2–1,4** plus **60 mbar** je Rückflussverhinderer (**100 mbar** kombiniert mit Strangabsperrventil). Der Artikel von 2011 zitiert TrinkwV 2011 und EnEV — die verfahrenstechnischen W 553-Werte gelten unabhängig davon, die EnEV ist inzwischen vom GEG abgelöst ([SBZ, „Zirkulation von Warmwasser“](https://www.sbz-online.de/sanitaer/zirkulation-von-warmwasser-hygiene-im-rundlauf), 13.12.2011, geprüft 09.11.2026, HTTP 200).
+- **Keine Zirkulation hinter Wohnungswasserzählern:** Dort lässt sie sich nicht anschließen; das Volumen hinter Zähler oder zentraler Mischarmatur ist auf **3 l** zu begrenzen, sonst werden die Zähler an die Entnahmestellen verlegt oder dezentral erwärmt [Q39].
 
 ### 2.5 Trinkwasserhygiene: Stagnation
 
 - **3-Liter-Regel:** Leitungsinhalt zwischen Erwärmer und entferntester Zapfstelle ≤ 3 l; für Kaltwasser gilt sie für die Einzelzuleitung hinter dem Abzweig [Q10].
 - **Totleitungen** dürfen maximal den **10-fachen Durchmesser** lang sein (DIN 1988-200) [Q10] – praktisch heißt das: blind gelegte Stichleitungen komplett zurückbauen, nicht nur abklemmen [Q16].
 - **Spülen:** VDI/DVGW 6023 fordert Wasseraustausch alle **72 Stunden** [Q10]; bei selten genutzten Zapfstellen im Haushalt mindestens **alle 4 Wochen** (Gesundheitsamt) [Q16]. Nach über 4 Stunden Standzeit Wasser ablaufen lassen, bis es kühl kommt (Empfehlung Umweltbundesamt) [Q16].
-- **Kalt kalt, warm warm:** Kaltwasser ≤ 25 °C, Warmwasser ≥ 55 °C [Q11]; Leitungen nicht nebeneinander ohne Trennung/Dämmung verlegen [Q10].
+- **Kalt kalt, warm warm:** Kaltwasser ≤ 25 °C, Warmwasser ≥ 55 °C [Q11]; Leitungen nicht nebeneinander ohne Trennung/Dämmung verlegen [Q10]. Die 25 °C sind die **Obergrenze** der 30-Sekunden-Regel, nicht das Ziel: Für die Legionellenprävention gilt kaltes Trinkwasser **dauerhaft < 20 °C** als sicher; der Bereich **> 20 (25) bis < 55 °C**, besonders **30–40 °C**, ist zu vermeiden. Dämmung allein löst das nicht, wenn die Umgebung > 25 °C warm ist — Rohrweg, Wasseraustausch und Reihen- statt Stichleitung entscheiden mit ([SBZ, „Reduzierung der Kaltwassertemperaturen“](https://www.sbz-online.de/sanitaer/reduzierung-der-kaltwassertemperaturen-teil-1-passive-massnahmen), 26.03.2024, geprüft 09.11.2026, HTTP 200).
 - **Speichergröße an den Bedarf anpassen** – ein 300-l-Speicher für zwei Personen ist ein Hygiene- und Energieproblem (Erfahrungswert, keine Quelle beziffert die Größe).
 - **Betreiberpflicht:** Ein- und Zweifamilienhäuser sind von der Legionellen-Untersuchungspflicht ausgenommen. Untersuchungspflichtig sind Großanlagen (> 400 l Speicher **oder** > 3 l Leitungsinhalt) bei öffentlicher/gewerblicher Tätigkeit mit Duschen – bei gewerblicher Vermietung alle 3 Jahre, bei öffentlicher Tätigkeit jährlich [Q17]. Die Sorgfaltspflicht bleibt trotzdem.
 
@@ -163,6 +165,12 @@ Wichtig: Auch der Durchlauferhitzer löst das Problem **nicht**, wenn die Leitun
 Jede Etage, jede Wohnung, jeder Strang und jede Entnahmestelle sollte **einzeln absperrbar** sein (Kugelhahn, Eckventil, Geräteventil). Der Grund ist nicht Komfort, sondern Schadensbegrenzung: Ein abgerissener Ventilkopf am Eckventil lässt sich sonst nur über den Haupthahn im Keller stoppen – bis dahin steht das Wasser im Flur (genau dieser Schadensfall ist dokumentiert) [Q21]. Absperrventile müssen außerdem **regelmäßig betätigt** werden, sonst sitzen sie fest [Q21].
 
 Praxis: Eckventile hinter WC und Waschtisch, Geräteventil für Waschmaschine (mit Aquastop), Kugelhahn vor jedem Strang, Haupthahn gut zugänglich und gekennzeichnet.
+
+**Zweiter Kreislauf, wenn Garten oder Grauwasser dazukommen:** eine **zweite Wasseruhr** und ein
+**getrennter Kreislauf** für Gartenbewässerung und **Außenwasserhahn** — sonst zahlt man
+Abwassergebühr für Gießwasser und hat keinen frostsicheren Ablass (sWXyiNADbFk-13). Derselbe getrennte
+Kreislauf ist für Regen- oder Grauwasser nötig, wenn es genutzt wird — sonst ist die
+Trinkwassertrennung nicht nachweisbar (sWXyiNADbFk-13).
 
 ---
 
@@ -506,13 +514,12 @@ gelesen und der zitierte Satz dort verifiziert — als „403, Inhalt geprüft�
 **[Q38]** § 634a BGB (gesetze-im-internet.de) – Verjährung der Mängelansprüche: fünf Jahre bei einem
 Bauwerk, Beginn mit der Abnahme. https://www.gesetze-im-internet.de/bgb/__634a.html — erreichbar: ja (HTTP 200).
 
+**Zirkulation und Kaltwasser (Fachmedien, geprüft 09.11.2026)**
+**[Q39]** SBZ Online, „Zirkulation von Warmwasser – Hygiene im Rundlauf" – DVGW W 553: Abkühlung ≤ 5 K, Kurzverfahren 30/20 m, 200 l/h bei 100 mbar, 10 mm Mindestdurchmesser, 11/7 W/m, Δϑ 2 K, 0,2–0,5 m/s. https://www.sbz-online.de/sanitaer/zirkulation-von-warmwasser-hygiene-im-rundlauf (13.12.2011) — HTTP 200; zitiert TrinkwV 2011/EnEV, Verfahrenswerte davon unabhängig.
+**[Q40]** SBZ Online, „Reduzierung der Kaltwassertemperaturen – Teil 1: Passive Maßnahmen" – kaltes Trinkwasser dauerhaft < 20 °C, kritisch > 20 (25) bis < 55 °C, besonders 30–40 °C; Dämmung allein reicht nicht. https://www.sbz-online.de/sanitaer/reduzierung-der-kaltwassertemperaturen-teil-1-passive-massnahmen (26.03.2024) — HTTP 200.
+**[Q41]** IKZ, „Zentralverband – 3 Liter und 30 Sekunden im Check" – DIN 1988-200 Kap. 3.6, 30-s-Regel, dezentraler Erwärmer für Gruppenversorgung ≥ 50 °C, Kaltwasser-Ziel 20 °C, Stagnationsdauer 4 h (UBA) bis 168 h (DIN). https://www.ikz.de/detail/news/detail/zentralverband-3-liter-und-30-sekunden-im-check (30.04.2020) — HTTP 200.
+
 > **Einordnung Reddit:** Die dort genannten Preise decken sich mit den deutschen Kostenquellen (24–27). Die Diskussionen sind trotzdem nur Stimmungsbild: US-amerikanische r/Plumbing-Praxis (PEX, SharkBite, UPC-Code) ist nicht auf deutsche Normen und das Installateurverzeichnis übertragbar.
-
-## Ergänzungen aus dem Video-Katalog
-
-- **Zweiten Wasserkreislauf vorsehen**: getrennte Leitung mit **zweiter Wasseruhr** für Gartenbewässerung
-  und **Außenwasserhahn**, sonst zahlt man Abwassergebühr für Gießwasser und hat keinen frostsicheren
-  Ablass (sWXyiNADbFk-13).
 
 ## Widersprüche im eigenen Text (nicht gemittelt)
 
@@ -537,10 +544,6 @@ Bauwerk, Beginn mit der Abnahme. https://www.gesetze-im-internet.de/bgb/__634a.h
 - Stundensatz: Tabelle 50–70 / 70–130 €/h, Q26 nennt als Gesamtkorridor 60–130 €/h.
 - WC-Anschlussleitung: Text „DN 80/90“, Q7 nennt nur DN 80 für 4,5-/6-l-WCs.
 
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Getrennter Kreislauf** für Regen- oder Grauwasser, wenn es genutzt wird — sonst ist die Trinkwassertrennung nicht nachweisbar (sWXyiNADbFk-13).
-
 ## Unbelegt
 
 - Schallwerte von Vorwandelementen (dB) je Hersteller — Datenblattwerte, nicht nachgemessen.
@@ -560,4 +563,5 @@ Bauwerk, Beginn mit der Abnahme. https://www.gesetze-im-internet.de/bgb/__634a.h
 - Wasserleitung Unterputz 30–80 €/m — auf der abgerufenen sanier.de-Seite nicht wörtlich gefunden.
 - Hausanschluss „2,0 l/s und mehr“ bei DN 25–32 — Erfahrungswert (Q9 nennt 1,3 l/s für DN 25).
 - DN 90 als Nennweite der WC-Anschlussleitung — Q7 nennt nur DN 80.
-
+- **DVGW W 553** — 5 K, 200 l/h bei 100 mbar, 10 mm Mindestdurchmesser, 11/7 W/m und Δϑ 2 K sind über SBZ 2011 belegt [Q39], nicht am Normtext geprüft; der Artikel zitiert TrinkwV 2011 und EnEV.
+- **Kaltwasser 20 °C** — hygienisches Ziel über SBZ 2024 [Q40], kein Grenzwert der TrinkwV; die 25 °C der DIN 1988-200 bleiben die Betriebsgrenze.

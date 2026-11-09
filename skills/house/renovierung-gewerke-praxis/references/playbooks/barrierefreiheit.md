@@ -21,8 +21,8 @@
 - **Förderung 11/2026:** KfW-**455-B ist geschlossen** (Antragstopp Ende Juli 2026, ggf. 2027 wieder),
   KfW-**455-E gibt es nicht mehr** (Einbruchschutz-Zuschuss, 2023 eingestellt). Offen ist der
   **KfW-Kredit 159** (bis 50.000 €/Wohnung, ab 3,00 % eff.) und die **Pflegekasse** (4.180 € je Maßnahme).
-- **Reihenfolge:** Bedarf feststellen → Maße aufnehmen → Bad/Wege → Förderung **vor** Auftrag → bauen.
-  Wer erst baut und dann fördert, verliert den Zuschuss.
+- **Reihenfolge:** Bedarf feststellen → Maße aufnehmen → Bad/Wege → Förderung **vor** Auftrag →
+  **schriftliche Bewilligung abwarten** → bauen. Wer erst baut und dann fördert, verliert den Zuschuss.
 
 **Praxis-Playbook für Eigentümer im Bestand.** Quellenprüfung **09.11.2026**, jede URL einzeln
 abgerufen. Jede Zahl trägt eine Quellennummer `[Qn]`. DIN-Volltexte sind kostenpflichtig — zitiert wird
@@ -123,6 +123,21 @@ Geschossdecke, abgehängte Decke im Geschoss darunter oder eine Membran-Duschwas
 Bestand ohne abgehängte Decke also Hebeanlage/Pumpe einplanen, **bevor** der Estrich geöffnet wird.
 Mehr Gefälle entwässert besser, erhöht aber Rutschgefahr und Abdriften des Rollstuhls; über 2 % wird es
 unzulässig, bei Rinnen mitten im Raum empfiehlt nullbarriere **0,5 %** [Q2][Q5].
+
+**Der Fehler passiert vor dem Fliesen, sichtbar wird er danach.** Im Forum wird ein Fall geschildert, in
+dem das Gefälle fertig verlegt war — aber **zur Badezimmertür** statt zur Rinne; die Fliesen und die Rinne
+waren bereits drin. [Dusche Gefälle](https://bau.net/forum/sanitaer/12350.php) (geprüft 09.11.2026,
+Forenbeitrag — nur Problemhinweis). Die prüfbare Regel daraus, unabhängig belegt:
+
+1. **Tiefpunkt festlegen, bevor der Estrich kommt** — er ist der Ablauf, nicht die Tür. Türschwelle und
+   angrenzender Boden dürfen nicht der tiefste Punkt sein [Q2][Q5].
+2. **Gefälleprobe vor dem Fliesen:** Wasser auf den Rohaufbau (oder Kugel/Laser) — läuft es zum Ablauf,
+   stimmt die Richtung; steht es, ist der Aufbau falsch [Q5].
+3. **Gefälle dokumentieren** (Foto mit Wasserwaage/Messlatte) und zusammen mit der Abdichtung
+   (DIN 18534, Details in `bad.md`) abnehmen, nicht erst nach der Endabnahme.
+4. **Zu dünner Estrich ist kein Grund für ein Podest.** Reicht die Aufbauhöhe für ein Gefälle nicht, ist
+   das ein Entwässerungsproblem (Rinne, Punktablauf, Hebeanlage) — ein Podest mit Stufe ist nicht mehr
+   bodengleich und damit keine barrierefreie Lösung [Q2][Q5].
 
 ### 2.2 WC
 
@@ -227,6 +242,12 @@ nicht unterfahrbar, egal wie hoch die Platte ist.
   Sturz zur Statikaufgabe (siehe 5.2).
 - **Drehflügeltüren dürfen nicht in Sanitärräume schlagen** — sonst blockiert die Tür den Raum, und im
   Notfall kommt niemand hinein. Türen von Sanitärräumen müssen von außen entriegelbar sein [Q2].
+
+**Der Klassiker im Forum:** Die Frage „welche Breite muss eine Tür haben, damit ein Rollstuhl bequem
+durchkommt" wird mit Zargen- oder Blattmaß beantwortet — und die Antwort ist falsch, weil die **lichte
+Breite** gemeint ist. [Rollstuhlbreite](https://bau.net/forum/behinder/10008.php) (geprüft 09.11.2026,
+Forenbeitrag — nur Problemhinweis). Die prüfbare Regel bleibt: **messen zwischen Zarge und geöffnetem
+Blatt**, am fertig eingebauten Zustand, mit dem tatsächlichen Hilfsmittel [Q2][Q4].
 
 ### 4.2 Rampen
 
@@ -337,6 +358,25 @@ verlegter Hauseingang. Das ist keine Niederlage, sondern Rechnen.
 - **Geht nicht:** Abdichtung und Fliesen „in Etappen" um das WC herum — die Abdichtungsebene ist
   zusammenhängend, die Unterbrechung ist später genau die Schadstelle.
 
+### 5.4 Fenster und Balkontüren — die vergessene Barriere
+
+Fenster sind im Barrierefreiheits-Playbook oft nicht erwähnt, kosten aber im Alltag mehr Kraft als eine
+Tür: Griff außerhalb der Reichweite, schwer drehender Beschlag, hohe Schwelle zur Terrasse. Die
+Verbraucherzentrale nennt die Punkte, die man **vor** der Bestellung festlegt [Neue Fenster](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798)
+(geprüft 09.11.2026) [Q33]:
+
+| Punkt | Regel | Warum |
+|---|---|---|
+| Griffhöhe | Griff im **unteren Drittel** des Fensters | auch im Sitzen und für kleinere Menschen erreichbar |
+| Griff sichtbar | Farbe abweichend vom Rahmen | Sehbeeinträchtigung |
+| Mechanik | **leichtgängig**; bei unerreichbaren Fenstern **elektrische Öffnung** | Kraft und Reichweite |
+| Terrassen-/Balkontür | **schwellenlose** Schiebe- oder Falttür, wind- und regendicht ausgeführt | 2 cm Schwelle sind mit Rollstuhl eine Wand |
+| Kinder | abschließbare Griffe (Sicherheit, nicht Barrierefreiheit) | Abwägung gegen Bedienbarkeit |
+
+**Bestelltext, der den Unterschied macht:** „Griffhöhe im unteren Drittel" und „schwellenlos,
+Entwässerung nach außen" sind zwei Zeilen, die später vierstellig kosten, wenn sie fehlen.
+Die technischen Anschlussdetails (Laibung, Dämmebene, Fensterbank) stehen in `fenster-tueren.md`.
+
 ---
 
 ## 6. Kosten (Preisstand 11/2026)
@@ -413,6 +453,30 @@ führt [Q13][Q14]. **„Einmalig" ist falsch:** Eine Maßnahme ist alles, was gl
 ändert sich der Gesundheitszustand, ist ein neuer Antrag möglich [Q14]. Bad und Lift in einem Antrag
 verbrauchen den Betrag einmal — getrennt und begründet kann zweimal gezahlt werden.
 
+**Die Verfahrensregeln, an denen der Zuschuss scheitert** (Verbraucherzentrale, Stand 24.04.2026 —
+unabhängige Verbraucherberatung, belegfähig für die Antragspraxis) [Wohnungsanpassung](https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/wohnungsanpassung-veraenderungen-fuer-pflegebeduerftige-menschen-13925)
+(geprüft 09.11.2026):
+
+1. **Antrag vor Beginn der Maßnahme** stellen — und mit der Umsetzung warten, **bis die schriftliche
+   Bewilligung vorliegt**. Sonst „könnte der Zuschuss abgelehnt werden und Sie müssten die gesamten Kosten
+   selbst tragen". Das ist die schärfste Formulierung, die ich zu diesem Punkt gefunden habe; sie geht
+   über den Gesetzeswortlaut hinaus und beschreibt die Bewilligungspraxis.
+2. **Mindestens ein Kostenvoranschlag** eines Fachbetriebs muss vorliegen (mehr schadet nicht).
+3. **Fotos der Situation vor dem Umbau** machen — sie sind Teil der Begründung.
+4. **Begründung liefern:** wie die Maßnahme die häusliche Pflege **ermöglicht**, **erheblich erleichtert**
+   oder die **selbständige Lebensführung** wiederherstellt. Die Pflegekasse lässt die Notwendigkeit
+   regelmäßig durch den **Medizinischen Dienst** prüfen.
+5. **Rechnung nach der Maßnahme einreichen** — dann fließt der Zuschuss.
+6. **Wohnberatungsstelle vor Ort** nutzen: Sie prüft Kostenvoranschläge und hilft bei Problemen mit
+   Vermietern und Kostenträgern.
+
+**Was die VZ zusätzlich nennt (nicht im Gesetzestext, aber in der Praxis relevant):** Für **neu errichtete
+ambulant betreute Wohngemeinschaften** gibt es **2.613 € je Person** und bis zu **10.452 € je Wohngruppe**;
+bei mehreren Pflegebedürftigen in einer Wohnung sind **4.180 € je Person** möglich, der Gesamtbetrag ist
+auf **16.720 €** begrenzt und wird bei mehr als vier Anspruchsberechtigten anteilig auf die Träger
+verteilt. Ein **erneuter Antrag** ist nur möglich, wenn sich die Pflegesituation geändert hat — Rampe und
+Geländer in einem Zug sind **eine** Maßnahme, nicht zwei.
+
 ### 7.3 Landesprogramme (Beispiel Baden-Württemberg)
 
 - **L-Bank Z15** — zinsverbilligtes Darlehen für schwerbehinderte Menschen mit speziellen
@@ -476,6 +540,10 @@ erledigt.
    Praxis irrelevant (beide nicht gültig), für ein Zitat nicht.
 7. **Bad-Kostenband:** **8.000–25.000 €** [Q19] gegen **21.000–24.000 €** für 5–6 m² [Q19]. Kein Fehler,
    sondern Umfang: Das untere Ende ist ein kleines Bad mit einer Maßnahme, das obere ein Komplettumbau.
+8. **„Maßnahme" oder „Vorhaben"?** § 40 Abs. 4 SGB XI spricht von Maßnahmen [Q13]; die Verbraucherzentrale
+   schreibt „bis zu 4.180 Euro **pro Vorhaben**" [Q32]. Inhaltlich dasselbe, im Wortlaut nicht. Wer
+   zitiert, nimmt das Gesetz — und stellt für mehrere Gewerke **einen** Antrag mit mehreren Positionen,
+   weil mehrere Anträge als mehrere Vorhaben gelesen werden können.
 
 ---
 
@@ -487,7 +555,9 @@ erledigt.
 3. **Wandaufbau prüfen:** Trockenbau → Traverse; tragende Wand → Statik [Q22][Q23].
 4. **Entwässerung prüfen:** Leitungslage, Estrichtiefe, Gefälle [Q5].
 5. **Lichte Maße messen**, nicht Bestellmaße [Q4].
-6. **Förderung vor Auftrag:** KfW und Pflegekasse vor der Bestellung, Zusage abwarten [Q10][Q11][Q13].
+6. **Förderung vor Auftrag:** KfW und Pflegekasse vor der Bestellung, **schriftliche Bewilligung
+   abwarten** [Q10][Q11][Q13][Q32]. Für die Pflegekasse zusätzlich: mindestens **ein Kostenvoranschlag**,
+   **Fotos vor dem Umbau**, Begründung (ermöglichen / erleichtern / Selbständigkeit) [Q32].
 7. **Angebot nach Positionen**, Pauschalpreis statt Kostenvoranschlag (+10–20 % üblich) [Q20].
 
 ---
@@ -502,15 +572,23 @@ erledigt.
    führt am 09.11.2026 weiterhin die Ausgabe 2011-09 als aktuell [Q1][Q30].
 4. **Ob 2027 erneut Bundesmittel für 455-B bereitstehen,** ist laut KfW offen („Sollten im Jahr 2027 erneut
    Bundesmittel … bereitgestellt werden") [Q10]. Das ist keine Zusage.
-5. **Ob die Pflegekasse eine Bewilligung vor Auftragserteilung verlangt,** steht so nicht im Gesetzestext;
-   § 40 Abs. 4 sagt nur „können … gewähren" [Q13]. In der Praxis ist die Bewilligung vor Beginn der
-   Standardweg — im Einzelfall bei der Kasse erfragen.
+5. **Die Bewilligung vor Beginn steht nicht im Gesetz — aber in der Bewilligungspraxis.** § 40 Abs. 4 sagt
+   nur „können … gewähren" [Q13]; die Verbraucherzentrale formuliert dagegen klar, der Antrag sei **vor
+   Beginn** zu stellen und die Umsetzung erst nach **schriftlicher Bewilligung** zu starten, sonst „könnte
+   der Zuschuss abgelehnt werden" [Q32]. Das ist eine **Verfahrensaussage einer Verbraucherberatung**, kein
+   Normtext — und trotzdem der einzige Weg, der das Risiko vermeidet. Im Zweifel bei der Kasse schriftlich
+   bestätigen lassen.
 6. **Handwerkerpreise je Region** — die Kostenbänder sind Bundesdurchschnitte aus Portalangaben [Q19][Q23],
    keine Angebote. Drei Angebote sind Pflicht, nicht Kür.
 7. **Estrich-Mindestdicke über der Duschrinne (50 mm)** stammt aus `bad.md` (Herstellerangabe), nicht aus
    einer hier geprüften Norm; im System des Abdichtungsherstellers nachlesen.
 8. **„Eigenleistung spart 30 %"** ist nirgends belegt; bei Förderung ist Eigenleistung ohnehin nicht
    förderfähig.
+9. **bau.net ist kein Beleg.** Die Forenthreads [Q34][Q35] belegen nur, dass ein Problem **auftritt**
+   (Gefälle zur falschen Seite, Verwechslung von Zargen- und lichtem Maß), nicht wie häufig und nicht,
+   was normativ gilt. Jede daraus abgeleitete Regel ist mit DIN 18040-2 oder einer Fachquelle belegt.
+10. **Die 2.613 € / 10.452 € für ambulant betreute Wohngemeinschaften** stehen bei der Verbraucherzentrale
+    [Q32], nicht im hier geprüften Gesetzestext. Für eine WG-Planung beim Kostenträger nachfragen.
 
 ---
 
@@ -639,6 +717,30 @@ veröffentlichte Fassung [Q2].
 - **[Q31]** DIN Media, *DIN 18065:2020-08 – Gebäudetreppen, Begriffe, Messregeln, Hauptmaße*.
   https://www.dinmedia.de/de/norm/din-18065/322316050 — **200**. Belegt: gültige Ausgabe 2020-08
   (Volltext kostenpflichtig).
+- **[Q32]** Verbraucherzentrale, *Wohnungsanpassung: Veränderungen für pflegebedürftige Menschen*
+  (Stand **24.04.2026**).
+  https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/wohnungsanpassung-veraenderungen-fuer-pflegebeduerftige-menschen-13925
+  — **200**, Volltext gelesen. Belegt: 4.180 € **pro Vorhaben**, 4.180 € je Person / **16.720 €** gesamt,
+  **2.613 €** je Person und **10.452 €** je Wohngruppe für neu errichtete ambulant betreute WGs,
+  Pflegegrad **1–5**, Antrag **vor Beginn** und Umsetzung erst nach **schriftlicher Bewilligung**,
+  mindestens **ein Kostenvoranschlag**, Fotos vor dem Umbau, Prüfung durch den Medizinischen Dienst,
+  erneuter Antrag nur bei geänderter Pflegesituation, § 554a BGB für Mieter.
+- **[Q33]** Verbraucherzentrale, *Neue Fenster: Wie planen Sie energieeffizient und sicher?*
+  (Stand **11.08.2026**).
+  https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798
+  — **200**, Volltext gelesen. Belegt: Griff im **unteren Drittel**, abweichende Griffarbe,
+  leichtgängige Mechanik, elektrische Öffnung, **schwellenlose** Schiebe-/Falttür, abschließbare
+  Griffe, GEG-Mindest-U-Wert **1,3** (Dachflächenfenster **1,4**), RC2 für Erdgeschoss, Lüftungskonzept
+  ab **einem Drittel** getauschter Fenster.
+- **[Q34]** bau.net-Forum, *Dusche Gefälle falsch verlegt* (12.04.2021).
+  https://bau.net/forum/sanitaer/12350.php — **GET 200** (der Server antwortet auf **HEAD mit 404**;
+  `linkcheck.py` prüft zuerst per HEAD und meldet bau.net-Threads deshalb fälschlich als tot). Berichtet:
+  Gefälle lief **zur Badezimmertür** statt zur Rinne, Fliesen und Rinne bereits verlegt.
+  **Nur Problemhinweis** — keine Häufigkeit, keine Normaussage; die Regel steht in [Q2][Q5].
+- **[Q35]** bau.net-Forum, *Rollstuhlbreite: Standardmaße für Türen & Durchgänge* (24.01.1999).
+  https://bau.net/forum/behinder/10008.php — **GET 200** (HEAD **404**, siehe Q34). Berichtet: Frage nach
+  der „Türbreite für den Rollstuhl" ohne Unterscheidung zwischen Zargen-, Blatt- und lichter Breite.
+  **Nur Problemhinweis**; die Regel steht in [Q2][Q4].
 
 ## 13. Verwandte Playbooks
 

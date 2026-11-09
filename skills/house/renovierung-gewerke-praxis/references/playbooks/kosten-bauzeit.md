@@ -10,6 +10,8 @@
   Türen; jede Umstellung kostet Tage.
 - **Puffer:** 10–15 % auf die Summe, plus 5 % für Unvorhergesehenes im Bestand.
 - **Recht:** Abnahme nach § 640 BGB, Gewährleistung 5 Jahre (§ 634a), VOB/B 4 Jahre — Vertrag lesen.
+- **Geld:** keine Anzahlung vor Leistungsbeginn (§ 632a BGB); Mängel schriftlich rügen, Frist 1–2 Wochen,
+  Einbehalt = doppelte Beseitigungskosten (§ 641 Abs. 3 BGB); Rechnung erst zahlen, wenn sie prüfbar ist.
 
 
 **Praxis-Playbook für Eigenheimbesitzer, die selbst renovieren.** Ton: Handwerker zu Laie.
@@ -46,6 +48,17 @@ offen — oder er hat geschätzt. Der Unterschied entscheidet über 30 % deines 
 braucht ca. **4 Wochen** bis zur ausreichenden Durchhärtung [Q21]; die Belegreife wird danach
 **gemessen**, nicht am Kalender abgelesen [Q20]. Wer diese vier Wochen nicht im Plan hat, plant sie
 trotzdem — nur unbezahlt und im Streit.
+
+**Die Gegenposition zum eigenen Plan: Faktor 2 auf die Bauzeit** ist im Bestand die realistische Annahme —
+gemeint ist der **selbst optimistisch geschätzte** Termin („sechs Wochen Bad“), nicht die Bandbreite in der
+Tabelle oben (10–13 Wochen für eine Wohnungssanierung). Wer den Faktor auf die Tabelle anwendet, rechnet
+zwei Jahre und plant dann falsch.
+
+**Im bewohnten Bestand kommt mehr dazu** — vor allem wenn die Bewohner drin bleiben (k3q49IW19KU-01).
+Dazu **2–3 Monate Puffer** einplanen, die
+**Gewerke nacheinander** abarbeiten, den **Mietvertrag 2–3 Monate länger halten** (die Übergabe verzögert
+sich fast immer, nul-09) und **Bereitstellungszinsen** mitrechnen. **Puffer im Zeitplan** ist damit keine
+Reserve, sondern die Regel (nul-09).
 
 ---
 
@@ -136,11 +149,25 @@ und die Nerven.
 | **Gewerke-Stau** (Elektriker/Trockenbau) | 1–2 Wochen | alle Gewerke **vor** Baubeginn terminieren, nicht nacheinander anrufen |
 | **Änderungswunsch** | Tage, aber Nachtrag | Änderung schriftlich, Preis vor Ausführung |
 | **Kälte/Feuchte** | Trocknung dauert länger | Heizen/Entfeuchten einkalkulieren, Messung statt Kalender |
+| **Betrieb erscheint nicht / verschiebt Termine** | Tage bis Wochen; ohne festen Termin kein Verzug | Termin **und** Vertragsstrafe schriftlich vereinbaren, Frist 1–2 Wochen setzen [Q12] |
+
+**Hausanschlüsse früh beantragen:** Lage des **Technikraums** und der Stränge richten sich nach den
+**Vorgaben des Netzbetreibers**; wer den Technikraum später verlegen will, zahlt Planung und Leitungen
+doppelt (nul-02).
 
 **Rechtlich relevant:** Bei einem verbindlichen Termin kommt der Betrieb in Verzug; eine Frist von
 **1–2 Wochen** gilt als angemessen [Q12]. Bei Verzögerung durch fehlende Vorarbeiten anderer Gewerke
 trifft dich das Risiko — genau deshalb ist die Gewerke-Koordination deine Aufgabe, nicht die des
-letzten Handwerkers [Q12].
+letzten Handwerkers [Q12]. Gegen das Risiko hilft nur eine **schriftliche Vertragsstrafe** für den Fall
+der Terminüberschreitung; sie ist das einzige Mittel, das den Verzug vorher bepreist statt ihn
+nachher zu beweisen. [Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026)
+
+**Was im Forum dazu berichtet wird** (Problemhinweis, kein Beleg): Betriebe, die Termine verstreichen
+lassen, abends oder gar nicht kommen und den Bauherrn über die Leiter in die eigene Wohnung schicken —
+der Fall endet regelmäßig in einem Zahlungsstreit, nicht in einem Verzugsstreit, weil kein Termin und
+keine Vertragsstrafe vereinbart waren. [Handwerker-Pfusch](https://bau.net/forum/handwerk/10202.php)
+(geprüft 09.11.2026)
 
 ---
 
@@ -281,6 +308,15 @@ Lücke im Angebot.
 Die Verbraucherzentrale fordert genau das: Kostenvoranschläge „möglichst detailliert" mit Leistungen
 und Materialien, damit du über **Stundensätze und Materialpreise** vergleichen kannst [Q12].
 
+**Reihenfolge: erst Vollständigkeit, dann Preis.** „Vor dem Preisvergleich steht der Check auf
+Vollständigkeit" — Angebote müssen auch **Vor-, Nach- und Nebenarbeiten** enthalten, beim Fenstertausch
+zum Beispiel den **Gerüstbau**. Beim Fenster gehören **Anzahl und Maße, Rahmenmaterial und
+Verglasungsart** in den Vertrag, nicht in die mündliche Absprache. Und die Ergebnisprüfung darf ein
+**zusätzlich beauftragter Fachmann** machen (Tischler, Architekt, Sachverständiger; die Handwerkskammern
+führen ein Sachverständigen-Verzeichnis). [Handwerker finden](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664)
+(geprüft 09.11.2026) — das ist derselbe Punkt wie „Ausschlüsse" in Position 10: Was nicht drinsteht,
+zahlst du nach.
+
 ### 4.2 Kostenvoranschlag, Festpreis, Pauschalpreis — drei verschiedene Dinge
 
 | Form | Bindung | Was du wissen musst |
@@ -288,6 +324,11 @@ und Materialien, damit du über **Stundensätze und Materialpreise** vergleichen
 | **Kostenvoranschlag** | nicht fest; bei „wesentlicher Überschreitung" muss der Betrieb **unverzüglich** informieren | Grenze: **15–20 %** über den veranschlagten Kosten; du darfst dann kündigen, zahlst aber erbrachte Teilleistungen [Q12] |
 | **Festpreis** | darf **nicht überschritten** werden | steht so in der Verbraucherzentrale-Beratung [Q12] |
 | **Pauschalpreis** | Festpreis für eine beschriebene Leistung | nur sinnvoll **mit** Leistungsbeschreibung; ohne sie ist die Pauschale eine Wette |
+
+**Die Bindung läuft ab Unterschrift**, nicht ab Baubeginn: Wer ohne Grundstück unterschreibt, verliert bis
+zu einem halben Jahr Bindung (nul-14). Die drei Begriffe sauber trennen: **Kostenvoranschlag**,
+**Festpreis**, **Leistungsverzeichnis** mit **Einheitspreisen** — und ein **Nachtragsangebot** ist keine
+Pauschale, sondern eine neue Position.
 
 ### 4.3 Rote Flaggen
 
@@ -321,6 +362,9 @@ Nicht den Endpreis vergleichen, sondern **vier Kennzahlen je Position**:
 | Bauzeit + Puffer | | | |
 | Nachtragsregel | | | |
 | **Risiko-Note** (1–5) | | | |
+
+**Nur unter gleichen Randbedingungen vergleichen:** Bebauungsplan, Kniestock, Dachneigung — sonst
+vergleicht man Äpfel mit Birnen (nul-08).
 
 **Der Test, der fast immer funktioniert:** Rechne den Preis pro Leistungseinheit gegen.
 Beispiel: Ein Angebot nennt 4.000 € für „3 Zimmer streichen" (ca. 60 m² Wand + 45 m² Decke).
@@ -387,6 +431,45 @@ Ausführung. Der Satz „das machen wir später" ist der Anfang des Streits.
 (VOB/B § 17) oder du hast nur das Zurückbehaltungsrecht wegen Mängeln (§ 641 Abs. 3 BGB). Vorkasse
 über 30 % ohne Gegenleistung ist ein Kredit an den Betrieb, den du nicht absicherst.
 
+**Die Vorkasse-Falle, rechtlich sauber:** § 632a BGB gibt Abschläge auf **erbrachte** Leistungen,
+nicht auf erwartete; angelieferte Bauteile nur bei Eigentumsübertragung oder Sicherheit [Q1]. Eine
+Anzahlung „vor Auftragsbeginn" ist damit eine **freiwillige Kreditvergabe** — und im Insolvenzfall
+verloren: Die Verbraucherzentrale beschreibt, dass die Vorauszahlung dann nur noch eine Forderung ist,
+die du **zur Insolvenztabelle** anmeldest, und rät, sich „auf keinen Fall" auf Vorkasse einzulassen und
+stattdessen **Leistung Zug um Zug** anzubieten. [Insolvenz](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/wenn-eine-firma-insolvent-wird-das-sind-ihre-rechte-10630)
+(geprüft 09.11.2026)
+
+Wenn du Material vorfinanzierst, dann gegen etwas: Bei **angelieferten Bauteilen** darf der Betrieb einen
+Abschlag nur verlangen, wenn er dir das **Eigentum** daran überträgt oder **Sicherheit** leistet
+(§ 632a Abs. 2 BGB) — zahle die Lieferung also nur gegen Eigentumsübertragung oder Bürgschaft, und nur
+bis zur Höhe der tatsächlich bestellten Ware. Im Forum wird über
+Anzahlungsforderungen berichtet, die deutlich über dem Materialanteil liegen — das ist der Punkt, an dem
+man verhandelt, nicht zahlt. [Anzahlung Bad](https://bau.net/forum/sanitaer/11239.php) ·
+[Vorauskasse Fenster](https://bau.net/forum/fenster-tueren/13376.php) (geprüft 09.11.2026,
+Forenbeiträge — nur Problemhinweis, keine Häufigkeitsaussage).
+
+### 5.4 Rechnung prüfen, bevor die letzte Rate fließt
+
+Die Schlussrechnung ist der Moment, in dem die meisten Fehler unumkehrbar werden. Prüfbar heißt:
+
+- **Angebot neben die Rechnung legen** und Position für Position abgleichen (Menge, Einheitspreis,
+  Fabrikat). Was nicht im Angebot stand, ist Nachtrag — und braucht eine Anordnung.
+- **Anlagen verlangen:** Bautagebuch, Arbeitsnachweise, Maschineneinsatz, Belege von Drittfirmen. Eine
+  Schlussrechnung ohne Anlagen ist nicht prüffähig; dann forderst du eine prüffähige an.
+- **Vor der Zahlung rügen**, nicht danach: unklare oder unberechtigte Positionen schriftlich beanstanden.
+- **Zahlung erst, wenn alles zur Zufriedenheit erledigt ist** — die VZ-Checkliste sagt das wörtlich.
+- **Lohn, Fahrt und Material getrennt** ausweisen lassen: nur diese Posten sind bei § 35a EStG abziehbar
+  (20 %, max. 1.200 €/Jahr), Material nicht.
+
+[Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762) ·
+[Handwerker finden](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664)
+(beide geprüft 09.11.2026)
+
+**Die Reihenfolge in einem Satz:** rügen → Frist (1–2 Wochen) → Einbehalt in Höhe der **doppelten**
+Beseitigungskosten (§ 641 Abs. 3 BGB) → nach fruchtlosem Fristablauf selbst beauftragen und die Kosten
+ersetzt verlangen (§ 637 BGB). Wer einbehält, ohne zu rügen, hat keinen Einbehalt, sondern eine
+offene Rechnung.
+
 ---
 
 ## 6. Selbst vs. Firma rechnen
@@ -450,6 +533,8 @@ der Versicherer nach § 81 Abs. 2 VVG.
 | 10 | **Zahlung nach Kalender, nicht nach Leistung** | 50 % bei Auftragserteilung | § 632a BGB verlangt Leistungsstand, nicht Termin | [Q1] |
 | 11 | **Schlusszahlung ohne Vorbehalt** | „Restbetrag bezahlt, Sache erledigt" | vorbehaltlose Annahme schließt Nachforderungen aus (VOB/B § 16 Abs. 3 Nr. 2) | [Q9] |
 | 12 | **Förderung eingeplant, bevor sie bewilligt ist** | Finanzierung auf KfW-Zuschuss gebaut | KfW 261: kein Rechtsanspruch; 455-B: Antragstopp | [Q22][Q23] |
+| 13 | **Anzahlung vor Leistungsbeginn** | „Vor Auftragsbeginn sind X % fällig" | kein gesetzlicher Anspruch (§ 632a BGB: Abschlag nur auf erbrachte Leistung); bei Insolvenz Forderung zur Insolvenztabelle | [Q1][Q30] |
+| 14 | **Einbehalt ohne Mängelanzeige** | „Ich behalte mal was ein" | ohne schriftliche Rüge und Frist kein durchsetzbarer Einbehalt; Betrieb klagt die Rate ein | [Q31][Q32] |
 
 ---
 
@@ -470,6 +555,9 @@ der Versicherer nach § 81 Abs. 2 VVG.
 3. **Förderung ist kein Preisnachlass**, sondern eine Rückerstattung mit Bedingungen. Kalkuliere den
    vollen Preis und behandle den Zuschuss als Bonus.
 
+**Finanzierung:** 2–3 Anfragen statt 10 — viele Anfragen verschlechtern das Scoring; die Hausbank zuerst
+(nul-19).
+
 ---
 
 ## 9. Kontrollpunkte (ausdrucken und abhaken)
@@ -487,6 +575,9 @@ der Versicherer nach § 81 Abs. 2 VVG.
 - [ ] Elektro: Messprotokoll (DIN VDE 0100-600), FI geprüft
 - [ ] Abnahme mit Protokoll + Vorbehaltssatz, Mängelfristen je Punkt
 - [ ] Belegakte: Angebote, Rechnungen, Protokolle, Fotos, Garantiescheine
+
+Zur Kontrolle gehört mehr als diese Liste: **Protokoll mit zehn Punkten je Begehung**, **Abnahme mit
+Mängelliste** und **Zahlungsplan** — sonst steht die Dokumentation nur auf dem Papier.
 
 ---
 
@@ -669,6 +760,43 @@ durch ein in ein Installateurverzeichnis eines Netzbetreibers eingetragenes Inst
 durchgeführt werden"; Ausnahme: „Mit Ausnahme des Abschnitts zwischen Hausanschlusssicherung und
 Messeinrichtung einschließlich der Messeinrichtung gilt Satz 4 nicht für Instandhaltungsarbeiten."
 
+**[Q30] Verbraucherzentrale — „Wenn eine Firma insolvent wird: Das sind Ihre Rechte"**, Stand
+26.02.2025 (200). Belegt: Vorauszahlung wird nach Insolvenz zur Forderung, die „zur Insolvenztabelle"
+angemeldet wird; „Lassen Sie sich bei einem insolventen Unternehmen auf keinen Fall auf Vorkasse ein";
+Empfehlung „Leistung nur Zug um Zug".
+https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/wenn-eine-firma-insolvent-wird-das-sind-ihre-rechte-10630
+
+**[Q31] Verbraucherzentrale — „Handwerker: Was bei einem Auftrag zu beachten ist"**, Stand 03.02.2026
+(200). Belegt: Auftrag schriftlich nach Umfang/Termin/Vergütung, Zeuge, 2–3 Kostenvoranschläge,
+Kostenvoranschlag-Vergütung nur bei ausdrücklicher Vereinbarung, **15–20 %**-Meldeschwelle, Festpreis
+unüberschreitbar, **Vertragsstrafe** bei Terminüberschreitung, Verzugs- und Nachbesserungsfrist
+**1–2 Wochen**, Abnahme-Vorbehaltssatz, Einbehalt „mindestens das Doppelte", prüffähige Rechnung mit
+Anlagen (Bautagebuch, Arbeitsnachweise, Drittfirmenbelege).
+https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762
+
+**[Q32] bau.net-Forum — „Handwerker-Pfusch? Rechte & Reklamation"**
+(https://bau.net/forum/handwerk/10202.php, **GET 200 / HEAD 404** — bau.net antwortet auf HEAD mit 404;
+`linkcheck.py` prüft zuerst per HEAD und meldet die Foren-Threads deshalb fälschlich als tot). Berichtet:
+Mängel, unregelmäßige Termine, Einbehalt **ohne** vorherige schriftliche Mängelanzeige. Forenbeitrag: nur
+Problemhinweis, keine Häufigkeit, keine Rechtsquelle — die Regel dazu steht in [Q31] und [Q33].
+
+**[Q33] BGB § 641 – Fälligkeit der Vergütung.** https://www.gesetze-im-internet.de/bgb/__641.html
+Abs. 1: „Die Vergütung ist bei der Abnahme des Werkes zu entrichten." Abs. 3: Zurückbehaltung eines
+angemessenen Teils, „angemessen ist in der Regel das Doppelte der für die Beseitigung des Mangels
+erforderlichen Kosten."
+
+**[Q34] BGB § 637 – Selbstvornahme.** https://www.gesetze-im-internet.de/bgb/__637.html
+Abs. 1: nach erfolglosem Ablauf der Nacherfüllungsfrist Mangel selbst beseitigen und „Ersatz der
+erforderlichen Aufwendungen" verlangen; Abs. 2: keine Frist bei fehlgeschlagener oder unzumutbarer
+Nacherfüllung; Abs. 3: „Vorschuss verlangen".
+
+**[Q35] Verbraucherzentrale — „Handwerker finden: So vermeiden Sie böse Überraschungen"**, Stand
+10.12.2025 (200). Belegt: Angebot bindet, Kostenvoranschlag nicht; Vollständigkeitsprüfung vor
+Preisvergleich inkl. Vor-/Nach-/Nebenarbeiten (Gerüst beim Fenstertausch); Vertragsinhalt Fenster
+(Anzahl, Maße, Rahmenmaterial, Verglasungsart); Ergebnisprüfung durch zusätzlichen Fachmann;
+Rechnung erst nach Zufriedenheit zahlen.
+https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664
+
 ---
 
 ## 11. Unbelegt / offen (bitte nicht als Tatsache weitergeben)
@@ -696,31 +824,11 @@ Messeinrichtung einschließlich der Messeinrichtung gilt Satz 4 nicht für Insta
    Zinssatz und Verfügbarkeit sind tagesaktuell zu prüfen, bevor du damit rechnest.
 9. **DIN-Inhalte** (18534, 18560, 18015) sind ohne Normkauf nicht zitierfähig. Zitiert sind hier nur
    Sekundärquellen (BG BAU, TKB, Hersteller) — nicht die Norm selbst.
-
-## Ergänzungen aus dem Video-Katalog
-
-- **Bauzeit mit Faktor 2 ansetzen** und **2–3 Monate Puffer** einplanen; Mietvertrag 2–3 Monate länger
-  laufen lassen, **Bereitstellungszinsen** mitrechnen (k3q49IW19KU-01, nul-09).
-- **Angebote nur unter gleichen Randbedingungen vergleichen**: Bebauungsplan, Kniestock, Dachneigung —
-  sonst vergleicht man Äpfel mit Birnen (nul-08).
-- **Festpreisbindung läuft ab Unterschrift**, nicht ab Baubeginn: Wer ohne Grundstück unterschreibt,
-  verliert bis zu einem halben Jahr Bindung (nul-14).
-- **Finanzierung**: 2–3 Anfragen statt 10 (viele Anfragen verschlechtern das Scoring), Hausbank zuerst
-  (nul-19).
-
-## Begriffe und Normbezug (richtige Wortwahl)
-
-- **Bauzeit**: **Faktor 2** auf die geplante Bauzeit, **2–3 Monate Puffer**, Gewerke nacheinander,
-  **Bereitstellungszinsen**, Miete länger laufen lassen.
-- **Angebot**: **Kostenvoranschlag** vs. Festpreis, Leistungsverzeichnis, Einheitspreise, Nachtragsangebot.
-- **Kontrolle**: **Protokoll mit zehn Punkten** je Begehung, Abnahme mit Mängelliste, Zahlungsplan.
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Faktor 2 auf die Bauzeit** ist im Bestand die realistische Annahme, wenn die Bewohner drin bleiben (k3q49IW19KU-01).
-- **Mietvertrag 2–3 Monate länger halten**: die Übergabe verzögert sich fast immer (nul-09).
-
-## Weitere Video-Fehler (Kosten/Bauzeit)
-
-- **Hausanschlüsse früh beantragen**: Lage des **Technikraums** und Stränge richten sich nach den
-  **Vorgaben des Netzbetreibers**; wer den Technikraum später verlegen will, zahlt Planung und Leitungen
-  doppelt (nul-02).
+10. **Die „30 %"-Marke für Vorkasse ist eine Faustregel, keine Norm.** Es gibt keine gesetzliche
+    Prozentgrenze für Anzahlungen; § 632a BGB knüpft den Abschlag an den Leistungsstand, nicht an eine
+    Quote. Die Zahl taugt als Verhandlungsanker, nicht als Rechtsaussage.
+11. **bau.net ist kein Beleg.** Die Forenthreads [Q32] und die Anzahlungs-Threads belegen nur, dass ein
+    Problem **auftritt** — nicht wie häufig, nicht in welcher Höhe, nicht was rechtlich gilt. Jede
+    Regel dazu steht zusätzlich in Gesetz oder Verbraucherzentrale.
+12. **Ob eine Vertragsstrafe durchsetzbar ist,** hängt an ihrer Formulierung (Höhe, Verschulden,
+    AGB-Kontrolle). Die Verbraucherzentrale nennt sie als Mittel [Q31], bewertet aber keine Klauseln.

@@ -53,6 +53,14 @@ Der Fehler, der am meisten kostet, ist der **Zeitpunkt der Anschlüsse**. Wasser
 
 **Warum Phase 5 erst nach Phase 4:** Streichen nach dem Möbelaufbau bedeutet Abkleben jeder Front und jedes Sockels. Staub aus dem Fliesenschlagen setzt sich in Schubladenauszügen fest.
 
+**Phase 5 im Detail — die Reihenfolge, die beim Aufbau zählt:** Unterschränke stehen auf **höhenverstellbaren
+Beinen** und werden darüber in Waage und Flucht gebracht, nicht über Unterlegplättchen ([selbst.de „Küche aufbauen", Archivkopie](https://web.archive.org/web/20250906013926/https://www.selbst.de/kueche-aufbauen-14523.html)
+(geprüft 09.11.2026)). Die Arbeitsplatte wird **von unten durch die Stege** der Unterschränke verschraubt, nicht
+von oben durch die Platte (ebd.). Die **Sockelblende** wird gegen die Vorderbeine gesetzt und **durch den
+Schrankboden** verschraubt (ebd.). Schubladen werden zuerst **ohne Frontblenden** eingehängt und erst nach dem
+Ausrichten der Zeile bestückt (ebd.). Wer zuerst die Platte auflegt und dann ausrichtet, hat den Fehler aus §6
+(Zusatz B) eingebaut.
+
 ---
 
 ## 2. Maße und Planung – die Zahlen, die später nur mit Stemmen zu ändern sind
@@ -71,6 +79,19 @@ Der Fehler, der am meisten kostet, ist der **Zeitpunkt der Anschlüsse**. Wasser
 | Nische Arbeitsplatte → Oberschrank | **50–60 cm**; 50 cm ist die klassische Nischenhöhe | [13] [7] |
 | Fliesenspiegel / Nischenrückwand | 50–60 cm über Arbeitsplatte | [13] |
 | Gerätenischen (Geschirrspüler, Backofen, Kühlschrank) | **60 cm breit**; GSP 82–87 cm hoch, Backofen ca. 60 cm hoch | [13] |
+| Hauptarbeitsfläche zwischen Spüle und Kochfeld | **mindestens 90 cm** | [32] (geprüft 09.11.2026) |
+| Abstand Kochfeld ↔ Spüle | **mind. 80 cm**, ideal **120 cm** | [32] |
+| Abstand Kühlschrank ↔ Kochfeld | **mind. 50 cm** | [32] |
+| Gangbreite / Bewegungsraum | **mind. 90 cm**, Radius um den Tisch **90–120 cm** | [32] |
+| Kochfeldhöhe | **5–20 cm tiefer** als die übrige Arbeitsplatte möglich | [32] |
+| Spüle | **ca. 10 cm höher** als die Vorbereitungszone | [32] |
+
+**Die Zahlen hinter den Abständen:** Die 90 cm zwischen Spüle und Kochfeld sind die Vorbereitungszone — dort müssen
+Schneidebrett, Geräte und bereitgelegte Zutaten Platz haben; 80 cm zwischen den Zonen sind das Minimum, 120 cm der
+Wert, bei dem man Geräte abstellen kann ([OBI Ergonomie in der Küche](https://www.obi.de/magazin/kueche/ergonomie-in-der-kueche)
+(geprüft 09.11.2026)). Das sind **Erfahrungswerte des Portals** aus der Planungspraxis, keine Normmaße — die
+DIN-Planungsgrundlagen (EN 1116, DIN 18015) regen andere Dinge; wer sie als „Mindestmaß nach Norm" zitiert, zitiert
+falsch.
 
 Bei 90 cm Arbeitshöhe und 60 cm Nische sitzt die Unterkante Oberschrank auf **150 cm** – das ist die Zahl, die man auf der Wand anzeichnen kann, bevor der erste Schrank kommt.
 
@@ -83,6 +104,17 @@ Bei 90 cm Arbeitshöhe und 60 cm Nische sitzt die Unterkante Oberschrank auf **1
 - Hersteller-Tabelle (Körpergröße → empfohlene Arbeitshöhe): 160 cm → 85 cm, 170 cm → 90 cm, 180 cm → 100 cm, 190 cm → 105 cm, 195 cm → 110 cm [6]. Diese Tabelle liegt bewusst höher als „Ellbogen − 15" – deshalb: **am eigenen Körper messen, nicht aus der Tabelle abschreiben**.
 - Nobilia baut Höhensysteme von **66,2 bis 110,2 cm** Arbeitshöhe (vier Korpus- plus drei Sockel-/Plattenhöhen) – die Höhe ist Konfiguration, nicht Schicksal [9].
 - Wichtig ist der **Hauptnutzer**: die Person, die die meiste Zeit in der Küche steht [6].
+
+**Zweite Portalangabe — und ein Widerspruch in der Tabelle:** OBI nennt als übliche Arbeitsplattenhöhe **85–95 cm**
+und empfiehlt die Messung „Ellbogenhöhe minus **circa 15 cm**" — dieselbe Regel wie oben ([OBI Ergonomie in der Küche](https://www.obi.de/magazin/kueche/ergonomie-in-der-kueche)
+(geprüft 09.11.2026)). Für Mehrpersonen-Küchen erlaubt OBI **bis 5 cm nach unten oder 10 cm nach oben** Abweichung
+(ebd.). Beim Richtwert je Körpergröße widerspricht sich die Portallandschaft aber: KüchenAtlas nennt **160 cm → 85 cm**
+[6], OBI nennt im selben Fall **160 cm → 90 cm** ideal ([ebd.](https://www.obi.de/magazin/kueche/ergonomie-in-der-kueche)).
+Beide Werte stehen hier nebeneinander, es wird **nicht gemittelt**: 5 cm Unterschied entscheiden, ob man beim
+Schnippeln die Schultern hochzieht. Am eigenen Körper messen (Ellbogen − 15 cm) schlägt jede Tabelle.
+
+**Backofen auf Greifhöhe:** Oberkante etwa auf **Schulterhöhe**, Unterkante rund **10 cm unter dem Ellbogen** — dann
+lassen sich schwere Auflaufformen ohne Bücken einschieben ([OBI, ebd.](https://www.obi.de/magazin/kueche/ergonomie-in-der-kueche)).
 
 **Praxisregel gegen den häufigen Fehler:** Arbeitshöhe über **Korpus/Sockel** einstellen, nicht über einen überhohen Sockel – ein 20-cm-Sockel kostet eine Schubladenebene [6].
 
@@ -149,6 +181,29 @@ Quelle der Spalten: Küchenfachhändler „das Küchenhus" im Kaufberatungsvideo
 | Silikonfugen | **ja** | Wartungsfuge, kein Gewerk |
 | Dunstabzug-Kernloch durch Außenwand | **nein/abgestimmt** | Statik, Abdichtung, Tauwasser, ggf. Genehmigung |
 
+**Arbeitsplatte zuschneiden und Ausschnitte — die Zugaben.** OBI beschreibt die Reihenfolge so: erst
+Ausschnitte für Spüle und Kochfeld sägen, Kanten versiegeln, **dann** montieren ([OBI Arbeitsplatte einbauen](https://www.obi.de/magazin/kueche/arbeitsplatte-einbauen)
+(geprüft 09.11.2026)).
+
+| Arbeitsschritt | Maß / Handgriff |
+|---|---|
+| Platte kürzen | Schnittlinie + **1,5 cm** Überstand anzeichnen, Führungsschiene mit zwei Zwingen |
+| Schnittkante sauber | Platte bei Stichsäge/Handkreissäge **wenden** (Schnitt wird unten feiner); bei der Tischkreissäge nicht wenden |
+| Kochfeld-Ausschnitt | Kochfeld umgedreht auflegen, Umriss anzeichnen, Außenmaß um den **Abstand Setzklammern → Außenkante** verkleinern |
+| Ausschnitt sägen | Tauchschnitt mit der Handkreissäge auf der Linie, Ecken mit der Stichsäge |
+| Spüle-Ausschnitt | **1 cm** vom Außenmaß abziehen, weil die Spüle eine Auflagefläche braucht; Ecken bohren, dann Stichsäge |
+| Kanten am Kochfeld | **hitzebeständiges** Silikon, mit Japanspachtel verstrichen, plus Dampfschutzfolie vorn |
+| Kanten an der Spüle | **feuchtebeständiges** Silikon; bei Massivholz Arbeitsplattenöl, jährlich erneuern |
+| Sichtkante | Kantenumleimer aufbügeln, andrücken, Überstand abschneiden; alternativ Lack |
+| Überstand zur Wandkante | bei Küchenzeilen **bis 3 cm** üblich |
+
+**Spüle einbauen — die Reihenfolge, die Zeit spart:** Wasserhahn und Flexschläuche **vor** dem Einsetzen montieren,
+Spüle dazu umgedreht auf Böcke legen ([OBI Küchenspüle einbauen](https://www.obi.de/magazin/kueche/kuechenspuele-einbauen)
+(geprüft 09.11.2026)). Hahnloch standardmäßig **35 mm** (ebd.). Ablauf von innen durchsetzen, von außen mit der Tasse
+verschrauben, Siphon und Ablaufschlauch eindrehen; Muttern nicht überdrehen (ebd.). Spüle innen mit **Dichtband**
+umrunden, einsetzen, mit **Befestigungsklammern** unter der Platte fixieren, Flexschläuche am Eckventil anziehen und
+Probelauf mit Wasser (ebd.). Zeit: erfahrener Handwerker **unter 2 h**, DIY **mehrere Stunden** (ebd.).
+
 **Graubereich, ehrlich benannt:** Das Anstecken eines Geschirrspülers an ein vorhandenes Eckventil ist keine Änderung der Trinkwasseranlage – der Anschluss selbst (Nebenanschlussventil setzen) ist es sehr wohl. Im HaustechnikDialog wird für genau diesen Fall das **Zwischenventil zwischen S-Winkel und Armatur** plus Spülendurchführung empfohlen; Material und Montage zusammen „sicher nen 100er" [17]. Wer das nicht sicher kann, lässt es für 100 € machen – ein Wasserschaden kostet fünfstellig.
 
 ---
@@ -193,6 +248,16 @@ Das ist die untere Preisklasse und der realistische Bereich für „Platte in 60
 | Anschluss je Elektro-/Wassergerät | 60–100 € | [16] |
 | Wasseranschluss + Ablauf 70 cm versetzen (Trockenbauwand, inkl. Spachteln) | 420 € Angebot → **1.040 € Rechnung** (510 € Arbeit, 60 € Anfahrt, 470 € Material, 5 h) | [21] |
 | Abluft-Muldenlüfter durch die Bodenplatte | 1.000–2.000 € | [23] |
+| Küchenrenovierung komplett, **kleine** Küche | ca. **4.000 €** | [33] (geprüft 09.11.2026) |
+| Küchenrenovierung komplett, **mittelgroße** Küche | ca. **6.000 €** | [33] |
+| Einbau der neuen Möbel, Platte und Geräte | **1–2 Arbeitstage** | [33] |
+| Vorlauf für Planung und Handwerkertermine | **2–3 Monate** | [33] |
+| Lebensdauer einer Küche (vor Renovierung) | **10–25 Jahre** | [33] |
+
+Die 4.000/6.000 € sind **Portal-Richtwerte für die komplette Renovierung** inklusive Arbeiten am Raum, nicht der
+Möbelpreis — sie liegen bewusst unter dem AMK-Durchschnitt von 12.404 € [1], weil dort der Küchenkauf im
+Fachhandel gezählt wird und hier die Modernisierung einer bestehenden Küche. Beide Zahlen sind richtig für ihre
+jeweilige Frage; wer sie nebeneinanderlegt, vergleicht zwei verschiedene Dinge.
 
 Der Fall aus dem Küchen-Forum ist der beste Beleg dafür, warum Positionen im Angebot stehen müssen: versetzter Anschluss **plus** Trockenbau-Spachteln, 5 Stunden Arbeit, Rechnung 2,5-fach über der mündlichen Zahl [21].
 
@@ -347,6 +412,17 @@ Alle Quellen am **09.11.2026** abgerufen. HTTP-Status geprüft: 200 = abrufbar; 
 30. Bauexpertenforum, „Elektroinstallation in der Küche welche Abmessung bzw. Zonen" (2018) – Bestätigung der Zonen 30 cm / 115 cm; Praxisaussage „hier zählt einzig und alleine der Küchenplan"; Sonderhöhen für Dunstabzug, Hochbackofen, Unterschranklicht. https://www.bauexpertenforum.de/threads/elektroinstallation-in-der-kueche-welche-abmessung-bzw-zonen.107365/ — **200**
 31. Bauexpertenforum, „Küchenarbeitsplatte neben Gasherd: Geht das so?" (2013) – Arbeitsplatte 85 → 92 cm, Stand-Gasherd liegt tiefer, Schnittkante neben Kochfeldhitze, Brandgefahr, Melamin wellt sich. https://www.bauexpertenforum.de/threads/kuechenarbeitsplatte-neben-gasherd-geht-das-so.73989/ — **200**
 
+**Heimwerker-Portale (OBI Magazin, selbst.de)**
+32. OBI, „Ergonomie in der Küche" – Arbeitsplatte 85–95 cm, Ellbogen − ca. 15 cm, Mehrpersonen −5/+10 cm, Kochfeld 5–20 cm tiefer, Spüle +10 cm, Hauptarbeitsfläche ≥90 cm, Kochfeld–Spüle 80/120 cm, Kühlschrank–Kochfeld 50 cm, Gang 90 cm, Backofen auf Schulterhöhe, 160 cm → 90 cm. https://www.obi.de/magazin/kueche/ergonomie-in-der-kueche — **200** (GET; HEAD 404)
+33. OBI, „Küche renovieren: So planst du den genauen Ablauf" – Einbau 1–2 Arbeitstage, Vorlauf 2–3 Monate, kleine Küche ca. 4.000 €, mittelgroße ca. 6.000 €, Lebensdauer 10–25 Jahre, Abnahme vor Abfahrt der Monteure. https://www.obi.de/magazin/kueche/kueche-renovieren — **200**
+34. OBI, „Arbeitsplatte einbauen" – 1,5 cm Zugabe beim Kürzen, Platte wenden, Kochfeld-Ausschnitt um Klammerabstand verkleinern, Spüle 1 cm abziehen, hitzebeständiges vs. feuchtebeständiges Silikon, Kantenumleimer, Überstand bis 3 cm. https://www.obi.de/magazin/kueche/arbeitsplatte-einbauen — **200**
+35. OBI, „Küchenspüle einbauen" – Hahn vor Einbau montieren, Hahnloch 35 mm, Dichtband, Befestigungsklammern, Probelauf, Profi <2 h / DIY mehrere Stunden. https://www.obi.de/magazin/kueche/kuechenspuele-einbauen — **200**
+36. selbst.de, „Küche aufbauen" (Archivkopie 06.09.2025) – höhenverstellbare Beine, Platte von unten durch die Stege, Sockelblende durch den Schrankboden, Schubladen ohne Fronten einhängen, Arbeitsplatte 38 mm Spanplatte + 5 mm Multiplex-Kante + HPL. https://web.archive.org/web/20250906013926/https://www.selbst.de/kueche-aufbauen-14523.html — **200**
+
+**Abrufvermerk selbst.de (09.11.2026):** Die Live-URL antwortet mit **301** auf `bauer-plus.de/selbst-entdecken`
+und **302** auf eine Magazin-Landingpage; der Artikel ist nur als Wayback-Kopie (Status 200) lesbar. Zitate gelten
+für den Stand der Kopie.
+
 ---
 
 ## 10. Unbelegt / Schätzungen / offene Punkte
@@ -364,3 +440,5 @@ Alle Quellen am **09.11.2026** abgerufen. HTTP-Status geprüft: 200 = abrufbar; 
 - **Ob ein Kernloch für Abluft genehmigungsfrei ist:** hängt von Bauordnung, Denkmalschutz und WEG aus; hier keine Rechtsquelle geprüft. Im Zweifel: Bauamt/WEG fragen, nicht den Küchenverkäufer.
 - **Dunstabzug-Wirkungsgrad in Zahlen (m³/h, dB, Fettabscheidegrad):** Die geprüften Quellen nennen keine belastbaren Vergleichswerte; die Aussage „Umluft ist in Summe besser" ist Verkäufermeinung [23], nicht Messung.
 - **Norminhalte im Volltext:** DIN 18015-3, DIN VDE 0100-420 und DVGW G 600 sind kostenpflichtig. Zitiert sind Nummer, Titel und die Inhalte, die eine zitierende Fachquelle (Elektropraktiker [5], trgi.de [27]) wiedergibt – keine Volltextzitate.
+- **Ergonomie-Maße aus dem Portal (§2.1, §2.2):** 85–95 cm, 90 cm Hauptarbeitsfläche, 80/120 cm Kochfeld–Spüle, Kochfeld 5–20 cm tiefer, Spüle +10 cm sind **Erfahrungswerte des Portals** [32], keine Normzitate. Die DIN-Planungsgrundlagen (EN 1116, DIN 18015) regeln andere Punkte; wer „Mindestmaß nach Norm" braucht, muss die Norm kaufen und lesen.
+- **Kosten 4.000/6.000 € (§5.3):** Portal-Richtwerte für die Modernisierung bestehender Küchen [33], keine Stichprobe. Sie sind mit dem AMK-Durchschnitt (12.404 €, Küchenkauf im Fachhandel [1]) **nicht** vergleichbar.

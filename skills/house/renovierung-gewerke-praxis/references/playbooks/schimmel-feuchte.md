@@ -49,6 +49,11 @@ Holzbalken im ausgebauten Dach, auskragende Decken, Fensteranschlüsse).[1]
 - **Erkennungsmerkmal:** Befall genau in der Ecke/am Anschluss, gleichmäßig senkrecht an der Ecke
   hochlaufend, in der Heizperiode stark, im Sommer schwächer; betroffen sind Außenwände, Raumecken,
   Bereiche hinter und unter dem Bett sowie hinter massiven Möbeln.[1][3]
+  Der Temperaturunterschied ist messbar klein: in einer ungedämmten Raumecke liegt die Oberfläche
+  **2–3 K** unter der angrenzenden Wandfläche. Ob diese Differenz unter die 12,6-°C-Grenze führt, entscheidet
+  die Wandtemperatur — die 2–3 K sind der Grund, warum der Befall in der Ecke beginnt und die Fläche daneben
+  sauber bleibt
+  [BauNetz: Wärmebrücken: Arten](https://www.baunetzwissen.de/bauphysik/fachwissen/waermeschutz/waermebruecken-arten-4386775) (geprüft 09.11.2026).
 - **Messweg:** Oberflächentemperatur an mehreren Stellen und zu verschiedenen Zeiten; eine Einzelmessung
   sagt nur bei deutlichem Temperaturunterschied innen/außen etwas.[1] Rechnerisch: Temperaturfaktor
   fRsi ≥ 0,7 — bei −5 °C außen, 20 °C innen und mindestens 12,6 °C Oberfläche ist das Kriterium
@@ -118,6 +123,11 @@ an einer 14,5 °C kalten Wand sind es **80 % rF** — Schimmelbedingungen —, d
 
 - **Erkennungsmerkmal:** Wasser an der Fensterscheibe, feuchte Nische unter der Fensterbank, kalte
   Außenwand hinter dem Kleiderschrank, Schimmel an der Silikonfuge.
+  Für Fensteranschlüsse gibt es eine eigene Faustzahl: fällt die Temperatur der **Anschlussbauteile unter
+  10 °C**, kann dort Tauwasser anfallen — und weil die Fuge schwer zu trocknen ist, ist das der Punkt, an dem
+  aus einem Fenstertausch ein Schimmelproblem wird. Die diffusionsäquivalenten Widerstände müssen deshalb von
+  innen nach außen abnehmen, und eindringende Raumluft ist zu verhindern, nicht die Diffusion nach außen
+  [BauNetz: Schimmelpilzbildung bei alter Bausubstanz und neuen Fenstern](https://www.baunetzwissen.de/fenster-und-tueren/fachwissen/bauschaeden-sanierung/schimmelpilzbildung-bei-alter-bausubstanz-und-neuen-fenstern-155363) (geprüft 09.11.2026).
 - **Messweg:** Raumtemperatur + relative Feuchte + Oberflächentemperatur gleichzeitig; Taupunkt aus
   Tabelle oder Rechner; über mehrere Tage, nicht einmalig.[1][15]
 
@@ -274,6 +284,13 @@ Die Fläche ist nur ein Kriterium. Für die Gesamteinschätzung nennt der UBA-Ra
 manche bilden Toxine), **Material** (raumseitig rückbaubar oder im Mauerwerk) und **Nutzung** (Lagerraum,
 Wohnraum, Kindergarten, Krankenhaus).[2]
 
+Dass die Kategorien Bewertungshilfe und kein abschließender Standard sind, zeigt die Fachliteratur selbst: das
+*Kompendium Schimmel in Innenräumen* (Fraunhofer IRB Verlag, 2018) stellt den UBA-Leitfaden dar und „diskutiert
+kritisch" — die Kategorien sind der kleinste gemeinsame Nenner, nicht das Ende der Bewertung
+[baufachinformation.de: Kompendium Schimmel in Innenräumen](https://baufachinformation.de/kompendium-schimmel-in-innenraeumen/242071) (geprüft 09.11.2026).
+Wer die Fläche als einzigen Streitpunkt hat, streitet über das schwächste Kriterium.
+
+
 ### 3.4 Gesundheit — nur so weit belegt
 
 - Das UBA stellt einen **Zusammenhang** zwischen Schimmelpilzbelastung und Atemwegsbeschwerden fest
@@ -391,6 +408,15 @@ da, wenn die Oberfläche zu kalt bleibt (dokumentierter Praxis-Fall mit Kalkfarb
 | Allergie, Immunschwäche, chronische Atemwegserkrankung | nein[1][2] | ja |
 | Streit mit Vermieter/Versicherung | nein | Sachverständiger + Firma |
 
+**Arbeitsschutz — der Punkt, der in Laienanleitungen fehlt:** Für Schimmelsanierungen gilt die
+**DGUV-Information 201-028**, die Gefährdungsbeurteilung erfolgt nach der **Biostoffverordnung**. Das
+Fraunhofer-IRB-Fachbuch *Kompendium Schimmel in Innenräumen* (2018, 304 Seiten) führt beides als eigenes Kapitel
+und behandelt daneben Probenstrategie, mikrobielle Diagnostik und Bewertung
+[baufachinformation.de: Kompendium Schimmel in Innenräumen](https://baufachinformation.de/kompendium-schimmel-in-innenraeumen/242071) (geprüft 09.11.2026).
+Praktische Folge: Gefährdungsbeurteilung **vor** dem ersten Handgriff, Atemschutz, Schutzkleidung und
+Abschottung — auch bei Eigenleistung unter 0,5 m², sobald flächig gewischt oder Material entfernt wird.
+
+
 ---
 
 ## 5. Vorbeugen
@@ -439,6 +465,23 @@ luftdicht gebaut werden, dass eine ausreichende, dauernde Selbstlüftung der Rä
 nicht mehr bei allen Gebäuden zu erwarten ist" — der Verband nennt ausdrücklich die „Vielzahl von
 Feuchtschäden in Neubauten und vor allem in modernisierten Gebäuden".[17]
 
+**Die vier Stufen, die die Norm unterscheidet** (DIN 1946-6, zuletzt **2019** aktualisiert):
+**Feuchteschutzlüftung** (zeitweise unbelegte Wohnung), **reduzierte Lüftung** (teilbelegt), **Nennlüftung**
+(normale Nutzung), **Intensivlüftung** (Abbau zeitweiliger Lastspitzen). Die Feuchteschutzlüftung
+berücksichtigt zusätzlich das Wärmeschutzniveau der Gebäudehülle und muss **nutzerunabhängig** durch bauliche
+oder lüftungstechnische Eigenschaften gesichert sein; alle höheren Stufen dürfen die Bewohner per Fenster
+erledigen. Geprüft wird das nicht nur im Neubau, sondern auch bei bestimmten Sanierungen — ausdrücklich beim
+**teilweisen Austausch von Fenstern** und bei der **Dämmung einer Dachfläche**. Die Prüfung der ersten Stufe
+ist rechnerisch, braucht wenige Daten und ist mit kostenloser Software dokumentierbar
+[BauNetz: Luftdichtheit und Lüftung](https://www.baunetzwissen.de/daemmstoffe/fachwissen/grundlagen/luftdichtheit-und-lueftung-942915) (geprüft 09.11.2026).
+Der Normzusammenhang dahinter: **§ 13 GEG** (Dichtheit — so die Quelle von 2020; das Gesetz heißt seit
+29.07.2026 GModG) fordert die dichte Umfassungsfläche nach Stand der Technik, nennt aber **keine Zahl** für den
+erforderlichen Luftwechsel; **DIN 4108-2:2013-02** verweist dafür
+auf **DIN 1946-6** und den **DIN-Fachbericht 4108-8** (Vermeidung von Schimmelpilzwachstum)
+[BauNetz: Luftdichtheit und Lüftung](https://www.baunetzwissen.de/daemmstoffe/fachwissen/grundlagen/luftdichtheit-und-lueftung-942915) (geprüft 09.11.2026).
+Wer also „13 GEG" zitiert und daraus einen Luftwechsel ableiten will, zitiert eine Leerstelle.
+
+
 Praxisregeln:
 - Nach Fenstertausch oder dichter Sanierung der Hülle: Lüftungskonzept erstellen lassen, sonst fehlt die
   „Lüftung zum Feuchteschutz" als unterste Stufe.[17]
@@ -467,6 +510,12 @@ Ein Hygrometer allein genügt nicht: Es misst die Luft, nicht die Wand. Wer nur 
 - Fenstertausch nur mit Lüftungskonzept.[17]
 - Innendämmung nur mit dampfbremsendem, fachgerecht angeschlossenem System; falsch ausgeführt erzeugt sie
   genau den Schimmel, den sie verhindern soll.[1]
+  Es gibt nicht „die" Innendämmung, sondern drei Familien: **kapillaraktiv** (Kalziumsilikat, arbeitet ohne
+  raumseitige Dampfbremse), **diffusionsoffen** (feuchtevariable Dampfbremse plus Faserdämmstoff, für Wände, die
+  nach innen austrocknen müssen) und **mit Dampfbremse** (Hartschaum, der selbst bremst). In allen drei Fällen
+  gilt: Außenwand trocken, schimmelfrei und schlagregendicht, aufsteigende Baufeuchte vorher ausschließen,
+  vollflächig ohne Hohlraum verkleben
+  [BauNetz: Innendämmsysteme](https://www.baunetzwissen.de/daemmstoffe/fachwissen/daemmstoffe/innendaemmsysteme-1660707) (geprüft 09.11.2026).
 - Nach Wasserschaden trocknen, bevor verkleidet wird — „jede zu früh geschlossene Wand bedeutet später doppelte Arbeit“.[24]
 
 ---
@@ -639,6 +688,21 @@ Alle URLs am 09.11.2026 abgerufen und geprüft (HTTP 200; 403 = Bot-Schutz, Inha
     https://bs-schadensmanagement.de/ratgeber/wasserschaden-kosten
     („kleiner oberflächlicher Austritt niedrig vierstellig, Rohrbruch mit durchnässtem Estrich schnell
     fünfstellig"; Abgrenzung Leitungswasser/Elementar)
+[25a] BauNetz Wissen, *Wärmebrücken: Arten* (geometrisch, konstruktions- und materialbedingt; Raumecke 2–3 K
+    kälter als die angrenzende Wandfläche) —
+    https://www.baunetzwissen.de/bauphysik/fachwissen/waermeschutz/waermebruecken-arten-4386775
+[26a] BauNetz Wissen, *Luftdichtheit und Lüftung* (DIN 1946-6, 2019 aktualisiert: Feuchteschutz-, reduzierte,
+    Nenn- und Intensivlüftung; Prüfpflicht auch bei teilweisem Fenstertausch und Dachdämmung; § 13 GEG ohne
+    Zahlenwert; Verweis auf DIN-Fachbericht 4108-8) —
+    https://www.baunetzwissen.de/daemmstoffe/fachwissen/grundlagen/luftdichtheit-und-lueftung-942915
+[27a] BauNetz Wissen, *Schimmelpilzbildung bei alter Bausubstanz und neuen Fenstern* (Tauwasser an
+    Anschlussbauteilen unter 10 °C; sd-Werte müssen von innen nach außen abnehmen) —
+    https://www.baunetzwissen.de/fenster-und-tueren/fachwissen/bauschaeden-sanierung/schimmelpilzbildung-bei-alter-bausubstanz-und-neuen-fenstern-155363
+[28a] baufachinformation.de (Fraunhofer IRB), *Kompendium Schimmel in Innenräumen*, C. Messal, 2018, 304 S.,
+    ISBN 9783816793137 — Datensatz mit freier Beschreibung; DGUV-Information 201-028 und Biostoffverordnung als
+    Arbeitsschutz-Kapitel, UBA-Leitfaden kritisch diskutiert. Volltext kostenpflichtig.
+    https://baufachinformation.de/kompendium-schimmel-in-innenraeumen/242071
+
 
 ### Video- und Forenquellen (nur zur Einordnung, nicht als Beleg)
 

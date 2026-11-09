@@ -29,9 +29,15 @@ geteilt werden** — Hülle über BAFA, Heizung über KfW 458, Bad über § 35a,
 [Q5, Q7]. Der **Klimageschwindigkeitsbonus** liegt bei **16 %** und sinkt erstmals zum **01.02.2027**, danach
 halbjährlich um 4 Prozentpunkte; ab **01.08.2028** gibt es ihn nicht mehr (KfW-Merkblatt 458, Stand 09/2026,
 am 09.11.2026 im PDF geprüft). Der **Effizienzbonus** und der **Emissionsminderungszuschlag** sind ersatzlos
-entfallen [Q8]. Die **Grundförderung bleibt 30 %** — das Merkblatt nennt keine Absenkung und keinen
-Wertschöpfungsbonus; eine anderslautende Angabe („15 % ab 2027") steht unten in den Widersprüchen und ist
-**nicht belegt**.
+entfallen [Q8].
+
+**Die Grundförderung ist 2026 stabil bei 30 % — und ändert sich 2027 für Wärmepumpen.** Das Merkblatt 458
+(09/2026) kennt nur die 30 %; die Verbraucherzentrale (Stand 20.10.2026) nennt die nächste Stufe: ab dem
+**1. Quartal 2027** sinkt die Grundförderung für Wärmepumpen auf **15 %**, gleichzeitig kommt ein
+**Wertschöpfungsbonus von 15 %** für Geräte aus **EU-Fertigung**. In Summe bleiben 30 % also nur noch für
+EU-Geräte. [Heizungsförderung](https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/heizungsfoerderung-fuer-bestandsgebaeude-heizen-mit-erneuerbaren-energien-10773)
+(geprüft 09.11.2026) Das ist **kein Widerspruch, sondern eine Zeitachse** — wer 2027 antragt, prüft das
+dann gültige Merkblatt und plant nicht mit 30 % für ein Nicht-EU-Gerät.
 
 Wer eine Wärmepumpe braucht, verliert durch Warten trotzdem Geld: **KGB −4 Punkte je Halbjahr** und
 **Förderhöchstbetrag −750 € je Halbjahr** ab 01.02.2027.
@@ -56,6 +62,11 @@ Wer eine Wärmepumpe braucht, verliert durch Warten trotzdem Geld: **KGB −4 Pu
 10.200 €). Das Programm ist eingestellt, private Ladestationen werden seit 2024 nicht mehr gefördert [Q20].
 Wer 442 in einer Förderliste findet, liest eine alte Liste.
 
+**Zeitachse in der Tabelle beachten:** Die 30 % Grundförderung bei KfW 458 gelten für Anträge ab dem
+24.09.2026. Ab **Q1 2027** sinkt die Wärmepumpen-Grundförderung auf **15 %**, dazu kommt ein
+**Wertschöpfungsbonus 15 %** für Geräte aus **EU-Fertigung** [Q23] — die Tabelle zeigt also den Stand
+2026, nicht den Stand 2027 (Details: Abschnitt 2 Nr. 4, Widerspruch 8).
+
 ## 2. Was seit dem 21.07.2026 gilt — und was weggefallen ist
 
 Die alte BEG-EM-Richtlinie vom 21.12.2023 ist ersetzt; Anträge, die vor dem 21.07.2026 gestellt wurden,
@@ -68,10 +79,15 @@ werden nach altem Recht beschieden [Q5 Nr. 10]. Die Änderungen in der Reihenfol
    Investitionsvolumen und nur für die Ausgaben, die die 30.000-€-Grenze *übersteigen* — und er hebt
    gleichzeitig die Höchstgrenze auf 60.000 € [Q5 Nr. 8.4.2; Q6]. Praktisch: 15 % auf 60.000 € plus 5 % auf
    die zweiten 30.000 € = **10.500 €** statt 9.000 €.
-4. **Wärmepumpen: 30 % Grundförderung bleibt.** Das KfW-Merkblatt 458 (Stand 09/2026, gültig ab 24.09.2026)
-   sagt wörtlich „Zuschuss in Höhe von 30 Prozent" und kennt **keinen Wertschöpfungsbonus**.
-   Die in einer Sekundärquelle genannte Absenkung auf 15 % ab Q1 2027 ist **hier nicht belegt** und steht
-   deshalb nur in den Widersprüchen — wer damit plant, prüft sie am Merkblatt [Q8].
+4. **Wärmepumpen: 30 % Grundförderung gilt 2026 — ab Q1 2027 nur noch 15 % plus 15 % EU-Bonus.** Das
+   KfW-Merkblatt 458 (Stand 09/2026, gültig ab 24.09.2026) sagt wörtlich „Zuschuss in Höhe von 30 Prozent"
+   und kennt **keinen Wertschöpfungsbonus** [Q8] — es beschreibt damit das Jahr 2026. Die
+   Verbraucherzentrale (Stand 20.10.2026) nennt die nächste Stufe ausdrücklich: „Ab dem 1. Quartal 2027
+   wird die Grundförderung für Wärmepumpen von bisher 30 Prozent auf 15 Prozent reduziert. Gleichzeitig
+   wird ein neuer Wertschöpfungsbonus von 15 Prozent für Wärmepumpen aus EU-Fertigung eingeführt."
+   [Heizungsförderung](https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/heizungsfoerderung-fuer-bestandsgebaeude-heizen-mit-erneuerbaren-energien-10773)
+   (geprüft 09.11.2026) → **Kein Widerspruch, sondern Zeitachse.** Für ein Antragsdatum in 2026 gilt das
+   Merkblatt; für 2027 gilt die VZ-Angabe als Hinweis, bis das Merkblatt nachgezogen ist.
 5. **Effizienzhaus-Kredit 261 ist deutlich schwächer geworden**: Tilgungszuschuss nur noch **5 % (EH 55,
    EH Denkmal) / 10 % (EH 40)**, für EH 70 und EH 85 **0 %** [Q10, Q7, Q12]. Die Sätze der Vorgängerrichtlinie
    stehen hier nicht, weil sie für 2026 nichts mehr nützen — wer sie braucht, liest das alte Merkblatt.
@@ -80,8 +96,13 @@ werden nach altem Recht beschieden [Q5 Nr. 10]. Die Änderungen in der Reihenfol
 6. **WPB-Bonus (5 Prozentpunkte, Gebäudehülle, angeblich ab Q1 2027)** — in einer Sekundärquelle genannt,
    im Merkblatt 458 **nicht** enthalten. Vor dem Antrag prüfen, nicht einplanen.
 7. **Einkommensbonus ist sozial gestaffelt** und ersetzt den früheren pauschalen Zuschlag: 40 % bis 30.000 €,
-   30 % bis 40.000 €, 10 % bis 50.000 € zu versteuerndes Haushaltsjahreseinkommen; je minderjährigem Kind
-   **10.000 €** pauschale Erhöhung der Grenze [Q5 Nr. 8.4.5; Q8].
+   30 % bis 40.000 €, 10 % bis 50.000 € zu versteuerndes Haushaltsjahreseinkommen [Q5 Nr. 8.4.5; Q8].
+   **Kinderzuschlag — zwei Lesarten, nicht gemittelt:** Das Merkblatt rechnet mit **10.000 € je
+   minderjährigem Kind** [Q5 Nr. 8.4.5]; die Verbraucherzentrale formuliert **einmalig 10.000 €**, wenn
+   mindestens ein Kind unter 18 im Haushalt lebt („Familienzuschlag"), und veröffentlicht dazu die
+   Stufentabelle bis 60.000 €. [Heizungsförderung](https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/heizungsfoerderung-fuer-bestandsgebaeude-heizen-mit-erneuerbaren-energien-10773)
+   (geprüft 09.11.2026) Bei zwei Kindern unterscheiden sich die Ergebnisse um 10.000 € Grenze — für den
+   Antrag zählt das Merkblatt, für die Vorplanung die VZ-Tabelle. Wer den Bonus einplant, rechnet beide.
 8. **Der Höchstbetrag für Heizungen sinkt planmäßig**: 28.000 € (bis 31.01.2027), 27.250 € (ab 01.02.2027),
    danach alle sechs Monate 750 € weniger, ab 01.08.2030 **22.000 €** [Q5 Nr. 8.3.1a].
 
@@ -128,6 +149,15 @@ der Antrag ist unvollständig [Q5 Nr. 9.2.1; Q9].
 
 **Dritte Falle: iSFP zu spät.** Ein Sanierungsfahrplan, der erst während der Baumaßnahme erstellt wird, bringt
 den 5-%-Bonus nicht, weil er bei Antragstellung vorliegen muss [Q5 Nr. 8.4.2].
+
+**Gegenprobe aus unabhängiger Quelle.** Die Verbraucherzentrale beschreibt für die KfW 458 dieselbe
+Reihenfolge in sechs Schritten: (1) **Bestätigung zum Antrag (BzA)** durch Fachunternehmen oder
+Energieeffizienz-Experten, (2) **Vertrag** mit voraussichtlichem Umsetzungsdatum und **zwingender
+Ausstiegsklausel** für den Fall der Ablehnung, (3) **Antrag** im Portal „Meine KfW" **vor** Beginn,
+(4) **Zusage abwarten**, danach **36 Monate** für die Umsetzung, (5) **Bestätigung nach Durchführung
+(BnD)**, (6) Nachweise hochladen und Auszahlung beantragen. [Heizungsförderung](https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/heizungsfoerderung-fuer-bestandsgebaeude-heizen-mit-erneuerbaren-energien-10773)
+(geprüft 09.11.2026) Wer eine andere Reihenfolge liest, liest eine alte Anleitung — die Ausstiegsklausel
+ist der Punkt, an dem viele Verträge scheitern, weil der Handwerker sie nicht in sein Formular schreibt.
 
 ## 4. Kombinierbarkeit — was sich ausschließt, was sich addiert
 
@@ -285,6 +315,19 @@ Fotos der offenen Bauteile, U-Wert-Nachweise des Herstellers [Q5 Nr. 9.5, 9.7; Q
    als die BEG-Reform 2026. Konditionen vor Antrag bei der L-Bank prüfen [Q19].
 6. **404:** Die BMF-Seite `…/Steuerarten/Grundsteuer/grundsteuer.html` liefert **404**; die FAQ-Seite
    `…/FAQ/faq-die-neue-grundsteuer.html` ist die gültige Quelle und wurde verwendet [Q15].
+7. **Kinderzuschlag beim Einkommensbonus:** Merkblatt 458 rechnet „je minderjährigem Kind" **10.000 €**
+   [Q5 Nr. 8.4.5], die Verbraucherzentrale „**einmalig** 10.000 €, wenn mindestens ein Kind unter 18 im
+   Haushalt lebt" [Q23]. Bei einem Kind ist das Ergebnis identisch, bei zwei Kindern nicht. Nicht
+   gemittelt: für den Antrag gilt das Merkblatt, für die Vorplanung die VZ-Tabelle — und bei zwei Kindern
+   ist die Frage vor der Finanzierungszusage zu klären.
+8. **„15 % ab 2027" — früher als unbelegt geführt, jetzt belegt, aber nicht für 2026.** Die VZ nennt die
+   Absenkung der Wärmepumpen-Grundförderung auf 15 % plus 15 % Wertschöpfungsbonus (EU-Fertigung) ab
+   **Q1 2027** ausdrücklich [Q23]; das Merkblatt 458 (09/2026) enthält sie nicht, weil es den Antrag ab
+   24.09.2026 beschreibt [Q8]. Das ist **keine** gegenseitige Widerlegung, sondern eine Zeitachse — wer
+   beide Zahlen nebeneinander sieht und mittelt, rechnet falsch.
+9. **BAFA-Gebäudehülle: „mindestens 15 Prozent"** bei der VZ [Q23] gegen „15 % + 5 % iSFP" in der
+   Richtlinie [Q5 Nr. 8.4.2]. Kein Widerspruch: 15 % ist der Sockel, der iSFP-Aufschlag gilt nur oberhalb
+   der 30.000-€-Grenze (siehe Widerspruch 2).
 
 ## Quellen
 
@@ -351,13 +394,22 @@ Alle URLs am 09.11.2026 abgerufen; Status in Klammern.
   zur Bau Förderung" (§§ 7h, 7i, 10f, 11b EStG; Bescheinigungspflicht, Abstimmung vor Baubeginn) —
   https://steuerportal-mv.de/static/Regierungsportal/Finanzministerium/Steuerportal/Dateien/Downloads/Merkblatt_zu_Steuerbegnstigungen_und_staatliche_Zulagen_zu_Baufrderung_neu.pdf
   (200)
+- **[Q23]** Verbraucherzentrale, „Heizungsförderung für Bestandsgebäude: Heizen mit Erneuerbaren Energien",
+  Stand **20.10.2026** — https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/heizungsfoerderung-fuer-bestandsgebaeude-heizen-mit-erneuerbaren-energien-10773
+  (200, Volltext gelesen). Belegt: Grundförderung **30 %**; förderfähige Kosten **28.000 €** (1 WE),
+  **15.000 €** (2.–6. WE), **8.000 €** (ab 7. WE); Absenkung um **750 €** je Halbjahr ab 01.02.2027,
+  **22.000 €** ab 01.08.2030, Programmende 31.12.2030; **KGB 16 %**, sinkt halbjährlich um **4** Punkte,
+  ab 01.08.2028 null; **Einkommensbonus** 40/30/10 % nach Einkommensstufen, Familienzuschlag **einmalig
+  10.000 €**; Obergrenze **80 %** (70 % für die übrigen Selbstnutzer); **6-Schritt-Antrag** mit BzA,
+  Ausstiegsklausel im Vertrag, **36 Monaten** Umsetzungsfrist, BnD; **15 % Wärmepumpen-Grundförderung +
+  15 % Wertschöpfungsbonus (EU-Fertigung) ab Q1 2027**; BAFA-Gebäudehülle „mindestens 15 %".
 
 **Geprüft und tot:** `https://www.gesetze-im-internet.de/grstg_1973/__15.html (BMF-Seite am 09.11.2026 HTTP 404 — Steuermesszahl im Gesetzestext geprüft)`
 → **404**. Ersatz: Q15.
 
-**Anzahl geprüfter Quellen: 22** — 7 Gesetze (Q1–Q4, Q13, Q14, Q21), 2 Förderrichtlinien (Q5, Q7),
-9 Behörden-/Bankdokumente (Q6, Q8–Q12, Q15, Q16, Q22), 3 Verbands-/Verbraucher-/Medienquellen
-(Q17, Q18, Q20), 1 Förderdatenbank (Q19).
+**Anzahl geprüfter Quellen: 23** — 7 Gesetze (Q1–Q4, Q13, Q14, Q21), 2 Förderrichtlinien (Q5, Q7),
+9 Behörden-/Bankdokumente (Q6, Q8–Q12, Q15, Q16, Q22), 4 Verbraucher-/Verbands-/Medienquellen
+(Q17, Q18, Q20, Q23), 1 Förderdatenbank (Q19).
 
 ## Unbelegt / offen
 

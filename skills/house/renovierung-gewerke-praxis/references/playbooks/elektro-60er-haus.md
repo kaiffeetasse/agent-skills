@@ -48,6 +48,7 @@ Diese Tabelle ist eine **Befundliste für die Sichtprüfung**, keine Ferndiagnos
 - **Nullung:** Die klassische Nullung ist in Deutschland seit **1. Mai 1973** für Neuanlagen verboten (Übergangsfrist bis 31.03.1974). PEN-Verbindungen sind nur noch mit mindestens **10 mm² Kupfer** bzw. **16 mm² Aluminium** zulässig [Q11]. Ein 1965 errichtetes Haus ist damit **vor** dieser Zäsur — die Brücke in der Dose ist der Normalfall, nicht der Pfusch.
 - **Aluminium:** Die Verwendung war vor allem in der DDR verbreitet; dort führten die Zwischenschichten an Klemmstellen und die Bruchgefahr zu Problemen, und für Alu geeignete Klemmen waren zwingend [Q30]. In Westdeutschland ist Alu in Wohngebäuden seltener, aber vorhanden — der Blick auf die Ader entscheidet, nicht das Baujahr [Q24].
 - **Leitungsführung:** Einzeladern im Blechrohr halten sich bis in die **1950er Jahre**, danach PVC-ummantelte Kupferkabel und Stegleitung im Putz; Abzweigdosen blieben oft Aufputz aus Bakelit [Q30].
+- **Alte Aderfarben lesen:** in Installationen der 1960er/70er ist **grau der Neutralleiter**, **rot der Schutzleiter** und **schwarz die Phase**. Grau war und ist also N — der Unterschied steckt beim **Schutzleiter**: früher **rot**, heute **grün-gelb**. Wer nach heutiger Farblogik umklemmt, hält den roten Leiter für Phase und vertauscht damit N und PE.
 - **Zählertafel:** Ein Zähler auf Holz- oder schwarzer Bakelit-Tafel bedeutet laut ELEKTRO+: Anlage „mindestens 50 Jahre alt“ [Q20]. Bei Baujahr 1960–69 ist das der Regelfall — und damit der Punkt, an dem die TAB 2026 hart wird [Q3].
 
 ### 2.3 Die Sichtprüfung in 20 Minuten (ohne Werkzeug)
@@ -60,6 +61,8 @@ Diese Tabelle ist eine **Befundliste für die Sichtprüfung**, keine Ferndiagnos
 6. **Rauchmelder** zählen: Schlafräume und Rettungswege (siehe §3.6) [Q8].
 
 **Messen darfst du nicht.** Isolationswiderstand, Schleifenimpedanz, RCD-Auslösezeit und Drehfeld sind Prüfaufgaben der Elektrofachkraft; die Erstprüfung nach DIN VDE 0100-600 darf „ausschließlich eine befähigte Person (Elektrofachkraft)“ durchführen [Q13].
+
+**Wenn du überhaupt prüfst, dann zweipolig mit Lastzuschaltung** (z. B. **Duspol**): Spannung ist erst bestätigt, wenn die Last zugeschaltet ist — ein Phasenprüfer zeigt auch Induktion und damit „Spannung“, wo keine ist.
 
 ---
 
@@ -218,6 +221,8 @@ Quelle: [Q17]; die Norm selbst ist kostenpflichtig, DIN 18015-2:2021-10 [Q17][Q1
 - **Typ:** Typ A ist der Standard für Hausinstallationen. DIN VDE 0100-530:2018-06 führt erstmals den **Typ F** für bestimmte Anwendungsfälle ein und verlangt Brandschutzschalter für definierte Fälle [Q12]. Sonderanwendungen (Ladestationen, Frequenzumrichter, PV) haben eigene Anforderungen an den RCD-Typ — Auswahl durch den Betrieb.
 - **Kein Ersatz für Leitungsschutz:** Der RCD schützt Personen, nicht die Leitung; Überlast- und Kurzschlussschutz bleiben eigene Aufgabe (DIN VDE 0100-430) [Q15][Q16].
 
+**Was das Messgerät zeigen muss:** Die Auslösefenster stammen aus der Produktnorm, nicht aus der Errichtungsnorm — Sinus **0,5–1 × I∆N**, pulsierender Gleichstrom **0,35–1,4 × I∆N**, glatter Gleichstrom **0,5–2 × I∆N**. Ein RCD Typ A wird mit pulsierendem Gleichstrom geprüft (größte Bandbreite); Prüfgeräte erhöhen in Stufen **< 1/30 I∆N** (DIN EN 61557), manche mit **6 mA DC**-Offset. Nach **DIN VDE 0100-600:2017-06, 6.4.3.7.1** ist die Schutzmaßnahme nachgewiesen, wenn die Abschaltung bei **≤ I∆N** erfolgt — gemessene Werte über 30 mA sind deshalb erklärbar, aber im Protokoll mit Prüfstromart zu dokumentieren ([Elektropraktiker, „Prüfung von RCDs“](https://www.elektropraktiker.de/nachrichten/nachricht/pruefung-von-rcds?p=all), 28.01.2020, geprüft 09.11.2026, HTTP 200).
+
 ### 5.3 Querschnitte, Absicherung, Längen
 
 | Querschnitt | Strombelastbarkeit NYM-J, 2 belastete Adern | Typische Absicherung | Einsatz |
@@ -270,6 +275,7 @@ Die Norm gilt für **Unterputz**; Aufputz ist frei [Q19]. Für ein 60er-Haus ist
 - **Zuleitung UV:** Querschnitt nach Strombelastbarkeit, Spannungsfall (3 %) und Abschaltbedingung — gerechnet, nicht geschätzt; die Rechnung macht der Betrieb, nicht der Bauherr [Q33].
 - **Kabelkanäle:** nicht auf den heutigen Bedarf dimensionieren. Ein Kanal, in den später ein zweites Kabel soll, ist der Grund für Aufputz-Flickerei — Reserve kostet beim Einbau einen Bruchteil der Nachrüstung (Erfahrungswert, keine Normzahl).
 - **Außen/Garage:** eigener RCD (30 mA), **IP44**, abschließbare oder allpolig abschaltbare Steckdosen; im Außenbereich ist der RCD ohnehin Pflicht für ortsveränderliche Betriebsmittel bis 32 A [Q12][Q24].
+- **Hauptpotentialausgleich:** Mindestquerschnitt **6 mm² Cu / 16 mm² Al / 50 mm² Stahl**, mehr als **25 mm² Cu** braucht die Verbindung zur Haupterdungsschiene nicht (DIN VDE 0100-540, Abschnitt 544.1). Bei großen Außenleiterquerschnitten ist nicht der Mindestquerschnitt, sondern der Spannungsfall am Leiter die Grenze ([Elektropraktiker, „Querschnitt der Schutzpotentialausgleichsleiter“](https://elektropraktiker.de/nachrichten/nachricht/querschnitt-der-schutzpotentialausgleichsleiter?p=all), 09.10.2018, geprüft 09.11.2026, HTTP 200).
 - **Netzwerk:** Kommunikationsverteiler je Wohnung, ein Elektro-Installationsrohr vom Hausübergabepunkt [Q18]; Daten und 230 V **getrennt** führen, CAT-Kabel durchgehend im Leerrohr und Biegeradius einhalten (Praxisregel — eine Normstelle dafür wurde hier nicht verifiziert, siehe §11 Nr. 8).
 
 ---
@@ -451,12 +457,22 @@ Ohne statischen Nachweis (DIN EN 1996-1-1, Tabelle NA 19/NA 20) gilt für gemaue
 ### 10. Zweiadrige Leitung mit neuer Schuko-Dose
 **Symptom:** Neue Dose, alter zweiadriger Kreis ohne PE — die Optik ist neu, der Schutz fehlt.
 **Warum falsch:** Ohne Schutzleiter gibt es keinen Fehlerschutz für Geräte der Schutzklasse I; der PEN-Bruch legt 230 V aufs Gehäuse [Q11]. An solche Kreis gehört keine neue Schuko-Dose [Q24].
-**Was tun:** Kreis erneuern (3-adrig), Aufputzkanal als Kompromiss, oder den Kreis stilllegen.
+**Was tun:** Kreis erneuern (3-adrig), Aufputzkanal als Kompromiss, oder den Kreis stilllegen. Dasselbe gilt für die Deckenlampe: Wer die alte **Lampenleitung** weiterbenutzt, weil „sie ja noch geht“, hat an der Decke eine Ader ohne Schutzleiter — der Kreis ist dann **komplett neu** zu legen.
 
 ### 11. Zu wenige Stromkreise „weil DIN nur 6 fordert“
 **Symptom:** 120 m² mit 6 Kreisen, Küche und Bad teilen sich einen.
 **Warum falsch:** Die 6 ist die **Mindest**ausstattung nach DIN 18015-2 [Q17]; jeder Großverbraucher kommt zusätzlich [Q18]. Die Praxis rechnet mit 12–14 Kreisen für ein EFH [Q25].
 **Was tun:** Raumplanung vor Elektroplanung; Küche mit eigener Planung (Herd, GS, Kühlgeräte, Dunstabzug) [Q18].
+
+### 12. Roten Schaltdraht weiterverwendet, ohne zu prüfen, wohin er läuft
+**Symptom:** Die Lampe brennt, aber beim Abschalten des einen Kreises steht ein anderer unter Spannung.
+**Warum falsch:** Der rote Draht wurde in Altinstallationen als **Schaltdraht** für die Lampe zweckentfremdet, ohne zu prüfen, wohin er noch läuft — genau dort entstehen die versteckten Verbindungen zwischen Stromkreisen.
+**Was tun:** Adern vor dem Umklemmen durchklingeln und zuordnen lassen; jeder Kreis einzeln abschaltbar, Stromlaufplan nachziehen.
+
+### 13. Klemmdose in der Wand verschwinden lassen
+**Symptom:** Nach dem Verputzen ist keine Abzweigdose mehr zu sehen; später findet niemand die Klemmstelle.
+**Warum falsch:** Eine **Klemmdose** unter Putz, Tapete oder hinter **Fliesen** ist nicht mehr auffindbar und damit nicht mehr prüfbar.
+**Was tun:** Jede Klemmstelle gehört in eine **zugängliche** Dose und in den **Stromlaufplan** — Dokumentation ist Teil der Arbeit, nicht Papierkram.
 
 ---
 
@@ -475,6 +491,8 @@ Ohne statischen Nachweis (DIN EN 1996-1-1, Tabelle NA 19/NA 20) gilt für gemaue
 | 9 | Rauchmelder in Schlafräumen + Rettungswegen, funktionsfähig | Begehung [Q8] |
 | 10 | Rechnungen getrennt nach Lohn/Material (für § 35a EStG) | Rechnung [Q31] |
 | 11 | Abnahmeprotokoll mit Mängelfristen, unterschrieben | Protokoll [Q32] |
+| 12 | RCD-Auslösung bei **≤ I∆N**, Prüfstromart im Protokoll (Typ A: pulsierender DC, 6 mA DC-Offset möglich) | Messwert + Prüfstromart [Q36] |
+| 13 | Hauptpotentialausgleich: Mindestquerschnitt **6 mm² Cu / 16 mm² Al / 50 mm² Stahl**, nicht mehr als **25 mm² Cu** nötig | Messwert + Foto [Q37] |
 
 ---
 
@@ -519,12 +537,14 @@ Ohne statischen Nachweis (DIN EN 1996-1-1, Tabelle NA 19/NA 20) gilt für gemaue
 | Q33 | Elektropraktiker, „Dimensionierung einer Zuleitung“, https://www.elektropraktiker.de/fachartikel/detail/dimensionierung-einer-zuleitung | F | Volltext; DIN VDE 0100-520:2013-06, Abschnitt 525, Anhang G (3 %/5 %) |
 | Q34 | Elektropraktiker, „Prüfung des Spannungsfalls“, https://www.elektropraktiker.de/fachartikel/detail/pruefung-des-spannungsfalls | F | Volltext; DIN 18015-1: 3 % hinter der Messeinrichtung |
 | Q35 | Wohnglück, „Elektrik im Haus erneuern: Kosten, Förderung & Tipps“, https://wohnglueck.de/artikel/neue-elektrik-kosten | P | Volltext; 98 h/6.900 € = 14.740 €, 12.000–18.000 € für 120 m², 80–150 €/m² |
+| Q36 | Elektropraktiker, „Prüfung von RCDs", https://www.elektropraktiker.de/nachrichten/nachricht/pruefung-von-rcds?p=all (28.01.2020) | F | Volltext; Auslösefenster 0,5–1 / 0,35–1,4 / 0,5–2 × I∆N, 6 mA DC, Stufen < 1/30 I∆N, Bewertung ≤ I∆N |
+| Q37 | Elektropraktiker, „Querschnitt der Schutzpotentialausgleichsleiter", https://elektropraktiker.de/nachrichten/nachricht/querschnitt-der-schutzpotentialausgleichsleiter?p=all (09.10.2018) | F | Volltext; DIN VDE 0100-540 Abschn. 544.1: 6/16/50 mm², max. 25 mm² Cu |
 
-**Anzahl geprüfter Quellen: 35.** Verteilung: 7 Gesetz/UVV (Q1, Q2, Q7, Q8, Q29, Q31, Q32), 6 Norm/Anwendungsregel (Q3, Q4, Q5, Q6, Q12, Q17), 6 Fachverlag/Fachartikel (Q10, Q13, Q14, Q18, Q33, Q34), 2 Verband/Initiative (Q9, Q20), 2 Hersteller (Q19, Q27), 4 Fachbetrieb/Fachblog (Q15, Q16, Q24, Q30), 3 Preisportal (Q25, Q26, Q35), 2 Community/Referenz (Q11, Q28), 3 Video (Q21, Q22, Q23).
+**Anzahl geprüfter Quellen: 37.** Verteilung: 7 Gesetz/UVV (Q1, Q2, Q7, Q8, Q29, Q31, Q32), 6 Norm/Anwendungsregel (Q3, Q4, Q5, Q6, Q12, Q17), 8 Fachverlag/Fachartikel (Q10, Q13, Q14, Q18, Q33, Q34, Q36, Q37), 2 Verband/Initiative (Q9, Q20), 2 Hersteller (Q19, Q27), 4 Fachbetrieb/Fachblog (Q15, Q16, Q24, Q30), 3 Preisportal (Q25, Q26, Q35), 2 Community/Referenz (Q11, Q28), 3 Video (Q21, Q22, Q23).
 
 ### Prüftiefe — was ich selbst gelesen habe
 
-- **Volltext gelesen und wörtlich zitiert:** Q1, Q2, Q3 (Auszüge § 1, § 4.4, § 11), Q4 (Auszüge), Q5, Q6, Q7, Q8 (§ 15 Abs. 9), Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q24, Q25, Q26, Q27, Q29, Q30, Q31 (Abs. 3), Q33, Q34.
+- **Volltext gelesen und wörtlich zitiert:** Q1, Q2, Q3 (Auszüge § 1, § 4.4, § 11), Q4 (Auszüge), Q5, Q6, Q7, Q8 (§ 15 Abs. 9), Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q24, Q25, Q26, Q27, Q29, Q30, Q31 (Abs. 3), Q33, Q34, Q36, Q37.
 - **Untertitel geladen, Zeitmarken aus automatischen Untertiteln (±10 s, ASR-Fehler möglich):** Q21, Q22, Q23. Zitate daraus sind Hörbelege, keine Bildbelege.
 - **Nur Thread gelesen, Zitat stichprobenartig:** Q28.
 - **Nur Existenz/Ausgabe geprüft:** keine — alle Quellen wurden abgerufen (HTTP 200).
@@ -567,17 +587,3 @@ Ohne statischen Nachweis (DIN EN 1996-1-1, Tabelle NA 19/NA 20) gilt für gemaue
 10. **Fotos, Fotos, Fotos** — jede Wand offen, mit Maßband, je Raum [Q24].
 11. **Eigenleistung endet vor der Klemme** — sonst § 81 VVG [Q29].
 12. **Prüfprotokoll oder keine Abnahme** — ohne Messung keine Sicherheit, ohne Protokoll keine Gewährleistung [Q13][Q32].
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Alte Aderfarben lesen können**: in Installationen der 1960er/70er ist **grau der Neutralleiter**,
-  **rot der Schutzleiter** und **schwarz die Phase** — das ist nicht die heutige Zuordnung (grau N,
-  grün-gelb PE, braun/schwarz L). Wer nach heutiger Farblogik umklemmt, vertauscht N und PE.
-- **Schaltdraht-Klassiker**: der rote Draht wird als **Schaltdraht** für die Lampe weiterverwendet, ohne zu
-  prüfen, wohin er noch läuft. Genau dort entstehen die versteckten Verbindungen zwischen Stromkreisen.
-- **Zweipoliger Spannungsprüfer mit Lastzuschaltung** (z. B. **Duspol**): Spannung erst als echt bestätigen,
-  wenn die Last zugeschaltet ist — ein Phasenprüfer zeigt auch Induktion.
-- **Versteckte Klemmdose**: Abzweigdosen, die unter Putz, Tapete oder hinter **Fliesen** verschwinden, sind
-  später nicht mehr auffindbar. Jede Klemmstelle gehört in eine zugängliche Dose und in den
-  **Stromlaufplan** — Dokumentation ist Teil der Arbeit, nicht Papierkram.
-- **Lampenleitung komplett neu**: wer die alte Leitung weiterbenutzt, weil „sie ja noch geht", hat an der
-  Decke eine Ader ohne Schutzleiter — der Kreis ist dann **komplett neu** zu legen.

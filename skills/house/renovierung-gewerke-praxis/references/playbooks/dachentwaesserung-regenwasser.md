@@ -57,6 +57,17 @@ Q [l/s] = r(5,5) [l/(s·ha)] × C × A [m²] / 10.000
 
 **Beispiel, damit die Größenordnung sitzt** (eigene Rechnung mit [Q5]): 120 m² Dachfläche, C = 1,0, r = 300 l/(s·ha) → Q = 3,6 l/s. Eine NG 333 mit DN 100 schafft 4,6 l/s, eine NG 250 mit DN 76 nur 2,6 l/s. Die 250er ist damit **zu klein**, die 333er hat 28 % Reserve.
 
+**Was r(5,5) in Deutschland tatsächlich bedeutet** — und warum keine Tabelle ohne Postleitzahl gilt:
+
+| Größe | Spanne |
+|---|---|
+| **r(5,5)** Berechnungsregen (5 min, 1× in 5 Jahren) | **200–500 l/(s·ha)** bundesweit |
+| **r(5,100)** Jahrhundertregen (5 min, 1× in 100 Jahren) | bis **1.200 l/(s·ha)** |
+| Umrechnung | 500 l/(s·ha) = **15 l/m²** in 5 Minuten; 1.000 l/(s·ha) = **30 l/m²** |
+
+Die Daten kommen aus **KOSTRA-DWD** (koordinierte Starkniederschlags-Regionalisierung, Raster ca. 8,45 km × 8,45 km); Bremen liegt bei **205 / 304 l/(s·ha)** (r5,5 / r5,100), Traunstein bei **523 / 1.030** — Faktor 2,5 zwischen zwei Landkreisen. Für Stuttgart nennt dieselbe Quelle **446 l/(s·ha)** und rechnet vor, was das wiegt: ein **1.000 m²** großes Flachdach sammelt im 5-Minuten-Bemessungsregen **13.380 kg** Wasser, im Jahrhundertregen **25.740 kg**. Das ist der Grund, warum die Entwässerung kein Anhängsel der Dachdeckung ist, sondern eine Statikfrage.
+Quelle: [dach+holzbau – Mit Regen rechnen](https://www.dach-holzbau.de/artikel/bhw_Mit_Regen_rechnen-2300540.html) (geprüft 09.11.2026), dach+holzbau 02/2015.
+
 ### 1.2 Rinnengröße → Dachfläche (Bemessungstabelle)
 
 | Rinne (Nennmaß) | Fallrohr | Abfluss Q | Dachfläche bei r = 250 | bei r = 300 | bei r = 350 | bei r = 400 |
@@ -81,7 +92,7 @@ Q [l/s] = r(5,5) [l/(s·ha)] × C × A [m²] / 10.000
 **Rechenweg für Ihr Haus:**
 1. Grundrissfläche des Hauses (Länge × Breite), nicht die Dachfläche.
 2. Durch Anzahl der Fallrohre **pro Dachseite** teilen — Marley rechnet das im Beispiel vor: 15 × 10 m = 150 m², zwei Fallrohre → 75 m² je Strang, Ergebnis RG 125 mit DN 105 [Q6].
-3. Örtliche Regenspende beim Versorger, Bauamt oder über einen Rinnenrechner mit PLZ holen [Q1][Q5].
+3. Örtliche Regenspende beim Versorger, Bauamt oder über einen Rinnenrechner mit PLZ holen [Q1][Q5] — der Rheinzink-Rechner zieht dafür die DWD-Daten zur eingegebenen Postleitzahl und gibt Stückliste und Ausschreibungstext mit aus [Q36].
 4. In der Tabelle nachsehen; bei Sonderformen (Gaube, Kehle, langer Lauf) lieber eine Nummer größer.
 
 ### 1.3 Halbrund oder Kasten?
@@ -101,6 +112,18 @@ Für ein Einfamilienhaus ist die Halbrundrinne die technisch bessere Wahl, die K
 - **Vorderkante der Dachsteine** muss etwa **⅓ in die Rinne** hineinragen; Traufstreifen mit **≥ 4 cm Überlappung** [Q7].
 - **Längenausdehnung:** Kunststoffrinnen arbeiten. Marley löst das mit Nocke-Nut in der Verbindungsschale; Schraubverbindungen dürfen die Ausdehnung nicht festklemmen [Q6].
 - **Rinnenrand:** Der **vordere Rand muss tiefer liegen** als der hintere, sonst läuft das Wasser beim Überlaufen in die falsche Richtung — also Richtung Fassade [Q29].
+
+**Die Traufe ist ein Detail mit Zahlen** — hier entscheidet sich, ob die Rinne das Wasser bekommt oder daneben. Zwei Ausführungen sind üblich: die Unterdeckbahn entwässert **in** die Rinne (über eine keilförmige Traufbohle mit Rinneneinhangblech) oder **unterhalb** der Rinne über ein **Tropfblech** am Sparrenende. Die zweite Variante ist bei Schnee im Rinnenlauf und bei flachen Dächern die sicherere, weil sich kein Wassersack bilden kann — aber sie ist **unzulässig bei wasserdichten Unterdächern**, weil dort die Unterdeckbahn die wasserführende Ebene ist und große Wassermengen unterhalb der Rinne anfallen.
+
+| Größe | Wert | Norm/Grundlage |
+|---|---|---|
+| freier Lüftungsquerschnitt an der Traufe (belüftetes Dach) | **≥ 2 % der zugehörigen Dachfläche**, mindestens **200 cm²/m Traufe** | **DIN 4108-3:2018-10**, Abschn. 5.3.3 |
+| Überdeckung des Traufblechs durch die Deckung, Dachneigung **> 22°** | **≥ 100 mm** | Fachregeln Metallarbeiten im Dachdeckerhandwerk |
+| dito **15°–22°** | **≥ 150 mm** | dito |
+| dito **< 15°** | **≥ 200 mm** | dito |
+
+Der letzte Punkt ist der, der bei nachträglich vergrößertem Rinnenabstand schiefgeht: Wird die Rinne tiefer oder weiter vorn montiert, muss der **horizontale Abstand zur Deckungsvorderkante** größer werden, sonst schießt das Wasser bei Starkregen über die Rinne hinweg. Wer das Tropfblech nachrüstet, sollte dem Bauherrn außerdem sagen, dass abtropfendes Wasser **normal** ist und kein Zeichen für Undichtigkeit — es ist eher ein Frühwarnsystem für Oberflächenschäden der Deckung.
+Quelle: [dach+holzbau – Varianten für den Anschluss an der Traufe](https://dach-holzbau.de/artikel/varianten-fuer-den-anschluss-an-der-traufe-3453308.html) (geprüft 09.11.2026), dach+holzbau 07/2019.
 
 ### 1.5 Einlauf und Fallrohr: hier verliert man die Reserve
 
@@ -177,6 +200,41 @@ Fünf Mechanismen, in der Reihenfolge ihrer Häufigkeit (Reihenfolge = *Einschä
 - **Alle Ablaufstellen darunter** brauchen Schutz. Nach DIN 1986-100 / DIN EN 12056 ist die **automatische Abwasserhebeanlage** mit Rückstauschleife der Regelfall; ein **Rückstauverschluss** (DIN EN 13564) ist nur bei untergeordneter Nutzung, kleinem Nutzerkreis und Gefälle zum Kanal zulässig [Q10].
 - **Wartung: zweimal jährlich**, bei motorischen Verschlüssen durch den Fachbetrieb, dokumentiert. Viele Elementartarife machen die funktionsfähige Rückstausicherung zur **Obliegenheit** — ohne Wartungsnachweis kürzt der Versicherer [Q10].
 - **Pflicht?** Die Sicherung ist über die anerkannten Regeln der Technik und die kommunale Entwässerungssatzung Sache des **Eigentümers** [Q10]. Es gibt kein Amt, das nachschaut — bis der Keller voll ist.
+
+### 2.6 Flachdach: Freispiegel, Druckströmung, Notüberlauf
+
+Auch wenn dieses Playbook vom Steildach handelt — die Zahlen für die innenliegende Entwässerung sind die Referenz, an der viele „Dachrinnen-Probleme" im Bestand hängen (Garage, Anbau, Carport, Terrassenüberdachung).
+
+**Die zwei Systeme:**
+
+| System | Kennzeichen | Wann |
+|---|---|---|
+| **Freispiegel** | Gullys → Fallleitungen im **Gefälle** → Grundleitung; Teilfüllung, Schwerkraft | kleinere Flachdächer; braucht große Nennweiten und viele Fallleitungen |
+| **Druckströmung (DSS)** | gefällelose Sammelleitungen direkt unter der Decke, wenige Fallleitungen, Vollfüllung mit Unterdruck | große, weitläufige Flächen; kleinere Rohre, weniger Durchdringungen |
+
+**Die Bemessungsgrenzen der Freispiegelanlage** (DIN EN 12056-3, DIN 1986-100):
+
+- maximaler **Füllungsgrad** der Sammel- und Grundleitungen **h/di = 0,7**, der Fallleitungen **f = 0,33**;
+- Fließweg zwischen zwei Gullys bzw. zwei Notgullys auf einer linearen Tiefpunktlinie **≤ 20 m**;
+- Dachgully nach **DIN EN 1253-2** (erkennbar am **Ü-Zeichen**), im **Tiefpunkt** montiert, Gullykörper und Aufstockelement **fest** mit dem Baukörper verbunden;
+- Abdichtung nach **DIN 18531-1…-5** plus Flachdachrichtlinie, inkl. An- und Abschlüssen und Türanschlüssen;
+- **Wartung alle sechs Monate** nach **DIN 1986-3** — bei Laubanfall häufiger; Gullys müssen dafür frei zugänglich bleiben.
+
+**Notentwässerung — die Zahlen, die man kennen muss:**
+
+| Größe | Wert |
+|---|---|
+| Pflicht | **seit 2002** in DIN 1986-100 verankert, wenn die Statik die Zusatzlast nicht trägt |
+| Bemessung | muss mindestens die **Differenz** zwischen Jahrhundert- und Berechnungsregen sicher und **frei** auf schadlos überflutbare Flächen abführen; besonders schützenswerte Gebäude (Krankenhaus) → **gesamter** Jahrhundertregen |
+| Anschlussverbot | **nie** an die Leitungen der Hauptentwässerung |
+| Wasserlast | **10 cm** Anstau ≈ **100 kg/m²**; ein 200-m²-Dach trägt dann **20.000 kg** zusätzlich |
+| Anstauhöhen | gängige Anstauelemente **10–55 mm**, mit kürzbarem Ring bis **200 mm** (Gründach) |
+| Leistung Attikagully | **8 l/s** pro Speier — so viel wie **sieben** herkömmliche Attikagullys mit Rundrohr (**1,2 l/s** bei 45 mm Anstau), also **sechs Durchdringungen weniger** |
+| Bauhöhe | flacher Ablauf für Haupt- und Notentwässerung **98 mm**, Leistung bis **15 l/s** |
+
+Quellen: [dach+holzbau – Freispiegelentwässerung von Flachdächern](https://dach-holzbau.de/artikel/freispiegelentwaesserung-von-flachdaechern-3467910.html) (geprüft 09.11.2026), dach+holzbau 08/2019; [dach+holzbau – Notausgang für Starkregen](https://www.dach-holzbau.de/artikel/notausgang-fuer-starkregen-3694855.html) (geprüft 09.11.2026), dach+holzbau 6-7/2021.
+
+> **Widerspruch, offen markiert (nicht gemittelt):** Zur DIN 1986-100 stehen in den Quellen zwei verschiedene Ausgaben. Die ältere Darstellung (dach+holzbau 02/2015) sagt „**seit Mai 2008** gilt die neue DIN 1986 Teil 100"; die jüngere (dach+holzbau 08/2019) sagt „**bereits seit Dezember 2016** gilt die neue DIN 1986 Teil 100 mit zusätzlichen nationalen Bestimmungen". Beides ist historisch richtig — es sind zwei verschiedene Fassungen (2008 und 2016-12). Für die Bemessung gilt die jeweils bauaufsichtlich eingeführte Fassung; die Zahlen in diesem Abschnitt (h/di, f, Notentwässerung) stehen in beiden.
 
 ---
 
@@ -431,6 +489,16 @@ Pflasteraufbau, Tragschicht, Gefälle (2,5 %), Randeinfassung, Sockelanschluss u
 | Q23 | dachdecker.com, „Dachrinne erneuern Kosten [2026]" (14.10.2026) | Kunststoff **40–90 €/m**, Titanzink **50–100 €/m**, Kupfer **80–150 €/m** (inkl. Montage, Rückbau, Entsorgung); Fahrgerüst **~200 €**, Fassadengerüst 100 m² **1.700–2.000 €**. https://www.dachdecker.com/magazin/dachrinne-erneuern-kosten-202638169 |
 | Q24 | nordictec, „Gefälle des Bodens in der Garage" | Gefälle **1–2 %**, Minimum **1 %**, viele Praktiker **1,5 %**; Richtung Tor, Punktablauf (kuvertförmig) oder Linienentwässerung; typische Fehler: kein Gefälle, zu großes Gefälle, ungleichmäßig. **Herstellerangabe, keine Norm.** https://nordictec-shop.eu/blog/post/gefaelle-des-bodens-in-der-garage-welche-groesse |
 | Q26 | Kabelkaufhaus, „Erdkabel verlegen: Tiefe & Vorschriften" (2026) | **60 cm** im Garten, **80 cm** unter Wegen, Einfahrten, Stellplätzen; Anschluss an die Hausverteilung nur durch Fachkraft. https://kabelkaufhaus.de/blogs/gut-zu-wissen/erdkabel-verlegen-tiefe-vorschriften |
+
+### Fachpresse dach+holzbau (geprüft 09.11.2026)
+
+| Nr. | Quelle | Belegte Zahlen |
+|---|---|---|
+| Q32 | dach+holzbau, „Mit Regen rechnen" (02/2015) | **r(5,5) 200–500 l/(s·ha)**, **r(5,100) bis 1.200**; 500 l/(s·ha) = **15 l/m²**/5 min; Bremen **205/304**, Traunstein **523/1.030**, Stuttgart **446**; 1.000 m² Dach → **13.380 kg** (Bemessungsregen) bzw. **25.740 kg** (Jahrhundertregen); KOSTRA-DWD-2000, Raster **8,45 km**. https://www.dach-holzbau.de/artikel/bhw_Mit_Regen_rechnen-2300540.html |
+| Q33 | dach+holzbau, „Freispiegelentwässerung von Flachdächern" (08/2019) | **h/di = 0,7** (Sammel-/Grundleitung), **f = 0,33** (Fallleitung); Fließweg Gully–Gully **≤ 20 m**; **DIN EN 1253-2** + Ü-Zeichen; **DIN 18531-1…-5** + Flachdachrichtlinie; Wartung **alle 6 Monate** (DIN 1986-3); Notentwässerung = Differenz r(5,100) − r(5,5), nie an die Hauptentwässerung. https://dach-holzbau.de/artikel/freispiegelentwaesserung-von-flachdaechern-3467910.html |
+| Q34 | dach+holzbau, „Varianten für den Anschluss an der Traufe" (07/2019) | Lüftungsquerschnitt **≥ 2 %** der Dachfläche, min. **200 cm²/m Traufe** (DIN 4108-3:2018-10, 5.3.3); Traufblech-Überdeckung **100 / 150 / 200 mm** bei **> 22° / 15–22° / < 15°**; Tropfblech-Variante unzulässig bei wasserdichtem Unterdach. https://dach-holzbau.de/artikel/varianten-fuer-den-anschluss-an-der-traufe-3453308.html |
+| Q35 | dach+holzbau, „Notausgang für Starkregen" (6-7/2021) | Notentwässerung **seit 2002** Pflicht (DIN 1986-100); **10 cm** Anstau ≈ **100 kg/m²**, 200 m² → **20.000 kg**; Anstau **10–55 mm**, bis **200 mm** (Gründach); Attikagully **8 l/s** vs. **1,2 l/s** bei 45 mm (7 Gullys = 1 Speier); flacher Ablauf **98 mm**, **15 l/s**. https://www.dach-holzbau.de/artikel/notausgang-fuer-starkregen-3694855.html |
+| Q36 | dach+holzbau, „Digitale Rinnenbemessung in Minuten" (04/2026) | Rinnenbemessung nach deutschen/europäischen Normen; Regenspende standortbezogen über **PLZ** aus **DWD-Daten**; Stückliste + Ausschreibungstexte. **Keine Zahlen zur Bemessung selbst** — nur als Hinweis auf Rechner/Datenquelle zitiert. https://dach-holzbau.de/artikel/rinnenrechner-rheinzink-4395356.html |
 
 ### Foren (Praxisberichte, keine Normen)
 

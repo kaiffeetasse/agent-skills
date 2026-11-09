@@ -56,6 +56,9 @@ Die Reihenfolge folgt einem einzigen Prinzip: **alles, was hinter die Platte mus
    Justierschwingbügeln oder freistehender UK ausgleichen [S8].
 5. **Material auf einmal kaufen.** Unterschiedliche Plattensorten/Chargen mischen heißt unterschiedliche
    Saugfähigkeit und damit sichtbare Spachtelunterschiede.
+6. **Gewerke-Koordination vor dem Schließen der luftdichten Ebene**: Elektro, Sanitär, Lüftung und
+   Trockenbau legen die Durchdringungspunkte gemeinsam fest. Jede nachträgliche Durchdringung ist eine
+   Flickstelle.
 
 ### 1.2 Vorsatzschale Wand (Tag 1–2)
 
@@ -147,6 +150,11 @@ Die Hersteller sagen es unterschiedlich scharf, und beide haben recht:
   **umlaufend dauerhaft luftdicht nach DIN 4108-7**; vorgestellte Systeme **hohlraumfrei** hinterfüllen [S12].
 - **Fermacell Vapor:** Dampfbremse werkseitig in der Platte, **sd-Wert 3,1 bzw. 4,5 m**, 12,5 mm = 14,5 kg/m² —
   funktioniert nur, wenn die Platte selbst luftdicht verarbeitet wird [S13].
+- **DIN 4108-7 gilt in der Ausgabe 2026-04** (vorher 2011-01). Kernregel im Wortlaut der Vorgängerfassung:
+  Durchdringungen sind „bei der Planung mit so viel Abstand … anzuordnen, dass ausreichend Platz für die
+  handwerkliche Herstellung des luftdichten Anschlusses bleibt".
+  Quelle: https://www.bionic3.de/2026/06/11/neue-luftdichtheits-norm-4108-7/ (200);
+  Wortlautzitat über https://www.akbw.de/fileadmin/download/Freie_Dokumente/Fortbildung_IFBau/Energie_aber_wie/Energie_aber_wie_Stumpp.pdf (PDF, geprüft).
 
 **Übersetzt für den Laien:**
 
@@ -165,7 +173,10 @@ Die Hersteller sagen es unterschiedlich scharf, und beide haben recht:
 
 **Wichtig für die Praxis:** Die Dampfbremse gehört auf die **warme Seite**, also **vor** die Dämmung, direkt
 unter die GK-Platte. Wer sie hinter die Dämmung (an die kalte Wand) legt, hat sie sinnlos eingebaut — dort
-kondensiert es trotzdem, nur unsichtbar.
+kondensiert es trotzdem, nur unsichtbar. Eine **Durchdringung ohne Klebefläche** (Leitung sitzt direkt an der
+Balkenflanke) ist ein Mangel, kein Schönheitsfehler: die Dichtheitsmessung fällt durch. Richtig ist,
+**Bedenken anzumelden** (Fotos, Textform, Datum, vor Beginn der Arbeiten) und den Planer einzubinden — nicht
+selbst zu improvisieren. Form und Frist: `hausbau-baufirma.md`.
 
 ### 2.4 Feuchtevariable Bahn oder Folie? Entscheidungshilfe
 
@@ -297,6 +308,19 @@ Wichtig: Ausschnitt **vor** dem Spachteln, nicht nach dem Q3-Finish.
 **2,1 m² Beplankung** (3 Seiten) plus 0,5 m² Deckel — also 3 Platten 12,5 mm aus einer 2,0 × 1,25-m-Platte
 plus Verschnitt.
 
+**Alternative ohne Unterkonstruktion: Gips-Wandbauplatten.** Massive Platten in **60, 80 oder 100 mm**
+Dicke werden ohne UK in Gipskleber versetzt, Format **666 × 500 mm** (mit der Säge maßgenau kürzbar, auch
+kleinste Passstücke), Fugen mit Gipskleber gefüllt, Deckenanschluss mit Füllgips, raumseitig nur gespachtelt
+— kein Putz. Der Brandschutz kommt aus der Platte selbst, **beidseitiger Brandangriff** eingeschlossen:
+
+| Plattendicke | Feuerwiderstand |
+|---|---|
+| **60 mm** | **F30-A** |
+| **80 mm** | **F120-A** |
+| **100 mm** | **F180-A** |
+
+Quelle: [Bauhandwerk – Schachtwände aus Wandbauplatten](https://www.bauhandwerk.de/artikel/bhw_Schachtwaende_aus_Wandbauplatten-85815.html) (geprüft 09.11.2026). Zwei Praxisregeln von dort: Kreuzfugen vermeiden, Sägestaub vor dem Versetzen entfernen — sonst hält der Gipskleber nicht. Bei Schallschutzanforderung die Wand **allseitig** mit elastischem PE-Randstreifen von den angrenzenden Bauteilen entkoppeln.
+
 ### 4.2 Nischen und Regalbau
 
 - **Nischentiefe** = Profiltiefe + Platte: CW 50 → **62,5 mm** nutzbare Tiefe; CW 75 → 87,5 mm. Für
@@ -335,6 +359,32 @@ Reflexionsfolie, wenn die Wand kalt ist [S29].
 **Fehler:** Verkleidung bis zum Boden geschlossen (kein Kamineffekt), Gitter nur oben (Luft kommt nicht
 rein), Thermostat hinter der Front (Heizkörper heizt dauerhaft gegen die Verkleidung) [S28].
 
+### 4.4 Türöffnung und Zarge
+
+Die Zarge ist der Punkt, an dem die Wand ihre Steifigkeit verliert — und an dem Risse entstehen, wenn die
+Plattenfugen falsch liegen. Drei Befestigungsvarianten nach Türgewicht (Herstellerangaben Fermacell):
+
+| Variante | Grenzwerte | Befestigung |
+|---|---|---|
+| **leicht** | Türblatt **≈ 25 kg** mit Beschlägen, Breite **≤ 88,5 cm**, Wandhöhe **≤ 2,60 m** | Zarge direkt an **normalen CW-Profilen** |
+| **mittelschwer** | **≤ 35 kg**, Breite **≤ 90 cm**, Höhe **≤ 2,80 m** | CW-Profil mit passgenauer **Holzaussteifung**, alternativ zwei kastenförmig verschachtelte CW-Profile |
+| **schwer** | **ab 35 kg**, Breite **ab 90 cm**, Raumhöhe **2,80 m** | **UA-Aussteifungsprofil 2 mm**, ggf. **statischer Nachweis**; über Anschlusswinkel direkt an Rohdecke verdübelt, **nicht** in die UW-Profile eingestellt |
+
+Weitere Maße aus derselben Quelle:
+
+- **UW-Bodenprofile:** Dübel **höchstens 100 mm neben** der Öffnung setzen.
+- **Plattenversatz ≥ 20 cm**; Plattenstöße **nicht** auf den Ständern, die an die Zarge grenzen, sondern
+  **oberhalb der Türöffnung**. Bei zweilagiger Beplankung die Fugen der äußeren Lage um **einen
+  Ständerabstand** versetzen.
+- **Türsturz:** waagerechtes UW-Profil, darin zwei CW-Ständer **ohne** mechanische Befestigung — sie halten
+  nur die Stoßfuge aus dem Sturzbereich heraus.
+- **Im Wandhohlraum:** Mineralwolle bis an die Zarge anarbeiten. Vergessene Dämmung an der Zarge ist der
+  häufigste Schallschutzfehler an Türen.
+- **UA-Profile** wegen der zu erwartenden Deckendurchbiegung **kürzer** zuschneiden; Langlöcher im Steg
+  nehmen die Durchbiegung auf.
+
+Quelle: [Bauhandwerk – Zargen und Türen im Trockenbau](https://bauhandwerk.de/artikel/bhw_Zargen_und_Tueren_im_Trockenbau-2741312.html) (geprüft 09.11.2026), BHW 1-2/2017.
+
 ---
 
 ## 5. Schallschutz und Brandschutz
@@ -371,6 +421,22 @@ dass das Kind im Nebenzimmer schläft.
 6. **Flanken beachten:** Steckdosen versetzt anordnen, keine durchgehenden Schlitze, Schacht nicht als
    Schallbrücke [S11][S12].
 
+**Schallwerte, die Trockenbau tatsächlich erreicht** (Laborwerte auf dem Prüfstand ohne Nebenwege — im Gebäude begrenzen Flanken und Nebenwege das Ergebnis):
+
+| Aufbau | Schalldämm-Maß |
+|---|---|
+| einfach beplankte Ständerwand | bis **52 dB** |
+| doppelt mit Gipsfaserplatten beplankt | **60 dB** |
+| zusätzlich Doppelständerwerk | bis **66 dB** |
+| Flankentrennung + schwimmender Estrich / abgehängte Decke je Raum | rechnerisch bis **57 dB** nach Beiblatt DIN 4109 |
+| trocken abgehängte Holzbalkendecke (federnde Abhängung + Gipsfaser, oben Estrichwabe mit Schüttung) | **38 dB** Trittschall (Baustellenmessung) |
+
+Zum Vergleich: Kalksandstein mit Rohdichte **2,2 kg/dm³** erreicht **56 dB** — die oft gehörte Gleichung „Massiv = besser" gilt für diese Werte nicht.
+
+> **Versionshinweis, damit nichts vermischt wird:** Die Zahlen und die VDI-4100-Stufen (SSt II: Decken **R′w ≥ 57 dB / L′n,w ≤ 46 dB**, Wände **≥ 56 dB**; SSt III: **≥ 60 / ≤ 39 dB** bzw. **≥ 59 dB**) stammen aus einem Beitrag, der sich auf die **DIN 4109 von 1989** bezieht. Die Tabelle in §5.1 ist **DIN 4109-1:2018-01**. Die Anforderungssystematik hat sich zwischen den Fassungen geändert — wer heute plant, nimmt §5.1 und die VDI 4100 in der aktuellen Fassung, nicht die 1989er-Werte.
+
+Quelle: [Bauhandwerk – Gleichwertig: Schallschutz mit Trockenbaukonstruktionen](https://www.bauhandwerk.de/artikel/bhw_Gleichwertig_Schallschutz_mit_Trockenbaukonstruktionen-134543.html) (geprüft 09.11.2026).
+
 ### 5.3 Brandschutz: F30/F90 richtig lesen
 
 - **F30** = Bauteil widersteht dem Feuer **30 Minuten** durch Raumabschluss, Grenztemperaturen werden nicht
@@ -386,6 +452,32 @@ ausdrücklich für Schachtwände; Fireboard ist bis 30 mm Dicke lieferbar [S7].
 
 **Was eine F90-Schachtwand ausmacht:** einseitig beplankt, CW-Einfach- oder Doppelprofil, „einlagige
 Lösung F90", Höhe bis 7 m [S7].
+
+**Geprüfte Beplankungsvarianten — die Plattendicken, die den Feuerwiderstand tragen** (Fermacell,
+Platten nach DIN EN 15283-2; Firepanel A1 ist **A1** nach DIN EN 13501-1 und DIN 4102-1):
+
+| Bauteil | Aufbau | Klasse |
+|---|---|---|
+| Trennwand | **2 × 12,5 mm GKF** + **60 mm Mineralwolle, 50 kg/m³** | **F90 / EI90** |
+| Trennwand | **2 × 10 mm Firepanel A1**, ohne Dämmstoff | **F90 / EI90** |
+| Trennwand | **2 × 15 mm GKF** + 60 mm / 50 kg/m³ | **F120 / EI90** |
+| Trennwand | **2 × 12,5 mm Firepanel A1**, ohne Dämmstoff | **F120 / EI90** |
+| Schachtwand | **2 × 25 mm GKF**, ohne Dämmstoff | **F90 / EI90** |
+| Schachtwand | **3 × 12,5 mm Firepanel A1**, ohne Dämmstoff | **F90 / EI90** |
+| Schachtwand | **2 × 15 mm Firepanel A1** auf **CW 75-06**, ohne Mineralwolle | **EI60** |
+
+Drei Dinge, die man an dieser Tabelle ablesen kann:
+
+1. **Die Platte ersetzt Dämmung und Dicke — bis zu einem Punkt.** 2 × 10 mm Firepanel A1 erreicht **F90**
+   ohne jede Mineralwolle, dieselbe Klasse wie 2 × 12,5 mm GKF **plus** 60 mm / 50 kg/m³. Für **F120**
+   braucht die A1-Platte 2 × 12,5 mm, die GKF 2 × 15 mm.
+2. **Dämmstoff ist Teil des Nachweises.** „Ohne Dämmstoff" ist keine Vereinfachung, sondern eine andere
+   Konstruktion; wer bei der GKF-Variante die 60 mm / 50 kg/m³ weglässt, hat die Klassifizierung verloren.
+3. **Schachtwände werden zweilagig dick beplankt** (2 × 25 mm GKF oder 3 × 12,5 mm A1) — deshalb sind sie
+   teuer und deshalb ist die Gips-Wandbauplatte (§4.1) im kleinteiligen Schacht oft die wirtschaftlichere
+   Lösung.
+
+Quelle: [Bauhandwerk – Brandschutz ohne Grenzen](https://www.bauhandwerk.de/artikel/bhw_Brandschutz_ohne_Grenzen-1429035.html) (geprüft 09.11.2026), BHW 03/2013. Deckensysteme sind dort nicht enthalten; dafür gilt die Rigips-Systemtabelle oben [S8].
 
 **Abschottungen (MLAR):**
 
@@ -495,6 +587,27 @@ bei 170 mm an der Decke **ca. 35 Schrauben/m²**. Für 20 m² Decke also ~700 Sc
 - **Trocknung:** „Vor jedem neuen Spachtelgang muss die zuletzt aufgetragene Spachtelung ausgetrocknet
   sein, da andernfalls Schwindungen (Fuge fällt ein oder ist hohl) auftreten" [S8].
 - **Temperatur:** nicht unter **+5 °C** Raum-/Plattentemperatur verarbeiten [S8].
+- **Schattenfuge** nur bei lotrechten, ebenen Wänden: alte Wände sind uneben, die **Fugenbreite** wird
+  sonst ungleichmäßig und muss beim Verputzen aufwendig nachgearbeitet werden. Vorher prüfen, ob eine
+  gleichmäßige Fuge überhaupt herstellbar ist (k3q49IW19KU-07).
+
+**Die Fugenbreite ist rechnerisch, nicht Geschmackssache.** Acryl kann unter Zug etwa **20 %** seiner
+Breite dehnen. Bewegen sich zwei Bauteile um **1–1,5 mm** aufeinander zu, muss die Fuge deshalb **5–8 mm**
+breit sein, damit sie das aufnimmt — bei einer 12,5-mm-Platte ist das viel Fugenmaterial. Genau daran
+scheitern die meisten Anschlüsse: Die Platte liegt bündig am Massivbauteil, die Acrylraupe wird dadurch
+zwangsläufig dünner als die Platte und haftet an zwei sich berührenden Flanken — bei der ersten Bewegung
+wird sie abgeschert. Verschärfend: **Holz schwindet etwa zehnmal stärker als Gipsplatten**, weshalb
+Anschlüsse an Balken, Kehlbalken und Brettstapeldecken zuerst reißen.
+
+Zwei belastbare Ausführungen statt „Acryl drauf":
+
+1. **Gleitender Anschluss mit Trennstreifen** (z. B. Knauf Trenn-Fix): 65 mm breites Silikonpapierband mit
+   einem etwa 1 cm breiten Klebestreifen am Rand. Platten mit **3–5 mm Abstand** zum Streifen montieren,
+   überspachteln, nach dem Austrocknen den Überstand abschneiden. Ergebnis: eine haarfeine, dauerhaft
+   bewegliche Fuge statt eines gezackten Risses.
+2. **Schattenfuge** als geplante offene Fuge — nur, wenn die Wand das hergibt (§7.3 oben).
+
+Quelle: [Bauhandwerk – Fuge in Gips: rissfreie Anschlussfugen](https://bauhandwerk.de/artikel/bhw_Fuge_in_Gips_Ausfuehrung_rissfreier_Anschlussfugen_im_Trockenbau-108605.html) (geprüft 09.11.2026). Dort sind die fünf Anschlussarten systematisiert: starre Fuge mit Trennstreifen, Fuge mit Dichtstoff, offene Fuge ein- und zweilagig, gleitender Anschluss bis **10 mm** und bis **20 mm** Bewegungsaufnahme — Dichtstoff-Fugenbreite **5–8 mm**.
 
 ### 7.4 Spachtelstufen Q1–Q4
 
@@ -776,6 +889,36 @@ System gebaut, sondern Material verbaut.
   https://knauf.com/de-DE/kompetenzen/schallschutz (09.11.2026): „Schallminderung von bis zu 74 dB" mit
   Diamant-Wandaufbauten; Vorsatzschale an Außenwänden verbessert den Schallschutz.
 
+**Fachpresse (bauhandwerk.de, geprüft 09.11.2026)**
+
+- **[S32]** Bauhandwerk — „Schachtwände aus Wandbauplatten" (BHW 1-2/2009),
+  https://www.bauhandwerk.de/artikel/bhw_Schachtwaende_aus_Wandbauplatten-85815.html (geprüft 09.11.2026):
+  Gips-Wandbauplatten **60/80/100 mm** ohne UK, Format **666 × 500 mm**; **F30-A / F120-A / F180-A** bei
+  beidseitigem Brandangriff; Gipskleber, Füllgips am Deckenanschluss, PE-Randstreifen bei Schallschutz.
+- **[S33]** Bauhandwerk — „Zargen und Türen im Trockenbau" (BHW 1-2/2017),
+  https://bauhandwerk.de/artikel/bhw_Zargen_und_Tueren_im_Trockenbau-2741312.html (geprüft 09.11.2026):
+  **25 kg / ≤ 88,5 cm / ≤ 2,60 m** an normalen CW; **≤ 35 kg / ≤ 90 cm / ≤ 2,80 m** mit Holzaussteifung;
+  **ab 35 kg** UA-**2-mm**-Profile + Statik; Dübel **≤ 100 mm** neben der Öffnung; Versatz **≥ 20 cm**.
+- **[S34]** Bauhandwerk — „Brandschutz ohne Grenzen" (BHW 03/2013),
+  https://www.bauhandwerk.de/artikel/bhw_Brandschutz_ohne_Grenzen-1429035.html (geprüft 09.11.2026):
+  F90 = **2 × 12,5 GKF + 60 mm/50 kg/m³** oder **2 × 10 mm Firepanel A1** ohne Dämmung; F120 =
+  **2 × 15 GKF** bzw. **2 × 12,5 A1**; Schachtwand F90 = **2 × 25 GKF** bzw. **3 × 12,5 A1**; EI60 mit
+  **2 × 15 A1** auf CW 75-06; Firepanel A1 in **10/12,5/15 mm**, A1 nach DIN EN 13501-1 / DIN 4102-1,
+  Kennzeichnung DIN EN 15283-2.
+- **[S35]** Bauhandwerk — „Fuge in Gips: Ausführung rissfreier Anschlussfugen im Trockenbau",
+  https://bauhandwerk.de/artikel/bhw_Fuge_in_Gips_Ausfuehrung_rissfreier_Anschlussfugen_im_Trockenbau-108605.html
+  (geprüft 09.11.2026): fünf Anschlussarten (starr mit Trennstreifen, Dichtstoff, offen ein-/zweilagig,
+  gleitend bis 10 mm und bis 20 mm); Dichtstoff-Fugenbreite **5–8 mm**.
+- **[S36]** Bauhandwerk — „Sicherer Anschluss zwischen Wand und Decke ohne Risse" (BHW 2018-06),
+  https://bauhandwerk.de/artikel/bhw_2018-06_Sicherer_Anschluss_zwischen_Wand_und_Decke_ohne_Risse-3171388.html
+  (geprüft 09.11.2026): Acryl dehnt **~20 %** → bei **1–1,5 mm** Bauteilbewegung **5–8 mm** Fugenbreite;
+  Trennstreifen **65 mm** breit, Plattenabstand **3–5 mm**; Holz schwindet **~10×** stärker als Gipsplatten.
+- **[S37]** Bauhandwerk — „Gleichwertig: Schallschutz mit Trockenbaukonstruktionen",
+  https://www.bauhandwerk.de/artikel/bhw_Gleichwertig_Schallschutz_mit_Trockenbaukonstruktionen-134543.html
+  (geprüft 09.11.2026): einfach beplankt bis **52 dB**, doppelt Gipsfaser **60 dB**, Doppelständerwerk bis
+  **66 dB**; Flankentrennung bis **57 dB**; Trockenbaudecke **38 dB** Trittschall; Kalksandstein
+  **2,2 kg/dm³** = **56 dB**; VDI 4100 SSt II/III (Bezug DIN 4109:1989).
+
 **YouTube (deutsch, Auto-Untertitel geprüft)**
 
 - **[S15]** Der Wandprofi – Andreas Neufeld, „Drei gravierende Trockenbau-Fehler" (Video, de).
@@ -846,21 +989,6 @@ System gebaut, sondern Material verbaut.
 
 ---
 
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **DIN 4108-7 gilt in der Ausgabe 2026-04** (vorher 2011-01). Kernregel im Wortlaut der Vorgängerfassung:
-  Durchdringungen sind „bei der Planung mit so viel Abstand … anzuordnen, dass ausreichend Platz für die
-  handwerkliche Herstellung des luftdichten Anschlusses bleibt".
-  Quelle: https://www.bionic3.de/2026/06/11/neue-luftdichtheits-norm-4108-7/ (200);
-  Wortlautzitat über https://www.akbw.de/fileadmin/download/Freie_Dokumente/Fortbildung_IFBau/Energie_aber_wie/Energie_aber_wie_Stumpp.pdf (PDF, geprüft).
-- **Durchdringung ohne Klebefläche** (Leitung sitzt direkt an der Balkenflanke) ist ein Mangel, kein
-  Schönheitsfehler: die Dichtheitsmessung fällt durch. Richtig ist, **Bedenken anzumelden** (Fotos,
-  Textform, Datum, vor Beginn der Arbeiten) und den Planer einzubinden — nicht selbst zu improvisieren.
-  Form und Frist: `hausbau-baufirma.md`.
-- **Gewerke-Koordination vor dem Schließen der luftdichten Ebene**: Elektro, Sanitär, Lüftung und
-  Trockenbau legen die Durchdringungspunkte gemeinsam fest. Jede nachträgliche Durchdringung ist eine
-  Flickstelle.
-
 ## 13. Unbelegt / offen
 
 1. **Zeiten je m² (§9)** — keine öffentliche Erhebung gefunden. Die Tabelle ist Erfahrungswert; die
@@ -885,8 +1013,3 @@ System gebaut, sondern Material verbaut.
    Aufbauten.
 9. **DIN-Volltexte** — DIN 4109-1 lag als Volltext-Kopie vor [S11]; DIN 18534-1:2025-10 und DIN 18183
    sind nur über Nummer/Titel/Ausgabe und Herstellerzitate belegt, nicht im Volltext gelesen.
-### Weitere Video-Fehler (Trockenbau)
-
-- **Schattenfuge** nur bei lotrechten, ebenen Wänden: alte Wände sind uneben, die **Fugenbreite** wird
-  sonst ungleichmäßig und muss beim Verputzen aufwendig nachgearbeitet werden. Vorher prüfen, ob eine
-  gleichmäßige Fuge überhaupt herstellbar ist (k3q49IW19KU-07).

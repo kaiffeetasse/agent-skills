@@ -62,6 +62,8 @@ Praktische Entscheidungshilfe:
 2. **Klebebandtest:** Fläche mit Cutter leicht anritzen, Malerkrepp fest andrücken, scharf abreißen. Bleiben Farbschichten am Klebeband → Altanstrich muss runter [Q7].
 3. **Feuchtetest (Auge und Hand):** Wand muss sauber, trocken und staubfrei sein; nach Nassreinigung **24–48 Stunden** Trocknung, abhängig vom Wetter [Q7].
 
+**Wie der Profi prüft:** Das BFS-Merkblatt Nr. 20 führt die baustellenüblichen Verfahren. Der **Kreuzschnitt** ist der Standardtest auf Altbeschichtungen: mit Messer oder Spachtel mehrere Stellen anritzen, Klebeband aufdrücken, ruckartig abziehen — hält der Anstrich, gilt er als tragfähig; er funktioniert auf rauen wie glatten Untergründen. Dazu kommen der **trockene Abriebtest** (Hand/Lappen über die Wand: kreidet es, ist der Untergrund nicht tragfähig) und derselbe Test auf **befeuchteter** Fläche nach einigen Minuten Einwirkzeit. Der Grund, warum das keine Kür ist: Mehrfachbeschichtungen verlieren über die Jahre sowohl Haftung zum Untergrund (Adhäsion) als auch in sich (Kohäsion) — Feuchte und UV bauen auch tiefer liegende Schichten ab. [Malerblatt – Untergrundprüfmethoden](https://www.malerblatt.de/aus-und-weiterbildung/untergrundpruefmethoden) (geprüft 09.11.2026)
+
 Zusätzlich, wenn Sie unsicher sind: Klopftest mit dem Knöchel über die ganze Fläche (hohl klingende Stellen markieren) und ein Foto der Wetterseite. Feuchte Flecken, die nach Regen verschwinden und nach Trockenheit wiederkommen, sind kein Farbproblem — dann ist die Ursache ein Anschlussdetail (Fensterbank, Dachkante, Sockel).
 
 ### 1.3 Reinigen: Hochdruck ja, aber mit Abstand
@@ -71,6 +73,17 @@ Zusätzlich, wenn Sie unsicher sind: Klopftest mit dem Knöchel über die ganze 
 - **Abwasser auffangen.** Bei nassen Reinigungsverfahren entsteht Schmutzwasser, das je nach örtlicher Vorschrift aufgefangen und gefiltert werden muss; die Einleitung kann genehmigungspflichtig sein [Q3].
 - **Betonsteine und Terrassenplatten: kein Hochdruckreiniger** — Hersteller verbieten das ausdrücklich, weil die Oberfläche zerstört wird. Dort reicht Abkehren und Abbürsten unter fließendem Wasser [Q17].
 - **Holz/WPC-Terrassen: max. 80 bar**, sonst stellen sich Holzfasern auf [Q23].
+
+**Die Verfahren und ihre Zahlen** (Fachpresse, nicht Herstellerwerbung — die Parameter sind Einstellgrößen, keine Garantiewerte):
+
+| Verfahren | Einstellgrößen | Wann |
+|---|---|---|
+| **Heißwasser-Hochdruck** | Wassermenge bis **1.000 l/h**, Aufprallwinkel in der Regel **40°**, Wassertemperatur **60–80 °C**; Powerdüse erhöht die Reinigungsleistung gegenüber der Flachstrahldüse um **40 %** und bündelt den Strahl länger | Öl, Fett, Ruß, Flechten-/Mooswurzeln; hohe Wassermenge = große Tropfen = Schlagkraft, aber auch mehr Schmutzwasser |
+| **Dampf** | Wassermenge etwa **halbiert**, bis **155 °C** im Heizsystem, dadurch **niedrigerer Arbeitsdruck** | empfindliche Fassaden, Farbe/Bitumenanstrich ohne Abbeizen |
+| **Partikelstrahl** | Druckluft **min. 4 m³/min**, Wasser nur **bis 120 l/h** zur Staubbindung; Strahlmittelhärte **unter** der Oberflächenhärte; Calciumcarbonat (gerundet) für Graffiti | Versinterungen, Zementschlämme, Denkmal/Naturstein |
+| **Trockeneis** | Pellets aus CO₂ bei **−79 °C**; Wirkungsgrad sinkt schon nach **einem Tag** um bis zu **20 %** | empfindliche Oberflächen, keine Abwässer/Strahlmittelrückstände |
+
+Quelle der Zahlen: [Malerblatt – Fassadenreinigung: Verfahren im Überblick](https://www.malerblatt.de/technik/fassadenreinigung-reinigungsverfahren-im-ueberblick/) (geprüft 09.11.2026). Der Merksatz daraus: die drei Stellschrauben sind Wassermenge, Druck und Aufprallwinkel — nicht „mehr Druck ist besser".
 
 **Pilz und Algen — Ursache statt Farbe:** Mikrobiologischer Bewuchs entsteht, wo die Oberfläche dauerhaft feucht ist. Bei WDVS kommt der entscheidende Effekt aus der Bauphysik: Das System hat wenig Speichermasse, kühlt nachts unter die Lufttemperatur ab, Tauwasser schlägt sich nieder, und die hydrophobe Oberfläche kann das Wasser nicht aufnehmen — es bleibt in Tropfen stehen und trocknet sehr langsam [Q5]. Deshalb sind Nord- und Wetterseiten und schattige, windstille Ecken zuerst grün.
 
@@ -86,6 +99,18 @@ Wichtig für Ihre Erwartungshaltung: Algen- und Pilzbewuchs **beeinträchtigt di
 | **Silikonharzfarbe** | Silikonharz | universell, stark wasserabweisend | sehr feuchte Untergründe ohne Austrocknung |
 
 **Regel für den Bestand:** Sie streichen nicht „die Wand", Sie streichen **den vorhandenen Anstrich**. Prüfen Sie mit dem Klebebandtest, was oben liegt. Silikat auf eine intakte Dispersionsschicht ist Geldverbrennung — es kann nicht verkieseln [Q6].
+
+**Was die Normen den Bindemitteln erlauben** — die Zahlen, an denen man erkennt, ob auf dem Eimer wirklich drin ist, was draufsteht:
+
+| Typ |Normzahl |Konsequenz |
+|---|---|---|
+| **Kalkfarbe** | nach **DIN EN 459-1** aus Weißkalk; kalkbeständige Pigmente bis **10 Massen-%** | sehr diffusionsoffen, aber empfindlich: Luftschwefelsäure wandelt Kalk in Gips um, der ausgewaschen wird |
+| **Silikatfarbe** | Kaliwasserglas + kaliwasserglasbeständige Pigmente, **keine** organischen Bestandteile | Verkieselung nur auf **reaktionsfähigem, alkalischem** Untergrund (Neuputz) — nicht auf alten Dispersionsfarben |
+| **Dispersionssilikat** | max. **5 Massen-%** organische Bestandteile (bezogen auf Lieferzustand) | bezogen auf den **Trockenbindemittelanteil** sind das bis zu **40 %** — der „mineralische Charakter" ist relativ |
+| **Siliconharz** | Bindemittel ca. **50 % Siliconharz + 50 % Dispersion** | reines Harz würde kreißen; diffusionsfähig **und** wasserabweisend, deshalb Standard am WDVS |
+
+Zwei Nebenbefunde, die die Farbwahl betreffen: Intensive dunkle Töne heizen eine gedämmte Fassade auf **80 °C und mehr** auf; IR-reflektierende Pigmente senken die Oberflächentemperatur nach Herstellerangaben um **2–3 °C** — bei Schwarzpigmenten funktioniert das bislang schlecht, und komplementäre Vergrauung erzeugt Metamerie. Algenbildung nach einer Dämmmaßnahme ist vor Gericht **überwiegend als Mangel** gewertet worden, weil die Fassade kälter ist und die Feuchte länger steht — nicht, weil die Farbe versagt hätte.
+Quelle: [Malerblatt – Grundlagen Fassadenfarben](https://www.malerblatt.de/aus-und-weiterbildung/fassadenfarben/) (geprüft 09.11.2026), dort mit Verweis auf VOB/C **DIN 18 363** und **DIN 55 945**.
 
 **System und Mengen (Fläche 100 m², zwei Anstriche):**
 1. Ecken und Winkel vorstreichen [Q7].
@@ -149,7 +174,52 @@ Was das für Sie bedeutet:
 - **Terrasse über Sockelniveau** ist ein echtes Risiko: „Da Du mit Deiner Terrasse schon höher als der Sockel bist, droht ein veritabler Feuchtigkeitsschaden, weil Du schon außerhalb der Bauwerksabdichtung und der Sockeldämmung bist" [Q15].
 - Bei hohem Belag oder Nullschwelle gehört eine **Fassadenrinne** davor [Q15].
 
+**Sockelabdichtung in Zahlen** (Fachpresse, aus der Praxis der Bauwerksabdichtung — die Zahlen gelten für mineralische Dichtschlämme und kunststoffmodifizierte Bitumenabdichtungen):
+
+| Größe | Wert | Warum |
+|---|---|---|
+| Abdichtung über Gelände | **mindestens 30 cm über GOK** | Spritzwasserzone; DIN 18533 führt sie als eigene Beanspruchung (W4-E) |
+| Überlappung zur erdberührten Abdichtung | **10 cm breit** | keine Lücke zwischen Sockel- und Bauwerksabdichtung — das ist der eigentliche Schadensfall |
+| Trockenschichtdicke | **min. 2 bzw. 3 mm**, in **zwei Arbeitsgängen**, fehlstellenfrei zusammenhängend | Dünnschicht in einem Gang ist keine Abdichtung |
+| Rissüberbrückung | mineralische Dichtschlämme **≥ 0,4 mm**; kunststoffmodifizierte Bitumenabdichtung erdberührt **≥ 2 mm** | Bewegung im Sockel, Setzrisse |
+| Untergrund | frostfrei, Oberfläche **> 5 °C**, mechanisch gereinigt, ausreichend vorgenässt; Mörtelreste/Schlämmen/Anstriche entfernt | Haftung |
+| Mauerwerksfugen | **rund 20 mm tief auskratzen** (salzbelastet) | sonst sitzt die Schlämme auf losem Salzausblühgut |
+| Kiesstreifen | **ca. 20 cm breit** vor dem Sockel | reduziert Spritzwasser |
+
+**Wichtig für WDVS-Sockel:** Das Wärmedämmverbundsystem übernimmt **keine** abdichtende Funktion. Mauerwerk und Saniersystem müssen im erdberührten **und** im Spritzwasserbereich abgedichtet werden — bei WDVS durch vollflächige Einbettung der Systemdämmplatte in die Abdichtung. Bei Ziegelsichtfassaden geht das nur im erdberührten Bereich; der sichtbare Ziegel bekommt eine wasserabweisende, diffusionsoffene Imprägnierung.
+Quelle: [Bauhandwerk – Schwachstelle Sockel](https://bauhandwerk.de/artikel/bhw_2012-7-8_schwachstelle_sockel_-_abdichtung_am_gebaeudesockel_und_am_erdberuehrten-1458138.html) (geprüft 09.11.2026). Normhinweis dort: **DIN 18195** wurde im Juli 2017 weitgehend durch **DIN 18531–18535** abgelöst; erdberührte Bauteile → **DIN 18533**.
+
+**Wenn der Sockel schon Salz zeigt:** Sanierputz ist kein „dickerer Putz", sondern ein System aus Spritzbewurf, Poren-/Grundputz und Sanierputz nach **WTA-Merkblatt 2-9-04/D** und **DIN EN 998-1**. Die Arbeitsschritte mit Zahlen:
+
+- Schadhaften Putz **80–90 cm über die erkennbare Schadgrenze hinaus** entfernen (nicht „bis dahin, wo es fest klingt").
+- Mauerwerksfugen **2 cm tief** auskratzen; nicht saugende Steine halbabdeckend mit Trass-Zementputz vorspritzen.
+- Zwei Lagen je **etwa 10 mm** (Unter- und Oberputz). Bei **starker Versalzung** auf **2 × 15 mm** erhöhen.
+- Erste Lage **mindestens einen Tag** trocknen lassen, Oberfläche mit grober Zahnkelle aufrauen/aufkämmen (Haftbrücke).
+- Verarbeitung nur zwischen **5 °C und 30 °C**, keine direkte starke Sonnenbestrahlung.
+- Finish (offenporige **mineralische** Farbe/Putz) erst nach **3–4 Tagen**; dichte Beschichtungen (Lacke, Reinacrylate) zerstören die Diffusionsfähigkeit und damit den Sanierputz-Effekt.
+
+Quelle: [Bauhandwerk – Sanierputzsysteme](https://bauhandwerk.de/artikel/bhw_Sanierputzsysteme-1808055.html) (geprüft 09.11.2026), ergänzend [Malerblatt – Womit Sanierputze beschichten?](https://www.malerblatt.de/aus-und-weiterbildung/womit-sanierputze-beschichten/) (geprüft 09.11.2026) mit dem Merksatz: mineralisch beschichten, wenig organische Bestandteile, sonst keine Schimmelwidrigkeit.
+
 **Prüfpunkt vor dem Pflastern:** Oberkante geplanter Belag gegen Oberkante Putz messen. Weniger als 15 cm Differenz = Plan ändern, nicht „wird schon gehen".
+
+### 1.8 WDVS-Anschlüsse: Einbauteile, Raffstorekästen, Lasten
+
+Ein WDVS ist eine weiche Schale — es kann **keine** Lasten aufnehmen und keine Fenster/Türen aussteifen. Jedes Anbauteil (Leuchte, Vordach, Geländer, Klappladen, Markise, Raffstore) braucht deshalb entweder ein Montageelement, das bis in den tragfähigen Untergrund reicht, oder einen systemgeprüften Einbaurahmen. Der L-förmige Montagewinkel ist die einfache Variante: zwei Montageflächen, entlang der Montageachse variable Schraubenposition, auf die Dämmdicke kürzbar — für mittelschwere und schwere Lasten, Anbau an der Schenkel- oder Stirnseite. [Malerblatt – Befestigung im WDVS mit Montagewinkel](https://www.malerblatt.de/technik/wdvs/um-die-ecke-gedacht-montagewinkel-befestigung-im-wdvs) (geprüft 09.11.2026)
+
+**Beispiel Raffstorekasten im WDVS** — ein typisches Detail, an dem Eigenleistung scheitert, weil fünf Gewerke zusammenspielen müssen (Rohbauöffnung, Dämmung, Elektro, Sonnenschutz, Armierung):
+
+| Größe | Wert |
+|---|---|
+| Systemvoraussetzung | WDVS ab **160 mm** Dämmdicke (bzw. **140 mm** ohne Mauerwerksdämmung) |
+| seitliche Auflage auf der Fassadendämmung | **ca. 30 cm** links und rechts |
+| Verankerung | bauaufsichtlich zugelassener WDVS-Senkdübel, **mindestens 3 Dübel pro Meter** durch den oberen Kastenteil, Dübel-Rondell oberflächenbündig versenkt |
+| Fuge zum Fensterrahmen | WDVS-Dichtband auf dem Rahmen, **dicht gestoßene** Fugenbereiche, keine Wärmebrücke |
+| Segmentierung | ab **3 m** Gesamtlänge aus mehreren Elementen, mit Montagekleber + Verbindungswinkel verklebt und in der Aluschiene verschraubt |
+| Abschluss | Profil mit **Tropfkante** und **Gewebestreifen**, damit die Armierung stetig weiterläuft |
+
+Quelle: [Malerblatt – WDVS Raffstorekasten](https://www.malerblatt.de/wissenstipp/wdvs-raffstorekasten/) (geprüft 09.11.2026).
+
+**Konsequenz für die Planung:** Löcher für Anbauteile werden **vor** dem Armieren/Putzen gesetzt und eingedichtet. Nachträglich durch die fertige Fassade gebohrt heißt: Dämmung offen, Putz Riss, Wasser hinter dem System — und die Systemfreigabe des WDVS-Herstellers deckt eine nachträgliche Durchdringung in der Regel nicht. *(Einschätzung; im Streitfall entscheidet der Verwendbarkeitsnachweis des Systems, nicht die Montageanleitung des Anbauteils.)*
 
 ---
 
@@ -446,6 +516,19 @@ Das ist die eigentliche Grenze: **38 Tonnen anliefern, 38 Tonnen abfahren, alles
 | Q18 | LIMEX, „Einbau von Pflastersteinen" (nach SLG/Betonverband, Ulonska) | Steindicke **6 / 8–10 / 10 cm**; Tragschicht **20 / 30–40 / 40–60 cm**; Planum **2,5 % / 4 %**; Bettung **3–5 cm 0/4–0/8**; Fugen **3–5 mm**; Randsteinfundament **15–20 cm C 12/15**, Rückenstütze **15 cm**; kein Verzicht auf Tragschicht | https://www.limex-steine.de/servicewelt/baupraxis-hinweise/einbau-von-pflastersteinen |
 | Q23 | OutdoorGarten, „Terrasse: WPC oder Holz? Der ehrliche Vergleich" | Preise Dielen **25–80 €/m²**, UK **5–30 €/m²**, komplett **80–180 €/m²**; Lebensdauer **10–15 / 20–30 / 15–20 / 20–30 J.**; WPC-Ausdehnung **3–5 mm/m**; Fugen WPC **6–10 mm**; Hinterlüftung **3 cm**; dunkles WPC **> 60 °C** | https://www.outdoorgarten.de/magazin/terrasse-wpc-vs-holz-vergleich-kosten |
 | Q28 | Rombs, „Terrassen-Unterkonstruktion: Aufbau, Material, Lebensdauer" (13.05.2026) | UK-Aufgaben (Last, Belüftung, Bewegung, **Gefälle 1,5–2 %**, Befestigung); Fichte-UK **8–12 J.**; Schäden durch UK ohne Belüftung nach **6–8 J.** | https://rombs-gmbh.de/ratgeber/garten-terrasse/terrassen-unterkonstruktion-aufbau-material-lebensdauer |
+
+### Fachpresse der Gewerke (malerblatt.de, bauhandwerk.de — geprüft 09.11.2026)
+
+| Nr. | Quelle | Belegte Zahlen | URL |
+|---|---|---|---|
+| Q30 | Malerblatt, „Untergrundprüfmethoden: Verstecktes Risiko bei Altbeschichtungen" (12.06.2021) | **Kreuzschnitt** + Klebeband als Standardtest; Abriebtest trocken und befeuchtet; Adhäsion/Kohäsion von Mehrfachbeschichtungen; Prüfungen nach **BFS-Merkblatt Nr. 20** | https://www.malerblatt.de/aus-und-weiterbildung/untergrundpruefmethoden |
+| Q31 | Malerblatt, „Fassadenreinigung: Reinigungsverfahren im Überblick" (01.09.2017) | Heißwasser-HD **bis 1.000 l/h**, Aufprallwinkel **40°**, **60–80 °C**, Powerdüse **+40 %**; Dampf **155 °C**; Partikelstrahl **4 m³/min** + **120 l/h**; Trockeneis **−79 °C**, **−20 %** Wirkung/Tag | https://www.malerblatt.de/technik/fassadenreinigung-reinigungsverfahren-im-ueberblick/ |
+| Q32 | Malerblatt, „Grundlagen Fassadenfarben" (04.06.2013) | Kalkfarbe **DIN EN 459-1**, Pigmente **≤ 10 M-%**; Dispersionssilikat **≤ 5 M-%** organisch = bis **40 %** des Trockenbindemittels; Siliconharz **~50/50**; Fassadenaufheizung **80 °C**, IR-Pigmente **−2…−3 °C**; VOB/C **DIN 18 363**, **DIN 55 945** | https://www.malerblatt.de/aus-und-weiterbildung/fassadenfarben/ |
+| Q33 | Malerblatt, „WDVS Raffstorekasten" (29.05.2018) | WDVS ab **160 mm** (140 mm ohne Mauerwerksdämmung); Auflage **30 cm**; **3 Dübel/m**; Segmentierung ab **3 m**; Dichtband + Tropfkante/Gewebestreifen | https://www.malerblatt.de/wissenstipp/wdvs-raffstorekasten/ |
+| Q34 | Malerblatt, „Befestigung im WDVS mit Montagewinkel" | L-Montagewinkel für mittelschwere/schwere Lasten, zwei Montageflächen, auf Dämmdicke kürzbar | https://www.malerblatt.de/technik/wdvs/um-die-ecke-gedacht-montagewinkel-befestigung-im-wdvs |
+| Q35 | Bauhandwerk, „Schwachstelle Sockel — Abdichtung am Gebäudesockel und am erdberührten Bereich" (BHW 7-8/2012) | **30 cm** über GOK; **10 cm** Überlappung; Trockenschichtdicke **2/3 mm** in zwei Gängen; Rissüberbrückung **0,4 mm** mineralisch / **2 mm** bituminös; Fugen **20 mm**; **> 5 °C**; Kies **20 cm**; WDVS dichtet nicht ab; **DIN 18195 → DIN 18533** (Juli 2017) | https://bauhandwerk.de/artikel/bhw_2012-7-8_schwachstelle_sockel_-_abdichtung_am_gebaeudesockel_und_am_erdberuehrten-1458138.html |
+| Q36 | Bauhandwerk, „Sanierputzsysteme" (BHW 10/2013) | Putz **80–90 cm** über Schadgrenze entfernen; Fugen **2 cm**; Lagen **2 × 10 mm**, bei starker Versalzung **2 × 15 mm**; **1 Tag** Zwischentrocknung; **5–30 °C**; Finish nach **3–4 Tagen**; **WTA 2-9-04/D**, **DIN EN 998-1** | https://bauhandwerk.de/artikel/bhw_Sanierputzsysteme-1808055.html |
+| Q37 | Malerblatt, „Frage des Monats: Womit Sanierputze beschichten?" | **WTA-Merkblatt 2-9-04/D**; mineralische Bindemittel, wenig organische Bestandteile; keine dichten Lacke/Reinacrylate | https://www.malerblatt.de/aus-und-weiterbildung/womit-sanierputze-beschichten/ |
 
 ### Kostenquellen (Marktpreise, keine Normen)
 

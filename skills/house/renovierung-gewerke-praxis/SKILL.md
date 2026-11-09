@@ -37,7 +37,8 @@ Nicht hier: reine Netzwerk-/Router-Konfiguration (`home-assistant`, `fritzbox`),
   ohne Messprotokoll keine Sicherheit und im Schadensfall Kürzung nach § 81 VVG. Legale Eigenleistung ist
   Vorarbeit: Schlitze, Dosen, Kabel **nach Vorgabe** einziehen, Fotos, Doku.
 - **Gas** (Therme, Herd, Leitungen): Fachbetrieb nach TRGI, ohne Ausnahme.
-- **Trinkwasser-Neuinstallation**: Fachbetrieb (DIN EN 806, VDI/DVGW 6023, Keimfreiheit, Druckprobe).
+- **Trinkwasser-Neuinstallation**: Fachbetrieb (DIN EN 806, **VDI 6023 Blatt 1:2023-09** — die frühere
+  „VDI/DVGW 6023:2013-04" ist überholt, Keimfreiheit, Druckprobe).
   Kleinreparaturen an Armaturen sind Eigenleistung.
 - **Tragwerk**: Statik/Tragwerksplanung, Wanddurchbrüche, Träger, Deckenausschnitte. Eine als „nicht
   tragend" vermutete Wand ist bis zum Gegenbeweis tragend — Zimmerer lernen „tragende und nichttragende
@@ -135,7 +136,8 @@ und wird so gekennzeichnet.
 - Normenstand (DIN 4108, 4109, 18534, 18065, VDE-Reihe) und der Stand der öffentlichen Kopie:
   `references/grundlagen.md`.
 - **Regel:** erst die gültige Ausgabe prüfen, dann zitieren — Normen ändern sich (DIN 1986-100 ist in
-  der Ausgabe 2026-11 gelistet).
+  der Ausgabe 2026-11 gelistet, **DIN 4108-7** in der Ausgabe **2026-04**, Trinkwasserhygiene nach
+  **VDI 6023 Blatt 1:2023-09**). Eine Norm ohne Ausgabe ist keine Belegstelle.
 
 ## Recht und Planerseite (liegt lokal)
 
@@ -167,30 +169,13 @@ zahlt zweimal. Kurzfassung (Belege je Paragraph in `references/ausbildungsordnun
 - **Trockenbaumonteur/-in** — Feuchträume, Dachausbau, Brandschutz, Sonderdecken (Abdichtung nur beurteilen).
 - **Dachdecker/-in** — Dampfsperre/Luftdichtheit, Flüssigabdichtung, An- und Abschlüsse.
 - **Zimmerer/Zimmerin** — tragend/nichttragend unterscheiden, Rückbau, Holzkonstruktionen sanieren.
-## Weg zum Meister: vier Teile, Bestehensregeln, Externenprüfung
-
-- **Vier selbständige Prüfungsteile** (HwO § 45 Abs. 3, AMVO § 1): I fachpraktisch, II fachtheoretisch,
-  III betriebswirtschaftlich/kaufmännisch/rechtlich, IV berufs- und arbeitspädagogisch. III/IV sind für
-  alle Gewerke gleich, I/II je Gewerk.
-- **Teil III bestanden**: Mittel ≥ 50, kein Feld < 30; nach **einer** Ergänzungsprüfung (nur in einem von
-  höchstens zwei Feldern mit 30–49 Punkten) höchstens ein Feld < 50. Mündliche Punkte = **150 − 2 ×
-  schriftlich** (Gewichtung 2 : 1).
-- **Externenprüfung ohne Betrieb**: **BBiG § 45 Abs. 2** — nicht HwO § 45 Abs. 2. Nötig ist Berufstätigkeit
-  vom **Eineinhalbfachen der Ausbildungsdauer**.
-- **Hilfsmittel** (Tabellenbuch, Formelsammlung) sind nicht gesetzlich zugelassen, sondern nach der
-  Prüfungsordnung der zuständigen Stelle (BBiG § 47 Abs. 1; HWK-GPO § 13 Abs. 3) — nicht zugelassene
-  Hilfsmittel sind Täuschung (§ 22 Abs. 1).
-
-Vollständig mit Paragraphen und Wortlaut: `references/ausbildungsordnungen.md`, Abschnitt
-„Meisterprüfung und Externenprüfung".
-
 ## Playbooks — Aufgabe → Vorgehen
 
 Für konkrete Fragen („wie renoviere ich mein Bad?“, „wie erneuere ich die Decke?“, „was beachte ich bei
 XY?“) liegen fertige Playbooks in `references/playbooks/`: Kurzantwort, Reihenfolge mit Tagen, Zahlen,
 Werkzeug/Material, die teuren Fehler mit Quelle, Kontrollpunkte, „wann Fachbetrieb“, Quellen.
 
-- **36 Playbooks** in `references/playbooks/` (Abdeckung 128/128 Katalogfehler, Strukturcheck 0 Verstöße) (Index und Prüfstand: `references/playbooks/README.md`):
+- **36 Playbooks** in `references/playbooks/` (Abdeckung 154/154 Katalogfehler, Strukturcheck 0 Verstöße) (Index und Prüfstand: `references/playbooks/README.md`):
   `bad.md`, `decke.md`, `waende.md`, `estrich.md`, `fliesen.md`, `elektro.md`, `trockenbau.md`,
   `daemmung.md`, `fenster-tueren.md`, `bodenbelaege.md`, `sanitaer.md`, `heizung-lueftung.md`,
   `keller-mauerwerk.md`, `schimmel-feuchte.md`, `hausbau-baufirma.md`, `kosten-bauzeit.md`,
@@ -262,7 +247,7 @@ python3 scripts/fehlercheck.py --gaps        # was fehlt, gruppiert nach Playboo
 python3 scripts/fehlercheck.py --ablate playbooks/elektro.md   # Negativkontrolle: Zahl MUSS fallen
 python3 scripts/strukturcheck.py             # Pflichtabschnitte je Playbook, Quellenzahl, Preis-Datum
 python3 scripts/querkcheck.py                # widersprüchliche Zahlbänder zwischen Dateien
-python3 scripts/router_test.py               # 30 Alltagsfragen gegen die Router-Tabelle
+python3 scripts/router_test.py               # 32 Alltagsfragen gegen die Router-Tabelle
 python3 scripts/material.py selftest         # Rechenwerkzeug gegen bekannte Sollwerte
 python3 scripts/linkcheck.py                 # alle Quellen-URLs; 404 = tot, Bot-Blocker und -k-Fälle sind ausgenommen
 ```
@@ -274,8 +259,9 @@ Fehler-Videos sucht, transkribiert und einarbeitet.
 **Was der Prüfstand nicht kann:** `fehlerkatalog.json` stammt aus 15 Videos — den ersten zehn zu Hausbau/
 Sanierung/Dämmung/Elektro/Bad/Fliesen/Estrich und fünf weiteren zu Wärmepumpe im Altbau, Speichergröße,
 Wechselrichterauslegung und Elektrik im 70er-Bestand. Die später ergänzten
-Themen (Küche, Außen, Treppe, Dachboden, Entkernen, Rechtsseite) sind inhaltlich dokumentiert, aber
-automatisch noch nicht geprüft — dort gilt nur die Quellenprüfung.
+Themen (Küche, Außen, Treppe, Dachboden, Entkernen, Rechtsseite, Förderung, Trinkwasser, Barrierefreiheit)
+sind inhaltlich dokumentiert, aber automatisch **nicht** geprüft — dort gilt nur die Quellen- und
+Strukturprüfung. Eine 100-%-Quote sagt deshalb immer nur: die Regeln aus diesen 15 Videos stehen im Text.
 
 Neue Videos kommen über `scripts/vtt2txt.py` in die Wissensbasis (Auto-Untertitel entdoppeln, Absätze
 mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede Datei wird in
@@ -302,6 +288,32 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
    jede neue Frage, die nicht in der erwarteten Datei landet, ist ein Vokabular-Loch in der Tabelle —
    Zeile nachschärfen, nicht Erwartung anpassen.
 
+## Fremde Quellen gegen den Skill prüfen (Video-, Portal-, Prüfungs-Gegencheck)
+
+Zweck ist **nicht**, Zustimmung zu sammeln, sondern Widersprüche zu finden. Bewährt: mehrere Spuren
+parallel (4–6 Subagenten, je 2–3 Videos), jede Spur nach demselben Muster:
+
+1. **Untertitel statt Video ansehen**: `yt-dlp --write-auto-subs --sub-langs "de.*,de" --skip-download`,
+   dann `scripts/vtt2txt.py`; bei Portalen/Datenblättern `web_extract` bzw. `curl` + `pdftotext`.
+2. **Jede Aussage klassifizieren**: STIMMT / FEHLT / WIDERSPRICHT / UNBELEGT — mit Zeitmarke bzw.
+   Abschnitt **und** der Fundstelle im Skill (`datei:zeile`). Eine Aussage ohne Fundstelle ist keine Prüfung.
+3. **Nur WIDERSPRICHT kostet Arbeit**: gegen eine Primärquelle entscheiden (Gesetz, Norm-Auszug,
+   Herstellerdatenblatt), dann den Skill korrigieren — nicht das Video zitieren und den Widerspruch stehen
+   lassen. Amts-PDF vorher laden und im Volltext lesen (`curl -skL -o x.pdf && pdftotext -layout x.pdf -`).
+4. **Lücken nur mit Beleg aufnehmen**, sonst als „unbelegt" in die Liste. Ein Video ist Erfahrung, kein
+   Beleg; umgekehrt gilt: ist der Skill präziser als die Quelle (Brandschutz, Normmaße), das im Bericht
+   festhalten, sonst sieht der Gegencheck wie eine Bestätigungsrunde aus.
+
+**Prüfbegriffe sind selbst Behauptungen.** Katalog- oder Checklisten-Einträge, die aus einem Gegencheck
+stammen, vor dem Messen gegen das Transkript prüfen: steht ein geforderter Begriff dort nicht, wird der
+Eintrag **gelöscht** (Begründung in `fehlerkatalog.json` unter `nicht_bewertet`) — niemals Prosa
+schreiben, die den Begriff nur erfüllt. Sonst misst der Test die eigene Formulierung, und die Quote steigt,
+ohne dass der Skill besser wird. Korrigierte Prüfbegriffe werden mit Grund in `must_contain_korrigiert`
+geführt, damit die Änderung nachvollziehbar bleibt.
+
+Ergebnis als Themen-Datei unter `references/tests/` (eine je Prüfrunde, mit Bilanz STIMMT/FEHLT/
+WIDERSPRICHT, den Korrekturen und den selbst gefundenen Fehlern im Testapparat).
+
 ## Werkzeuge (rechnen und prüfen statt schätzen)
 
 - `scripts/material.py` — Mengen und U-Werte: `fliesen`, `ausgleich`, `farbe`, `u-wert`,
@@ -312,9 +324,15 @@ mit `[hh:mm:ss]`), Ablauf und Fallstricke in `references/tests/README.md`; jede 
 - `scripts/querkcheck.py` — widersprüchliche Zahlenbänder zwischen Dateien; geprüfte Ausnahmen
   stehen in `references/querkcheck-bekannt.json`.
 - `references/quellen-top10.md` — zehn geprüfte Anleitungs-Portale plus die Regel, welche Quellen Zahlen liefern dürfen.
-- `scripts/router_test.py` — 30 Alltagsfragen gegen die Router-Tabelle (`references/router-test.json`).
+- `scripts/router_test.py` — 32 Alltagsfragen gegen die Router-Tabelle (`references/router-test.json`).
 
 ## Bauen und Prüfen — Regeln, die für jede Erweiterung gelten
+
+**Keine Anhänge anhängen.** Neue Erkenntnisse werden in den bestehenden Abschnitt eingearbeitet
+(2 Ablauf, 3 Zahlen, 5 Fehler, 6 Fachbetrieb, 7 Kosten, 8 Checkliste), nicht als eigener Block ans
+Dateiende gestellt. Anhänge sind der Grund, warum ein Nachschlagewerk unbenutzbar wird: die Regel steht
+dann nicht dort, wo man sie sucht. Beim Umsortieren läuft `scripts/faktenerhalt.py --compare` mit —
+es meldet jede Zahl und jede URL, die auf der Strecke geblieben ist.
 
 1. **Playbook zuerst lesen, dann antworten.** Die Zahlen sind belegt, die Erinnerung nicht.
 2. **Regel und Anekdote trennen.** Ein Fehler aus einem Video besteht aus einer übertragbaren Regel

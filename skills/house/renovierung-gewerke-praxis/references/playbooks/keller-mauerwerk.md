@@ -64,6 +64,15 @@ DIN 18533 unterscheidet die Beanspruchung:[17]
 - **W3-E** nicht drückendes Wasser auf erdüberschütteten Decken.
 - **W4-E** Spritzwasser und Bodenfeuchte am Sockel sowie Kapillarwasser in und unter Wänden.
 
+Die W-Klassen sind nur **eine** von fünf Achsen. DIN 18533, seit **Juli 2017** Nachfolger der DIN 18195 Teile 4,
+5 und 6, klassifiziert zusätzlich die **Rissklasse** (R1-E bis R4-E), die **Rissüberbrückungsklasse** (RÜ1-E bis
+RÜ4-E), die **Raumnutzungsklasse** (RN1-E bis RN3-E, von Lagerhalle bis Serverraum/Kunstsammlung) und die
+**Verformungsklasse** (VK1-E bis VK5-E). Wer nur „W2-E" bestellt, hat die Hälfte des Lastfalls nicht beschrieben
+[BauNetz: DIN 18533 – erdberührte Bauteile](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/din-18533--erdberuehrte-bauteile-5371565) (geprüft 09.11.2026).
+Die Unterkapitel sind in der Praxis die Fundstelle: **5.1.2 = W1-E** (Bodenfeuchte, nicht drückendes Wasser),
+**5.1.3 = W2-E** (drückendes Wasser)
+[BauNetz: Bauwerksabdichtung](https://www.baunetzwissen.de/mauerwerk/fachwissen/keller/bauwerksabdichtung-755201) (geprüft 09.11.2026).
+
 Wichtig für die Praxis: **Ohne Dränung in wenig durchlässigem Boden ist grundsätzlich mit drückendem Wasser zu rechnen.**[17] Wer das ignoriert, plant eine Abdichtung für den falschen Lastfall.
 
 ### 1.3 Kondensat
@@ -94,6 +103,15 @@ Plötzlicher Beginn, punktuell begrenzt, oft in der Nähe von Wasseranschlüssen
 ### 1.6 Schlagregen und Sockel
 
 Feuchte nur außen, im Sockelbereich, nach Schlagregen. Risse, poröser Putz, fehlende Sockelabdichtung, Spritzwasserzone. DIN 18533 führt das als W4-E: Spritzwasser und Bodenfeuchte am Wandsockel sowie Kapillarwasser in und unter Wänden; die Sockelabdichtung reicht üblicherweise von rund 20 cm unter bis 30 cm über Geländeoberkante.[17]
+
+**Woran man einen schlagregendichten Sockelputz erkennt:** am Wasseraufnahmekoeffizienten **w ≤ 0,5
+kg/(m²·h^0,5)**. Putze und Beschichtungen unter diesem Wert gelten als wasserabweisend und sind in den
+Beanspruchungsgruppen **II und III** (Einteilung nach Jahresniederschlag, DIN 4108-2) Pflicht. Für horizontale
+Fugen nennt die Norm Schwellenhöhen von **h ≥ 60 mm bis 100 mm**, je nach Beanspruchungsgruppe. Und für die
+Erdseite gilt: Feuchteschutz erdberührter Bauteile läuft über **DIN 4095** (Dränung, u. a. vor Fundamenten und
+unter Bodenplatten **> 200 m²**) und **DIN 18533**, nicht über den Putz
+[BauNetz: Konstruktive Feuchteschutzmaßnahmen](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/konstruktive-feuchteschutzmassnahmen-4566303) (geprüft 09.11.2026).
+
 
 ---
 
@@ -188,6 +206,12 @@ Ausführungsregeln aus dem technischen Merkblatt:[9]
 
 Und die Grenze: Sanierputz wird vorzugsweise auf feuchtem und/oder salzhaltigem Mauerwerk eingesetzt, **vor allem als flankierende Maßnahme, wenn vorher vertikale und/oder horizontale Abdichtungen ausgeführt worden sind.**[15] Ohne diese vorgelagerte Abdichtung ist er Kosmetik mit Ablaufdatum.
 
+Eine harte Einsatzgrenze, die im Angebot stehen muss: **Sanierputzsysteme dürfen unterhalb der Geländeoberkante
+nicht eingesetzt werden** — dort sind Abdichtungsmaßnahmen zu treffen, nicht Putz. Das gilt auch für den
+Sockelbereich, in dem der Sanierputz optisch „am meisten rettet". Die Systemwahl richtet sich nach dem
+Versalzungsgrad, nicht nach der Optik
+[BauNetz: Salzbelastetes und feuchtes Mauerwerk](https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/salzbelastetes-und-feuchtes-mauerwerk-148304) (geprüft 09.11.2026).
+
 ### 3.3 Außenabdichtung
 
 Die fachlich beste Lösung, weil sie das Wasser dort abhält, wo es angreift. Ablauf: freilegen bis Fundament, Untergrund sanieren, Abdichtung nach Lastfall (DIN 18533), Dämmung (Perimeterdämmung), Schutzlage/Noppenbahn, drainierende Hinterfüllung.
@@ -199,6 +223,13 @@ Wann trotzdem: wenn die Wand erreichbar ist (kein Anbau, keine Terrasse, kein Na
 ### 3.4 Horizontalsperre — die drei Familien
 
 Gegen aufsteigende Feuchte hilft nur eine Sperre **im Wandquerschnitt**. WTA 4-7 verlangt dafür Voruntersuchungen (Feuchteanalyse) und eine Fachplanung.[3]
+
+**Die Höhenlage ist Teil der Planung, nicht der Ausführung:** Die horizontale Abdichtung wird **unmittelbar über
+dem Kellerfußboden** eingebaut; bei nicht unterkellerten Gebäuden so tief, wie Zugänglichkeit und Konstruktion es
+zulassen. Wer sie „irgendwo im Sockel" anordnet, lässt den Wandquerschnitt darunter nass und wundert sich über
+Feuchte oberhalb der neuen Sperre
+[BauNetz: Abdichtende Sanierungsmaßnahmen](https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/abdichtende-sanierungsmassnahmen-148310) (geprüft 09.11.2026).
+
 
 **a) Injektion (chemisch)**
 Bohrlöcher in einer Reihe, Injektionsmittel wird drucklos oder unter Niederdruck eingebracht, es benetzt die Poren und bildet nach der Reaktion eine wasserabweisende Schicht.
@@ -303,6 +334,9 @@ Handwerksrechtlich darf der Eigentümer am eigenen Haus vieles selbst ausführen
 11. **Sanierung ohne Erfolgskontrolle.**
     Nach der Maßnahme muss gemessen werden — gleiche Stellen, gleiches Verfahren, dokumentiert. Sonst merkt man den Misserfolg erst, wenn der Putz wieder abfällt.
 
+12. **Ohne Aufstellplan und Stromlaufplan anfangen.**
+    Wer ohne Plan für Maschinen, Raum und Durchgänge loslegt, zahlt den Änderungsaufwand später doppelt (eNpMPWvnWiI-04).
+
 ---
 
 ## 6. Kosten (Orientierung, Stand 2026)
@@ -380,6 +414,8 @@ Alle Zahlen sind Richtwerte. Region, Zugänglichkeit, Mauerwerksart, Feuchtegrad
 
 **Auswahl:** nicht nur nach Preis. Qualifikation (öbuv, IHK-Sachverständiger, Studium/Bauingenieur), Referenzen, Bewertungen, Weiterbildung, und ob am Telefon eine verständliche Ersteinschätzung kommt.[24]
 
+**Boden und Grundstück vor der Planung klären:** Ein **Bodengutachten** gehört vor die Planung, nicht nach der Unterschrift — Bodenplatte/Keller werden sonst teurer, weil Wasserhaltung, Auftriebssicherung und Aushubtiefe (bis ~1 m bis hartes Gestein) nachträglich anfallen (nul-03). Und **Keller nicht pauschal ausschließen**: Grundstückssituation und Bodenverhältnisse prüfen, Erdarbeiten mitrechnen; Keller schafft Technikraum/Stauraum und bei kleinen Grundstücken mehr Gartenfläche (bjw-04).
+
 ---
 
 ## 8. Entscheidungsbaum (Kurzfassung)
@@ -446,19 +482,11 @@ Feuchte im Keller
 [22] https://www.gdv.de/gdv/themen/schaden-unfall/elementarversicherung-grundwasser-hochwasser-163728 — GDV: Elementarversicherung – sind Schäden durch Grundwasser versichert?
 [23] https://www.youtube.com/watch?v=oNWldPD7FyA — YouTube (ISOTEC): Feuchte Wand abdichten mit einer Innenabdichtung
 [24] https://www.youtube.com/watch?v=WMpK_R_iAKM — YouTube: Was kostet ein Baugutachter?
+[25] https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/din-18533--erdberuehrte-bauteile-5371565 — BauNetz Wissen: DIN 18533 – erdberührte Bauteile (seit Juli 2017; fünf Klassifizierungsachsen W1–W4, R1-E–R4-E, RÜ1-E–RÜ4-E, RN1-E–RN3-E, VK1-E–VK5-E)
+[26] https://www.baunetzwissen.de/mauerwerk/fachwissen/keller/bauwerksabdichtung-755201 — BauNetz Wissen: Bauwerksabdichtung (DIN 18533-1, Unterkapitel 5.1.2 = W1-E, 5.1.3 = W2-E; Bitumen-Dickbeschichtung als größter Anteil im Wohnungsbau)
+[27] https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/fassade-sanierung/abdichtende-sanierungsmassnahmen-148310 — BauNetz Wissen: Abdichtende Sanierungsmaßnahmen (Horizontalsperre unmittelbar über dem Kellerfußboden; Innenabdichtung als Notbehelf)
+[28] https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/konstruktive-feuchteschutzmassnahmen-4566303 — BauNetz Wissen: Konstruktive Feuchteschutzmaßnahmen (w ≤ 0,5 kg/(m²·h^0,5); Beanspruchungsgruppen II/III; Fugen-Schwellenhöhen 60–100 mm; DIN 4095, Bodenplatten > 200 m²)
 
-## Ergänzungen aus dem Video-Katalog
-
-- **Keller nicht pauschal ausschließen**: Grundstückssituation und Bodenverhältnisse prüfen, Erdarbeiten
-  mitrechnen; Keller schafft Technikraum/Stauraum und bei kleinen Grundstücken mehr Gartenfläche
-  (bjw-04).
-### Weitere Video-Fehler (Keller)
-
-- **Aufstellplan und Stromlaufplan** vor dem Anfangen: Wer ohne Plan für Maschinen, Raum und Durchgänge
-  loslegt, zahlt den Änderungsaufwand später doppelt (eNpMPWvnWiI-04).
-- **Bodengutachten vor der Planung**, nicht nach der Unterschrift: Bodenplatte/Keller werden sonst teurer,
-  weil Wasserhaltung, Auftriebssicherung und Aushubtiefe (bis ~1 m bis hartes Gestein) nachträglich
-  anfallen (nul-03).
 
 ## Radon — der Schadstoff, den niemand riecht
 

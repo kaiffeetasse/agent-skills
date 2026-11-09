@@ -10,6 +10,8 @@
   die Fuge wird von innen luftdicht, von außen schlagregendicht.
 - **Befestigung:** 700 mm bzw. 800 mm Abstand, Abstand zur Ecke ≤ 150 mm; Kürzen max. 15/30 mm je Bauart.
 - **Sicherheit:** RC2 hält etwa **3 Minuten** auf — kein Ersatz für Alarmanlage, aber Zeitgewinn.
+- **Bestellen:** im Angebot steht der **Uw-Wert** (nicht Ug); Fördergrenze **≤ 0,95**, GEG-Mindest **1,3**.
+  Sonderanfertigung wird oft angezahlt — Anzahlung nur gegen Sicherheit, Rest nach Leistungsstand.
 
 
 **Für wen:** Bestandsbau, kein Neubau, kein Planer im Haus. Ton: Werkstatt, nicht Hörsaal.
@@ -84,6 +86,31 @@ Das ist der Kern des ganzen Themas. Die Anschlussfuge hat **drei Zonen mit drei 
 Wichtig und oft falsch erzählt: **Bauschaum ist kein Dichtstoff.** Das ift schreibt zu PU-Ortschaum und Mineralfaser ausdrücklich, sie dichten die Fuge *nicht*, sondern dämmen nur ("können in der Regel aber keine Dichtfunktion übernehmen") [Q1]. Im Forum bringt es ein Nutzer auf den Punkt: "der Schaum ist ein Fugenfüller, mehr nicht" [Q12].
 
 **Was "Schaum allein" praktisch bedeutet:** Sie haben dann Dämmung, aber keine definierte Luftdichtheit innen und keine Schlagregendichtheit außen. Acryl drüberschmieren ist kein Ersatz — es ist wartungsbedürftig und reißt bei Bewegung [Q12].
+
+**Der Fall, der in Foren immer wieder auftaucht — und die prüfbare Regel dazu.** Ein Bauherr öffnet nach
+Jahren den Rollladenkasten und findet: Fenster nur ausgeschäumt, keine Dichtbänder, Laibung hohl
+hinter Rigips, außen die Rollladenschiene angeputzt statt angedichtet. Ein zweiter Fall: Der Fensterbauer
+baut „aus Kostengründen" ohne RAL-Montage, der Nachbar verschmiert die Schaumfugen mit Acryl, der
+Verputzer verweist auf die Anputzleiste. [Undichte Anschlüsse](https://bau.net/forum/fenster-tueren/10582.php) ·
+[Bauschaum statt RAL](https://bau.net/forum/fenster-tueren/12213.php) (geprüft 09.11.2026, Forenbeiträge —
+nur Problemhinweis, keine Häufigkeit). Prüfbare Regeln, unabhängig belegt:
+
+1. **Drei Ebenen, drei Materialien** — Schaum ist die mittlere (Dämmung), niemals die innere oder äußere
+   Ebene; das ift sagt ausdrücklich, PU-Schaum und Mineralfaser „können in der Regel aber keine
+   Dichtfunktion übernehmen" [Q1].
+2. **Acryl ist keine Dichtebene.** Es ist ein Fugenfüller für den Anschluss an den Putz, nicht für die
+   Luftdichtheit; als Ersatz für die innere Folie fällt die Ebene komplett aus [Q1][Q12].
+3. **Die Anputzleiste schließt den Putz ab, nicht die Fuge.** Sie ist ein Putzprofil — die Luftdichtheit
+   entsteht raumseitig durch Folie/Dampfbremse, die Schlagregendichtheit außenseitig durch Band [Q1][Q6].
+4. **Nachweis beim Einbau, nicht nach dem Putz:** Fotos jeder Fuge vor dem Schließen der Laibung, und
+   bei mehr als einem Drittel getauschter Fenster das Lüftungskonzept (siehe 1.7).
+5. **Der Einbau gehört in Fachhände** — „der richtige Einbau spielt eine Rolle – deshalb sollten ihn
+   Fachleute übernehmen". [Fenster sanieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878)
+   (geprüft 09.11.2026)
+
+**Wenn es schon passiert ist:** nicht Acryl drüber, sondern Fuge öffnen, Schaum im Bereich der Ebenen
+entfernen, innen Folie einkleben, außen Band setzen, Laibung schließen. Das ist teurer als der Einbau —
+deshalb ist die Kontrolle **vor** dem Verputzen der einzige günstige Zeitpunkt.
 
 #### Kompriband: die Zahlen, an denen es scheitert
 
@@ -162,6 +189,60 @@ Wichtig und oft falsch erzählt: **Bauschaum ist kein Dichtstoff.** Das ift schr
 | Haustür, 6 Angebote | **3.900–7.200 €** Spanne | [Q16] |
 
 Die Zahlen aus [Q16] sind **Erfahrungswerte von Selbstbauern aus r/selbermachen**, keine Angebote — nutzen Sie sie als Größenordnung, nicht als Preis. Der Einbau macht **bis zu 40 %** des Gesamtpreises aus [Q15]. Wer selbst einbaut, spart diesen Posten — und verliert Gewährleistung auf genau die Schnittstelle, an der die Schäden entstehen.
+
+**Sonderanfertigung heißt Anzahlung — und Anzahlung heißt Risiko.** Fenster werden nach Aufmaß gefertigt
+und sind nicht wiederverkäuflich; deshalb verlangen Betriebe vor der Produktion Geld. Rechtlich ist das
+ein Abschlag **ohne erbrachte Leistung** — § 632a BGB gibt Abschläge nur auf erbrachte Leistungen, und
+angelieferte Bauteile nur bei Eigentumsübertragung oder Sicherheit. [§ 632a BGB](https://www.gesetze-im-internet.de/bgb/__632a.html)
+(geprüft 09.11.2026) Im Forum wird eine Anzahlungsforderung vor Auftragsbeginn genau so berichtet.
+[Vorauskasse](https://bau.net/forum/fenster-tueren/13376.php) (geprüft 09.11.2026, Forenbeitrag — nur
+Problemhinweis). **Praxis:** Anzahlung auf den Materialanteil begrenzen, Rest bei Anlieferung und nach
+Montage, und im Zahlungsplan festhalten, wann die Ware **Ihr** Eigentum wird.
+
+### 1.7 Prüfwerte, die im Angebot stehen müssen (und die Fördergrenze)
+
+Drei Zahlen entscheiden über Preis, Behaglichkeit und Förderfähigkeit — und alle drei stehen im
+Datenblatt, nicht im Prospekt:
+
+| Wert | Was er sagt | Zahl |
+|---|---|---|
+| **Uw** | Wärmedurchgang des **ganzen** Fensters (Glas + Rahmen) | 2-fach-Wärmeschutz ca. **1,2**; 3-fach ca. **0,9**; technisch bis ca. **0,5** |
+| **Ug** | nur die Verglasung — sieht immer besser aus als Uw | nicht für Vergleich oder Förderung geeignet |
+| **g-Wert** | Gesamtenergiedurchlass (Sonne/Hitze) | normal ca. **0,6**, Sonnenschutzverglasung **< 0,4** |
+
+**Der Uw-Wert ist der Wert, der zählt.** „Weil der Wert für die Verglasung fast immer niedriger ist als
+der des gesamten Fensters, findet sich in manchen Reklamen der besser anmutende Ug-Wert" — achten Sie auf
+**Uw**. [Fenster sanieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878)
+(geprüft 09.11.2026)
+
+**Die drei Schwellen, die man verwechselt:**
+
+- **GEG-Mindestanforderung beim Austausch: Uw ≤ 1,3** (Dachflächenfenster **1,4**). Das ist die
+  gesetzliche Untergrenze, keine gute energetische Maßnahme. [Neue Fenster](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798)
+  (geprüft 09.11.2026)
+- **Fördergrenze BEG: Uw ≤ 0,95.** Nur bis zu diesem Wert gibt es Zuschuss — der Wert muss im Antrag stehen.
+  [Fenster sanieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878)
+  (geprüft 09.11.2026)
+- **Zwei Scheiben genügen der Norm, drei sind heute üblich.** Eine 2-fach-Wärmeschutzverglasung mit
+  Uw ≈ 1,2 erfüllt die gesetzliche Mindestanforderung; 3-fach mit Uw ≈ 0,9 ist „als neue Fenster heute
+  sogar üblich". [Fenster sanieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878)
+  (geprüft 09.11.2026)
+
+**Der Rahmen ist bis zu 30 % der Fensterfläche** — deshalb ist das Rahmenmaterial kein Geschmacksthema:
+Kunststoffrahmen geben in der Regel am wenigsten Wärme nach außen ab, Aluminium-Mehrkammerprofile folgen,
+Holz und Holz-Alu liegen bei der Dämmung im Mittelfeld (Holz dafür reparierbar, Alu formstabil,
+Kunststoff pflegeleicht, aber kaum reparierbar). [Fenster sanieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878)
+(geprüft 09.11.2026)
+
+**Lüftung und Einbruchschutz — zwei Punkte, die beim Tausch gern untergehen:**
+
+- Ab **einem Drittel** getauschter Fenster muss geprüft werden, ob ein **Lüftungskonzept** erforderlich
+  ist. In den meisten Fällen bestätigt es, dass Fensterlüftung genügt — aber die Prüfung ist Teil der
+  Planung, nicht ein Extra. [Neue Fenster](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798)
+  (geprüft 09.11.2026)
+- **Beschläge mindestens RC2**, besonders im Erdgeschoss und bei Zugängen zu Balkon/Terrasse; für
+  Nachtlüftung gibt es Parallelabstell-Beschläge statt Kippstellung. [Neue Fenster](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798)
+  (geprüft 09.11.2026) Zur RC2-Montage siehe Abschnitt 4.
 
 ---
 
@@ -325,6 +406,9 @@ Das ist der harte Satz für dieses Kapitel: Bei einer Haustür kaufen Sie nicht 
 | **Türblatt an der falschen Kante gekürzt** | Aufhängung/Schloss zerstört, Bodendichtung ruiniert | Drehflügel unten, Schiebetür oben; Bodendichtung nie [Q22][Q22b] |
 | **Funktionstür gekürzt** | Zulassung erloschen, Versicherungsproblem | Nicht kürzen, Fachbetrieb [Q22][Q22b] |
 | **Außenbank ohne Gefälle/Tropfkante** | Wasser läuft in die Fuge, Rahmen fault | 5° Gefälle, 40 mm Überstand [Q10] |
+| **Türgummi verhärtet** | ein verhärteter Dichtgummi macht die beste Tür undicht | Dichtgummi prüfen und tauschen (k3q49IW19KU-05) |
+| **Anzahlung vor Auftragsbeginn ohne Sicherheit** | bei Insolvenz ist das Geld eine Forderung zur Insolvenztabelle | Anzahlung nur gegen Eigentumsübertragung/Sicherheit, Rest nach Leistungsstand (§ 632a BGB) [Q39] |
+| **Abnahme ohne Kontrolle der Anschlussfugen** | Fugen sind verputzt, der Mangel ist unsichtbar und bestritten | Fotos jeder Fuge vor dem Schließen der Laibung, Ebenen stichprobenweise prüfen [Q1] |
 
 ---
 
@@ -353,16 +437,24 @@ Ein Fenstertausch in der **bestehenden** Öffnung ist kein statischer Eingriff. 
 - **Anschlussdetails Innenfensterbank** (Überstand, Fugenbreite): herstellerabhängig, keine allgemeine Normzahl belegt.
 - **Pauschale "ab X cm braucht es Statik"**: so nicht belegbar. Entscheidend ist, ob die Öffnung **neu/größer** wird und ob die Wand trägt — nicht eine Breite in Zentimetern [Q29][Q30].
 - **Kostenband Innentür/Zarge**: nicht mit geprüfter Quelle hinterlegt (nur Fensterkosten belegt).
+- **Foren-Aussagen sind kein Beleg.** Die bau.net-Threads (1.3, 5) zeigen, **dass** Anschlüsse ohne
+  Dichtebenen gebaut werden und dass Acryl/Anputzleiste als „Lösung" verkauft werden. Sie belegen
+  **nicht**, wie häufig das ist, und sie ersetzen keine Norm. Die Regeln dazu stehen in [Q1] und [Q14].
+- **„Nach zwei Jahren undicht" ist keine Frist, sondern eine Anekdote.** Aus den Forenfällen lässt sich
+  kein Zeitpunkt ableiten, ab dem ein Montagemangel sichtbar wird — das hängt an Fuge, Wetterseite,
+  Dämmung und Lüftung. Was belegt ist: Die Gewährleistung auf ein Bauwerk läuft **5 Jahre** ab Abnahme
+  (§ 634a BGB, siehe `recht-renovierung.md`), deshalb ist die Dokumentation der Fugen beim Einbau der
+  eigentliche Beweis.
 
 ---
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Türgummi** prüfen und tauschen: ein verhärteter Dichtgummi macht die beste Tür undicht (k3q49IW19KU-05).
 
 ## Quellenverzeichnis
 
 Alle URLs am 09.11.2026 abgerufen.
+
+> **Prüfhinweis zu bau.net:** Die Foren-Threads antworten auf **HEAD mit 404**, auf **GET mit 200**
+> (nachgeprüft 09.11.2026). `scripts/linkcheck.py` prüft zuerst per HEAD und meldet sie deshalb fälschlich
+> als tot. Inhalt jeweils per GET gelesen — Foren sind **Problemhinweis, kein Beleg**.
 
 | Nr. | Quelle | Inhalt | URL |
 |---|---|---|---|
@@ -401,6 +493,12 @@ Alle URLs am 09.11.2026 abgerufen.
 | Q32 | r/Handwerker, "Was tun? Türzargen passen nicht" | Sondermaßzargen passen nicht, teils schon eingeschäumt | https://www.reddit.com/r/Handwerker/comments/1j0lvm6/was_tun_türzargen_passen_nicht |
 | Q33 | Westag, "Door functions" (PDF) | DIN 4109 SK27/32/37, Rw,R vs. Rw,P, Brand/Rauch-Klassifizierung | https://westag.de/fileadmin/user_upload/Door_functions.pdf |
 | Q34 | ift Rosenheim, Einbruchhemmung/Sicherheitstechnik (DIN 18104-1/-2) | Nachrüstprodukte, Prüfung | https://www.ift-rosenheim.de/pruefung-einbruchhemmende-nachruestprodukte-din-18104-1-din-18104-2 |
+| Q35 | Verbraucherzentrale, „Fenster sanieren oder austauschen: Darauf sollten Sie achten" (Stand **12.02.2026**) | Uw vs. Ug, 2-fach ≈ 1,2 / 3-fach ≈ 0,9, Fördergrenze **Uw ≤ 0,95**, Rahmen bis **30 %** der Fläche, Dämmebene, Lüftung, Einbau durch Fachleute | https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/fenster-sanieren-oder-austauschen-darauf-sollten-sie-achten-13878 |
+| Q36 | Verbraucherzentrale, „Neue Fenster: Wie planen Sie energieeffizient und sicher?" (Stand **11.08.2026**) | GEG-Mindest **Uw 1,3** / Dachfenster **1,4**, Lüftungskonzept ab **1/3**, RC2, g-Wert 0,6 / < 0,4, Griff im unteren Drittel, schwellenlose Schiebetür | https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/neue-fenster-wie-planen-sie-energieeffizient-und-sicher-54798 |
+| Q37 | bau.net-Forum, „Undichte Fensteranschlüsse" | Berichtet: Fenster nur ausgeschäumt, keine Dichtbänder, hohle Laibung hinter Rigips, Rollladenschiene angeputzt. **Nur Problemhinweis** | https://bau.net/forum/fenster-tueren/10582.php |
+| Q38 | bau.net-Forum, „Fensterabdichtung: Bauschaum-Risiken & Alternativen" | Berichtet: Einbau ohne RAL-Montage, Acryl auf Schaumfugen, Verweis auf Anputzleiste. **Nur Problemhinweis** | https://bau.net/forum/fenster-tueren/12213.php |
+| Q39 | BGB § 632a – Abschlagszahlungen | Abschlag nur auf erbrachte Leistung; Bauteile nur bei Eigentumsübertragung oder Sicherheit | https://www.gesetze-im-internet.de/bgb/__632a.html |
+| Q40 | bau.net-Forum, „Vorauskasse bei Fenstermodernisierung" (01.10.2008) | Berichtet: Anzahlungsforderung vor Auftragsbeginn bei einem Auftrag im fünfstelligen Bereich. **Nur Problemhinweis**, keine Höhe als Beleg | https://bau.net/forum/fenster-tueren/13376.php |
 
 ### YouTube (deutsch, geprüft: Titel, Kanal, Länge, Aufrufe)
 

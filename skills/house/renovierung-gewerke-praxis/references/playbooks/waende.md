@@ -73,6 +73,12 @@ Das sind **Vergleichswerte, keine Freigabegrenzen.** Ein kapazitives Kugelkopfge
 | **Öl-/Latexfarbe** | glänzend, dicht, Wasser perlt | anrauen + Haftgrund ([weigand-bau](https://www.weigand-bau.com/post/farbe-bl%C3%A4ttert-von-der-wand-die-ursache-liegt-fast-nie-in-der-farbe)) |
 | **Alte Tapete** | – | niemals übertapezieren; Reste und Kleister abwaschen ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html), [Alpina TI, S. 2](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf)) |
 
+**Grundierung ist keine Kür:** Unbehandelter Putz, Rigips und Gipskarton werden **immer** grundiert — ohne
+Tiefengrund haftet die Farbe nicht gleichmäßig ([selbst.de „Wände vorbereiten", Archivkopie](https://web.archive.org/web/20260419100128/https://www.selbst.de/waende-vorbereiten-zum-streichen-76584.html)
+(geprüft 09.11.2026)). Trockenzeit der Grundierung: **2–6 h je Produkt** (ebd.); wer nach 30 min streicht,
+verdünnt den Anstrich von unten. Der dort beschriebene Klebebandtest arbeitet mit **10 cm** Malerkrepp statt 20 cm
+(§1.1) — kürzerer Streifen, gleiche Aussage: bleibt Farbe am Band, ist der Untergrund nicht tragfähig.
+
 ---
 
 ## 2. Spachteln: Q1–Q4 ohne Marketing-Nebel
@@ -109,12 +115,24 @@ Wichtig: Auch Q3 und Q4 sind **nicht** „schattenfrei bei Streiflicht". Knauf s
 | Verbrauch vollflächig | **1,7–1,8 kg/m² je mm** | [Knauf Uniflott Finish, Herstellerangaben via benz24](https://benz24.de/knauf-uniflott-finish-spachtelmasse-20.html) |
 | Verbrauch nur Fugen/Q2 | ca. **0,3–0,6 kg/m²** Plattenfläche | [bau.net-Forum](*(am 09.11.2026 HTTP 404 — Forum/Seite offline; Aussage nur als Praxisbericht, ohne Quelle im Wortlaut)*) |
 | Materialkosten Q4 (gerechnet) | 1,7–1,8 kg/m² × 1,36 €/kg = **2,30–2,45 €/m²** je mm | eigene Rechnung aus [Knauf-Angaben](https://benz24.de/knauf-uniflott-finish-spachtelmasse-20.html) + [Malerversand-Preis](https://www.malerversand.de/zubehoer/spachtelmassen/1298/pictolor-dispersionsspachtel-25-kg) |
+| Trocknung Flächenspachtel (Rotband Flächenglätter) | **ca. 5 h je mm** Schichtdicke, danach schleifbar | [selbst.de „Wand glätten", Archivkopie](https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html) (geprüft 09.11.2026) |
+| Verarbeitungszeit Haftputzgips (Rotband) | **ca. 1,5 h**; Ansatz **30 kg Pulver + 20 l Wasser** | [selbst.de „Wand glätten", Archivkopie](https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html) (geprüft 09.11.2026) |
+| Max. Schichtdicke Flächenspachtel | **2 mm** je Auftrag, Risse/Putzfehlstellen bis 2 mm Tiefe; Schleifen mit **180er** Netzgitter | [selbst.de „Wand glätten", Archivkopie](https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html) (geprüft 09.11.2026) |
 
-**Gänge:** Q2 = 2 Arbeitsgänge (Fuge füllen, dann breit ausspachteln), Q3 = 3 (zusätzlich Fläche abziehen), Q4 = 4 (vollflächig). So zeigt es der Praxisdurchlauf im Video ([YouTube „Trockenbau Q1–Q4", 07:00–17:30](https://www.youtube.com/watch?v=Kvdlv5iIHe4&t=420s)).
+**Widerspruch bei der Trockenzeit — nicht mitteln:** Für **Uniflott** nennt Knauf **24 h je mm**
+([Knauf Uniflott, S. 2](https://downloads.knauf.de/wmv/?id=1079)), für **Rotband Flächenglätter** nennt
+selbst.de **ca. 5 h je mm** ([Archivkopie](https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html)
+(geprüft 09.11.2026)). Beide Zahlen sind Herstellerangaben, die eine direkt, die andere über ein Portal zitiert —
+und sie gehören zu **verschiedenen Produkten**: Uniflott ist ein Fugenfüller für Gipsplatten, Flächenglätter ein
+gebrauchsfertiger Flächenspachtel für Putz. Wer die Zeiten verrechnet, schleift zu früh. Maßgeblich ist der Eimer,
+den man tatsächlich verarbeitet — 5 h/mm gilt **nicht** für Uniflott und 24 h/mm nicht für Rotband.
+
+**Gänge:** Q2 = 2 Arbeitsgänge (Fuge füllen, dann breit ausspachteln), Q3 = 3 (zusätzlich Fläche abziehen), Q4 = 4 (vollflächig). So zeigt es der Praxisdurchlauf im Video ([YouTube „Trockenbau Q1–Q4", 07:00–17:30](https://www.youtube.com/watch?v=Kvdlv5iIHe4&t=420s)). Wichtiger als die Zahl der Gänge ist, dass es **zwei Spachtelgänge** bleiben statt einem: erst füllen, dann flächig abziehen; die **Schichtstärke** je Gang dokumentieren, sonst bleibt die Fläche im Streiflicht wellig (zR7LyRq3G7Q-04).
 
 ### 2.4 Schleifen und Staub
 
 - Erst nach **vollständiger Durchtrocknung** schleifen, mit Schleifgitter (z. B. Abranet) ([Knauf Uniflott, S. 2](https://downloads.knauf.de/wmv/?id=1079)).
+- **Körnung:** Grobschliff **80–120** für Unebenheiten und Grate, Zwischenschliff **150–180** für die Glättung; danach absaugen und entstauben ([OBI Decke und Wände spachteln](https://www.obi.de/magazin/bauen/wand/decke-und-waende-spachteln) (geprüft 09.11.2026)). FFP2 und Brille sind bei dieser Staubmenge keine Übertreibung (ebd.).
 - Schleifgitter statt Papier: setzt sich weniger zu, arbeitet ebener ([YouTube „Maler Vlog", 15:43](https://www.youtube.com/watch?v=bkTTPOH37gM&t=943s)).
 - Vor der Beschichtung **staubfrei** sein ([Knauf Uniflott, S. 2](https://downloads.knauf.de/wmv/?id=1079)).
 - Staubschutz: FFP2 und Brille sind bei Schleif-/Ausbesserungsarbeiten Standard ([maler-m.de](https://www.maler-m.de/lexikon/risse-im-putz/)) – Absaugung ist Praxisempfehlung, siehe **Unbelegt**.
@@ -152,10 +170,20 @@ Silikatfarbe ist kein Allheilmittel: Sie ist diffusionsoffen und schimmelhemmend
 
 | Produkt | Ergiebigkeit | Verbrauch | Trockenzeit |
 |---|---|---|---|
-| Alpinaweiß Das Original | **8,5 m²/l** (Deckkraftklasse 1) | ca. 118 ml/m² | 4–6 h oberflächentrocken, 1 Tag belastbar ([Alpina TI](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf)) |
+| Alpinaweiß Das Original | **8,5 m²/l** (Herstellerangabe „Deckkraftklasse 1" = DK 1 nach DIN EN 13300, beste Klasse) | ca. 118 ml/m² | 4–6 h oberflächentrocken, 1 Tag belastbar ([Alpina TI](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf)) |
 | Alpinaweiß Premium | ca. 110 ml/m² | – | – ([Hornbach TI](https://media.hornbach.de/hb/technicaldatasheet/as.176791539.pdf)) |
 | Brillux Superlux 3000 | **7 m²/l** weiß, 8 m²/l altweiß (H10 Klasse 1) | 130–150 ml/m² je Anstrich | 4–6 h ([Brillux Praxismerkblatt](https://roemer-farben.org/wp-content/uploads/2024/12/BrilluxSuperlux3000Datenblatt.pdf)) |
 | Baumit Silikatfarbe Innen | **6,25 m²/l** (0,16 l/m²) | 5 l = ca. 31 m², 12,5 l = ca. 78 m² | mind. **12 h** ([Baumit PDB](https://www.baumit-selbermachen.de/chameleon/public/9a2ebff4-d359-80a8-8a5d-817b9c26b80f/pds_silikatfarbe_innen_de_62126.pdf)) |
+
+**Farbklassen nach DIN EN 13300 sind das einzige vergleichbare Maß.** Deckvermögen **DK 1–4**
+(Klasse 1 ≥ 99,5 % Kontrastverhältnis, Klasse 4 < 95 %), Nassabrieb **NA 1–5** (NA 1 ≤ 5 µm,
+NA 2 5–20 µm, NA 3 20–70 µm bei 200 Zyklen; NA 4/5 bei 40 Zyklen). Für Innenräume sinnvoll:
+**DK 1 + NA 2**, stark beansprucht (Flur, Küche, Kinderzimmer) **NA 1**.
+Quelle: https://www.dinova.de/ratgeber/din-en-13300 und
+https://www.caparol.de/ratgeber/expertenwissen/nassabriebklassen (beide 09.11.2026 geprüft).
+**Es gibt vier Deckvermögen-Klassen, nicht drei** — die in Videos verbreitete Aussage „3 ist die
+schlechteste" ist falsch. **Die Klassen stehen im Kleingedruckten**, nicht auf dem Deckel. „Extra deckend"
+ist eine Werbeaussage; vergleichbar ist nur die Klassenzahl.
 
 **Anzahl Anstriche:** Standard sind **2**. Das Alpina-Datenblatt beschreibt einen satten, gleichmäßigen Anstrich in Deckkraftklasse 1; Alpinaweiß **Premium** wirbt ausdrücklich mit „nur 1× streichen" ([Hornbach TI](https://media.hornbach.de/hb/technicaldatasheet/as.176791539.pdf)). Bei Farbwechsel, dunklem Untergrund oder Billigfarbe sind 2–3 Anstriche realistisch ([sanier.de](https://www.sanier.de/malerarbeiten/farbe/die-13-groessten-fehler-beim-wandstreichen)).
 
@@ -171,6 +199,14 @@ Silikatfarbe ist kein Allheilmittel: Sie ist diffusionsoffen und schimmelhemmend
 6. **Pinsel** für Kanten, Laibungen, hinter Heizkörpern; kleine Rolle (10 cm) für schmale Streifen ([Alpina TI, S. 2](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf); [toom](https://toom.de/selbermachen/bauen-renovieren/wand-decke/waende-streichen/waende-richtig-streichen)).
 7. **Temperatur:** nicht unter **+5 °C** ([Alpina TI](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf); [Brillux](https://roemer-farben.org/wp-content/uploads/2024/12/BrilluxSuperlux3000Datenblatt.pdf)).
 
+**Raumklima und Konsistenz (Portalangaben):** OBI nennt **18–22 °C** und **40–60 % relative Luftfeuchte** als
+Arbeitsfenster — zu kalt verlängert die Trocknung, zu warm trocknet die angefangene Bahn an, bevor die nächste
+nass anschließt ([OBI Wände streichen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/waende-streichen)
+(geprüft 09.11.2026)). Für zähe Farbe empfiehlt OBI **10 % Wasser** und gründliches Aufrühren mit dem Quirl, bei
+dunklen Tönen besonders lange, weil sich die Pigmente sonst absetzen (ebd.). Das ist ein **Erfahrungswert des
+Portals**, keine Herstellerangabe: mehr Wasser heißt weniger Deckkraft, also in Schritten von 5 % verdünnen und
+den ersten Gang prüfen.
+
 ### 3.4 Abkleben
 
 - Fußleisten, Schalter- und Steckdosenrahmen **abmontieren** statt abkleben ([sanier.de](https://www.sanier.de/malerarbeiten/farbe/die-13-groessten-fehler-beim-wandstreichen)).
@@ -178,6 +214,12 @@ Silikatfarbe ist kein Allheilmittel: Sie ist diffusionsoffen und schimmelhemmend
 - **Krepp abziehen, bevor die Farbe komplett durchgetrocknet ist** – sonst reißt die Kante ([toom](https://toom.de/selbermachen/bauen-renovieren/wand-decke/waende-streichen/waende-richtig-streichen)).
 - Saubere Farbkante: Kante mit der **Hintergrundfarbe** vorstreichen, 10–15 min trocknen, dann die neue Farbe – so läuft nichts unter ([toom](https://toom.de/selbermachen/bauen-renovieren/wand-decke/waende-streichen/waende-richtig-streichen); [heimwerker.de](https://www.heimwerker.de/vorbereitung-von-malerarbeiten)).
 - Krepp lässt sich normalerweise bis **3 Tage** rückstandsfrei entfernen, Fensterkrepp bis **8 Wochen** ([heimwerker.de](https://www.heimwerker.de/vorbereitung-von-malerarbeiten)).
+- **Klebebandwahl**: für sichtbare Kanten (Zargen, Fenster, Fußleisten) dünnes Papierband („Goldband", Fineline) statt Standard-Krepp; für ganze Flächen Folienklebeband mit Abdeckfolie. Quelle: https://1a-malerwerkzeuge.com/ratgeber/goldband-richtig-verwenden-profi-ratgeber-fuer-scharfe-farbkanten-starken-halt/ (200).
+- **1–2 mm Abstand zur Wand** an der Sockelleiste lassen und die Lücke später mit Acryl schließen — daraus wird
+  die saubere Farbkante ([OBI Wände streichen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/waende-streichen)
+  (geprüft 09.11.2026)). Beim **ersten** Anstrich bleiben **1–2 cm** zur Leiste frei, der zweite Gang nimmt sie mit
+  (ebd.); wer gleich bis unten rollt, zieht Farbe in die Fuge und bekommt dort eine Schattenkante.
+- **Untergrund vor dem Kleben entstauben** (Fußleisten, Fensterbänke, Spinnweben) — sonst hält das Band nicht und zeichnet sich unter der Farbe ab.
 
 ### 3.5 Heizkörpernischen
 
@@ -195,6 +237,8 @@ Praxis: Heizkörper abdecken (Folie), Nische **zuerst** mit kleiner Rolle/Pinsel
 | Material Dispersion Klasse 1 | **2–5 €/m²**, Baumarkt 0,50–2 €/m² | [clean-invoice](https://www.clean-invoice.com/lexikon/dispersionsfarbe) |
 
 Für einen 20-m²-Raum (ca. 45 m² Wandfläche) rechne als geübter Heimwerker mit **2–4 Tagen** inklusive Abkleben, Grundierung und zwei Anstrichen – nicht mit einem Wochenende. Die Rechnung folgt aus 8–20 m²/Tag ([maler-gsq.at](https://maler-gsq.at/wie-viel-quadratmeter-schafft-ein-maler-am-tag)).
+
+**Eigenleistung nicht am Angebotspreis messen:** eine Ausbaustufe „Malerarbeiten" bedeutet für einen Laien Wochen Arbeit, nicht ein Wochenende (nul-10 — siehe `hausbau-baufirma.md`).
 
 ---
 
@@ -218,6 +262,14 @@ Für einen 20-m²-Raum (ca. 45 m² Wandfläche) rechne als geübter Heimwerker m
 
 - Vlies: **Vlieskleister** (höhere Anfangshaftung, oft eingefärbt), mit kurz- bis mittelfloriger Rolle auf die Wand ([sanier.de](https://www.sanier.de/malerarbeiten/tapete/vliestapete-oder-papiertapete); [Malerversand](https://www.malerversand.de/ratgeber/malervlies-die-spezielle-vliestapete--)).
 - Papier: **Normalkleister** auf die Bahn, gleiche Weichzeit für alle Bahnen ([Matex](https://regio.matex-tapeten.de/vliestapete-oder-papiertapete/); [heimwerker.de](https://www.heimwerker.de/tapezieren)).
+- **Kleister anrühren:** Wasser erst im Eimer zu einem Strudel rühren, dann das Pulver zügig einstreuen, 2 min
+  weiterrühren, **15 min quellen** lassen, nochmals aufrühren — so bleiben keine Klumpen
+  ([selbst.de „Raufaser tapezieren", Archivkopie](https://web.archive.org/web/20250716052257/https://www.selbst.de/raufaser-tapezieren-46431.html)
+  (geprüft 09.11.2026)). Beispielmenge: **500 g Spezialkleister auf 5,5 l Wasser** (ebd.).
+- **Weichzeit ist produktabhängig, nicht eine Zahl:** 2–5 min für normale Papiertapete (§4.1), **5–10 min** für
+  Raufaser mit Spezialkleister ([selbst.de „Raufaser tapezieren", Archivkopie](https://web.archive.org/web/20250716052257/https://www.selbst.de/raufaser-tapezieren-46431.html)
+  (geprüft 09.11.2026)). Beide Werte stehen hier nebeneinander, weil sie zu unterschiedlichen Kleistern gehören —
+  nicht mitteln, sondern die Packung des gekauften Kleisters lesen.
 - Mischverhältnis und Ergiebigkeit stehen auf der Packung; ein 200-g-Paket Vlieskleister reicht für ca. **30 m²** ([Tapetenmax](https://www.tapetenmax.de/200-g-meisterkleister-instant-rollkleister-fur-vliestapeten)).
 - Kosten (gerechnet): 6,90 € / 30 m² = **0,23 €/m²** ([Tapetenmax](https://www.tapetenmax.de/200-g-meisterkleister-instant-rollkleister-fur-vliestapeten)).
 - **Eher klotzen als kleckern:** zu wenig Kleister → Luftblasen, Tapete hält nicht ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html)).
@@ -229,6 +281,19 @@ Für einen 20-m²-Raum (ca. 45 m² Wandfläche) rechne als geübter Heimwerker m
 - **Stoß an Stoß, nicht überlappend** – Überlappungen zeichnen bei dünnen Tapeten durch und lösen sich bei dicken ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html); [heimwerker.de](https://www.heimwerker.de/tapezieren)).
 - Chargennummer prüfen: verschiedene Anfertigungsnummern = leichte Farb-/Musterunterschiede ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html)).
 
+**Bahnlänge, Ansatz und Verschnitt (Raufaser/Papier) — die Zahlen der zweiten Schule:** Bahnlänge = Raumhöhe +
+**10 cm** Überstand an beiden Enden; handelsübliche Bahn **53 cm** breit; die Ansatzlinie liegt **5 cm** neben der
+Ecke, damit die Ecke nicht auf einer Naht sitzt ([OBI Raufaser tapezieren](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/raufaser-tapezieren)
+(geprüft 09.11.2026)). Verschnitt **15–20 %** einplanen ([selbst.de „Raufaser tapezieren", Archivkopie](https://web.archive.org/web/20250716052257/https://www.selbst.de/raufaser-tapezieren-46431.html)
+(geprüft 09.11.2026)).
+
+**Der Überstand ist in den Quellen unterschiedlich beziffert — beide Werte gelten:** **3 cm** oben/unten (NDR,
+Abschnitt oben), **5 cm** bei Vliestapete ([OBI Vliestapete tapezieren](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/vliestapete-tapezieren)
+(geprüft 09.11.2026)), **10 cm** bei Raufaser (OBI, ebd.). Das ist kein Normstreit, sondern eine Frage des
+Verschnitts: mehr Überstand ist bequemer zu schneiden und kostet Material. Die 48-cm-Lotlinie (NDR/§4.3) und die
+5-cm-Verschiebung über die Ecke (OBI) sind zwei Methoden für dasselbe Ziel — eine lotrechte erste Kante, die nicht
+in der Ecke liegt; wer beide mischt, bekommt eine schiefe Bahn.
+
 ### 4.4 Ecken – die Profi-Technik
 
 1. Letzte Bahn vor der Ecke: Breite messen, **5–10 mm** über die Ecke hinaus zuschneiden.
@@ -239,11 +304,43 @@ Für einen 20-m²-Raum (ca. 45 m² Wandfläche) rechne als geübter Heimwerker m
 
 Bei dicker Raufaser 2 cm Überstand, Schnitt vermeiden und die feuchte Bahn an der Spachtelkante **abreißen** – weiche Kanten, kein Wulst ([Metylan](https://www.metylan.de/anleitung-tapezieren/bei-dem-tapezieren/herausfordernde-stellen-und-moebel-tapezieren/ecken-tapezieren-mit-der-richtigen-technik-zum-erfolg.html)).
 
+**Doppelnahtschnitt für dicke Tapeten:** Wo Überlappung sichtbar bliebe (dicke Papier-/Prägetapete, Ecken, Fensterlaibung), beide Bahnen überlappen lassen und mit Cuttermesser und langem Lineal **durch beide Lagen** schneiden; den Streifen der unteren Bahn entfernen, die obere mit etwas Kleister wieder andrücken ([OBI Tapezieren](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapezieren) (geprüft 09.11.2026)). Die Naht danach mit dem Nahtroller andrücken — sonst steht die Kante im Streiflicht.
+
 ### 4.5 Vorher: Untergrund
 
 Alte Tapete runter (perforieren, warmes Wasser, Spachtel), Löcher spachteln, schleifen, entstauben, **grundieren** – besonders an saugenden oder sandenden Wänden ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html)). Nicht über alte Tapete tapezieren ([NDR](https://www.ndr.de/ratgeber/verbraucher/Tapezieren-So-klappt-es-mit-Vliestapete-und-Raufaser,tapezieren108.html)).
 
+**Alte Tapete entfernen — Mengen und Zeiten:** Tapetenlöser nach Packung in warmem Wasser ansetzen; für
+**7,5 m²** (2,5 × 3,0 m) nennt OBI **8 l** angesetzte Lösung ([OBI Vliestapete tapezieren](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/vliestapete-tapezieren)
+(geprüft 09.11.2026), dort mit derselben Beispielrechnung). Einwirkzeit **15–45 min** je Produkt und Tapetendicke
+([OBI Tapeten entfernen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapeten-entfernen)
+(geprüft 09.11.2026)); wasserdichte Tapeten vorher mit Nagelwalze/Tapetenigel perforieren (ebd.).
+Dampftapetenablöser: **10–20 cm** Abstand zur Wand, je nach Hartnäckigkeit **bis 3 min** einwirken, Handschuhe und
+Brille wegen des heißen Dampfs (ebd.). Vliestapete lässt sich meist **trocken** bahnenweise abziehen (ebd.).
+
+**Zeitbedarf, ehrlich:** kleiner Raum bis ca. 20 m² rund **5 h** nur für das Entfernen, großer Raum etwa das
+Doppelte; danach **bis zu 12 h** Trocknungszeit, bevor gespachtelt oder gestrichen wird ([OBI Tapeten entfernen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapeten-entfernen)
+(geprüft 09.11.2026)). Wer die Tapete Samstagabend abzieht und Sonntag tapeziert, arbeitet in die Feuchte.
+
 **Kosten Material (Orientierung):** Raufaser ab **0,50 €/m²**, Mustertapete ab ca. **2 €/m²**, Vlies **4 €/m² und mehr** ([11880-maler](https://11880-maler.com/preisvergleich/tapezieren-kosten)). Tapezieren durch den Fachbetrieb: **5–15 €/m²** ([maler.org](https://maler.org/magazin/tapezieren-kosten-20113930)); einfache Arbeiten **6–10 €/m²** ([my-hammer](https://my-hammer.de/malerarbeiten-tapezieren/preisradar/was-kostet-raum-tapezieren)).
+
+---
+
+### 4.6 Zeitbedarf Tapezieren – Richtwerte für eine Person
+
+| Raumgröße | Zeit allein | Quelle |
+|---|---|---|
+| **10–15 m²** | **4–6 h** | [OBI Vliestapete tapezieren](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/vliestapete-tapezieren) (geprüft 09.11.2026) |
+| **20–30 m²** | **6–10 h** | ebd. |
+| **über 30 m²** | **10–15 h** | ebd. |
+
+Einzelposten aus derselben Anleitung: Kleister je Wand **15–20 min**, eine Bahn **5–10 min** inklusive
+Positionierung und Zuschnitt (20-m²-Raum ≈ 2–3 h nur für die Bahnen), je Fenster/Tür **+30 min**, Zuschneiden
+einer Mustertapete ohne Versatz **10–20 min** pro Wand (ebd.). Nach dem Tapezieren den Raum **mindestens 24 h nicht
+lüften** — Zugluft trocknet die Nähte zu schnell, dann ziehen sie sich zusammen oder die Bahn löst sich (ebd.).
+
+Diese Zahlen sind **Portal-Erfahrungswerte**, keine Messreihe; sie gelten für vorbereitete Wände. Spachteln und
+Grundieren kommen mit ihren eigenen Trockenzeiten obendrauf (§2.3, §1).
 
 ---
 
@@ -284,12 +381,20 @@ Zwei weitere, die oft dazukommen: **falsche Rolle** (Billigrolle verfilzt, Lammf
 
 | Situation | Warum Fachbetrieb | Quelle |
 |---|---|---|
-| **Großflächiger Putzschaden / Hohlstellen** | Putz muss geöffnet, neu aufgebaut, armiert werden – nicht nur überstrichen | [heimwerker.de](https://www.heimwerker.de/vorbereitung-von-malerarbeiten) |
+| **Großflächiger Putzschaden / Hohlstellen** | Putz muss geöffnet, neu aufgebaut, armiert werden – nicht nur überstrichen; ab **1 m²** Schadfläche ist Neuverputzen der wirtschaftlichere Weg ([heimwerker.de](https://www.heimwerker.de/vorbereitung-von-malerarbeiten); [OBI Spachteln](https://www.obi.de/magazin/bauen/wand/decke-und-waende-spachteln) (geprüft 09.11.2026)) |
 | **Feuchte / Salzausblühungen** | Ursache ist Bauwerk (Sockel, Dach, Anschluss), nicht Farbe; Streichen ist sinnlos | [weigand-bau](https://www.weigand-bau.com/post/farbe-bl%C3%A4ttert-von-der-wand-die-ursache-liegt-fast-nie-in-der-farbe) |
 | **Schimmelbefall, groß oder wiederkehrend** | Ausmaß und Ursache bewerten, Sanierung nach UBA-Leitfaden; Fachfirma bei großem oder verdecktem Befall | [UBA-Leitfaden, S. 133 ff.](https://www.umweltbundesamt.de/system/files/medien/4031/publikationen/240513_uba_fb_schimmelleitfaden_0.pdf) |
 | **Risse > 2 mm, wachsend, Türen klemmen** | Statische Ursache möglich | [maler-m.de](https://www.maler-m.de/lexikon/risse-im-putz/) |
 | **Q4 / Streiflicht / hohe Glanzgrade** | Q4 ist Sonderleistung, nicht „bisschen mehr spachteln" | [Knauf MB2](https://downloads.knauf.de/wmv/?id=2551) |
 | **Stuckleisten, Denkmalschutz, historische Farbfassung** | Materialwahl und Bestandsschutz – siehe **Unbelegt** | – |
+
+Zwei Punkte, die vor der Beauftragung oder dem Einbau zu klären sind:
+
+- **Planung größerer Umbauten:** eigener Architekt bis Leistungsphase 3 statt Anbieter-Grundriss —
+  Grundrissmaße sind Richtwerte, kleine Abweichungen kosten fünfstellig (nul-01 — Detail im Playbook
+  `hausbau-baufirma.md`).
+- **Unterputz-Halterungen** (Papierhalter, Seifenspender) sind nicht revisionierbar — Rollenführung und
+  Ersatzteilverfügbarkeit vorher prüfen, sonst Aufputz (sWXyiNADbFk-02).
 
 ---
 
@@ -302,7 +407,10 @@ Zwei weitere, die oft dazukommen: **falsche Rolle** (Billigrolle verfilzt, Lammf
 | Spachtel Topfzeit | **45 min** | [Knauf](https://downloads.knauf.de/wmv/?id=1079) |
 | Farbe Ergiebigkeit | **6,25–8,5 m²/l** | [Alpina](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf), [Brillux](https://roemer-farben.org/wp-content/uploads/2024/12/BrilluxSuperlux3000Datenblatt.pdf), [Baumit](https://www.baumit-selbermachen.de/chameleon/public/9a2ebff4-d359-80a8-8a5d-817b9c26b80f/pds_silikatfarbe_innen_de_62126.pdf) |
 | Farbe Trockenzeit | **4–6 h**, Silikat **12 h** | [Alpina](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf), [Baumit](https://www.baumit-selbermachen.de/chameleon/public/9a2ebff4-d359-80a8-8a5d-817b9c26b80f/pds_silikatfarbe_innen_de_62126.pdf) |
-| Papier-Weichzeit | **2–5 min** | [hightechmaler](https://hightechmaler.de/blog/tapezierarbeiten/vliestapete-vs-papiertapete/) |
+| Papier-Weichzeit | **2–5 min** (Normalkleister), **5–10 min** (Raufaser-Spezialkleister) | [hightechmaler](https://hightechmaler.de/blog/tapezierarbeiten/vliestapete-vs-papiertapete/), [selbst.de Raufaser (Archiv)](https://web.archive.org/web/20250716052257/https://www.selbst.de/raufaser-tapezieren-46431.html) |
+| Tapezieren, 10–15 m² | **4–6 h** allein | [OBI Vliestapete](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/vliestapete-tapezieren) |
+| Tapete entfernen | **15–45 min** Einwirkzeit, kleiner Raum ca. **5 h** | [OBI Tapeten entfernen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapeten-entfernen) |
+| Spachtel-Trocknung (Flächenspachtel) | **ca. 5 h/mm** — produktabhängig, siehe §2.3 | [selbst.de Wand glätten (Archiv)](https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html) |
 | Heimwerker-Leistung | **8–20 m²/Tag** | [maler-gsq.at](https://maler-gsq.at/wie-viel-quadratmeter-schafft-ein-maler-am-tag) |
 | Material Farbe | **0,52 €/m² je Anstrich** (gerechnet) | [toom-Preisliste](https://toom.de/c/bauen-renovieren/farben-lacke-holzschutz/farben/wandfarben-weiss) + [Alpina-TI](https://alpina-farben.de/fileadmin/InterfaceAssets/ti/TI_24316_Alpinaweiss_Das_Original_Spritzfrei_231431.pdf) |
 | Fachbetrieb Q3/Q4 | **ca. 35 €/m²**, Q4 bis **50 €/m²** | [Reddit r/Handwerker, Snippet](https://www.reddit.com/r/Handwerker/comments/1nslw6x/ist_q2_auf_q3_wirklich_so_viel_mehraufwand_wie/) |
@@ -366,6 +474,25 @@ Zwei weitere, die oft dazukommen: **falsche Rolle** (Billigrolle verfilzt, Lammf
 44. aroundhome, Malerpreise 2026 – https://aroundhome.de/maler/preise-kosten
 45. clean-invoice, Lexikon Dispersionsfarbe (Verbrauch/Preis) – https://www.clean-invoice.com/lexikon/dispersionsfarbe
 
+**Heimwerker-Portale (OBI Magazin, selbst.de)** — OBI-Seiten mit GET geprüft (OBI beantwortet HEAD mit 404),
+selbst.de-Artikel nur noch als Archivkopie erreichbar, siehe Abrufvermerk.
+
+46. OBI, „Wände streichen – Schritt für Schritt" (18–22 °C, 40–60 % r.F., 10 % Wasser, 1–2 mm Sockelleiste, 1–2 cm erster Anstrich) – https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/waende-streichen — **200**
+47. OBI, „Tapezieren – Anleitung & Tipps" (Vlies/Papier/Raufaser, Rapport, Doppelnahtschnitt, Ecken) – https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapezieren — **200**
+48. OBI, „Vliestapete richtig tapezieren" (8 l Löser für 7,5 m², 5 cm Überstand, 1,5–2 Bahnen je Kleisterauftrag, 24 h nicht lüften, Zeitrichtwerte) – https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/vliestapete-tapezieren — **200**
+49. OBI, „Alte Tapeten entfernen – Anleitung in 4 Schritten" (15–45 min, Dampf 10–20 cm/3 min, 5 h je Raum, 12 h Trocknung) – https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/tapeten-entfernen — **200**
+50. OBI, „Raufaser tapezieren" (Bahn 53 cm, Ansatz 5 cm, 10 cm Überhang, 2/3-Regel, Steckdosen feucht freischneiden) – https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/raufaser-tapezieren — **200**
+51. OBI, „Decke und Wände spachteln – In 6 Schritten" (Schäden >1 m² neu verputzen, Körnung 80–120/150–180, Acryl für Dehnungsfugen, 10–15 €/m²) – https://www.obi.de/magazin/bauen/wand/decke-und-waende-spachteln — **200**
+52. selbst.de, „Wand glätten" (Rotband: 30 kg + 20 l Wasser, 1,5 h Verarbeitung, 5 h/mm, max. 2 mm, 180er Gitter) – https://web.archive.org/web/20260321173044/https://www.selbst.de/wand-glaetten-68280.html — **200** (Archivkopie 21.03.2026)
+53. selbst.de, „Raufaser tapezieren" (500 g Kleister auf 5,5 l, 15 min Quellzeit, Weichzeit 5–10 min, 15–20 % Verschnitt) – https://web.archive.org/web/20250716052257/https://www.selbst.de/raufaser-tapezieren-46431.html — **200** (Archivkopie 16.07.2025)
+54. selbst.de, „Wände vorbereiten zum Streichen" (Grundierung 2–6 h, 10-cm-Klebebandtest, immer grundieren) – https://web.archive.org/web/20260419100128/https://www.selbst.de/waende-vorbereiten-zum-streichen-76584.html — **200** (Archivkopie 19.04.2026)
+
+**Abrufvermerk selbst.de (09.11.2026):** selbst.de ist in bauer-plus.de übergegangen. Jede Artikel-URL antwortet
+mit **301** auf `https://www.bauer-plus.de/selbst-entdecken` und von dort mit **302** auf eine Magazin-Landingpage;
+der Artikeltext ist live nicht mehr abrufbar. Zitiert sind deshalb Wayback-Kopien (Status 200, Datum je Eintrag).
+Die Aussagen sind damit belegt, aber **nicht mehr am Original nachprüfbar** — wer sie verwendet, nennt das Datum
+der Kopie mit.
+
 ---
 
 ## 10. Unbelegt, streitig, nicht abrufbar
@@ -389,36 +516,3 @@ Zwei weitere, die oft dazukommen: **falsche Rolle** (Billigrolle verfilzt, Lammf
 - 0,52 €/m² je Anstrich = 4,40 €/l ÷ 8,5 m²/l.
 - 2,30–2,45 €/m² je mm Q4 = 1,7–1,8 kg/m² × 1,36 €/kg.
 - 0,23 €/m² Kleister = 6,90 € ÷ 30 m².
-
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Farbklassen nach DIN EN 13300 sind das einzige vergleichbare Maß.** Deckvermögen **DK 1–4**
-  (Klasse 1 ≥ 99,5 % Kontrastverhältnis, Klasse 4 < 95 %), Nassabrieb **NA 1–5** (NA 1 ≤ 5 µm,
-  NA 2 5–20 µm, NA 3 20–70 µm bei 200 Zyklen; NA 4/5 bei 40 Zyklen). Für Innenräume sinnvoll:
-  **DK 1 + NA 2**, stark beansprucht (Flur, Küche, Kinderzimmer) **NA 1**.
-  Quelle: https://www.dinova.de/ratgeber/din-en-13300 und
-  https://www.caparol.de/ratgeber/expertenwissen/nassabriebklassen (beide 09.11.2026 geprüft).
-  **Es gibt vier Deckvermögen-Klassen, nicht drei** — die in Videos verbreitete Aussage „3 ist die
-  schlechteste" ist falsch.
-- **Die Klassen stehen im Kleingedruckten**, nicht auf dem Deckel. „Extra deckend" ist eine Werbeaussage;
-  vergleichbar ist nur die Klassenzahl.
-- **Klebebandwahl**: für sichtbare Kanten (Zargen, Fenster, Fußleisten) dünnes Papierband („Goldband",
-  Fineline) statt Standard-Krepp; für ganze Flächen Folienklebeband mit Abdeckfolie.
-  Quelle: https://1a-malerwerkzeuge.com/ratgeber/goldband-richtig-verwenden-profi-ratgeber-fuer-scharfe-farbkanten-starken-halt/ (200)
-- **1–3 mm Abstand zur Wand** beim Abkleben lassen, damit die Anschlussfuge versiegelt werden kann und
-  nicht überklebt wird. *Erfahrungswert, nicht belegt.*
-- **Untergrund vor dem Kleben entstauben** (Fußleisten, Fensterbänke, Spinnweben) — sonst hält das Band
-  nicht und zeichnet sich unter der Farbe ab.
-
-## Ergänzungen aus dem Video-Katalog
-
-- **Eigener Architekt bis Leistungsphase 3** statt Anbieter-Grundriss: Grundrissmaße sind Richtwerte,
-  kleine Abweichungen kosten fünfstellig (nul-01 — Detail im Playbook `hausbau-baufirma.md`).
-- **Unterputz-Halterungen** (Papierhalter, Seifenspender) sind nicht revisionierbar — Rollenführung und
-  Ersatzteilverfügbarkeit vorher prüfen, sonst Aufputz (sWXyiNADbFk-02).
-- **Eigenleistung nicht am Angebotspreis messen**: eine Ausbaustufe „Malerarbeiten" bedeutet für einen Laien
-  Wochen Arbeit, nicht ein Wochenende (nul-10 — siehe `hausbau-baufirma.md`).
-### Weitere Video-Fehler (Wände)
-
-- **Zwei Spachtelgänge** statt einem: erst füllen, dann flächig abziehen; die **Schichtstärke** je Gang
-  dokumentieren, sonst bleibt die Fläche im Streiflicht wellig (zR7LyRq3G7Q-04).

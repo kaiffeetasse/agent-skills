@@ -474,6 +474,9 @@ Mindestinhalt eines brauchbaren Protokolls:
 6. **Zahlungsstand** und **Sicherheiten** (5 % nach § 650m Abs. 2, Einbehalt),
 7. **Unterschrift beider Seiten**, je eine Ausfertigung.
 
+**Inbetriebnahme heißt besichtigen und messen:** Anlage **besichtigen**, Werte protokollieren — „läuft"
+ist keine Abnahme (eNpMPWvnWiI-03).
+
 ### 5.3 Abnahme verweigern: wann ja, wann nein
 
 - **Verweigern** bei **wesentlichen** Mängeln (VOB/B § 12 Abs. 3; § 640 Abs. 1 S. 2 im Umkehrschluss):
@@ -854,20 +857,25 @@ Quelle ist als Video-ID mit Zeitmarke im Transkript hinterlegt.
 
 - **Ohne eigenen Architekten planen** und mit Anbieter-Grundrissen in die Angebotseinholung gehen: dann
   bestimmt der Anbieter den Entwurf, an dem er verdient (nul-01).
-- **Bodengutachten und Architekt „liefert der Anbieter mit"**: beides selbst beauftragen — sonst prüft der,
+- **Bodengutachten und Architekt „liefert der Anbieter mit"**: beides selbst beauftragen — das
+  Bodengutachten **vorab**, nicht darauf warten, dass der Anbieter es „mitliefert"; sonst prüft der,
   der verkauft (bjw-03).
 - **Baufirma nach falschen Kriterien wählen**: Regionalität, Sympathie der Beratung, schönster Grundriss,
   Referenzen im Baugebiet — statt Qualität und Preis-Leistung (bjw-05).
-- **Auf Ausstattung statt Bausubstanz achten**: Fliesen und Edelputz sind austauschbar, Wandaufbau,
-  Dach und Dämmung nicht (bjw-06, nul-17).
+- **Auf Ausstattung statt Bausubstanz achten**: Fliesen und Sessel sind Ausstattung, **monolithischer
+  Wandaufbau** und **Holzfaserdämmung im Dach** sind Substanz — Wandaufbau, Dach und Dämmung sind nicht
+  austauschbar (bjw-06, nul-17).
 - **Nicht richtig vergleichen und nicht verhandeln**: der Hebel liegt vor der Unterschrift (bjw-07).
 - **Erstes Musterhaus, erster Eindruck**: über 200 Anbieter, davon 30–40 relevant — wer beim ersten
   unterschreibt, verspielt den Vergleich (nul-05, nul-06).
+- **Musterhaus = Marketing**: **Designerküche, Sessel, Lampen sind nicht im Standard** — im Angebot steht
+  die Basisvariante (nul-06).
 - **Angebote unsauber vergleichen**: unterschiedliche Leistungsumfänge als Preisvergleich verkaufen (nul-08).
 - **Eigenleistung überschätzen**: Freunde und Familie fest einplanen, Urlaub ist verbraucht, Zeitplan kippt
   (nul-10, nul-11, bjw-09).
 - **Keller pauschal ausschließen** („zu teuer") ohne Raumprogramm und Angebote — oder **über die Baufirma
-  mitkaufen** statt direkt beim Kellerhersteller (nul-12, nul-13).
+  mitkaufen** statt direkt beim Kellerhersteller (nul-12, nul-13): der **Vertragspunkt ist abwählbar**,
+  beim **Zwischenhändler** zahlt man **Provision** ohne Mehrleistung (nul-13).
 - **Pauschal eine Quadratmeterzahl planen** (130/150/200 m²) statt Raumprogramm mit Wertigkeiten (nul-16).
 - **Finanzierung nicht vergleichen** bzw. über Portale zu viele Kreditanfragen auslösen und damit das
   Scoring verschlechtern (nul-19).
@@ -878,6 +886,10 @@ Quelle ist als Video-ID mit Zeitmarke im Transkript hinterlegt.
 - **Kataloghaus unterschreiben, obwohl man anders bauen will** (nul-04).
 - **Werkvertrag ohne Grundstück unterschreiben** — die Festpreisbindung läuft ab Unterschrift, der
   Leistungsumfang ist noch offen (§ 648 BGB: Kündigung kostet trotzdem) (nul-14).
+- **Oberflächenrauheit vor der Bestellung prüfen**: rauer Boden im OG bedeutet **Sockenverschleiß**,
+  Muster begehen (sWXyiNADbFk-04).
+- **Dachziegel nicht nach Muster im Winter bestellen**: **Glanzgrad/Glanzverhalten** wirkt bei Tageslicht
+  anders als im Winterlicht (sWXyiNADbFk-06).
 
 ### Zahlen und Prüfpunkte, die den Unterschied machen
 
@@ -892,30 +904,27 @@ Quelle ist als Video-ID mit Zeitmarke im Transkript hinterlegt.
   umgeplant (nul-08).
 - **Raumbedarf zuerst**: **30 m² Kellerräume** (Hobby, Technik, Vorrat) als Rechengröße; **Keller-m² ist
   günstiger als Haus-m²** — deshalb nicht pauschal ausschließen, sondern rechnen (nul-12).
-- **Finanzierung:** **2–3 Anfragen statt 10**, **Hausbank als erster Ansprechpartner**; **5 Kreditanfragen**
-  bei Portalen bedeuten bereits eine **Scoring-Verschlechterung** (nul-19).
+- **Finanzierung:** **2–3 Anfragen statt 10**, **Hausbank als erster Ansprechpartner**;
+  **5 Kreditanfragen = Scoring-Verschlechterung** bei Portalen (nul-19).
 - **Bausachverständiger** (nul-20) mit drei festen Terminen: **Bodenplatten- bzw. Kellerkontrolle**,
   **Rohbaukontrolle**, **Begehung vor der Hausabnahme** — jeweils mit Protokoll und Fotos.
 - **Dachüberstand, Giebel und Anschlussdetails** vor der Unterschrift festlegen: ein in letzter Sekunde
   durchgezogener Dachstummel lässt keinen sauberen Anschluss für eine spätere Überdachung (sWXyiNADbFk-07).
 - **Türsprechanlage und altes Telefon** vor der Renovierung tauschen, nicht „noch gut" behalten — sonst
   liegt die alte Technik hinter der neuen Wand (k3q49IW19KU-15).
-
-## Ergänzungen aus dem Fehlerkatalog
-
-- **Bodengutachten vorab** selbst beauftragen — nicht darauf warten, dass der Anbieter es „mitliefert" (bjw-03).
-- **Bausubstanz statt Optik**: **monolithischer Wandaufbau** und **Holzfaserdämmung im Dach** sind Substanz; Fliesen und Sessel sind Ausstattung (bjw-06).
-- **100–200 Anbieter als Trumpf** im Vergleich — wer nur drei anschaut, hat keinen Verhandlungshebel (bjw-07).
-- **Eigenleistung realistisch**: **500–600 m² Wandfläche** sind bei Malern und Spachteln eine Größenordnung, die man nicht „nebenbei" macht (bjw-09).
-- **Musterhaus = Marketing**: **Designerküche, Sessel, Lampen sind nicht im Standard** — im Angebot steht die Basisvariante (nul-06).
-- **Eigenleistung mit Leuten rechnen**: **4–5 Mann, 2 Wochen** für ein Gewerk, und **30 Tage Urlaub gehen drauf** — die Arbeit sinnvoll aufteilen, nicht alles in eine Woche (nul-10, nul-11).
-- **Keller direkt beim Hersteller**: der **Vertragspunkt ist abwählbar**, beim **Zwischenhändler** zahlt man **Provision** ohne Mehrleistung (nul-13).
-- **Ohne Grundstück verlorene Zeit**: realistisch **6 Monate verloren**, wenn der Werkvertrag vor dem Grundstück unterschrieben wird (nul-14).
-- **Raumprogramm statt m²-Zahl**: **1 m Einsparung an der Giebelseite** kann teurer sein als 10 m² mehr Fläche (nul-16).
-- **5 Kreditanfragen = Scoring-Verschlechterung** — 2–3 Anfragen, Hausbank zuerst (nul-19).
-- **Oberflächenrauheit vor der Bestellung prüfen**: rauer Boden im OG bedeutet **Sockenverschleiß**, Muster begehen (sWXyiNADbFk-04).
-- **Dachziegel nicht nach Muster im Winter bestellen**: **Glanzgrad/Glanzverhalten** wirkt bei Tageslicht anders als im Winterlicht (sWXyiNADbFk-06).
-- **Inbetriebnahme heißt besichtigen und messen**: Anlage **besichtigen**, Werte protokollieren — „läuft" ist keine Abnahme (eNpMPWvnWiI-03).
+- **Anbieterzahl als Verhandlungshebel — 100–200 Anbieter als Trumpf**: am Markt sind **über 200**
+  Anbieter, **100–200** lassen sich realistisch in Vergleichsportalen gegenüberstellen, und nur **30–40**
+  sind für ein konkretes Projekt wirklich relevant. Wer nur drei anschaut, hat keinen Verhandlungshebel:
+  **4–6 Angebote** sind das Minimum, und der Vertrag wird an die Grundstückssituation angepasst, nicht
+  unverändert unterschrieben (bjw-07).
+- **Eigenleistung mit Leuten rechnen**: **500–600 m² Wandfläche** sind bei Malern und Spachteln eine
+  Größenordnung, die man nicht „nebenbei" macht; für ein Gewerk stehen **4–5 Mann, 2 Wochen** und
+  **30 Tage Urlaub gehen drauf** — die Arbeit sinnvoll aufteilen, nicht alles in eine Woche
+  (bjw-09, nul-10, nul-11).
+- **Grundstück vor dem Werkvertrag**: realistisch **6 Monate verloren**, wenn der Werkvertrag vor dem
+  Grundstück unterschrieben wird (nul-14).
+- **Raumprogramm statt m²-Zahl**: **1 m Einsparung an der Giebelseite** kann teurer sein als **10 m² mehr
+  Fläche** (nul-16).
 
 ## Unbelegt / offen / Widersprüche
 

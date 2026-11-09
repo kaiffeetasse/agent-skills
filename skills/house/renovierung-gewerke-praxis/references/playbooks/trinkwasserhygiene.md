@@ -149,6 +149,18 @@ Ein- und Zweifamilienhaus [Q9]. Die Pumpe ist aus hygienischen Gründen dauerhaf
 dass jeder Abzweig durchströmt wird; Wartung von Pumpe und Ventilen alle **12 Monate**, Einbau zugänglich [Q9]. Eine Pumpe, die 40 °C warmes Wasser im Kreis fördert, verteilt Lauwarmwasser
 und ersetzt die 55 °C nicht [Q7][Q9].
 
+**Dimensioniert wird nach DVGW W 553, nicht nach Stockwerkszahl.** Ziel ist eine Abkühlung von
+höchstens **5 K** auf jedem Fließweg des Umlaufs. Das **Kurzverfahren** gilt nur, wenn die gesamte
+Warmwasserleitung **≤ 30 m**, der längste Zirkulationsweg **≤ 20 m** und der Druckverlust des
+Rückflussverhinderers **≤ 30 mbar** betragen; dann: Mindestinnendurchmesser **10 mm**, Pumpe **DN 15**
+mit mindestens **200 l/h bei 100 mbar**. Im **vereinfachten Verfahren** werden **11 W/m** für frei
+verlegte Leitungen im Keller und **7 W/m** im Schacht angesetzt, mit rechnerischer Abkühlung
+**Δϑ = 2 K**; die Strömungsgeschwindigkeit liegt bei **0,2–0,5 m/s**, höchstens **1,0 m/s**. Der
+Pumpendruck ist Σ(l × R) × **1,2–1,4** plus **60 mbar** je Rückflussverhinderer (**100 mbar**
+kombiniert mit Strangabsperrventil). Hinter Wohnungswasserzählern ist keine Zirkulation möglich — dort
+ist das Volumen auf **3 l** zu begrenzen oder dezentral zu erwärmen
+([SBZ, „Zirkulation von Warmwasser“](https://www.sbz-online.de/sanitaer/zirkulation-von-warmwasser-hygiene-im-rundlauf), 13.12.2011 — zitiert TrinkwV 2011 und EnEV, die Verfahrenswerte aus W 553 sind davon unabhängig; geprüft 09.11.2026, HTTP 200).
+
 ### 2.3 Temperaturen und Kaltwasser
 
 | Stelle | Sollwert | Beleg |
@@ -159,10 +171,23 @@ und ersetzt die 55 °C nicht [Q7][Q9].
 | Kaltwasser an der Zapfstelle | höchstens **25 °C** nach 30 s | DIN 1988-200 [Q8] |
 | Thermische Desinfektion | **70 °C**, 3 Minuten an jeder Warmwasser-Entnahmestelle | Merkblatt nach W 551/W 551-3 [Q17] |
 
+**Großanlage und Kleinanlage sind nicht dieselbe Anforderung:** In Großanlagen muss das Wasser am
+Warmwasseraustritt **ständig über 60 °C** liegen — systematische Unterschreitungen sind nicht akzeptabel.
+In Kleinanlagen werden 60 °C empfohlen, **unter 50 °C** sollen in jedem Fall vermieden werden. Ein
+**dezentraler** Trinkwassererwärmer für eine Gruppenversorgung (z. B. ein komplettes Bad) braucht
+mindestens **50 °C** Austrittstemperatur. Die Unterscheidung stammt aus W 551 (2004) und DIN 1988-200;
+der SBZ-Artikel von 2011 zitiert dazu die TrinkwV 2011, die Temperaturlogik ist davon unabhängig
+([SBZ, „Zirkulation von Warmwasser“](https://www.sbz-online.de/sanitaer/zirkulation-von-warmwasser-hygiene-im-rundlauf), 13.12.2011; [IKZ, „3 Liter und 30 Sekunden im Check“](https://www.ikz.de/detail/news/detail/zentralverband-3-liter-und-30-sekunden-im-check), 30.04.2020, beide geprüft 09.11.2026, HTTP 200).
+
 Der Legionellen-Wachstumsbereich wird unterschiedlich angegeben: DVGW **25–45 °C** [Q6], TÜV SÜD zitiert das UBA mit **25–55 °C** [Q8] — siehe Abschnitt 8.
 
 **Kaltwasser:** Kaltleitung nicht neben Warmwasser- oder Heizungsleitungen ohne Dämmung/Trennung führen [Q6][Q9]; Fußbodenheizung mit Abstand verlegen, Heizungsrohre nicht im selben Schacht
-[Q6]. Wer im Sommer 28 °C misst, hat ein Fremderwärmungsproblem, keine „sommerliche Temperatur“.
+[Q6]. Wer im Sommer 28 °C misst, hat ein Fremderwärmungsproblem, keine „sommerliche Temperatur“. Die
+25 °C der 30-Sekunden-Regel sind die **Obergrenze**, nicht das Ziel: Für die Legionellenprävention gilt
+kaltes Trinkwasser **dauerhaft < 20 °C** als sicher; der Bereich **> 20 (25) bis < 55 °C**, besonders
+**30–40 °C**, ist zu vermeiden. Dämmung allein löst das bei Umgebungstemperaturen über 25 °C nicht —
+Rohrweg, Wasseraustausch und Reihen- statt Stichleitung entscheiden mit
+([SBZ, „Reduzierung der Kaltwassertemperaturen“](https://www.sbz-online.de/sanitaer/reduzierung-der-kaltwassertemperaturen-teil-1-passive-massnahmen), 26.03.2024, geprüft 09.11.2026, HTTP 200).
 
 **Wärmepumpe:** Eine Speichertemperatur von 50 °C verlässt den Regelbereich von W 551 (2004). Der Entwurf W 551-1 (A) diskutiert 55/50 °C nur unter engen Bedingungen (elektronische
 Regulierventile, Temperaturerfassung, drei Untersuchungen im ersten Jahr, kein Legionellenfund vor Absenkung, Information von Verbrauchern und Gesundheitsamt) [Q6][Q7] — **Entwurf, keine
@@ -417,6 +442,12 @@ Wiederherstellung **1.504 €**.
    Nicht mitteln, sondern Positionen vergleichen.
 7. **UBA-Empfehlung 2025.** UBA hat systemische Untersuchung und Risikoabschätzung im Oktober 2025 neu gefasst [Q10]; verbindlich wird sie erst, wenn die TrinkwV auf die Fassung verweist
    [Q6][Q10]. Bis dahin gelten 2018/2022 (Untersuchung) und 2012 (Gefährdungsanalyse). Wer die neue Fassung anwendet, macht nichts falsch — er darf sie nur nicht „geltendes Recht“ nennen.
+8. **Legionellen-Wachstumsbereich — drei Angaben.** DVGW **25–45 °C** [Q6], UBA über TÜV SÜD **25–55 °C** [Q8], SBZ 2024 nennt **30–40 °C** als Kernbereich und **> 20 (25) bis < 55 °C** als zu
+   vermeidend [Q32]. Die Grenzen widersprechen sich, die Schnittmenge **30–40 °C** ist in allen Fassungen kritisch; sie ist der Bereich, in dem jede Maßnahme ansetzt. Nicht mitteln.
+9. **Kaltwasser: 25 °C oder 20 °C?** DIN 1988-200 fordert **≤ 25 °C nach 30 s** (Obergrenze im Betrieb) [Q8], SBZ 2024 und UBA halten **dauerhaft < 20 °C** für erforderlich, um das
+   Kontaminationsrisiko zu minimieren [Q32]. Das sind zwei Maßstäbe: Betriebsgrenze gegen Zielwert. Wer 24 °C misst, erfüllt die Norm und liegt über dem hygienischen Ziel.
+10. **Stagnation: 4 h, 72 h oder 168 h?** UBA empfiehlt im Haushalt **4 h** [Q16], VDI 6023 verlangt den Austausch binnen **72 h**, das DIN-Regelwerk nennt bis **168 h** [Q31]. Die Zahlen
+    messen unterschiedliche Dinge (Handlungsempfehlung, maximaler Austauschzeitraum, obere Grenze) — die kürzeste ist die sicherste, die längste keine Freigabe.
 
 ---
 
@@ -450,6 +481,12 @@ Alle Quellen am **09.11.2026** einzeln abgerufen und auf HTTP-Status geprüft. 2
   https://www.tuvsud.com/de-de/-/media/de/industry-service/pdf/netinform/bautechnik-2024/wie-umgehen-mit-der-3-liter-regel.pdf — curl 403 (Bot-Schutz), Inhalt über gerenderten Abruf
   vollständig geprüft.
 - **[Q9]** STMB24, Zirkulationsleitung — 60/55 °C, Zirkulation ab 3 l, Pumpe max. 8 h aus, Wartung 12 Monate — https://www.stmb24.de/themen/zirkulationsleitung — HTTP 200.
+
+**Zirkulation, Kaltwasser, 3-Liter-Regel (Fachmedien)**
+
+- **[Q30]** SBZ Online, „Zirkulation von Warmwasser – Hygiene im Rundlauf“ (13.12.2011) — W 553: Abkühlung ≤ 5 K, Kurzverfahren 30/20 m, 10 mm, 200 l/h bei 100 mbar, 11/7 W/m, Δϑ 2 K, 0,2–0,5 m/s, 60/100 mbar — https://www.sbz-online.de/sanitaer/zirkulation-von-warmwasser-hygiene-im-rundlauf — HTTP 200. Zitiert TrinkwV 2011/EnEV; die verfahrenstechnischen W 553-Werte sind davon unabhängig.
+- **[Q31]** IKZ, „Zentralverband – 3 Liter und 30 Sekunden im Check“ (30.04.2020) — DIN 1988-200 Kap. 3.6, 30-s-Regel, dezentraler Erwärmer ≥ 50 °C, Kaltwasser-Ziel 20 °C, Stagnation 4 h (UBA) bis 168 h (DIN) — https://www.ikz.de/detail/news/detail/zentralverband-3-liter-und-30-sekunden-im-check — HTTP 200.
+- **[Q32]** SBZ Online, „Reduzierung der Kaltwassertemperaturen – Teil 1: Passive Maßnahmen“ (26.03.2024) — kalt dauerhaft < 20 °C, kritisch > 20 (25) bis < 55 °C, besonders 30–40 °C; Dämmung allein reicht nicht, Reihenleitung statt Stichleitung — https://www.sbz-online.de/sanitaer/reduzierung-der-kaltwassertemperaturen-teil-1-passive-massnahmen — HTTP 200.
 
 **Behörden und UBA**
 
@@ -503,3 +540,5 @@ Alle Quellen am **09.11.2026** einzeln abgerufen und auf HTTP-Status geprüft. 2
 - **Zeitangaben für die Sanierung.** Dauer eines Leitungsaustauschs, einer Desinfektion oder einer Nachbeprobung: Erfahrungswerte, keine Quelle beziffert sie.
 - **Regionale Preisspreizung ±25 %.** Erfahrungswert; die Kostenquellen nennen keine regionale Verteilung.
 - **„Warmwasserspeicher alle zwei Monate inspizieren, jährlich warten“** — in einer Sekundärquelle genannt [Q9], aber nicht am Normtext geprüft; deshalb nicht als Anforderung im Text.
+- **DVGW W 553 (Zirkulationsdimensionierung)** — die Werte 5 K, 200 l/h, 10 mm, 11/7 W/m und Δϑ 2 K sind über SBZ 2011 belegt [Q30]; der Artikel zitiert TrinkwV 2011 und EnEV, die Normausgabe selbst wurde nicht gekauft.
+- **Kaltwasser-Zielwert 20 °C** — als hygienisches Ziel über SBZ 2024 und UBA belegt [Q32]; die TrinkwV setzt diesen Wert nicht als Grenzwert, die 25 °C der DIN 1988-200 bleiben die Betriebsgrenze.

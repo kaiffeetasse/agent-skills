@@ -139,6 +139,13 @@ mineralischen Untergrund [S10]. Für den normalen Wohnraum ist matte Dispersion 
 7. **Menge rechnen:** 20 m² × 150 ml/m² × 2 Anstriche = **6,0 l** (Beispiel mit Silikatverbrauch [S10]; bei
    Dispersion den Verbrauch auf dem Gebinde einsetzen). Kauf 10 l oder 2 × 5 l, nicht 5 l — sonst fehlt die
    zweite Schicht.
+8. **M- oder W-förmig rollen.** Maler rollen die Fläche in M- oder W-Bögen und überlappen dabei nass; gerade
+   Striche in einer Richtung hinterlassen Schatten und Ansätze ([OBI Decke tapezieren und streichen](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/decke-tapezieren-und-streichen)
+   (geprüft 09.11.2026)). Erfahrungswert des Portals, kein Messwert — aber der billigste Test: eine Bahn so rollen,
+   trocknen lassen, im Streiflicht ansehen.
+9. **Grundierung trocknen lassen, nicht „kurz warten".** Je Produkt **4–10 h**, bevor gestrichen oder tapeziert
+   wird ([OBI, ebd.](https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/decke-tapezieren-und-streichen)).
+   Bei stark saugender Decke eine **zweite** Lage Tiefgrund, bis der Untergrund gesättigt ist (ebd.).
 
 **Werkzeug:** Deckenroller 25 cm, Teleskopstange, Farbwanne mit Abstreifer, Abdeckvlies (rutschfester als Folie),
 Kreppband, Cuttermesser, Plattformleiter — keine Leiter mit einem Fuß auf der Fußleiste.
@@ -228,6 +235,7 @@ durchrühren. Klumpen entstehen, wenn alles auf einmal reingekippt wird [S29, 0:
 | Direktabhänger, herstellerseitig | **0–125 mm** | [S5], [S2] |
 | Draht mit Öse | **125–750 mm** (Knauf) bzw. **125–2000 mm** (Rigips) | [S2][S5] |
 | Max. Traglast je Rigips-Abhänger | **25 kg** | [S5] |
+| Typische Abhängehöhe nach Zweck (Portal) | **5–10 cm** Unebenheiten/Leitungen, **10–20 cm** Licht/Lüftung, **über 20 cm** größere Installationen | [OBI Decke abhängen](https://www.obi.de/magazin/bauen/zimmerdecke/decke-abhaengen) (geprüft 09.11.2026) |
 
 Für **Einbaustrahler** musst du zusätzlich die Einbautiefe rechnen: viele LED-Spots brauchen ab **40 mm** Decken-
 Hohlraum, manche mehr [S24]. Mit Trafo/Konverter und Luft zum Dämmen sind **80–120 mm** realistisch. Wer 12 cm
@@ -251,6 +259,20 @@ verlieren kann, hat keine Platzprobleme; wer nur 4 cm hat, nimmt Direktabhänger
 viele Löcher, die Wasserwaage kann magnetisch am Profil bleiben. Holzlatten sind etwas billiger, brauchen aber
 zwei Lagen und Justierschrauben [S26].
 
+**Dritte Zahlenreihe — die Portal-Anleitung weicht von den Herstellern ab.** OBI nennt für das Direktabhänger-System
+Abstände von **max. 50 cm quer** und **max. 80 cm längs**, die äußeren Grundlatten **ca. 20 cm** von der Wand und
+die Traglattung **max. 40 cm** ([OBI Decke abhängen](https://www.obi.de/magazin/bauen/zimmerdecke/decke-abhaengen)
+(geprüft 09.11.2026)). Für die Beplankung nennt dieselbe Anleitung Schnellbauschrauben **25 × 3,9 mm** im Abstand
+von **10 cm** (ebd.).
+
+**Das ist ein Widerspruch zu den Herstellerwerten oben und wird nicht gemittelt:** Knauf/Rigips erlauben bis
+**90 cm** Abhängerabstand und **17 cm** Schraubenabstand ([S2][S4][S6]), OBI schreibt 50/80 cm und 10 cm. Die
+Portalwerte sind **Erfahrungswerte für ein einzelnes System** (kein Normzitat, keine Systemzulassung) und liegen
+auf der sicheren Seite — sie kosten mehr Abhänger und mehr Schrauben, halten aber auch bei weicheren Platten. Wer
+nach Herstellerstatik baut, nimmt die Herstellerwerte und die dazu passende Platte; wer nach OBI baut, bekommt eine
+steifere Decke für mehr Geld. Entscheidend ist, dass **eine** Zahlenreihe durchgehalten wird: halbe Abhängerabstände
+mit 17-cm-Schrauben und 40-cm-Traglatten ist eine Mischung ohne Nachweis.
+
 **Warum die Tragprofil-Abstände krumm sind (41,7 / 43,3 cm):** Sie sind so gewählt, dass jede Plattenquerfuge
 auf einem Profil liegt. 125 cm / 3 = 41,7 cm; 260 cm / 6 = 43,3 cm [S2]. Wer „einfach 50 cm" macht, hat bei
 125-cm-Platten eine Fuge in der Luft — und dort reißt es.
@@ -270,6 +292,16 @@ nicht zulässig [S4][S6]. Immer versetzen, mindestens 40 cm [S4].
   Ecke landet — sonst reißt es dort [S33, 4:20–4:50].
 - Schrauben **versenkt**, Kopf nicht durch das Papier. Überstehende Schrauben wieder heraus und daneben neu
   setzen; „Beulen" durch zu tiefe Schrauben sind ein Reklamationsgrund [S18][S27].
+- **Vor dem Beplanken Papiertrennstreifen an die Wandanschlüsse** kleben — die abgehängte Decke soll gleitend gegen
+  die massive Wand liegen, nicht festgespachtelt ([OBI Decke abhängen](https://www.obi.de/magazin/bauen/zimmerdecke/decke-abhaengen)
+  (geprüft 09.11.2026)). Beim Schrauben **in der Raummitte beginnen**, nicht in der Ecke, und auf der Platte die
+  erste Schraube in Plattenmitte oder Ecke setzen — sonst staucht sich die Platte (ebd.).
+- **Feuchtraum (Bad):** statt Gipsplatten **Zementbauplatten** verwenden; sie sind wasserresistenter und im
+  Spritzwasserbereich rund um Dusche/Wanne die robustere Wahl ([selbst.de „Decke abhängen", Archivkopie](https://web.archive.org/web/20230604113652/https://www.selbst.de/decke-abhaengen-11634.html)
+  (geprüft 09.11.2026)). Dazu passt eine **Holzlattung 24 × 48 mm** mit **Achsabstand 70 cm**, Schrauben
+  **3,9 × 35 mm mindestens alle 20 cm**, Stoßkanten mit Fugenkleber verklebt und Kreuzfugen vermieden; Teleskopstützen
+  halten die Platte, bis der Kleber abgebunden hat (ebd.). Das ist ein **Erfahrungswert des Portals** für ein
+  konkretes Produkt — die Herstellerabstände der Gipskartonsysteme (§4.3) gelten dafür nicht.
 
 ### 4.5 Fugen verspachteln
 
@@ -489,6 +521,11 @@ Die konkrete Anforderung steht in der **Landesbauordnung** deines Bundeslandes; 
 | Tiefgrund | 5 l | saugende Flächen |
 | Acryl, dauerelastisch | 2 Kartuschen | Anschlussfugen |
 
+**Materialkosten-Richtwert (Portal):** Wer selbst abhängt, rechnet grob mit **ca. 15 €/m²** Material — abhängig von
+Abhängesystem, Beplankung und Dämmung ([OBI Decke abhängen](https://www.obi.de/magazin/bauen/zimmerdecke/decke-abhaengen)
+(geprüft 09.11.2026)). Das ist eine Überschlagszahl ohne Arbeitszeit und ohne Werkzeug; für 20 m² also rund 300 €
+Material, was zu den Positionen der Tabelle oben passt.
+
 **Werkzeug:** Kreuzlinienlaser (oder 2-m-Magnetwasserwaage), Schlagschnur, Blechschere, Akkuschrauber mit
 Tiefenanschlag, Plattenschleifer/Giraffe mit Absaugung, Spachtel 10/25/40 cm, Eimer + Quirl, Cuttermesser,
 Plattenheber („Faulenzer"), FFP2-Maske, Schutzbrille, Plattformleiter/Gerüst.
@@ -600,6 +637,16 @@ sie wurden im Browser geöffnet und gelesen. PDFs wurden heruntergeladen und per
 - **[S25]** Umweltbundesamt, „Asbest", https://www.umweltbundesamt.de/themen/gesundheit/umwelteinfluesse-auf-den-menschen/chemische-stoffe/asbest
 - **[S34]** NAV § 13, https://www.gesetze-im-internet.de/nav/__13.html
 
+**Heimwerker-Portale (OBI Magazin, selbst.de)**
+
+- **[S35]** OBI, „Decke abhängen – Tipps & Anleitung in 7 Schritten" (Abhänger 50/80 cm, Traglattung 40 cm, Schrauben 25 × 3,9 alle 10 cm, Trennstreifen, GKB/GKBI/GKF, 5–10/10–20/>20 cm, ca. 15 €/m²), https://www.obi.de/magazin/bauen/zimmerdecke/decke-abhaengen — **200** (GET; HEAD antwortet 404)
+- **[S36]** OBI, „Decke tapezieren und streichen" (Tiefengrund 4–10 h, M-/W-förmig rollen, Decke vor Wand, Blasen einschneiden), https://www.obi.de/magazin/wohnen/innengestaltung/wandgestaltung/decke-tapezieren-und-streichen — **200**
+- **[S37]** selbst.de, „Decke abhängen" (Zementbauplatten im Bad, Latten 24 × 48 mm/70 cm, Schrauben 3,9 × 35 alle 20 cm, Fugenkleber, Teleskopstützen), Archivkopie 04.06.2023, https://web.archive.org/web/20230604113652/https://www.selbst.de/decke-abhaengen-11634.html — **200**
+
+**Abrufvermerk selbst.de:** Live antwortet die Artikel-URL mit **301** auf `bauer-plus.de/selbst-entdecken` und
+**302** auf eine Magazin-Landingpage; der Text ist nur über die Wayback-Kopie (Status 200) lesbar. Zitate daraus
+gelten für den Stand der Kopie, nicht für einen aktuellen Redaktionsstand.
+
 **Foren/Reddit**
 
 - **[S18]** bauexpertenforum, „Decke Mängel was nun", 2017, https://www.bauexpertenforum.de/threads/decke-maengel-was-nun.101564
@@ -636,3 +683,7 @@ Diese Punkte sind **nicht** durch die Quellen gedeckt und stehen bewusst hier, s
 7. **„Q4 ist Kunst"**: Bewertung, keine Norm. Die Norm beschreibt nur die 1-mm-Schicht [S1].
 8. **Kosten**: bewusst keine Eurobeträge, weil regionale Preise und Materialwahl die Zahl um 100 % verschieben.
    Rechne mit Materialpreisen deines Händlers und dem Zeitbedarf aus §4.6.
+9. **OBI-Abstände (50/80 cm Abhänger, 40 cm Traglattung, 10 cm Schraubenabstand, §4.3/§4.4):** Portalangaben
+   ohne Systemzulassung und ohne Normzitat. Sie sind plausibel und liegen auf der sicheren Seite, ersetzen aber
+   **nicht** die Herstellerstatik der verarbeiteten Platte. Wer sie übernimmt, übernimmt einen Erfahrungswert —
+   kein geprüftes System.

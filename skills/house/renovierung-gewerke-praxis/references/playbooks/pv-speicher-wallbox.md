@@ -90,7 +90,7 @@ Belegt ist hier nur die **bauartspezifische Unterscheidung** (Glas-Glas vs. Glas
 ### 2.6 Wechselrichter: String, Hybrid oder Mikro
 
 - **String-Wechselrichter** — der Regelfall. Ein Gerät für alle Module eines Dachs, ein MPP-Tracker je String. Günstig, robust, gut bei unverschatteten Flächen gleicher Ausrichtung.
-- **Hybrid-Wechselrichter** — String-Wechselrichter mit Batterieanschluss auf der **DC-Seite**. Das ist heute der Standard für „PV + Speicher in einem Zug", weil der Speicher ohne zweite Umwandlung geladen wird. Fronius bietet dafür beim GEN24 Plus **PV Point** (Basis-Notstrom für einzelne Verbraucher) und **Full Backup** (ganzes Haus) [Q27]. HTW-Messungen zeigen: die **Umwandlungswirkungsgrade der Hybridwechselrichter** liegen im Labor im Mittel bei **97,6 %**, die Datenblätter behaupten **98,1 %** [Q17].
+- **Hybrid-Wechselrichter** — String-Wechselrichter mit Batterieanschluss auf der **DC-Seite**. Das ist heute der Standard für „PV + Speicher in einem Zug", weil der Speicher ohne zweite Umwandlung geladen wird. Fronius bietet dafür beim GEN24 Plus **PV Point** (Basis-Notstrom für einzelne Verbraucher) und **Full Backup** (ganzes Haus) [Q27]. HTW-Messungen zeigen: die **Umwandlungswirkungsgrade der Hybridwechselrichter** liegen im Labor im Mittel bei **97,6 %**, die Datenblätter behaupten **98,1 %** [Q17]. Im guten Lastbereich liegen Wechselrichter bei **96 bis 98 %**; unter **0,3** der Bemessungsleistung fällt der Wirkungsgrad sichtbar ab — deshalb nicht maßlos überdimensionieren, aber auch nicht unter die Wallbox-Last gehen.
 - **Mikrowechselrichter** — ein Gerät je Modul (oder je zwei). Sinnvoll bei starker Teilverschattung, bei mehreren Dachflächen mit unterschiedlicher Ausrichtung und beim Balkonkraftwerk. Teurer je kWp, dafür kein String-Risiko.
 - **Unterdimensionierung:** Der Wechselrichter darf kleiner sein als die Modulleistung (Überbelegung), weil die Module die Nennleistung nur bei Idealbedingungen erreichen — die AC-Grenze ist in Deutschland ohnehin die Einspeisebegrenzung. Wird er zu klein gewählt, verliert man Mittagsspitzen; zu groß gewählt, zahlt man für Leistung, die nie ankommt.
 
@@ -150,11 +150,18 @@ Rechenbeispiel der HTW: **10 kWp + 4.000 kWh/a → höchstens 6 kWh** nutzbar. G
 
 **Wichtig für dieses Playbook:** Die verbreitete Empfehlung „10 kWp + 8 kWh" ist bei 4.000 kWh Haushaltsstrom **über** der HTW-Obergrenze von 6 kWh. Sie wird erst stimmig, wenn ein E-Auto dazukommt: 12.000 km × 18 kWh/100 km ≈ 2.160 kWh, mit Ladeverlusten rund 2.400 kWh → 6.400 kWh/a → Obergrenze 9,6 kWh. **8 kWh sind dann vertretbar** (eigene Rechnung, Annahmen in §7.1).
 
+**Weitere Faustformeln im Umlauf** (Video-Gegencheck, ohne eigene Quelle — siehe §12): **0,5 kWh bis 2 kWh je kWp** Anlagenleistung (bei 10 kWp also 5–20 kWh) sowie Jahresverbrauch **durch 500 bis durch 800** teilen (7.000 kWh → 8,75 kWh bei /800). Die Spanne ist bewusst weit, weil Notstromwunsch und Fahrprofil sie verschieben; als Auslegung taugt sie nicht, als Plausibilitätscheck gegen ein Angebot schon.
+
+**Bruttokapazität ist nicht Nettokapazität.** Brutto ist die Zellkapazität, netto das, was der Wechselrichter nutzbar entlässt — wer Preise vergleicht, vergleicht **netto**, und die HTW-Obergrenzen oben gelten ohnehin für nutzbare kWh.
+
+**Die Entladeleistung ist das Nadelöhr (im Video: „Nadelöhre“), nicht die Kapazität.** Ein 22-kW-Auto an einer 22-kW-Wallbox braucht rund **25 kW** AC-Ausgangsleistung am Wechselrichter, sonst kommt der Rest aus dem Netz. Kleine Wechselrichter begrenzen außerdem die spätere **Speichererweiterung**.
+
 ### 3.2 Wirkungsgrad: die Zahl, die im Datenblatt nicht steht
 
 - **Round-Trip** ist nicht eine Zahl, sondern eine Kurve. HTW misst Entladewirkungsgrade von **98,0 %** bei guten Systemen oberhalb 900 W [Q18] — aber im Einfamilienhaus wird abends und nachts mit **100–150 W** entladen. Dort bricht die Effizienz ein: bei einem weniger effizienten Hybridwechselrichter müssen **186 W aus der Batterie** kommen, damit **100 W** im Haus ankommen — das sind **54 %** [Q18].
 - **Planungszahl:** Finanztip rechnet mit **85 % Gesamteffizienz des Speichersystems** [Q15]. Das ist realistischer als jede Datenblattzahl und Deckungsgleich mit der HTW-Kurve bei realistischer Last.
 - **Standby-Verluste** sind ein eigener Posten: HTW beziffert sie bei einem System mit **2,8 Prozentpunkten** — mehr als die Umwandlungsverluste mancher Wettbewerber [Q17].
+- **Lade- und Entladeverluste 10 bis 20 % je Zyklus:** der Strom aus dem Speicher muss also mindestens 10–20 % günstiger eingekauft werden als der Bezug im Moment der Entnahme — sonst ist die Verschiebung ein Nullsummenspiel.
 
 **Konsequenz:** Jede kWh, die durch den Speicher geht, kostet dich rund **15 %** plus die entgangene Einspeisevergütung. Bei 7,70 ct/kWh Einspeisung und 30 ct/kWh Bezugspreis ist das immer noch ein gutes Geschäft — aber nur, wenn der Speicher nicht zu groß ist und nicht den ganzen Tag im Standby hängt.
 
@@ -168,10 +175,12 @@ Rechenbeispiel der HTW: **10 kWp + 4.000 kWh/a → höchstens 6 kWh** nutzbar. G
 
 - **Saisonspeicherung ist ausgeschlossen:** „eine saisonale Speicherung von Strom … lässt sich auch mit einem sehr großen – unwirtschaftlichen – Batteriespeicher nicht umsetzen" [Q11]. November bis Februar liefert die PV zu wenig [Q11].
 - **Ersatzstrom kostet Aufpreis und Planung** (Umschaltbox, getrennter Netzpunkt, Potentialtrennung). Er ist eine **Komfort- und Sicherheitsentscheidung**, keine Wirtschaftlichkeitsentscheidung — und muss beim Kauf des Wechselrichters mitentschieden werden, weil er später oft nicht nachrüstbar ist (bei Fronius per Software-Upgrade „UP.storage" teilweise doch [Q27]).
+- **Notstromreserve einplanen:** soll der Speicher im Ausfall Licht und Kühlschrank tragen, dimensioniere ihn **20–30 %** größer — das ist Reserve, keine Rendite.
 
 ### 3.4 Garantie, Lebensdauer, Zyklen
 
 - **Lebensdauer:** Module „länger als 20 bis 30 Jahre", Speicher **10 bis 15 Jahre** [Q11]. Finanztip nennt Produktgarantien von typisch **10 Jahren** und dieselbe Lebensdauer-Erwartung [Q15].
+- **Geräte verschwinden vom Markt:** Wechselrichter- und Speichermodelle werden abgekündigt; Ersatz und Erweiterung nach fünf Jahren können teuer oder unmöglich sein. Bei der Auswahl auf Stückzahlen und Herstellerservice achten, nicht nur auf den Datenblattpreis.
 - **Alterung ist nicht linear:** „Eine Batterie altert am Anfang also langsam, später aber schneller" [Q11]. Ein Speicher, der nach 12 Jahren 70 % Kapazität hat, ist am Ende seiner Nutzungsdauer — nicht bei 0 %.
 - **Zyklenzahlen** sind Marketing, solange die Garantiebedingungen sie mit Restkapazität, Temperaturfenster und Nachweisverfahren verknüpfen. Vergleiche **Garantiedauer + garantierte Restkapazität + Durchsatzkriterium**, nicht die Zyklenzahl im Prospekt. Die geprüften Herstellerdatenblätter (BYD, Huawei) waren zum Prüfzeitpunkt nicht abrufbar bzw. nicht im Volltext lesbar — siehe §12.
 - **Hoher Ladezustand schadet:** „ein lang anhaltender hoher Ladezustand" ist ungünstig; ideal ist, dass die Batterie nachmittags voll wird und bis zum Morgen „wieder größtenteils entladen" ist [Q11]. Ein zu großer Speicher erzeugt genau den schädlichen Dauerzustand „zwischen halb voll und voll" [Q11].
@@ -358,6 +367,8 @@ MaStRV § 5 Abs. 5 (Volltext) [Q10]: Registrierungen müssen „**innerhalb eine
 
 **Eigene Rechnung** — die Autarkiegrade sind von der 5-kWp-Referenz auf 10 kWp/6.400 kWh übertragen, nicht simuliert. Wer es genau will, rechnet mit dem Unabhängigkeitsrechner der HTW Berlin [Q17].
 
+**Börsenpreis ist nicht Bezugspreis:** auf Börsenstrompreise kommen in Deutschland nach der Rechnung des Video-Gegenchecks **20 bis 25 Cent** Steuern und Netzentgelte obendrauf — wer mit Börsenpreisen kalkuliert, rechnet am realen Bezugspreis vorbei (Größenordnung, keine Tarifauskunft).
+
 ### 7.2 Die Rechnung
 
 **Jahreskosten ohne PV:** 6.400 kWh × 0,30 €/kWh = **1.920 €**
@@ -533,6 +544,7 @@ Was hier **nicht** steht, weil ich es nicht mit einer prüfbaren Quelle belegen 
 9. **Normen im Volltext.** DIN VDE 0100-443/-534 (Überspannungsschutz), DIN VDE 0100-722 (Ladeinfrastruktur) und DIN VDE 0298-4 (Strombelastbarkeit) sind kostenpflichtig. Belegt sind hier nur **Nummer, Gegenstand und die zitierende Fachquelle** (Q26, Q28) — **keine Volltextzitate**.
 10. **Nachfolge-EEG ab 2027.** Belegt ist nur, dass die Vergütung zum 01.08.2026 gesenkt wurde und das Nachfolge-EEG „aktuell noch nicht beschlossen" ist [Q13]. **Wer 2027 in Betrieb nimmt, plant gegen eine Rechtslage, die es noch nicht gibt.**
 11. **Toter Link, offen ausgewiesen:** Die BNetzA-Übersichtsseite `…/EEG_Foerderung/start.html` war während der Recherche abrufbar (Tabelle 7,70/6,66/5,44 und 12,22/10,24) und lieferte bei der Endprüfung am 09.11.2026 **HTTP 404**. Die Sätze in diesem Playbook stammen deshalb aus der **xlsx-Datei** [Q5] und der **Archivseite** [Q4] — beide 200. Die Aussage ist damit weiter belegt, die ursprüngliche Fundstelle ist tot.
+12. **Zusätzliche Speicher-Faustformeln** (0,5–2 kWh je kWp; Verbrauch geteilt durch 500 bis 800) und der Aufschlag von **20–25 ct** auf Börsenpreise stammen aus dem Video-Gegencheck; eine eigene Quelle liegt dafür nicht vor. Auslegungsgrundlage bleiben die HTW-Grenzen [Q19].
 
 ---
 
@@ -567,27 +579,3 @@ Was hier **nicht** steht, weil ich es nicht mit einer prüfbaren Quelle belegen 
 ---
 
 *Verwandte Playbooks: `elektro.md` (Zählerschrank, FI, Querschnitt, NAV-Grenze), `heizung-lueftung.md` (Wärmepumpe, Heizstab, GEG), `kosten-bauzeit.md` (Angebotsvergleich, Nachträge), `recht-renovierung.md` (Denkmalschutz, Nachbarrecht, Gerüst).*
-## Ergänzungen aus dem Video-Gegencheck (09.11.2026)
-
-- **Zweite Speicher-Faustformel** (neben 1,5 kWh je 1.000 kWh Verbrauch): **0,5 kWh bis 2 kWh je kWp**
-  Anlagenleistung. Bei 10 kWp also 5–20 kWh — die Spanne ist bewusst weit, weil Notstromwunsch und
-  Fahrprofil sie verschieben. Eine dritte Rechnung aus demselben Video: Jahresverbrauch **durch 500 bis
-  durch 800** teilen (7.000 kWh → 8,75 kWh bei /800).
-- **Bruttokapazität und Nettokapazität** sind zwei verschiedene Zahlen im Datenblatt: brutto ist die Zellkapazität,
-  netto das, was der Wechselrichter nutzbar entlässt. Wer Preise vergleicht, vergleicht **netto**.
-- **Lade- und Entladeverluste 10 bis 20 %** je Zyklus: der Strom aus dem Speicher muss also mindestens 10–20 %
-  günstiger eingekauft werden als der Bezug im Moment der Entnahme — sonst ist die Verschiebung ein
-  Nullsummenspiel.
-- **Netzentgelte und Steuern nicht vergessen**: auf Börsenstrompreise kommen in Deutschland nach der
-  Rechnung des Videos **20 bis 25 Cent** Steuern und Netzentgelte obendrauf — wer mit Börsenpreisen
-  rechnet, rechnet am realen Bezugspreis vorbei (Größenordnung, keine Tarifauskunft).
-- **Notstromreserve**: wenn der Speicher im Ausfall Licht und Kühlschrank tragen soll, **20–30 %** größer
-  dimensionieren — das ist Reserve, keine Rendite.
-- **Entladeleistung ist das Nadelöhre**, nicht die Kapazität: ein 22-kW-Auto an einer 22-kW-Wallbox braucht
-  rund **25 kW** AC-Ausgangsleistung am Wechselrichter, sonst kommt der Rest aus dem Netz. Kleine
-  Wechselrichter begrenzen auch die spätere **Speichererweiterung**.
-- **Geräte verschwinden vom Markt**: Wechselrichter- und Speichermodelle werden abgekündigt, Ersatz und
-  Erweiterung nach fünf Jahren können teuer oder unmöglich sein — bei der Auswahl auf Stückzahlen und
-  Herstellerservice achten, nicht nur auf den Datenblattpreis.
-- **Wechselrichter-Wirkungsgrad 96 bis 98 Prozent** im guten Lastbereich; unter **0,3** der Bemessungsleistung fällt
-  er sichtbar ab — deshalb nicht maßlos überdimensionieren, aber auch nicht unter die Wallbox-Last gehen.
