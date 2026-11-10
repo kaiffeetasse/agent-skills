@@ -9,11 +9,12 @@
 - **Mieten statt kaufen:** Stemmhammer ~44 €/Tag, M-Sauger ~39 €/Tag — rechnet sich ab wenigen Tagen.
 - **Asbest:** vor 31.10.1993 beproben; Entsorgung regional z. B. **135 €/t**, Anlieferung nur zu Terminen.
 - **Schutz:** Gehör, Augen, Atem — und nie allein auf einer Leiter mit Werkzeug in der Hand.
+- **Prüfen statt glauben:** Schutzklasse am Gerät ablesen (kein Symbol = SK I), Sichtprüfung vor jedem Einsatz, Spannungsprüfer **vor und nach** dem Benutzen testen.
 
 
 **Zielgruppe:** Eigenheimbesitzer, die selbst renovieren (Rückbau, Trockenbau, Fliesen, Maler, Elektro-Vorbereitung).
 **Stand:** 09.11.2026. Alle Preise sind Stichtags-Preise (brutto, wenn nicht anders vermerkt) und als **Band** zu lesen,
-nicht als Festpreis. Quellennummern [Q1]–[Q34] am Ende, jede Zahl ist dort zugeordnet.
+nicht als Festpreis. Quellennummern [Q1]–[Q42] am Ende, jede Zahl ist dort zugeordnet.
 
 ---
 
@@ -195,6 +196,21 @@ Die BG BAU bezuschusst M-Entstauber über ihre Arbeitsschutzprämie — ein L-Sa
 **Praxis-Konsequenz:** Ein 30-€-Werkstattsauger ist kein Baustellensauger. M-Klasse-Geräte kosten 600–950 € [Q26],
 mieten 37–39 €/Tag [Q24]. Für ein Projekt: mieten.
 
+### 3.1a Der Grenzwert, gegen den abgesaugt wird (TRGS 900)
+
+Die Staubklasse des Saugers ist die halbe Antwort; die andere Hälfte ist die Frage, **welcher Wert** eigentlich einzuhalten ist. In der TRGS 900 steht dafür der **Allgemeine Staubgrenzwert (ASGW)**: Der AGW für die alveolengängige Fraktion wurde am **14.02.2014 auf 1,25 mg/m³** abgesenkt, der Wert für die einatembare Fraktion blieb bei **10 mg/m³** [Q36].
+
+| Fraktion | Arbeitsplatzgrenzwert (AGW) | Überschreitungsfaktor für Spitzen | Quelle |
+|---|---|---|---|
+| **A-Staub** (alveolengängig, lungengängig) | **1,25 mg/m³** | kein Kurzzeitwert; rechnerisch max. Faktor **8** (viermal 15 min) | [Q36] |
+| **E-Staub** (einatembar, gesamt) | **10 mg/m³** | Faktor **2** für 15 Minuten je Schicht | [Q36] |
+
+Beide Werte gelten als **Schichtmittelwert** und für **schwer lösliche bzw. unlösliche Stäube, die nicht anderweitig reguliert sind, oder für Mischstäube** [Q36]. Genau das ist Baustaub: Gips, Zement, Kalk, Ziegelmehl, Fliesenkleber — ein Mischstaub ohne eigenen Stoffgrenzwert.
+
+**Warum diese Zahl die Praxis ändert:** 1,25 mg/m³ A-Staub ist so wenig, dass man es mit bloßem Auge nicht sieht — ein sichtbarer Staubschleier liegt Größenordnungen darüber. Und weil der A-Staub-Grenzwert **keinen eigenen Kurzzeitwert** hat, lässt sich eine Spitze nicht „ausgleichen": viermal 15 Minuten mit dem Achtfachen des Werts und die Schicht ist rechnerisch voll [Q36]. Für den Heimwerker heißt das nicht, dass er Messungen braucht — es heißt, dass **Absaugung an der Maschine** die einzige Maßnahme ist, die den Wert überhaupt in Reichweite bringt. Maske, Lüftung und hinterher kehren sind Nachsorge.
+
+**Was der ASGW nicht abdeckt:** Quarzfeinstaub, Fasern (KMF, Asbest) und stoffspezifische Grenzwerte haben eigene Regelungen [Q36]; für Asbest gilt ohnehin keine Expositionsgrenze als Freigabe (§3.3). Wer bei „1,25 mg/m³" aufhört zu lesen, hat die Hälfte der Geschichte.
+
 ### 3.2 FFP-Masken — welche, wofür
 
 | Klasse | Abscheideleistung | Schutz bis | Einsatz |
@@ -325,7 +341,21 @@ danach war das Haus staubig). [Q32]
   Kaution 150 €. [Q26]
 - **Gerüst nie auf weichem Untergrund, nie ohne Fußplatten, nie ohne Verankerung an der Fassade.**
 
-### 4.4 Elektrowerkzeug im Bad und Wasser + Strom
+### 4.4 Elektrowerkzeug: Schutzklassen, Schutzart und Wasser
+
+**Die Schutzklasse steht auf jedem Gerät — oder sie steht nicht drauf, und dann ist sie I.** Das ist die einzige Regel, die man sich merken muss, denn die Klasse bestimmt, was man prüfen kann und was nicht [Q37][Q38]:
+
+| Klasse | Kennzeichen | Schutzprinzip | Prüf-Konsequenz |
+|---|---|---|---|
+| **I** | **kein Symbol** | Basisisolierung **plus Schutzleiteranschluss** an allen berührbaren leitfähigen Teilen | Schutzleiterwiderstand messen: bei Leitungen bis 5 m und ≤ 16 A **≤ 0,3 Ω**, je weitere 7,5 m **+0,1 Ω**, **max. 1 Ω** [Q37] |
+| **II** | **Doppelquadrat** | doppelte oder verstärkte Isolierung; ein Schutzleiter darf in der Leitung liegen, darf aber **nicht** mit berührbaren Teilen verbunden sein | Isolationswiderstand **≥ 2 MΩ** [Q37] |
+| **III** | **Symbol Dreieck im Kreis** | ausschließlich **SELV**, max. **AC 50 V / DC 120 V**, üblich 24 V oder 42 V; Körper nicht mit PE verbunden | Isolationswiderstand **≥ 0,25 MΩ** [Q37] |
+
+**Wichtig für den Werkzeugkauf:** „Elektrohandwerkzeuge sind heute üblicherweise in Schutzklasse II ausgeführt" [Q37] — die Bohrmaschine mit Kunststoffgehäuse ohne Schutzleiterkontakt ist also kein Mangel, sondern SK II. Umgekehrt gilt: **Akkugeräte werden den Schutzklassen I, II oder III gar nicht zugeordnet**; geprüft wird das **Ladegerät**, und das ist SK I oder SK II [Q37].
+
+Zur Einordnung, weil beide Quellen dasselbe sagen und es trotzdem oft falsch zitiert wird: Die Schutzklasse sagt **nichts über die Qualität** des Schutzes — die Schutzmaßnahmen der Klassen I, II und III gelten als **gleichwertig**; nur „Schutzklasse 0" (keine Schutzmaßnahme) ist eine Aussage über einen Mangel. Und sie sagt nicht, welche Prüfschritte nötig sind: Bei modernen Geräten lässt sich von der Klasse nicht mehr eindeutig auf die Schutzmaßnahme schließen [Q38].
+
+**Die Sichtprüfung ist der erste Prüfschritt, nicht der Ersatz dafür:** Vor jeder Prüfung steht die Besichtigung auf äußerlich erkennbare Mängel und Eignung für den Einsatzbereich [Q37]. Für den Heimwerker heißt das: Kabel auf Quetschstellen, Stecker auf gebrochene Gehäuse, Gerät auf Risse — und bei einem Gerät ohne Kennzeichnung **SK I annehmen** und den Schutzleiter für selbstverständlich halten, bis das Gegenteil bewiesen ist [Q37].
 
 - **Schutzbereiche nach DIN VDE 0100-701 (Ausgabe 2025-06):**
   - Bereich 0 = Inneres von Wanne/Dusche: keine Steckdosen, keine Schalter; Leuchten nur IPX7.
@@ -335,6 +365,7 @@ danach war das Haus staubig). [Q32]
 - **RCD (FI) ≤ 30 mA** ist für die Badinstallation vorgeschrieben. [Q18]
 - **Baustellenstrom:** Verteiler mit RCD 30 mA, Kabel mit Schutzleiter, Verlängerungen für außen, keine
   Kabeltrommel abgerollt auf 90 % — Trommel ganz abwickeln (Wärme), Kabel nicht in Pfützen oder über scharfe Kanten.
+- **Länge und Querschnitt gehören zusammen:** Nach EU-Norm sind **maximal 25 m** Kabellänge zulässig; bei **1 mm²** ist eine Leitung bis **40 m** vertretbar, bei **2,5 mm²** bis **100 m**. Zwei Verlängerungen hintereinander zu stecken ist keine Lösung, sondern ein Spannungsabfall- und Wärmeproblem. Schutzart **IP44** heißt: gegen Fremdkörper **ab 1 mm** und gegen **Spritzwasser** geschützt — das ist die Klasse für außen, nicht IP20 aus dem Wohnzimmer [Q39].
 - **Nie** mit nassen Händen, in nasser Kleidung oder kniend im Wasser stehend an 230 V arbeiten.
 - **Vor jedem Bohren:** Leitungssucher. In Bad und Küche ist die Wahrscheinlichkeit, Wasser- oder Stromleitungen
   zu treffen, am höchsten.
@@ -375,6 +406,29 @@ danach war das Haus staubig). [Q32]
 **Keine zweckentfremdeten Maschinenkombinationen:** Kreissäge plus Akkuschrauber als Vorschub ist eine
 der häufigsten Ursachen für Handverletzungen. Vorschub nur mit dem dafür gebauten Werkzeug oder dem
 mitgelieferten Schiebestock — Herstellerangabe beachten, nicht „geht auch".
+
+### 4.8 Messgeräte: was man wirklich braucht — und was sie nicht können
+
+Drei Geräte decken fast alle Fragen am Bau ab, und alle drei werden regelmäßig überschätzt.
+
+**1. Zweipoliger Spannungsprüfer („Duspol-Klasse") — nur für Spannungsfreiheit, nicht für Messungen.**
+Die belastbaren Werte aus einer Geräteanleitung: Nennspannungsbereich **12 V bis AC/DC 1.000 V**, Überspannungskategorie **CAT IV 600 V / CAT III 1.000 V** (Leiter gegen Erde), Schutzart **IP 65**, Drehfeldprüfung **ab 400 V / 50–60 Hz**, Lastzuschaltung über Vibrationsmotor, maximale Einschaltdauer **30 s**; die Belastbarkeitsangaben lauten **230 V/30 s, 400 V/9 s, 690 V/5 s, 1.000 V/2 s** [Q40]. Die LED-Stufenanzeige zeigt einen **Bereich**, sie misst nicht [Q40].
+
+Zwei Regeln aus derselben Anleitung, die kaum jemand befolgt:
+
+- **Vor und nach jeder Benutzung Funktionsprüfung** — an einer bekannten Spannungsquelle. Ein Prüfer, der „nichts anzeigt", weil er defekt ist, ist die gefährlichste Fehlerquelle am Bau [Q40].
+- **„Keine Spannung angezeigt" ist kein Beweis.** Die Impedanz des Prüfers beeinflusst die Anzeige kapazitiv oder induktiv eingekoppelter Störspannungen: Ein niederohmiger Prüfer (< 100 kΩ) unterdrückt Störspannungen — erscheint dann keine Anzeige, ist **vor Arbeitsbeginn zu erden**; ein hochohmiger Prüfer (> 100 kΩ) kann umgekehrt Spannungsfreiheit nicht klar anzeigen [Q40]. Für den Laien heißt das: Bei „zeigt nichts" erst erden, dann anfassen.
+
+**2. CM-Gerät (Calciumcarbid) — der einzige Feuchtewert, der vor Gericht hält.**
+Eine Probe von **10–50 g** wird entnommen, gewogen, pulverisiert und mit **vier Stahlkugeln** und einer **Ampulle Calciumcarbid** in einer Stahlflasche mit Manometer geschüttelt; nach etwa **15 Minuten** stellt sich ein konstanter Druck ein, aus dem sich der Wassergehalt der Probe ablesen lässt [Q41]. Das Verfahren ist für **mineralische Baustoffe** geeignet, „unkompliziert vor Ort" und liefert „wissenschaftlich anerkannte und verlässliche Ergebnisse" [Q41]. Es ist die Methode, mit der die Belegreife von Estrich beurteilt wird (`estrich.md`), und sie ist zerstörend — man bohrt ein Loch, das hinterher wieder zu muss.
+
+**3. Elektronischer Feuchtemesser — ein Indikator, kein Nachweis.**
+Die Aussagefähigkeit elektronischer Geräte ist **begrenzt**, obwohl sie nach verschiedenen Prinzipien arbeiten: Manche legen nur auf die Oberfläche auf, andere schlagen Elektroden in die Konstruktion oder versenken sie in Bohrlöchern; angezeigt wird digital, auf Skalen oder nur als „trocken/feucht/nass" [Q42]. Daraus folgen zwei Sätze, die man auf der Baustelle braucht:
+
+- Ein hoher Messwert **an der Oberfläche** sagt „hier ist Feuchte", nicht „hier kommt Feuchte her". Für die Ursache braucht man Profil-Messungen, Salzanalyse oder ein Gutachten.
+- Wer einen Wert **dokumentieren** will (Gewährleistung, Versicherung, Kauf), nimmt CM oder eine Laborprobe — der Elektronikwert ist eine Orientierung für die eigene Entscheidung, kein Beweis gegenüber Dritten.
+
+**Wartung und Prüfung — was für Privatleute gilt:** Die DGUV Information 203-070 beschreibt die Prüfung ortsveränderlicher elektrischer Arbeitsmittel mit Sichtprüfung, Messung des Schutzleiterwiderstands, Isolationswiderstand, Schutzleiter- und Berührungsstrom und Erproben [Q37]. Sie bindet **Unternehmer**, nicht den privaten Eigentümer — aber die Prüfschritte sind auch privat die richtige Reihenfolge: **erst schauen, dann messen, dann benutzen.** Wer ein gebrauchtes Gerät kauft oder eines aus dem Nachlass übernimmt, sollte es von einer Elektrofachkraft durchmessen lassen; das kostet weniger als ein neues Gerät und deutlich weniger als ein Unfall. Und: Ein Verlängerungskabel mit aufgerollter Trommel wird heiß, weil die Wärme nicht abgegeben wird — Trommel **immer ganz abwickeln**, auch bei kurzen Arbeiten [Q39].
 
 ---
 
@@ -512,7 +566,7 @@ Holzschutzmittel) 186 €/t. [Q21]
 | 3 | **Leiter statt Gerüst** | Über 2 m Standhöhe ist die Leiter kein regulärer Arbeitsplatz; über 5 m gar nicht [Q10] | Rollgerüst (OBI 77 €/Tag) [Q26] oder Fassadengerüst vom Fachbetrieb [Q12] |
 | 4 | **Kinder/Tiere im Staub** | Feinstaub und Asbestfasern treffen kleine Körper stärker; Kontamination erfasst das ganze Haus [Q32] | Etage absperren, Türgitter, Arbeiten in Blöcken ohne Kinder im Haus |
 | 5 | **Bauschutt in den Restmüll** | Falsche Tonne = ganze Tonne Sonderentsorgung; gemischte Anlieferung wird mit der höchsten Gebühr für alles berechnet [Q21] | Sortenrein: Bauschutt / Sperrmüll / Sonderabfall / Asbest+KMF [Q21][Q2] |
-| 6 | **Werkzeug ohne Prüfung** | Kabelbruch, fehlender Schutzleiter, defekter RCD → Stromschlag; DGUV V3 bindet Unternehmer, nicht Privatleute, aber die Gefahr ist dieselbe | Vor jedem Einsatz Sichtprüfung Kabel/Stecker/Gehäuse, RCD-Test, defektes Gerät raus [Q18] |
+| 6 | **Werkzeug ohne Prüfung** | Kabelbruch, fehlender Schutzleiter, defekter RCD → Stromschlag; DGUV V3 bindet Unternehmer, nicht Privatleute, aber die Gefahr ist dieselbe | Vor jedem Einsatz Sichtprüfung Kabel/Stecker/Gehäuse, RCD-Test, defektes Gerät raus [Q18][Q37] |
 | 7 | **Fehlende Bauherrenhaftpflicht** | Nachbarhaus, Auto, Passant: drei- bis sechsstelliger Schaden aus eigener Tasche; Helfer nicht gedeckt [Q29] | Police **vor** Baubeginn, Helferklausel prüfen [Q29] |
 | 8 | **Helfer ohne Absprache** | Keine Anmeldung bei der BG BAU = Bußgeld bis 2.500 € + Regress; unversicherter Unfall trifft den Bauherrn [Q16][Q31] | Helferliste, Anmeldung, Unterweisung, unentgeltlich vs. bezahlt klar trennen [Q16][Q29] |
 
@@ -520,7 +574,7 @@ Holzschutzmittel) 186 €/t. [Q21]
 
 ## 8. Quellen
 
-Alle Quellen am 09.11.2026 abgerufen. „geprüft" = Inhalt am Originaltext gelesen, nicht nur Suchergebnis.
+Alle Quellen in diesem Abschnitt: **geprüft 09.11.2026** — abgerufen und am Originaltext gelesen, nicht nur Suchergebnis. Q37 und Q40 sind PDFs und wurden mit `pdftotext -layout` gelesen; Q38 zitiert einen Artikel, dessen Volltext hinter einer Bezahlschranke liegt — zitiert ist nur der frei lesbare Anfang (Klassendefinitionen), keine Inhalte aus dem Aboteil.
 
 | Nr. | Quelle | URL | Geprüft |
 |---|---|---|---|
@@ -559,6 +613,13 @@ Alle Quellen am 09.11.2026 abgerufen. „geprüft" = Inhalt am Originaltext gele
 | Q33 | Boels Produktseite Bohrhammer 52 mm (Art. 10506, Preis erst im Buchungsflow); Zeppelin Rental (Vermietung nur an Unternehmer § 14 BGB) | https://boels.com/de-de/mieten/bohrhammer-52-mm/p/10506 | ja |
 | Q34 | Boels, Rental Protection Plan (Mieter haftet für Schaden/Verlust/Diebstahl; Selbstbehalt 2.500 € / 5.000 €) | https://www.boels.com/de-at/rental-protection-plan | ja |
 | Q35 | DGUV Fachbereich Erste Hilfe, Erste-Hilfe-Material (DIN 13157 / DIN 13169) | https://dguv.de/fb-erstehilfe/themenfelder/erste-hilfe-material/index.jsp | ja (Snippet) |
+| Q36 | DGUV, Fachbereich Glas und Keramik, „Allgemeiner Staubgrenzwert (ASGW)" (TRGS 900: A-Staub 1,25 mg/m³ seit 14.02.2014, E-Staub 10 mg/m³, Überschreitungsfaktoren 8 bzw. 2) | https://www.dguv.de/staub-info/rechtsgrundlagen/grenzwerte/asgw/index.jsp | ja (Volltext) |
+| Q37 | DGUV Information 203-070 „Wiederkehrende Prüfungen ortsveränderlicher elektrischer Arbeitsmittel" (Schutzklassen I/II/III, Akku-Ausnahme, Sichtprüfung, Grenzwerte 0,3 Ω / 1 MΩ / 2 MΩ / 0,25 MΩ / 3,5 mA / 0,5 mA) | https://bghm.de/fileadmin/user_upload/Arbeitsschuetzer/Gesetze_Vorschriften/Informationen/203-070.pdf | ja (PDF, `pdftotext`) |
+| Q38 | Elektropraktiker, „Prüfen von Elektrogeräten – Bedeutung der Schutzklasse" (ep 3/2006), Klassenkennzeichen, „keine Kennzeichnung = SK I", Gleichwertigkeit der Schutzmaßnahmen | https://elektropraktiker.de/fachartikel/detail/pruefen-von-elektrogeraeten-bedeutung-der-schutzklasse | ja (Volltext) |
+| Q39 | OBI Magazin, „Verlängerungskabel – Tipps und Kaufberatung" (EU-Maximallänge 25 m, 1 mm² → 40 m, 2,5 mm² → 100 m, IP44, Wärmestau auf der Trommel) | https://www.obi.de/magazin/wohnen/haushaltstipps/verlaengerungskabel | ja (Volltext) |
+| Q40 | BENNING, Bedienungsanleitung „DUSPOL analog" (PDF, 02/2019): 12 V–1.000 V AC/DC, CAT IV 600 V / CAT III 1.000 V, IP 65, Drehfeld ≥ 400 V, Lastzuschaltung, 30 s Einschaltdauer, Impedanz-Hinweis zu Störspannungen | https://www.benning.de/files/benning/global_content/downloads/instruction_manuals/10065728_duspol_analog_manual.pdf | ja (PDF, `pdftotext`) |
+| Q41 | BauNetz Wissen, Glossar „CM-Messung" (Probe 10–50 g, vier Stahlkugeln, Calciumcarbid-Ampulle, ~15 min, Manometer) | https://www.baunetzwissen.de/glossar/c/cm-messung-49683 | ja (Volltext) |
+| Q42 | BauNetz Wissen, Glossar „Feuchtigkeitsmessung" (begrenzte Aussagefähigkeit, Oberflächen- vs. Elektrodenmessung, Anzeigearten) | https://www.baunetzwissen.de/glossar/f/feuchtigkeitsmessung-49669 | ja (Volltext) |
 
 **Zusatzquelle Video (nicht in der Nummerierung oben, weil nur als Anschauung):**
 GOTOOLS TV, „Achtung Gefahr! Hausstaub oder krebserregende Stoffe? Das ABC der Staubklassen und Sauger L, M und H"
@@ -588,3 +649,15 @@ musst du eine Fachfirma rufen". https://www.youtube.com/watch?v=No_fcwjUduY
   Originaltext des Abfallverzeichnisses geprüft; die Deponie bestätigt die Einstufung bei der Anlieferung.
 - **Lärmpegel einzelner Geräte** (> 100 dB(A) beim Stemmhammer) sind Erfahrungswerte aus dem Handwerksalltag,
   keine herstellerbelegten Messwerte; die gesetzlichen Auslösewerte (80/85 dB(A)) sind belegt [Q21].
+- **Der ASGW ist ein Arbeitsplatzgrenzwert.** Für private Haushalte gibt es keinen eigenen Staubgrenzwert; er
+  steht hier als **Maßstab für die Absaugung**, nicht als private Nachweispflicht. Wer ihn als „Gesetz für
+  Heimwerker" zitiert, überdehnt ihn [Q36].
+- **Prüffristen nach DGUV 203-070 gelten für Unternehmer.** Die Schrift nennt Fristen und Prüfumfang für
+  ortsveränderliche Arbeitsmittel im Betrieb [Q37]; eine „jährliche Prüfpflicht" für das eigene Bohrgerät im
+  Privathaushalt lässt sich daraus nicht ableiten. Übertragbar ist die **Reihenfolge** der Prüfschritte, nicht die Frist.
+- **Die DUSPOL-Werte (Q40) sind Gerätewerte.** Andere Spannungsprüfer haben andere Nennspannungen, andere
+  Überspannungskategorien und teils keine Lastzuschaltung — die Zahlen gelten für das Gerät in der Anleitung,
+  nicht für „einen Duspol" allgemein.
+- **Probenahme bei der CM-Messung** (Entnahmetiefe, Anzahl der Proben je Fläche, Randzonen) ist hier nicht
+  belegt; die Entnahmevorschrift steht in der Estrichnorm bzw. den Merkblättern der Klebstoffhersteller —
+  für die Belegreife gilt `estrich.md`.

@@ -9,6 +9,8 @@
 - **Maße (DIN 18065):** Auftritt **23–37 cm**, Steigung 14–20 cm; 2 × Steigung + Auftritt ≈ 59–65 cm.
   Die oft genannten 26–32 cm sind Komfortband, keine Normgrenze.
 - **Geländer:** 900 mm bis 12 m Absturzhöhe, 1100 mm darüber.
+- **Durchgangshöhe:** mindestens **2,00 m** lotrecht über jeder Stufenvorderkante — der Punkt, an dem
+  Unterzüge, Rohre und Dachschrägen eine Treppe unbrauchbar machen.
 - **Blei:** Lack vor 1989 kann Blei enthalten — nicht schleifen, sondern abbeizen.
 
 
@@ -55,6 +57,33 @@ Gültige Ausgabe: **DIN 18065:2020-08 „Gebäudetreppen – Begriffe, Messregel
 
 **Schrittmaßregel:** 2 × Steigung + Auftritt = **59 bis 65 cm**, Mittel 63 cm [Q1][Q3]. Beispiele (gerechnet): 17/29 → 63; 17,5/26 → 61; 18/27 → 63; 19/26 → 64; 20/23 → 63; 14/37 → 65.
 
+**Die Norm verlangt die Regel, nicht nur das Band:** Die DIN 18065 fordert unter Punkt **6.1.2** ausdrücklich,
+dass „das Steigungsverhältnis mit Hilfe der Schrittmaßregel geplant werden muss". Daneben stehen zwei weitere
+Formeln, die je eine andere Eigenschaft abbilden: die **Bequemlichkeitsregel** (Auftritt − Steigung =
+**120 mm**, anwendbar bei flach geneigten Treppen um 30°) und die **Sicherheitsregel** (Auftritt + Steigung =
+**460 mm**, zielt auf das Herabsteigen). Wer alle drei einhält, landet bei dem „als sehr angenehm empfundenen
+Steigungsverhältnis" von **170 mm Steigung und 290 mm Auftritt** — „Treppen mit diesen Maßen bergen die
+geringste Unfallgefahr"
+[BauNetz: Steigungsverhältnis](https://baunetzwissen.de/treppen/fachwissen/planungsgrundlagen/steigungsverhaeltnis-167510)
+(geprüft 09.11.2026).
+
+**Neigungsspektren als Realitätscheck für den Bestand** (dieselbe Quelle): Treppen in öffentlichen Gebäuden
+**20–30°**, Wohnungs- und Wohnhaustreppen **30–41°**, Keller- und Bodentreppen **bis 45°**, Leiter- und
+Raumspartreppen **45–75°**. Eine ausgelatschte Bestandstreppe mit 45° ist also keine „Wohnhaustreppe mit
+Charakter", sondern in der Neigung eine Bodentreppe — und der Unterschied ist der Grund, warum sie sich steil
+anfühlt.
+
+**Podeste — die Zahlen, die bei der Sanierung niemand prüft:** Bei **notwendigen** Treppen muss nach
+spätestens **18 Steigungen** eine Podestfläche den Lauf unterbrechen — **außer in Wohngebäuden mit bis zu
+zwei Wohnungen**. Podestlänge und -tiefe müssen mindestens der nutzbaren Treppenlaufbreite entsprechen; die
+Podesttiefe sollte dem Schrittmaß **zuzüglich einer Auftrittsbreite** entsprechen. Die DIN 18065 legt als
+Mindestmaß fest: **80 cm bzw. 2,5 × a** in Wohnhäusern mit bis zu zwei Wohnungen, **100 cm bzw. 3 × a** in
+sonstigen Gebäuden. Schlägt eine Tür in Richtung Treppe auf, muss das Podest mindestens so tief sein wie die
+Tür breit
+[BauNetz: Podest](https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/podest-167520)
+(geprüft 09.11.2026). Praktisch relevant beim Ausbau eines Zwischenpodests oder wenn ein nachträglicher
+Durchbruch die Podesttiefe verkürzt.
+
 **Wichtig gegen ein verbreitetes Missverständnis:** Die oft genannten „Auftritt 26–32 cm" sind **keine Normgrenze**, sondern ein Komfortband. Die Norm erlaubt bei notwendigen Treppen 26–37 cm, in Wohnungen hinunter bis 23 cm [Q1][Q3]. Umgekehrt garantiert die Schrittmaßregel allein nichts: 20/23 erfüllt sie (63 cm) und ist mit 41,0° steil; 14/37 erfüllt sie (65 cm) und ist mit 20,7° flach wie eine Rampe. Erst die Kombination aus Schrittmaß **und** den Min/Max-Grenzen ergibt eine begehbare Treppe.
 
 ### 1.3 Baujahr und Blei — die Frage vor jedem Schleifen
@@ -77,6 +106,29 @@ Konsequenz: Bei Baujahr vor ca. 1990 ist die Farbe **bis zum Gegenbeweis bleihal
 3. **Fugen Tritt/Setzstufe:** offene Fugen = Bewegung; Risse an der Stufennahe = Bruchgefahr.
 4. **Feuchte:** Kellerauflager, Außenwand, Hausschwamm — erst Feuchte klären, dann Holz.
 5. **Fotos + Skizze + Tabelle** mit allen s/a. Das ist später die Grundlage für jedes Angebot.
+
+### 1.6 Der Treppentyp entscheidet, was reparierbar ist
+
+Wer vor einer alten Holztreppe steht, sieht zuerst die Stufe. Was man reparieren kann, hängt aber am
+**Unterbesteck** — und davon gibt es im Bestand drei Formen
+[bauhandwerk: Historische Holztreppen richtig reparieren](https://www.bauhandwerk.de/artikel/bhw_Historische_Holztreppen-richtig-reparieren-1283190.html)
+(geprüft 09.11.2026):
+
+| Typ | Konstruktion | Wo man sie findet | Folge für die Sanierung |
+|---|---|---|---|
+| **eingeschoben** | zwei Wangen mit **20–30 mm** tiefen Nuten, Trittstufen von vorn auf Grat eingeschoben, Wangen über Zapfen oder lange Treppenschrauben verbunden | „nur für untergeordnete Zwecke als Keller- oder Bodentreppe" | **keine Setzstufen** — der Trick „Setzstufe bekleben" aus 2.5 fällt weg; Knarzen sitzt in der Nut, nicht in einer Schraube |
+| **eingestemmt** | Wandwange (mit **Bankeisen** an der Wand, unten in eine Blockstufe eingelassen, oben an Podestbalken/Krümmling/Hängepfosten mit Klauen oder Zapfen) und Freiwange; Trittstufe Hartholz, Vorderkante profiliert, springt **rund 4 cm** vor, Setzstufen **etwa 2 cm** | „in Wohngebäuden am häufigsten eingebaut" | Stufentausch nur durch Aufstemmen der Wange; der **Verbund der Trittstufen untereinander** trägt die Steifigkeit — wer ihn löst, bekommt eine schwingende Treppe |
+| **aufgesattelt** | Auflager aus den Wangen ausgeschnitten, Trittstufe liegt direkt auf; Wangen dadurch „stark geschwächt", Last trägt nur das Unterbesteck; Trittstufen von oben mit **zwei Holzschrauben** | repräsentative Aufgänge | Stufe ist von oben lösbar (gut), aber die Wange ist die Schwachstelle — nie ohne Blick auf die Ausklinkungen verstärken |
+
+**Material, das man im Bestand erwarten darf:** Wangen und Stufen aus **Kiefer/Fichte**, Trittstufen und
+Krümmlinge aus **Eiche**, Geländerstäbe und Handläufe aus Ahorn, Eiche, Kiefer, Fichte oder Harthölzern wie
+Birke, Buche, Pflaume und Mahagoni; Geländerstäbe saßen in einem **etwa 30 mm** tiefen Loch und waren
+verleimt (dieselbe Quelle). Das erklärt, warum ein „Eichentritt" auf einer Fichtenwange nichts über die
+Tragfähigkeit der Wange sagt.
+
+**Die eine Frage, die man vor jedem Angebot stellt:** „Ist die Stufe eingeschoben, eingestemmt oder
+aufgesattelt?" Wer sie nicht beantworten kann, bekommt ein Angebot für Streichen — und später die Rechnung
+für eine neue Treppe.
 
 ---
 
@@ -299,6 +351,15 @@ Im Einfamilienhaus fehlt die Trennsituation Wohnung gegen Wohnung, um die es in 
 | ≤ 12 m | **900 mm** | 1.000 mm |
 | > 12 m | **1.100 mm** | 1.100 mm |
 
+**Ab wann überhaupt ein Geländer nötig ist:** Die Landesbauordnungen schreiben Geländer „auf den freien
+Seiten von Treppenläufen, -absätzen und -öffnungen (Treppenaugen)" vor — und zwar **auch für Ebenen mit einer
+Absturzhöhe ab einem Meter**. Geländer sind dabei nicht nur Absturzsicherung, sondern nehmen auch seitliche
+Belastungen auf, die durch Anlehnen entstehen
+[BauNetz: Geländer](https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/gelaender-167516)
+(geprüft 09.11.2026). Für den Bestand heißt das: Ein offener Podest oder ein Treppenauge ohne Geländer ist
+kein Gestaltungselement, sondern eine offene Absturzkante — auch dann, wenn niemand die Treppe selbst
+umbaute.
+
 **Öffnungen und Abstände** [Q2][Q4]:
 - lichter Abstand von Geländerteilen in einer Richtung **max. 12 cm** (Schutz vor Durchstürzen/Durchklettern von Kleinkindern),
 - Geländer über dem Treppenlauf: Unterkante so, dass ein **Würfel mit 15 cm Kantenlänge** nicht durchgeschoben werden kann,
@@ -311,6 +372,37 @@ Im Einfamilienhaus fehlt die Trennsituation Wohnung gegen Wohnung, um die es in 
 - Seitenabstand zur Wand **mindestens 5 cm**,
 - an freien Seiten durchgehend über den ganzen Lauf, Enden so, dass man nicht hängen bleibt,
 - „Treppen mit mehr als vier Stufen müssen einen Handlauf haben" — im Bestand ist der zweite Handlauf oft das günstigste Sicherheits-Upgrade.
+
+**Widerspruch bei der Handlaufhöhe — nicht gemittelt:** BauNetz zitiert die DIN 18065 mit „zwischen **80 und
+115 cm**", die DIN 18040 mit **85–90 cm**, und zusätzlich eine zu greifende Breite des Handlaufs von **2,5 bis
+6 cm** sowie für öffentliche Bereiche **3–4,5 cm** Durchmesser
+[BauNetz: Handlauf](https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/handlauf-167534)
+(geprüft 09.11.2026). Die 112 cm stammen aus [Q2], die 115 cm aus der Normzitat-Wiedergabe bei BauNetz —
+**beide Werte stehen hier nebeneinander**, weil sich aus den Quellen nicht entscheiden lässt, welche Ausgabe
+zitiert wurde. Für die Praxis ist die Untergrenze die kritische: 80 cm ist Minimum, 90 cm der bequeme Wert,
+und alles über 100 cm ist für kleine Personen zu hoch.
+
+**Widerspruch bei der Stufenzahl — und er ist praktisch relevant:** Die MBO fordert einen Handlauf für
+„Treppen, also Folgen von **mindestens drei Stufen**" (BauNetz: Handlauf, geprüft 09.11.2026), während [Q2]
+„mehr als vier Stufen" nennt. Für eine Dreistufentreppe im Bestand ist das der Unterschied zwischen „Pflicht"
+und „nicht erforderlich" — beide Angaben bleiben stehen, die MBO-Formulierung ist die strengere.
+
+**Weitere Handlauf-Maße, die im Bestand nachgerüstet werden** (dieselbe Quelle): Die DIN 18040 verlangt
+Durchführung **durchlaufend** über Treppenaugen, Zwischenpodeste, Fenster und Heizflächen und eine
+Fortführung **mindestens 30 cm** über das Treppenende mit Rundung zur Wand oder nach unten. In Wohnbauten
+mit bis zu zwei Wohnungen dürfen Handläufe im Wendelungsbereich **unterbrochen** sein — bei notwendigen
+Treppen muss der lichte Abstand der Unterbrechung dann **5–20 cm** betragen, der Höhenversatz an der
+Oberkante **maximal 20 cm**, und der von unten kommende Handlauf darf nicht oberhalb des weiterführenden
+liegen.
+
+**Durchgangshöhe (Lichtraumprofil) — die Zahl, die beim Dachausbau und bei Unterzügen kippt:** Die lichte
+Durchgangshöhe muss **mindestens 2,00 m** betragen, gemessen **lotrecht von der Vorderkante einer beliebigen
+Stufe nach oben**. Sie darf nicht durch Stufenkanten des darüber liegenden Treppenlaufs, im Treppenraum
+hängende Rohre und Leuchten oder durch Balken, Träger und sonstige Konstruktionsteile eingeschränkt werden
+[BauNetz: Lichtraumprofil](https://www.baunetzwissen.de/glossar/l/lichtraumprofil-48193) (geprüft
+09.11.2026). In der Breite gilt dasselbe: Einbauten, die in die geforderte Treppenlaufbreite eingreifen,
+sind unzulässig — ein nachträglich gesetztes Geländer oder eine Vorsatzschale kann die nutzbare Breite
+also unter das Maß drücken, ohne dass die Treppe selbst angefasst wurde.
 
 **Geltung — der Punkt, den viele falsch annehmen:** DIN 18065 ist in den meisten Bundesländern in der Liste der technischen Baubestimmungen und damit öffentlich-rechtlich eingeführt; **in mehreren Ländern sind Treppen in Gebäuden mit bis zu zwei Wohnungen und innerhalb einer Wohnung von der Verbindlichkeit ausgenommen** [Q4]. Daraus folgt nicht „ist egal": Im Schadensfall wird geprüft, ob die Treppe den anerkannten Regeln der Technik entsprach — und das ist die DIN. **Bestandsschutz** gilt nur, solange die Situation zur Bauzeit rechtmäßig war, die Nutzung gleich bleibt und keine erhebliche Gefahr vorliegt; bauliche Änderungen, Nutzungsänderung oder verbrauchte Substanz beenden ihn [Q4].
 
@@ -508,6 +600,14 @@ Belegtes DIY-Beispiel: eine Geschosstreppe (Baujahr 1930, Teppich + Ochsenblut +
 - [Q38] fliesenlegung.de, „Kosten beim Treppe Fliesen" (47 €/lfm inkl. Altbelag, 25 €/lfm ohne): https://fliesenlegung.de/kosten-treppe-fliesen/ — **200**
 - [Q39] treppe-einbauen.de, „Handlauf Kosten" (25–40 €/m PVC, 50–130 €/m Edelstahl, Montage 15–30 €/m): https://treppe-einbauen.de/handlauf-kosten/ — **200**
 
+**Fachportale — am 09.11.2026 einzeln per `curl -skL --compressed -H 'Accept-Language: de-DE'` geprüft**
+- [Q40] BauNetz Wissen, „Steigungsverhältnis" (DIN 18065 Punkt 6.1.2, Bequemlichkeitsregel 120 mm, Sicherheitsregel 460 mm, 170/290, Neigungsspektren 20–75°): https://baunetzwissen.de/treppen/fachwissen/planungsgrundlagen/steigungsverhaeltnis-167510 — **200**
+- [Q41] BauNetz Wissen, „Podest" (18 Steigungen, Ausnahme ≤ 2 WE, Podesttiefe 80 cm/2,5 a bzw. 100 cm/3 a, Türbreite): https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/podest-167520 — **200**
+- [Q42] BauNetz Wissen, „Handlauf" (MBO: mindestens drei Stufen, 80–115 cm, Griffbreite 2,5–6 cm, DIN 18040 3–4,5 cm/85–90 cm, 30 cm Fortführung, Unterbrechung 5–20 cm): https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/handlauf-167534 — **200**
+- [Q43] BauNetz Wissen, „Lichtraumprofil" (lichte Durchgangshöhe 2,00 m, lotrecht ab Stufenvorderkante, keine Einbauten): https://www.baunetzwissen.de/glossar/l/lichtraumprofil-48193 — **200**
+- [Q44] bauhandwerk, „Historische Holztreppen richtig reparieren" (drei Grundformen, Nuten 20–30 mm, Trittstufe 4 cm Überstand, Setzstufe 2 cm, Bankeisen, Holzarten, Geländerstab im 30-mm-Loch): https://www.bauhandwerk.de/artikel/bhw_Historische_Holztreppen-richtig-reparieren-1283190.html — **200**
+- [Q45] BauNetz Wissen, „Geländer" (Geländerpflicht ab 1 m Absturzhöhe, Treppenauge, seitliche Belastungen): https://www.baunetzwissen.de/treppen/fachwissen/treppenelemente/gelaender-167516 — **200**
+
 **Foren / Community**
 - [Q25] fachwerk.de, „Riss in Treppen kleben (mit Bildern)" (1-mm-Riss durch Trittstufe an der Nase, Bruchangst): https://www.fachwerk.de/threads/riss-in-treppen-kleben-mit-bildern.236155 — **200**
 - [Q26] Reddit r/Handwerker, „Treppe ‚entknarren' — Versuch mit Schrauben erfolgreich aber unschön" (Forstner + Stopfen, kein Zugang von unten): https://www.reddit.com/r/Handwerker/comments/1hjw6r3/treppe_entknarren_versuch_mit_schrauben/ — **403 (Bot-Schutz)**
@@ -538,7 +638,10 @@ Belegtes DIY-Beispiel: eine Geschosstreppe (Baujahr 1930, Teppich + Ochsenblut +
 7. **Kosten 30–50 €/Stufe streichen** — aus dem Pauschalpreis 300–500 € für 10 Stufen gerechnet [Q12], nicht als Stufenpreis ausgewiesen. Bei 16 Stufen sind es 31–44 €/Stufe.
 8. **MyHammer-Preise** sind laut Portal selbst „Schätzungen, die auf Marktbeobachtung und Preisen auf MyHammer basieren… mit Hilfe von KI zusammengetragen" [Q35] — als Band brauchbar, nicht als Angebot.
 9. **DIN 18065-Geltung in „mehreren Bundesländern ausgenommen"** — TÜV SÜD nennt keine Länderliste [Q4]. Für das eigene Bundesland gilt die Landesbauordnung; im Zweifel beim Bauamt fragen.
-10. **„Treppen mit mehr als vier Stufen müssen einen Handlauf haben"** — so bei treppauf.de zitiert [Q2]; die genaue Zuordnung (DIN 18065 vs. Landesrecht) ist aus der Quelle nicht eindeutig. Im Bestand ist der Handlauf ohnehin die günstigste Sicherheitsmaßnahme.
+10. **„Treppen mit mehr als vier Stufen müssen einen Handlauf haben"** — so bei treppauf.de zitiert [Q2]. Die
+    MBO-Formulierung lautet „Folgen von mindestens drei Stufen" (BauNetz: Handlauf, geprüft 09.11.2026, siehe
+    Abschnitt 5). Beide Angaben stehen nebeneinander; für den Bestand gilt die strengere, weil sie im
+    Schadensfall zitiert wird. Im Übrigen ist der Handlauf ohnehin die günstigste Sicherheitsmaßnahme.
 
 ---
 

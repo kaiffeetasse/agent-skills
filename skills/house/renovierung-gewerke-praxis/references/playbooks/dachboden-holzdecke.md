@@ -4,7 +4,7 @@
 > regional verschieden, keine Angebote. Wer später damit rechnet, prüft sie neu.
 
 Stand: 09.11.2026 · Zielgruppe: Eigenheimbesitzer · Alle Preise brutto, alle Maße in mm, wenn nicht anders
-angegeben. Quellen sind mit `[Q1]`…`[Q30]` nummeriert und am Ende mit URL und HTTP-Status geprüft.
+angegeben. Quellen sind mit `[Q1]`…`[Q41]` nummeriert und am Ende mit URL und HTTP-Status geprüft.
 
 ## 0. Kurzantwort
 
@@ -95,9 +95,19 @@ Zwei Konsequenzen für die Planung:
   Wohnungen **80 cm**, Steigung **140–200 mm**, Auftritt **230–370 mm**; Steigungsverhältnis nach
   Schrittmaßregel **2s + a = 59–65 cm** [Q5]. Ein Istmaß darf vom Sollmaß um nicht mehr als 5 mm abweichen
   (Ausnahme Wohngebäude) [Q5].
-- **Fenster als zweiter Rettungsweg:** HORNBACH nennt als übliche Mindestgröße **90 × 120 cm** und verweist
-  für die Brüstungshöhe auf die jeweilige Landesbauordnung [Q23]. Das ist eine Praxisangabe aus einem
-  Hersteller-Video, keine Normzahl — die verbindliche Größe steht in der LBO.
+- **Fenster als zweiter Rettungsweg — mit Normzahl:** „Fenster, die als Rettungswege … dienen, müssen im
+  Lichten mindestens **0,90 m × 1,20 m** groß und **nicht höher als 1,20 m über der Fußbodenoberkante**
+  angeordnet sein" — MBO **§ 37 Abs. 5**
+  [BauNetz: Anleiterbare Fenster](https://www.baunetzwissen.de/brandschutz/fachwissen/flucht--rettungswege/anleiterbare-fenster-3143585)
+  (geprüft 09.11.2026). Einzelne Länder weichen ab: Bayern **0,60 × 1,00 m**, von innen zu öffnen.
+  Die HORNBACH-Angabe „90 × 120 cm" [Q23] trifft damit die MBO-Größe — sie war nur als Herstellerangabe
+  zitiert; verbindlich ist die LBO des Landes.
+- **Die Traufkanten-Regel, die Gauben unbrauchbar macht:** Liegen anleiterbare Fenster in Dachschrägen oder
+  Dachaufbauten, muss ihre **Unterkante oder ein davor liegender Austritt ≤ 1,00 m von der Traufkante**
+  entfernt sein (horizontal gemessen) [BauNetz: Anleiterbare Fenster] (geprüft 09.11.2026). Ein Fenster
+  mitten in einer breiten Gaube kann diese Bedingung verfehlen. Dazu kommt die Leiterbreite: Eine
+  Schiebleiter belegt bis **0,40 m** der Fensterbreite zum Aufsetzen, rund **0,40 m** müssen für die
+  Personenförderung frei bleiben.
 
 ### 2.4 Rauchmelder
 
@@ -150,6 +160,19 @@ dann Dämmung, dann Trennwände, zuletzt Boden [Q23].
    **entfallen** — aber nur, wenn das Temperaturgefälle klein bleibt und die Decke dampfoffen nach oben ist.
    Im Beispiel: 18 °C unten, 12 °C oben, Differenz 6 K, keine Kondensation zu erwarten [Q24].
 
+**Fall 2 hat eine gesetzliche Seite, die man vor der Planung klärt:** Die Nachrüstpflicht für die oberste
+Geschossdecke (U ≤ **0,24 W/(m²·K)**, Details und Ausnahmen in `daemmung.md`) gilt für **zugängliche** Decken
+beheizter Räume zum unbeheizten Dachraum. Zwei Ausnahmen sind praktisch relevant: **Erstens** sind
+Ein- und Zweifamilienhäuser ausgenommen, wenn der Eigentümer darin **seit dem 1. Februar 2002 selbst eine
+Wohnung bewohnt** — beim Eigentümerwechsel nach diesem Datum trifft den neuen Eigentümer die Pflicht
+innerhalb von **zwei Jahren**. **Zweitens** gilt nach der DIBt-Auslegung (Teil 15) bei Decken ab Baujahr
+**1969** der Mindestwärmeschutz nach **DIN 4108-2** im Regelfall als eingehalten, und bei einer bereits
+vorhandenen, durchlaufenden (nur durch Balken unterbrochenen) Dämmung wird der Einbau einer zusätzlichen
+Dämmlage als **wirtschaftlich nicht vertretbar** angesehen
+[BauNetz: Nachrüstpflicht nach GEG](https://baunetzwissen.de/bauphysik/fachwissen/waermeschutz/nachruestpflicht-nach-geg-daemmung-der-obersten-geschossdecke-4941150)
+(geprüft 09.11.2026). Praktisch heißt das: Wer den Dachboden ohnehin ausbaut, dämmt die Decke nicht „weil
+Pflicht", sondern weil er den Raum nutzen will — die Pflicht ist der kleinere Teil des Arguments.
+
 ### 4.2 Der Fehler, der in Fall 3 lauert: zwei Dampfbremsen
 
 Wenn oben auf der Geschossdecke **OSB-Platten** liegen (dampfdicht) und unten Gipskarton (dampfoffen), dann
@@ -158,7 +181,8 @@ Feuchtigkeitsproblem" [Q24]. Gleiche Falle: Folie in den Gefachen, aber am Wandb
 luftdicht „von oben" ist nach Einschätzung im Reddit-Thread realistisch nicht machbar [Q26].
 
 **Regel:** Eine Dampfbremse, ein durchgehendes Bauteil, alle Anschlüsse geklebt. Zwei Dampfbremsen übereinander
-sind keine Sicherheit, sondern eine Feuchtefalle.
+sind keine Sicherheit, sondern eine Feuchtefalle. Die einzige belegte Ausnahme — Holzfaser-Dämmung mit
+rechnerischem Glaser-Nachweis — steht in 4.5.
 
 ### 4.3 Durchdringungen
 
@@ -172,6 +196,53 @@ Die Begriffe werden synonym benutzt, sind es aber nicht: „Dampfbremse" ist dif
 sd-Wert), „Dampfsperre" nahezu diffusionsdicht. Welcher Wert zulässig ist, ergibt sich aus dem
 Tauwasser-Nachweis nach **DIN 4108-3:2024-03** (Feuchteschutz) für den konkreten Aufbau — nicht aus dem
 Datenblatt allein. Die Norm ist kostenpflichtig; Nummer und Ausgabe sind belegt, der Inhalt nicht zitiert.
+
+### 4.5 Die belegte Ausnahme: wann die Dampfbremse entfallen darf
+
+Bis hierher gilt: eine Dampfbremse, durchgehend, geklebt. Es gibt aber einen dokumentierten Aufbau, in dem
+sie **nicht** eingebaut wird — und wer ihn kennt, muss nicht diskutieren, sondern nachweisen:
+
+- **Bedingung 1:** Dämmung aus **Holzfasern** (sorptiv, also feuchtepuffernd), **Bedingung 2:** die
+  raumseitige Bekleidung ist bereits **ausreichend diffusionshemmend**, **Bedingung 3:** der Nachweis wird
+  mit dem **Glaser-Verfahren** rechnerisch geführt, nachdem Bestand (Bekleidung, Sparrenhöhe) untersucht
+  wurde. Dann „kann man auf eine Dampfbremse verzichten"
+  [dach+holzbau: Dachsanierung ohne Dampfbremse](https://dach-holzbau.de/artikel/dachsanierung-ohne-dampfbremse-3762640.html)
+  (geprüft 09.11.2026).
+- **Warum das physikalisch trägt:** Bei 20 °C und 50 % relativer Feuchte enthält die Raumluft **8,7 g/m³**
+  Wasser; außen sind es bei 5 °C **5,4 g/m³**, bei −5 °C **2,7 g/m³**. Der Taupunkt liegt in diesem Fall bei
+  **9,3 °C** — fällt die Außentemperatur darunter, kondensiert Feuchte *in* der Dämmung. Genau das puffern
+  Holzfasern ab und geben die Feuchte bei steigender Temperatur wieder nach außen ab; das Fraunhofer WKI
+  hat 2021 im Schlussbericht festgehalten, dass mineralische Faserdämmstoffe und erdölbasierte Hartschäume
+  „praktisch keinerlei Feuchtigkeit innerhalb des Dämmstoffs puffern" können, Naturdämmstoffe dagegen
+  „verhältnismäßig große Mengen Feuchtigkeit zwischenpuffern" (zit. nach derselben Quelle).
+- **Der Preis dafür ist Sorgfalt, nicht Freiheit:** „Ausreichend" heißt, die Holzfaser darf nicht überfordert
+  werden — deshalb rechnerischer Nachweis statt Daumenregel. Ohne Glaser-Nachweis ist „Holzfaser braucht
+  keine Dampfbremse" kein Freibrief, sondern eine Behauptung.
+- **Der Praxisaufwand, der oft übersehen wird:** Wird von außen gedämmt und die raumseitige Bekleidung bleibt
+  stehen, muss eine Dampfbremse im **„Berg-und-Tal-Verfahren"** um die Sparren herumgeführt werden — ohne
+  Lufträume und ohne Beschädigung durch herausstehende Nägel. Das ist der Grund, warum der Verzicht auf die
+  Bahn überhaupt attraktiv ist (dieselbe Quelle).
+
+### 4.6 Gauben und Abseiten: die zwei Stellen, an denen die Dämmung endet
+
+Gauben sind der teuerste Teil eines Dachausbaus — und der, an dem die Dämmung am häufigsten aufhört.
+
+- **Formen und Zwänge:** Fledermaus-, Schlepp-, Giebel-, Walm- und Dreieckgaube; in der Höhe ist die Gaube
+  durch **Brüstungsmaß und notwendiges Raum-Innenmaß** festgelegt, in der Breite allein durch die
+  Einbaumöglichkeit in die Dachkonstruktion
+  [BauNetz: Gauben](https://www.baunetzwissen.de/glossar/g/gauben-49031) (geprüft 09.11.2026). Wer die
+  Breite zuerst zeichnet, plant gegen den Dachstuhl.
+- **Der häufigste Dämmfehler im Dachgeschoss:** „Häufig auftretende Fehler sind nicht gedämmte
+  **Gaubenwangen** und/oder **Abseiten**" — und weiter: Die Übergänge zur Dachkonstruktion müssen
+  **luftdicht hinterlüftet** sein, damit durch Kondensation oder Undichtheiten eingedrungenes Wasser
+  abgelüftet werden kann; eine wasserführende Schicht oberhalb der Dämmung (Unterspann-/Unterdeckbahn,
+  Unterdach) ist heute anerkannte Regel der Technik und muss **in die Dachrinne entwässern**
+  [BauNetz: Nachträglich Dämmen im Dachgeschoss](https://www.baunetzwissen.de/geneigtes-dach/fachwissen/dachgeschossausbau/nachtraeglich-daemmen-im-dachgeschoss-158619)
+  (geprüft 09.11.2026).
+- **Konsequenz für die Kalkulation:** Die Gaube ist kein Zuschlag zur Dachfläche, sondern ein eigener
+  Baukörper mit vier Anschlüssen (Wange links/rechts, Dachfläche oben, Traufe/Kehle). Zwei Gauben stehen in
+  der Kostenaufstellung mit **6.400–14.000 €** [Q6] — und die Wange ist die Position, die in dieser Summe
+  am ehesten fehlt.
 
 ## 5. Holzbalkendecke verstehen
 
@@ -258,6 +329,38 @@ mehr ist als Optik [Q8].
 - **Einschub** von 0 auf 20/80/120 kg/m²: L'n,w 74 → 72 → 71 → 71 dB, also **maximal 3 dB**, zwischen 80 und
   120 kg/m² nur noch marginal; Luftschall bis **7 dB** Verbesserung [Q8].
 
+**Warum Masse allein nicht wirkt — die Physik hinter der 3-dB-Grenze:** Die historische Füllung aus Lehm,
+Sand oder später Schlacke folgte der Faustregel „je höher die Rohdichte und je feinkörniger die Schüttung,
+desto besser die Luftschalldämmung". Die **Trittschalldämmung** ließ sich damit „allerdings nur geringfügig
+verbessern, da ohne federnde Entkopplung die Körperschallübertragung weitgehend ungehindert erfolgt"
+[BauNetz: Trittschalldämmung von Holzbalkendecken](https://www.baunetzwissen.de/akustik/fachwissen/decken/trittschalldaemmung-von-holzbalkendecken-10324891)
+(geprüft 09.11.2026). Der Satz erklärt, warum 5 t Schüttung 1–2 dB bringen: Nicht die Masse ist falsch,
+sondern die fehlende Trennung.
+
+**Was auf der Oberseite wirkt (und was nur gegen Luftschall):** besonders wirksam ist der **schwimmende
+Bodenaufbau** — elastisch federnde Dämmung (Holzfaser, Mineralwolle-Trittschallplatte, Kork, PE-Schaum,
+Gummigranulat) vollflächig, darüber schwimmender Estrich oder lastverteilende OSB-/Gipsfaserplatte, die
+nach **DIN 18560-2** nicht starr mit der Tragkonstruktion verbunden sein darf; **Randdämmstreifen** an allen
+aufgehenden Bauteilen verhindern Schallbrücken (dieselbe Quelle). Wo die Aufbauhöhe fehlt, nennt BauNetz die
+**biegeweiche Schale**: **40 mm** starke Betonplatten, mit Fugen auf die fugenlose Holzschalung verlegt bzw.
+kraftschlüssig verklebt, darüber Dämmlage und schwimmender Estrich
+[BauNetz: Verbesserung des Schallschutzes bei Holzbalkendecken](https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/decke-sanierung/verbesserung-des-schallschutzes-bei-holzbalkendecken-747086)
+(geprüft 09.11.2026). Die **abgehängte, entkoppelte Unterdecke** mit federnden Metall- oder Holzfederbügeln
+wirkt dagegen „vornehmlich" gegen **Luftschall** und nur in geringerem Maße gegen die Abstrahlung von
+Körperschall — wer unten abhängt und oben nichts ändert, hört den Schritt weiter.
+
+**Wenn die Aufbauhöhe das Problem ist:** Ausgleichsschüttungen nivellieren den Altboden und tragen den
+Schallschutz gleich mit. Mineralisches Porenbetongranulat wird mit **mindestens 10 mm**, maximal **100 mm**
+Schütthöhe eingebaut, ist wegen des geringen Gewichts „besonders geeignet für die Verarbeitung auf
+Holzbalkendecken unter statischen Gewichtspunkten" — bei Holzbalkendecken ist zuerst ein
+**diffusionsoffener Rieselschutz** auszulegen, darüber Trockenestrich. Für die schalltechnische
+Ertüchtigung gibt es **Waben aus Karton in 30 oder 60 mm** Höhe mit integriertem Rieselschutz, die mit
+Wabenschüttung gefüllt werden; gebundene Schüttungen schaffen **30–2000 mm** und sind nach **6 Stunden**
+begehbar, nach **24 Stunden** belegreif
+[bauhandwerk: Ausgleichsschüttungen](https://www.bauhandwerk.de/artikel/ausgleichsschuettungen-ermoeglichen-wirtschaftliche-konstruktionen-zum-schall-brand-und-waermeschutz-4138273.html)
+(geprüft 09.11.2026). Das ist der Unterschied zwischen „5 t Schlacke einfüllen" (1–2 dB) und einem
+schwimmenden Aufbau auf einer dünnen, entkoppelten Schüttung.
+
 ### 5.4 Decke abhängen — und was man dabei nicht durchbohrt
 
 **Aufbau unter einer Holzbalkendecke, der funktioniert:**
@@ -305,6 +408,18 @@ verschrauben, dazwischen im Abstand von **max. 50 cm** ein CD-Profil (oder Dachl
 - Gleiches gilt für **Waschmaschine im OG** (Unwucht + 60–80 kg + Wasser), **Klavier/Flügel**,
   **Wasserbett**, **Hantelbank** und **Kaminofen** — alles Fälle für den Tragwerksplaner, nicht für den
   Bauch [Q14][Q18].
+- **Dämmen erhöht die Last — auch die Schneelast.** Bei nachträglicher Dämmung steigen die **ständigen
+  Lasten** durch die Zusatzdämmung, „zum anderen ist mit mehr Schneelast zu rechnen, da bei einem
+  ungedämmten Dach der Schnee durch den Wärmedurchgang von innen nach außen vermutlich abgetaut wäre";
+  deshalb ist „grundsätzlich im Falle einer nachträglichen Dämmung von Dachflächen eine Überprüfung der
+  Statik sinnvoll"
+  [BauNetz: Nachrüstpflicht nach GEG](https://baunetzwissen.de/bauphysik/fachwissen/waermeschutz/nachruestpflicht-nach-geg-daemmung-der-obersten-geschossdecke-4941150)
+  (geprüft 09.11.2026). Der zweite Teil ist der, den niemand auf dem Zettel hat: Ein bisher kaltes Dach trug
+  weniger Schnee, weil ein Teil abtaute. Für die Decke heißt das: **Eigenlast nachrechnen** lassen, nicht nur
+  die Verkehrslast — zusätzliche Aufbauten aus Estrich, Schüttung oder abgehängter Decke erhöhen sie
+  (Bemessung nach **DIN EN 1995-1-1**)
+  [BauNetz: Trittschalldämmung von Holzbalkendecken](https://www.baunetzwissen.de/akustik/fachwissen/decken/trittschalldaemmung-von-holzbalkendecken-10324891)
+  (geprüft 09.11.2026).
 
 ## 6. Rauspund oder Trockenbau?
 
@@ -323,6 +438,25 @@ Rauspund verzeiht keine schiefe Unterkonstruktion, Gipskarton verzeiht sie mit S
 **Wenn Balken sichtbar bleiben sollen:** Dann wird **zwischen** den Balken beplankt (Einschub-Optik) oder die
 Decke bleibt offen und die Balken werden aufgearbeitet. Die Variante „Balken sichtbar + glatte Fläche
 dazwischen" ist die aufwendigste, weil jedes Gefach ein eigenes Maß hat.
+
+**Was „Rauspund" technisch ist — und warum der m²-Preis allein nichts sagt:** Hobeldielen sind gespundete,
+also mit Nut und Feder versehene Bretter. Handelsübliche Dicken liegen nach **DIN 4072** (Gespundete Bretter
+aus Nadelholz) zwischen **15,5 und 35,5 mm**, Sonderanfertigungen bis etwa **70 mm**; lieferbare Breiten
+**95–175 mm**, Längen **1,5–6 m**
+[BauNetz: Maße und Abmessungen von Dielen](https://www.baunetzwissen.de/boden/fachwissen/_dielen/masse-und-abmessungen-von-dielen-151772)
+(geprüft 09.11.2026). Bestellt wird über **Profilmaß** (mit Feder) oder **Deckmaß** (ohne Feder) — die
+Differenz ist die Fläche, die man verliert, wenn man das falsche Maß rechnet. Die Sichtsortierung regelt
+**DIN 68365**. Ein Angebot „Rauspund 19 mm, 16,80 €/m²" ist deshalb erst mit **Deckmaß, Länge und Sortierung**
+vergleichbar.
+
+**Verlegeregeln mit Zahl:** Der Abstand der Lagerhölzer richtet sich nach Dicke, Belastung und zulässiger
+Durchbiegung; das **Achsmaß beträgt in der Regel 50–80 cm**. Die Holzfeuchte von Brettern und Lagerhölzern
+darf **höchstens 10 %** betragen, und die Dielen sollen vorher eine Zeitlang im späteren Raum liegen. Je
+breiter die Diele, desto größer die Gefahr des Verziehens — schmalere Ware ist die sichere Wahl. Eine
+**Dehnfuge zwischen Dielenboden und Wand** ist Pflicht, verdeckt wird sie von der Sockelleiste
+[BauNetz: Untergrund und Verlegung von Dielenböden](https://www.baunetzwissen.de/boden/fachwissen/_dielen/untergrund-und-verlegung-von-dielenboeden-151774)
+(geprüft 09.11.2026). Damit ist auch die Regel von oben belegt: Rauspund verzeiht keine schiefe
+Unterkonstruktion, weil 50–80 cm Achsmaß bei 19 mm Diele keine Toleranz für Höhenversatz lassen.
 
 ## 7. Sichtbare Balken: strahlen, bürsten, lasieren
 
@@ -374,6 +508,25 @@ Nach Umweltbundesamt (Stand 16.10.2026) [Q16]:
 - **Der Gemeine Nagekäfer ist ein Materialschädling, kein Gesundheitsrisiko** — aber an tragenden Teilen kann
   er die **Tragfähigkeit gefährden** [Q16].
 
+**Es sind nicht „die Holzwürmer", sondern drei verschiedene Käfer mit drei verschiedenen Folgen** — und der
+gefährlichste ist nicht der, den man am häufigsten sieht
+[bauhandwerk: Holzzerstörende Insekten bekämpfen](https://www.bauhandwerk.de/artikel/holzzerstoerende-insekten-bekaempfen-4152876.html)
+(geprüft 09.11.2026):
+
+| Art | Erkennung | Befällt | Folge |
+|---|---|---|---|
+| **Hausbock** | Larve miniert im Mittel **3–6 Jahre**; Weibchen legt **150–200 Eier** in Risse und Fugen | **Nadelholz-Splint** (Kernholz kann die Larve nicht zerstören) | „eines der gefährlichsten holzzerstörenden Insekten in Europa", Zerstörung „über mehrere Jahre bis zum Versagen" |
+| **Gewöhnlicher/Gemeiner Nagekäfer** (*Anobium punctatum*) | **3–5 mm**, Fluglöcher **~2 mm**, Flugzeit **Mai–Juli**, Larven **2–5 Jahre** im Holz | Splint von Laub- und Nadelholz, bevorzugt **kühl und feucht**: Balkenköpfe, Keller, Nassräume, Treppenhäuser im EG | Splintschaden; an tragenden Teilen Tragfähigkeit gefährdet [Q16] |
+| **Gescheckter Nagekäfer** (*Xestobium rufovillosum*) | bis **9 mm** (etwa doppelt so groß wie *Anobium*), Fluglöcher **3–4 mm**, linsenförmige Kotpartikel im Bohrmehl | **Laubholz, das durch Pilze vorgeschädigt ist** — im Altbau also Eiche | „In Verbindung mit den Pilzschäden führt ein Käferbefall nicht selten zum **Totalverlust der Tragfähigkeit**" |
+
+*Anmerkung:* Für die Larvenzeit des Gemeinen Nagekäfers nennt das UBA „im Mittel zwei Jahre" [Q16], bauhandwerk
+„etwa 2 bis 5 Jahre". Beide Angaben stehen nebeneinander — die Spanne ist die belastbarere Planungsgröße,
+wenn man wissen will, wie lange ein Befall unbemerkt laufen kann.
+
+**Warum das für die Balkenlage zählt:** Ein Befall an Eichentram/Balkenkopf ist ein anderer Fall als ein paar
+Fluglöcher im Fichtenbrett. Wer nur „Holzwurm" sagt, hat die Art noch nicht bestimmt — und ohne Art keine
+Prognose über den Querschnittsverlust.
+
 ### 8.2 Was daraus folgt
 
 - **Schadbild allein reicht nicht.** Das UBA schreibt ausdrücklich: Bei Verdacht „sollte grundsätzlich eine
@@ -383,6 +536,26 @@ Nach Umweltbundesamt (Stand 16.10.2026) [Q16]:
 - **Tragende Teile:** Sachverständiger zur Prüfung auf statische Mängel hinzuziehen [Q16].
 - **Bekämpfung:** „sollte durch eine Fachfirma nach **DIN 68800 Teil 4** durchgeführt werden" [Q16]. Die
   allgemeinen Grundlagen des Holzschutzes stehen in **DIN 68800-1:2019-06** [Q22].
+- **Was die Fachfirma nach DIN 68800-4 zur Wahl hat — und was vorher passieren muss:** Die Norm beschreibt
+  drei Verfahren: **Holzschutzmittel**, **thermische Verfahren** und **Gase** (reaktiv oder inert). Vor jedem
+  Verfahren „muss zweifelsfrei die Aktivität der Insekten festgestellt und nachgewiesen werden. Denn nicht
+  jede perforierte Holzoberfläche bedeutet zwangsläufig einen aktiven Insektenbefall" (bauhandwerk,
+  geprüft 09.11.2026). Alte Fluglöcher sind ein Befund, kein Befall.
+- **Der Querschnitt entscheidet, nicht das Loch:** Nach Abschnitt **9.1.2** der DIN 68800-4 ist der
+  **tragfähige Restquerschnitt** zu bestimmen, und der **Tragwerksplaner** muss den
+  Standsicherheitsnachweis unter Berücksichtigung der geschädigten Bereiche neu aufstellen; Folge kann
+  Verstärkung oder Ersatzneubau sein. Genau hier endet die Eigenleistung — nicht beim Streichen des Balkens.
+- **Heißluft, mit den Zahlen der Praxis:** Erhitzte Luft **maximal 120 °C** im Objekt, Warmluftstrom etwa
+  **10.000 m³/h**; der Erfolg gilt als nachgewiesen, wenn am **thermisch ungünstigsten Punkt 55 °C über eine
+  Stunde** erreicht sind (elektronische Thermofühler). Nicht hitzebeständig und vorher zu schützen oder
+  auszubauen: **Kunststoffleitungen, elektrische Anlagen, Unterspannbahnen, beschichtete Bauteile, geklebte
+  Holzverbindungen, gipshaltige Baustoffe**. Im ausgebauten Dachboden ist das die Liste, die den Aufwand
+  bestimmt — dieselbe Quelle. Eine Heißluftbehandlung ist keine Vorbeugung; ob zusätzlich ein
+  vorbeugendes Mittel nötig ist, hängt von der Gebrauchsklasse ab.
+- **Balkenköpfe und Mauerlatten:** Für allseitig nicht zugängliche Hölzer kommt die
+  **Bohrlochdrucktränkung** (Packer) in Frage. Zugelassene Mittel sind bei der **BAuA** gelistet und mit
+  **DE-Nummer** gekennzeichnet, verkehrsfähige noch nicht zugelassene mit **N-Nummer** — ein Punkt, den man
+  im Angebot der Fachfirma abfragen kann (dieselbe Quelle).
 - **Was man selbst tun kann:** befallene Möbel/Kleinteile warm und trocken stellen (Larven sterben durch
   Trocknung ab), kleine Teile mehrstündig auf **55 °C** erhitzen, Schlupflöcher anschließend mit Wachs
   verschließen [Q16]. Das gilt für **Möbel**, nicht für die Deckenbalken des Hauses.
@@ -555,8 +728,26 @@ Unterkonstruktion, Beplankung, Spachteln, Streichen, Rauchmelder montieren, Bode
 | Q29 | dachdeckerforum.de — **nicht erreichbar** (HTTP 000, Domain antwortet nicht) | — *dachdeckerforum.de: keine Antwort am 09.11.2026 (Domain tot), Link entfernt.* | 000 (tot) |
 | Q30 | DIN 4109-1:2018-01 / DIN 4109-5:2020-08 / DIN 4109-33:2016-07 — Nummer, Titel und Ausgabe belegt über die Tabellen in [Q8] und `references/quellen.md`; Volltexte kostenpflichtig, nicht zitiert | (Beuth/DIN Media) | — |
 
-**Quellenlage, ehrlich:** Von 29 Quellen mit URL antworten **25 mit HTTP 200**, **drei mit 403**
-(Bot-Schutz, Inhalt über den Extractor gelesen: Q6, Q7, Q9), **eine ist tot** (Q29, HTTP 000). Q30 ist eine
+**Fachportale, am 09.11.2026 einzeln per `curl` geprüft (HTTP-Code in der Tabelle)**
+
+| Nr. | Quelle | Aussage im Text | URL | Status |
+|---|---|---|---|---|
+| Q31 | BauNetz Wissen, „Anleiterbare Fenster" | MBO § 37 Abs. 5: 0,90 × 1,20 m, ≤ 1,20 m über FFO; Bayern 0,60 × 1,00 m; Traufkante ≤ 1,00 m; Leiterbreite 0,40 m | https://www.baunetzwissen.de/brandschutz/fachwissen/flucht--rettungswege/anleiterbare-fenster-3143585 | 200 |
+| Q32 | BauNetz Wissen, „Nachrüstpflicht nach GEG: Dämmung der obersten Geschossdecke" | Eigenheim-Ausnahme (Eigentümerwohnung seit 1.2.2002, 2 Jahre nach Wechsel), DIBt Teil 15, Baujahr 1969, Schneelast/Statik | https://baunetzwissen.de/bauphysik/fachwissen/waermeschutz/nachruestpflicht-nach-geg-daemmung-der-obersten-geschossdecke-4941150 | 200 |
+| Q33 | BauNetz Wissen, „Nachträglich Dämmen im Dachgeschoss" | nicht gedämmte Gaubenwangen/Abseiten, luftdicht hinterlüftete Übergänge, Entwässerung der Unterspannbahn | https://www.baunetzwissen.de/geneigtes-dach/fachwissen/dachgeschossausbau/nachtraeglich-daemmen-im-dachgeschoss-158619 | 200 |
+| Q34 | BauNetz Wissen, „Gauben" (Glossar) | Gaubenformen, Höhe über Brüstungsmaß/Raum-Innenmaß, Breite über Einbaumöglichkeit | https://www.baunetzwissen.de/glossar/g/gauben-49031 | 200 |
+| Q35 | BauNetz Wissen, „Trittschalldämmung von Holzbalkendecken" | Füllung nur geringfügig wirksam ohne federnde Entkopplung, schwimmender Aufbau, Randdämmstreifen, DIN 18560-2, Unterdecke = Luftschall, DIN EN 1995-1-1 | https://www.baunetzwissen.de/akustik/fachwissen/decken/trittschalldaemmung-von-holzbalkendecken-10324891 | 200 |
+| Q36 | BauNetz Wissen, „Verbesserung des Schallschutzes bei Holzbalkendecken" | biegeweiche Schale aus 40 mm Betonplatten, Grenzen von Estrich auf Holzbalkendecke (tiefe Frequenzen) | https://www.baunetzwissen.de/bauen-im-bestand/fachwissen/decke-sanierung/verbesserung-des-schallschutzes-bei-holzbalkendecken-747086 | 200 |
+| Q37 | dach+holzbau, „Dachsanierung ohne Dampfbremse" | Holzfaser + diffusionshemmende Bekleidung + Glaser-Nachweis, Taupunkt 9,3 °C, 8,7/5,4/2,7 g/m³, WKI 2021, Berg-und-Tal-Verfahren | https://dach-holzbau.de/artikel/dachsanierung-ohne-dampfbremse-3762640.html | 200 |
+| Q38 | BauNetz Wissen, „Maße und Abmessungen von Dielen" | DIN 4072: 15,5–35,5 mm, 95–175 mm, 1,5–6 m, Profilmaß/Deckmaß, DIN 68365 | https://www.baunetzwissen.de/boden/fachwissen/_dielen/masse-und-abmessungen-von-dielen-151772 | 200 |
+| Q39 | BauNetz Wissen, „Untergrund und Verlegung von Dielenböden" | Achsmaß 50–80 cm, Holzfeuchte ≤ 10 %, Dehnfuge, Verziehen breiter Dielen | https://www.baunetzwissen.de/boden/fachwissen/_dielen/untergrund-und-verlegung-von-dielenboeden-151774 | 200 |
+| Q40 | bauhandwerk, „Holzzerstörende Insekten bekämpfen" | Hausbock 3–6 Jahre/150–200 Eier, *Anobium* 2–5 Jahre, *Xestobium* bis 9 mm, DIN 68800-4: drei Verfahren, Restquerschnitt 9.1.2, Heißluft 120 °C/10.000 m³/h/55 °C 1 h, BAuA-Nummern | https://www.bauhandwerk.de/artikel/holzzerstoerende-insekten-bekaempfen-4152876.html | 200 |
+| Q41 | bauhandwerk, „Ausgleichsschüttungen" | Schütthöhe 10–100 mm, Porenbetongranulat für Holzbalkendecken, Rieselschutz, Waben 30/60 mm, gebundene Schüttung 30–2000 mm | https://www.bauhandwerk.de/artikel/ausgleichsschuettungen-ermoeglichen-wirtschaftliche-konstruktionen-zum-schall-brand-und-waermeschutz-4138273.html | 200 |
+
+**Quellenlage, ehrlich:** Von **40 Quellen mit URL** antworten **36 mit HTTP 200**, **drei mit 403**
+(Bot-Schutz, Inhalt über den Extractor gelesen: Q6, Q7, Q9), **eine ist tot** (Q29, HTTP 000). Die elf
+Portale Q31–Q41 sind am 09.11.2026 einzeln mit `curl -skL --compressed -H 'Accept-Language: de-DE'` geprüft
+und antworteten alle mit **200**. Q30 ist eine
 Normreferenz ohne eigene URL (Beuth/DIN Media, kostenpflichtig). Das ursprünglich vorgesehene **dachdeckerforum** existiert nicht mehr;
 als Forum-Ersatz stehen bauexpertenforum (3 Threads), expertenforum-bau und fachwerk.de. Die YouTube-Quellen
 sind **automatische Untertitel (ASR)** — Zahlen daraus sind gegen die Herstellerangaben geprüft, nicht

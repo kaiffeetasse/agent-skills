@@ -249,6 +249,123 @@ körperlich eng, und der Duschvorhang ist keine Duschabtrennung — ohne feste A
 Kleberbett** einrechnen; die Wanne wird **hochgezogen an der Wand** abgedichtet — sonst steht die Fliese
 über und bildet eine scharfe Kante (zR7LyRq3G7Q-13).
 
+### 3.5 Wassereinwirkungsklassen — welche Fläche welche Klasse hat
+
+Die Klassifizierung ist keine Formalie: Aus ihr folgen der zulässige Abdichtungsstoff, die
+Mindestschichtdicke und die Frage, ob die Ausführung dokumentiert werden muss. Geltende Fassung ist
+**DIN 18534-1:2025-10** (Vorgänger 2017-07; seit 01.10.2025 gelten die neuen Anforderungen, in **W3-I
+sind nur zementäre Untergründe** zulässig — Details in `trockenbau.md`). Die Norm gilt für Boden- und
+Wandflächen in Innenräumen mit **Anstauhöhe bis 10 cm** und **nicht** für wasserabweisende Oberbeläge
+oder WU-Beton [Q31][Q32].
+
+| Klasse | Einwirkung | Beispiele im/am Bad | Folge |
+|---|---|---|---|
+| **W0-I** | gering: nicht häufiges Spritzwasser | Wandflächen im Bad **außerhalb** des Duschbereichs; Bodenflächen im häuslichen Bereich **ohne Ablauf** (Gäste-WC, Hauswirtschaftsraum) | einfachste Ausführung, Gipsuntergründe möglich |
+| **W1-I** | mäßig: häufiges Spritzwasser oder nicht häufiges Brauchwasser, ohne Anstau | **Wandflächen über der Badewanne und in der Dusche**; Bodenflächen im Bad ohne hohe Beanspruchung aus dem Duschbereich | Dispersionsabdichtung zulässig |
+| **W2-I** | hoch: häufiges Spritz-/Brauchwasser, zeitweise durch Anstau intensiviert | **Bodenfläche mit Ablauf und/oder Rinne** — die bodengleiche Dusche im häuslichen Bereich | Dispersionsabdichtung am Boden nicht mehr freigegeben [Q16], 2K-Schlämme/Reaktionsharz |
+| **W3-I** | sehr hoch: sehr häufige oder lang anhaltende Einwirkung, intensive Reinigung | Umgänge von Schwimmbecken, gewerbliche Küchen, Wäschereien | nur zementäre Untergründe, **Kontrolle der Schichtdicke verpflichtend und dokumentiert** [Q32] |
+
+**Mindesttrockenschichtdicke nach DIN 18534-3** — und die Regel, die fast alle übersehen: Ist im
+**abP/ETA** ein **größerer** Wert ausgewiesen als die Norm nennt, gilt der **größere** Wert [Q33].
+
+| Abdichtungsstoff | Mindesttrockenschicht |
+|---|---|
+| Polymerdispersion | **0,5 mm** |
+| Reaktionsharz | **1,0 mm** |
+| Kunststoff-Mörtel-Kombination / rissüberbrückende mineralische Dichtschlämme | **2,0 mm** |
+
+**Bewegung wird mitklassifiziert:** Die Norm kennt **Rissklassen R1-I bis R3-I** und **Fugentypen F1-I
+bis F3-I**; daraus ergibt sich, ob die Abdichtung rissüberbrückend sein muss [Q32]. Praktisch heißt das:
+Eine Abdichtung, die für W2-I zugelassen ist, ist nicht automatisch für einen reißenden Untergrund
+zugelassen. Für rechtwinklige Innen- und Außenecken sind **vorgefertigte Formstücke** vorgesehen; jedes
+Systemteil (Dichtband, Manschette, Klebemörtel) braucht ein **abP oder eine ETA** — unabhängig von der
+Wassereinwirkungsklasse [Q33].
+
+**Gefälle:** Die Norm legt es nicht als Prozentwert fest, sondern verlangt, dass kein Wasser stehen
+bleibt: im Regelfall **von der Tür weg zum Ablauf**, und in **W3-I** ist zusätzlich eine **Rinne im
+Türbereich** einzuplanen [Q32]. Der baupraktische Wert für die Dusche bleibt **2 %** (Abschnitt 3.4).
+
+### 3.6 Elektro-Schutzbereiche — die Maße, die über die Steckdose entscheiden
+
+Gilt nach **DIN VDE 0100-701**; die Zonen werden vom Wannenrand bzw. vom Duschplatz aus gemessen, nicht
+nach Gefühl [Q34].
+
+| Bereich | Ausdehnung | Installationsgeräte | Verbrauchsmittel |
+|---|---|---|---|
+| **0** | Inneres von Wanne/Dusche **einschließlich Wannenrand** | **keine** | nur fest angeschlossene Kleinspannung, **IP X7** |
+| **1** | über/unter der Wanne, bis **2,25 m** über Fußboden **oder** bis zum höchsten fest angebrachten Wasserauslass (der höhere Wert gilt); seitlich bis zum äußeren Wannenrand | Steckdosen nur SELV/PELV; Abzweig-/Anschlussdosen für Bereiche 0 und 2; 230-V-Leuchten nur mit **nicht auswechselbarem** Leuchtmittel | **IP X5** |
+| **2** | **0,60 m** breit ab Ende Bereich 1, ebenfalls bis 2,25 m | alle fest installierten Geräte **außer 230-V-Steckdosen** (Rasiersteckdose und SELV/PELV-Steckdosen sind Ausnahmen) | **IP X4** + Basisschutz |
+
+**Bodengleiche Dusche ohne Wanne:** Bereiche **0 und 2 entfallen**, es gilt nur **Bereich 1** — und der
+reicht als **Radius von 1,2 m** um den Duschplatz, bis 2,25 m Höhe. Bei abgemauerten Duschplätzen kommt
+das **Fadenmaß von 0,60 m** um die Mauer herum dazu (der Nutzer kann um die Ecke greifen) [Q34]. Das ist
+der Grund, warum die Steckdose „neben der Dusche" in einem sanierten Bad regelmäßig zu nah steht: Bei
+einer offenen Dusche ohne Wanne ist der Bereich größer als bei einer Duschtasse.
+
+### 3.7 Lüftung — warum ein neues Fenster das Bad nicht trockener macht
+
+**DIN 1946-6** verlangt ein **Lüftungskonzept** nicht nur im Neubau, sondern auch bei **umfangreichen
+Renovierungen**: wenn **mehr als ein Drittel der Fenster** ausgetauscht oder **mehr als ein Drittel der
+Dachfläche** abgedichtet wird [Q36]. Genau das ist der Fall, wenn im Zuge einer Badsanierung die Fenster
+mitkommen — die Fugenlüftung, die vorher „gereicht" hat, fällt weg.
+
+Die Norm arbeitet mit vier Stufen [Q36]:
+
+| Stufe | Zweck | Wer lüftet |
+|---|---|---|
+| 1 — Lüftung zum **Feuchteschutz** (FL) | Bauschutz, auch bei Abwesenheit; muss **dauerhaft und nutzerunabhängig** sichergestellt sein | niemand — passiert oder Anlage |
+| 2 — **reduzierte** Lüftung (RL) | Mindesthygiene bei reduzierter Anwesenheit | passiert oder Anlage |
+| 3 — **Nennlüftung** (NL) | Auslegungsfall bei Anwesenheit aller Nutzer | hier darf der Nutzer erstmals mitwirken (Stoßlüften) |
+| 4 — **Intensivlüftung** (IL) | Lastspitzen (Kochen, viele Personen) | Fensterlüftung einkalkuliert |
+
+**Abluftvolumenstrom Bad (Nennlüftung):** **40 m³/h** in der geltenden Ausgabe **DIN 1946-6:2019-12,
+Tabelle 16** [Q36]; die ältere Fassung 2009-11 nannte **45 m³/h** (Tabelle 7) [Q37]. Der Unterschied ist
+ein Normfassungs-Wechsel, kein Messfehler — wer eine Anlage auslegt, nimmt die Fassung, die im
+Lüftungskonzept steht.
+
+**Die Feuchtezahlen, gegen die man plant** (malerblatt, Fachredaktion): Schimmelpilze gedeihen ab **70 %
+relativer Luftfeuchte** (a_w = 0,7); dauerhaft anzustreben ist **< 60 %**. Als kritisch gilt eine
+**Oberflächentemperatur unter 12,6 °C** — der Wert steht als Mindestanforderung in **DIN 4108-2** und
+erklärt, warum Außenwandecken und Fensterleibungen zuerst schimmeln: Dort ist die Oberfläche kälter als
+im Raum, die relative Feuchte an der Wand also höher [Q38].
+
+**Konsequenz für die Planung:** Wer Fenster tauscht und die Lüftung nicht mitplant, baut die
+Feuchtequelle für den Schimmel erst ein. Entweder Fensterlüftung mit definiertem Konzept (Lüftungskonzept
+nach DIN 1946-6, Stoßlüften nach jedem Duschen) oder eine ventilatorgestützte Anlage — bei der Sanierung
+ist die dezentrale Variante die naheliegende, weil kein Luftverteilsystem verlegt werden muss [Q36].
+
+### 3.8 Schallschutz — was zwischen Wohnungen gilt und was im eigenen Bad nicht gilt
+
+**DIN 4109-1:2018-01, Tabelle 3** (Mindestschallschutz zwischen fremden Nutzungseinheiten) [Q39]:
+
+| Bauteil | Luftschall R'w | Trittschall L'n,w |
+|---|---|---|
+| Wohnungstrenndecken (auch Treppen) | **≥ 54 dB** | **≤ 50 dB** |
+| Decken unter **Bad und WC** ohne/mit Bodenentwässerung | **≥ 54 dB** | **≤ 53 dB** |
+| Wohnungstrennwände | **≥ 53 dB** | — |
+
+Zwei Dinge, die daraus folgen und in der Praxis regelmäßig falsch angenommen werden:
+
+1. **Innerhalb der eigenen Wohnung stellt die Norm keine Anforderungen** — Geräusche aus dem eigenen Bad
+   unterliegen dem eigenen Einfluss. Die 54/53 dB gelten für die **fremde** Nachbarwohnung, also im
+   Mehrfamilienhaus, nicht im Einfamilienhaus [Q39].
+2. **Bäder sind keine „schutzbedürftigen Räume"** im Sinne der Norm — geschützt werden Wohn-, Schlaf- und
+   Büroräume. Ein „Bad en suite" gilt dagegen als Aufenthaltsraum [Q39]. Wer im MFH unter einem fremden
+   Bad wohnt, profitiert also von **Zeile 10**, nicht von Zeile 2.
+
+**Konstruktiv relevant im Bad:** Wannendichtbänder gibt es als **Schallschutz-Wannendichtband** mit
+abP — sie entkoppeln die Wanne von der Wand und dichten gleichzeitig an; das ist der eine Bauteil, an dem
+Schallschutz und Abdichtung zusammenfallen [Q40]. Rohrleitungen in der Vorwand gehören mit
+schallgedämmten Schellen befestigt — sonst hört der Nachbar jedes Spülen (Praxisregel, nicht belegt).
+
+### 3.9 Vorwand: die Maße, bevor der Fliesenspiegel steht
+
+Die Vorwand ist ein Ständerwerk mit Beplankung, halbhoch (**ca. 1,20 m**) oder raumhoch, vor der Wand
+oder freistehend; sie schafft die Installationsebene für WC-Element, Armaturen und Abwasser [Q35]. Für
+die Badplanung heißt das: **Vorwandtiefe zuerst**, denn sie bestimmt die nutzbare Raumtiefe — bei 8 m²
+entscheidet sie über 90 cm Dusche oder keine. Die 12-cm-Spülkasten-Bauhöhe aus Abschnitt 3.4 gilt
+zusätzlich zur Beplankung und zur Fliesendicke.
+
 ---
 
 ## 4. Werkzeug- und Materialliste (Beispiel 8 m², 1 Bad, Dusche bodengleich)
@@ -372,12 +489,44 @@ zweimal zahlen. Der Fliesenleger im Video macht den Boden deshalb bewusst zuletz
 ### Fehler 11 — Leuchten und Steckdosen ohne passende IP-Schutzart
 **Symptom:** Leuchte oder Steckdose im Schutzbereich 0–2, ohne dass die Schutzart geprüft wurde.
 **Richtig:** Im Bereich 0–2 brauchen Leuchten und Steckdosen die passende **IP-Schutzart**
-(k3q49IW19KU-11); die Elektroplanung gehört deshalb vor den Podestaufbau (Schritt 2).
+(k3q49IW19KU-11); die Elektroplanung gehört deshalb vor den Podestaufbau (Schritt 2). Die Grenzen sind
+messbar, nicht Geschmack: Bereich 1 reicht bis **2,25 m** über Fußboden bzw. bis zum höchsten
+Wasserauslass, Bereich 2 ist **0,60 m** breit — und bei einer **bodengleichen Dusche ohne Wanne** gibt es
+nur Bereich 1 mit **1,2 m Radius** (Abschnitt 3.6) [Q34]. Eine 230-V-Steckdose im Bereich 2 ist dicht
+genug (IP X4) und trotzdem **nicht zulässig** — das ist der Punkt, an dem „wasserdicht" und „erlaubt"
+auseinanderfallen.
 
 ### Fehler 12 — Durchlauferhitzer an zweiadriger Leitung
 **Symptom:** 2-adrige Leitung ohne aufgelegten Schutzleiter, daran ein Gerät der **Schutzklasse I**.
 **Warum:** Ein Gerät der Schutzklasse I ohne PE ist nicht zulässig. **Was tun:** Ein Durchlauferhitzer
 braucht einen eigenen Stromkreis, **5-adrig** mit PE und RCD 30 mA (dW-Sf-yaEBQ 00:01:20; k3q49IW19KU).
+
+### Fehler 13 — Fenster getauscht, Lüftung nicht mitgedacht
+**Symptom:** Neue dichte Fenster im Bad, kein Lüftungskonzept, nach zwei Wintern Schimmel an der
+Außenwandecke und in der Fensterleibung.
+**Warum:** Mit dem Fenstertausch fällt die Fugenlüftung weg; bei **mehr als einem Drittel getauschter
+Fenster** verlangt **DIN 1946-6** ein Lüftungskonzept [Q36]. Schimmel braucht **70 %** relative Feuchte,
+kritisch wird es an Oberflächen **unter 12,6 °C** [Q38].
+**Was tun:** Lüftungskonzept vor der Bestellung der Fenster; Stoßlüften nach jedem Duschen ist die
+Mindestlösung, eine ventilatorgestützte Anlage die sichere.
+
+### Die häufigsten Reklamationsgründe — was der Sachverständige wirklich findet
+
+Kein „Gefälle zu flach", sondern diese Reihenfolge [Q41]:
+
+| # | Reklamationsgrund | Woran es liegt | Was man nachträglich tun kann |
+|---|---|---|---|
+| 1 | **Undichte Silikonfugen** | Silikon ist **Wartungsfuge**, keine Abdichtung; Schrumpfung, Ablösung, Schimmel | Fuge erneuern — aber nur, wenn darunter eine Abdichtung existiert |
+| 2 | **Fehlende oder mangelhafte Abdichtung** | nur gefliest statt abgedichtet; Fehlstellen an Dusche, Wanne, **Bodenablauf**, Wandübergängen | Rückbau der betroffenen Flächen, Abdichtung nach DIN 18534 nachholen |
+| 3 | **Verdeckte Wasserschäden** | Leckage an Leitung oder Armatur, Feuchte unter Fliesen und im Estrich, lange unentdeckt | Estrich öffnen, trocknen, Material tauschen |
+| 4 | **Fehlerhafte Sanierung** | alte Abdichtung nicht entfernt, ungeeignetes Material, falsch gesetzte Manschetten und Bänder | vollständiger Neuaufbau des Nassbereichs |
+| 5 | **Schimmel hinter Fliesen und in Hohlräumen** | Feuchte ohne Austrocknung, Wärmebrücke, zu geringe Lüftung | Ursache beseitigen, dann Sanierung — nicht überstreichen |
+| 6 | **Folgeschäden an tragenden Bauteilen** | langfristige Durchfeuchtung, Korrosion an Rohren und Armaturen | Statik prüfen lassen; das ist der Fall, der aus einem Bad eine Hausaufgabe macht |
+
+**Warum diese Liste zählt:** Alle sechs Punkte entstehen **hinter** der sichtbaren Oberfläche. Auf einem
+Foto des fertigen Bades ist keiner davon zu sehen — deshalb die Fotos von jeder Wand **offen** und
+**abgedichtet** (Abschnitt 8), und deshalb ist die Abdichtung der einzige Arbeitsschritt, bei dem man
+lieber einmal zu viel kontrolliert.
 
 ---
 
@@ -480,7 +629,9 @@ laut Erfahrungsbericht drei- bis fünffach so lange [Q8].
 Alle URLs am **09.11.2026** abgerufen. „Erreichbar" = HTTP 200 und Inhalt geprüft (nicht nur
 Statuscode). YouTube-Metadaten über yt-dlp, Untertitel über die automatischen deutschen Untertitel.
 30 Quellen: 6 Videos, 3 Reddit-Threads, 3 Foren-Threads (ein weiteres Forum existiert nicht mehr),
-9 Hersteller-/Fachquellen, 5 Kosten-/Planungsportale, 2 Rechts-/Schadstoffquellen.
+9 Hersteller-/Fachquellen, 5 Kosten-/Planungsportale, 2 Rechts-/Schadstoffquellen; dazu im Nachtrag
+**11 Fachportal-/Normbelege Q31–Q41** (BauNetz 5, IKZ, Malerblatt, bauhandwerk, Pluggit, DIN-4109-Abschrift,
+Sachverständigenpraxis).
 
 ### YouTube (deutsch)
 
@@ -662,6 +813,32 @@ https://www.umweltbundesamt.de/themen/gesundheit/umwelteinfluesse-auf-den-mensch
 Nachtspeicheröfen können schwach gebundenen Asbest enthalten. Rückbau: ASI-Arbeit, Anzeige 7 Tage
 vorher (TRGS 519), Bindung auch für Privatpersonen.
 
+### Fachportale (Nachtrag 09.11.2026)
+
+**[Q31]** [BauNetz Wissen — Wassereinwirkungsklassen (Glossar)](https://www.baunetzwissen.de/glossar/w/wassereinwirkungsklassen-8432878) (geprüft 09.11.2026). Belegt: DIN 18534 gilt für Boden- und Wandflächen in Innenräumen mit **Anstauhöhe bis 10 cm**; Definition der vier Klassen **W0-I bis W3-I** im Wortlaut samt Beispielen (Wandflächen außerhalb des Duschbereichs = W0-I, Wandflächen über Wanne und in Duschen = W1-I, Bodenflächen mit Abläufen/Rinnen = W2-I, Schwimmbeckenumgänge/gewerbliche Küchen = W3-I).
+
+**[Q32]** [BauNetz Wissen — DIN 18534: Innenräume richtig abdichten](https://www.baunetzwissen.de/bauphysik/fachwissen/feuchteschutz/din-18534--innenraeume-richtig-abdichten-6975391) (geprüft 09.11.2026). Belegt: Gliederung Teil 1–6; **Mindesttrockenschicht** nach Teil 3 (Kunststoff-Mörtelkombinationen 2,0 mm, Reaktionsharze 1,0 mm, Polymerdispersionen 0,5 mm); bei **W3-I ist eine Kontrolle verpflichtend und dokumentiert**; **Rissklassen R1-I–R3-I** und **Fugentypen F1-I–F3-I**; Gefälle „von den Türen weg zum Ablauf", in W3-I **Rinne im Türbereich**; Gussasphalt max. W0-I/R2-I, AIV-B/AIV-P bis W2-I mit R1-I; gilt nicht für wasserabweisende Oberbeläge und WU-Beton.
+
+**[Q33]** [BauNetz Wissen — Verbundabdichtungen und ihre Komponenten](https://www.baunetzwissen.de/fliesen-und-platten/fachwissen/untergruende/verbundabdichtungen-und-ihre-komponenten-5504014) (geprüft 09.11.2026). Belegt: jede Systemkomponente (Dichtband, Dichtmanschette, Klebemörtel) braucht **abP oder ETA**, unabhängig von der Wassereinwirkungsklasse; „wenn im abP oder der ETA ein größerer Wert als die angegebene Mindesttrockenschichtdicke ausgewiesen ist, **gilt der größere Wert**"; für rechtwinklige Innen-/Außenecken **vorgefertigte Formstücke**; Übergänge nur noch „dehnfähig", nicht mehr mit Schlaufe.
+
+**[Q34]** [BauNetz Wissen — Elektrische Schutzbereiche im Bad](https://www.baunetzwissen.de/bad-und-sanitaer/fachwissen/elektroinstallationen/elektrische-schutzbereiche-im-bad-172830) (geprüft 09.11.2026). Belegt nach **DIN VDE 0100-701**: Bereich 0 = Inneres von Wanne/Dusche inkl. Rand, keine Installationsgeräte, Verbraucher IP X7; Bereich 1 = bis **2,25 m** bzw. höchster Wasserauslass, Verbraucher **IP X5**, 230-V-Leuchten nur mit nicht auswechselbarem Leuchtmittel; Bereich 2 = **0,60 m** breit, **IP X4**, keine 230-V-Steckdosen (Ausnahmen Rasiersteckdose, SELV/PELV); bodengleiche Dusche ohne Wanne: Bereiche 0 und 2 entfallen, Bereich 1 mit **1,2 m Radius**, bei abgemauerten Duschplätzen zusätzlich **Fadenmaß 0,60 m**.
+
+**[Q35]** [BauNetz Wissen — Vorwandinstallation](https://www.baunetzwissen.de/bad-und-sanitaer/fachwissen/wcs---urinale/vorwandinstallation-172762) (geprüft 09.11.2026). Belegt: Vorwand = Ständerwerk mit Beplankung, **halbhoch ca. 1,20 m** oder raumhoch, vor der Wand oder freistehend; halbhohe Vorwand schafft zusätzliche Ablageflächen.
+
+**[Q36]** [IKZ Haustechnik 10/2022 — Lüftungskonzept schafft Klarheit (DIN 1946-6)](https://ikz.de/fileadmin/user_upload/Lueftungskonzept_neu.pdf) (PDF, 4 S., geprüft 09.11.2026). Belegt: Lüftungskonzept ist „für den Neubau und teilweise auch für die Sanierung" Pflicht — ausgelöst, wenn **mehr als ein Drittel der Fenster** ausgetauscht oder **mehr als ein Drittel der Dachfläche** abgedichtet wird; vier Lüftungsstufen **FL / RL / NL / IL** mit Definition; Auszug **Tabelle 16 (DIN 1946-6)**: Abluftvolumenstrom Nennlüftung **Bad mit/ohne WC 40 m³/h**; dezentrale Anlage „eignet sich auch bestens für die Sanierung, da die Verlegung eines Luftverteilsystems entfällt".
+
+**[Q37]** [Pluggit — Planung einer Wohnraumlüftung nach DIN 1946-6](https://www.pluggit.it/fileserver/files/1615/913445648637513/2016_planung_einer_wohnraumlueftung_nach_din_1946_6.pdf) (PDF, 51 S., 2016; geprüft 09.11.2026). Belegt für die **ältere** Normfassung: Abluftvolumenstrom Nennlüftung **Bad mit/ohne WC 45 m³/h**, WC 25 m³/h, Küche/Kochnische 45 m³/h (DIN 1946-6, Tabelle 7). Herstellerleitfaden — die Zahlen dienen hier nur dem Fassungsvergleich zu [Q36].
+
+**[Q38]** [Malerblatt — „Wenn das Bad lebt" (Rudolf Kolb, Caparol)](https://www.malerblatt.de/technik/wenn-das-bad-lebt/) (geprüft 09.11.2026). Belegt: Schimmelpilze gedeihen ab **70 % relativer Luftfeuchte** (a_w = 0,7), dauerhaft anzustreben **< 60 %**; **Oberflächentemperatur unter 12,6 °C** gilt als besonders kritisch, der Wert findet sich in **DIN 4108-2**; betroffene Flächen sind Außenwände, Fensterleibungen und Ecken zwischen Außenwand und Decke; seit der Überarbeitung **2009** verlangt DIN 1946-6 bei Neubauten und umfangreichen Renovierungen ein Lüftungskonzept.
+
+**[Q39]** [DIN 4109-1:2018-01 — Schallschutz im Hochbau, Teil 1 (Tabelle 3)](https://bauleitplaene-mv.de/download/07_DIN%204109-1-863150.pdf) (PDF-Abschrift der Norm, geprüft 09.11.2026). Belegt: **Wohnungstrenndecken (auch Treppen) R'w ≥ 54 dB, L'n,w ≤ 50 dB**; **Decken unter Bad und WC ohne/mit Bodenentwässerung R'w ≥ 54 dB, L'n,w ≤ 53 dB**; **Wohnungstrennwände R'w ≥ 53 dB**. Zusätzlich über BauNetz [Q39b]: innerhalb der eigenen Wohnung werden **keine Anforderungen** gestellt; Bäder zählen nicht zu den schutzbedürftigen Räumen, „Bad en suite" dagegen als Aufenthaltsraum.
+
+**[Q39b]** [BauNetz Wissen — Mindestschallschutz nach DIN 4109-1:2018](https://baunetzwissen.de/bauphysik/fachwissen/schallschutz/mindestschallschutz-nach-din-4109-1-2018-6444996) (geprüft 09.11.2026). Belegt: schutzbedürftige Räume sind Wohn-, Schlaf-, Unterrichts-, Büro- und Praxisräume; „Innerhalb des eigenen Bereichs werden keine Anforderungen gestellt"; „Bad en suite" gilt als Aufenthaltsraum.
+
+**[Q40]** [bauhandwerk — Wannenabdichtung nach DIN 18534 (Peter Scharping, PCI)](https://www.bauhandwerk.de/artikel/bhw_Wichtiges_Detail_Wannenabdichtung_nach_Abdichtungsnorm_DIN_18534-3370227.html) (geprüft 09.11.2026). Belegt: **Schallschutz-Wannendichtband** (PCI Pecitape WDB) mit **abP**, geprüft im System mit den Abdichtungsprodukten; dichtet den Anschluss an Bade- und Duschwanne hinter/unter der Wanne dauerhaft ab.
+
+**[Q41]** [gutachter-knepper.de — Fehler bei Bädern und Nassräumen (ö.b.u.v. Sachverständiger)](https://gutachter-knepper.de/fehler-bei-baedern-und-nassraeumen-undichte-silikonfugen-mangelhafte-abdichtungen-verdeckte-wasserschaeden/) (geprüft 09.11.2026). Belegt: die vier Fehlergruppen (undichte Silikonfugen, fehlende/mangelhafte Abdichtung, verdeckte Wasserschäden, fehlerhafte Sanierung) und die Folgen (Schimmel hinter Fliesen, aufgequollene Estriche, Korrosion, Schäden an tragenden Bauteilen); Diagnosewege Sichtprüfung, Feuchtemessung (Darr/CM), Thermografie, Endoskopie, Leckageortung. Praxisbericht eines Sachverständigen, keine Statistik.
+
 ---
 
 ## 10. Unbelegt / offen
@@ -678,12 +855,27 @@ vorher (TRGS 519), Bindung auch für Privatpersonen.
    Einzelfallberichte [Q9][Q7] und die Zeitangabe „drei- bis fünffach" [Q8].
 5. **DIN-18534-Inhalte** sind ohne Normkauf nicht zitierfähig. Zitiert sind nur Sekundärquellen
    (info-bauleitung, Hersteller, TECE), nicht der Normtext selbst. Gleiches gilt für DIN 18040-2 —
-   die Maße stammen aus einer Herstellerzusammenfassung [Q27].
+   die Maße stammen aus einer Herstellerzusammenfassung [Q27]. Die Klassen W0-I–W3-I, die
+   Mindesttrockenschichten und die Rissklassen stehen so, wie BauNetz sie zitiert [Q31][Q32]; die
+   **Ausgabe 2025-10** der DIN 18534-1 ist nur über die Knauf-Angabe in `trockenbau.md` belegt, ihr
+   Volltext wurde nicht eingesehen.
 6. **Lebensdauer von Silikonfugen** („alle 5–10 Jahre erneuern") konnte ich nicht belegen; belegt
    ist nur, dass es Wartungsfugen sind [Q1].
 7. **„Flüssigfolie ist bei bodengleichen Duschen am Boden unzulässig"** [Q12] ist eine
    Forumsaussage. Hersteller weber.tec 822 gibt für Boden nur W1-I frei und empfiehlt für
    bodengleiche Duschen ausdrücklich das 2K-System weber.xerm 844 [Q16] — das stützt die Aussage
-   indirekt, ist aber kein Normzitat.
+   indirekt, ist aber kein Normzitat. Die Klassenzuordnung „Boden mit Ablauf = W2-I" [Q31] macht sie
+   plausibel, ersetzt aber keinen Systemfreigabe-Nachweis.
 8. **Qualifikationsnachweise** der Kanäle „Der Fliesenleger", „Hausbauen24", „Grey Element" und
    „Estrich Werke" beruhen auf Selbstauskunft/Titel, nicht auf externer Prüfung.
+9. **DIN 4109-1-Werte** stammen aus einer im Netz veröffentlichten PDF-Abschrift der Norm
+   (Beuth-Download-Wasserzeichen, [Q39]); gekauft wurde die Norm nicht. Die Werte sind gegen die
+   Sekundärdarstellung [Q39b] plausibel, ein Volltext-Zitat ist es nicht.
+10. **Schallschutz-Forderungen für das Bad** beziehen sich auf **fremde** Nutzungseinheiten. Für das
+    Einfamilienhaus gibt es keine normative Anforderung — die Aussage „Bad braucht 54 dB" ist deshalb
+    falsch, auch wenn sie oft so zitiert wird [Q39b].
+11. **Abluftvolumenstrom Bad**: 40 m³/h [Q36] und 45 m³/h [Q37] beschreiben **verschiedene
+    Normfassungen** (2019-12 vs. 2009-11). Welche gilt, entscheidet das Lüftungskonzept des Planers;
+    hier ist keine Zahl „die richtige".
+12. **Praxisregel ohne Beleg:** schallgedämmte Rohrschellen in der Vorwand (Abschnitt 3.8) stehen als
+    Erfahrungswert im Text, nicht als Normforderung.

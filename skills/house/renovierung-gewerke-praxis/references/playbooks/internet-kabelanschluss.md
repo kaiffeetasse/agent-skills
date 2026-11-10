@@ -73,6 +73,24 @@ Nach dem HÜP **muss** ein **rückkanalfähiger Hausanschlussverstärker** vorha
 
 **Pegel ist nicht alles:** Ein sauberer Pegel sagt nichts über Schräglage, Entkopplung und Rückweg. Deshalb wird mit Messgerät eingepegelt, nicht mit dem Multimeter [Q26].
 
+#### Das Pegelbudget — rechnen statt schätzen
+
+Der Sollpegel an der Dose ist keine Zahl, die man einstellt, sondern das **Ergebnis** aus Verstärkerausgang minus aller Verluste davor. Alle Posten sind bekannt, also lässt sich das Budget vor dem Kauf rechnen:
+
+| Posten | Wert | Quelle |
+|---|---|---|
+| Kabeldämpfung, dünnes Koax 6,6 mm (3-fach geschirmt) | **20,4 dB/100 m @ 862 MHz** = **0,204 dB/m** | AXING-Datenblatt SKB 94-01 [Q42] |
+| Kabeldämpfung, dickes BK-Kabel Ø 13,8 mm | **8,2 dB/100 m @ 800 MHz**, **9,3 dB/100 m @ 1000 MHz** | Televes-Katalog [Q43] |
+| Kabeldämpfung, dickes BK-Kabel Ø 17 mm | **5,8 dB/100 m @ 800 MHz**, **6,1 dB/100 m @ 1000 MHz** | Televes-Katalog [Q43] |
+| Auskoppeldämpfung der Multimediadose | **9 dB ± 1 dB** | AXING-Datenblatt BSD 967 [Q21] |
+| Sollpegel an der MMD | **65–68 dBµV** | Planungshilfe [Q19] |
+
+**Rechenbeispiel (eigene Rechnung aus [Q19][Q21][Q42]):** 25 m dünnes Koax (25 × 0,204 = 5,1 dB) plus 9 dB Dose verlangen am Verteiler **65 + 9 + 5,1 = 79,1 dBµV**, für die obere Pegelkante 68 dBµV entsprechend **82,1 dBµV**. Das liegt am unteren Rand des Forenmaßes „80–85 dBµV auf dem Kabel" [Q23] — zwei unabhängige Wege, dieselbe Größenordnung. Mit dem dicken Kabel (0,093 dB/m) kostet dieselbe Strecke nur **2,3 dB** statt 5,1 dB.
+
+**Die praktische Konsequenz:** Der Durchmesser entscheidet, nicht der Preis pro Meter. Zwischen 6,6 mm und 17 mm liegt bei 800–862 MHz der **Faktor 3,5** (20,4 dB/100 m bei 862 MHz gegenüber 5,8 dB/100 m bei 800 MHz) [Q42][Q43]. Wer im Altbau 30 m vom Keller bis zum Wohnzimmer überbrückt, verliert mit dünnem Kabel **6,1 dB**, mit dickem **1,7 dB** — das ist der Unterschied zwischen „Rückweg funktioniert" und „Modem synchronisiert instabil". Kleiner Haken: dickes Kabel hat einen größeren Biegeradius (Televes nennt **100 mm** für Ø 10,1 mm und **150–300 mm** für 13,8–17 mm [Q43]) und lässt sich in engen Bestandsrohren schlechter ziehen.
+
+**Ein Rechenfehler, der regelmäßig passiert:** Die Dämpfung wächst nicht linear mit der Frequenz, sondern etwa mit deren Wurzel — bei 87 MHz dämpft dasselbe Kabel 5,9 dB/100 m, bei 862 MHz 20,4 dB/100 m, also **3,5-fach bei 10-facher Frequenz** [Q42]. Deshalb ist ein Kabel, das beim TV-Empfang (bis 862 MHz) „gerade so" geht, für den Rückweg (5–204 MHz) unproblematisch, für den DOCSIS-Vorwärtskanal oberhalb von 862 MHz aber die falsche Wahl. Wer auf 1218 MHz erweitern will (DOCSIS 3.1, §2.6), muss die Dämpfung bei dieser Frequenz rechnen, nicht bei 862 MHz.
+
 ### 2.5 Multimediadose (MMD): warum die nicht wie eine TV-Dose ist
 
 Eine MMD ist eine Antennendose mit **zusätzlicher DATA-Buchse** und eingebauter Auskoppeldämpfung. Beispiel eines Herstellerdatenblatts (AXING BSD 967-09X):
@@ -105,6 +123,19 @@ Quelle: Rohde & Schwarz, Technologieübersicht DOCSIS [Q20]. Frequenzbereich in 
 **Realität vs. Datenblatt:** DOCSIS 3.1 kann theoretisch 10 Gbit/s; der beworbene Tarif „GigaZuhause CableMax 1000" liefert **1000 Mbit/s down / 50 Mbit/s up** [Q35]. Der Upload bleibt auch bei 3.1 deutlich unter dem Downstream — das ist der Punkt, an dem Kabel gegen Glasfaser verliert (Glasfaser 1.000: 500 Mbit/s Upload [Q13]).
 
 **Warum der Rückweg im Altbau zum Problem wird:** Jede Dose, jeder Verteiler und jeder Stecker im Haus liegt im Rückwegpfad. Ein alter, nicht rückkanalfähiger Verstärker oder eine Dose ohne Rückwegtauglichkeit tötet den Upload, während das TV-Bild perfekt bleibt. Deshalb: **Rückweg ist das Kriterium bei der Materialauswahl**, nicht der TV-Empfang [Q19][Q21].
+
+### 2.7 Glasfaser: GPON, XGS-PON und was am Haus ankommt
+
+Wer statt Kabel Glasfaser bekommt, bekommt keine „Leitung", sondern eine **Punkt-zu-Mehrpunkt-Strecke** mit einem passiven Splitter dazwischen. Das ist die wichtigste Tatsache, weil sie erklärt, warum die beworbene Bandbreite geteilt ist.
+
+- **Aufbau:** Die Faser endet am **ONT** (Optical Network Termination) im Haus; der wandelt optisch in elektrisch. Auf der Gegenseite steht das **OLT** im Ortsnetz, dazwischen ein **passiver optischer Splitter** ohne Stromversorgung [Q41].
+- **GPON:** eine Faser liefert **2,5 Gbit/s down und 1,25 Gbit/s up**, geteilt über einen Splitter mit in Deutschland **üblichem Faktor 1:32** — 32 Haushalte teilen sich diese Rate [Q41].
+- **XGS-PON:** **symmetrisch 10 Gbit/s**, Splitter typisch **1:64**; Übertragung im Wellenlängenmultiplex, **1577 nm abwärts, 1270 nm aufwärts** [Q41].
+- **Kein Aufrüsten durch Routertausch allein:** XGS-PON ist **nicht abwärtskompatibel zu GPON**; ein reiner GPON-Router kann am XGS-PON-Anschluss nicht arbeiten, es braucht ein XGS-PON-fähiges Gerät [Q41]. Wer heute einen 1.000-Mbit/s-Tarif an einer GPON-Strecke bestellt, bekommt also nicht automatisch Luft nach oben — die Strecke ist die Grenze, nicht der Tarif.
+- **FTTH gegen FTTB:** Bei FTTH geht die Faser bis in die Wohnung; bei FTTB endet sie am Gebäudeübergabepunkt, und die Hausverteilung teilt die ankommende Bandbreite unter den Wohnungen auf [Q41]. Für ein Einfamilienhaus ist die Unterscheidung egal, im Mehrfamilienhaus ist sie der Unterschied zwischen „eigener Anschluss" und „geteilter Hausanschluss".
+
+**Was das für die Technikwahl heißt:** Glasfaser ist kein „Kabel mit mehr Bandbreite", sondern ein anderes Medium mit eigener Hausseite. Im Haus bleibt es bei **Cat.6A/LWL** für das LAN (§7) — die Glasfaser endet am ONT, nicht an der Steckdose.
+
 
 ---
 
@@ -166,6 +197,22 @@ Dazu kommen **einmalig** die Kosten der Hausverteilanlage (Verstärker, Verteile
 - Vodafone: Tarifpreise gelten bei **eigenem** IP-fähigem Router; die Vodafone Station ist als Option buchbar, nachträgliche Aktivierung 29,99 € [Q11].
 - Nachträgliche Routerbuchung: 29,99 € Aktivierung + 9,99 € Versand, Mindestlaufzeit 6 Monate [Q11].
 - **Fachliche Konsequenz:** Ein eigenes Modem muss zum DOCSIS-Standard und zur Bandbreite passen. Bei 1000 Mbit/s braucht es DOCSIS-3.1-Hardware mit passender Kanalbündelung; ein Altgerät aus der 3.0-Ära erreicht die Bandbreite nicht. Das ist eine technische Ableitung, keine Preisaussage.
+
+### 3.5 Der Glasfaservertrag: was gilt, bevor die Leitung liegt
+
+Der Glasfaserausbau ist die Situation, in der die meisten Verbraucher einen Vertrag über eine Leistung schließen, die es noch nicht gibt. Die Verbraucherzentrale benennt die Regeln dazu ausdrücklich [Q44]:
+
+| Situation | Rechtsfolge | Quelle |
+|---|---|---|
+| Vertrag **während der Bauphase** geschlossen, Leitung noch nicht verfügbar | **kein Entgelt** — der Anbieter kann nicht leisten | [Q44] |
+| **Auftragseingangsbestätigung** erhalten | nur der Vertragswunsch ist eingegangen; man ist an das eigene Angebot gebunden, der Anbieter hat noch nicht angenommen | [Q44] |
+| **Auftragsbestätigung** erhalten | **jetzt ist der Vertrag geschlossen** | [Q44] |
+| Anbieter bestätigt nicht | angemessen sind aus Sicht der VZ **maximal 2 Wochen**; danach ist man in der Regel nicht mehr gebunden | [Q44] |
+| Widerrufsrecht | **14 Tage** ab Vertragsschluss — bei Vertrag vor Leistungsbeginn ist die Frist oft schon abgelaufen, wenn der Anschluss geschaltet wird | [Q44] |
+
+**Die Falle:** „Auftragseingangsbestätigung" und „Auftragsbestätigung" klingen gleich und sind rechtlich zwei verschiedene Dinge. Wer die erste für die zweite hält, wartet ein Jahr auf einen Anschluss, den er längst hätte kündigen können. Und wer die Bauphase mit Vertrag abwartet, zahlt in dieser Zeit nichts — aber nur, wenn er den Vertragsschluss vor Leistungsbeginn auch als solchen dokumentiert hat.
+
+**Für die Bauherrenseite:** Ein Glasfaservertrag ist kein Bauvertrag. Die Leitung im Haus (Leerrohr, Durchbruch, ONT-Standort mit Strom) ist deine Aufgabe, nicht die des Providers — und sie muss fertig sein, bevor der Techniker kommt (§9, Schritt 4–6).
 
 ---
 
@@ -289,6 +336,7 @@ Das ist die saubere Begründung: **Die Grundgebühr steht nicht mehr im Katalog 
 
 - **Latenz:** Für Endkunden gibt es keine belastbaren, vergleichbaren Messwerte in den hier geprüften Quellen. Glasfaser und Kabel liegen typischerweise im einstelligen bis niedrigen zweistelligen Millisekundenbereich, 5G und Satellit höher. **Diese Größenordnungen sind Erfahrungswerte, nicht belegt** — wer Latenz braucht (Gaming, Videokonferenz), misst am eigenen Anschluss.
 - **Upload:** Das ist der harte Unterschied. Kabel 1000 = 50 Mbit/s up [Q35], Glasfaser 1000 = 500 Mbit/s up [Q13], DSL 250 = 40 Mbit/s up [Q14]. Wer große Datenmengen hochlädt (Backup, Video, Homeoffice), merkt das täglich.
+- **Glasfaser ist ebenfalls ein geteiltes Medium.** Auch die Faser ist keine Punkt-zu-Punkt-Leitung zum Ortsnetz, sondern läuft über einen passiven Splitter: bei GPON teilen sich typisch **32 Haushalte** 2,5 Gbit/s, bei XGS-PON **64 Haushalte** 10 Gbit/s [Q41]. Der Unterschied zu Koax ist nicht „geteilt gegen ungeteilt", sondern die Größe der geteilten Ressource und die Tatsache, dass bei Glasfaser Störungen eines Teilnehmers die anderen nicht mitreißen (kein Noise Funnel, §2.6).
 - **Verfügbarkeit ist adressgenau.** Die BNetzA schreibt ausdrücklich, dass nicht jeder Anbieter an jeder Adresse leistet und es von der vorhandenen Infrastruktur abhängt (DSL, Glasfaser, Koax, Funk) [Q8]. Jede Bestellung ohne Verfügbarkeitsprüfung ist ein Glücksspiel.
 
 ### 6.1 Wann welche Technik die richtige ist
@@ -322,6 +370,14 @@ Das ist die saubere Begründung: **Die Grundgebühr steht nicht mehr im Katalog 
 
 Der Biegeradius ist der Punkt, an dem Cat.6 im Altbau stirbt: Ein Kabel, das um eine scharfe Ecke gezogen wird, hat danach eine Quetschstelle — und die fällt erst bei 10 Gbit/s auf, nicht bei 1 Gbit/s.
 
+**Was die Normen dazu sagen (und warum das Datenblatt vorgeht):** Für Datenleitungen regeln die **Herstellerangaben** den Biegeradius; fehlen sie, gilt **DIN EN 50174-2 (VDE 0800-174-2)** — Herstellerangaben haben Vorrang vor allgemeinen Normwerten, weil der zulässige Radius stark vom Leitungstyp abhängt. Für Starkstromkabel (NYY) gilt dagegen **DIN VDE 0276-603** mit **15-fachem** Durchmesser bei Einadrigkeit und **12-fachem** bei Mehradrigkeit, gemessen beim Verlegen; für Leitungen (NYM, H05VV-F) **DIN EN 50565-1** mit anderen Werten, und dort ist ein kleinerer Radius durch Erwärmen **nicht** erlaubt [Q40]. Alle diese Radien beziehen sich auf die **Innenseite** der Biegung [Q40].
+
+Wer Koax verlegt, hat es leichter und schwerer zugleich: Das dünne 6,6-mm-Kabel darf laut Datenblatt **einmalig auf 24 mm** und **mehrfach auf 68 mm** gebogen werden [Q42] — bei 30 m Weg durch drei Ecken ist das der begrenzende Faktor, nicht die Dämpfung.
+
+**Befestigung:** Waagerecht höchstens **80 cm** Abstand zwischen den Befestigungen, senkrecht höchstens **1,5 m**; vor und hinter einer Biegung sitzt eine Befestigung im Abstand von etwa **5 cm** [Q40]. Ein Kabel, das zwischen zwei Schellen durchhängt, ist keine Verlegung, sondern eine Bruchstelle auf Zeit.
+
+**LWL im Haus:** Lichtwellenleiter werden im Gebäudebereich und besonders in Wohngebäuden **selten** eingesetzt — sie dominieren im Industriebereich [Q45]. Wer „Glasfaser im Haus" plant, meint in der Praxis fast immer die Zuleitung bis zum ONT plus Kupfer danach. LWL lohnt für lange Strecken (Gartenhaus, Garage, Nebengebäude über 100 m) und für Potentialtrennung — nicht als Standard-Verkabelung im Wohnraum.
+
 ### 7.2 Leerrohre
 
 Der Netzbetreiber empfiehlt für Netzwerkkabel ausdrücklich ein **Leerrohr (z. B. M25 Weichplastikrohr)** [Q19]. Zwei Regeln dazu:
@@ -340,6 +396,8 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 | **Koax-Verteiler** | Rückweg bis **204 MHz**, Vorwärtsweg bis **1200 MHz** | [Q19] |
 | **Patchfeld** | Cat.6A, Keystone-Module, Beschriftung je Dose | Planungsregel (kein eigener Beleg) |
 | **Switch** | Ports = Dosen + Reserve; PoE-Budget für APs/Kameras einplanen | Planungsregel; PoE-Typen nach [Q29] |
+
+**Wo der Verteiler hingehört, steht in einer Norm:** **DIN EN 50173-4** (Anwendungsneutrale Kommunikationskabelanlagen — Wohnungen) verlangt eine **sternförmige Verkabelung ab einem zentralen Wohnungsverteiler** mit Multimedia-Anschlussdosen in allen Räumen; die geforderte Sternstruktur braucht eine zentrale Verteilung, realisiert in einem **Multimediaverteilerschrank** oder in einem um ein **Multimediafeld erweiterten Zählerschrank** [Q39]. Praktisch heißt das: Der Verteiler ist kein Regal im Flur, sondern ein definierter Ort mit Strom, Platz und Zugang — und jede Dose im Haus muss dort sternförmig ankommen. Wer das beim Verkabeln nicht einhält, kann es später nur mit Stemmen korrigieren.
 
 **Potentialausgleich ist keine Kür.** Nach DIN EN 60728-11 (VDE 0855-1) ist das Kabelnetz in den Schutzpotentialausgleich des Gebäudes einzubeziehen; Mindestquerschnitt **2,5 mm² Cu mechanisch geschützt / 4 mm² Cu ungeschützt** [Q22]. Ausnahme: wenn Innen- und Außenleiter **galvanisch getrennt** sind [Q22]. Das ist der technische Hintergrund von „Potentialtrennung" — sie ersetzt den Potentialausgleich nur dort, wo sie tatsächlich eingebaut ist.
 
@@ -420,7 +478,7 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 
 **Was du am Ende in der Hand halten musst:**
 1. Pegel- und Stromlaufplan der Antennenanlage [Q19]
-2. Messprotokoll mit Pegelwerten vorwärts und rückwärts
+2. **Messprotokoll mit Pegelwerten vorwärts und rückwärts** — je Dose der gemessene Wert in dBµV, dazu Datum, verwendetes Messgerät, Kabeltyp und Leitungslänge. Ohne diese vier Angaben ist ein Pegelwert in zwei Jahren nicht mehr nachvollziehbar, und genau dann braucht man ihn.
 3. Fotos von HÜP, Verstärker, Verteiler und jeder Dose (mit Maßband)
 4. Rechnungen getrennt nach Lohn und Material
 5. Vertrag mit **bestätigter** Bandbreite und Laufzeit
@@ -430,6 +488,8 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 ## 10. Quellen
 
 **Typ:** G = Gesetz/Verordnung, B = Behörde, V = Verband/Verbraucherorganisation, A = Anbieter/Netzbetreiber, N = Norm/Hersteller/Fachverlag, F = Forum/Community, Y = Video, P = Preisportal.
+
+Alle Quellen in diesem Abschnitt: **geprüft 09.11.2026** (HTTP-Abruf mit Browser-Headern plus Volltext; Prüftiefe je Zeile in der Spalte „Geprüft").
 
 | # | Quelle | Typ | Geprüft |
 |---|---|---|---|
@@ -471,15 +531,23 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 | Q36 | mein-nebenkostenrechner.de, „Nebenkostenprivileg Kabel-TV: Was bleibt umlagefähig?", https://mein-nebenkostenrechner.de/ratgeber/nebenkostenprivileg-kabelanschluss-2024 | P (Sekundärquelle) | Volltext; Abrechnungsjahr 2024 nur Januar–Juni, 2025 ff. keine Kabelgebühr, § 556 Abs. 3 BGB |
 | Q37 | nebenkostenpro.de, „Kabelgebühren Nebenkosten: noch umlagefähig?", https://nebenkostenpro.de/nebenkosten/antenne-kabel | P (Sekundärquelle) | Volltext; zitiert die Übergangsfrist irrig als „§ 230 Abs. 5 TKG" — Beleg für den Zitierfehler in §5.2 |
 | Q38 | GSW Kamen/Bönen/Bergkamen, „Hausanschluss", https://gsw-kamen.de/privatkundinnen/produkte/hausanschluss | A (Netzbetreiber) | Volltext; Hauseinführung „druckwasser- und gasdicht", Hausanschlussraum trocken/frostfrei/zugänglich nach DIN 18012 (Seite zum Wärme-Hausanschluss, Aussagen allgemein formuliert) |
+| Q39 | BauNetz Wissen, „Strukturierte Datenverkabelung und Triple Play" (Elektro/Gebäudekommunikation), https://www.baunetzwissen.de/elektro/fachwissen/gebaeudekommunikation/strukturierte-datenverkabelung-und-triple-play-152954 | N (Fachverlag) | Volltext; DIN EN 50173-4, zentraler Wohnungsverteiler, sternförmig, Multimediaverteilerschrank bzw. Multimediafeld im Zählerschrank |
+| Q40 | BauNetz Wissen, „Biegeradien bei Kabeln und Leitungen" (Elektro/Leitungen), https://www.baunetzwissen.de/elektro/fachwissen/leitungen-verteiler/biegeradien-bei-kabeln-und-leitungen-10343743 | N (Fachverlag) | Volltext; DIN VDE 0276-603 (15×/12×), DIN EN 50565-1, DIN EN 50174-2 für Datenleitungen, Befestigung 80 cm/1,5 m, 5 cm vor/nach Biegung, Innenradius |
+| Q41 | LANCOM Systems, Whitepaper „Breitbandausbau mit Glasfaser" (PDF), https://rs-nc.rohde-schwarz.com/fileadmin/download/documentation/Whitepaper/LANCOM-Whitepaper-Breitbandausbau-mit-Glasfaser.pdf | N (Hersteller) | PDF geladen, Text extrahiert; GPON 2,5/1,25 Gbit/s, Split 1:32, XGS-PON 10 Gbit/s symmetrisch, 1:64, 1577/1270 nm, ONT/OLT/Splitter, FTTH/FTTB, keine Abwärtskompatibilität |
+| Q42 | AXING, Datenblatt „SKB 94-01 Koaxialkabel, 3-fach geschirmt" (PDF), https://download.axing.com/TDs/AXING-TD_SKB-94-01_de.pdf | N (Hersteller) | PDF geladen; 5,9 dB/100 m @ 87 MHz, 20,4 @ 862 MHz, 21,8 @ 950 MHz, 33,3 @ 2200 MHz, Ø 6,60 mm, Biegeradius 24/68 mm, Schirmmaß ≥ 110 dB |
+| Q43 | Televes, Katalog „Koaxialkabel" (PDF, 16 Seiten), https://docs.televes.com/web/catalogo/pdf/10-koaxialkabel.pdf | N (Hersteller) | PDF geladen; Dämpfungstabellen: EK1672 (Ø 10,1 mm) 12,9 dB/100 m @ 800 MHz, 14,6 @ 1000 MHz; EK22102 (Ø 13,8 mm) 8,2/9,3; EK33135QKX (Ø 17 mm) 5,8/6,1; Biegeradien 100–300 mm |
+| Q44 | Verbraucherzentrale, „Glasfaseranschluss: Das müssen Sie zu Abläufen und Verträgen wissen", https://verbraucherzentrale.de/wissen/digitale-welt/mobilfunk-und-festnetz/glasfaseranschluss-das-muessen-sie-zu-ablaeufen-und-vertraegen-wissen-84389 | V | Volltext; kein Entgelt in der Bauphase, Auftragseingangs- vs. Auftragsbestätigung, 2 Wochen, 14 Tage Widerruf |
+| Q45 | BauNetz Wissen, „Datenübertragung in Smart-Home-Systemen" (Elektro/Smart Home), https://www.baunetzwissen.de/elektro/fachwissen/smart-home/datenuebertragung-in-smart-home-systemen-7043556 | N (Fachverlag) | Volltext; Medien Kabel/Funk/PLC, LWL im Wohngebäude selten, vier Frequenzbänder |
 
-**Anzahl geprüfter Quellen: 38** — 7 Gesetz (Q1–Q7), 2 Behörde (Q8, Q30), 2 Verbraucherorganisation (Q9, Q10), 9 Anbieter/Netzbetreiber (Q11–Q13, Q15–Q17, Q19, Q27, Q38), 7 Norm/Hersteller/Presse (Q18, Q20–Q22, Q29, Q31, Q32), 5 Preisportal (Q14, Q28, Q35, Q36, Q37), 4 Forum (Q23–Q26), 2 Video (Q33, Q34).
+**Anzahl geprüfter Quellen: 45** — 7 Gesetz (Q1–Q7), 2 Behörde (Q8, Q30), 3 Verbraucherorganisation (Q9, Q10, Q44), 9 Anbieter/Netzbetreiber (Q11–Q13, Q15–Q17, Q19, Q27, Q38), 13 Norm/Hersteller/Presse/Fachverlag (Q18, Q20–Q22, Q29, Q31, Q32, Q39–Q43, Q45), 5 Preisportal (Q14, Q28, Q35–Q37), 4 Forum (Q23–Q26), 2 Video (Q33, Q34).
 
 ### Prüftiefe
 
-- **Volltext gelesen und zitiert:** Q1–Q11, Q13–Q27, Q29–Q32, Q35–Q38. Q25 und Q26 sind Forenthreads von 2011 bzw. 2010 — als Praxisbeleg brauchbar, nicht als Rechts- oder Preisquelle.
+- **Volltext gelesen und zitiert:** Q1–Q11, Q13–Q27, Q29–Q32, Q35–Q45. Q25 und Q26 sind Forenthreads von 2011 bzw. 2010 — als Praxisbeleg brauchbar, nicht als Rechts- oder Preisquelle.
 - **Nur Existenz bzw. Kernaussage geprüft:** Q12 (PDF geladen, nicht zitiert), Q28 (Preisangaben aus der Seite, nicht im Volltext gegengelesen).
+- **PDF mit `pdftotext -layout` gelesen:** Q41 (LANCOM-Whitepaper), Q42 (AXING), Q43 (Televes-Katalog, 16 Seiten — die Dämpfungstabellen liegen als Spaltentabellen vor und wurden zeilenweise zugeordnet).
 - **Video:** Q33 nur Existenz und Titel; Q34 zusätzlich Untertitelauszug. Keine Zeitmarken, weil keine Transkripte vorliegen.
-- **Alle URLs am 09.11.2026 per HTTP abgerufen.** Eine ursprünglich vorgesehene Quelle (TKD-Datenblatt Cat.6) lieferte **404** und wurde durch Q29 ersetzt.
+- **Alle URLs am 09.11.2026 per HTTP abgerufen.** Eine ursprünglich vorgesehene Quelle (TKD-Datenblatt Cat.6) lieferte **404** und wurde durch Q29 ersetzt. Die AXING-Produktseite `axing.com/produkt/skb09401/` antwortet mit **404**, das **Datenblatt-PDF** (Q42) mit 200 — deshalb ist dort nur das PDF zitiert.
 
 ---
 
@@ -493,6 +561,8 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 6. **„Eigenleistung spart 50 %".** Keine Quelle. Für Koax gilt: Kabel ziehen und Dosenlöcher bohren kann man vorbereiten, aber **Anschließen und Einpegeln** ist Facharbeit — schon weil ohne Messgerät der Rückweg nicht bewertet werden kann [Q23][Q24].
 7. **Ob die Hausverteilanlage dem Eigentümer gehört.** Das hängt am Gestattungsvertrag mit dem Kabelnetzbetreiber, nicht am Gesetz. Der TKG-Text regelt den Netzabschlusspunkt, nicht das Eigentum an der NE4 [Q1]. **Vor Umbau den Vertrag lesen.**
 8. **Zwölfmonatsfrist für Einwendungen gegen die Betriebskostenabrechnung (§ 556 Abs. 3 BGB).** In dieser Recherche nur über eine Sekundärquelle [Q36] belegt, nicht am BGB-Volltext geprüft. Wer damit streitet, prüft § 556 BGB selbst.
+9. **„Koax dämpft x dB pro Meter" ist ohne Kabeltyp keine Aussage.** Belegt sind die Werte aus drei Datenblättern [Q42][Q43]; sie unterscheiden sich um **Faktor 3,5** (6,6 mm gegen 17 mm bei 800–1000 MHz). Ein Pauschalwert aus einem Forum oder Ratgeber ist keine Planungsgrundlage — der Wert gehört zum Kabel auf der Rechnung.
+10. **Glasfaser-Splitterfaktor an deiner Adresse.** Die 1:32 bzw. 1:64 sind die in Deutschland üblichen Werte [Q41]; welcher Splitter am eigenen Kabelverzweiger hängt, sagt der Netzbetreiber nicht öffentlich. Wer die erreichbare Rate vorhersagen will, fragt beim Anbieter nach der Technologie (GPON oder XGS-PON) an der Adresse.
 
 ---
 
@@ -502,7 +572,7 @@ Im 60er-Jahre-Haus ohne Leerrohr heißt das: Rohr **auf** der Wand (Kanal) oder 
 2. **Stern, nicht Baum.** Ohne Stern-/Etagensternverkabelung gibt es kein Kabel-Internet, nur Kabel-TV [Q19].
 3. **Rückweg ist das Kriterium.** Verstärker, Verteiler und Dosen müssen 204 MHz Rückweg können [Q19][Q21].
 4. **Strom und Potentialausgleich am HÜP vor dem Technikertermin.** Zwei separat abgesicherte Steckdosen, PA-Anschluss [Q19].
-5. **Einpegeln ist Messarbeit, kein Gefühl.** 65–68 dBµV an der Dose, Rückweg mit Messgerät [Q19][Q23].
+5. **Einpegeln ist Messarbeit, kein Gefühl.** 65–68 dBµV an der Dose, Rückweg mit Messgerät — das Pegelbudget (Kabeldämpfung × Länge + 9 dB Dose) vorher rechnen, nicht hinterher am Verstärker drehen [Q19][Q23][Q42].
 6. **Kein zweiter Verstärker.** Wer nachverstärkt, übersteuert und stört den Rückweg [Q24].
 7. **Cat.6A ins Leerrohr, Biegeradius 8×/4× Außendurchmesser.** 100 m Kanal, PoE über 100 m [Q29][Q32].
 8. **Nebenkostenprivileg endete am 30.6.2024.** Grundgebühren sind keine Betriebskosten mehr; Betriebsstrom und Prüfung bleiben es [Q7][Q8].

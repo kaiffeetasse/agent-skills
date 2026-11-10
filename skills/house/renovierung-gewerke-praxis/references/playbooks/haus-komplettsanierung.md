@@ -74,6 +74,26 @@ Daraus folgt die Prüfliste, **bevor** ein Angebot geschrieben wird:
 sind das unter 1 % — und es ist die einzige Position, die den teuersten Fehler verhindert: mitten in
 der Sanierung zu merken, dass man hätte abreißen sollen [Q11].
 
+**Wie eine Bestandsaufnahme aussieht, die diesen Namen verdient** (fünf Schritte, in dieser Reihenfolge):
+
+1. **Bauakten und Baujahr** — Bauamt, alte Rechnungen, Bauantrag. Das Baujahr entscheidet über die
+   Schadstofffrage (Stichtag 31.10.1993) und über die Baualtersstufe [Q16][Q21].
+2. **Raumweise Fotodokumentation mit Maßband** — jede Wand, jede Decke, jeder Anschluss. Das ist
+   gleichzeitig der Nullzustand für die spätere Beweisführung.
+3. **Sichtprüfung an den drei Stellen, an denen Schadstoffe sitzen** — Dachüberstand/Fassade, Bad
+   (Fliesenkleber, Spachtel, Bodenkleber), Heizungsrohre/Rohrisolierung [Q30][Q21].
+4. **Öffnen, nicht raten** — ein Fliesenspiegel, eine Revisionsöffnung in der Decke, eine Probe
+   Rohrisolierung. Jede Öffnung kostet dreistellig und beantwortet Fragen, die sonst vierstellig
+   nachträglich beantwortet werden (Abschnitt 6.4).
+5. **Materialprobe ins Fachlabor**, wenn der Verdacht bleibt: Asbest, **PCB, PAK** und Formaldehyd
+   lassen sich nur dort untersuchen; die Bewertung der Befunde braucht Sachkunde, deshalb ist der
+   Gebäudeschadstoff-Gutachter die richtige Rolle dafür [Q30].
+
+**Zwei Pflichten, die gern verwechselt werden:** Der **Veranlasser** (du) muss nach § 5a GefStoffV
+**informieren**; die **Gefährdungsbeurteilung** und die Materialerkundung liegen beim **ausführenden
+Unternehmen** [Q9][Q30]. Wer dem Handwerker sagt „wird schon nichts sein", hat seine Pflicht verletzt,
+auch wenn der Handwerker prüfen muss.
+
 ### 1.2 Sanieren vs. abreißen — die 75-Prozent-Regel und ihre Grenzen
 
 Die belastbarste Entscheidungsregel, die ich in den Quellen gefunden habe, stammt von einem
@@ -236,6 +256,33 @@ ausgeschöpft, Wiederaufnahme 2027 möglich) — Alternative ist der Kredit **15
 **[Setzung] Die Förder-Reihenfolge im Projekt:** Energieberater beauftragen → BzA (Bestätigung zum
 Antrag) → Finanzierungspartner → KfW-Antrag → **dann** ausschreiben. Wer erst ausschreibt und dann
 fördert, findet keinen Experten mehr, der die BzA rückwirkend unterschreibt.
+
+### 1.7 Genehmigungen — meist keine, in vier Fällen doch
+
+Eine Kernsanierung **innerhalb** der bestehenden Hülle ist Instandhaltung/Instandsetzung und damit in
+der Regel **verfahrensfrei**; eine Baugenehmigung braucht sie nicht. Genehmigungsrelevant wird es an
+vier Stellen:
+
+| Auslöser | Was passiert | Wo es steht |
+|---|---|---|
+| **Anbau, Aufstockung, neuer Wohnraum als Gebäude** | volle **Baugenehmigung** — kein verfahrensfreier Tatbestand | § 49 LBO; Tabelle in `recht-renovierung.md` |
+| **Tragende/aussteifende Wände ändern** | im Wohngebäude **GK 1/2** verfahrensfrei — aber nur **bis 7 m Höhe, max. 2 Nutzungseinheiten, max. 400 m²**; darüber Genehmigung | Anhang 1 Nr. 2a LBO; `recht-renovierung.md` |
+| **Nutzungsänderung** (z. B. Dachboden zu Wohnraum, Gewerbe zu Wohnen) | verfahrensfrei nur, wenn keine höheren Anforderungen entstehen; sonst Genehmigung | § 50 Abs. 2 LBO; `recht-renovierung.md` |
+| **Denkmal** (auch nur Fassade, auch nur Umgebung) | **eigene denkmalrechtliche Genehmigung** — zusätzlich, unabhängig vom Baurecht | §§ 8, 15 DSchG; Abschnitt 1.4 |
+
+**Drei Sätze, die man kennen muss, bevor man plant:**
+
+- **„Verfahrensfrei" heißt nicht „rechtsfrei"**: Auch verfahrensfreie Vorhaben müssen Abstandsflächen,
+  Bebauungsplan und Denkmalschutz einhalten (§ 50 Abs. 5 LBO).
+- **Baurecht ist Landesrecht.** Die Tabelle gilt so für Baden-Württemberg (LBO i. d. F. vom 16.03.2026);
+  in anderen Ländern steht dieselbe Systematik mit anderen Schwellen. Wer in einem anderen Bundesland
+  baut, liest die dortige LBO, nicht diese Zeile.
+- **Statik ist kein Genehmigungsthema, sondern ein Nachweis**: Durchbruch, Aufstockung, neue Lasten
+  brauchen einen Tragwerksnachweis — unabhängig davon, ob das Vorhaben verfahrensfrei ist. Die
+  „nicht tragende" Wand bleibt bis zum Gegenbeweis tragend (Abschnitt 1.1).
+
+**Praxisweg bei Unsicherheit:** Bauvorbescheid (§ 57 LBO) — ein schriftlicher Bescheid zu einzelnen
+Fragen, bevor Geld in die Planung geht. Details, Nachbarrecht und Versicherung: `recht-renovierung.md`.
 
 ---
 
@@ -493,7 +540,7 @@ KfW-Nachweise („Rechnungen und Nachweise über geleistete Zahlungen (Kontoausz
 | KfW 261 + KfW 458 | ja, für **verschiedene** Maßnahmen | [Q4][Q5] (getrennte Produkte, getrennte Vorhaben) |
 | KfW 261 + BEG-Einzelmaßnahmen (BAFA) | **nein**; 3 Jahre Wartezeit dazwischen | [Q4] |
 | KfW 261 + § 35c EStG | **nein** | [Q4] |
-| § 35c EStG + § 7i EStG (Denkmal) | [Setzung] steuerlich getrennt prüfen — § 35c greift nicht, wenn „es sich um eine öffentlich geförderte Maßnahme handelt, für die **zinsverbilligte Darlehen oder steuerfreie Zuschüsse** in Anspruch genommen werden" (§ 35c Abs. 3) [Q6]; § 7i ebenso [Q8] |
+| § 35c EStG + § 7i EStG (Denkmal) | [Setzung] steuerlich getrennt prüfen | § 35c greift nicht, wenn „es sich um eine öffentlich geförderte Maßnahme handelt, für die **zinsverbilligte Darlehen oder steuerfreie Zuschüsse** in Anspruch genommen werden" (§ 35c Abs. 3) [Q6]; § 7i ebenso [Q8] |
 | KfW 261 + kommunales Programm | ja, grundsätzlich kumulierbar („Kumulierung … mit anderen Fördermitteln … grundsätzlich möglich") | [Q4] |
 
 **Der Satz, der die Finanzierung rettet:** Die Förderung deckt bei einem 270.000-€-Projekt mit
@@ -644,6 +691,13 @@ Bausubstanz gerechnet werden" [Q3]; das Verbot gilt seit 1993 [Q20].
 Gebäuden durchführen lassen, um das Vorhandensein von Asbest zu klären", und die Kosten „gelten als
 besondere Leistung" [Q3] — also als vergütungspflichtige Zusatzleistung, nicht als im Preis enthalten.
 
+**Was das ausführende Unternehmen dabei tut** (bauhandwerk, Fachaufsatz): Es übernimmt die
+**Gefährdungsbeurteilung vor Tätigkeitsaufnahme**, die **systematische Materialprobenahme** und
+gegebenenfalls eine **Raumluftmessung**. Die Analytik gehört in ein **Fachlabor** mit Verfahren für
+**Asbest, PCB, PAK und Formaldehyd**; die **Bewertung** der Befunde ist „oft nur mit entsprechender
+Sach- und Fachkunde" möglich, deshalb wird ein **Gutachter für Gebäudeschadstoffe** in das Projekt
+eingebunden. Nach der Sanierung steht eine **Sanierungskontrolle** (visuell und messtechnisch) [Q30].
+
 ### 6.2 Das Ampel-Modell (seit 5.12.2024)
 
 Die novellierte GefStoffV (in Kraft **5. Dezember 2024**) hat ein risikobezogenes Maßnahmenkonzept
@@ -672,9 +726,10 @@ Aus `entkernen-entsorgung.md` und UBA [Q20] — hier nur die Übersicht, Details
 
 | Stoff | Wo | Stichtag/Erkennung |
 |---|---|---|
-| **Asbest** | Fassaden-/Dachplatten (Eternit), Putze, Spachtelmassen, Fliesenkleber, Bodenbeläge inkl. Bitumenkleber, Rohrisolierungen, Nachtspeicheröfen, Fensterkitt bis ca. 1990 | Baubeginn **vor 31.10.1993** [Q20] |
+| **Asbest** | Fassaden-/Dachplatten (Eternit), Putze, Spachtelmassen, Fliesenkleber, Bodenbeläge inkl. Bitumenkleber, Rohrisolierungen, Nachtspeicheröfen, Fensterkitt bis ca. 1990 | Baubeginn **vor 31.10.1993** [Q20][Q31] |
 | **KMF** (alte Mineralwolle) | Dämmung in Hohlräumen, Zwischensparrendämmung, Trittschalldämmung | **vor 1996 eingebaut = „alte Mineralwolle"** [Q29] |
-| **PAK** | Parkettkleber (Teerkork), Schwarzanstrich, Dachpappe | TRGS 551 „Teer und andere Pyrolyseprodukte aus organischem Material" [Q28]; Geruch nach Teer ist ein Indiz **[Setzung]** |
+| **PCB** | Fugendichtungen, Bodenbeschichtungen, Farben, elektrische Geräte (Weichmacher/Flammschutzmittel) | Baujahr **vor Oktober 1993**; Analyse nur im Fachlabor, Raumluft möglich [Q30] |
+| **PAK** | Parkettkleber (Teerkork), Schwarzanstrich, Dachpappe, Vinylplatten auf asbesthaltigem Kleber | TRGS 551 „Teer und andere Pyrolyseprodukte aus organischem Material" [Q28]; Geruch nach Teer ist ein Indiz **[Setzung]**; Analytik im Fachlabor [Q30] |
 | **Blei** | alte Lacke (Fenster, Türen, Heizkörper), Wasserleitungen | **[Setzung]** vor 1970 fast regelhaft; TRGS 505 nicht separat geprüft |
 | **Schimmel/Feuchte** | Keller, Laibungen, nach Wasserschaden | `schimmel-feuchte.md` |
 | **Holzwurm** | Dachstuhl, Balken, Dielen | `dachboden-holzdecke.md` |
@@ -1190,6 +1245,10 @@ Belegt: „Bei Mineralwolle die vor **1996** eingebaute wurde, ist davon auszuge
 Mineralwolle im Sinne dieser TRGS handelt"; seit **Juni 2000** Herstellungs- und Verwendungsverbot nach
 Anhang IV Nr. 22 GefStoffV; seit 1996 hergestellte Mineralwollen gelten als nicht biopersistent.
 
+**[Q30]** [bauhandwerk — „Der richtige Umgang mit Schadstoffen in Gebäuden mit Baujahr vor Oktober 1993"](https://www.bauhandwerk.de/artikel/der-richtige-umgang-mit-schadstoffen-in-gebaeuden-mit-baujahr-vor-oktober-1993-4211743.html) (geprüft 09.11.2026). Belegt: mit der neuen Gefahrstoffverordnung liegt die **Ermittlung der Gefährdungen vor Tätigkeitsaufnahme beim Handwerk und den Bauunternehmen**; systematische **Materialprobenahme**, ggf. Raumluftmessung; Analysen nur in **Fachlaboren** mit Verfahren für **Asbest, PCB, PAK und Formaldehyd**; Bewertung „oft nur mit entsprechender Sach- und Fachkunde" → **Gutachter für Gebäudeschadstoffe**; Abschluss mit **Sanierungskontrolle** (visuell/messtechnisch); PCB in Dichtungen, Fugendichtungen, Bodenbeschichtungen, Farben und elektrischen Geräten.
+
+**[Q31]** [Verbraucherzentrale — „Asbest: gefährlich und immer noch aktuell"](https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/wohnen/asbest-gefaehrlich-und-immer-noch-aktuell-48383) (geprüft 09.11.2026). Belegt: Verbot seit **31.10.1993**; Baustoffliste mit **Fliesenkleber, Putzen, Spachtelmassen, Beschichtungen, Kitt, Bitumenkleber, Floor-Flex-/Cushion-Vinyl-Platten, Nachtspeicherheizungen, Asbestzement in Fensterbänken/Fassadenplatten/Dacheindeckungen, Spritzasbest auf Stahlträgern und Rohren**; „auch bei geringem Asbestgehalt, etwa in einem Wandputz oder einer Spachtelmasse können … durch Abschleifen oder Fräsen hohe Faserkonzentrationen entstehen"; Schutzmaßnahmen nach **TRGS 519**; Risikostufen **> 100.000 / < 100.000 / < 10.000 Fasern/m³** und die seit Dezember 2024 erlaubte „funktionale Instandhaltung".
+
 ---
 
 ## 12. Unbelegt / offen (bitte nicht als Tatsache weitergeben)
@@ -1229,3 +1288,13 @@ Anhang IV Nr. 22 GefStoffV; seit 1996 hergestellte Mineralwollen gelten als nich
 12. **§ 7i und § 35c gleichzeitig** ist steuerlich nicht in diesem Playbook geklärt. Beide setzen voraus,
     dass keine öffentlichen Zuschüsse die Kosten decken [Q6][Q8]; die Kombination gehört zum
     Steuerberater, nicht in ein Bau-Playbook.
+13. **Genehmigungen (Abschnitt 1.7)** sind am Beispiel **Baden-Württemberg** belegt (LBO i. d. F.
+    16.03.2026, Tabelle in `recht-renovierung.md`); für andere Bundesländer wurde **keine** LBO geprüft.
+    Die Systematik (Anhang-Tatbestände, § 49/§ 50, Bauvorbescheid § 57) ist übertragbar, die Schwellen
+    nicht.
+14. **Blei in alten Lacken** steht weiter als **[Setzung]** („vor 1970 fast regelhaft"). Die TRGS 505
+    wurde nicht eingesehen; die Baustoffliste in [Q31] nennt Blei nicht. Wer eine Bleibelastung vermutet,
+    lässt sie beproben — das Playbook gibt dafür keine Grenzwerte.
+15. **PCB-Grenzwerte** (Raumluft, Bauprodukte) sind hier nicht beziffert; [Q30] beschreibt das Verfahren
+    (Probe, Fachlabor, Bewertung), nicht die Zahlen. Verbindliche Werte stehen in der GefStoffV und in
+    der PCB-Richtlinie — beide nicht im Volltext geprüft.

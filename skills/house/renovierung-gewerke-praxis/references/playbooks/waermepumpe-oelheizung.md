@@ -182,6 +182,10 @@ Die JAZ ist der Jahresmittelwert aus erzeugter Wärme geteilt durch eingesetzten
 - Faustregel aus demselben Forum: **2–2,5 % Wirkungsgradverlust je Grad** mehr Vorlauf `[Q27]`. (Die im Thread zusätzlich genannte Aussage „65° braucht doppelt so viel Strom wie 40°“ ist mit dieser Regel nicht vereinbar — Widerspruch, nicht Mittelwert.)
 - **Messen statt schätzen:** an einem kalten Tag Vorlauf und Rücklauf am Kessel ablesen und mit der Heizkurve vergleichen. Wer nur „gefühlte 50 °C“ hat, kauft zu klein oder zu groß.
 
+**Heizkurve einstellen, nicht Thermostat aufreißen.** Die Heizkurve legt fest, wie viel Vorlauf das Gerät je Außentemperatur fährt; sie ist der einzige Hebel, der die JAZ dauerhaft verschiebt. Vorgehen: Heizkurve so weit absenken, bis die Räume an einem kalten Tag gerade noch warm werden, dann einen Schritt zurück. Jedes Grad weniger Raumtemperatur spart nach Verbraucherzentrale **etwa 6 % Heizenergie** — unter **16 °C** sollte kein Raum fallen, sonst droht Feuchte und Schimmel [VZ Heizung optimieren](https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/heizung-optimieren-und-heizkosten-sparen-so-gehts-30096) (geprüft 09.11.2026, Stand 08.10.2026).
+
+**Absenkung ist kein Sparen um jeden Preis.** Bei einer Wärmepumpe mit Fußbodenheizung kostet jede Nachtauskühlung am Morgen Wiederaufheizleistung (§ 3.4, Φ_RH) und damit Geräteleistung. 1–2 K Absenkung sind sinnvoll, 5 K nicht — die Anlage müsste dafür größer ausgelegt werden, und genau das ist der teuerste Fehler bei der Auslegung.
+
 ### 3.3 Heizkörper: tauschen oder nicht
 
 Die Leistung eines Heizkörpers hängt an der logarithmischen Übertemperatur, nicht an der Katalogangabe (75/65/20 °C). Details, Formel und Umrechnungstabelle stehen im Playbook `heizung-lueftung.md` (§ 1.2). Kurz: bei 55/45 liefert ein Heizkörper rund **50 %** der Katalogwerte, bei 50/40 rund **40 %**. Wer „die gleiche Größe“ wieder einbaut, gewinnt nichts.
@@ -212,10 +216,29 @@ Im Fachforum wird für 3.500 l „grob 16 kW" genannt `[Q27]` — dieselbe Grö�
 
 **Zweites Auswahlkriterium ist die Modulationsgrenze.** Eine Vaillant VWL 75/6 regelt nur bis etwa **4,6 kW** herunter, eine Stiebel Eltron 07.2 Plus bis rund **3 kW**. Liegt der Bedarf an einem Herbsttag darunter, taktet das Gerät — deshalb gehört die **Modulationsgrenze** neben die Heizlast ins Angebot.
 
+**Was die Norm wirklich verlangt.** Die raumweise Heizlast nach DIN EN 12831 ist eine Summe dreier Posten:
+
+```
+Φ_HL = Σ Φ_T (Transmission durch die Hüllfläche)
+     + Σ Φ_V (Lüftung, Infiltration oder Anlage)
+     + Σ Φ_RH (Wiederaufheizzuschlag nach Absenkphasen)
+```
+
+U-Werte nach DIN EN ISO 6946, Erdkontakt nach DIN EN ISO 13370, Wärmebrücken nach DIN V 18599-2 (detailliert: DIN 4108 Beiblatt 2) — das sind die Rechenwege, die im Energieausweis und in der Förderung wieder auftauchen [BauNetz Heizlast](https://www.baunetzwissen.de/heizung/fachwissen/waermebedarf/berechnung-der-heizlast-161074) (geprüft 09.11.2026). Zwei Konsequenzen für den Altbau:
+
+- Die früher übliche Pauschale von **100 W/m²** führt nach derselben Quelle regelmäßig zur **Überdimensionierung** — sie ist der Grund, warum im sanierten Altbau 20-kW-Geräte stehen, die dann takten.
+- Der **Wiederaufheizzuschlag** ist der Posten, den Laien gern vergessen: Wer nachts um 4 K absenkt und morgens in zwei Stunden warm haben will, braucht dafür Leistung. Wer die Absenkung auf 1–2 K begrenzt, kann das Gerät kleiner kaufen — dieselbe Wärme, weniger Kilowatt.
+
+**Der Aufwand lohnt.** Die raumweise Berechnung ist zugleich die Grundlage für den hydraulischen Abgleich nach § 60c GModG `[Q07]` und für die Auslegung der Heizkörper (§ 3.3). Wer sie überspringt, spart an der falschen Stelle.
+
 ### 3.5 Pufferspeicher und Warmwasser
 
-- **Puffer:** „Viel Puffervolumen, damit die Wärmepumpe eine sehr lange Laufzeit erreicht“ `[Q34, 02:36–02:42]`. Ein Mindestvolumen in Litern je kW ist **nicht belegt** (siehe Unbelegt) — die Auslegung gehört ins Angebot, nicht in eine Faustformel.
-- **Reiheneinbindung** (Reihenrücklauf) und Puffervolumen sind nicht das Entscheidende: über die Wirtschaftlichkeit entscheiden die tatsächliche **Mindestlaufzeit des Verdichters** und die **Spreizung** im Betrieb. Angebot genau prüfen.
+- **Die Aufgabe hat sich verschoben.** Inverter-Wärmepumpen modulieren ihre Leistung und takten deutlich weniger; der Puffer dient heute vor allem dazu, den **Mindestvolumenstrom** des Erzeugers in jeder Betriebslage zu sichern, und bei Luft-Wasser-Anlagen die **Abtauenergie** bereitzustellen. Reicht der Durchsatz nicht, sinkt nicht nur die Betriebssicherheit — es drohen Störungen bis zum Geräteschaden [IKZ Pufferspeicher](https://www.ikz.de/detail/news/detail/die-dimensionierung-von-pufferspeichern/) (geprüft 09.11.2026).
+- **Wann er entfallen kann:** wenn das umgewälzte Heizungswasser in *allen* Betriebszuständen den geforderten Volumenstrom liefert. Die in Deutschland übliche **Einzelraumregelung** verlangt dagegen einen Puffer, solange kein anderes Verfahren die gleiche Regelwirkung bringt [IKZ Pufferspeicher](https://www.ikz.de/detail/news/detail/die-dimensionierung-von-pufferspeichern/) (geprüft 09.11.2026).
+- **Größe, jetzt belegt.** Richtwert **10 % des stündlichen Heizwasserdurchsatzes**; bei zweistufigen Geräten genügen **8 %**, bei leistungsgeregelten Geräten im monoenergetischen Betrieb **bis 5 %**. Der Praxisrichtwert **30 l/kW** ist etabliert, bei Invertern aber nicht mehr das alleinige Kriterium: Eine pauschale Überdimensionierung kostet Wärmeverluste, Platz und Effizienz [IKZ Pufferspeicher](https://www.ikz.de/detail/news/detail/die-dimensionierung-von-pufferspeichern/) (geprüft 09.11.2026).
+- **Reihen- oder Parallelpuffer.** Der **Reihenpuffer** vergrößert das Anlagenvolumen, wird gerichtet durchströmt und mischt kaum; die hydraulische Entkopplung sitzt außerhalb (etwa ein doppelt differenzdruckloser Verteiler). Der **Parallelpuffer** übernimmt zusätzlich die Entkopplung, kann Vermischung und Rücklaufanhebung aber nicht vermeiden — das kostet Effizienz und erschwert die Platzierung des Anforderungsfühlers. Entscheidung nach Herstellervorgabe, nicht nach Katalogbild [IKZ Pufferspeicher](https://www.ikz.de/detail/news/detail/die-dimensionierung-von-pufferspeichern/) (geprüft 09.11.2026).
+- **Seriell einbinden, wo die Hydraulik es zulässt.** Wird der Puffer in den **Rücklauf** gelegt, entladen ihn die Heizkreispumpen selbst — keine Entladepumpe, keine eigene Regelung, und im Bestand ohne Eingriff in die vorhandene Regelung machbar. Eine Simulation an einem 500-kW-Objekt ergab rund **1 % höheren Gasverbrauch** (ca. **450 €/a**) gegen rund **380 €/a** Strom für die Entladepumpe der parallelen Variante; der Saldo von etwa **80 €/a** liegt unterhalb der Messbarkeit [IKZ Puffer-Einbindung](https://www.ikz.de/detail/news/detail/parallele-oder-serielle-einbindung/) (geprüft 09.11.2026, Artikel von 2016 — die Hydraulik gilt, der Preisstand nicht).
+- **Was im Angebot stehen muss:** Puffergröße mit Herstellerbezug (Mindestvolumenstrom aus dem Datenblatt), Einbindung (Reihen/parallel/seriell), **Spreizung** im Auslegungspunkt und die **Mindestlaufzeit des Verdichters**. „Viel Puffervolumen für lange Laufzeiten“ ist eine Videoaussage `[Q34, 02:36–02:42]`, keine Auslegungsnorm — die Zahl kommt aus dem Gerätedatenblatt.
 - **Warmwasser:** Speicher mit Heizwasserumspülung (Multifunktionsspeicher) löst das Legionellen-Thema konstruktiv, weil kein stehendes Trinkwasserreservoir existiert `[Q34, 02:42–02:47]`. Frischwasserstation (Durchflussprinzip) ist die Alternative mit weniger Speichervolumen, aber mehr Technik im Fließweg. Beides ist zulässig; die Entscheidung hängt am Platz.
 
 ### 3.6 Kältemittel
@@ -228,6 +251,12 @@ Im Fachforum wird für 3.500 l „grob 16 kW" genannt `[Q27]` — dieselbe Grö�
 
 Zwei praktische Konsequenzen: (1) Für den **Steuerbonus** müssen ab 01.01.2028 neu installierte Wärmepumpen **natürliche Kältemittel** einsetzen — wer 2027 kauft, plant das gleich mit `[Q14]`. (2) Arbeiten am Kältemittelkreis darf nur, wer eine **Sachkundebescheinigung nach § 6 ChemKlimaschutzV** hat `[Q17]`.
 
+**Füllmenge und Rechtsrahmen.** Eine Heizungswärmepumpe fürs Einfamilienhaus enthält üblicherweise **rund 2 kg** Kältemittel; im Normbetrieb bleibt es über die Lebensdauer im Kältekreis und wird anschließend recycelt. Die neueren chemischen Kältemittel liegen bei **GWP 150–700** und sind meist brennbar — deshalb müssen alle elektrischen Komponenten zündquellenfrei ausgeführt werden, was eine echte Neuentwicklung des Geräts bedeutet, kein Produktupdate [SBZ Kältemittel](https://www.sbz-online.de/heizung/waermepumpen-neu-denken-was-bringen-die-neuen-kaeltemittel) (geprüft 09.11.2026, Artikelstand 12/2021).
+
+**Zeitachse statt Widerspruch:** Der SBZ-Artikel nennt die F-Gase-Verordnung von 2012/2014. Heute gilt die Verordnung **(EU) 2024/573**, angenommen am 07.02.2024, anwendbar seit **11.03.2024** — sie führt den Phase-down fort und verschärft ihn [EU F-Gase-VO](https://climate.ec.europa.eu/areas-action/fluorinated-greenhouse-gases/f-gas-legislation_en) (geprüft 09.11.2026, englische Fassung). Wer heute ein Gerät kauft, plant gegen diese Fassung, nicht gegen den Artikelstand 2021.
+
+**R290 ist nicht „kostenlos besser“.** Propan gehört zu den natürlichen Kältemitteln mit „wenigen bis keinen Treibhausgas-Eigenschaften“, ist aber brennbar und verlangt deshalb Aufstellungs- und Lüftungsvorgaben, die im Datenblatt und in der Planung stehen müssen — die Geräte sind nicht beliebig austauschbar. Die Zahl „GWP 3“ bleibt in diesem Playbook unbelegt (siehe § 12).
+
 ### 3.7 Schall: TA Lärm, nicht Bauchgefühl
 
 TA Lärm, Nr. 6.1 — Immissionsrichtwerte außerhalb von Gebäuden `[Q19a]`:
@@ -239,6 +268,12 @@ TA Lärm, Nr. 6.1 — Immissionsrichtwerte außerhalb von Gebäuden `[Q19a]`:
 | Misch-/Dorfgebiet | 60 dB(A) | 45 dB(A) |
 
 Kurzzeitige Spitzen dürfen tags um 30 dB(A), nachts um 20 dB(A) überschritten werden `[Q19a]`. **Achtung:** Die oft zitierte „50/35“-Regel gilt für **reines** Wohngebiet — im normalen Wohngebiet sind es 55/40. Wer mit dem falschen Wert plant, stellt zu nah auf oder zahlt ein Gutachten umsonst.
+
+**Was die TA Lärm nicht liefert: Meter.** Sie regelt Pegel, keine Abstände. Für die Praxis braucht man die zweite Hälfte der Rechnung — und die besteht aus drei Zahlen, die man nicht verwechseln darf: **Schallleistungspegel** (am Gerät, Datenblatt), **Schalldruckpegel** (am Ohr, Messung) und der **Immissionspegel** am maßgeblichen Ort (Nachbarfenster), der aus Abstand, Abschirmung und Reflexion folgt. Der bwp-Leitfaden Schall (24 Seiten, kostenlos) behandelt Aufstellarten, Abtaugeräusche, Entkopplung vom Gebäude und die Körperschalleinleitung über Rohr- und Elektroleitungen [BauNetz Leitfaden Schall](https://www.baunetzwissen.de/heizung/tipps/planungshilfen/leitfaden-schall-4685992) (geprüft 09.11.2026).
+
+**Körperschall ist die unterschätzte Hälfte.** Ein zusätzliches Gehäuse senkt den Luftschall; gegen Körperschall helfen nur Dämpfer oder ein eigenes Fundament. Eine vollständige Trennung ist wegen der Anschlussleitungen nicht möglich — deshalb entscheidet die **lärmarme Auslegung** und nicht die Nachrüstung [BauNetz Schall Gebäudetechnik](https://www.baunetzwissen.de/bauphysik/fachwissen/schallschutz/schutz-gegen-laerm-aus-gebaeudetechnischen-anlagen-4408801) (geprüft 09.11.2026).
+
+**Praktische Prüfliste vor dem Kauf:** Schallleistungspegel im Datenblatt (nicht „leise“), Nachtabsenkung des Ventilators, Aufstellort mit Abstand zum nächsten schutzbedürftigen Fenster, elastische Entkopplung und eine schallentkoppelte Rohrdurchführung. Wer die Werte nicht schriftlich hat, kann sie später nicht beweisen.
 
 ### 3.8 Aufstellort, Kondensat, Fundament
 
@@ -316,6 +351,8 @@ Der Raum ist nach Ausbau ein normaler Kellerraum — im Video „steht als neuer
 - **Zählerplatzbelastung:** bei interner Verdrahtung mit 10-mm²-Leitungen max. **32 A** `[Q21]`. Wer WP + Wallbox + Durchlauferhitzer gleichzeitig plant, kommt hier an die Grenze — dann braucht es einen eigenen Zählerplatz oder Lastmanagement.
 - **Eigener Zähler** ist die Voraussetzung für einen Wärmepumpen-Tarif `[Q18]`.
 - **Netzdienliche Steuerung:** Für steuerbare Verbrauchseinrichtungen sind Vereinbarungen über netzorientierte Steuerung im Gegenzug für Netzentgelt-Reduzierungen vorgesehen (§ 14a EnWG) `[Q33]`. Der Netzbetreiber verlangt das im Anmeldeformular — vor Beauftragung des Elektrikers klären, sonst wird zweimal gebaut.
+- **Wer steuerbar wird und was das heißt:** alle Wärmepumpen mit mehr als **4,2 kW** Bezugsleistung — ebenso nicht öffentliche Wallboxen, Klimageräte und Batteriespeicher. Die Steuerung erfolgt über das **Smart Meter Gateway**, nicht mehr über Zeitschaltuhr oder Rundsteuerempfänger; der Netzbetreiber darf den Anschluss seit **01.01.2024** nicht mehr mit dem Argument drohender Netzüberlastung ablehnen, auch wenn er noch gar nicht dimmt [Elektropraktiker § 14a](https://www.elektropraktiker.de/nachrichten/nachricht/waermepumpen-co-muessen-ab-januar-2024-aus-dem-netz-steuerbar-sein) (geprüft 09.11.2026). Praktische Folge: Steuerleitung, Klemmblock und Platz im Zählerkasten von Anfang an vorsehen — die Details stehen in `pv-speicher-wallbox.md` § 4.2.
+- **Alte Sperrzeiten-Denke:** Starre Sperrzeiten sind mit der netzorientierten Steuerung abgelöst; gedimmt wird auf eine Mindestleistung, nicht abgeschaltet. Wer eine Anlage aus der Zeit davor übernimmt, prüft, ob die Steuerung noch über einen alten Empfänger läuft — der erfüllt die Anforderung nicht [Elektropraktiker § 14a](https://www.elektropraktiker.de/nachrichten/nachricht/waermepumpen-co-muessen-ab-januar-2024-aus-dem-netz-steuerbar-sein) (geprüft 09.11.2026).
 
 ### 5.3 Wallbox-Anbindung
 
@@ -537,15 +574,24 @@ Das ist eine Herstellerdarstellung (alpha innotec) — die Zahlen sind plausibel
 | Q35 | YouTube Heizungsmacher: „Öltank Demontage“, 3:09 — Restöl pumpen (01:16), zerschneiden (01:33), Tankraum wird Kellerraum (02:25) | https://www.youtube.com/watch?v=_VWgfktt8b0 | 09.11.2026 |
 | Q36 | YouTube schlau energiesparen: „Wärmepumpe ohne Fußbodenheizung im Altbau“, 14:56 — 35 °C ohne Neubau (00:00), Leistungsverlust bei niedriger Temperatur (08:05) | https://www.youtube.com/watch?v=AeUmuCiPcXI | 09.11.2026 |
 | Q37 | YouTube „Mission Erneuerbar“: „Wärmepumpe EINFACH selber einbauen“, 28:16 — Kernbohrung (06:57), Gas-Rückbau vom Profi (10:02), ~7.000 € Material (25:51), Förderung nachträglich = Problem (26:19) | https://www.youtube.com/watch?v=HlEKW_MYBJQ | 09.11.2026 |
+| Q38 | BauNetz Wissen: Berechnung der Heizlast (DIN EN 12831, Φ_HL = ΣΦ_T + ΣΦ_V + ΣΦ_RH, U-Werte DIN EN ISO 6946, Erdreich DIN EN ISO 13370, Wärmebrücken DIN V 18599-2; 100 W/m² als Überdimensionierungs-Fehler) | https://www.baunetzwissen.de/heizung/fachwissen/waermebedarf/berechnung-der-heizlast-161074 | 09.11.2026 |
+| Q39 | IKZ: „Die Dimensionierung von Pufferspeichern“ (Mindestvolumenstrom, Abtauung, 10 / 8 / bis 5 % des stündlichen Heizwasserdurchsatzes, 30 l/kW, Reihen- vs. Parallelpuffer) | https://www.ikz.de/detail/news/detail/die-dimensionierung-von-pufferspeichern/ | 09.10.2026 |
+| Q40 | IKZ: „Parallele oder serielle Einbindung?“ (Puffer im Rücklauf, Pufferbypass, 1 % Gasmehrverbrauch ≈ 450 €/a gegen 380 €/a Pumpenstrom) | https://www.ikz.de/detail/news/detail/parallele-oder-serielle-einbindung/ | 22.12.2016 |
+| Q41 | SBZ: „Was bringen die neuen Kältemittel?“ (Füllmenge ≈ 2 kg, neue chemische Kältemittel GWP 150–700, Zündquellenfreiheit, Brennbarkeit) | https://www.sbz-online.de/heizung/waermepumpen-neu-denken-was-bringen-die-neuen-kaeltemittel | 01.12.2021 |
+| Q42 | EU-Kommission: F-Gas Regulation (EU) 2024/573, angenommen 07.02.2024, anwendbar seit 11.03.2024 | https://climate.ec.europa.eu/areas-action/fluorinated-greenhouse-gases/f-gas-legislation_en | 09.11.2026 |
+| Q43 | BauNetz Wissen: Leitfaden Schall des bwp (24 Seiten; Schallleistungs- und Schalldruckpegel, Abtaugeräusche, Entkopplung, Körperschall über Rohr-/Elektroleitungen) | https://www.baunetzwissen.de/heizung/tipps/planungshilfen/leitfaden-schall-4685992 | 09.11.2026 |
+| Q44 | BauNetz Wissen: Schutz gegen Lärm aus gebäudetechnischen Anlagen (Gehäuse senkt Luftschall, Dämpfer/Fundament gegen Körperschall, keine vollständige Trennung) | https://www.baunetzwissen.de/bauphysik/fachwissen/schallschutz/schutz-gegen-laerm-aus-gebaeudetechnischen-anlagen-4408801 | 09.11.2026 |
+| Q45 | Elektropraktiker: SteuVE ab 01.01.2024 (alle Wärmepumpen > 4,2 kW, Steuerung über Smart Meter Gateway, keine Ablehnung wegen Netzüberlastung) | https://www.elektropraktiker.de/nachrichten/nachricht/waermepumpen-co-muessen-ab-januar-2024-aus-dem-netz-steuerbar-sein | 20.12.2023 |
+| Q46 | Verbraucherzentrale: Heizung optimieren (≈ 6 % Heizenergie je Grad, 16-°C-Untergrenze) | https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/heizung-optimieren-und-heizkosten-sparen-so-gehts-30096 | Stand 08.10.2026 |
 
-**Quellenprüfung:** 40 Quellen, 41 einzelne URLs — alle am 09.11.2026 abgerufen, alle HTTP 200, Titel gegengeprüft, keine 404.
+**Quellenprüfung:** 49 Quellen, 63 einzelne URLs. Die 2026 ergänzten Fachportal-Quellen **Q38–Q46** wurden am 09.11.2026 einzeln mit Browser-Headern per GET abgerufen (alle HTTP 200, Titel gegengeprüft); die übrigen stammen aus dem Lauf vom 09.11.2026 ohne 404.
 
 ---
 
 ## 12. Unbelegt / offen
 
 1. **GWP von R290 (Propan).** Die ESanMV nennt R290 und R600a als natürliche Kältemittel `[Q14]`, die Buderus-Tabelle enthält sie nicht `[Q32]`. Die verbreitete Zahl „GWP 3“ ist hier **nicht** belegt.
-2. **Puffervolumen in Litern je kW.** Kein belegter Richtwert gefunden; die Aussage „viel Puffer = lange Laufzeit“ ist ein Videozitat `[Q34]`, keine Auslegungsnorm.
+2. **Puffervolumen je kW als alleiniges Kriterium.** Der Praxisrichtwert **30 l/kW** ist jetzt belegt [Q39]; dieselbe Quelle sagt aber, dass er bei leistungsgeregelten Geräten nicht mehr ausreicht, weil der **Mindestvolumenstrom des konkreten Geräts** die Größe bestimmt. Diese Gerätedatenblätter wurden hier nicht geprüft — die Zahl kommt aus dem Angebot, nicht aus diesem Playbook. Die Videoaussage „viel Puffer = lange Laufzeit“ bleibt ein Zitat `[Q34]`, keine Auslegungsnorm.
 3. **Mindestabstand zur Nachbargrenze in Metern.** Es gibt keinen bundesweit festen Meterwert; die TA Lärm regelt Pegel, nicht Abstände `[Q19a]`. Kommunale Merkblätter nennen unterschiedliche Werte — nicht geprüft.
 4. **Kosten für Kernbohrung, Fundament, Elektroanschluss als Einzelposition.** In den herangezogenen Quellen nur im Gesamtpreis enthalten `[Q22][Q34]`; keine belastbare Einzelbandbreite.
 5. **Behandlung von Erfüllungserklärungen aus der GEG-2024-Zeit** (65-%-Auflage in Altbescheiden). Das GModG regelt das nicht ausdrücklich `[Q01]`.

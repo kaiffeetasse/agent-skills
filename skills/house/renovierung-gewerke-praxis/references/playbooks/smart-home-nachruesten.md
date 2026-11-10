@@ -13,6 +13,7 @@
 - **Vorbereitung ist billiger als Nachrüsten**: tiefe Dosen, Leerrohre, Busleitung, Nische für die Zentrale —
   alles, was beim Elektro-Neuaufbau eh offen ist.
 - **Sicherheit**: keine Portfreigaben, kein Standardpasswort, lokale Steuerung bevorzugen; Fernzugriff über VPN.
+- **Was ein Schaltpunkt kostet:** konventionell **58–100 €** (Material + Lohn), ein smarter Unterputzpunkt **50–85 €** — der Unterschied ist nicht das Gerät, sondern ob die Wand offen ist (§6.4).
 
 
 **Zielgruppe:** technisch interessierter Eigenheimbesitzer (Home Assistant), Bestand typisch 1960–2005, kein Neubau.
@@ -53,7 +54,42 @@
 - **Batterie ist ein Wartungsvertrag.** Ausnahme sind EnOcean-Geräte (Energy Harvesting); sonst müssen Batterien getauscht werden [Q22].
 - **Mesh ist kein Ersatz für Planung.** Zigbee und Z-Wave leiten über netzversorgte Knoten weiter [Q14][Q15]; ein Funkaktor in der Dose ist damit auch Repeater — ein batteriebetriebener Sensor nicht.
 
-### 2.2 Die drei ehrlichen Systementscheidungen
+### 2.2 Der Übertragungsweg entscheidet mehr als das Protokoll
+
+Bevor man Protokolle vergleicht, lohnt der Blick auf die Ebene darunter. Es gibt genau drei Wege, und jeder hat einen anderen Fehlermodus [Q35]:
+
+| Weg | Was er ist | Stärke | Schwäche |
+|---|---|---|---|
+| **Datenkabel** (Twisted Pair, LWL) | verdrillte Kupferadern, die etablierten Bussysteme bei Neubau; LWL im Industriebereich | „die wichtigste und auch die technisch sicherste Art der Vernetzung" [Q35] | muss verlegt werden — im Bestand die teuerste Variante |
+| **Funk** | die vier freigegebenen Bänder **433 MHz, 868 MHz, 2,4 GHz, 5 GHz** [Q35] | keine Leitungen; „etwa wenn in Bestandsbauten eine nachträgliche Verkabelung nicht möglich ist" [Q35] | Dämpfung, Batterien, geteilte Bänder |
+| **Powerline (PLC)** | hochfrequente Daten „huckepack" auf der 230-V-Leitung, der 50-Hz-Netzfrequenz aufmoduliert [Q35] | nutzt vorhandene Leitungen | braucht **Frequenzfilter und Phasenkoppler**, damit die Daten im Haus bleiben und nicht unkontrolliert nach außen wandern [Q35] |
+
+**Die praktische Konsequenz aus der PLC-Zeile:** Powerline ist die einzige Variante, bei der die Daten das Haus über die eigene Elektrik verlassen können, wenn die Entkopplung fehlt. Wer PLC einsetzt, plant die Filter mit — sonst ist „das Netz ist im Haus" eine Annahme, keine Eigenschaft.
+
+**Funk ist nicht gleich Funk:** 433 MHz ist der Billigbereich (Fernbedienungen, Steckdosen), 868 MHz der europäische Bereich für Hausautomation mit Duty-Cycle-Grenzen, 2,4 GHz der Bereich, den WLAN, Zigbee, Thread und Bluetooth teilen, 5 GHz der Bereich für WLAN mit hoher Bandbreite und kurzer Reichweite [Q35]. Die Systemtabelle oben (§2.1) ordnet die konkreten Produkte diesen Bändern zu.
+
+### 2.3 Aktoren: welche Arten es gibt und wo sie sitzen
+
+Ein Aktor ist das Gegenstück zum Sensor: Er **empfängt Datentelegramme und setzt sie in Aktionen um** — Schalt- und Dimmbefehle für Leuchten, Steuerbefehle für Rollläden und Markisen, Stellbefehle für Heizkörperventile — und meldet den aktuellen Zustand an die Anzeigeelemente der Sensoren zurück [Q37]. Aus dieser Definition folgen vier Gattungen, die man nicht gegeneinander austauschen kann:
+
+| Aktorart | Was er schaltet | Worauf man beim Kauf achtet |
+|---|---|---|
+| **Schaltaktor** | Ein/Aus, 230 V, oft 16 A | Strombelastbarkeit, potentialfreie Ausgänge für Fremdspannung |
+| **Dimmaktor** | Phasenan-/abschnitt für dimmbare Leuchten | Mindestlast, Lampenart (Retrofit-LED dimmt anders als Halogen), Brummneigung |
+| **Rollladen-/Jalousieaktor** | Motor auf/ab, bei Jalousie zusätzlich Lamellenwinkel | **Laufzeitmessung**, Endlagen, Verriegelung gegen gleichzeitigen Auf/Ab-Befehl [Q38] |
+| **Heizungsaktor** | Stellventile (230 V oder 24 V) | Ventiltyp, Stellweg, Regelcharakteristik |
+
+**Zwei Einbauorte, zwei Philosophien** — dieselbe Funktion, anderer Ort:
+
+- **Dezentral / Unterputz:** Der Aktor sitzt in der Gerätedose hinter dem Taster oder in der Abzweigdose. Beispiel aus der Praxis: ein 2-Kanal-Aktor mit Eingängen für zwei Bedienstellen oder vier Binäreingänge, dezentral montiert [Q38]. Vorteil: kurze Wege, kein Verteilerplatz, Nachrüstung raumweise. Nachteil: Wärme in der Dose, kein Platz für mehrere Funktionen, schlecht zu warten, und im Funkbetrieb liegt er in der Wand (siehe §4.4).
+- **Zentral / Reiheneinbau (Hutschiene):** Der Aktor sitzt im Verteiler als REG-Gerät. Beispiel: ein 6-Kanal-Aktor für sechs Motoren mit Eingängen für sechs Bedienstellen oder zwölf Binäreingänge; ein 9-Kanal-Gerät mit neun Motorausgängen und 18 Binäreingängen [Q38]. Vorteil: alle Lasten kommen sternförmig im Verteiler an, tauschbar, kühl, Platz für Reserve. Nachteil: jede Last braucht eine eigene Leitung in den Verteiler — das ist nur bei offener Installation wirtschaftlich.
+
+**Die Entscheidungsregel:** Wer ohnehin Leitungen zieht, nimmt **Reiheneinbau** — dann ist der Aktor ein austauschbares Teil im Verteiler und nicht ein Verbrauchsgut in der Wand. Wer nachrüstet, ohne zu stemmen, nimmt **Unterputz oder Funk**. Ein Aktor im REG-Gehäuse belegt typisch **4 Teilungseinheiten (TE)** — Platz, den man in einem 60er-Jahre-Verteiler erst schaffen muss [Q37].
+
+**Ein Detail, das Reklamationen vermeidet:** Bei Rollladenaktoren ist die **Laufzeitmessung** keine Komfortfunktion, sondern die Voraussetzung dafür, dass die Endlage stimmt und der Motor nicht gegen den Anschlag läuft; KNX-Aktoren zeigen ihre internen Zustände (Position, Sperrfunktionen) in der ETS, was die Fehlersuche bei der Inbetriebnahme deutlich verkürzt [Q38].
+
+
+### 2.4 Die drei ehrlichen Systementscheidungen
 
 **A) „Ich will es einfach, sofort, ohne Wand."** → Homematic IP oder Shelly.
 Homematic IP: 868 MHz, eigenes Ökosystem, Access Point mit kostenloser Cloud, alternativ CCU3 lokal [Q9]. Shelly: WLAN, lokale HTTP-API, MQTT, Skripte, Cloud abschaltbar [Q5][Q31]. Beides ist Nachrüstung, beides ist Herstellerbindung — bei Shelly schwächer, weil HTTP/MQTT offen sind.
@@ -103,6 +139,10 @@ Zeilen ohne Zahl sind Planungsempfehlungen (Querschnitt, Rohrtyp, Cat-Klasse), k
 
 **KNX-Topologie, die man nicht verletzen darf:** max. **64 Geräte je Linie**, Gesamtlänge **1.000 m**, **350 m** bis zur Spannungsversorgung, **700 m** zwischen zwei Teilnehmern; Stern, Baum oder Linie erlaubt, **Ringleitung verboten** [Q1][Q32]. Eine zweite Fachquelle rechnet mit 700 m Linie und 300 m zum fernsten Gerät [Q3] — die Werte widersprechen sich, für die Planung gilt der kleinere Wert. Ein 640-mA-Netzteil trägt 64 Geräte bei 9 mA [Q3].
 
+**Die Ebenen darüber — und warum 64 nicht das Ende ist:** Eine Linie fasst **64 Teilnehmer**; mit **Linienverstärkern** steigt das auf **256**, wobei der Verstärker selbst als Teilnehmer zählt und **höchstens drei** Verstärker je Linie zulässig sind. Bis zu **15 Linien** lassen sich über **Linienkoppler** an eine Hauptlinie hängen, bis zu **15 Hauptlinien** über **Bereichskoppler** zu einem Bereich. Die Datenrate auf dem Bus beträgt **9.600 bit/s** [Q36]. Für ein Einfamilienhaus heißt das: Eine Linie reicht fast immer; wer zwei braucht, weil ein Anbau oder eine Garage dazukommt, plant den Linienkoppler von Anfang an mit — nachträglich ist er ein Verteilerumbau.
+
+**Was auf der Programmierebene schiefgeht:** Für einen Gebäudekomplex darf es **nur ein ETS-Projekt** geben (sonst keine Zentralbefehle, keine übergreifende Visualisierung, kein zentraler Fernzugriff); die Gebäudestruktur im Projekt muss dem **tatsächlichen Einbauort** der Geräte folgen; größere Topologien sind mit **Kopplern, Linienverstärkern oder IP-Routern** und den vorgeschriebenen **physikalischen Adressen** zu projektieren; und es sind bevorzugt **Hauptgruppen** zu verwenden, weil nur die sich über Filtertabellen filtern lassen [Q39]. Das ist der Punkt, an dem ein KNX-Haus später unwartbar wird: nicht die Hardware, sondern ein Projekt ohne Struktur.
+
 ### 4.2 Nischen, Dosen, Verteiler
 
 - **Tiefe Dosen (≥ 60 mm)** statt 45 mm: Busankoppler und Aktoren brauchen Platz. ⚠️ Eigene Empfehlung, keine geprüfte Normzahl.
@@ -122,6 +162,10 @@ Zeilen ohne Zahl sind Planungsempfehlungen (Querschnitt, Rohrtyp, Cat-Klasse), k
 8. **Taster statt Schalter** — Smart Home braucht Taster (impuls), nicht Rastschalter.
 9. **Alles auf Hutschiene, was Hutschiene kann** — Aktoren, Netzteil, Gateway, Switch.
 10. **ETS-Projekt, Stromlaufplan, Fotos und Passwörter dem Bauherrn übergeben** — sonst gehört das Haus dem Integrator.
+
+**Warum der Neutralleiter in Altbau-Schalterdosen fehlt:** In der klassischen **Ausschaltung** — der einfachsten und meistverwendeten Installationsschaltung — wird nur der **Außenleiter L** über den Schalter geführt; der **Neutralleiter N wird direkt an das Verbrauchsmittel angeschlossen** [Q42]. Im Schalter liegen also zwei Adern (L kommend, L zur Lampe), kein N. Genau das ist der Grund, warum ein Unterputzaktor, der eigene Elektronik versorgt, dort keinen Anschluss findet: Er braucht L **und** N. Und es ist auch der Grund, warum man N nicht einfach „dazuklemmt" — der Neutralleiter darf nach den Regeln nicht vor den Außenleitern abgeschaltet und nicht nach ihnen eingeschaltet werden [Q43], er gehört also nicht in den Schaltpfad, sondern als eigene Ader in die Dose.
+
+Praktisch bleiben drei Wege, und nur einer ist sauber: (a) **N nachziehen** — neue Leitung vom Verteiler, Wand auf, im Zuge der Sanierung richtig; (b) **Aktor mit N-Anforderung weglassen** und ein System nehmen, das ohne N arbeitet (Batterie-/2-Draht-Lösungen), mit den bekannten Kompromissen bei Last und Lebensdauer; (c) **N aus einer benachbarten Dose „holen"** — unzulässig, weil dann zwei Stromkreise über eine Ader verbunden werden. Wer im Bestand einen Aktor ohne N einbaut, hat keine Smart-Home-Lösung, sondern eine Fehlerquelle mit Funk.
 
 ### 4.4 Warum Funk-Rollos in der Dämmung Probleme machen
 
@@ -203,6 +247,31 @@ Nicht enthalten: NVR für die Kameras (Preis je Modell nicht geprüft), Netzwerk
 
 **Der ehrliche Vergleich:** Funk-Mittelklasse kostet ~3.000 € für ein ganzes Haus, KNX beginnt bei ~8.400 € für 140 m² und endet offen. Dafür kann KNX bei Auszug bleiben, funkende Geräte wandern mit oder in den Elektroschrott.
 
+### 6.4 Kosten je Schaltpunkt — die Zahl, die in keinem Katalog steht
+
+Angebote für Smart Home werden selten pro Gerät kalkuliert, sondern **pro Schaltpunkt** (eine Dose, ein Taster, ein Aktor, ein Kabelweg). Diese Rechnung lässt sich aus belegten Teilen zusammensetzen:
+
+| Position | Wert | Quelle |
+|---|---|---|
+| Steckdose (einfach), Material | **3–10 €/Stück** | [Q41] |
+| Lichtschalter inkl. Dimmeinsatz, Material | **20–25 €/Stück** | [Q41] |
+| Unterputzdose, Material | **3–5 €/Stück** | [Q41] |
+| Kabel | **0,50–1,00 €/m** | [Q41] |
+| Leerrohr | **0,30–1,00 €/m** | [Q41] |
+| Lohn (Fachbetrieb) | 0,5–1 h je Punkt à 70 €/h (§3) | Schätzung aus `elektro.md` |
+
+**Die Rechnung (eigene Rechnung aus [Q41] und dem Stundenband):**
+
+- **Konventioneller Schaltpunkt:** Schalter 20–25 € + Dose 3–5 € = **23–30 €** Material, dazu 35–70 € Lohn → **58–100 € je Punkt**.
+- **Smarter Unterputzpunkt** (Aktor hinter dem vorhandenen Schalter): Shelly 1PM 14,90 € (§3) + 35–70 € Lohn → **50–85 € je Punkt** — aber nur, wenn der **Neutralleiter** in der Dose liegt.
+- **Neuer Punkt mit Leitung** (weil kein N da ist oder ein Kabelweg fehlt): zusätzlich 10 m Kabel (5–10 €) und 10 m Leerrohr (3–10 €) plus Stemmen und Putz — der Posten, der Angebote teuer macht, ist nicht der Aktor, sondern die Wand.
+
+**Der Vergleich, der wirklich zählt:** Ein smarter Punkt kostet **nicht mehr** als ein konventioneller, wenn man ihn im Zuge der Elektrosanierung setzt — der Aktor ersetzt den Schalter, das Kabel liegt ohnehin. Nachrüsten im fertigen Bad kostet dagegen Stemmen, Putz, Maler und zwei Gewerke für **einen** Schaltpunkt. Deshalb ist die Regel aus §4 keine Pädagogik: Vorbereitung ist der günstigste Teil.
+
+**Bezugsgrößen nicht verwechseln:** Die eine Quelle nennt **150–300 €/m²** für ein BUS-System im Altbau (gesamte Elektroinstallation mit Bus) [Q41], die andere **60–150 €/m²** für die KNX-Automation [Q26]. Das ist kein Widerspruch, sondern ein anderer Bezug — die Seiten definieren ihn allerdings nicht ausdrücklich, deshalb steht die Einordnung hier als Lesehilfe und nicht als Zitat. Wer beide Zahlen ohne Bezug nebeneinanderlegt, kommt auf den Faktor 3.
+
+**Was ein Nachrüst-Set realistisch umfasst:** Hornbach beziffert seine drei Nachrüst-Varianten mit **30 Minuten** (3 smarte Leuchtmittel + App), **70 Minuten** (Gateway, 2 Zwischenstecker, 3 Heizkörperthermostate, Regeln) und **3 Stunden** (2 Unterputz-Schalter, 3 Unterputz-Steckdosen, 3 Rollladensteuerungen, 2 Bewegungsmelder) — die dritte Variante ausdrücklich **durch den Profi**, und das Gateway kostet dort **49,95 €** [Q40]. Das ist die ehrlichste Zahl im ganzen Kapitel: Die Einrichtung ist Minutenarbeit, der Einbau ist Elektroarbeit.
+
 ---
 
 ## 7. Wann Smart Home Unsinn ist
@@ -210,6 +279,8 @@ Nicht enthalten: NVR für die Kameras (Preis je Modell nicht geprüft), Netzwerk
 ### 7.1 Mietwohnung
 
 Funk ist hier tatsächlich die richtige Wahl: „Sie bieten sich auch in Mietwohnungen an, da sie problemlos wieder demontiert werden und Umzüge mitmachen können" [Q22]. Nuki wirbt ausdrücklich mit Montage ohne Bohren und rückstandsloser Entfernung [Q29]. **Aber:** 230-V-Einbau (Shelly hinter dem Schalter) ist eine Änderung der Elektroanlage und braucht die Zustimmung des Vermieters; beim Auszug muss sie zurückgebaut werden. Für Mietwohnungen gilt deshalb: Steckdosen-Zwischenstecker, Thermostat aufschrauben, Schloss tauschen — nichts, was Kabel oder Dosen verändert.
+
+**Der Handel sagt dasselbe, nur deutlicher:** Unterputz-Steckdosen, -Lichtschalter und -Rollladensteuerung „musst Du die vom Profi durchführen lassen", und in die Rollladen-Elektrik darf man „nur in Deinem Eigenheim eingreifen. In Mietwohnungen ist das meist nicht erlaubt" [Q40]. Das ist keine Rechtsauskunft des Baumarkts, aber es beschreibt genau die Grenze: Der Unterputz-Einbau ist ein Eingriff in die Anlage, das Aufschrauben eines Thermostats oder ein Zwischenstecker nicht.
 
 ### 7.2 Kein Nutzen
 
@@ -252,6 +323,8 @@ Das war die Vorgabe, und sie hält der Prüfung nicht stand:
 
 **Typ:** G = Gesetz/Verordnung/Norm, V = Verband/Behörde, H = Hersteller, F = Fachmedium/Fachbetrieb, P = Preisportal/Preisvergleich, C = Community, Y = Video.
 
+Alle Quellen in diesem Abschnitt: **geprüft 09.11.2026** (HTTP-Abruf mit Browser-Headern plus Volltext; Prüftiefe je Zeile in der Spalte „Geprüft").
+
 | # | Quelle | Typ | Geprüft |
 |---|---|---|---|
 | Q1 | Wikipedia „KNX-Standard", https://de.wikipedia.org/wiki/KNX-Standard | C (Normauszug) | Volltext; 64 Geräte, 1.000/350/700 m, 9,6 kbit/s, 30 V, ETS, EN 50090 |
@@ -288,15 +361,25 @@ Das war die Vorgabe, und sie hält der Prüfung nicht stand:
 | Q32 | KNX-User-Forum, „TP-64 vs. TP-256 Geräte", https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/902401-tp-64-vs-tp-256-ger%C3%A4te | C | Thread gelesen; 64 Geräte/TP-64, 1.000 m Linie, KNX Association im Thread |
 | Q33 | idealo, „Homematic IP HmIP-SWSD-2", https://www.idealo.de/preisvergleich/OffersOfProduct/205946994_-hmip-swsd-2-homematic-ip.html | P | Preis ab 55,34 € |
 | Q34 | idealo, „Homematic IP eTRV-B Heizkörperthermostat basic", https://www.idealo.de/preisvergleich/OffersOfProduct/6778192_-etrv-b-heizkoerperthermostat-basic-153412a0-homematic-ip.html | P | Preis ab 27,99 €, 51 Angebote |
+| Q35 | BauNetz Wissen, „Datenübertragung in Smart-Home-Systemen" (Elektro/Smart Home), https://www.baunetzwissen.de/elektro/fachwissen/smart-home/datenuebertragung-in-smart-home-systemen-7043556 | N (Fachverlag) | Volltext; Medien Kabel/Funk/PLC, Bänder 433 MHz/868 MHz/2,4 GHz/5 GHz, PLC mit Frequenzfilter und Phasenkoppler, LWL im Wohngebäude selten |
+| Q36 | BauNetz Wissen, „Elemente von Bussystemen" (Elektro/Gebäudesystemtechnik), https://www.baunetzwissen.de/elektro/fachwissen/gebaeudesystemtechnik/elemente-von-bussystemen-153102 | N (Fachverlag) | Volltext; 64 Teilnehmer/Linie, 256 mit Linienverstärkern, max. 3 Verstärker, 15 Linien/Hauptlinie, 15 Hauptlinien/Bereich, 9.600 bit/s, Sensor/Aktor/Controller/Systemgerät |
+| Q37 | BauNetz Wissen, Glossar „Aktoren", https://www.baunetzwissen.de/glossar/a/aktoren-48813 | N (Fachverlag) | Volltext; Aktor setzt Datentelegramme in Schalt-/Dimm-/Rollladen-/Stellbefehle um, meldet Zustand zurück; Bildunterschriften: Schaltaktor für Gerätedose, Multistation im REG-Gehäuse mit 4 TE |
+| Q38 | Elektropraktiker, „Sonnenschutz mit EIB/KNX-Aktoren steuern" (ep 4/2005), https://www.elektropraktiker.de/fachartikel/detail/sonnenschutz-mit-eibknxaktoren-steuern | N (Fachverlag) | Volltext; dezentraler 2-Kanal-Aktor, Reiheneinbau mit 6 und 9 Kanälen, Gruppenadresse, Laufzeitmessung, ETS-Zustandsanzeige |
+| Q39 | Elektropraktiker, „Anerkannte Regeln der KNX-Programmiertechnik" (ep 5/2012), https://www.elektropraktiker.de/fachartikel/detail/anerkannte-regeln-der-knx-programmiertechnik | N (Fachverlag) | Volltext; ein ETS-Projekt je Gebäudekomplex, Gebäudestruktur nach Einbauort, Koppler/Linienverstärker/IP-Router, physikalische Adressen, Hauptgruppen/Filtertabellen |
+| Q40 | HORNBACH, „Smart Home nachrüsten", https://www.hornbach.de/projekte/smart-home-nachruesten/ — Skripte bekommen eine Client-Challenge (curl: 200, aber nur Challenge-Seite), Inhalt im Renderer gelesen | H (Handel) | Volltext; drei Varianten mit 30 min / 70 min / 3 h, Gateway 49,95 €, Unterputz nur vom Profi, Rollladen-Elektrik in Mietwohnung meist nicht erlaubt |
+| Q41 | elektriker.org, „Elektroinstallation Kosten" (Stand 07.07.2023), https://www.elektriker.org/magazin/elektroinstallation-kosten-20122413 | F | Volltext; Materialpreise je Punkt (Steckdose 3–10 €, Schalter inkl. Dimmeinsatz 20–25 €, UP-Dose 3–5 €, Kabel 0,5–1 €/m, Leerrohr 0,3–1 €/m), BUS 150–300 €/m², BUS-Installation 15.000–50.000 € für 130–150 m² |
+| Q42 | BauNetz Wissen, „Ausschaltung" (Elektro/Schaltungsarten), https://www.baunetzwissen.de/elektro/fachwissen/schaltungsarten/ausschaltung-153026 | N (Fachverlag) | Volltext; einpolige Schalter im Außenleiter, N wird direkt an das Verbrauchsmittel angeschlossen |
+| Q43 | BauNetz Wissen, Glossar „Neutralleiter", https://www.baunetzwissen.de/glossar/n/neutralleiter-48855 | N (Fachverlag) | Volltext; N nicht vor den Außenleitern abschalten, nicht nach ihnen einschalten |
 
-**Anzahl geprüfter Quellen: 34** — 3 Community/Normauszug (Q1, Q14, Q32), 6 Verband/Behörde (Q2, Q19, Q20, Q21, Q22, Q23), 1 Bank (Q24), 1 Behörde BAFA (Q25), 12 Hersteller/Handel (Q4–Q11, Q13, Q15, Q28, Q29), 6 Fachmedium/Fachbetrieb (Q3, Q16, Q17, Q18, Q26, Q27), 4 Preisportal (Q12, Q30, Q33, Q34), 1 Video (Q31).
+**Anzahl geprüfter Quellen: 43** — 2 Community/Normauszug (Q1, Q14), 1 Forum (Q32), 6 Verband/Behörde (Q2, Q19, Q20, Q21, Q22, Q23), 1 Bank (Q24), 1 Behörde BAFA (Q25), 13 Hersteller/Handel (Q4–Q11, Q13, Q15, Q28, Q29, Q40), 14 Fachmedium/Fachverlag/Fachbetrieb (Q3, Q16–Q18, Q26, Q27, Q35–Q39, Q41–Q43), 4 Preisportal (Q12, Q30, Q33, Q34), 1 Video (Q31).
 
 ### Prüftiefe
 
-- **Volltext gelesen und zitiert:** Q1–Q11, Q13–Q29, Q31, Q32.
+- **Volltext gelesen und zitiert:** Q1–Q11, Q13–Q29, Q31, Q32, Q35–Q43.
 - **Nur Preis/Existenz geprüft:** Q12, Q30, Q33, Q34.
+- **Sekundärzitat mit Datum:** Q38 (ep 4/2005) und Q39 (ep 5/2012) sind ältere Fachartikel. Zitiert werden **Prinzipien** (Aktorarten, Kanäle, ETS-Regeln), keine Produktempfehlungen und keine Preise — die Geräte aus Q38 sind längst nicht mehr am Markt.
 - **Video-Zeitmarken** stammen aus automatischen Untertiteln (± 5 s), keine frame-genauen Angaben; Zitate können ASR-Fehler enthalten.
-- **Nicht geprüft, nicht verwendet:** NVR-Preise, KNX-ETS-Lizenzpreise, Preise für Wassersensoren.
+- **Nicht geprüft, nicht verwendet:** NVR-Preise, KNX-ETS-Lizenzpreise, Preise für Wassersensoren, Strompreise für den Mehrverbrauch.
 
 ---
 
@@ -310,10 +393,13 @@ Das war die Vorgabe, und sie hält der Prüfung nicht stand:
 6. **„Smart Home spart Energie."** Nur für Heizungsabsenkung belegt (2–8 %) [Q22]; für Komfort/Sicherheit gilt das Gegenteil [Q22].
 7. **2,4-GHz-Störungen durch WLAN/Zigbee/Thread** — plausibel, aber in den geprüften Quellen nicht als Messung belegt.
 8. **Anzahl der Hersteller** — Wikipedia nennt „> 400" [Q1], KNX selbst nennt 180 Länder und 140.000 Installateure [Q2]; die Zahlen messen Verschiedenes und wurden nicht gegeneinander geprüft.
+9. **„Kosten je Schaltpunkt" als fertige Zahl.** Gibt es nicht. Die Bausteine sind belegt (Material [Q41], Lohnband aus `elektro.md`), die Summe **58–100 € je Punkt** ist eine eigene Rechnung mit einem Erfahrungswert für die Arbeitszeit. Wer ein Angebot bekommt, vergleicht gegen diese Rechnung — nicht gegen die Zahl.
+10. **Dass jeder Unterputzaktor einen Neutralleiter braucht,** ist eine technische Ableitung, keine zitierte Norm: Belegt ist, dass der N in der Ausschaltung nicht in der Schalterdose liegt [Q42][Q43]; welche Geräte ohne N arbeiten (2-Draht-/Batterielösungen), hängt am Produkt und wird hier nicht pauschal behauptet.
+11. **Reichweiten und Dämpfungswerte der Hersteller** (400 m Freifeld, 60 % Außenwand) sind Herstellerangaben bzw. Praxisschätzungen [Q8][Q13] — keine Messung im eigenen Haus. Die einzige belastbare Zahl ist die, die man nach dem Einbau am Gerät sieht.
 
 ---
 
-## 11. Die 10 Regeln (zum Mitnehmen)
+## 11. Die 11 Regeln (zum Mitnehmen)
 
 1. **Erst Nutzen, dann Geräte.** Wer mit dem Aktor anfängt, kauft zweimal.
 2. **Bestand ohne PE saniert zuerst die Elektrik** — nicht das Smart Home.
@@ -323,5 +409,6 @@ Das war die Vorgabe, und sie hält der Prüfung nicht stand:
 6. **Cloud nach dem Einrichten abschalten** und den offenen Access Point schließen [Q31].
 7. **Updates und Hersteller-Lebensdauer sind Kaufkriterium**, nicht Feature-Liste [Q19].
 8. **Fernzugriff nur per VPN**, Router-Fernzugang aus [Q20][Q21].
-9. **Förderung nur für energetische Teile** — und nur, wenn die Sanierung ohnehin ansteht [Q25].
-10. **Dokumentieren und Backup:** Fotos, IP-Liste, Passwörter, Config. Sonst gehört das Haus der App.
+9. **Aktor in den Verteiler, wenn die Leitung ohnehin liegt** — Reiheneinbau ist tauschbar, Unterputz ist ein Verbrauchsgut in der Wand; im Bestand ohne Stemmen bleibt nur Unterputz oder Funk [Q37][Q38].
+10. **Förderung nur für energetische Teile** — und nur, wenn die Sanierung ohnehin ansteht [Q25].
+11. **Dokumentieren und Backup:** Fotos, IP-Liste, Passwörter, Config. Sonst gehört das Haus der App.

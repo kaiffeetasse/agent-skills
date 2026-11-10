@@ -65,6 +65,8 @@ Risse entstehen, wenn Spannungen die Festigkeit überschreiten. WTA 2-4 untersch
 
 **Was das Foto nicht kann:** Breite ohne Maßstab, Tiefe ohne Endoskop, Bewegung ohne Zeitreihe, Ursache ohne Bauteilwissen. Ab ca. 0,2 mm beginnt die Ursachenforschung — dieser Wert ist eine Sachverständigen-Konvention, keine genormte Grenze.[2][3] Breite Risse über 1 mm gelten als Warnsignal für statische Probleme.[4]
 
+**Die Rissform ist ein Hinweis, kein Beweis.** BauNetz ordnet zwei Grundformen zu: **verzahnte, vertikale Risse** entstehen durch Schwinden und Abkühlung der Wand in horizontaler Richtung; **abgestufte schräge oder horizontale Risse** durch Schwinden/Quellen, Temperaturverformung, Kriechen und Formänderungen des Baugrunds, auch von kraftschlüssig verbundenen Nachbarbauteilen.[31] Dieselbe Rissform kann also harmlos oder ernst sein — und das Malerblatt formuliert die Grenze für die Sanierung: „Eine isolierte Betrachtung der Risse allein führt nicht zum Ziel, weil es immer einen Ursache-Wirkungs-Zusammenhang mit den möglichen Faktoren Wandbaustoff, Unterputz, Oberputz und Beschichtung gibt."[32] Wer aus einem Foto „Setzungsriss" ableitet, hat die halbe Antwort geraten.
+
 **Praxisfehler:** Riss nur als Makro ohne Übersicht. Ohne die zweite Aufnahme mit Fenster/Decke im Bild ist später nicht mehr zuzuordnen, wo der Riss saß.
 
 ### 2.2 Feuchte und Schimmel
@@ -82,6 +84,10 @@ Rund zehn Prozent der Bauschadensfälle in Deutschland stehen mit Schimmel in Zu
 **Wichtig zur Unterscheidung Kondensat vs. aufsteigende Feuchte:** Das UBA führt beides als getrennte Ursachengruppen — bauliche Einflüsse (Dämmung, Wärmebrücken, Leckagen, aufsteigende Feuchte) und nutzungsbedingte (Heizen, Lüften).[5] Auf dem Foto sehen beide oft gleich aus. Die Trennung leistet erst die Messung: Materialfeuchte im Querschnitt plus Raumklima.[5][10]
 
 **Schimmelarten:** Farbe und Wuchsform sind kein Artmerkmal. Für die Gefährdungsbeurteilung ist eine Artbestimmung nach DGUV in der Regel nicht nötig; für Art und Menge braucht es mikrobiologische Untersuchungen.[5] Ein Foto liefert also nie „Aspergillus“ oder „Stachybotrys“, sondern allenfalls „schwarzer, fleckiger Bewuchs“.
+
+**Und was ganz unsichtbar bleibt:** Bei Tageslicht nicht erkennbar sind nach der optischen Bau-Forensik (UV-/IR-Fluoreszenz mit Tatortlampen und Filterkameras) vor allem **transparentes Pilzmycel** und **überstrichene Wasserschäden** — Befunde, die im normalen Foto fehlen, obwohl das Bauteil betroffen ist.[34] Ein „sauberes" Foto ist deshalb kein Beweis für einen sauberen Untergrund.
+
+**Ausblühungen sind ein Symptom, keine Diagnose.** Weiße, flockige oder krustige Beläge zeigen, dass Salze mit Wasser an die Oberfläche transportiert wurden. Welches Salz und woher das Wasser kommt, sagt das Foto nicht — dafür braucht es eine **Salzanalyse** und ein Feuchteprofil. Fachlich saniert wird mit einem **Sanierputzsystem** nach WTA, dessen grobe Poren die Salze aufnehmen und die Feuchte verdunsten lassen; Sanierputz darf nur mit **offenporigen mineralischen** Farben beschichtet werden.[33] Wer die Ausblühung überstreicht, saniert die Optik und lässt die Ursache stehen.
 
 ### 2.3 Fliesen und Platten
 
@@ -169,6 +175,28 @@ Der Sachverständigen-Standard ist dreistufig — und für Laien genauso richtig
 - Keine Filter, keine Bildstile, kein starker HDR-/Nachtmodus, keine „Verschönerung“ — Smartphones rechnen Farben, Kontrast, Schärfe und ganze Bildbereiche um; bei beweisrelevanten Details sind geglättete Oberflächen und künstlich geschärfte Kanten ein Problem.[26]
 - Originaldatei behalten, nicht per Messenger weitergeben (Komprimierung), Kameradatum und Uhrzeit synchronisieren.[26]
 - Bildunterschrift mit fünf Angaben: was, wo, wann, warum relevant, welche Bewertung **nicht** aus dem Bild folgt.[26]
+
+### 3.1 Das Foto-Set je Befund — und die Grenze, die dazugehört
+
+Die allgemeinen Regeln oben gelten für alles; je Befund kommt es aber auf ein anderes Detail an. Die
+Tabelle ist als Aufnahmeplan gemeint: drei Bilder pro Befund, in dieser Reihenfolge, mit der genannten
+Referenz — und mit der Spalte, die man beim Deuten **nicht** überspringt.
+
+| Befund | Pflichtfotos | Maßstab / Referenz | Was man daraus **nicht** ableiten darf |
+|---|---|---|---|
+| **Riss** | (1) Übersicht mit Öffnung/Decke/Ecke, (2) Detail **senkrecht** zur Rissachse, (3) Detail mit Maßstab in der Rissebene | Rissbreiten-Messlupe oder Zollstock in derselben Ebene; **Streiflicht** macht den Versatz sichtbar | Tiefe, Bewegung, Ursache, statische Relevanz — und die Breite ohne Maßstab gar nicht |
+| **Feuchtefleck** | (1) Raum mit Fleck und angrenzendem Bauteil, (2) Detail mit **Randverlauf**, (3) dieselbe Stelle nach 2–4 Wochen vom **gleichen** Standpunkt *(Praxisregel)* | Maßband im Bild, Datum und Uhrzeit in der Bildunterschrift; Thermografie nur als Ergänzung | ob die Durchfeuchtung **aktuell** ist, Materialfeuchte in %, Herkunft des Wassers |
+| **Schimmel** | (1) Raumecke/Möbel/Laibung im Zusammenhang, (2) Detail Wuchsform und Farbe, (3) zweite Stelle zum Vergleich | Maßstab nur bei Randausdehnung; sonst Bezug über Bauteilkante | Art, Tiefe (oberflächlich oder im Putz), Ursache; unsichtbarer Befall fehlt im Bild |
+| **Ausblühung** | (1) Fläche mit angrenzendem Putz/Anschluss, (2) Detail der Kristallstruktur, (3) Foto der **Probe** für das Labor | Maßstab + Probenbezeichnung (Ort, Datum) | Salzart, Feuchtequelle, ob „nur" Ausblühung oder schon Putzschaden |
+| **Fliesen-Hohlstelle** | kein Hohlstellen-Foto möglich: (1) Fugenbild/Abplatzung, (2) dokumentierte **Abklopf-Markierung** (Kreide/Post-it je Feld), (3) Gesamtfläche mit Muster | Raster je Fliesenfeld; Anzahl der hohlen Felder und deren Lage notieren | Haftverbund und Ausmaß der Hohlstelle, ob daraus ein Mangel wird |
+| **Elektro-Pfusch** | (1) Dose offen mit **allen** Adern und Klemmen, (2) Verteiler mit Beschriftung, (3) Typenschild des Geräts | Vergleichsobjekt (Ader, Klemme) im Bild; keine Filter | Schutzleiterwirksamkeit, Schleifenimpedanz, RCD-Auslösezeit, Isolationswiderstand — alles Messgrößen |
+| **Fenster (Kondensat)** | (1) ganze Scheibe mit Rahmen, (2) Detail **Ort** des Kondensats (SZR oder raumseitig), (3) Laibung/Anschlussfuge | Abstand zur Scheibenkante im Bild (Geometrie des Randverbunds) | ob der **Rahmen** auch undicht ist, ob der Randverbund die Ursache ist — Indiz, kein Befund |
+| **Holz (Insekten)** | (1) Bauteil im Zusammenhang, (2) Ausflugloch mit Maßstab, (3) frisches Mehl/Staub neben dem Loch | Maßstab **zwingend**: 1–1,5 mm rund = Nagekäfer, 5–10 mm oval/ausgefranst = Hausbock[22] | aktiver Befall, Restquerschnitt, Tragfähigkeit — dafür muss geöffnet werden |
+
+**Die eine Spalte, die man nie weglässt:** Jede dieser Zeilen endet in einer Größe, die ein Foto nicht
+liefert — Feuchte, Haftverbund, Messwert, Statik, Art. Genau deshalb steht unter jedem Beweisfoto die
+Bildunterschrift mit der **nicht** ableitbaren Bewertung.[26] Wer sie weglässt, hat ein Bild, das vor
+Gericht mehr behauptet, als es kann.
 
 ---
 
@@ -266,6 +294,13 @@ Lehre: Das Bild zeigt das Schadbild „weißer Salzbelag mit Abplatzung“, wie 
 [29] https://www.elektrofachkraft.de/pruefung/messpraktikum-ausloesestroeme-und-zeiten-von-rcds — elektrofachkraft.de: Messpraktikum Auslöseströme und -zeiten von RCDs (Prüftaste ≠ Messung)
 [30] https://www.weka.de/elektrosicherheit/erstpruefung-nach-din-vde-0100-600/ — WEKA: Erstprüfung nach DIN VDE 0100-600 korrekt durchführen
 
+**Fachportale (Nachtrag, alle geprüft 09.11.2026)**
+
+[31] [BauNetz Wissen — Risse im Mauerwerk](https://www.baunetzwissen.de/mauerwerk/fachwissen/bauschaeden--maengel/risse-im-mauerwerk-162906) — Rissformen und Ursachenzuordnung: verzahnte vertikale Risse (Schwinden, Abkühlung), abgestufte schräge/horizontale Risse (Schwinden, Quellen, Temperatur, Kriechen, Baugrundverformung, kraftschlüssig verbundene Nachbarbauteile). Betont: „Jeder Fall ist anders."
+[32] [Malerblatt — Sanierung von Putzrissen](https://www.malerblatt.de/technik/facelifting-2/) — erste Frage ist der Schlagregenschutz bzw. der Feuchteeintrag in tiefe Schichten; „Eine isolierte Betrachtung der Risse allein führt nicht zum Ziel" (Wandbaustoff, Unterputz, Oberputz, Beschichtung als Ursache-Wirkungs-Kette); bei Sanierung im vorhandenen System bleiben oder Aufbau komplett entfernen.
+[33] [bauhandwerk — Sanierputzsysteme (Hans Jürgen Ronicke, Malermeister)](https://bauhandwerk.de/artikel/bhw_Sanierputzsysteme-1808055.html) — grobporige Sanierputze lagern Salze in den großen Poren ein und lassen Feuchte verdunsten; nur offenporige mineralische Farben zulässig; Salztest und Schadensanalyse über Labor/Fachberatung.
+[34] [baufachinformation (Fraunhofer IRB) — Optische Bau-Forensik, Grundkurs Teil I](https://www.baufachinformation.de/optische-bau-forensik-grundkurs-teil-i/255909) — freies Abstract: Forensikbilder (UV-/IR-Fluoreszenz, Tatortlampen, Filterkameras) zeigten „in fast allen Fällen" Informationen, „die bei Tageslicht nicht erkennbar waren"; Themen u. a. transparentes Pilzmycel, überstrichene Wasserschäden, Feuchtespuren. Begründet 2013 von Prof. Dr. Andreas O. Rapp (Leibniz-Universität Hannover). Kursbeschreibung, keine Messstudie.
+
 ### Bildnachweise
 
 [B1] https://commons.wikimedia.org/wiki/File:Black_Indoor_Mold.jpg — „Black mould in a bathroom“, Public Domain
@@ -277,3 +312,10 @@ Lehre: Das Bild zeigt das Schadbild „weißer Salzbelag mit Abplatzung“, wie 
 - Ab welcher Rissbreite eine Sanierung „nötig" ist — die 0,2-mm-Konvention ist Konvention, keine Normgrenze.
 - Trefferquoten von KI-Bilderkennung bei Bauschäden — keine belastbare Studie für den Wohnbereich gefunden.
 - Ob ein Foto als Beweismittel „ausreicht" — das entscheidet im Streitfall das Gericht, nicht die Quelle.
+- **Der Wiederholungsabstand „2–4 Wochen"** in der Foto-Set-Tabelle (Abschnitt 3.1) ist eine Praxisregel
+  für die Zeitreihe am Feuchtefleck; es gibt keine Norm, die ihn vorschreibt.
+- **Optische Bau-Forensik** [34] belegt, dass UV-/IR-Aufnahmen mehr zeigen als Tageslichtfotos — belegt
+  ist **nicht**, wie viel ein Handyfoto im Wohnbereich regelmäßig verpasst. Die Quelle ist eine
+  Kursbeschreibung, keine Vergleichsstudie.
+- **Salzarten und Grenzwerte** einer Ausblühung stehen hier nicht: [33] beschreibt das Sanierputz-System
+  und den Weg zur Salzanalyse, nennt aber keine Grenzwerte. Wer sie braucht, fragt das Labor.

@@ -84,6 +84,10 @@ Seit **21.07.2026** gilt (KfW 458) `[Q10][Q13]`:
 
 **Jahresbedarf/Lager.** Für 15.000 kWh: **3,4 t** Pellets, rund **5,1 m³** Schüttvolumen (1,5 m³/t `[Q34]`) — praktisch 6–9 m³, wenn man eine Lieferung pro Jahr plus Reserve will.
 
+**Wie die Pellets aus dem Lager in den Kessel kommen.** Zwei Systeme, zwei Grenzen: Die **Förderschnecke** ist das mechanische System für kurze Wege — geräuscharm, wenig Strom, aber je gerader und kürzer, desto weniger Abrieb. Das **pneumatische Saugsystem** überbrückt bis zu **30 m** Entfernung und schafft **Steigungen bis 6 m**, ist dafür lauter und stromhungriger; Abhilfe ist ein größerer Vorratsbehälter am Kessel, der nur außerhalb der Ruhezeiten gefüllt wird. Entscheidend ist in beiden Fällen wenig **Feinabrieb**: Er verstopft Förderwege und führt zu Betriebsstörungen am Kessel [BauNetz Pellet-Austragung](https://www.baunetzwissen.de/heizung/fachwissen/brennstofflagerung/austragungssysteme-fuer-pelletheizungen-5385903) (geprüft 09.11.2026).
+
+**Was das für den Lagerraum bedeutet.** Das Lager muss nicht nur groß genug sein (§ oben), sondern zur Austragung passen: Schrägboden mit Entnahmeschnecke am tiefsten Punkt oder ebener Boden mit Bodenrührwerk oder Saugsonden. Wer den Raum später umnutzen will, plant die Entnahmetechnik an der Wand, nicht in der Raummitte.
+
 **Förderung 2026.** 30 % Grundförderung; mit Klimabonus 16 % und Einkommensbonus 10–40 % sind **56–80 %** möglich, bezogen auf max. 28.000 € `[Q10][Q13]`. Voraussetzung: Staub ≤ 10 mg/m³ (Pelletkessel) `[Q14]`, Pufferspeicher, hydraulischer Abgleich `[Q10][Q18]`.
 
 **Rechtliche Hürden.**
@@ -179,9 +183,10 @@ Seit **21.07.2026** gilt (KfW 458) `[Q10][Q13]`:
 
 **Rechtliche Hürden.**
 - **Anschluss- und Benutzungszwang**: Gemeinden können ihn über Landesrecht auch zum Klimaschutz begründen — § 109 GModG `[Q05]`. Wer im Zwangsgebiet liegt, hat keine Wahl `[Q28]`.
-- **Kein Anbieterwechsel**: pro Netzgebiet ein regionales Monopol `[Q29]`.
-- **Vertragslaufzeit** bis 10 Jahre, automatische Verlängerung um 5 Jahre, Kündigung 9 Monate vor Ablauf (§ 32 AVBFernwärmeV) `[Q29]`.
-- Preisänderungsklauseln sind an Indexe gekoppelt und werden jährlich angepasst `[Q28]`.
+- **Kein Anbieterwechsel**: pro Netzgebiet ein regionales Monopol — Planung und Betrieb von Kraftwerk und Netz liegen beim selben Unternehmen, ein Wechsel ist nicht möglich [VZ Fernwärme](https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/fernwaerme-kosten-sparen-und-gleichzeitig-das-klima-schonen-34038) (geprüft 09.11.2026, Stand 09.07.2025) `[Q29]`.
+- **Vertragslaufzeit** bis 10 Jahre, automatische Verlängerung um 5 Jahre, Kündigung 9 Monate vor Ablauf (§ 32 AVBFernwärmeV) `[Q29]`; die Verbraucherzentrale nennt dieselbe Obergrenze von **zehn Jahren** [VZ Fernwärme](https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/fernwaerme-kosten-sparen-und-gleichzeitig-das-klima-schonen-34038) (geprüft 09.11.2026).
+- **Preisänderungsklauseln sind an Indexe gekoppelt** und werden jährlich angepasst `[Q28]`. Was sie dürfen, steht in § 24 Abs. 4 AVBFernwärmeV: Sie müssen **Kostenentwicklung bei Erzeugung und Bereitstellung** *und* die **Verhältnisse auf dem Wärmemarkt** angemessen berücksichtigen, die maßgeblichen Berechnungsfaktoren **vollständig und allgemein verständlich** ausweisen und den **Brennstoffkostenanteil** an der Änderung gesondert nennen; einseitig per öffentlicher Bekanntgabe darf die Klausel nicht geändert werden [AVBFernwärmeV § 24](https://www.gesetze-im-internet.de/avbfernw_rmev/__24.html) (geprüft 09.11.2026)`. Für die Vertragsprüfung heißt das: Index, Gewichtung und Basisjahr müssen im Vertrag stehen — fehlt der Brennstoffanteil, ist die Klausel angreifbar.
+- **Woher die Wärme kommt:** Bundesweit rund **zwei Drittel fossil**, **20 % erneuerbar**, **9 % Abwärme**, **5 % nicht biogener Abfall** — der CO₂-Faktor ist damit eine Frage des Netzes, nicht der Technik [VZ Fernwärme](https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/fernwaerme-kosten-sparen-und-gleichzeitig-das-klima-schonen-34038) (geprüft 09.11.2026).
 
 **Wartung.** Minimal — die Station gehört dem Versorger; Wartung/Reparatur sind eingepreist (Erfahrungswert).
 
@@ -197,6 +202,16 @@ Seit **21.07.2026** gilt (KfW 458) `[Q10][Q13]`:
 **Wie es funktioniert.** Flach- oder Röhrenkollektoren auf Dach/Fassade erwärmen eine Trägerflüssigkeit; über Pumpe und Wärmetauscher geht die Wärme in einen Pufferspeicher. Im Sommer deckt die Anlage oft das Warmwasser komplett, im Winter unterstützt sie die Heizung `[Q19][Q24]`.
 
 **Für wen.** Südlage mit 3–6 m² (nur Warmwasser) bzw. 9–20 m² (Warmwasser + Heizung), ausreichend Puffervolumen (250–350 l bzw. 500–1.500 l) `[Q24]`. Immer **als Ergänzung**, nie als alleinige Heizung `[Q19]`.
+
+**Der Deckungsgrad entscheidet über die Wirtschaftlichkeit**, nicht die Kollektorfläche allein. Drei Bänder, drei Charaktere [BauNetz Solardeckungsgrad](https://www.baunetzwissen.de/solar/fachwissen/solarwaerme/kollektorflaeche-und-solarer-deckungsgrad-165858) (geprüft 09.11.2026):
+
+| solarer Deckungsgrad | Charakter | Folge |
+|---|---|---|
+| **unter 40 %** | klein, günstig | Kollektorwärme im Sommer voll genutzt, Defizit aus dem Kessel; bei Mehrfamilienhäusern üblich (30–45 %) |
+| **40–60 %** | Kompromiss fürs Einfamilienhaus | bei **60 %** ist der Warmwasserbedarf im Sommer gedeckt, der Kessel bleibt aus |
+| **über 70 %** | maximale Abdeckung | große Flächen, hohe Sommerüberschüsse, **niedrigerer Nutzungsgrad**, aufwendig und teuer |
+
+Für die **Heizungsunterstützung** gibt es keinen Standardwert: Der Deckungsgrad hängt an der energetischen Qualität des Gebäudes — im Passivhaus sind rund **50 %** erreichbar [BauNetz Solardeckungsgrad](https://www.baunetzwissen.de/solar/fachwissen/solarwaerme/kollektorflaeche-und-solarer-deckungsgrad-165858) (geprüft 09.11.2026). Wer mit „70 % Deckung“ wirbt, verkauft Sommerüberschüsse als Ertrag.
 
 **Investition.** Verbraucherzentrale (Stand 2025): **6.000–10.000 €** nur Warmwasser, **9.000–17.000 €** Warmwasser + Heizung `[Q24]`. ADAC (Juli 2026): **3.000–6.000 €** bzw. **7.000–10.000 €**, Kombianlage 7.000–17.000 € `[Q19]`. Pro m² Kollektor 250–600 € (Flach) bzw. 350–800 € (Röhre) `[Q19]`.
 
@@ -407,6 +422,7 @@ Sonderfälle:
 - `[Q07]` 1. BImSchV § 5 — Grenzwerte 20 mg/m³ Staub / 0,4 g/m³ CO, Puffer 55/20 l/kW. https://www.gesetze-im-internet.de/bimschv_1_2010/__5.html
 - `[Q08]` 1. BImSchV § 15 — wiederkehrende Überwachung (2 Jahre fest, 2–3 Jahre Gas/Öl). https://www.gesetze-im-internet.de/bimschv_1_2010/__15.html
 - `[Q09]` 1. BImSchV § 25 — Übergangsregelung Bestandskessel. https://www.gesetze-im-internet.de/bimschv_1_2010/__25.html
+- `[Q43]` § 24 Abs. 4 AVBFernwärmeV — Preisänderungsklausel: Kostenentwicklung **und** Wärmemarkt, Faktoren vollständig ausweisen, Brennstoffanteil gesondert, keine einseitige Änderung per Bekanntgabe. https://www.gesetze-im-internet.de/avbfernw_rmev/__24.html
 
 **Behörde / Förderbank**
 - `[Q10]` KfW, Zuschuss 458 „Heizungsförderung für Privatpersonen – Wohngebäude", Stand 07/2026. https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Heizungsf%C3%B6rderung-f%C3%BCr-Privatpersonen-Wohngeb%C3%A4ude-(458)/ — 30–80 %, Deckel 28.000/15.000/8.000 €, förderfähige Techniken.
@@ -418,6 +434,8 @@ Sonderfälle:
 - `[Q12]` HeizungsJournal, „GModG in Kraft getreten", 06.08.2026. https://www.heizungsjournal.de/gmodg-in-kraft-getreten_114420 — 65 % entfällt, Betriebsverbote entfallen, Biotreppe.
 - `[Q13]` ELCO, „BEG 2026 – die neuen Förderungen", 2026. https://elco.de/blog/waermerecht/beg-foerderung.html — 30 % Grundförderung, 16 % Klimabonus, −4 pp halbjährlich, Deckel −750 € halbjährlich, Effizienz-/Emissionsbonus gestrichen, 15+15 % Wertschöpfungsbonus ab 2027.
 - `[Q30]` ZfK, „Fernwärmepreise 2026: Klarer Trend erkennbar", 06.03.2026. https://zfk.de/energie/waermewende/fernwaermepreise-2026-klarer-trend-erkennbar — AGFW 15,7 ct/kWh (01.01.2026), VZBV-Median ~17 ct (EFH).
+- `[Q41]` BauNetz Wissen, „Austragungssysteme für Pelletheizungen" — Schnecke (kurze Wege, wenig Abrieb), pneumatisch bis **30 m** und **Steigungen bis 6 m**, Feinabrieb als Störungsursache. https://www.baunetzwissen.de/heizung/fachwissen/brennstofflagerung/austragungssysteme-fuer-pelletheizungen-5385903
+- `[Q44]` BauNetz Wissen, „Kollektorfläche und solarer Deckungsgrad" — Bänder < 40 % / 40–60 % / > 70 %, 30–45 % bei MFH, 60 % deckt Warmwasser im Sommer, Passivhaus ≈ 50 % bei Heizungsunterstützung. https://www.baunetzwissen.de/solar/fachwissen/solarwaerme/kollektorflaeche-und-solarer-deckungsgrad-165858
 - `[Q31]` BDEW, „Fernwärmepreise bleiben stabil, Marktabdeckung wächst", 22.07.2026. https://www.bdew.de/presse/die-marktabdeckung-waechst-weiter-und-die-preise-bleiben-stabil — 710 Netze, > 50 % des Absatzes.
 
 **Verbraucherportale / Verbraucherzentrale**
@@ -427,6 +445,7 @@ Sonderfälle:
 - `[Q18]` ADAC, „Pelletheizung: Kosten, Förderung, Vor- und Nachteile", 22.07.2026. https://www.adac.de/rund-ums-haus/energie/versorgung/pelletheizung — 15.000–25.000 €, 7–9 ct/kWh (2025), 4–6 t/a, 150–300 € Wartung, 95 % Wirkungsgrad.
 - `[Q19]` ADAC, „Solarthermie: Kosten und Förderung 2026", 22.07.2026. https://www.adac.de/rund-ums-haus/energie/versorgung/solarthermie-kosten-foerderung — 3.000–6.000 / 7.000–17.000 €, 250–800 €/m², 100–200 €/a, Keymark, 525 kWh/m²·a.
 - `[Q20]` ADAC, „Heizen mit Klimaanlage". https://www.adac.de/rund-ums-haus/energie/versorgung/heizen-mit-klimaanlage — 1.500–3.500 € mono, 3.500–7.000 € multi, SCOP 4, JAZ, keine WW, Förderung nur heizungsprimär.
+- `[Q42]` Verbraucherzentrale, „Fernwärme: Kosten sparen und gleichzeitig das Klima schonen" (Stand 09.07.2025) — lokales Monopol ohne Wechsel, Verträge bis 10 Jahre, Erzeugungsmix 2/3 fossil / 20 % EE / 9 % Abwärme / 5 % Abfall. https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/fernwaerme-kosten-sparen-und-gleichzeitig-das-klima-schonen-34038
 - `[Q24]` Verbraucherzentrale, „Solarthermie: So nutzen Sie Solarenergie". https://verbraucherzentrale.de/wissen/energie/erneuerbare-energien/solarthermie-so-nutzen-sie-solarenergie-fuer-heizung-und-warmwasser-5568 — 3–6 m²/250–350 l, 9–20 m²/500–1.500 l, 300–400 kWh/m²·a, 6.000–17.000 € (2025), PV-Konkurrenz.
 - `[Q25]` Verbraucherzentrale Energieberatung, „Elektrische Direktheizung". https://verbraucherzentrale-energieberatung.de/heizen/neue-heiztechnik/elektrische-direktheizung — „kostenintensive Notlösung", 1 kWh Strom = 1 kWh Wärme.
 - `[Q26]` co2online, „Pelletheizung: Kosten, Förderung & Arten" (29.01.2025). https://www.co2online.de/modernisieren-und-bauen/heizung/pelletheizung — Lagerraum 3–10 m², Puffer, Asche, Nachteile.
@@ -448,6 +467,7 @@ Sonderfälle:
 - `[Q38]` Prof. Dr. Volker Quaschning, „Wärmepumpe, Gas oder Pellets? Faktencheck zu Kosten, Klima & Komfort", 09.01.2026. https://www.youtube.com/watch?v=DHVr4lhDzDg — Kapitelmarken aus der Beschreibung: 06:08 Pelletheizung/Lager, 11:25 Kostenvergleich, 19:50 „Ist mit Holz heizen klimaneutral?" (Transkript nicht abrufbar, siehe § 14).
 - `[Q39]` Haus-Garten-Solar, „Achtung vor der Pelletheizung! Meine Erfahrung nach 1 Jahr im Altbau", 24.02.2026. https://www.youtube.com/watch?v=2tEtpYF8REc — Titel/Kanal/Datum per oEmbed geprüft; nicht als Zahlenbeleg verwendet.
 - `[Q14]` t-online, „Neuer Grenzwert bei Holzheizungen: Diese Änderungen gelten ab 2027", 27.07.2026. https://www.t-online.de/heim-garten/aktuelles/id_101357152/neuer-grenzwert-bei-holzheizungen-diese-aenderungen-gelten-ab-2027.html — 2,5 mg/m³ ab 10/2027, Fördergrenzen 10/15 mg/m³.
+
 
 ---
 

@@ -96,6 +96,15 @@ Belegt ist hier nur die **bauartspezifische Unterscheidung** (Glas-Glas vs. Glas
 
 **Merksatz:** Der Wechselrichter ist die Komponente mit der kürzesten Lebensdauer (10–15 Jahre, oft der erste Tausch). Ein Gerät mit **offenen Schnittstellen** (Modbus, API) kostet heute nichts extra und entscheidet später darüber, ob Wallbox und Wärmepumpe den Überschuss sehen.
 
+**Stringplanung: vier Prüfschritte, die im Angebot stehen müssen.**
+
+1. **Spannungsfenster:** Reihengeschaltete Module addieren ihre Leerlaufspannung. Geprüft wird die **kälteste** zu erwartende Zelltemperatur gegen die maximale Systemspannung des Wechselrichters — nicht die Modulnennspannung bei 25 °C.
+2. **MPP-Fenster:** Die Stringspannung im heißen Sommer muss noch im MPP-Bereich des Geräts liegen — sonst arbeitet der Wechselrichter außerhalb seines optimalen Punktes und verliert Ertrag.
+3. **Mismatch:** Module mit unterschiedlicher Ausrichtung oder Verschattung gehören nicht in denselben String; ein verschattetes Modul zieht über die Reihenschaltung den ganzen String mit. Abhilfe sind getrennte Strings oder Optimierer — nicht „mehr Module“.
+4. **Leitungsdimensionierung:** Auf der **AC-Seite** gilt nach **DIN VDE 0100-712 (Abschnitt 712.433.104)** der maximale Ausgangsstrom des Wechselrichters als Bemessungsstrom; fehlt die Herstellerangabe, wird das **1,1-Fache des Bemessungswechselstroms** angesetzt. Fehler entstehen fast immer bei den Reduktionsfaktoren — Umgebungstemperatur, Häufung, Verlegeart —, nicht am Querschnitt selbst. Im belüfteten Außenbereich wird mit **40 °C** Umgebungstemperatur gerechnet, Leiter mit **70 °C** Betriebstemperatur [Elektropraktiker PV-Kabel](https://www.elektropraktiker.de/nachrichten/nachricht/dimensionierung-der-kabel-und-leitungen-einer-pv-anlage) (geprüft 09.11.2026, Artikel von 2018, Beispielanlage 990 kWp — die Normverweise gelten, die Anlagengröße nicht).
+
+**Verschattung bleibt eine Simulation, keine Faustzahl.** Es gibt keinen seriösen Pauschalwert für „20 % Schatten = 20 % Verlust“; der Verlust hängt an Uhrzeit, Jahreszeit, Stringlänge und Verschaltungsart (§ 12). Wer eine Zahl braucht, lässt eine standortbezogene Simulation rechnen — mit Datum, Uhrzeit und Modulbelegung.
+
 ### 2.7 Einspeisevergütung: Sätze, Degression, Direktvermarktung
 
 Die Vergütung wird nicht jährlich neu verhandelt, sondern **halbjährlich um 1 % gesenkt** — zum 1. Februar und zum 1. August. Die BNetzA: „Seit 2024 werden die Fördersätze halbjährlich unter Verwendung eines festen Degressionssatzes bestimmt" [Q4]; im Tabellenwerk steht dazu der Degressionssatz **0,01** je Periode [Q5].
@@ -211,7 +220,7 @@ Rechenbeispiel der HTW: **10 kWp + 4.000 kWh/a → höchstens 6 kWh** nutzbar. G
 
 ### 4.2 § 14a EnWG: steuerbar, nicht abschaltbar
 
-Seit **1. Januar 2024** gilt die neue Festlegung: Wallboxen, Speicher, Wärmepumpen und Klimaanlagen mit mehr als **4,2 kW** Bezugsleistung sind **steuerbare Verbrauchseinrichtungen** [Q16]. Der Netzbetreiber darf sie „netzorientiert" **dimmen** — auf **4,2 kW Mindestleistung** bei Direktansteuerung [Q9][Q16]. Er darf sie **nicht abschalten** und den Anschluss nicht mehr mit Verweis auf Netzüberlastung verweigern [Q21].
+Seit **1. Januar 2024** gilt die neue Festlegung: Wallboxen, Speicher, Wärmepumpen und Klimaanlagen mit mehr als **4,2 kW** Bezugsleistung sind **steuerbare Verbrauchseinrichtungen** [Q16]. Der Netzbetreiber darf sie „netzorientiert" **dimmen** — auf **4,2 kW Mindestleistung** bei Direktansteuerung [Q9][Q16]. Er darf sie **nicht abschalten** und den Anschluss nicht mehr mit Verweis auf Netzüberlastung verweigern [Q21][Elektropraktiker § 14a](https://www.elektropraktiker.de/nachrichten/nachricht/waermepumpen-co-muessen-ab-januar-2024-aus-dem-netz-steuerbar-sein) (geprüft 09.11.2026).
 
 Dafür gibt es Netzentgeltrabatt, drei Module [Q16]:
 
@@ -524,8 +533,10 @@ Alle URLs am 09.11.2026 einzeln abgerufen; Status je Zeile.
 | Q31 | PvWelt™, „PV-Anlage zu groß? Warum viele Anbieter Ihnen zu viele Solarmodule verkaufen!" (22.10.2026, 26:39), https://www.youtube.com/watch?v=dRg0B1km4jE | Y | Video existiert (oEmbed geprüft, Titel/Kanal/Datum/Länge), Beschreibung gelesen: Angebote 10 vs. 15 kWp vs. Volldach, „mehr Module bedeuten nicht automatisch mehr Rendite". **Kein Transkript geprüft — keine Zahlen daraus übernommen.** |
 | Q32 | KfW, Produktseite „Zuschuss Nr. 442 Solarstrom für Elektroautos", https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Solarstrom-f%C3%BCr-elektroautos-(442)/ | B | Seite erreichbar, Inhalt JS-gerendert; nur FAQ-Gerüst lesbar („Welche Förderungen für E-Mobilität gibt es noch?"). **Programmstatus daher über Q30 belegt, nicht über diese Seite.** 200 |
 | Q33 | EEG 2023 § 25 (Dauer der Zahlung), https://www.gesetze-im-internet.de/eeg_2014/__25.html | G | **Volltext**; „für die Dauer von 20 Jahren zu zahlen", Beginn Inbetriebnahme, Verlängerung bis 31.12. des 20. Jahres. 200 |
+| Q34 | Elektropraktiker, „Dimensionierung der Kabel und Leitungen einer PV-Anlage" (25.09.2018), https://www.elektropraktiker.de/nachrichten/nachricht/dimensionierung-der-kabel-und-leitungen-einer-pv-anlage | N/F | Volltext; **DIN VDE 0100-712, Abschnitt 712.433.104**: AC-seitig max. Wechselrichter-Ausgangsstrom, ersatzweise **1,1 ×** Bemessungswechselstrom; 40 °C Umgebung, 70 °C Leiter, Reduktionsfaktoren/Häufung als Fehlerquelle. 200 |
+| Q35 | Elektropraktiker, „Wärmepumpen & Co. ab Januar 2024 aus Netz steuerbar" (20.12.2023), https://www.elektropraktiker.de/nachrichten/nachricht/waermepumpen-co-muessen-ab-januar-2024-aus-dem-netz-steuerbar-sein | F | Volltext; SteuVE **> 4,2 kW** (Wärmepumpen, nicht öffentliche Wallboxen, Klimageräte, Speicher), Steuerung über **Smart Meter Gateway**, netzorientiert statt präventiv, keine Anschluss-Ablehnung wegen Netzüberlastung. 200 |
 
-**Quellenbilanz:** 33 Einträge, **alle 33 URLs am 09.11.2026 einzeln abgerufen und mit HTTP 200 bestätigt**. Zwei URLs sind im Lauf der Prüfung gestorben und wurden **ersetzt statt stillschweigend gelöscht**: die BNetzA-Übersichtsseite `…/EEG_Foerderung/start.html` (404 → ersetzt durch Archivseite Q4 + xlsx Q5, siehe §12 Nr. 11) und eine BNetzA-§14a-Seite (404 → nicht verwendet; § 14a stützt sich auf EnWG § 14a, Q9, Q16 und Q24). Volltext gelesen: Q1, Q2, Q3, Q6, Q7, Q8, Q9, Q10, Q33 (Gesetze), Q4, Q5 (Behörde, inkl. xlsx-Parsing), Q11–Q21, Q23–Q30. Modell-API abgefragt: Q22.
+**Quellenbilanz:** 35 Einträge; die 2026 ergänzten **Q34/Q35** am 09.11.2026 einzeln mit HTTP 200 bestätigt, die übrigen im Erstellungslauf vom 09.11.2026. Zwei URLs sind im Lauf der Prüfung gestorben und wurden **ersetzt statt stillschweigend gelöscht**: die BNetzA-Übersichtsseite `…/EEG_Foerderung/start.html` (404 → ersetzt durch Archivseite Q4 + xlsx Q5, siehe §12 Nr. 11) und eine BNetzA-§14a-Seite (404 → nicht verwendet; § 14a stützt sich auf EnWG § 14a, Q9, Q16 und Q24). Volltext gelesen: Q1, Q2, Q3, Q6, Q7, Q8, Q9, Q10, Q33 (Gesetze), Q4, Q5 (Behörde, inkl. xlsx-Parsing), Q11–Q21, Q23–Q30. Modell-API abgefragt: Q22.
 
 ---
 

@@ -233,6 +233,44 @@ Der Zeitpunkt der Baubeschreibung ist ebenfalls Prüfpunkt: Sie muss **vor** der
 übergeben werden (Art. 249 § 1 EGBGB). Wer sie erst mit dem Vertrag zur Unterschrift bekommt, hat
 keine Zeit zum Prüfen — und das Widerrufsrecht als Notausgang (siehe 3.6).
 
+### 2.4 Angebotsvergleich: erst Vollständigkeit, dann Preis
+
+Der Vergleich ist die Stelle, an der der Bauherr den größten Hebel hat — und die, an der die meisten
+Äpfel mit Birnen vergleichen. Die Verbraucherzentrale nennt die Reihenfolge ausdrücklich: „Vor dem
+Preisvergleich steht der Check auf Vollständigkeit", und Angebote müssen „auch alle Vor-, Nach- und
+Nebenarbeiten berücksichtigen, beim Fenstertausch zum Beispiel den Gerüstbau"
+[Verbraucherzentrale: Handwerker finden](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664)
+(geprüft 09.11.2026).
+
+- **Kostenvoranschlag ≠ Angebot.** „Kostenvoranschläge sind nicht verbindlich, es kann also teurer werden.
+  Steigt der Preis um mehr als **15 bis 20 Prozent**, muss der Unternehmer jedoch darauf hinweisen. Sie
+  können dann den Vertrag kündigen. An die Preise in **Angeboten** sind die Unternehmen dagegen in aller
+  Regel gebunden" (dieselbe Quelle). Das ist die praktische Übersetzung von § 649 BGB (Kostenanschlag,
+  wesentliche Überschreitung) — und der Grund, warum im Baufirmenvertrag „Festpreis" stehen muss und nicht
+  „nach Kostenvoranschlag".
+- **Zwei bis drei Angebote sind das Minimum** (Verbraucherzentrale), nicht eines. Wer vier bis sechs
+  einholt, hat mehr Vergleichsmasse — aber nur, wenn alle denselben Leistungsumfang haben (siehe 2.3).
+  **Die beiden Zahlen stehen nebeneinander, nicht als Widerspruch, den man auflösen müsste:** 2–3 ist das
+  Verbraucherminimum, 4–6 die Zahl, die die Praxisquellen für eine echte Verhandlungsposition nennen
+  (siehe „Zahlen und Prüfpunkte" am Ende).
+- **Qualifikation vor Preis:** Innungsbetrieb? Meisterbetrieb? Aussagekräftige Referenzen? Die
+  Verbraucherzentrale warnt zusätzlich vor Firmen, die im Branchenbuch unter „AAA" stehen — „Diese zum
+  großen Teil unseriösen Firmen werden alphabetisch zuvorderst im Branchenbuch eingetragen".
+- **Zahlung erst nach Prüfung:** „Die Rechnung sollten Sie erst dann vollständig bezahlen, wenn alles zu
+  Ihrer Zufriedenheit erledigt ist", und Lohn-, Fahrt- und Materialkosten sollten einzeln aufgeführt sein
+  (dieselbe Quelle) — das ist zugleich die Voraussetzung dafür, Handwerkerleistungen steuerlich
+  abzusetzen (siehe `foerderung-steuern.md`).
+
+**Vergleichsraster, das drei Angebote wirklich vergleichbar macht:**
+
+| Spalte | Was drinstehen muss | Typischer Blindfleck |
+|---|---|---|
+| Leistungsumfang | Positionen aus der Baubeschreibung, je mit Menge und Fabrikat | „oder gleichwertig" ohne benanntes Fabrikat |
+| Vor-/Nach-/Nebenarbeiten | Gerüst, Kran, Container, Entsorgung, Bauwasser/-strom, Schutz, Reinigung | fehlt fast immer und wird als Nachtrag fällig |
+| Preisbindung | Festpreis, Pauschalpreis oder Einheitspreis — und wie lange gebunden | „Festpreis" mit Mengenvorbehalt |
+| Zahlungsplan | Raten an Bauzustände gebunden, nicht an Kalenderdaten (3.4) | 30 % bei Auftragserteilung |
+| Termin | Fertigstellung oder Dauer, Zwischenfristen als Vertragsfristen (4.1) | Balkenplan ohne Vertragsbindung |
+
 ## 3. Preis und Zahlung
 
 ### 3.1 Festpreis, Pauschalpreis, Aufwand — was steht im Vertrag?
@@ -474,6 +512,12 @@ Mindestinhalt eines brauchbaren Protokolls:
 6. **Zahlungsstand** und **Sicherheiten** (5 % nach § 650m Abs. 2, Einbehalt),
 7. **Unterschrift beider Seiten**, je eine Ausfertigung.
 
+**Der Satz, der den Vorbehalt rettet:** Die Verbraucherzentrale empfiehlt, ins Abnahmeprotokoll bei gerügten
+Mängeln ausdrücklich zu ergänzen: **„Die Geltendmachung von Gewährleistungsansprüchen bleibt vorbehalten"**
+[Verbraucherzentrale: Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026). Ohne diesen Satz ist nach § 640 Abs. 3 BGB genau der Mangel erledigt, den man bei der
+Abnahme kannte — die Unterschrift ist dann eine Billigung, keine Rüge.
+
 **Inbetriebnahme heißt besichtigen und messen:** Anlage **besichtigen**, Werte protokollieren — „läuft"
 ist keine Abnahme (eNpMPWvnWiI-03).
 
@@ -670,6 +714,12 @@ weiteren Rechte: ohne erfolglosen Fristablauf kein Rücktritt, kein Schadensersa
 Selbstbeseitigung. Ausnahmen: **§ 637 Abs. 2 BGB** — Frist entbehrlich, wenn Nacherfüllung fehlgeschlagen
 oder unzumutbar ist; **§ 323 Abs. 2** gilt entsprechend.
 
+*Wie lang „angemessen" ist:* Die Verbraucherzentrale nennt für Handwerkerleistungen „ein bis zwei Wochen"
+als Regelfrist für die Mängelbeseitigung
+[Verbraucherzentrale: Handwerker-Auftrag](https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762)
+(geprüft 09.11.2026). Bei Bauwerken mit mehreren Gewerken ist das die Untergrenze; zu knappe Fristen sind
+angreifbar, zu lange kosten Monate.
+
 **Stufe 3 — Zahlung zurückhalten.** **§ 641 Abs. 3 BGB**: Nach Fälligkeit darf der Besteller einen
 angemessenen Teil zurückhalten, „in der Regel das **Doppelte** der für die Beseitigung des Mangels
 erforderlichen Kosten". Das ist der stärkste Hebel, weil er sofort wirkt — aber er muss **mengenmäßig
@@ -739,6 +789,8 @@ rügen; mit dem Bauleiter der Firma über Mängel verhandeln, als wäre er neutr
 | Prüfung Bau-/Leistungsbeschreibung | **300 €** schriftlich | VZ Rheinland-Pfalz |
 | Bauherrenhaftpflicht Mindestsumme | **3 Mio. €**, besser 5 Mio. € | BSB |
 | Bauleistungsversicherung Laufzeit | **12 oder 24 Monate** | GDV |
+| Kostenvoranschlag: Hinweis- und Kündigungsschwelle | **> 15–20 %** Überschreitung | VZ |
+| Frist zur Mängelbeseitigung (Regelfall) | **1–2 Wochen** | VZ |
 
 ## Quellen (alle am 09.11.2026 abgerufen)
 
@@ -837,6 +889,17 @@ rügen; mit dem Bauleiter der Firma über Mängel verhandeln, als wäre er neutr
 - GDV / Die Versicherer: „Die 5 wichtigsten Versicherungen für Bauherren" (Bauherrenhaftpflicht,
   Feuerrohbau, Bauleistung 12/24 Monate, BG Bau, Urteil L 1 U 342/19) —
   https://www.dieversicherer.de/versicherer/wohnen/news/die-5-wichtigsten-versicherungen-fuer-bauherren-143802
+- Verbraucherzentrale: „Handwerker finden: So vermeiden Sie böse Überraschungen" (2–3 Angebote,
+  Kostenvoranschlag unverbindlich, **> 15–20 %** Hinweispflicht und Kündigungsrecht, Angebotspreise bindend,
+  Vollständigkeit vor Preisvergleich, Innung/Meister/Referenzen, „AAA"-Warnung, Rechnung erst nach Prüfung) —
+  https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664
+  — **200**
+- Verbraucherzentrale: „Handwerker: Was bei einem Auftrag zu beachten ist" (Kostenvoranschlag nur mit
+  ausdrücklicher Vereinbarung vergütet, Festpreis nicht überschreitbar, Frist **1–2 Wochen**, Abnahme,
+  Vorbehaltssatz „Die Geltendmachung von Gewährleistungsansprüchen bleibt vorbehalten", Zurückbehaltung
+  mindestens das Doppelte) —
+  https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-was-bei-einem-auftrag-zu-beachten-ist-12762
+  — **200** *(beide VZ-Seiten am 09.11.2026 per `curl` geprüft)*
 
 **Zahlen und Marktpraxis**
 

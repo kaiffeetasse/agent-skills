@@ -169,6 +169,12 @@ zahlt zweimal. Kurzfassung (Belege je Paragraph in `references/ausbildungsordnun
 - **Trockenbaumonteur/-in** — Feuchträume, Dachausbau, Brandschutz, Sonderdecken (Abdichtung nur beurteilen).
 - **Dachdecker/-in** — Dampfsperre/Luftdichtheit, Flüssigabdichtung, An- und Abschlüsse.
 - **Zimmerer/Zimmerin** — tragend/nichttragend unterscheiden, Rückbau, Holzkonstruktionen sanieren.
+
+Ausbildungs- und Prüfungsmodalitäten (Punkteregeln, Prüfungsteile, Ergänzungsprüfung, Hilfsmittel) gehören
+**nicht** in diesen Skill: sie beantworten keine Baufrage. Behalten werden nur zwei Dinge, die die Arbeit
+steuern — **welches Gewerk was gelernt hat** (oben) und **wer überhaupt zur Prüfung zugelassen wird**
+(BBiG § 45 Abs. 2: Eineinhalbfaches der Ausbildungsdauer; HwO § 49 Abs. 2 für den Berufswechsel). Alles
+andere ist Papierkram und bläht die Startdatei auf.
 ## Playbooks — Aufgabe → Vorgehen
 
 Für konkrete Fragen („wie renoviere ich mein Bad?“, „wie erneuere ich die Decke?“, „was beachte ich bei
@@ -305,6 +311,19 @@ geführt, damit die Änderung nachvollziehbar bleibt.
 Ergebnis als Themen-Datei unter `references/tests/` (eine je Prüfrunde, mit Bilanz STIMMT/FEHLT/
 WIDERSPRICHT, den Korrekturen und den selbst gefundenen Fehlern im Testapparat).
 
+**Delegierte Quellenläufe selbst nachprüfen, nicht glauben.** Ein Subagent meldet „alle URLs 200, alle
+Prüfungen grün" — das ist ein Selbstbericht und war in der Praxis schon falsch (14 Shop-Artikel als
+„live" gemeldet, real 404; Zählbasis eine andere als die eigene). Nach **jedem** delegierten Inhaltslauf
+selbst laufen lassen: `linkcheck.py` (mit Browser-Headern), `fehlercheck.py`, `faktenerhalt.py --compare`,
+und die Kernaussagen zu **Geld, Fristen und Normen** im Text gegenlesen — eine Spur kann eine vorher
+mühsam korrigierte Aussage wieder einbauen, wenn sie nur ihre eigene Quelle liest. Abweichungen werden
+korrigiert, nicht in den Bericht geschrieben.
+
+**Eine Quellenliste ist Deko, bis sie im Text steht.** Wer ein Portal empfiehlt (Top-10, Fachpresse,
+Behörde), muss im selben Zug mindestens ein Playbook damit belegen — sonst hat der Skill eine Liste und
+kein Wissen. Und: Portale veralten schnell, also Datum + Prüfstatus an jede Empfehlung schreiben und beim
+Zitieren erneut abrufen.
+
 ## Werkzeuge (rechnen und prüfen statt schätzen)
 
 - `scripts/material.py` — Mengen und U-Werte: `fliesen`, `ausgleich`, `farbe`, `u-wert`,
@@ -314,6 +333,9 @@ WIDERSPRICHT, den Korrekturen und den selbst gefundenen Fehlern im Testapparat).
 - `scripts/linkcheck.py` — alle Quellen-URLs (HEAD/GET, `-k`-Fallback für kaputte Zertifikatsketten).
 - `scripts/querkcheck.py` — widersprüchliche Zahlenbänder zwischen Dateien; geprüfte Ausnahmen
   stehen in `references/querkcheck-bekannt.json`.
+- `scripts/faktenerhalt.py` — Momentaufnahme aller Zahlen/URLs je Playbook (`--snapshot`) und Vergleich
+  nach einem Umbau (`--compare`, `--fail` für CI); beweist, dass beim Umsortieren keine Ziffer verloren
+  ging — der einzige Test, der **Inhaltsverlust** statt Abdeckung misst.
 - `references/quellen-top10.md` — zehn geprüfte Anleitungs-Portale plus die Regel, welche Quellen Zahlen liefern dürfen.
 - `scripts/router_test.py` — 32 Alltagsfragen gegen die Router-Tabelle (`references/router-test.json`).
 
@@ -335,14 +357,20 @@ es meldet jede Zahl und jede URL, die auf der Strecke geblieben ist.
    allgemein. Details und die zwei Normalisierungsfallen in `references/tests/README.md`.
 4. **Quelle prüfen heißt abrufen, nicht erinnern.** Eine URL, die plausibel klingt, ist keine Quelle: die
    VOB/B steht **nicht** auf gesetze-im-internet.de (404) und ist kein Gesetz, sondern Vertragsbestandteil.
-   Status prüfen: 200 = gut, 401/403/429 = existiert (Bot-Schutz), 404/410/000 = tot. **200 ist aber kein
-   Inhaltsnachweis**: Landesrechtsportale liefern für jede Dokument-URL eine JS-Hülle mit 200 — dort den
-   Text über die amtliche PDF-Fassung holen. Auch ein PDF-Link kann mit 200 eine HTML-Seite zurückgeben:
-   dann `curl -skL -o x.pdf … && file x.pdf` prüfen und den Text mit `pdftotext -layout x.pdf -` lesen —
-   nur was im PDF steht, ist belegt. Antwortet ein Host auf 000, obwohl die Seite im Browser lädt, ist die
-   **Zertifikatskette** unvollständig (typisch kfw.de, Behörden-PDFs): `curl -k` probieren und den Link als
-   erreichbar führen, nicht als tot löschen. Tote Links im Text als tot **markieren**, nicht stillschweigend
-   löschen — die Aussage verliert damit ihre Grundlage.
+   Status prüfen: 200 = gut, 401/403/429 = existiert (Bot-Schutz), 404/410/000 = tot. Der Status ist
+   nur mit **Browser-Headern und GET** aussagekräftig: manche Shops beantworten HEAD mit 404 und GET mit
+   200 (OBI, bau.net), ein Linkchecker mit nacktem HEAD meldet sie fälschlich als tot — deshalb prüft
+   `linkcheck.py` mit Chrome-User-Agent, `Accept`/`Accept-Language` und GET-Fallback nach jedem 4xx aus
+   dem HEAD. **200 ist aber kein Inhaltsnachweis**: (a) Landesrechtsportale liefern für jede
+   Dokument-URL eine JS-Hülle mit 200 — dort den Text über die amtliche PDF-Fassung holen; (b) ein
+   Artikel-Hub kann auf eine Landingpage umleiten und dort mit 200 antworten, während das Archiv weg ist
+   (selbst.de → 301 auf bauer-plus.de, nur noch Wayback) — deshalb `%{url_effective}` und den `<title>`
+   der Zielseite ansehen, nicht nur den Code; (c) ein PDF-Link kann mit 200 eine HTML-Seite
+   zurückgeben: dann `curl -skL -o x.pdf … && file x.pdf` prüfen und den Text mit `pdftotext -layout x.pdf -`
+   lesen — nur was im PDF steht, ist belegt. Antwortet ein Host auf 000, obwohl die Seite im Browser lädt,
+   ist die **Zertifikatskette** unvollständig (typisch kfw.de, Behörden-PDFs): `curl -k` probieren und den
+   Link als erreichbar führen, nicht als tot löschen. Tote Links im Text als tot **markieren**, nicht
+   stillschweigend löschen — die Aussage verliert damit ihre Grundlage.
 5. **Kein Volltext-Zitat aus einer Norm, die man nicht gekauft hat.** Belegt sind Nummer, Titel und
    gültige Ausgabe; Inhalte nur über eine zitierende Fachquelle.
 6. **Normen ändern sich — die Fassung mitprüfen, nicht die Erinnerung.** Beispiel: der Asbest-Generalverdacht
@@ -358,14 +386,18 @@ es meldet jede Zahl und jede URL, die auf der Strecke geblieben ist.
    angleichen. Bleiben Einzelfassungen stehen, liefert der Skill je nach Router-Ziel eine andere Antwort —
    und die nächste Recherche muss den Widerspruch erneut auflösen. Ein korrigierter Asbest-Satz betraf
    sechs Dateien; ein Patch an einer hätte fünf falsche Fassungen konserviert.
-9. **Geld und Fristen nur aus der Primärquelle.** Fördersätze, Deckel, Stichtage und Paragraphen aus
-   Merkblatt, Richtlinie oder Gesetz holen — nicht aus Portalartikel, Verbandsblog oder Herstellerseite.
-   Widerspricht eine Sekundärquelle der Primärquelle, gilt die Primärquelle, und die Gegenangabe wandert
-   in den Abschnitt „Widersprüche" statt in den Fließtext. Beispiel aus der eigenen Arbeit: zwei
-   Fachportale nannten „15 % Grundförderung ab 2027 plus Wertschöpfungsbonus"; das KfW-Merkblatt 458
-   (Stand 09/2026) sagt **30 % Grundförderung, kein Bonus** — hätte man dem Portal geglaubt, wäre die
-   Förderberatung um mehrere Tausend Euro falsch gewesen. Regel: erst PDF laden, Text suchen
-   (`pdftotext -layout … | grep -n "Prozent"`), dann zitieren.
+9. **Geld und Fristen nur aus der Primärquelle — aber erst die Zeitachse prüfen, bevor du „Widerspruch"
+   schreibst.** Fördersätze, Deckel, Stichtage und Paragraphen aus Merkblatt, Richtlinie oder Gesetz
+   holen, nicht aus Portalartikel, Verbandsblog oder Herstellerseite. Widerspricht eine Sekundärquelle
+   der Primärquelle, prüfe **zuerst, ob beide denselben Zeitpunkt beschreiben**: ein Merkblatt mit
+   Stand 09/2026 beschreibt den Status von 2026 und widerspricht nicht einer Änderung, die ab Q1 2027
+   gilt. Erst wenn zwei Quellen **denselben Zeitraum** unterschiedlich beziffern, ist es ein Widerspruch;
+   dann gilt die Primärquelle und die Gegenangabe steht mit Datum daneben, nicht gemittelt. Beispiel:
+   „Grundförderung 15 % + Wertschöpfungsbonus 15 % für EU-Geräte ab Q1 2027" stand zunächst als
+   Widerspruch zum Merkblatt 458 im Skill — die Verbraucherzentrale sagt es wörtlich (im Volltext
+   geprüft), das Merkblatt beschreibt nur den Stand davor. Richtig war: **Zeitachse, nicht Widerspruch**.
+   Regel: PDF laden und Text suchen (`pdftotext -layout … | grep -n "Prozent"`), Quelle öffnen und
+   **zitieren, was dort steht** — die eigene frühere Einordnung ist keine Quelle.
 10. **Neuschreiben ist ein Regressionsrisiko, nicht nur eine Verbesserung.** Wird ein Playbook von Grund
     auf neu gebaut (mehr Quellen, bessere Struktur), verschwinden die aus Videos destillierten Regeln
     stillschweigend — die Abdeckungsquote fällt, obwohl das Playbook belegter aussieht. Nach jedem

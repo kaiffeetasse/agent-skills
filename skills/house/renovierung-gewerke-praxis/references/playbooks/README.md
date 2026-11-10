@@ -35,7 +35,7 @@ Widerspruch — nicht der Mittelwert.
 | Schimmel & Feuchte | `schimmel-feuchte.md` | Ursachen-Triage, Lüftungszahlen (UBA), Sanierung |
 | Hausbau mit Baufirma | `hausbau-baufirma.md` | Werkvertrag, Grundstück, Angebote, Begehungen, Abnahme |
 | Kosten/Bauzeit/Angebote | `kosten-bauzeit.md` | Bauzeitenplan, Angebotscheck, Nachträge, Puffer |
-| Werkzeug & Sicherheit | `werkzeug-sicherheit.md` | Ausstattung, Miete, Staub/Asbest, Entsorgung |
+| Werkzeug & Sicherheit | `werkzeug-sicherheit.md` | Ausstattung, Miete, Staubklassen + TRGS-900-Grenzwerte, Schutzklassen I/II/III, Messgeräte (Duspol, CM, Feuchte), Asbest, Entsorgung |
 | Küche erneuern | `kueche.md` | Arbeitshöhe (Ellbogen − 15 cm), Anschlüsse, Geräte, Fehler, Kosten |
 | Außen: Fassade/Terrasse/Einfahrt | `aussen-fassade-terrasse.md` | Anstrich, WDVS-Grenze, Terrassenaufbau, Pflaster, Gefälle, Gerüst-Legende |
 | Treppe | `treppe.md` | Streichen/Entlacken (Blei), Belag, Geländer, DIN 18065 |
@@ -45,11 +45,11 @@ Widerspruch — nicht der Mittelwert.
 | Wärmepumpe statt Ölheizung | `waermepumpe-oelheizung.md` | Fristen (GModG), Förderung, JAZ/Heizlast, Tankentsorgung, Rechenbeispiel |
 | PV + Speicher + Wallbox | `pv-speicher-wallbox.md` | Auslegung, Einspeisevergütung, § 14a EnWG, Steuern, Amortisation |
 | Elektro neu im 60er-Haus | `elektro-60er-haus.md` | Nullung, Alu-Leiter, Zählerplatz, Messungen, Kosten je Stromkreis |
-| Internet/Kabel im Altbau | `internet-kabelanschluss.md` | HÜP, Pegel, Nebenkostenprivileg, Glasfaser-Vergleich, Hausnetz |
+| Internet/Kabel im Altbau | `internet-kabelanschluss.md` | HÜP, Pegelbudget mit Koax-Dämpfung je Meter, DOCSIS 3.1, GPON/XGS-PON, Glasfaservertrag, Nebenkostenprivileg, Hausnetz (Cat/LWL/Biegeradien) |
 | Haus komplett sanieren | `haus-komplettsanierung.md` | Netzplan, Budget, Steuerung, Rechenbeispiel 130 m² |
 | Energieausweis & Beratung | `energieausweis-beratung.md` | Pflichten, Bedarfs-/Verbrauchsausweis, iSFP |
 | Heizungsalternativen | `heizung-alternativen.md` | Pellet, Fernwärme, Solar, Gas-Hybrid, Infrarot im Vergleich |
-| Smart Home nachrüsten | `smart-home-nachruesten.md` | Funk vs. Bus, Vorbereitung, Kosten, Datensicherheit |
+| Smart Home nachrüsten | `smart-home-nachruesten.md` | Funk vs. Bus/PLC, Aktorarten (UP vs. Hutschiene), Neutralleiter-Problem, KNX-Topologie/ETS, Kosten je Schaltpunkt, Datensicherheit |
 | Förderung & Steuern | `foerderung-steuern.md` | BEG-EM-Quoten 2026, § 35a/35c, Grundsteuer, Antragsweg |
 | Dach, Regenwasser, Garage | `dachentwaesserung-regenwasser.md` | Rinnenbemessung, Versickerung, Zisterne, Garage |
 | Foto-Diagnose | `foto-diagnose.md` | Was ein Bild hergibt — und was nicht (Risse, Schimmel, Elektro) |
@@ -58,9 +58,12 @@ Widerspruch — nicht der Mittelwert.
 
 ## Quellenstand
 
-**1.029 URLs, 1.029 erreichbar, 0 tot**, 13 nur mit `-k` erreichbar (unvollständige Zertifikatskette,
-Inhalt lädt trotzdem — kfw.de und einzelne Behörden-PDFs). Stand 09.11.2026, `scripts/linkcheck.py`.
-geprüft). Stand 09.11.2026, geprüft mit `scripts/linkcheck.py`.
+**1.359 eindeutige URLs, 1.342 ok, 0 tot**, 2 ohne Antwort (roemer-farben.org, iso-chemie.eu — beide in
+anderen Playbooks, unverändert), 15 nur mit `-k` erreichbar (unvollständige Zertifikatskette, Inhalt lädt
+trotzdem — kfw.de, energiewechsel.de, einzelne Behörden-PDFs). Stand 10.11.2026, `scripts/linkcheck.py`.
+Die 22 in diesem Durchlauf ergänzten Quellen wurden zusätzlich einzeln per `curl -skL` mit Browser-Headern
+gegen `content-type` geprüft (PDFs auf `application/pdf`), damit ein 200 auf einer HTML-Hülle nicht als
+PDF-Beleg durchgeht.
 
 ## Quellenqualität (Stichprobe)
 
