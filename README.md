@@ -76,6 +76,7 @@ running may need a new one before a freshly linked directory is picked up.
 | [`productivity/photo-text-extraction`](skills/productivity/photo-text-extraction/SKILL.md) | Exact text from photos of signs/posters via tesseract, including preprocessing that actually helps. |
 | [`smart-home/stromzaehler-ablesen-melden`](skills/smart-home/stromzaehler-ablesen-melden/SKILL.md) | Reading a meter from a photo and reporting the value to the German grid operator. |
 | [`media/retro-console-tv-connection`](skills/media/retro-console-tv-connection/SKILL.md) | Connecting PS1/PS2/N64/SNES/GameCube/Dreamcast/Xbox to a modern TV — cable classes, scalers, what is worth money. |
+| [`productivity/train-connections-de`](skills/productivity/train-connections-de/SKILL.md) | German rail connections and prices: which APIs actually answer (Transitous, DB Navigator, ÖBB, search.ch), split-ticketing and Deutschlandticket arithmetic, and the pitfalls that turn a plausible connection into a wrong one. |
 | [`automotive/banger-rally-participation`](skills/automotive/banger-rally-participation/SKILL.md) | Checking banger-rally / Carbage-Run eligibility: age, value, TÜV, insurance, required equipment. |
 
 **Datasets & models**
