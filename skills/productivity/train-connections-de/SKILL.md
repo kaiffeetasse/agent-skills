@@ -238,11 +238,8 @@ Gleise stehen nicht im Leg, sondern in `verbindungsAbschnitte[].halte[].gleis` �
 Fahrplan gibt es billiger (Transitous), **Preise nur bei der DB**. Der SPA-/Formular-Weg ist aus
 dieser Umgebung **nicht gangbar** (Stand 11/2026): bahn.de antwortet schon auf der Startseite mit
 `Fehler 751/753 – Verhalten Ihres Browsers ähnelt dem eines Bots`, und zwar auch mit frischem
-Stealth-Profil, `locale="de-DE"` + `timezone="Europe/Berlin"` **und** über einen SOCKS-Tunnel zum
-VPS (`ssh -f -N -D 127.0.0.1:1080 <user>@<eigener-vps>`). Vor dem Start **`ss -tln | grep ':1080 '`**
-prüfen statt einen alten Tunnel per `pkill -f` abzuräumen — das Muster steht in der eigenen
-Kommandozeile und beendet die Shell (exit −15). Die Sperre hängt weder an der IP allein noch an
-Sprache/Zeitzone — Formularvarianten durchprobieren kostet nur Turns.
+Stealth-Profil, `locale="de-DE"` + `timezone="Europe/Berlin"`. Die Sperre hängt nicht an Sprache
+oder Zeitzone — Formularvarianten durchprobieren kostet nur Turns.
 
 **Regel: nach EINEM Fehlschlag umschalten** und mit diesen zwei Hebeln antworten:
 
@@ -293,8 +290,7 @@ nicht nur „günstigster Tarif" ist, sondern die günstigste Anreise.
 3. **search.ch** gibt bei Nicht-CH-Relationen tlw. absurde Umwege (A→B über zwei ferne Knoten statt direkt) — nur als Plausibilitätscheck nutzen.
 4. **Preise zuerst über die DB-Navigator-App-API** (`scripts/dbnav.py`, Abschnitt oben) — die liefert
    echte Tagespreise ohne Key. Erst wenn die nicht erreichbar ist: die **Web**-Angebots-API ist
-   gesperrt (`403 OPS_BLOCKED`), der SPA-/Formular-Weg ebenfalls (Fehler 751/753, auch per
-   VPS-Tunnel). Dann nicht mehr Turns in Formular-Varianten stecken, sondern auf **Hub-Split +
+   gesperrt (`403 OPS_BLOCKED`), der SPA-/Formular-Weg ebenfalls (Fehler 751/753). Dann nicht mehr Turns in Formular-Varianten stecken, sondern auf **Hub-Split +
    Streckenseiten-Anker** wechseln, die Anker mit ihrem Datum kennzeichnen und den Tagespreis beim
    Nutzer lassen. Für Gruppen die **Gesamtsumme** rechnen (Preis × Personen × Richtungen, plus letzte
    Meile/Taxi) und gegen die Autokosten stellen.
