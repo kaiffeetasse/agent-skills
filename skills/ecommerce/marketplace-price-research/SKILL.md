@@ -32,6 +32,7 @@ Never merge these into one undifferentiated price range. Every reported price mu
 2. Generate precise queries and synonyms, but filter before computing statistics. Exclude accessories, spare parts, bundles, sibling models, wanted ads, rebuilds, €1 placeholders, and obvious dreamer prices unless the user explicitly wants them.
 3. Search local classifieds using the available API, aggregate across query variants, deduplicate by listing ID and identical description/text, and preserve canonical links.
 4. Search active eBay listings read-only with a real browser session (`curl` on `ebay.de/sch/...` returns only the JS challenge page). Parse client-rendered cards by walking `a[href*="/itm/"]` + `closest('li').innerText` (class names like `li.s-item` change), retain listing ID/title/price/shipping/condition/link, strip tracking parameters, and label every result as active asking price. **A price shown as "EUR 39,99 / EUR 38,79 mit Gutscheincode X" is conditional** — report both numbers plus the code and its expiry, never the discounted figure alone.
+   Auction houses are their own source class: the figure shown is the *current bid* plus a countdown, not an asking price, and it is usually net of VAT. See `references/auction-house-bidding.md`.
 5. For realized prices, test whether the source actually exposes historical sales. eBay.de anonymous `LH_Sold=1&LH_Complete=1` searches may redirect to login; if so, stop retrying the same route. Do not invent sold results and do not call active listings sold.
 6. Select an appropriate realized-price source: BrickLink price guides for LEGO/collectibles, Discogs release-level data for music, or a genuinely authenticated marketplace history. Keep new/sealed and used/incomplete populations separate.
 7. Compute median and quartiles for comparable prices. Prefer median and monthly/typical clusters over mean; report sample size, range, and notable outliers. For small samples, say that the statistic is weak.
@@ -53,6 +54,7 @@ A sold filter is useful only if the page returns actual completed-item data. A l
 ## Support references
 
 - `references/ebay-sold-access.md` — tested interpretation of eBay sold-search responses and fallback decision tree.
+- `references/auction-house-bidding.md` — reading live auctions on Shopify/Webkul auction shops (state, health, netto/VAT, shipping, popcorn bidding) and judging whether a bid is a deal.
 
 ## Related skills
 

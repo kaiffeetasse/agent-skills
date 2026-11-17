@@ -25,6 +25,30 @@ Ausdrucken/Nachhalten, (c) eine Verifikation, dass der Versand wirklich raus ist
 
 ## Ablauf
 
+### 0. Erst analysieren, dann senden (harte Regel)
+
+**Keine Mail geht raus, bevor die Analyse vollständig ist.** Reihenfolge vor dem Versand:
+
+1. Sendung lesen (Absender, Empfänger, alle Kennungen) und **QR-Code/Barcode dekodieren** — darauf
+   steht oft die Kampagnen-Quelle (`utm_source`), die man sonst in einer Nachfrage-Mail nachschiebt.
+2. Impressum/Datenschutzseite des Absenders und des Markeninhabers prüfen; Verantwortlichen klären
+   (Lettershop vs. Marke vs. Konzernmutter) und die Aufsichtsbehörde nach dessen Sitz bestimmen.
+3. `references/kontakte.md` und die eigenen Systeme (Dokumentenarchiv) abgleichen: Gibt es eine
+   Kundenbeziehung? Stimmt die Anschrift? Welche Nummern sind belegt?
+4. Erst wenn 1–3 abgeschlossen sind, den Brief verfassen — **alle** Ergebnisse aus 1–3 gehören in
+   diese eine Mail (Herkunft, Kennungen, Altdaten, Verantwortlichenfrage).
+
+Ist ein Punkt danach noch offen und nicht selbst recherchierbar (fehlende Unterlagen, unklarer
+Adressat, Entscheidung über Umfang), **frag den Nutzer** (`clarify`) und sende erst nach seiner
+Antwort. Ziel ist, **gar nicht erst** in die Lage zu kommen, nachbessern zu müssen: ein Vorgang = eine
+Mail pro Adressat (Datenschutz und Service parallel ist erlaubt, weil verschiedene Adressaten sind).
+
+**Nachtrag ist die Ausnahme, nicht die Regel.** Erlaubt und dann sofort und ohne Rückfrage, wenn die
+erste Mail sachlich falsch oder unvollständig war und das Rechtsfolgen hat: falscher Adressat,
+falsche Kennung/Frist, nachträglich belegte Herkunft von Gewicht oder ein neuer Beweis (z. B. QR-Ziel,
+aus dem die Datenquelle hervorgeht). Dann **eine** kurze Ergänzung mit Bezug auf die erste Mail —
+nie eine Serie, nie eine bloße Höflichkeitskorrektur, nie eine Wiederholung des Widerspruchs.
+
 ### 1. Sendung auslesen
 Foto/Scan mit `vision_analyze` lesen (nicht raten): **Absender mit vollständiger Anschrift**,
 **Empfängeranschrift**, Datum, Anrede, und **alle Kennungen** — Kundennummer, Mitgliedsnummer,
@@ -93,6 +117,17 @@ Datum + Anhang prüfen. Erst dann „ist raus“ sagen. Dem Nutzer das PDF als `
 
 ## Pitfalls
 
+- **Nicht voreilig senden.** Ein sichtbarer QR-Code, ein fehlendes Impressum oder eine unklare
+  Verantwortlichkeit ist kein Grund, sofort zu mailen und später nachzubessern — erst analysieren
+  (Schritt 0), dann eine vollständige Mail. Bei Unsicherheit den Nutzer fragen.
+- **Nachbessern nur im Härtefall.** Falscher Adressat, falsche Kennung oder ein neuer Beweis mit
+  Rechtsfolge dürfen eine einzelne, kurze Ergänzung nach sich ziehen — aber das ist die Ausnahme und
+  kein Ersatz für Schritt 0. Erst gar nicht in diese Lage kommen.
+- **QR-Code auf dem Mailing auslesen — er nennt oft die Datenquelle.** Gedruckte Kampagnen tragen
+  einen Kurzlink mit `utm_source`/`utm_campaign`; damit lässt sich die Kampagne einem Verlag oder
+  Magazin zuordnen und die Herkunftsfrage nach Art. 14 wird konkret. Dekodieren ohne Systempakete:
+  `python3 -m venv /tmp/qr && /tmp/qr/bin/pip install opencv-python-headless numpy` (ein
+  `pip install --user` scheitert an PEP 668), dann `cv2.QRCodeDetector().detectAndDecodeMulti(img)`.
 - **Treffer nicht nach Titel beurteilen.** Eine Paperless-Suche liefert auch Dokumente, in denen die
   Firma nur im Fließtext vorkommt (Kontoauszug, SCHUFA-Auskunft, Steuerbescheid) — und umgekehrt echte
   Briefe unter harmlosem Titel. Jeden Treffer über `content` prüfen und nach `<Firma> <Ort>` greppen,

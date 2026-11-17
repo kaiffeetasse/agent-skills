@@ -53,6 +53,32 @@ Fix / discipline:
   doesn't undo work. Finishing the leftovers yourself is usually faster than a new agent round.
 - Split large briefs into phases so each phase is a complete, independently checkable deliverable.
 
+### 4c. `opencode run` exits 0 with `auto-rejecting external_directory`
+Non-interactive runs auto-reject permission prompts for anything outside the
+project directory — `/tmp`, `~/.cache/...`, scratch DBs. The affected command
+(e.g. a live verification step writing a JSON result to `/tmp`) simply does not
+run, while the process still exits 0 and prints a normal-looking log.
+
+Discipline:
+- Put **every** artifact path the agent needs inside the repo (`./.cache/`,
+  `./var/`), including test databases and verification output. Say so in the
+  brief: "alle Pfade relativ im Repo, nichts nach /tmp".
+- Treat exit 0 as "the process ended", not "the task finished". Check the
+  deliverables on disk (see 4b) and the git state.
+
+### 4d. Agents finish the edits but not the commit
+In practice a run applies code and tests, then stops before `git commit`/`push`
+(especially when the last step needed a rejected /tmp path). Always finish with:
+
+```bash
+git -C <dir> status --short
+git -C <dir> log --oneline -3
+```
+
+Review the diff, run the test/lint commands yourself, then commit and push under
+your own control. Never report the work as delivered while it only exists in the
+working tree.
+
 ### 5. Input buffer corruption on kill/restart
 Killing a stuck TUI can leave queued input garbled (`&#10;`, literal `\n` mixed into the prompt text). Don't try to salvage the buffer — kill the process and start fresh, resending the full task cleanly.
 

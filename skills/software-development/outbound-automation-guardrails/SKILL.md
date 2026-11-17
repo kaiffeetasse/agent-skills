@@ -59,6 +59,43 @@ jeweilige Fach-Skill (z. B. `kleinanzeigen-negotiation`).
 9. **Bei echter Unklarheit eskalieren statt raten** (widersprüchliche Belege, fehlender Zustand,
    unklare Herkunft einer Nachricht). Fehlt ein Pflichtfeld in der Modellantwort, gilt der Fall als
    unsicher.
+10. **Jede ausgehende Nachricht läuft durch ein LLM-Gate gegen den kompletten Verlauf — statische
+   Regeln sind nur die Vorstufe.** Ablauf: Entwurf → deterministische Prüfung (verbotene Inhalte,
+   Limits, Personendaten, wortgleiche Wiederholung) → LLM mit **vollem Chatverlauf + Fakten**, das
+   `send` / `problems` / `better_message` liefert → erst dann senden.
+   - Bei `send=false` **genau eine** Umschreibung, die wieder durch beide Stufen muss; scheitert auch
+     die, wird **nicht** gesendet (fail closed).
+   - Das Gate sitzt an **jeder** Sendestelle (Erstkontakt, Antwort, verbindliches Angebot) und gilt
+     auch für Nachrichten, die der Mensch diktiert — nicht nur für Cron.
+   - Ein Block wird als solcher gemeldet (`GATE-SKIP` + Grund), sonst ist Stille nicht erklärbar.
+   - **Ein Gate-Fehler darf den Datensatz nicht als „erledigt" markieren** — sonst sperrt ein
+     transienter Modellfehler den Fall für das ganze Dedupe-Fenster.
+   - Das Gate muss valides JSON zurückgeben: Denk-/Reasoning-Budget abschalten, Antwortschema
+     vorgeben, Token-Limit großzügig, bei Parse-Fehler einmal knapp wiederholen. Abgeschnittenes JSON
+     blockiert sonst **jede** Nachricht (fail closed wirkt, aber die Automatik verstummt).
+
+## Eine laufende Automatik stoppen
+
+„Stopp X" heißt: sofort anhalten, nichts löschen, ehrlich berichten, was schon raus ist.
+
+1. **Job über Name/Prompt finden, nicht über eine geratene ID:** die Job-Definition nach
+   Schlüsselwörtern in Name *und* Prompt durchsuchen — auch nach deaktivierten Jobs. Zum selben
+   Thema existieren oft ein aktiver Verhandler und ein alter, schon pausierter Wächter.
+2. **Pausieren, nicht löschen.** `pause` behält Zeitplan, Zustandsdatei und Gesprächsstand;
+   Löschen wirft die Verhandlung weg, und ein späteres Wiederanschalten beginnt bei null.
+3. **Prüfen, dass der Stopp vor dem nächsten Lauf greift:** `next_run_at` muss in der Zukunft
+   liegen. Wird mitten in einem Lauf pausiert, ist bereits Gesendetes nicht zurückholbar — das
+   dann auch so sagen.
+4. **Vor „es ist nichts rausgegangen" die Lauf-Historie lesen, nicht den letzten Tick.** Die
+   Run-Logs des Jobs: `no_change (agent run suppressed)` heißt, es lief kein LLM und es wurde
+   nichts gesendet; ein Lauf mit echtem Agenten-Status kann gesendet haben. Den letzten tatsächlich
+   ausgeführten Lauf suchen und dessen Ergebnis zitieren.
+5. **Zustandsdatei benennen** (angeschriebene Objekte, offene Threads) und sagen, dass sie
+   unangetastet bleibt — sonst ist ein späteres Wiederanschalten nicht planbar.
+
+Pitfall: „läuft alle 30 Minuten" heißt nicht „aktiv" — ein monitor-gated Job kann tagelang
+`no_change` liefern und trotzdem scharf sein. Umgekehrt beweist eine leere Ausgabe nicht, dass die
+Automatik defekt ist.
 
 ## Zustandsfelder (Referenz)
 
@@ -79,6 +116,12 @@ Kopiervorlage: `templates/turn_gate.py`.
 
 Beim Senden gilt diese Ordnung — die Reihenfolge ist selbst eine Fehlerquelle:
 
+0. **Analyse vollständig** — alles, was vorher recherchierbar ist (Quell-IDs, Codes/QR/Barcodes,
+   Links und ihre Redirect-Ziele, Impressum/Register, Verantwortliche, Vertragsnummern), gehört in die
+   **erste** Nachricht. Kein Send, solange ein recherchierbarer Punkt offen ist; ist er es nicht,
+   frag den Menschen und sende erst danach. Ziel: **gar nicht erst** in die Lage kommen, nachbessern
+   zu müssen. Ein Nachtrag ist nur im Härtefall zulässig — wenn die erste Nachricht sachlich falsch
+   war oder eine Rechtsfolge/Frist betrifft —, dann einmal, kurz und sofort; keine Serien.
 1. **Zug** (`turn_state`) — darf überhaupt gesendet werden?
 2. **Idempotenz** — identischer Text / dasselbe Ereignis schon bedient?
 3. **Ereignis** (`event_id` schon beantwortet **und kein fälliges Nachfassen**) → überspringen.

@@ -42,6 +42,32 @@ Versorgungsauftrag abgewimmelt.
 | **GEERS / Sonova Retail Deutschland GmbH** | `datenschutz@geers.de` |
 | **Deutsche Post Direkt GmbH** (Adresshändler) | `datenschutz@postdirekt.de` |
 
+## Mitgliedschaft mit Pflichtzeitschrift
+
+| Anbieter | Datenschutz | Service |
+|---|---|---|
+| **Deutscher Hebammenverband e.V.** (Mitgliederzeitschrift) | DSB extern: Rechtsanwältin, Concepture GmbH, Erlenstr. 13, 77815 Bühl · `datenschutz.hebammenverband@concepture.de` · Gartenstraße 26, 76133 Karlsruhe | Aboverwaltung `hebammenforum@hebammenverband.de`, `mitgliederbetreuung@hebammenverband.de`, `info@hebammenverband.de` |
+
+**Mitgliederzeitschrift**: kommt bei Mitgliedern automatisch mit der Mitgliedschaft (im Beitrag
+enthalten, kein separates Abo). Nur der **Print-Bezug** lässt sich abbestellen, nicht der Bezug
+„ohne Mitgliedschaft" — im Schreiben deshalb ausdrücklich festhalten, dass die Mitgliedschaft
+bestehen bleibt und vor jeder Änderung nachgefragt wird. Die Abo-Nummer steht auf dem
+Adressetikett **über** dem Namen (Format `P` + Ziffern), daneben die Pressepost-Kennung
+(`*…*`, enthält Ausgabe/Jahrgang). Zuständige Aufsicht: **LfDI Baden-Württemberg**.
+
+## Werbepost ohne Kundenbeziehung (Adresshandel / Lettershop)
+
+| Anbieter | Datenschutz | Service |
+|---|---|---|
+| **Solutions by HANDELSBLATT MEDIA GROUP GmbH** (Lettershop; Absenderfeld „Services by HMG GmbH", Toulouser Allee 27, 40211 Düsseldorf) | `datenschutz@handelsblattgroup.com` | `kundenservice@handelsblattgroup.com` |
+| **Huawei Technologies Deutschland GmbH** (Marke FusionSolar / Huawei Digital Power; Hansaallee 205, 40549 Düsseldorf, HRB 72992 AG Düsseldorf) | Impressum-Kontakt der Pressestelle; Datenschutz-Anfragen zusätzlich über das Formular `consumer.huawei.com/de/legal/privacy-questions` | Support `consumer.huawei.com/de/support/contact-us` |
+
+**Solar-Mailings** eines Herstellers tragen im Absenderfeld oft nur den Lettershop, kein Impressum.
+Kennungen: Pressepost-Aufdruck, Leitcode, Sendungskennung. Ohne Kundenbeziehung ist **Art. 14**
+(Herkunft der Adresse) der wichtigste Punkt — sonst nennt niemand die Datenquelle. Datenschutz- und
+Kundenservice-Adresse des Lettershops beide anschreiben, den Markeninhaber parallel.
+Zuständige Aufsicht: **LDI Nordrhein-Westfalen** (`poststelle@ldi.nrw.de`).
+
 ## Merksätze
 
 - Bei Konzernmarken (comdirect → Commerzbank, GEERS → Sonova) **beide Ebenen** anschreiben: die Marke
