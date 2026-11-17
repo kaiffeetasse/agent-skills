@@ -249,7 +249,7 @@ python3 scripts/material.py selftest         # Rechenwerkzeug gegen bekannte Sol
 python3 scripts/linkcheck.py                 # alle Quellen-URLs; 404 = tot, Bot-Blocker und -k-Fälle sind ausgenommen
 ```
 
-Zwei Cronjobs halten den Stand: **montags 9:00** der Wächter `~/.hermes/scripts/renov_skill_health.py`
+Zwei Cronjobs halten den Stand: **montags 9:00** ein Wächter (Abdeckung + Links, lokal außerhalb des Repos)
 (Abdeckung + Links, schweigt wenn alles gut ist) und **quartalsweise** ein Sammellauf, der neue
 Fehler-Videos sucht, transkribiert und einarbeitet.
 
@@ -448,7 +448,8 @@ Playbook, zuerst `references/quellen.md` und `references/faktencheck.md` prüfen
   was ein Playbook tatsächlich hinzufügt.
 - `references/transkripte/` — 15 Video-Transkripte mit Zeitmarken (Quelle jedes Fehlers im Katalog).
 - `scripts/fehlercheck.py`, `scripts/linkcheck.py`, `scripts/strukturcheck.py` — Abdeckungs-, Link- und
-  Strukturprüfung, alle mit Exit-Code; `scripts/publish_skill.py` veröffentlicht die generalisierte Kopie.
+  Strukturprüfung, alle mit Exit-Code. (Das Veröffentlichungs-Skript und der Wächter bleiben außerhalb
+des Repos, weil sie lokale Pfade enthalten.)
 - `scripts/vtt2txt.py` — Auto-Untertitel (VTT) entdoppeln und als Transkript mit Zeitmarken schreiben,
   wenn neue Videos in den Katalog sollen.
 

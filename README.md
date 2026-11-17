@@ -85,7 +85,21 @@ running may need a new one before a freshly linked directory is picked up.
 | [`mlops/image-dataset-classifier-training`](skills/mlops/image-dataset-classifier-training/SKILL.md) | Building an image dataset from web sources and training a small classifier on it. |
 | [`mlops/lego-image-recognition`](skills/mlops/lego-image-recognition/SKILL.md) | The same pipeline for LEGO parts, keyless: dataset from a parts catalogue, per-part recognizer. |
 | [`house/renovierung-gewerke-praxis`](skills/house/renovierung-gewerke-praxis/SKILL.md) | Renovation judgement for German houses: 23 task playbooks (bath, ceiling, screed, tiling, electrics, kitchen, stairs, attic, demolition, legal side) with sourced numbers, error catalog from ten top-mistakes videos, coverage test and link checker. |
-| [`data-science/osm-poi-aggregation`](skills/data-science/osm-poi-aggregation/SKILL.md) | Bulk OpenStreetMap/Overpass POI counting and name grouping — chain analysis with spelling/prefix normalization. |
+| [`data-science/osm-poi-aggregation`](skills/data-science/osm-poi-aggregation/SKILL.md) | Counting, ranking and proving the *absence* of OSM/Overpass POIs — chain analysis with spelling/prefix normalization, boundary-based coverage checks instead of distance guesses. |
+
+## Checks
+
+`scripts/check-skills.py` validates every skill on each push: layout (`skills/<category>/<name>/SKILL.md`),
+frontmatter (valid YAML, `name` = directory name, `description` present) and references — every
+`references/…`, `templates/…`, `scripts/…` path named in a SKILL.md must exist, so a published skill never
+promises files it does not ship. Run it locally after adding a skill:
+
+```bash
+python3 scripts/check-skills.py
+```
+
+The renovation skill additionally ships its own self-tests (structure, coverage, calculator, router table,
+cross-playbook contradictions); a monthly job checks all of its ~1,100 source URLs.
 
 ## Conventions
 

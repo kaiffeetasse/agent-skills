@@ -30,8 +30,8 @@ Nicht für Retouren-/Reklamationsbearbeitung oder Adressänderungen beim Händle
 - Bei Kleinanzeigen: `get_conversation_payment_status(conv_id)` liefert
   `trackingNumber`, `carrierId` und einen Tracking-Link. Dieselbe Nummer steht
   im Chat; nicht raten und nicht aus dem Gedächtnis einsetzen.
-- Bei Hermes: die Nummer aus der Versandmail/App; das bestehende
-  `~/.hermes/scripts/paket_ankunft_watchdog.py` deckt Hermes-Sendungen ab.
+- Bei Hermes: die Nummer aus der Versandmail/App; ein lokales Wächter-Skript
+  (`paket_ankunft_watchdog.py`) deckt Hermes-Sendungen ab.
 - Immer die **exakte** Nummer aus der Quelle verwenden; eine falsche Nummer
   liefert bei DHL eine fremde oder keine Sendung.
 

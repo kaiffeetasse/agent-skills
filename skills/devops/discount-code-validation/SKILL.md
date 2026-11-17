@@ -79,7 +79,6 @@ EDEKA Abhol-/Lieferservice (Südwest): Korbberechnung `POST /api/v3/basket/calcu
 Markt-Host mit `{"articles":[{"oxid":…,"oxamount":…}],"vouchers":["CODE"]}`; Ablehnung =
 `data.messages.vouchers.ERROR_MESSAGE_VOUCHER_NOVOUCHER`, Codes werden kleingeschrieben, Testkorb
 Basis 2,85 €. App-Aktionscodes sind Kleinschreib-Keywords (z. B. `meinfavorit`) und nur in der App
-einlösbar. Details, Endpunktliste und Skript-Standorte: Skill `edeka-shop-integration`
-(Guide `references/edeka-shop-integration-guide.md`) und Skill `mobile-app-backend-mapping`
-(`references/edeka-merkliste-case.md`); funktionierender Prüfer:
+einlösbar. Details, Endpunktliste und Skript-Standorte: Skill `edeka-shop-integration` (dort der
+Integrations-Guide und die Fallstudie zur Merkliste); funktionierender Prüfer:
 `~/workspace/edeka-re/edeka_code_check.py` (read-only, ohne Bestellung).

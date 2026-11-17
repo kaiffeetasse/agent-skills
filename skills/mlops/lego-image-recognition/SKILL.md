@@ -17,7 +17,7 @@ metadata:
 * Building an image dataset of LEGO parts / minifigs / sets, especially "all images you can find".
 * Identifying a LEGO part from a photo **locally** (brickognize-style part + colour prediction).
 * Questions about BrickLink APIs, `img.bricklink.com` image URLs, or keyless LEGO catalog data.
-* Working in `~/workspace/lego-recognition/` (README.md documents everything, `scripts/` the pipeline).
+* Working in the `lego-recognition` project folder (README.md documents everything, its own `scripts/` holds the pipeline).
 
 ## Facts about BrickLink APIs (measured)
 
@@ -58,24 +58,26 @@ from re-downloading. Design the dataset around domains, not around per-class cou
 
 ```bash
 cd ~/workspace/lego-recognition
-python3 scripts/fetch_catalog.py                                  # CSVs
+python3 fetch_catalog.py                                  # CSVs
 # breadth: every class that exists (limit 0 = all, skips classes already present per source)
-python3 scripts/build_dataset.py --source parts_elements --limit 0 --workers 8 --per-class-cap 1
-python3 scripts/build_dataset.py --source parts_photos   --limit 0 --workers 8 --per-class-cap 1
-python3 scripts/build_dataset.py --source sets|minifigs  --limit 5000  --workers 8
+python3 build_dataset.py --source parts_elements --limit 0 --workers 8 --per-class-cap 1
+python3 build_dataset.py --source parts_photos   --limit 0 --workers 8 --per-class-cap 1
+python3 build_dataset.py --source sets|minifigs  --limit 5000  --workers 8
 # second domain per class: 20 colours x (parts present in the manifests)
-python3 scripts/build_dataset.py --source renders --limit 2500 --workers 8 \
+python3 build_dataset.py --source renders --limit 2500 --workers 8 \
         --render-colors 0,15,71,72,4,14,1,19,70,2,28,25,272,320,27,47,41,5,11,34
-python3 scripts/analyze_ceiling.py                                # how much exists per class (per-class dedupe!)
-python3 scripts/analyze_domains.py                                # domain coverage per class
-python3 scripts/report_dataset.py                                 # QA + contact sheets
-python3 scripts/extract_features.py --size 128 --chunk 1500       # resume-safe, reuses cached rows
-python3 scripts/train_heads.py --size 128                         # all tasks + metrics + previews
-python3 scripts/train_heads.py --size 128 --only <tag>            # single task (overwrites _summary.json!)
-python3 scripts/aggregate_summary.py                              # merge all *_metrics.json -> _summary.json
-python3 scripts/summarize_results.py                              # writes README results section
-python3 scripts/eval_on_bricklink.py --tag parts_r18              # domain-shift eval
-python3 scripts/recognize.py --image <file> --tag parts_r18       # single-image inference
+python3 analyze_ceiling.py                                # how much exists per class (per-class dedupe!)
+python3 analyze_domains.py                                # domain coverage per class
+python3 report_dataset.py                                 # QA + contact sheets
+python3 extract_features.py --size 128 --chunk 1500       # resume-safe, reuses cached rows
+python3 train_heads.py --size 128                         # all tasks + metrics + previews
+python3 train_heads.py --size 128 --only <tag>            # single task (overwrites _summary.json!)
+python3 aggregate_summary.py                              # merge all *_metrics.json -> _summary.json
+python3 summarize_results.py                              # writes README results section
+python3 eval_on_bricklink.py --tag parts_r18              # domain-shift eval
+python3 recognize.py --image <file> --tag parts_r18       # single-image inference
+
+(alle Skripte liegen im Projektordner `scripts/`, nicht in diesem Repo)
 ```
 
 Measured throughput: **120–200 images/s** download (8 threads, keep-alive), **40–55 features/s**

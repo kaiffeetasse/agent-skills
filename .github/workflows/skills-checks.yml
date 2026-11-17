@@ -2,16 +2,26 @@ name: skill checks
 
 on:
   push:
-    paths:
-      - "skills/house/renovierung-gewerke-praxis/**"
   pull_request:
-    paths:
-      - "skills/house/renovierung-gewerke-praxis/**"
   schedule:
     - cron: "0 6 1 * *"      # monatlich: tote Links finden, auch ohne Commit
   workflow_dispatch:
 
 jobs:
+  # Repo-weit, Sekunden: Layout, Frontmatter, Verweise auf vorhandene Dateien.
+  # Läuft bei JEDEM Push — neue Skills und fehlende Beiblätter fallen so sofort auf.
+  meta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install --quiet pyyaml
+      - name: Struktur, Frontmatter, Referenzen (alle Skills)
+        run: python3 scripts/check-skills.py
+
   # Schnell: läuft bei jedem Push, antwortet in Sekunden.
   schnell:
     runs-on: ubuntu-latest
